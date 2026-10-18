@@ -1,0 +1,152 @@
+{
+  "query": "Who sang the national anthem at the 2002 super bowl?",
+  "trace_id": "b64ff97e-a7fc-4450-8572-bf8a39fa6875",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who sang the national anthem at the 2002 super bowl?",
+    "answer": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request, re\\nurl = 'https://en.wikipedia.org/wiki/Super_Bowl_XXXVI'\\ntry:\\n    data = urllib.request.urlopen(url, timeout=10).read().decode('utf-8', errors='ignore')\\n    m = re.search(r'national anthem.*?sung by.*?(?:<[^>]+>[^<]*?)*([^<]+)', data, re.IGNORECASE)\\n    print('match:', m.group(1) if m else 'none')\\n    # print snippet around anthem\\n    idx = data.lower().find('national anthem')\\n    if idx!=-1:\\n        print(data[idx:idx+500])\\nexcept Exception as e:\\n    print('error', e)\\n\\\"\\n\"}}<|end_message|>",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-17T00:11:41.877208"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 21.81100606918335,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-17T00:11:20.066297",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0091",
+    "query": "Who sang the national anthem at the 2002 super bowl?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Mariah Carey",
+    "required_facts": [
+      "Mariah Carey"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 115,
+      "answer_variants": [
+        "Mariah Carey"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 2,3,4,5,7 and 10",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Faith Hill performed the anthem at Super Bowl XXXIV in 2000. It became popular in country radio. Following the September 11 attacks, her version entered the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "americanfootball.fandom.com",
+          "text": "Performer list ; XXXVI, 2002, Superdome, New Orleans, Mariah Carey ASL performed by New Orleans Police Officer Joe Narcisse ; XXXVII, 2003, Qualcomm Stadium, San ...",
+          "supports_answers": [
+            "Mariah Carey"
+          ]
+        },
+        {
+          "source_domain": "www.betfirm.com",
+          "text": "List of National Anthem Performers Preceding the Super Bowl ; XXXVI, 2002, Mariah Carey ; XXXV, 2001, Backstreet Boys ; XXXIV, 2000, Faith Hill ; XXXIII, 1999, Cher.",
+          "supports_answers": [
+            "Mariah Carey"
+          ]
+        },
+        {
+          "source_domain": "people.com",
+          "text": "Feb 12, 2023 ... A History of Super Bowl National Anthem Singers ... with the occasional actor or singer sprinkled in. ... 2002: Mariah Carey. super bowl ...",
+          "supports_answers": [
+            "Mariah Carey"
+          ]
+        },
+        {
+          "source_domain": "www.rollingstone.com",
+          "text": "Feb 12, 2023 ... Mariah Carey (2002). Mariah Carey sings National Anthem. (Photo by Theo Wargo/Getty Images).",
+          "supports_answers": [
+            "Mariah Carey"
+          ]
+        },
+        {
+          "source_domain": "www.eonline.com",
+          "text": "Feb 12, 2023 ... Natalie Cole. In 1994, Natalie Cole appeared at Super Bowl XXVIII alongside the Atlanta University Center Chorus to sing the National Anthem.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "deadspin.com",
+          "text": "Feb 8, 2023 ... The Best - Mariah Carey - Super Bowl XXXVI (2002) ... Just a few months after 9/11, when the world still felt like it had turned upside down, ...",
+          "supports_answers": [
+            "Mariah Carey"
+          ]
+        },
+        {
+          "source_domain": "www.eonline.com",
+          "text": "Feb 12, 2023 ... In 2002, the \"We Belong Together\" singer performed the National Anthem at Super Bowl XXXVI in New Orleans. Dixie Chicks, 2003 Super Bowl, Anthem ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nbcbayarea.com",
+          "text": "Feb 3, 2023 ... Super Bowl XXVI: Harry Connick Jr. Super Bowl XXV: Whitney Houston, Florida Orchestra. Super Bowl XXIV: Aaron Neville. Super Bowl XXIII: Billy ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "societyofrock.com",
+          "text": "Here we found a clip of Mariah Carey singing the National Anthem at Super Bowl XXXVI where the New England Patriots defeated the St. Louis Rams.",
+          "supports_answers": [
+            "Mariah Carey"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 21.825,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

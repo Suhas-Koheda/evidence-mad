@@ -1,0 +1,134 @@
+{
+  "query": "Where does the spinal cord become cauda equina?",
+  "trace_id": "6fdc2c5e-a08c-4808-9d91-d485b1f3a46e",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Where does the spinal cord become cauda equina?",
+    "answer": "The spinal cord becomes the cauda equina at the level of the conus medullaris, typically around the L1-L2 vertebral level in adults.",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-16T21:00:30.045298"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 9.88184404373169,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-16T21:00:20.163561",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0009",
+    "query": "Where does the spinal cord become cauda equina?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "L1",
+    "required_facts": [
+      "L1"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 15,
+      "answer_variants": [
+        "L1"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 1and 2",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.ncbi.nlm.nih.gov",
+          "text": "The cauda equina is a group of nerves and nerve roots stemming from the distal end of the spinal cord, typically levels L1-L5 and contains axons of nerves ...",
+          "supports_answers": [
+            "L1"
+          ]
+        },
+        {
+          "source_domain": "www.physio-pedia.com",
+          "text": "The spinal cord ends around L1, consequently, the caudal nerve roots below the first lumbar root, form the cauda equina. The roots descend at an almost vertical ...",
+          "supports_answers": [
+            "L1"
+          ]
+        },
+        {
+          "source_domain": "emedicine.medscape.com",
+          "text": "Jun 13, 2018 ... The most distal bulbous part of the spinal cord is called the conus ... Cauda equina syndrome can be caused by primary or metastatic spinal ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.spine-health.com",
+          "text": "Terminal part of the spinal cord and cauda equina (nerve roots that descend from the ... The terminal tissues of the spinal cord in the lower back can get ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nhs.uk",
+          "text": "As you get older, the bones and tissues that make up the spine can become worn down, which can lead to a narrowing of the spinal column. Cauda equina syndrome.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "orthoinfo.aaos.org",
+          "text": "Cauda equina syndrome occurs when the nerve roots in the lumbar spine are ... is the bundle of nerve roots located at the lower end of the spinal cord.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.cedars-sinai.org",
+          "text": "The cauda equina is the sack of nerve roots (nerves that leave the spinal cord ... problems can occur, including permanent paralysis, not being able to ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "my.clevelandclinic.org",
+          "text": "Nov 22, 2021 ... The collection of nerve roots, shaped like a horse's tail, is located at the bottom of your spinal cord. Because of the cauda equina nerves, ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 9.897,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

@@ -1,0 +1,279 @@
+{
+  "query": "Who do you meet at the gates of heaven?",
+  "trace_id": "fd8da476-5b33-4beb-aae2-1503c98ba392",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who do you meet at the gates of heaven?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:11:08.347636"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who do you meet at the gates of heaven?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:11:08.349227"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "Who do you meet at the gates of heaven?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:11:18.300078"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who do you meet at the gates of heaven?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:11:18.300105"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who do you meet at the gates of heaven?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:11:18.300116"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who do you meet at the gates of heaven?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:11:53.369091"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who do you meet at the gates of heaven?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (No search results); web_agent (No search results); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "No search results"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "No search results"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:12:03.302676"
+  },
+  "metrics": {
+    "latency_seconds": 54.95680522918701,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T22:11:08.345876",
+  "completed_at": "2026-10-16T22:12:03.302738",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0058",
+    "query": "Who do you meet at the gates of heaven?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "People",
+    "required_facts": [
+      "People"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 73,
+      "answer_variants": [
+        "People",
+        "Saint Peter"
+      ],
+      "annotation_explanation": "The only context that relates specifically to the gate is context5, while context6 hints that Saint Peter is there, it does specify, also with the sources being equally trustable , the reference to People seems to be a first hand account, so it is likely the correct answer. Also People can contain both Saint Peter and whoever sends you to him (at the gate)",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "For other uses, see Pearly Gates (disambiguation). Pearly gates is an informal name for the gateway to Heaven according to some Christian ... You can help Wikipedia by expanding it.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.amazon.com",
+          "text": "Picking up where bestselling 90 Minutes in Heaven left off, Don Piper reveals for the first time the sacred, intimate details of the people who met him at ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.beliefnet.com",
+          "text": "Are there sufficient Bible verses to tell us who will be waiting for us at the gates of heaven? Can we know for sure who will see or recognize in heaven ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.amazon.com",
+          "text": "Picking up where bestselling 90 Minutes in Heaven left off, Don Piper reveals for the first time the sacred, intimate details of the people who met him at ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.shopguideposts.org",
+          "text": "Don's best-selling book about how he spent 90 minutes in heaven has riveted more than eight million readers. In People I Met at the Gates of Heaven, ...",
+          "supports_answers": [
+            "People"
+          ]
+        },
+        {
+          "source_domain": "letterpile.com",
+          "text": "Aug 5, 2013 ... When a soul enters Heaven, he/she is sent to Saint Peter. Saint Peter will look through the Book of Life and make sure that you are allowed. If ...",
+          "supports_answers": [
+            "Saint Peter"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 54.973,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

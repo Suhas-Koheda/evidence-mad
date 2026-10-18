@@ -1,0 +1,300 @@
+{
+  "query": "What kind of book is where's waldo?",
+  "trace_id": "c7a7aa7b-0171-4a7d-9daa-5555b75ac5dd",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "What kind of book is where's waldo?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:57:03.278120"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "What kind of book is where's waldo?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:57:03.279781"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "What kind of book is where's waldo?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:57:13.261317"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "What kind of book is where's waldo?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:57:13.261359"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "What kind of book is where's waldo?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:57:13.261378"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "What kind of book is where's waldo?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T21:57:48.292510"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "What kind of book is where's waldo?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T21:57:58.264214"
+  },
+  "metrics": {
+    "latency_seconds": 54.98766803741455,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_typed_strategy"
+  },
+  "started_at": "2026-10-16T21:57:03.276541",
+  "completed_at": "2026-10-16T21:57:58.264259",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0044",
+    "query": "What kind of book is where's waldo?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "puzzle book",
+    "required_facts": [
+      "puzzle book"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 57,
+      "answer_variants": [
+        "puzzle book"
+      ],
+      "annotation_explanation": "This was the most common answer I had to choose from.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Where's Wally is a British series of children's puzzle books created by English illustrator Martin Handford. The books consist of a series of detailed ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.amazon.com",
+          "text": "Where's Waldo? The Wow Collection: Six Amazing Books and a Puzzle [Handford, Martin, Handford, Martin] on Amazon.com. *FREE* shipping on qualifying offers.",
+          "supports_answers": [
+            "puzzle book"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Where's Wally?, published in the United States and Canada as Where's Waldo?, is the title of the first book in the Where's Wally? series, published in 1987.",
+          "supports_answers": [
+            "puzzle book"
+          ]
+        },
+        {
+          "source_domain": "arapahoelibraries.bibliocommons.com",
+          "text": "Where Are Books Like \"Where's Waldo\"? ; 1. Welcome to Mamoko ; 2. Mr. Postmouse's Rounds ; 3. Bigfoot Visits the Big Cities of the World ; 4. Super Slug of Doom ; 5.",
+          "supports_answers": [
+            "puzzle book"
+          ]
+        },
+        {
+          "source_domain": "www.barnesandnoble.com",
+          "text": "Results 1 - 20 of 34 ... Where's Waldo is a series of \"look and find\" books by Martin Handford where the main protagonist, Waldo, sets off on a \"world-wide\" hike.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.penguinrandomhouse.com",
+          "text": "Buy books online and find book series such as Where's Waldo? written by Martin Handford from PenguinRandomHouse.com.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.interabangbooks.com",
+          "text": "Starting in July, kids can take their Waldo stampcards to 22 participating local shops to collect Waldo sightings, leading up to our Where's Waldo Day party on ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.readbrightly.com",
+          "text": "... a librarian — they never made it out of the book drop before another child swooped in and snatched them up) and Where's Waldo? from your own childhood, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "shepherd.com",
+          "text": "10 books like Where's Waldo? The Wonder Book ; Stephen Biesty's Cross-Sections Castle. By Richard Platt, Stephen Biesty (illustrator) · Book cover of Stephen ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.target.com",
+          "text": "Save $5 on Books Purchase of $25 or more on select items. Add to cart. Spectacular Spotlight Search - (Where's Waldo?) by Martin Handford (Hardcover).",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_typed_strategy",
+  "evaluation_seconds": 55.001,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

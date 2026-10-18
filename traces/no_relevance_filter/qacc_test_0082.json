@@ -1,0 +1,317 @@
+{
+  "query": "What are the toll roads called in mexico?",
+  "trace_id": "a8b1742a-baab-4a6f-881f-7407803a8c3a",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "What are the toll roads called in mexico?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:35:08.410989"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "What are the toll roads called in mexico?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:35:08.412547"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "What are the toll roads called in mexico?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T22:35:18.859321"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "What are the toll roads called in mexico?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:35:18.860134"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "What are the toll roads called in mexico?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:35:18.860175"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "What are the toll roads called in mexico?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:35:18.860193"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "What are the toll roads called in mexico?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:35:53.438435"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "No search results"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "What are the toll roads called in mexico?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (No search results); web_agent (No search results); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (No search results).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "No search results"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "No search results"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "No search results"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:35:53.440656"
+  },
+  "metrics": {
+    "latency_seconds": 45.03125619888306,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.25,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T22:35:08.409392",
+  "completed_at": "2026-10-16T22:35:53.440734",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0082",
+    "query": "What are the toll roads called in mexico?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "Cuota",
+    "required_facts": [
+      "Cuota"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 105,
+      "answer_variants": [
+        "Cuota",
+        "highways"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 1,2 and 7",
+      "evidence_contexts": [
+        {
+          "source_domain": "tollguru.com",
+          "text": "Mexico has extensive toll roads, highways and other toll facilities across all its states except in Aguascalientes. The toll roads are called 'Cuota' while ...",
+          "supports_answers": [
+            "Cuota"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "This is a list of autopistas, or tolled (cuota) highways, in Mexico. Tolled roads are often ... Normally, Mexican federal highways that are on toll roads have the letter ...",
+          "supports_answers": [
+            "Cuota"
+          ]
+        },
+        {
+          "source_domain": "www.mexperience.com",
+          "text": "Aug 3, 2023 ... Most of Mexico's major tolled trunk roads are four-lane highways, except in very mountainous regions (or stretches of a mountainous route), ...",
+          "supports_answers": [
+            "highways"
+          ]
+        },
+        {
+          "source_domain": "wikitravel.org",
+          "text": "Using toll roads in Mexico can be expensive: the tolls range from about 25 to 150 Mexican pesos (approximately 2.50-15 American dollars) for passenger cars, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.mexperience.com",
+          "text": "Most of Mexico's major toll trunk roads are four-lane highways, except in very mountainous regions (or stretches of a mountainous route), where at times the ...",
+          "supports_answers": [
+            "highways"
+          ]
+        },
+        {
+          "source_domain": "www.sanborns.com",
+          "text": "Mexico toll roads are the safest way to get to your destination. They are well maintained and traffic flow is better. And CAPUFE does all it can to help keep ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "whatsupsancarlos.com",
+          "text": "You need to pay a fee (called a “cuota”). The fee can only be paid in Mexican pesos, so come prepared (US dollars and credit cards are not accepted). mexico ...",
+          "supports_answers": [
+            "Cuota"
+          ]
+        },
+        {
+          "source_domain": "www.bajabound.com",
+          "text": "Map Your Toll Road Route · Playas de Tijuana - $40 Pesos (appx U.S. $2.00) · Rosarito - $40 Pesos (appx U.S. $2.00) · Ensenada - $44 Pesos (appx U.S. $2.20) ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.discoverbaja.com",
+          "text": "Toll Roads · Playas de Tijuana ($38 pesos) · Rosarito ($38 pesos) · Ensenada/El Sauzal ($42 pesos) · Tecate ($80 pesos) · El Hongo ($82 pesos) · Esperanzas ($118 ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "highways.dot.gov",
+          "text": "In little more than 12 months, beginning in late 2004, the following events occurred: A Spanish toll road company proposed to invest $7.2 billion to build ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 45.047,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

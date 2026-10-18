@@ -1,0 +1,305 @@
+{
+  "query": "Who wrote the song oh lord won't you buy me a mercedes benz?",
+  "trace_id": "4d5a881d-e909-402a-b211-7daf8142c2b5",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who wrote the song oh lord won't you buy me a mercedes benz?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:19:28.368506"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who wrote the song oh lord won't you buy me a mercedes benz?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:19:28.370076"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Who wrote the song oh lord won't you buy me a mercedes benz?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:19:33.322925"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who wrote the song oh lord won't you buy me a mercedes benz?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:19:33.322965"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who wrote the song oh lord won't you buy me a mercedes benz?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:19:33.322986"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who wrote the song oh lord won't you buy me a mercedes benz?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:20:13.356583"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who wrote the song oh lord won't you buy me a mercedes benz?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:20:23.325600"
+  },
+  "metrics": {
+    "latency_seconds": 54.98636245727539,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "standard_mad"
+  },
+  "started_at": "2026-10-16T22:19:28.339229",
+  "completed_at": "2026-10-16T22:20:23.325643",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0067",
+    "query": "Who wrote the song oh lord won't you buy me a mercedes benz?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "Joplin",
+    "required_facts": [
+      "Joplin"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 86,
+      "answer_variants": [
+        "Joplin",
+        "Michael McClure's"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 1and 2 and 8",
+      "evidence_contexts": [
+        {
+          "source_domain": "performingsongwriter.com",
+          "text": "Jan 19, 2016 ... Mostly what they remembered was the first line: “Oh Lord, won't you buy me a Mercedes-Benz?” Joplin loved it and began singing along herself.",
+          "supports_answers": [
+            "Joplin"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The song was originally recorded by Joplin. ... A straightforward reading of the song lyrics indicate that the song is about the desire for possessions and ...",
+          "supports_answers": [
+            "Joplin"
+          ]
+        },
+        {
+          "source_domain": "genius.com",
+          "text": "Mercedes Benz Lyrics: I'd like to do a song of great social and political import / It goes like this / Oh Lord, won't you buy me a Mercedes Benz?",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "secondhandsongs.com",
+          "text": "(Oh Lord Won't You Buy Me a) Mercedes Benz by Goose Creek Symphony · Originals · Mercedes Benz · Adaptations · Versions · Web covers · SecondHandSongs · About · Get ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.wsj.com",
+          "text": "Jul 7, 2015 ... At some point, Janis sang out, “Oh Lord, won't you buy me a Mercedes Benz.” Earlier, in San Francisco, Janis had heard Michael McClure's song ...",
+          "supports_answers": [
+            "Michael McClure's"
+          ]
+        },
+        {
+          "source_domain": "songmeanings.com",
+          "text": "I'd like to do a song. Of great social and political import. It goes like this. Oh Lord, won't you buy me a Mercedes Benz? My friends all drive Porsches, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.songfacts.com",
+          "text": "Joplin started reciting the line, \"Oh, Lord won't you buy me a Mercedes Benz\" - the first line of McClure's song. The four started banging beer mugs on the ...",
+          "supports_answers": [
+            "Michael McClure's"
+          ]
+        },
+        {
+          "source_domain": "christianminimalism.com",
+          "text": "Sep 28, 2020 ... So oh Lord, won't you buy me a Mercedes Benz? Obviously a tongue-in-cheek song, I always kind of giggled at it. It seemed absurd, Joplin asking ...",
+          "supports_answers": [
+            "Joplin"
+          ]
+        },
+        {
+          "source_domain": "www.songfacts.com",
+          "text": "Janis Joplin is the best female artist (voice IS NOT everything). Jon from Oakridge, OrThough I like Joe Cocker's version, that song belongs to The Beatles.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.azlyrics.com",
+          "text": "Janis Joplin \"Mercedes Benz\": Oh Lord, won't you buy me a Mercedes Benz? My friends all drive Porsches, I must make amends Worked...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "standard_mad",
+  "evaluation_seconds": 55.001,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

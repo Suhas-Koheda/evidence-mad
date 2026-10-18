@@ -1,0 +1,155 @@
+{
+  "query": "Who does the voice of amy on futurama?",
+  "trace_id": "8ef3c768-2a02-462e-84d2-564045ce6ccb",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who does the voice of amy on futurama?",
+    "answer": "Tress MacNeelle",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-16T21:31:47.624213"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 12.495224952697754,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-16T21:31:35.129084",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0026",
+    "query": "Who does the voice of amy on futurama?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "Lauren Tom",
+    "required_facts": [
+      "Lauren Tom"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 35,
+      "answer_variants": [
+        "Lauren Tom",
+        "Lauren"
+      ],
+      "annotation_explanation": "I believe that the correct answer is Lauren Tom it. is directly given as the answer in multiple contexts from reliable sources. The other possible answer, Lauren is a Reference to Lauren Tom as given in the other context, making it the correct answer.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.slashfilm.com",
+          "text": "Jul 31, 2022 ... Lauren Tom, the voice of Amy Wong on \"Futurama,\" is one such performance. No space travel show is complete without an engineer character, ...",
+          "supports_answers": [
+            "Lauren Tom"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The Joy Luck Club, Julie in the NBC sitcom ; Friends, Dot in the final season of ; Grace Under Fire, and the voices for Amy Wong in ; Futurama, Dana Tan in ; Batman ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.imdb.com",
+          "text": "Tran on Supernatural. Lauren also lent her voice talents on the animated series Futurama as the much loved character of Amy.",
+          "supports_answers": [
+            "Lauren"
+          ]
+        },
+        {
+          "source_domain": "futurama.fandom.com",
+          "text": "Lauren Tom (born Lauren Chan, August 4, 1961) is one of the most prominent Asian voice actors (Lauren Tom is Chinese) in American voice-acting.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.behindthevoiceactors.com",
+          "text": "Lauren Tom is the voice of Amy Wong in Futurama. TV Show: Futurama Franchise: Futurama. Incarnations. View all 6 versions of Amy Wong on BTVA.",
+          "supports_answers": [
+            "Lauren Tom"
+          ]
+        },
+        {
+          "source_domain": "www.syfy.com",
+          "text": "Jul 25, 2023 ... Actress Lauren Tom is the voice behind so many beloved animation characters from Amy Wong on Futurama to Dana on Batman Beyond.",
+          "supports_answers": [
+            "Lauren Tom"
+          ]
+        },
+        {
+          "source_domain": "screenrant.com",
+          "text": "Jul 31, 2023 ... Lauren Tom As Amy Wong ... Lauren Tom's Futurama cast character is Amy Wong. Amy is a somewhat klutzy and naive intern working at Planet Express.",
+          "supports_answers": [
+            "Lauren Tom"
+          ]
+        },
+        {
+          "source_domain": "www.voquent.com",
+          "text": "Lauren Tom (Amy Wong) ... Amy comes from a Martian billionaire family that own half of Mars. She is an assistant to The Professor, as an intern. Amy is ...",
+          "supports_answers": [
+            "Lauren Tom"
+          ]
+        },
+        {
+          "source_domain": "www.giantfreakinrobot.com",
+          "text": "Aug 3, 2023 ... Leo Wong is the father of main character Amy Wong, voiced in the series by Lauren ...",
+          "supports_answers": [
+            "Lauren"
+          ]
+        },
+        {
+          "source_domain": "www.looper.com",
+          "text": "Dec 9, 2020 ... In a video interview retrospective with People Magazine, cast member Lauren Tom, who played Planet Express intern and applied physics Ph.D. Amy ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 12.51,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

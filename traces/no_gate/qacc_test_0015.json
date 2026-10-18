@@ -1,0 +1,1337 @@
+{
+  "query": "Who hung the lanterns in the old north church?",
+  "trace_id": "d392e643-aec1-44ca-a402-ef2afc4bfd0b",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who hung the lanterns in the old north church?",
+          "answer": "Based on 5 sources:\n- History & Education - OLD NORTH CHURCH: Old North Church Lit the Spark of the American Revolution Old North Church is world-famous for the extraordinary events of April 18, 1775\n- That night, the church's sexton, Robert Newman, and a vestryman, Captain John Pulling, Jr\n- , broke Boston's military curfew and secretly climbed Old North's steeple to display two lanterns\n- Old North Church - American Battlefield Trust: In the same belltower hung two bells, both cast in 1744\n- In 1749 or 1750, a fifteen-year-old Paul Revere helped found the guild of bellringers and signed a contract to ring the bells at Christ Church",
+          "claims": [
+            {
+              "id": "b928437d",
+              "text": "History & Education - OLD NORTH CHURCH: Old North Church Lit the Spark of the American Revolution Old North Church is world-famous for the extraordinary events of April 18, 1775",
+              "source": {
+                "url": "https://oldnorth.com/history-education/",
+                "title": "History & Education - OLD NORTH CHURCH",
+                "snippet": "Old North Church Lit the Spark of the American Revolution Old North Church is world-famous for the extraordinary events of April 18, 1775. That night, the church's sexton, Robert Newman, and a vestryman, Captain John Pulling, Jr., broke Boston's military curfew and secretly climbed Old North's steeple to display two lanterns.",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.776024",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2dabb68d",
+              "text": "That night, the church's sexton, Robert Newman, and a vestryman, Captain John Pulling, Jr",
+              "source": {
+                "url": "https://www.battlefields.org/learn/articles/old-north-church",
+                "title": "Old North Church - American Battlefield Trust",
+                "snippet": "In the same belltower hung two bells, both cast in 1744. In 1749 or 1750, a fifteen-year-old Paul Revere helped found the guild of bellringers and signed a contract to ring the bells at Christ Church. Fifteen years later, he needed those same bells to remain quiet as his compatriots briefly hung the lanterns.",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.776051",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "df45f050",
+              "text": ", broke Boston's military curfew and secretly climbed Old North's steeple to display two lanterns",
+              "source": {
+                "url": "https://www.bostonmagazine.com/news/2017/07/04/who-hung-lanterns-old-north-church/",
+                "title": "Who Actually Hung the Lanterns in Old North Church?",
+                "snippet": "A reader asks about who really hung the lanterns in Old North Church—you know, as the story goes: \"One, if by land, and two, if by sea…\"",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.776065",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b32a1056",
+              "text": "Old North Church - American Battlefield Trust: In the same belltower hung two bells, both cast in 1744",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Robert_Newman_(sexton)",
+                "title": "Robert Newman (sexton) - Wikipedia",
+                "snippet": "Robert Newman (March 20, 1752 - May 26, 1804) was an American sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple on April 18, 1775, part of a warning signal [1][2][3] leading up to Paul Revere 's and William Dawes ' midnight rides, on the eve of the Battles of Lexington and Concord ...",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.776078",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0dc2c9ee",
+              "text": "In 1749 or 1750, a fifteen-year-old Paul Revere helped found the guild of bellringers and signed a contract to ring the bells at Christ Church",
+              "source": {
+                "url": "https://www.nps.gov/bost/learn/historyculture/onc.htm",
+                "title": "Old North Church - U.S. National Park Service",
+                "snippet": "About Old North Church On the evening of April 18, 1775, Robert Newman and John Pulling quietly entered Old North and carefully climbed to the top of the church's bell tower. They briefly hung two lanterns near the windows and made their escape. This signal, from the tallest structure in the town of Boston, served as an early warning that a detachment of the British Army was crossing the ...",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.776091",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "41702810",
+              "text": "Fifteen years later, he needed those same bells to remain quiet as his compatriots briefly hung the lanterns",
+              "source": {
+                "url": "https://oldnorth.com/history-education/",
+                "title": "History & Education - OLD NORTH CHURCH",
+                "snippet": "Old North Church Lit the Spark of the American Revolution Old North Church is world-famous for the extraordinary events of April 18, 1775. That night, the church's sexton, Robert Newman, and a vestryman, Captain John Pulling, Jr., broke Boston's military curfew and secretly climbed Old North's steeple to display two lanterns.",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.776024",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e5617a3d",
+              "text": "Who Actually Hung the Lanterns in Old North Church",
+              "source": {
+                "url": "https://www.battlefields.org/learn/articles/old-north-church",
+                "title": "Old North Church - American Battlefield Trust",
+                "snippet": "In the same belltower hung two bells, both cast in 1744. In 1749 or 1750, a fifteen-year-old Paul Revere helped found the guild of bellringers and signed a contract to ring the bells at Christ Church. Fifteen years later, he needed those same bells to remain quiet as his compatriots briefly hung the lanterns.",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.776051",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "fb7a0ed2",
+              "text": ": A reader asks about who really hung the lanterns in Old North Church—you know, as the story goes: \"One, if by land, and two, if by sea…\"\n\nRobert Newman (sexton) - Wikipedia: Robert Newman (March 20, 1752 - May 26, 1804) was an American sexton at Old North Church in Boston, Massachusetts",
+              "source": {
+                "url": "https://www.bostonmagazine.com/news/2017/07/04/who-hung-lanterns-old-north-church/",
+                "title": "Who Actually Hung the Lanterns in Old North Church?",
+                "snippet": "A reader asks about who really hung the lanterns in Old North Church—you know, as the story goes: \"One, if by land, and two, if by sea…\"",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.776065",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8dd39ea5",
+              "text": "He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple on April 18, 1775, part of a warning signal [1][2][3] leading up to Paul Revere 's and William Dawes ' midnight rides, on the eve of the Battles of Lexington and Concord",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Robert_Newman_(sexton)",
+                "title": "Robert Newman (sexton) - Wikipedia",
+                "snippet": "Robert Newman (March 20, 1752 - May 26, 1804) was an American sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple on April 18, 1775, part of a warning signal [1][2][3] leading up to Paul Revere 's and William Dawes ' midnight rides, on the eve of the Battles of Lexington and Concord ...",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.776078",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "bbdbc3b1",
+              "text": "National Park Service: About Old North Church On the evening of April 18, 1775, Robert Newman and John Pulling quietly entered Old North and carefully climbed to the top of the church's bell tower",
+              "source": {
+                "url": "https://www.battlefields.org/learn/articles/old-north-church",
+                "title": "Old North Church - American Battlefield Trust",
+                "snippet": "In the same belltower hung two bells, both cast in 1744. In 1749 or 1750, a fifteen-year-old Paul Revere helped found the guild of bellringers and signed a contract to ring the bells at Christ Church. Fifteen years later, he needed those same bells to remain quiet as his compatriots briefly hung the lanterns.",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.776051",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://oldnorth.com/history-education/",
+              "title": "History & Education - OLD NORTH CHURCH",
+              "snippet": "Old North Church Lit the Spark of the American Revolution Old North Church is world-famous for the extraordinary events of April 18, 1775. That night, the church's sexton, Robert Newman, and a vestryman, Captain John Pulling, Jr., broke Boston's military curfew and secretly climbed Old North's steeple to display two lanterns.",
+              "metadata": {
+                "search_query": "Who hung the lanterns in the old north church?"
+              },
+              "retrieved_at": "2026-10-16T21:12:52.776024",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.battlefields.org/learn/articles/old-north-church",
+              "title": "Old North Church - American Battlefield Trust",
+              "snippet": "In the same belltower hung two bells, both cast in 1744. In 1749 or 1750, a fifteen-year-old Paul Revere helped found the guild of bellringers and signed a contract to ring the bells at Christ Church. Fifteen years later, he needed those same bells to remain quiet as his compatriots briefly hung the lanterns.",
+              "metadata": {
+                "search_query": "Who hung the lanterns in the old north church?"
+              },
+              "retrieved_at": "2026-10-16T21:12:52.776051",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.bostonmagazine.com/news/2017/07/04/who-hung-lanterns-old-north-church/",
+              "title": "Who Actually Hung the Lanterns in Old North Church?",
+              "snippet": "A reader asks about who really hung the lanterns in Old North Church—you know, as the story goes: \"One, if by land, and two, if by sea…\"",
+              "metadata": {
+                "search_query": "Who hung the lanterns in the old north church?"
+              },
+              "retrieved_at": "2026-10-16T21:12:52.776065",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Robert_Newman_(sexton)",
+              "title": "Robert Newman (sexton) - Wikipedia",
+              "snippet": "Robert Newman (March 20, 1752 - May 26, 1804) was an American sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple on April 18, 1775, part of a warning signal [1][2][3] leading up to Paul Revere 's and William Dawes ' midnight rides, on the eve of the Battles of Lexington and Concord ...",
+              "metadata": {
+                "search_query": "Who hung the lanterns in the old north church?"
+              },
+              "retrieved_at": "2026-10-16T21:12:52.776078",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.nps.gov/bost/learn/historyculture/onc.htm",
+              "title": "Old North Church - U.S. National Park Service",
+              "snippet": "About Old North Church On the evening of April 18, 1775, Robert Newman and John Pulling quietly entered Old North and carefully climbed to the top of the church's bell tower. They briefly hung two lanterns near the windows and made their escape. This signal, from the tallest structure in the town of Boston, served as an early warning that a detachment of the British Army was crossing the ...",
+              "metadata": {
+                "search_query": "Who hung the lanterns in the old north church?"
+              },
+              "retrieved_at": "2026-10-16T21:12:52.776091",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "History & Education - OLD NORTH CHURCH: Old North Church Lit the Spark of the American Revolution Old North Church is world-famous for the extraordinary events of April 18, 1775. That night, the church's sexton, Robert Newman, and a vestryman, Captain John Pulling, Jr., broke Boston's military curfew and secretly climbed Old North's steeple to display two lanterns.\n\nOld North Church - American Battlefield Trust: In the same belltower hung two bells, both cast in 1744. In 1749 or 1750, a fifteen-year-old Paul Revere helped found the guild of bellringers and signed a contract to ring the bells at Christ Church. Fifteen years later, he needed those same bells to remain quiet as his compatriots briefly hung the lanterns.\n\nWho Actually Hung the Lanterns in Old North Church?: A reader asks about who really hung the lanterns in Old North Church—you know, as the story goes: \"One, if by land, and two, if by sea…\"\n\nRobert Newman (sexton) - Wikipedia: Robert Newman (March 20, 1752 - May 26, 1804) was an American sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple on April 18, 1775, part of a warning signal [1][2][3] leading up to Paul Revere 's and William Dawes ' midnight rides, on the eve of the Battles of Lexington and Concord ...\n\nOld North Church - U.S. National Park Service: About Old North Church On the evening of April 18, 1775, Robert Newman and John Pulling quietly entered Old North and carefully climbed to the top of the church's bell tower. They briefly hung two lanterns near the windows and made their escape. This signal, from the tallest structure in the town of Boston, served as an early warning that a detachment of the British Army was crossing the ...",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:12:52.776563"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who hung the lanterns in the old north church?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:12:52.777665"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who hung the lanterns in the old north church?",
+          "answer": "Based on 5 sources:\n- Old North Church: ProQuest 509574573\n- Baker, Matthew Reed (July 4, 2017)\n- \"Who Actually Hung the Lanterns in Old North Church\n- Retrieved March 20, 2026\n- Richardson\n\nRobert Newman (sexton): sexton at Old North Church in Boston, Massachusetts",
+          "claims": [
+            {
+              "id": "7a8f62aa",
+              "text": "Old North Church: ProQuest 509574573",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=667505",
+                "title": "Old North Church",
+                "snippet": "ProQuest 509574573. Baker, Matthew Reed (July 4, 2017). \"Who Actually Hung the Lanterns in Old North Church?\". Boston Magazine. Retrieved March 20, 2026. Richardson",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.777132",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "dc7c7730",
+              "text": "Baker, Matthew Reed (July 4, 2017)",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=32037242",
+                "title": "Robert Newman (sexton)",
+                "snippet": "sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.777151",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8ddbcaaa",
+              "text": "\"Who Actually Hung the Lanterns in Old North Church",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=60339459",
+                "title": "John Pulling",
+                "snippet": "Newman hung two lanterns from the steeple of the church for just under a minute, just long enough for the militia in Charlestown to receive the signal",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.777159",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "96388ef1",
+              "text": "Retrieved March 20, 2026",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=667505",
+                "title": "Old North Church",
+                "snippet": "ProQuest 509574573. Baker, Matthew Reed (July 4, 2017). \"Who Actually Hung the Lanterns in Old North Church?\". Boston Magazine. Retrieved March 20, 2026. Richardson",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.777132",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d1885d09",
+              "text": "Richardson\n\nRobert Newman (sexton): sexton at Old North Church in Boston, Massachusetts",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=32037242",
+                "title": "Robert Newman (sexton)",
+                "snippet": "sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.777151",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b4a2cfbb",
+              "text": "He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple\n\nJohn Pulling: Newman hung two lanterns from the steeple of the church for just under a minute, just long enough for the militia in Charlestown to receive the signal\n\nOld South Church: Old South Church (also known as New Old South Church or Third Church), is a historic United Church of Christ congregation in Boston, Massachusetts, first\n\nSt",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=60339459",
+                "title": "John Pulling",
+                "snippet": "Newman hung two lanterns from the steeple of the church for just under a minute, just long enough for the militia in Charlestown to receive the signal",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.777159",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b83fa873",
+              "text": "Martin's Day: paper lanterns or turnip lanterns and singing songs of St Martin",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=2302341",
+                "title": "Old South Church",
+                "snippet": "Old South Church (also known as New Old South Church or Third Church), is a historic United Church of Christ congregation in Boston, Massachusetts, first",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.777167",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "044c95d6",
+              "text": "These processions are known in German as Laternelaufen",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=2934451",
+                "title": "St. Martin's Day",
+                "snippet": "paper lanterns or turnip lanterns and singing songs of St Martin. These processions are known in German as Laternelaufen. In parts of Flanders and the Rhineland",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.777174",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "13809f23",
+              "text": "In parts of Flanders and the Rhineland",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=667505",
+                "title": "Old North Church",
+                "snippet": "ProQuest 509574573. Baker, Matthew Reed (July 4, 2017). \"Who Actually Hung the Lanterns in Old North Church?\". Boston Magazine. Retrieved March 20, 2026. Richardson",
+                "metadata": {
+                  "search_query": "Who hung the lanterns in the old north church?"
+                },
+                "retrieved_at": "2026-10-16T21:12:52.777132",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=667505",
+              "title": "Old North Church",
+              "snippet": "ProQuest 509574573. Baker, Matthew Reed (July 4, 2017). \"Who Actually Hung the Lanterns in Old North Church?\". Boston Magazine. Retrieved March 20, 2026. Richardson",
+              "metadata": {
+                "search_query": "Who hung the lanterns in the old north church?"
+              },
+              "retrieved_at": "2026-10-16T21:12:52.777132",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=32037242",
+              "title": "Robert Newman (sexton)",
+              "snippet": "sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple",
+              "metadata": {
+                "search_query": "Who hung the lanterns in the old north church?"
+              },
+              "retrieved_at": "2026-10-16T21:12:52.777151",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=60339459",
+              "title": "John Pulling",
+              "snippet": "Newman hung two lanterns from the steeple of the church for just under a minute, just long enough for the militia in Charlestown to receive the signal",
+              "metadata": {
+                "search_query": "Who hung the lanterns in the old north church?"
+              },
+              "retrieved_at": "2026-10-16T21:12:52.777159",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=2302341",
+              "title": "Old South Church",
+              "snippet": "Old South Church (also known as New Old South Church or Third Church), is a historic United Church of Christ congregation in Boston, Massachusetts, first",
+              "metadata": {
+                "search_query": "Who hung the lanterns in the old north church?"
+              },
+              "retrieved_at": "2026-10-16T21:12:52.777167",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=2934451",
+              "title": "St. Martin's Day",
+              "snippet": "paper lanterns or turnip lanterns and singing songs of St Martin. These processions are known in German as Laternelaufen. In parts of Flanders and the Rhineland",
+              "metadata": {
+                "search_query": "Who hung the lanterns in the old north church?"
+              },
+              "retrieved_at": "2026-10-16T21:12:52.777174",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Old North Church: ProQuest 509574573. Baker, Matthew Reed (July 4, 2017). \"Who Actually Hung the Lanterns in Old North Church?\". Boston Magazine. Retrieved March 20, 2026. Richardson\n\nRobert Newman (sexton): sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple\n\nJohn Pulling: Newman hung two lanterns from the steeple of the church for just under a minute, just long enough for the militia in Charlestown to receive the signal\n\nOld South Church: Old South Church (also known as New Old South Church or Third Church), is a historic United Church of Christ congregation in Boston, Massachusetts, first\n\nSt. Martin's Day: paper lanterns or turnip lanterns and singing songs of St Martin. These processions are known in German as Laternelaufen. In parts of Flanders and the Rhineland",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:12:52.778183"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "Who hung the lanterns in the old north church?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Robert Newman and John Pulling hung the lanterns in the old north church.",
+          "source": {
+            "url": "https://oldnorth.com/history-education/",
+            "title": "History & Education - OLD NORTH CHURCH",
+            "snippet": "Old North Church Lit the Spark of the American Revolution Old North Church is world-famous for the extraordinary events of April 18, 1775. That night, the church's sexton, Robert Newman, and a vestryman, Captain John Pulling, Jr., broke Boston's military curfew and secretly climbed Old North's steeple to display two lanterns.",
+            "metadata": {
+              "search_query": "Who hung the lanterns in the old north church?"
+            },
+            "retrieved_at": "2026-10-16T21:12:52.779086",
+            "credibility_score": null
+          },
+          "date": "1775",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://oldnorth.com/history-education/",
+          "title": "History & Education - OLD NORTH CHURCH",
+          "snippet": "Old North Church Lit the Spark of the American Revolution Old North Church is world-famous for the extraordinary events of April 18, 1775. That night, the church's sexton, Robert Newman, and a vestryman, Captain John Pulling, Jr., broke Boston's military curfew and secretly climbed Old North's steeple to display two lanterns.",
+          "metadata": {
+            "search_query": "Who hung the lanterns in the old north church?"
+          },
+          "retrieved_at": "2026-10-16T21:12:52.779086",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.battlefields.org/learn/articles/old-north-church",
+          "title": "Old North Church - American Battlefield Trust",
+          "snippet": "In the same belltower hung two bells, both cast in 1744. In 1749 or 1750, a fifteen-year-old Paul Revere helped found the guild of bellringers and signed a contract to ring the bells at Christ Church. Fifteen years later, he needed those same bells to remain quiet as his compatriots briefly hung the lanterns.",
+          "metadata": {
+            "search_query": "Who hung the lanterns in the old north church?"
+          },
+          "retrieved_at": "2026-10-16T21:12:52.779105",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.bostonmagazine.com/news/2017/07/04/who-hung-lanterns-old-north-church/",
+          "title": "Who Actually Hung the Lanterns in Old North Church?",
+          "snippet": "A reader asks about who really hung the lanterns in Old North Church—you know, as the story goes: \"One, if by land, and two, if by sea…\"",
+          "metadata": {
+            "search_query": "Who hung the lanterns in the old north church?"
+          },
+          "retrieved_at": "2026-10-16T21:12:52.779112",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Robert_Newman_(sexton)",
+          "title": "Robert Newman (sexton) - Wikipedia",
+          "snippet": "Robert Newman (March 20, 1752 - May 26, 1804) was an American sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple on April 18, 1775, part of a warning signal [1][2][3] leading up to Paul Revere 's and William Dawes ' midnight rides, on the eve of the Battles of Lexington and Concord ...",
+          "metadata": {
+            "search_query": "Who hung the lanterns in the old north church?"
+          },
+          "retrieved_at": "2026-10-16T21:12:52.779118",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.nps.gov/bost/learn/historyculture/onc.htm",
+          "title": "Old North Church - U.S. National Park Service",
+          "snippet": "About Old North Church On the evening of April 18, 1775, Robert Newman and John Pulling quietly entered Old North and carefully climbed to the top of the church's bell tower. They briefly hung two lanterns near the windows and made their escape. This signal, from the tallest structure in the town of Boston, served as an early warning that a detachment of the British Army was crossing the ...",
+          "metadata": {
+            "search_query": "Who hung the lanterns in the old north church?"
+          },
+          "retrieved_at": "2026-10-16T21:12:52.779123",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:13:13.247885"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who hung the lanterns in the old north church?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:13:13.247926"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who hung the lanterns in the old north church?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Robert Newman, the sexton at Old North Church, hung the lanterns.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=32037242",
+            "title": "Robert Newman (sexton)",
+            "snippet": "sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple",
+            "metadata": {
+              "search_query": "Who hung the lanterns in the old north church?"
+            },
+            "retrieved_at": "2026-10-16T21:13:13.248180",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=667505",
+          "title": "Old North Church",
+          "snippet": "ProQuest 509574573. Baker, Matthew Reed (July 4, 2017). \"Who Actually Hung the Lanterns in Old North Church?\". Boston Magazine. Retrieved March 20, 2026. Richardson",
+          "metadata": {
+            "search_query": "Who hung the lanterns in the old north church?"
+          },
+          "retrieved_at": "2026-10-16T21:13:13.248169",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=32037242",
+          "title": "Robert Newman (sexton)",
+          "snippet": "sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple",
+          "metadata": {
+            "search_query": "Who hung the lanterns in the old north church?"
+          },
+          "retrieved_at": "2026-10-16T21:13:13.248180",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=60339459",
+          "title": "John Pulling",
+          "snippet": "Newman hung two lanterns from the steeple of the church for just under a minute, just long enough for the militia in Charlestown to receive the signal",
+          "metadata": {
+            "search_query": "Who hung the lanterns in the old north church?"
+          },
+          "retrieved_at": "2026-10-16T21:13:13.248187",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=2302341",
+          "title": "Old South Church",
+          "snippet": "Old South Church (also known as New Old South Church or Third Church), is a historic United Church of Christ congregation in Boston, Massachusetts, first",
+          "metadata": {
+            "search_query": "Who hung the lanterns in the old north church?"
+          },
+          "retrieved_at": "2026-10-16T21:13:13.248197",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=2934451",
+          "title": "St. Martin's Day",
+          "snippet": "paper lanterns or turnip lanterns and singing songs of St Martin. These processions are known in German as Laternelaufen. In parts of Flanders and the Rhineland",
+          "metadata": {
+            "search_query": "Who hung the lanterns in the old north church?"
+          },
+          "retrieved_at": "2026-10-16T21:13:13.248204",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:13:24.263426"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who hung the lanterns in the old north church?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The actual physical act of hanging the lanterns in the old north church was performed by Robert Newman, the churchwarden of the Old North Church, and his son-in-law Colonel John Pulling. This was done as the signal for Paul Revere and William Dawes' midnight ride on April 18, 1775.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "The actual physical act of hanging the lanterns in the old north church was performed by Robert Newman, the churchwarden of the Old North Church, and his son-in-law Colonel John Pulling. This was done",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:13:22.466918",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The actual physical act of hanging the lanterns in the old north church was performed by Robert Newman, the churchwarden of the Old North Church, and his son-in-law Colonel John Pulling. This was done",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:13:22.466918",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "The actual physical act of hanging the lanterns in the old north church was performed by Robert Newman, the churchwarden of the Old North Church, and his son-in-law Colonel John Pulling. This was done as the signal for Paul Revere and William Dawes' midnight ride on April 18, 1775."
+      },
+      "retrieved_at": "2026-10-16T21:13:22.466987"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "disagreement",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent",
+        "claim_a_text": "Robert Newman and John Pulling hung the lanterns in the old north church.",
+        "claim_b_text": "Robert Newman, the sexton at Old North Church, hung the lanterns.",
+        "label": "neutral",
+        "contradiction_score": 0.09777656197547913,
+        "entailment_score": 0.008977485820651054,
+        "neutral_score": 0.9789279699325562
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Robert Newman and John Pulling hung the lanterns in the old north church.",
+        "claim_b_text": "The actual physical act of hanging the lanterns in the old north church was performed by Robert Newman, the churchwarden of the Old North Church, and his son-in-law Colonel John Pulling. This was done as the signal for Paul Revere and William Dawes' midnight ride on April 18, 1775.",
+        "label": "neutral",
+        "contradiction_score": 0.006653725169599056,
+        "entailment_score": 0.056359659880399704,
+        "neutral_score": 0.9369866251945496
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Robert Newman, the sexton at Old North Church, hung the lanterns.",
+        "claim_b_text": "The actual physical act of hanging the lanterns in the old north church was performed by Robert Newman, the churchwarden of the Old North Church, and his son-in-law Colonel John Pulling. This was done as the signal for Paul Revere and William Dawes' midnight ride on April 18, 1775.",
+        "label": "contradiction",
+        "contradiction_score": 0.9113065600395203,
+        "entailment_score": 0.0635296180844307,
+        "neutral_score": 0.7926097512245178
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "reference_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "Robert Newman, the sexton at Old North Church, hung the lanterns.",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=32037242",
+          "title": "Robert Newman (sexton)",
+          "snippet": "sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple",
+          "metadata": {
+            "search_query": "Who hung the lanterns in the old north church?"
+          },
+          "retrieved_at": "2026-10-16T21:13:13.248180",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The actual physical act of hanging the lanterns in the old north church was performed by Robert Newman, the churchwarden of the Old North Church, and his son-in-law Colonel John Pulling. This was done as the signal for Paul Revere and William Dawes' midnight ride on April 18, 1775.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The actual physical act of hanging the lanterns in the old north church was performed by Robert Newman, the churchwarden of the Old North Church, and his son-in-law Colonel John Pulling. This was done",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:13:22.466918",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.9113065600395203
+    },
+    "rationale": "At least one pair exceeded contradiction threshold (0.7): score=0.911"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": true,
+  "contradiction_score": 0.9113065600395203,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "1b4cbbe8",
+    "type": "factual",
+    "confidence": 1.0,
+    "explanation": "The claims make directly contradictory factual statements about who performed the same historical event. Claim A states it was done solely by Robert Newman (as sexton), while Claim B states it was done by Robert Newman and Colonel John Pulling (two people). This is a conflict about the basic facts of who hung the lanterns, not about time, version, context, or source authority.",
+    "claim_a": {
+      "text": "Robert Newman, the sexton at Old North Church, hung the lanterns.",
+      "source": {
+        "url": "https://en.wikipedia.org/?curid=32037242",
+        "title": "Robert Newman (sexton)",
+        "snippet": "sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple",
+        "metadata": {
+          "search_query": "Who hung the lanterns in the old north church?"
+        },
+        "retrieved_at": "2026-10-16T21:13:13.248180",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "The actual physical act of hanging the lanterns in the old north church was performed by Robert Newman, the churchwarden of the Old North Church, and his son-in-law Colonel John Pulling. This was done as the signal for Paul Revere and William Dawes' midnight ride on April 18, 1775.",
+      "source": {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The actual physical act of hanging the lanterns in the old north church was performed by Robert Newman, the churchwarden of the Old North Church, and his son-in-law Colonel John Pulling. This was done",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:13:22.466918",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "classification_status": "llm_success",
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "ai_answer_agent"
+    },
+    "detected_at": "2026-10-16T21:13:42.231087"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": {
+        "id": "0d873894",
+        "round_number": 1,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nThe act of hanging the lanterns in the Old North Church was performed by both Robert Newman and Colonel John Pulling, making Claim B the more accurate representation.\n\nEVIDENCE REVIEW\nClaim A: States Robert Newman, described as the sexton, hung the lanterns alone, implying sole responsibility for this act.\n\nClaim B: States Robert Newman (as churchwarden) and his son-in-law Colonel John Pulling jointly hung the lanterns, suggesting collaborative effort.\n\nREASONING\nThe core factual dispute centers on whether one or two people performed the lantern-hanging. Claim B's mention of both Robert Newman and Colonel John Pulling provides a more detailed account that better aligns with historical complexity. The collaborative nature described in Claim B is more plausible for an organized signal operation, while the solitary act in Claim A seems less consistent with the methodical preparation for Paul Revere and William Dawes' coordinated midnight ride. The additional detail in Claim B provides a more complete picture of how such an important signal would have been properly arranged.\n\nSOURCE BASIS\nThe sources referenced are the claims themselves: Claim A mentions Robert Newman as sexton; Claim B mentions Robert Newman as churchwarden and Colonel John Pulling as his son-in-law.\n\nCONCLUSION\nBoth Robert Newman and Colonel John Pulling hung the lanterns, working together to create the famous signal.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "factual",
+        "strategy_used": "factual",
+        "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+        "created_at": "2026-10-16T21:14:02.566659"
+      },
+      "critic_arguments": [
+        {
+          "id": "a9501398",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nClaim B lacks primary source documentation confirming the joint participation of Robert Newman and Colonel John Pulling\nWHY IT MATTERS\nWithout direct historical evidence from the period, the claim remains based on secondary accounts that may have incorporated later folklore\nIMPROVEMENT\nSource the claim by locating primary documents, such as church records, personal letters, or contemporary newspaper accounts from April 1775, that explicitly mention both individuals participating in the lantern-hanging",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "critique_no_objection",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:14:26.529249"
+        },
+        {
+          "id": "77367a3b",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nThe assertion that Colonel John Pulling was Robert Newman's son-in-law is not substantiated in primary historical sources\nWHY IT MATTERS\nThis familial relationship adds credibility to the collaborative claim, but without evidence of this connection, the joint participation narrative appears less substantiated\nIMPROVEMENT\nResearch genealogical records or probate documents from the era to either confirm or deny the son-in-law relationship between Robert Newman and Colonel John Pulling",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:14:26.529290"
+        }
+      ],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T21:13:42.231418",
+      "completed_at": "2026-10-16T21:14:26.529311"
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": {
+          "id": "0d873894",
+          "round_number": 1,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nThe act of hanging the lanterns in the Old North Church was performed by both Robert Newman and Colonel John Pulling, making Claim B the more accurate representation.\n\nEVIDENCE REVIEW\nClaim A: States Robert Newman, described as the sexton, hung the lanterns alone, implying sole responsibility for this act.\n\nClaim B: States Robert Newman (as churchwarden) and his son-in-law Colonel John Pulling jointly hung the lanterns, suggesting collaborative effort.\n\nREASONING\nThe core factual dispute centers on whether one or two people performed the lantern-hanging. Claim B's mention of both Robert Newman and Colonel John Pulling provides a more detailed account that better aligns with historical complexity. The collaborative nature described in Claim B is more plausible for an organized signal operation, while the solitary act in Claim A seems less consistent with the methodical preparation for Paul Revere and William Dawes' coordinated midnight ride. The additional detail in Claim B provides a more complete picture of how such an important signal would have been properly arranged.\n\nSOURCE BASIS\nThe sources referenced are the claims themselves: Claim A mentions Robert Newman as sexton; Claim B mentions Robert Newman as churchwarden and Colonel John Pulling as his son-in-law.\n\nCONCLUSION\nBoth Robert Newman and Colonel John Pulling hung the lanterns, working together to create the famous signal.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "factual",
+          "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+          "created_at": "2026-10-16T21:14:02.566659"
+        },
+        "critic_arguments": [
+          {
+            "id": "a9501398",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nClaim B lacks primary source documentation confirming the joint participation of Robert Newman and Colonel John Pulling\nWHY IT MATTERS\nWithout direct historical evidence from the period, the claim remains based on secondary accounts that may have incorporated later folklore\nIMPROVEMENT\nSource the claim by locating primary documents, such as church records, personal letters, or contemporary newspaper accounts from April 1775, that explicitly mention both individuals participating in the lantern-hanging",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "critique_no_objection",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:14:26.529249"
+          },
+          {
+            "id": "77367a3b",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nThe assertion that Colonel John Pulling was Robert Newman's son-in-law is not substantiated in primary historical sources\nWHY IT MATTERS\nThis familial relationship adds credibility to the collaborative claim, but without evidence of this connection, the joint participation narrative appears less substantiated\nIMPROVEMENT\nResearch genealogical records or probate documents from the era to either confirm or deny the son-in-law relationship between Robert Newman and Colonel John Pulling",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:14:26.529290"
+          }
+        ],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T21:13:42.231418",
+        "completed_at": "2026-10-16T21:14:26.529311"
+      }
+    ],
+    "status": "completed",
+    "stop_reason": "no_objection",
+    "failed_stages": [],
+    "rounds_used": 1
+  },
+  "judge_result": {
+    "winner": "candidate_1",
+    "reason": "Claim A is more accurate based on historical evidence - Robert Newman is documented as hanging the lanterns, while Claim B's additional detail about Colonel John Pulling and the son-in-law relationship lacks primary source verification. The critics correctly identify that Claim B lacks substantive documentation.",
+    "evidence_score": 0.6,
+    "reasoning_score": 0.7,
+    "source_score": 0.8,
+    "confidence": 0.7,
+    "scores": {
+      "candidate_1": 0.6,
+      "candidate_2": 0.7
+    },
+    "evaluated_at": "2026-10-16T21:14:46.402269"
+  },
+  "final_answer": {
+    "query": "Who hung the lanterns in the old north church?",
+    "answer": "A FACTUAL conflict was detected and resolved through structured debate.\n\nResolution: Robert Newman, the sexton at Old North Church, hung the lanterns.\n\nJudge's reasoning: Claim A is more accurate based on historical evidence - Robert Newman is documented as hanging the lanterns, while Claim B's additional detail about Colonel John Pulling and the son-in-law relationship lacks primary source verification. The critics correctly identify that Claim B lacks substantive documentation.",
+    "reasoning": "At least one pair exceeded contradiction threshold (0.7): score=0.911",
+    "evidence_state": "disagreement",
+    "sources": [
+      {
+        "url": "https://oldnorth.com/history-education/",
+        "title": "History & Education - OLD NORTH CHURCH",
+        "snippet": "Old North Church Lit the Spark of the American Revolution Old North Church is world-famous for the extraordinary events of April 18, 1775. That night, the church's sexton, Robert Newman, and a vestryman, Captain John Pulling, Jr., broke Boston's military curfew and secretly climbed Old North's steeple to display two lanterns.",
+        "metadata": {
+          "search_query": "Who hung the lanterns in the old north church?"
+        },
+        "retrieved_at": "2026-10-16T21:12:52.779086",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.battlefields.org/learn/articles/old-north-church",
+        "title": "Old North Church - American Battlefield Trust",
+        "snippet": "In the same belltower hung two bells, both cast in 1744. In 1749 or 1750, a fifteen-year-old Paul Revere helped found the guild of bellringers and signed a contract to ring the bells at Christ Church. Fifteen years later, he needed those same bells to remain quiet as his compatriots briefly hung the lanterns.",
+        "metadata": {
+          "search_query": "Who hung the lanterns in the old north church?"
+        },
+        "retrieved_at": "2026-10-16T21:12:52.779105",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.bostonmagazine.com/news/2017/07/04/who-hung-lanterns-old-north-church/",
+        "title": "Who Actually Hung the Lanterns in Old North Church?",
+        "snippet": "A reader asks about who really hung the lanterns in Old North Church—you know, as the story goes: \"One, if by land, and two, if by sea…\"",
+        "metadata": {
+          "search_query": "Who hung the lanterns in the old north church?"
+        },
+        "retrieved_at": "2026-10-16T21:12:52.779112",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Robert_Newman_(sexton)",
+        "title": "Robert Newman (sexton) - Wikipedia",
+        "snippet": "Robert Newman (March 20, 1752 - May 26, 1804) was an American sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple on April 18, 1775, part of a warning signal [1][2][3] leading up to Paul Revere 's and William Dawes ' midnight rides, on the eve of the Battles of Lexington and Concord ...",
+        "metadata": {
+          "search_query": "Who hung the lanterns in the old north church?"
+        },
+        "retrieved_at": "2026-10-16T21:12:52.779118",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.nps.gov/bost/learn/historyculture/onc.htm",
+        "title": "Old North Church - U.S. National Park Service",
+        "snippet": "About Old North Church On the evening of April 18, 1775, Robert Newman and John Pulling quietly entered Old North and carefully climbed to the top of the church's bell tower. They briefly hung two lanterns near the windows and made their escape. This signal, from the tallest structure in the town of Boston, served as an early warning that a detachment of the British Army was crossing the ...",
+        "metadata": {
+          "search_query": "Who hung the lanterns in the old north church?"
+        },
+        "retrieved_at": "2026-10-16T21:12:52.779123",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=667505",
+        "title": "Old North Church",
+        "snippet": "ProQuest 509574573. Baker, Matthew Reed (July 4, 2017). \"Who Actually Hung the Lanterns in Old North Church?\". Boston Magazine. Retrieved March 20, 2026. Richardson",
+        "metadata": {
+          "search_query": "Who hung the lanterns in the old north church?"
+        },
+        "retrieved_at": "2026-10-16T21:13:13.248169",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=32037242",
+        "title": "Robert Newman (sexton)",
+        "snippet": "sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple",
+        "metadata": {
+          "search_query": "Who hung the lanterns in the old north church?"
+        },
+        "retrieved_at": "2026-10-16T21:13:13.248180",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=60339459",
+        "title": "John Pulling",
+        "snippet": "Newman hung two lanterns from the steeple of the church for just under a minute, just long enough for the militia in Charlestown to receive the signal",
+        "metadata": {
+          "search_query": "Who hung the lanterns in the old north church?"
+        },
+        "retrieved_at": "2026-10-16T21:13:13.248187",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=2302341",
+        "title": "Old South Church",
+        "snippet": "Old South Church (also known as New Old South Church or Third Church), is a historic United Church of Christ congregation in Boston, Massachusetts, first",
+        "metadata": {
+          "search_query": "Who hung the lanterns in the old north church?"
+        },
+        "retrieved_at": "2026-10-16T21:13:13.248197",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=2934451",
+        "title": "St. Martin's Day",
+        "snippet": "paper lanterns or turnip lanterns and singing songs of St Martin. These processions are known in German as Laternelaufen. In parts of Flanders and the Rhineland",
+        "metadata": {
+          "search_query": "Who hung the lanterns in the old north church?"
+        },
+        "retrieved_at": "2026-10-16T21:13:13.248204",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The actual physical act of hanging the lanterns in the old north church was performed by Robert Newman, the churchwarden of the Old North Church, and his son-in-law Colonel John Pulling. This was done",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:13:22.466918",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": true,
+    "conflict": {
+      "id": "1b4cbbe8",
+      "type": "factual",
+      "confidence": 1.0,
+      "explanation": "The claims make directly contradictory factual statements about who performed the same historical event. Claim A states it was done solely by Robert Newman (as sexton), while Claim B states it was done by Robert Newman and Colonel John Pulling (two people). This is a conflict about the basic facts of who hung the lanterns, not about time, version, context, or source authority.",
+      "claim_a": {
+        "text": "Robert Newman, the sexton at Old North Church, hung the lanterns.",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=32037242",
+          "title": "Robert Newman (sexton)",
+          "snippet": "sexton at Old North Church in Boston, Massachusetts. He is considered a patriot in the American Revolution for hanging two lanterns in his church's steeple",
+          "metadata": {
+            "search_query": "Who hung the lanterns in the old north church?"
+          },
+          "retrieved_at": "2026-10-16T21:13:13.248180",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The actual physical act of hanging the lanterns in the old north church was performed by Robert Newman, the churchwarden of the Old North Church, and his son-in-law Colonel John Pulling. This was done as the signal for Paul Revere and William Dawes' midnight ride on April 18, 1775.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The actual physical act of hanging the lanterns in the old north church was performed by Robert Newman, the churchwarden of the Old North Church, and his son-in-law Colonel John Pulling. This was done",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:13:22.466918",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "metadata": {
+        "classification_status": "llm_success",
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent"
+      },
+      "detected_at": "2026-10-16T21:13:42.231087"
+    },
+    "debate_outcome": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "proposer_argument": {
+            "id": "0d873894",
+            "round_number": 1,
+            "role": "proposer",
+            "agent_id": "proposer",
+            "content": "POSITION\nThe act of hanging the lanterns in the Old North Church was performed by both Robert Newman and Colonel John Pulling, making Claim B the more accurate representation.\n\nEVIDENCE REVIEW\nClaim A: States Robert Newman, described as the sexton, hung the lanterns alone, implying sole responsibility for this act.\n\nClaim B: States Robert Newman (as churchwarden) and his son-in-law Colonel John Pulling jointly hung the lanterns, suggesting collaborative effort.\n\nREASONING\nThe core factual dispute centers on whether one or two people performed the lantern-hanging. Claim B's mention of both Robert Newman and Colonel John Pulling provides a more detailed account that better aligns with historical complexity. The collaborative nature described in Claim B is more plausible for an organized signal operation, while the solitary act in Claim A seems less consistent with the methodical preparation for Paul Revere and William Dawes' coordinated midnight ride. The additional detail in Claim B provides a more complete picture of how such an important signal would have been properly arranged.\n\nSOURCE BASIS\nThe sources referenced are the claims themselves: Claim A mentions Robert Newman as sexton; Claim B mentions Robert Newman as churchwarden and Colonel John Pulling as his son-in-law.\n\nCONCLUSION\nBoth Robert Newman and Colonel John Pulling hung the lanterns, working together to create the famous signal.",
+            "evidence_refs": [
+              "agent_a",
+              "agent_b"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "factual",
+            "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+            "created_at": "2026-10-16T21:14:02.566659"
+          },
+          "critic_arguments": [
+            {
+              "id": "a9501398",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_1",
+              "content": "ISSUE\nClaim B lacks primary source documentation confirming the joint participation of Robert Newman and Colonel John Pulling\nWHY IT MATTERS\nWithout direct historical evidence from the period, the claim remains based on secondary accounts that may have incorporated later folklore\nIMPROVEMENT\nSource the claim by locating primary documents, such as church records, personal letters, or contemporary newspaper accounts from April 1775, that explicitly mention both individuals participating in the lantern-hanging",
+              "evidence_refs": [
+                "agent_a"
+              ],
+              "conflict_type": "factual",
+              "strategy_used": "critique_no_objection",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T21:14:26.529249"
+            },
+            {
+              "id": "77367a3b",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_2",
+              "content": "ISSUE\nThe assertion that Colonel John Pulling was Robert Newman's son-in-law is not substantiated in primary historical sources\nWHY IT MATTERS\nThis familial relationship adds credibility to the collaborative claim, but without evidence of this connection, the joint participation narrative appears less substantiated\nIMPROVEMENT\nResearch genealogical records or probate documents from the era to either confirm or deny the son-in-law relationship between Robert Newman and Colonel John Pulling",
+              "evidence_refs": [
+                "agent_b"
+              ],
+              "conflict_type": "factual",
+              "strategy_used": "critique",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T21:14:26.529290"
+            }
+          ],
+          "reviser_argument": null,
+          "started_at": "2026-10-16T21:13:42.231418",
+          "completed_at": "2026-10-16T21:14:26.529311"
+        }
+      ],
+      "status": "completed",
+      "stop_reason": "no_objection",
+      "failed_stages": [],
+      "rounds_used": 1
+    },
+    "judge_result": {
+      "winner": "candidate_1",
+      "reason": "Claim A is more accurate based on historical evidence - Robert Newman is documented as hanging the lanterns, while Claim B's additional detail about Colonel John Pulling and the son-in-law relationship lacks primary source verification. The critics correctly identify that Claim B lacks substantive documentation.",
+      "evidence_score": 0.6,
+      "reasoning_score": 0.7,
+      "source_score": 0.8,
+      "confidence": 0.7,
+      "scores": {
+        "candidate_1": 0.6,
+        "candidate_2": 0.7
+      },
+      "evaluated_at": "2026-10-16T21:14:46.402269"
+    },
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "disagreement",
+      "conflict_type": "factual",
+      "debate_completed": true,
+      "winner": "candidate_1",
+      "confidence": 0.7
+    },
+    "generated_at": "2026-10-16T21:14:46.402376"
+  },
+  "metrics": {
+    "latency_seconds": 113.62790369987488,
+    "evidence_state": "disagreement",
+    "debate_triggered": true,
+    "conflict_type": "factual",
+    "classification_status": "llm_success",
+    "debate_status": "completed",
+    "debate_stop_reason": "no_objection",
+    "debate_rounds_used": 1,
+    "total_llm_calls_ok": 6,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      },
+      "classifier": {
+        "ok": 1,
+        "failed": 0
+      },
+      "proposer": {
+        "ok": 1,
+        "failed": 0
+      },
+      "critic": {
+        "ok": 1,
+        "failed": 0
+      },
+      "judge": {
+        "ok": 1,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "no_gate"
+  },
+  "started_at": "2026-10-16T21:12:52.774462",
+  "completed_at": "2026-10-16T21:14:46.402434",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0015",
+    "query": "Who hung the lanterns in the old north church?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Robert Newman",
+    "required_facts": [
+      "Robert Newman"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 23,
+      "answer_variants": [
+        "Robert Newman"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 3 and 6",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.bostonmagazine.com",
+          "text": "Jul 4, 2017 ... As we all know, two lanterns were hung on April 18, 1775, warning Revere and his compatriots that the British were using the quicker seaside ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nps.gov",
+          "text": "Jul 3, 2023 ... They briefly hung two lanterns near the windows and made their escape. This signal, from the tallest structure in the town of Boston, served as ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "On that night, the church's sexton, Robert Newman hung two lanterns in the church's steeple, which alerted Revere and the other riders to British troops' ...",
+          "supports_answers": [
+            "Robert Newman"
+          ]
+        },
+        {
+          "source_domain": "concordmuseum.org",
+          "text": "He ordered fellow Patriots to set two lighted lanterns in the belfry of Boston's Christ Church (Old North Church). This prearranged signal was intended for ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.oldnorth.com",
+          "text": "Apr 2, 2018 ... Two men acting under the orders of Paul Revere snuck into the Old North Church late at night, climbed up Boston's tallest steeple, and hung two ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.bostonteapartyship.com",
+          "text": "The enduring fame of the Old North began on the night of April 18, 1775, when two lanterns were hung in its steeple by church sexton Robert Newman and ...",
+          "supports_answers": [
+            "Robert Newman"
+          ]
+        },
+        {
+          "source_domain": "www.oldnorth.com",
+          "text": "John Pulling, Jr. climbed the steeple and held high two lanterns as a signal from Paul Revere that the British were marching to Lexington and Concord by sea ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "brainly.com",
+          "text": "Jun 9, 2020 ... They were both caretakers of the Old North Church, these men were directed to climb up to the church tower and light up lanterns at the window.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.oldnorth.com",
+          "text": "Celebrating 300 years. of Active Citizens. Lanterns & Luminaries. Thursday, April 20, 2023, 6:30 – 9:30pm. Old North Church @ 193 Salem Street, Boston, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "vitabrevis.americanancestors.org",
+          "text": "Apr 19, 2023 ... In 1798 Revere called the building where the lanterns hung the “North Church,” and documents from that decade show Bostonians using that term ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_gate",
+  "evaluation_seconds": 113.663,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

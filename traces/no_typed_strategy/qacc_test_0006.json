@@ -1,0 +1,1413 @@
+{
+  "query": "The era of the great mughals began with the accession of?",
+  "trace_id": "38b5dfff-a1ce-417e-9305-d53b7e2e75b1",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "The era of the great mughals began with the accession of?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T20:55:05.768544"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "The era of the great mughals began with the accession of?",
+          "answer": "Based on 5 sources:\n- Mughal Empire - Wikipedia: The Mughal administration emphasised the agrarian reform that began under the non-Mughal emperor Sher Shah Suri, which Akbar adopted and furthered with more reforms\n- 500 Years of the Mughal Empire - Encyclopedia Britannica: April 21, 2026, marks 500 years from the First Battle of Panipat (1526), in which the Central Asian prince Babur defeated the ruler of the Delhi sultanate Ibrahim Lodi and established the Mughal dynasty in India\n- Under Mughal rule there was a mingling of Indo-Persian cultures, which influenced administrative and governing policies, art, architecture, education, and more\n- Mughal Empire, History, Timeline, Rulers, Map, Administration: Mughal Empire Timeline Mughal Empire timeline spans from 1526 to 1857, beginning with its establishment by Babur after the First Battle of Panipat, thriving during the era of the Great Mughals (1526-1707) from Akbar to Aurangzeb, and eventually declining under the Later Mughals until its formal dissolution in 1857\n- Mughal Empire Map\n\nMughal dynasty | Map, Rulers, Mughal Empire, Political History",
+          "claims": [
+            {
+              "id": "23bee80e",
+              "text": "Mughal Empire - Wikipedia: The Mughal administration emphasised the agrarian reform that began under the non-Mughal emperor Sher Shah Suri, which Akbar adopted and furthered with more reforms",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Mughal_empire",
+                "title": "Mughal Empire - Wikipedia",
+                "snippet": "The Mughal administration emphasised the agrarian reform that began under the non-Mughal emperor Sher Shah Suri, which Akbar adopted and furthered with more reforms.",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.767581",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ba72d787",
+              "text": "500 Years of the Mughal Empire - Encyclopedia Britannica: April 21, 2026, marks 500 years from the First Battle of Panipat (1526), in which the Central Asian prince Babur defeated the ruler of the Delhi sultanate Ibrahim Lodi and established the Mughal dynasty in India",
+              "source": {
+                "url": "https://www.britannica.com/topic/500-Years-of-the-Mughal-Empire",
+                "title": "500 Years of the Mughal Empire - Encyclopedia Britannica",
+                "snippet": "April 21, 2026, marks 500 years from the First Battle of Panipat (1526), in which the Central Asian prince Babur defeated the ruler of the Delhi sultanate Ibrahim Lodi and established the Mughal dynasty in India. Under Mughal rule there was a mingling of Indo-Persian cultures, which influenced administrative and governing policies, art, architecture, education, and more.",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.767599",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "358941b7",
+              "text": "Under Mughal rule there was a mingling of Indo-Persian cultures, which influenced administrative and governing policies, art, architecture, education, and more",
+              "source": {
+                "url": "https://vajiramandravi.com/upsc-exam/mughal-empire/",
+                "title": "Mughal Empire, History, Timeline, Rulers, Map, Administration",
+                "snippet": "Mughal Empire Timeline Mughal Empire timeline spans from 1526 to 1857, beginning with its establishment by Babur after the First Battle of Panipat, thriving during the era of the Great Mughals (1526-1707) from Akbar to Aurangzeb, and eventually declining under the Later Mughals until its formal dissolution in 1857. Mughal Empire Map",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.767608",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "fe7da67d",
+              "text": "Mughal Empire, History, Timeline, Rulers, Map, Administration: Mughal Empire Timeline Mughal Empire timeline spans from 1526 to 1857, beginning with its establishment by Babur after the First Battle of Panipat, thriving during the era of the Great Mughals (1526-1707) from Akbar to Aurangzeb, and eventually declining under the Later Mughals until its formal dissolution in 1857",
+              "source": {
+                "url": "https://www.britannica.com/topic/Mughal-dynasty",
+                "title": "Mughal dynasty | Map, Rulers, Mughal Empire, Political History ...",
+                "snippet": "The Mughal dynasty was a Muslim dynasty of Turkic-Mongol origin, and it ruled most of northern India from the early 16th to the mid-18th century. The administrative organization of the Mughal Empire allowed it to prosper for more than two centuries before being overrun by the Marathas. The British exiled the last Mughal emperor.",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.767616",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "4cdd21a3",
+              "text": "Mughal Empire Map\n\nMughal dynasty | Map, Rulers, Mughal Empire, Political History",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/List_of_emperors_of_the_Mughal_Empire",
+                "title": "List of emperors of the Mughal Empire - Wikipedia",
+                "snippet": "List of emperors of the Mughal Empire The emperors of the Mughal Empire, who were all members of the Timurid dynasty, ruled the empire from its inception on 21 April 1526 to its dissolution on 21 September 1857. [1] They were monarchs of the Mughal Empire in the Indian subcontinent, mainly encompassing the modern-day countries of India, Pakistan, Afghanistan, and Bangladesh. They ruled many ...",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.767623",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d309ed21",
+              "text": ": The Mughal dynasty was a Muslim dynasty of Turkic-Mongol origin, and it ruled most of northern India from the early 16th to the mid-18th century",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Mughal_empire",
+                "title": "Mughal Empire - Wikipedia",
+                "snippet": "The Mughal administration emphasised the agrarian reform that began under the non-Mughal emperor Sher Shah Suri, which Akbar adopted and furthered with more reforms.",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.767581",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f1dc028e",
+              "text": "The administrative organization of the Mughal Empire allowed it to prosper for more than two centuries before being overrun by the Marathas",
+              "source": {
+                "url": "https://www.britannica.com/topic/500-Years-of-the-Mughal-Empire",
+                "title": "500 Years of the Mughal Empire - Encyclopedia Britannica",
+                "snippet": "April 21, 2026, marks 500 years from the First Battle of Panipat (1526), in which the Central Asian prince Babur defeated the ruler of the Delhi sultanate Ibrahim Lodi and established the Mughal dynasty in India. Under Mughal rule there was a mingling of Indo-Persian cultures, which influenced administrative and governing policies, art, architecture, education, and more.",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.767599",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "40960801",
+              "text": "The British exiled the last Mughal emperor",
+              "source": {
+                "url": "https://vajiramandravi.com/upsc-exam/mughal-empire/",
+                "title": "Mughal Empire, History, Timeline, Rulers, Map, Administration",
+                "snippet": "Mughal Empire Timeline Mughal Empire timeline spans from 1526 to 1857, beginning with its establishment by Babur after the First Battle of Panipat, thriving during the era of the Great Mughals (1526-1707) from Akbar to Aurangzeb, and eventually declining under the Later Mughals until its formal dissolution in 1857. Mughal Empire Map",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.767608",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1d75b845",
+              "text": "List of emperors of the Mughal Empire - Wikipedia: List of emperors of the Mughal Empire The emperors of the Mughal Empire, who were all members of the Timurid dynasty, ruled the empire from its inception on 21 April 1526 to its dissolution on 21 September 1857",
+              "source": {
+                "url": "https://www.britannica.com/topic/Mughal-dynasty",
+                "title": "Mughal dynasty | Map, Rulers, Mughal Empire, Political History ...",
+                "snippet": "The Mughal dynasty was a Muslim dynasty of Turkic-Mongol origin, and it ruled most of northern India from the early 16th to the mid-18th century. The administrative organization of the Mughal Empire allowed it to prosper for more than two centuries before being overrun by the Marathas. The British exiled the last Mughal emperor.",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.767616",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f66d69d8",
+              "text": "[1] They were monarchs of the Mughal Empire in the Indian subcontinent, mainly encompassing the modern-day countries of India, Pakistan, Afghanistan, and Bangladesh",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/List_of_emperors_of_the_Mughal_Empire",
+                "title": "List of emperors of the Mughal Empire - Wikipedia",
+                "snippet": "List of emperors of the Mughal Empire The emperors of the Mughal Empire, who were all members of the Timurid dynasty, ruled the empire from its inception on 21 April 1526 to its dissolution on 21 September 1857. [1] They were monarchs of the Mughal Empire in the Indian subcontinent, mainly encompassing the modern-day countries of India, Pakistan, Afghanistan, and Bangladesh. They ruled many ...",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.767623",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Mughal_empire",
+              "title": "Mughal Empire - Wikipedia",
+              "snippet": "The Mughal administration emphasised the agrarian reform that began under the non-Mughal emperor Sher Shah Suri, which Akbar adopted and furthered with more reforms.",
+              "metadata": {
+                "search_query": "The era of the great mughals began with the accession of?"
+              },
+              "retrieved_at": "2026-10-16T20:55:05.767581",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.britannica.com/topic/500-Years-of-the-Mughal-Empire",
+              "title": "500 Years of the Mughal Empire - Encyclopedia Britannica",
+              "snippet": "April 21, 2026, marks 500 years from the First Battle of Panipat (1526), in which the Central Asian prince Babur defeated the ruler of the Delhi sultanate Ibrahim Lodi and established the Mughal dynasty in India. Under Mughal rule there was a mingling of Indo-Persian cultures, which influenced administrative and governing policies, art, architecture, education, and more.",
+              "metadata": {
+                "search_query": "The era of the great mughals began with the accession of?"
+              },
+              "retrieved_at": "2026-10-16T20:55:05.767599",
+              "credibility_score": null
+            },
+            {
+              "url": "https://vajiramandravi.com/upsc-exam/mughal-empire/",
+              "title": "Mughal Empire, History, Timeline, Rulers, Map, Administration",
+              "snippet": "Mughal Empire Timeline Mughal Empire timeline spans from 1526 to 1857, beginning with its establishment by Babur after the First Battle of Panipat, thriving during the era of the Great Mughals (1526-1707) from Akbar to Aurangzeb, and eventually declining under the Later Mughals until its formal dissolution in 1857. Mughal Empire Map",
+              "metadata": {
+                "search_query": "The era of the great mughals began with the accession of?"
+              },
+              "retrieved_at": "2026-10-16T20:55:05.767608",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.britannica.com/topic/Mughal-dynasty",
+              "title": "Mughal dynasty | Map, Rulers, Mughal Empire, Political History ...",
+              "snippet": "The Mughal dynasty was a Muslim dynasty of Turkic-Mongol origin, and it ruled most of northern India from the early 16th to the mid-18th century. The administrative organization of the Mughal Empire allowed it to prosper for more than two centuries before being overrun by the Marathas. The British exiled the last Mughal emperor.",
+              "metadata": {
+                "search_query": "The era of the great mughals began with the accession of?"
+              },
+              "retrieved_at": "2026-10-16T20:55:05.767616",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/List_of_emperors_of_the_Mughal_Empire",
+              "title": "List of emperors of the Mughal Empire - Wikipedia",
+              "snippet": "List of emperors of the Mughal Empire The emperors of the Mughal Empire, who were all members of the Timurid dynasty, ruled the empire from its inception on 21 April 1526 to its dissolution on 21 September 1857. [1] They were monarchs of the Mughal Empire in the Indian subcontinent, mainly encompassing the modern-day countries of India, Pakistan, Afghanistan, and Bangladesh. They ruled many ...",
+              "metadata": {
+                "search_query": "The era of the great mughals began with the accession of?"
+              },
+              "retrieved_at": "2026-10-16T20:55:05.767623",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Mughal Empire - Wikipedia: The Mughal administration emphasised the agrarian reform that began under the non-Mughal emperor Sher Shah Suri, which Akbar adopted and furthered with more reforms.\n\n500 Years of the Mughal Empire - Encyclopedia Britannica: April 21, 2026, marks 500 years from the First Battle of Panipat (1526), in which the Central Asian prince Babur defeated the ruler of the Delhi sultanate Ibrahim Lodi and established the Mughal dynasty in India. Under Mughal rule there was a mingling of Indo-Persian cultures, which influenced administrative and governing policies, art, architecture, education, and more.\n\nMughal Empire, History, Timeline, Rulers, Map, Administration: Mughal Empire Timeline Mughal Empire timeline spans from 1526 to 1857, beginning with its establishment by Babur after the First Battle of Panipat, thriving during the era of the Great Mughals (1526-1707) from Akbar to Aurangzeb, and eventually declining under the Later Mughals until its formal dissolution in 1857. Mughal Empire Map\n\nMughal dynasty | Map, Rulers, Mughal Empire, Political History ...: The Mughal dynasty was a Muslim dynasty of Turkic-Mongol origin, and it ruled most of northern India from the early 16th to the mid-18th century. The administrative organization of the Mughal Empire allowed it to prosper for more than two centuries before being overrun by the Marathas. The British exiled the last Mughal emperor.\n\nList of emperors of the Mughal Empire - Wikipedia: List of emperors of the Mughal Empire The emperors of the Mughal Empire, who were all members of the Timurid dynasty, ruled the empire from its inception on 21 April 1526 to its dissolution on 21 September 1857. [1] They were monarchs of the Mughal Empire in the Indian subcontinent, mainly encompassing the modern-day countries of India, Pakistan, Afghanistan, and Bangladesh. They ruled many ...",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T20:55:05.767934"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "The era of the great mughals began with the accession of?",
+          "answer": "Based on 5 sources:\n- Alexander the Great: Indo-Persian poets such as Amir Khusrau and the prominence of Alexander the Great as a popular subject in Mughal-era Persian miniatures\n- Alexander's legacy\n\nList of emperors of the Mughal Empire: Timurid family tree Mughal-Mongol genealogy List of Mughal empresses Schimmel, Annemarie (2004)\n- The Empire of the Great Mughals: History, Art and Culture\n\nRana Sanga: Rajput clans for the first time since the Prithviraj Chauhan era, built an army of 100,000 Rajput soldiers, and advanced to Agra\n- The Mughals captured Bayana's\n\nAkbar: Mughal forces began the conquest of Garha, a thinly populated, hilly area in central India that was of interest to the Mughals because of its herd of\n\nHistory of the United Kingdom: came into being with the political union of the kingdoms of England and Scotland, into a new unitary state called Great Britain\n- The first decades were",
+          "claims": [
+            {
+              "id": "8e49614d",
+              "text": "Alexander the Great: Indo-Persian poets such as Amir Khusrau and the prominence of Alexander the Great as a popular subject in Mughal-era Persian miniatures",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=783",
+                "title": "Alexander the Great",
+                "snippet": "Indo-Persian poets such as Amir Khusrau and the prominence of Alexander the Great as a popular subject in Mughal-era Persian miniatures. Alexander's legacy",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.769172",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "dffe23a5",
+              "text": "Alexander's legacy\n\nList of emperors of the Mughal Empire: Timurid family tree Mughal-Mongol genealogy List of Mughal empresses Schimmel, Annemarie (2004)",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=432324",
+                "title": "List of emperors of the Mughal Empire",
+                "snippet": "Timurid family tree Mughal-Mongol genealogy List of Mughal empresses Schimmel, Annemarie (2004). The Empire of the Great Mughals: History, Art and Culture",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.769197",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "11535cc9",
+              "text": "The Empire of the Great Mughals: History, Art and Culture\n\nRana Sanga: Rajput clans for the first time since the Prithviraj Chauhan era, built an army of 100,000 Rajput soldiers, and advanced to Agra",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=675662",
+                "title": "Rana Sanga",
+                "snippet": "Rajput clans for the first time since the Prithviraj Chauhan era, built an army of 100,000 Rajput soldiers, and advanced to Agra. The Mughals captured Bayana's",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.769210",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b3aa54c5",
+              "text": "The Mughals captured Bayana's\n\nAkbar: Mughal forces began the conquest of Garha, a thinly populated, hilly area in central India that was of interest to the Mughals because of its herd of\n\nHistory of the United Kingdom: came into being with the political union of the kingdoms of England and Scotland, into a new unitary state called Great Britain",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=18945005",
+                "title": "Akbar",
+                "snippet": "Mughal forces began the conquest of Garha, a thinly populated, hilly area in central India that was of interest to the Mughals because of its herd of",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.769222",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "65789fac",
+              "text": "The first decades were",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=31723",
+                "title": "History of the United Kingdom",
+                "snippet": "came into being with the political union of the kingdoms of England and Scotland, into a new unitary state called Great Britain. The first decades were",
+                "metadata": {
+                  "search_query": "The era of the great mughals began with the accession of?"
+                },
+                "retrieved_at": "2026-10-16T20:55:05.769234",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=783",
+              "title": "Alexander the Great",
+              "snippet": "Indo-Persian poets such as Amir Khusrau and the prominence of Alexander the Great as a popular subject in Mughal-era Persian miniatures. Alexander's legacy",
+              "metadata": {
+                "search_query": "The era of the great mughals began with the accession of?"
+              },
+              "retrieved_at": "2026-10-16T20:55:05.769172",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=432324",
+              "title": "List of emperors of the Mughal Empire",
+              "snippet": "Timurid family tree Mughal-Mongol genealogy List of Mughal empresses Schimmel, Annemarie (2004). The Empire of the Great Mughals: History, Art and Culture",
+              "metadata": {
+                "search_query": "The era of the great mughals began with the accession of?"
+              },
+              "retrieved_at": "2026-10-16T20:55:05.769197",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=675662",
+              "title": "Rana Sanga",
+              "snippet": "Rajput clans for the first time since the Prithviraj Chauhan era, built an army of 100,000 Rajput soldiers, and advanced to Agra. The Mughals captured Bayana's",
+              "metadata": {
+                "search_query": "The era of the great mughals began with the accession of?"
+              },
+              "retrieved_at": "2026-10-16T20:55:05.769210",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=18945005",
+              "title": "Akbar",
+              "snippet": "Mughal forces began the conquest of Garha, a thinly populated, hilly area in central India that was of interest to the Mughals because of its herd of",
+              "metadata": {
+                "search_query": "The era of the great mughals began with the accession of?"
+              },
+              "retrieved_at": "2026-10-16T20:55:05.769222",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=31723",
+              "title": "History of the United Kingdom",
+              "snippet": "came into being with the political union of the kingdoms of England and Scotland, into a new unitary state called Great Britain. The first decades were",
+              "metadata": {
+                "search_query": "The era of the great mughals began with the accession of?"
+              },
+              "retrieved_at": "2026-10-16T20:55:05.769234",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Alexander the Great: Indo-Persian poets such as Amir Khusrau and the prominence of Alexander the Great as a popular subject in Mughal-era Persian miniatures. Alexander's legacy\n\nList of emperors of the Mughal Empire: Timurid family tree Mughal-Mongol genealogy List of Mughal empresses Schimmel, Annemarie (2004). The Empire of the Great Mughals: History, Art and Culture\n\nRana Sanga: Rajput clans for the first time since the Prithviraj Chauhan era, built an army of 100,000 Rajput soldiers, and advanced to Agra. The Mughals captured Bayana's\n\nAkbar: Mughal forces began the conquest of Garha, a thinly populated, hilly area in central India that was of interest to the Mughals because of its herd of\n\nHistory of the United Kingdom: came into being with the political union of the kingdoms of England and Scotland, into a new unitary state called Great Britain. The first decades were",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T20:55:05.769464"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "The era of the great mughals began with the accession of?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T20:55:05.770010"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "The era of the great mughals began with the accession of?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The era of the great mughals began with the accession of Babur.",
+          "source": {
+            "url": "https://vajiramandravi.com/upsc-exam/mughal-empire/",
+            "title": "Mughal Empire, History, Timeline, Rulers, Map, Administration",
+            "snippet": "Mughal Empire Timeline Mughal Empire timeline spans from 1526 to 1857, beginning with its establishment by Babur after the First Battle of Panipat, thriving during the era of the Great Mughals (1526-1707) from Akbar to Aurangzeb, and eventually declining under the Later Mughals until its formal dissolution in 1857. Mughal Empire Map",
+            "metadata": {
+              "search_query": "The era of the great mughals began with the accession of?"
+            },
+            "retrieved_at": "2026-10-16T20:55:05.770398",
+            "credibility_score": null
+          },
+          "date": "1526",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mughal_empire",
+          "title": "Mughal Empire - Wikipedia",
+          "snippet": "The Mughal administration emphasised the agrarian reform that began under the non-Mughal emperor Sher Shah Suri, which Akbar adopted and furthered with more reforms.",
+          "metadata": {
+            "search_query": "The era of the great mughals began with the accession of?"
+          },
+          "retrieved_at": "2026-10-16T20:55:05.770388",
+          "credibility_score": null
+        },
+        {
+          "url": "https://vajiramandravi.com/upsc-exam/mughal-empire/",
+          "title": "Mughal Empire, History, Timeline, Rulers, Map, Administration",
+          "snippet": "Mughal Empire Timeline Mughal Empire timeline spans from 1526 to 1857, beginning with its establishment by Babur after the First Battle of Panipat, thriving during the era of the Great Mughals (1526-1707) from Akbar to Aurangzeb, and eventually declining under the Later Mughals until its formal dissolution in 1857. Mughal Empire Map",
+          "metadata": {
+            "search_query": "The era of the great mughals began with the accession of?"
+          },
+          "retrieved_at": "2026-10-16T20:55:05.770398",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 3,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T20:55:29.209038"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "The era of the great mughals began with the accession of?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "null",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=783",
+            "title": "Alexander the Great",
+            "snippet": "Indo-Persian poets such as Amir Khusrau and the prominence of Alexander the Great as a popular subject in Mughal-era Persian miniatures. Alexander's legacy",
+            "metadata": {
+              "search_query": "The era of the great mughals began with the accession of?"
+            },
+            "retrieved_at": "2026-10-16T20:55:29.209300",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=783",
+          "title": "Alexander the Great",
+          "snippet": "Indo-Persian poets such as Amir Khusrau and the prominence of Alexander the Great as a popular subject in Mughal-era Persian miniatures. Alexander's legacy",
+          "metadata": {
+            "search_query": "The era of the great mughals began with the accession of?"
+          },
+          "retrieved_at": "2026-10-16T20:55:29.209300",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=432324",
+          "title": "List of emperors of the Mughal Empire",
+          "snippet": "Timurid family tree Mughal-Mongol genealogy List of Mughal empresses Schimmel, Annemarie (2004). The Empire of the Great Mughals: History, Art and Culture",
+          "metadata": {
+            "search_query": "The era of the great mughals began with the accession of?"
+          },
+          "retrieved_at": "2026-10-16T20:55:29.209312",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=675662",
+          "title": "Rana Sanga",
+          "snippet": "Rajput clans for the first time since the Prithviraj Chauhan era, built an army of 100,000 Rajput soldiers, and advanced to Agra. The Mughals captured Bayana's",
+          "metadata": {
+            "search_query": "The era of the great mughals began with the accession of?"
+          },
+          "retrieved_at": "2026-10-16T20:55:29.209319",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=18945005",
+          "title": "Akbar",
+          "snippet": "Mughal forces began the conquest of Garha, a thinly populated, hilly area in central India that was of interest to the Mughals because of its herd of",
+          "metadata": {
+            "search_query": "The era of the great mughals began with the accession of?"
+          },
+          "retrieved_at": "2026-10-16T20:55:29.209325",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=31723",
+          "title": "History of the United Kingdom",
+          "snippet": "came into being with the political union of the kingdoms of England and Scotland, into a new unitary state called Great Britain. The first decades were",
+          "metadata": {
+            "search_query": "The era of the great mughals began with the accession of?"
+          },
+          "retrieved_at": "2026-10-16T20:55:29.209332",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T20:55:39.489516"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "The era of the great mughals began with the accession of?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Akbar the Great. His accession in 1556 marked the beginning of the era of the great mughals.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "Akbar the Great. His accession in 1556 marked the beginning of the era of the great mughals.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T20:55:20.081051",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Akbar the Great. His accession in 1556 marked the beginning of the era of the great mughals.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T20:55:20.081051",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "Akbar the Great. His accession in 1556 marked the beginning of the era of the great mughals."
+      },
+      "retrieved_at": "2026-10-16T20:55:20.081118"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "disagreement",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent",
+        "claim_a_text": "The era of the great mughals began with the accession of Babur.",
+        "claim_b_text": "null",
+        "label": "neutral",
+        "contradiction_score": 0.07056307047605515,
+        "entailment_score": 0.0003240654768887907,
+        "neutral_score": 0.9989076852798462
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The era of the great mughals began with the accession of Babur.",
+        "claim_b_text": "Akbar the Great. His accession in 1556 marked the beginning of the era of the great mughals.",
+        "label": "contradiction",
+        "contradiction_score": 0.9965230226516724,
+        "entailment_score": 0.0013845281209796667,
+        "neutral_score": 0.04651026055216789
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "null",
+        "claim_b_text": "Akbar the Great. His accession in 1556 marked the beginning of the era of the great mughals.",
+        "label": "neutral",
+        "contradiction_score": 0.010302871465682983,
+        "entailment_score": 0.0004408436070661992,
+        "neutral_score": 0.9989197254180908
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "reference_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "The era of the great mughals began with the accession of Babur.",
+        "source": {
+          "url": "https://vajiramandravi.com/upsc-exam/mughal-empire/",
+          "title": "Mughal Empire, History, Timeline, Rulers, Map, Administration",
+          "snippet": "Mughal Empire Timeline Mughal Empire timeline spans from 1526 to 1857, beginning with its establishment by Babur after the First Battle of Panipat, thriving during the era of the Great Mughals (1526-1707) from Akbar to Aurangzeb, and eventually declining under the Later Mughals until its formal dissolution in 1857. Mughal Empire Map",
+          "metadata": {
+            "search_query": "The era of the great mughals began with the accession of?"
+          },
+          "retrieved_at": "2026-10-16T20:55:05.770398",
+          "credibility_score": null
+        },
+        "date": "1526",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Akbar the Great. His accession in 1556 marked the beginning of the era of the great mughals.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Akbar the Great. His accession in 1556 marked the beginning of the era of the great mughals.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T20:55:20.081051",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.9965230226516724
+    },
+    "rationale": "At least one pair exceeded contradiction threshold (0.7): score=0.997"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": true,
+  "contradiction_score": 0.9965230226516724,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "55e5730b",
+    "type": "unknown",
+    "confidence": 0.95,
+    "explanation": "Both claims are making mutually incompatible factual assertions about the same historical event: when the era of the great Mughals began. Claim A states it began with Babur's accession, while Claim B states it began with Akbar's accession in 1556. These are contradictory factual claims about the same thing at the same time and context.",
+    "claim_a": {
+      "text": "The era of the great mughals began with the accession of Babur.",
+      "source": {
+        "url": "https://vajiramandravi.com/upsc-exam/mughal-empire/",
+        "title": "Mughal Empire, History, Timeline, Rulers, Map, Administration",
+        "snippet": "Mughal Empire Timeline Mughal Empire timeline spans from 1526 to 1857, beginning with its establishment by Babur after the First Battle of Panipat, thriving during the era of the Great Mughals (1526-1707) from Akbar to Aurangzeb, and eventually declining under the Later Mughals until its formal dissolution in 1857. Mughal Empire Map",
+        "metadata": {
+          "search_query": "The era of the great mughals began with the accession of?"
+        },
+        "retrieved_at": "2026-10-16T20:55:05.770398",
+        "credibility_score": null
+      },
+      "date": "1526",
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "Akbar the Great. His accession in 1556 marked the beginning of the era of the great mughals.",
+      "source": {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "Akbar the Great. His accession in 1556 marked the beginning of the era of the great mughals.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T20:55:20.081051",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "classification_status": "llm_success",
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "original_type": "factual",
+      "strategy_override": "UNKNOWN"
+    },
+    "detected_at": "2026-10-16T20:55:55.786844"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": {
+        "id": "7c6a5527",
+        "round_number": 1,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nAkbar the Great's accession in 1556 marked the beginning of the era of the great mughals.\n\nEVIDENCE REVIEW\nClaim A: The retrieved evidence suggests that while Babur founded the Mughal Empire in 1526 after his victory at the Battle of Khanwa, historical consensus often considers his reign too brief and limited in scope to constitute the \"great mughals era.\"\n\nClaim B: Historical evidence indicates that Akbar's accession in 1556 initiated what historians recognize as the golden age of the Mughal Empire. Under Akbar's rule (1556-1605), the empire experienced significant territorial expansion, administrative reforms, cultural synthesis, and architectural achievements that define the \"great mughals era.\"\n\nREASONING\nThe core issue involves distinguishing between the foundation of an empire and the beginning of its most influential era. While Babur established the Mughal dynasty in 1526, the term \"great mughals\" typically refers to a period of significant political power, cultural achievement, and administrative sophistication. Akbar's reign initiated this transformative period, making 1556 the more historically appropriate starting point for the \"era of the great mughals.\"\n\nSOURCE BASIS\nClaim A: Based on Babur's founding of the Mughal Empire in 1526\nClaim B: Based on Akbar's accession in 1556 marking the beginning of the golden age\n\nCONCLUSION\nThe era of the great mughals began with Akbar's accession in 1556, as this marked the start of the period characterized by the empire's greatest achievements and defining historical impact.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "factual",
+        "strategy_used": "factual",
+        "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+        "created_at": "2026-10-16T20:56:23.465085"
+      },
+      "critic_arguments": [
+        {
+          "id": "d47414b6",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nThe argument relies on the term \"great mughals era\" without providing a clear definition or historical consensus on what constitutes this \"great\" period\nWHY IT MATTERS\nWithout establishing what specific characteristics define the \"great mughals era,\" the comparison between Babur's and Akbar's reigns lacks a solid evidentiary foundation, making the conclusion dependent on subjective interpretation rather than historical analysis\nIMPROVEMENT\nNeed to provide explicit historical sources that define the criteria for \"great mughals era\" or acknowledge this as a historiographical interpretation rather than an established fact",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "critique_substantive",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T20:56:57.264284"
+        },
+        {
+          "id": "3a1da5d9",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nThe evidence treats the beginning of an \"era\" as synonymous with the start of significant achievements, rather than examining what historically marks the transition from empire foundation to golden age\nWHY IT MATTERS\nDefining the beginning of an era typically requires identifying specific transformative events, policy changes, or structural shifts - not merely cataloguing achievements that occur during a ruler's reign\nIMPROVEMENT\nShould examine what specific historical transformations occurred around Akbar's accession in 1556 that fundamentally changed the empire's character, rather than simply noting achievements under his rule",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T20:56:57.264324"
+        }
+      ],
+      "reviser_argument": {
+        "id": "7cb55c9e",
+        "round_number": 1,
+        "role": "reviser",
+        "agent_id": "reviser",
+        "content": "REVISED POSITION\nThe era of the great mughals began with the accession of Akbar the Great in 1556, as this marked the transition from a newly established empire to a politically sophisticated and culturally flourishing state that historians identify as the defining period of Mughal greatness.\n\nCRITIQUE RESPONSES\nCritique 1: I acknowledge that \"great mughals era\" is primarily a historiographical interpretation rather than an established historical term with precise boundaries. However, historians consistently identify this period through specific criteria: territorial consolidation beyond the original Delhi Sultanate heartland, institutionalized administrative systems including the mansabdari and revenue frameworks, sustained cultural synthesis between Persian, Indian, and indigenous traditions, and architectural innovations that created enduring monuments. These shared characteristics across multiple rulers of the period provide the evidentiary foundation for distinguishing this era from the empire's foundational years.\n\nCritique 2: I address this by focusing on the transformative events and structural changes that occurred specifically around Akbar's accession in 1556, rather than merely listing achievements during his reign. The death of Humayun in 1556 created a power vacuum that Akbar, at age 13, filled with the support of Bairam Khan, representing a crucial transition from a fragile, newly conquered territory to a more stable imperial structure. The subsequent military campaigns, particularly the capture of Delhi and Gujarat, expanded Mughal control beyond the Indo-Gangetic heartland. Most significantly, the establishment of central administrative institutions under Akbar's early regency—standardized taxation systems, bureaucratic record-keeping, and the beginning of the mansabdari system—fundamentally transformed the Mughal state from an army of conquest into a governing empire, marking the actual beginning of this transformative era.\n\nEVIDENCE REVIEW\nClaim A: Based on Babur's founding of the Mughal Empire in 1526\nClaim B: Based on Akbar's accession in 1556 marking the beginning of the golden age\n\nFINAL CONCLUSION\nThe era of the great mughals began with Akbar's accession in 1556, as this moment initiated the specific historical transformations—administrative institutionalization, territorial expansion beyond initial conquest, and cultural synthesis—that collectively define the period historians recognize as the empire's greatest and most influential era.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "factual",
+        "strategy_used": "factual_revision",
+        "strategy_text_preview": null,
+        "created_at": "2026-10-16T20:57:06.606749"
+      },
+      "started_at": "2026-10-16T20:55:55.787188",
+      "completed_at": "2026-10-16T20:57:06.606788"
+    },
+    {
+      "round_number": 2,
+      "proposer_argument": {
+        "id": "f928db50",
+        "round_number": 2,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nAkbar the Great's accession in 1556 marked the beginning of the era of the great Mughals.\n\nEVIDENCE REVIEW\nClaim A: The retrieved evidence shows that Babur founded the Mughal Empire in 1526 after defeating Ibrahim Lodi at the First Battle of Panipat, establishing Mughal rule in India. However, historical accounts describe Babur's reign as relatively short and limited in scope, with the empire being still in its formative stages and not yet exhibiting the characteristics of a \"great\" or \"golden\" age.\n\nClaim B: The retrieved evidence demonstrates that Akbar's accession in 1556 marked a transformative period in Mughal history. Under Akbar, the empire expanded dramatically through military conquests, administrative reforms were implemented, religious tolerance was practiced, and a distinct Mughal culture flourished. Historians widely recognize Akbar's reign (1556-1605) as the golden age of the Mughal Empire, characterized by unprecedented political stability, economic prosperity, cultural achievement, and architectural marvels.\n\nREASONING\nThe core issue centers on the definition of \"the era of the great Mughals\" - whether it refers to the founding of the empire or the period of its greatest cultural, administrative, and territorial achievement. While Babur's 1526 victory established Mughal political dominance, the empire's true \"greatness\" emerged under Akbar's leadership. Historical consensus indicates that the characteristics that define the \"great Mughal era\" - administrative sophistication, cultural synthesis, territorial expansion, and relative peace - developed primarily during Akbar's 49-year reign. Therefore, Akbar's accession represents the true beginning of the \"great\" era of the Mughals.\n\nSOURCE BASIS\nClaim A is supported by evidence of Babur's 1526 victory establishing the Mughal Empire, though this represents empire foundation rather than its golden age. Claim B is supported by extensive historical documentation of Akbar's transformative reign beginning in 1556, including accounts from contemporary historians like Abul Fazl, architectural achievements, and the implementation of policies that defined the classical period of Mughal civilization.\n\nCONCLUSION\nBased on the evidence, Akbar's accession in 1556 represents the actual beginning of the era of the great Mughals, as this period marked the transformation from a fledgling empire established by Babur into the culturally, administratively, and territorially remarkable civilization that defined Mughal greatness.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "factual",
+        "strategy_used": "factual",
+        "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+        "created_at": "2026-10-16T20:57:36.222850"
+      },
+      "critic_arguments": [
+        {
+          "id": "f8619e8e",
+          "round_number": 2,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nThe argument assumes a singular definition of \"the era of the great Mughals\" without acknowledging historiographical debate. While the proposal defines this period as beginning with Akbar's reign, some historians argue that the \"great\" era encompasses the entire empire from its foundation, including Babur's achievements.\n\nWHY IT MATTERS\nThis definitional issue creates ambiguity in the debate's core question. Different historians interpret \"greatness\" differently - some focusing on territorial and administrative achievements (which peaked under Akbar), while others consider the entire imperial project from its origins as part of its greatness.\n\nIMPROVEMENT\nThe argument should acknowledge competing definitions and explicitly justify why the \"golden age\" definition is preferred over alternative interpretations of Mughal greatness.",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "critique_no_objection",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T20:57:56.184122"
+        },
+        {
+          "id": "bee23b67",
+          "round_number": 2,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nThe evidence review presents a dichotomy between Babur's brief reign and Akbar's golden age without nuance. Historical evidence shows that Babur's initial conquests established crucial foundations, and his legacy had lasting impacts that shaped later Mughal development.\n\nWHY IT MATTERS\nBy downplaying Babur's contributions, the critique oversimplifies the historical continuity between the empire's founding and its classical period. This ignores how early military strategies, administrative practices, and cultural foundations established by Babur enabled Akbar's later successes.\n\nIMPROVEMENT\nThe evidence review should present a more balanced view that recognizes Babur's foundational role while still maintaining that Akbar's reign marked the period of true \"greatness\" in terms of cultural flourishing, administrative sophistication, and territorial expansion.",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T20:57:56.184168"
+        }
+      ],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T20:57:06.607050",
+      "completed_at": "2026-10-16T20:57:56.184192"
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": {
+          "id": "7c6a5527",
+          "round_number": 1,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nAkbar the Great's accession in 1556 marked the beginning of the era of the great mughals.\n\nEVIDENCE REVIEW\nClaim A: The retrieved evidence suggests that while Babur founded the Mughal Empire in 1526 after his victory at the Battle of Khanwa, historical consensus often considers his reign too brief and limited in scope to constitute the \"great mughals era.\"\n\nClaim B: Historical evidence indicates that Akbar's accession in 1556 initiated what historians recognize as the golden age of the Mughal Empire. Under Akbar's rule (1556-1605), the empire experienced significant territorial expansion, administrative reforms, cultural synthesis, and architectural achievements that define the \"great mughals era.\"\n\nREASONING\nThe core issue involves distinguishing between the foundation of an empire and the beginning of its most influential era. While Babur established the Mughal dynasty in 1526, the term \"great mughals\" typically refers to a period of significant political power, cultural achievement, and administrative sophistication. Akbar's reign initiated this transformative period, making 1556 the more historically appropriate starting point for the \"era of the great mughals.\"\n\nSOURCE BASIS\nClaim A: Based on Babur's founding of the Mughal Empire in 1526\nClaim B: Based on Akbar's accession in 1556 marking the beginning of the golden age\n\nCONCLUSION\nThe era of the great mughals began with Akbar's accession in 1556, as this marked the start of the period characterized by the empire's greatest achievements and defining historical impact.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "factual",
+          "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+          "created_at": "2026-10-16T20:56:23.465085"
+        },
+        "critic_arguments": [
+          {
+            "id": "d47414b6",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nThe argument relies on the term \"great mughals era\" without providing a clear definition or historical consensus on what constitutes this \"great\" period\nWHY IT MATTERS\nWithout establishing what specific characteristics define the \"great mughals era,\" the comparison between Babur's and Akbar's reigns lacks a solid evidentiary foundation, making the conclusion dependent on subjective interpretation rather than historical analysis\nIMPROVEMENT\nNeed to provide explicit historical sources that define the criteria for \"great mughals era\" or acknowledge this as a historiographical interpretation rather than an established fact",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "critique_substantive",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T20:56:57.264284"
+          },
+          {
+            "id": "3a1da5d9",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nThe evidence treats the beginning of an \"era\" as synonymous with the start of significant achievements, rather than examining what historically marks the transition from empire foundation to golden age\nWHY IT MATTERS\nDefining the beginning of an era typically requires identifying specific transformative events, policy changes, or structural shifts - not merely cataloguing achievements that occur during a ruler's reign\nIMPROVEMENT\nShould examine what specific historical transformations occurred around Akbar's accession in 1556 that fundamentally changed the empire's character, rather than simply noting achievements under his rule",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T20:56:57.264324"
+          }
+        ],
+        "reviser_argument": {
+          "id": "7cb55c9e",
+          "round_number": 1,
+          "role": "reviser",
+          "agent_id": "reviser",
+          "content": "REVISED POSITION\nThe era of the great mughals began with the accession of Akbar the Great in 1556, as this marked the transition from a newly established empire to a politically sophisticated and culturally flourishing state that historians identify as the defining period of Mughal greatness.\n\nCRITIQUE RESPONSES\nCritique 1: I acknowledge that \"great mughals era\" is primarily a historiographical interpretation rather than an established historical term with precise boundaries. However, historians consistently identify this period through specific criteria: territorial consolidation beyond the original Delhi Sultanate heartland, institutionalized administrative systems including the mansabdari and revenue frameworks, sustained cultural synthesis between Persian, Indian, and indigenous traditions, and architectural innovations that created enduring monuments. These shared characteristics across multiple rulers of the period provide the evidentiary foundation for distinguishing this era from the empire's foundational years.\n\nCritique 2: I address this by focusing on the transformative events and structural changes that occurred specifically around Akbar's accession in 1556, rather than merely listing achievements during his reign. The death of Humayun in 1556 created a power vacuum that Akbar, at age 13, filled with the support of Bairam Khan, representing a crucial transition from a fragile, newly conquered territory to a more stable imperial structure. The subsequent military campaigns, particularly the capture of Delhi and Gujarat, expanded Mughal control beyond the Indo-Gangetic heartland. Most significantly, the establishment of central administrative institutions under Akbar's early regency—standardized taxation systems, bureaucratic record-keeping, and the beginning of the mansabdari system—fundamentally transformed the Mughal state from an army of conquest into a governing empire, marking the actual beginning of this transformative era.\n\nEVIDENCE REVIEW\nClaim A: Based on Babur's founding of the Mughal Empire in 1526\nClaim B: Based on Akbar's accession in 1556 marking the beginning of the golden age\n\nFINAL CONCLUSION\nThe era of the great mughals began with Akbar's accession in 1556, as this moment initiated the specific historical transformations—administrative institutionalization, territorial expansion beyond initial conquest, and cultural synthesis—that collectively define the period historians recognize as the empire's greatest and most influential era.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "factual_revision",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T20:57:06.606749"
+        },
+        "started_at": "2026-10-16T20:55:55.787188",
+        "completed_at": "2026-10-16T20:57:06.606788"
+      },
+      {
+        "round_number": 2,
+        "proposer_argument": {
+          "id": "f928db50",
+          "round_number": 2,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nAkbar the Great's accession in 1556 marked the beginning of the era of the great Mughals.\n\nEVIDENCE REVIEW\nClaim A: The retrieved evidence shows that Babur founded the Mughal Empire in 1526 after defeating Ibrahim Lodi at the First Battle of Panipat, establishing Mughal rule in India. However, historical accounts describe Babur's reign as relatively short and limited in scope, with the empire being still in its formative stages and not yet exhibiting the characteristics of a \"great\" or \"golden\" age.\n\nClaim B: The retrieved evidence demonstrates that Akbar's accession in 1556 marked a transformative period in Mughal history. Under Akbar, the empire expanded dramatically through military conquests, administrative reforms were implemented, religious tolerance was practiced, and a distinct Mughal culture flourished. Historians widely recognize Akbar's reign (1556-1605) as the golden age of the Mughal Empire, characterized by unprecedented political stability, economic prosperity, cultural achievement, and architectural marvels.\n\nREASONING\nThe core issue centers on the definition of \"the era of the great Mughals\" - whether it refers to the founding of the empire or the period of its greatest cultural, administrative, and territorial achievement. While Babur's 1526 victory established Mughal political dominance, the empire's true \"greatness\" emerged under Akbar's leadership. Historical consensus indicates that the characteristics that define the \"great Mughal era\" - administrative sophistication, cultural synthesis, territorial expansion, and relative peace - developed primarily during Akbar's 49-year reign. Therefore, Akbar's accession represents the true beginning of the \"great\" era of the Mughals.\n\nSOURCE BASIS\nClaim A is supported by evidence of Babur's 1526 victory establishing the Mughal Empire, though this represents empire foundation rather than its golden age. Claim B is supported by extensive historical documentation of Akbar's transformative reign beginning in 1556, including accounts from contemporary historians like Abul Fazl, architectural achievements, and the implementation of policies that defined the classical period of Mughal civilization.\n\nCONCLUSION\nBased on the evidence, Akbar's accession in 1556 represents the actual beginning of the era of the great Mughals, as this period marked the transformation from a fledgling empire established by Babur into the culturally, administratively, and territorially remarkable civilization that defined Mughal greatness.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "factual",
+          "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+          "created_at": "2026-10-16T20:57:36.222850"
+        },
+        "critic_arguments": [
+          {
+            "id": "f8619e8e",
+            "round_number": 2,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nThe argument assumes a singular definition of \"the era of the great Mughals\" without acknowledging historiographical debate. While the proposal defines this period as beginning with Akbar's reign, some historians argue that the \"great\" era encompasses the entire empire from its foundation, including Babur's achievements.\n\nWHY IT MATTERS\nThis definitional issue creates ambiguity in the debate's core question. Different historians interpret \"greatness\" differently - some focusing on territorial and administrative achievements (which peaked under Akbar), while others consider the entire imperial project from its origins as part of its greatness.\n\nIMPROVEMENT\nThe argument should acknowledge competing definitions and explicitly justify why the \"golden age\" definition is preferred over alternative interpretations of Mughal greatness.",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "critique_no_objection",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T20:57:56.184122"
+          },
+          {
+            "id": "bee23b67",
+            "round_number": 2,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nThe evidence review presents a dichotomy between Babur's brief reign and Akbar's golden age without nuance. Historical evidence shows that Babur's initial conquests established crucial foundations, and his legacy had lasting impacts that shaped later Mughal development.\n\nWHY IT MATTERS\nBy downplaying Babur's contributions, the critique oversimplifies the historical continuity between the empire's founding and its classical period. This ignores how early military strategies, administrative practices, and cultural foundations established by Babur enabled Akbar's later successes.\n\nIMPROVEMENT\nThe evidence review should present a more balanced view that recognizes Babur's foundational role while still maintaining that Akbar's reign marked the period of true \"greatness\" in terms of cultural flourishing, administrative sophistication, and territorial expansion.",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T20:57:56.184168"
+          }
+        ],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T20:57:06.607050",
+        "completed_at": "2026-10-16T20:57:56.184192"
+      }
+    ],
+    "status": "completed",
+    "stop_reason": "no_objection",
+    "failed_stages": [],
+    "rounds_used": 2
+  },
+  "judge_result": {
+    "winner": "candidate_2",
+    "reason": "Akbar's 1556 accession initiated the transformative administrative and territorial changes that define the 'great mughals era' as a distinct historical period, not merely the empire's founding. The revision addresses key criticisms by identifying specific structural changes (mansabdari system, centralized administration, territorial expansion) that distinguish this era from Babur's brief conquests.",
+    "evidence_score": 0.85,
+    "reasoning_score": 0.9,
+    "source_score": 0.8,
+    "confidence": 0.85,
+    "scores": {
+      "candidate_1": 0.85,
+      "candidate_2": 0.9
+    },
+    "evaluated_at": "2026-10-16T20:58:23.396746"
+  },
+  "final_answer": {
+    "query": "The era of the great mughals began with the accession of?",
+    "answer": "A FACTUAL conflict was detected and resolved through structured debate.\n\nResolution: Akbar the Great. His accession in 1556 marked the beginning of the era of the great mughals.\n\nJudge's reasoning: Akbar's 1556 accession initiated the transformative administrative and territorial changes that define the 'great mughals era' as a distinct historical period, not merely the empire's founding. The revision addresses key criticisms by identifying specific structural changes (mansabdari system, centralized administration, territorial expansion) that distinguish this era from Babur's brief conquests.",
+    "reasoning": "At least one pair exceeded contradiction threshold (0.7): score=0.997",
+    "evidence_state": "disagreement",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mughal_empire",
+        "title": "Mughal Empire - Wikipedia",
+        "snippet": "The Mughal administration emphasised the agrarian reform that began under the non-Mughal emperor Sher Shah Suri, which Akbar adopted and furthered with more reforms.",
+        "metadata": {
+          "search_query": "The era of the great mughals began with the accession of?"
+        },
+        "retrieved_at": "2026-10-16T20:55:05.770388",
+        "credibility_score": null
+      },
+      {
+        "url": "https://vajiramandravi.com/upsc-exam/mughal-empire/",
+        "title": "Mughal Empire, History, Timeline, Rulers, Map, Administration",
+        "snippet": "Mughal Empire Timeline Mughal Empire timeline spans from 1526 to 1857, beginning with its establishment by Babur after the First Battle of Panipat, thriving during the era of the Great Mughals (1526-1707) from Akbar to Aurangzeb, and eventually declining under the Later Mughals until its formal dissolution in 1857. Mughal Empire Map",
+        "metadata": {
+          "search_query": "The era of the great mughals began with the accession of?"
+        },
+        "retrieved_at": "2026-10-16T20:55:05.770398",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=783",
+        "title": "Alexander the Great",
+        "snippet": "Indo-Persian poets such as Amir Khusrau and the prominence of Alexander the Great as a popular subject in Mughal-era Persian miniatures. Alexander's legacy",
+        "metadata": {
+          "search_query": "The era of the great mughals began with the accession of?"
+        },
+        "retrieved_at": "2026-10-16T20:55:29.209300",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=432324",
+        "title": "List of emperors of the Mughal Empire",
+        "snippet": "Timurid family tree Mughal-Mongol genealogy List of Mughal empresses Schimmel, Annemarie (2004). The Empire of the Great Mughals: History, Art and Culture",
+        "metadata": {
+          "search_query": "The era of the great mughals began with the accession of?"
+        },
+        "retrieved_at": "2026-10-16T20:55:29.209312",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=675662",
+        "title": "Rana Sanga",
+        "snippet": "Rajput clans for the first time since the Prithviraj Chauhan era, built an army of 100,000 Rajput soldiers, and advanced to Agra. The Mughals captured Bayana's",
+        "metadata": {
+          "search_query": "The era of the great mughals began with the accession of?"
+        },
+        "retrieved_at": "2026-10-16T20:55:29.209319",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=18945005",
+        "title": "Akbar",
+        "snippet": "Mughal forces began the conquest of Garha, a thinly populated, hilly area in central India that was of interest to the Mughals because of its herd of",
+        "metadata": {
+          "search_query": "The era of the great mughals began with the accession of?"
+        },
+        "retrieved_at": "2026-10-16T20:55:29.209325",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=31723",
+        "title": "History of the United Kingdom",
+        "snippet": "came into being with the political union of the kingdoms of England and Scotland, into a new unitary state called Great Britain. The first decades were",
+        "metadata": {
+          "search_query": "The era of the great mughals began with the accession of?"
+        },
+        "retrieved_at": "2026-10-16T20:55:29.209332",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "Akbar the Great. His accession in 1556 marked the beginning of the era of the great mughals.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T20:55:20.081051",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": true,
+    "conflict": {
+      "id": "55e5730b",
+      "type": "unknown",
+      "confidence": 0.95,
+      "explanation": "Both claims are making mutually incompatible factual assertions about the same historical event: when the era of the great Mughals began. Claim A states it began with Babur's accession, while Claim B states it began with Akbar's accession in 1556. These are contradictory factual claims about the same thing at the same time and context.",
+      "claim_a": {
+        "text": "The era of the great mughals began with the accession of Babur.",
+        "source": {
+          "url": "https://vajiramandravi.com/upsc-exam/mughal-empire/",
+          "title": "Mughal Empire, History, Timeline, Rulers, Map, Administration",
+          "snippet": "Mughal Empire Timeline Mughal Empire timeline spans from 1526 to 1857, beginning with its establishment by Babur after the First Battle of Panipat, thriving during the era of the Great Mughals (1526-1707) from Akbar to Aurangzeb, and eventually declining under the Later Mughals until its formal dissolution in 1857. Mughal Empire Map",
+          "metadata": {
+            "search_query": "The era of the great mughals began with the accession of?"
+          },
+          "retrieved_at": "2026-10-16T20:55:05.770398",
+          "credibility_score": null
+        },
+        "date": "1526",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Akbar the Great. His accession in 1556 marked the beginning of the era of the great mughals.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Akbar the Great. His accession in 1556 marked the beginning of the era of the great mughals.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T20:55:20.081051",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "metadata": {
+        "classification_status": "llm_success",
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "original_type": "factual",
+        "strategy_override": "UNKNOWN"
+      },
+      "detected_at": "2026-10-16T20:55:55.786844"
+    },
+    "debate_outcome": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "proposer_argument": {
+            "id": "7c6a5527",
+            "round_number": 1,
+            "role": "proposer",
+            "agent_id": "proposer",
+            "content": "POSITION\nAkbar the Great's accession in 1556 marked the beginning of the era of the great mughals.\n\nEVIDENCE REVIEW\nClaim A: The retrieved evidence suggests that while Babur founded the Mughal Empire in 1526 after his victory at the Battle of Khanwa, historical consensus often considers his reign too brief and limited in scope to constitute the \"great mughals era.\"\n\nClaim B: Historical evidence indicates that Akbar's accession in 1556 initiated what historians recognize as the golden age of the Mughal Empire. Under Akbar's rule (1556-1605), the empire experienced significant territorial expansion, administrative reforms, cultural synthesis, and architectural achievements that define the \"great mughals era.\"\n\nREASONING\nThe core issue involves distinguishing between the foundation of an empire and the beginning of its most influential era. While Babur established the Mughal dynasty in 1526, the term \"great mughals\" typically refers to a period of significant political power, cultural achievement, and administrative sophistication. Akbar's reign initiated this transformative period, making 1556 the more historically appropriate starting point for the \"era of the great mughals.\"\n\nSOURCE BASIS\nClaim A: Based on Babur's founding of the Mughal Empire in 1526\nClaim B: Based on Akbar's accession in 1556 marking the beginning of the golden age\n\nCONCLUSION\nThe era of the great mughals began with Akbar's accession in 1556, as this marked the start of the period characterized by the empire's greatest achievements and defining historical impact.",
+            "evidence_refs": [
+              "agent_a",
+              "agent_b"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "factual",
+            "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+            "created_at": "2026-10-16T20:56:23.465085"
+          },
+          "critic_arguments": [
+            {
+              "id": "d47414b6",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_1",
+              "content": "ISSUE\nThe argument relies on the term \"great mughals era\" without providing a clear definition or historical consensus on what constitutes this \"great\" period\nWHY IT MATTERS\nWithout establishing what specific characteristics define the \"great mughals era,\" the comparison between Babur's and Akbar's reigns lacks a solid evidentiary foundation, making the conclusion dependent on subjective interpretation rather than historical analysis\nIMPROVEMENT\nNeed to provide explicit historical sources that define the criteria for \"great mughals era\" or acknowledge this as a historiographical interpretation rather than an established fact",
+              "evidence_refs": [
+                "agent_a"
+              ],
+              "conflict_type": "factual",
+              "strategy_used": "critique_substantive",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T20:56:57.264284"
+            },
+            {
+              "id": "3a1da5d9",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_2",
+              "content": "ISSUE\nThe evidence treats the beginning of an \"era\" as synonymous with the start of significant achievements, rather than examining what historically marks the transition from empire foundation to golden age\nWHY IT MATTERS\nDefining the beginning of an era typically requires identifying specific transformative events, policy changes, or structural shifts - not merely cataloguing achievements that occur during a ruler's reign\nIMPROVEMENT\nShould examine what specific historical transformations occurred around Akbar's accession in 1556 that fundamentally changed the empire's character, rather than simply noting achievements under his rule",
+              "evidence_refs": [
+                "agent_b"
+              ],
+              "conflict_type": "factual",
+              "strategy_used": "critique",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T20:56:57.264324"
+            }
+          ],
+          "reviser_argument": {
+            "id": "7cb55c9e",
+            "round_number": 1,
+            "role": "reviser",
+            "agent_id": "reviser",
+            "content": "REVISED POSITION\nThe era of the great mughals began with the accession of Akbar the Great in 1556, as this marked the transition from a newly established empire to a politically sophisticated and culturally flourishing state that historians identify as the defining period of Mughal greatness.\n\nCRITIQUE RESPONSES\nCritique 1: I acknowledge that \"great mughals era\" is primarily a historiographical interpretation rather than an established historical term with precise boundaries. However, historians consistently identify this period through specific criteria: territorial consolidation beyond the original Delhi Sultanate heartland, institutionalized administrative systems including the mansabdari and revenue frameworks, sustained cultural synthesis between Persian, Indian, and indigenous traditions, and architectural innovations that created enduring monuments. These shared characteristics across multiple rulers of the period provide the evidentiary foundation for distinguishing this era from the empire's foundational years.\n\nCritique 2: I address this by focusing on the transformative events and structural changes that occurred specifically around Akbar's accession in 1556, rather than merely listing achievements during his reign. The death of Humayun in 1556 created a power vacuum that Akbar, at age 13, filled with the support of Bairam Khan, representing a crucial transition from a fragile, newly conquered territory to a more stable imperial structure. The subsequent military campaigns, particularly the capture of Delhi and Gujarat, expanded Mughal control beyond the Indo-Gangetic heartland. Most significantly, the establishment of central administrative institutions under Akbar's early regency—standardized taxation systems, bureaucratic record-keeping, and the beginning of the mansabdari system—fundamentally transformed the Mughal state from an army of conquest into a governing empire, marking the actual beginning of this transformative era.\n\nEVIDENCE REVIEW\nClaim A: Based on Babur's founding of the Mughal Empire in 1526\nClaim B: Based on Akbar's accession in 1556 marking the beginning of the golden age\n\nFINAL CONCLUSION\nThe era of the great mughals began with Akbar's accession in 1556, as this moment initiated the specific historical transformations—administrative institutionalization, territorial expansion beyond initial conquest, and cultural synthesis—that collectively define the period historians recognize as the empire's greatest and most influential era.",
+            "evidence_refs": [
+              "agent_a",
+              "agent_b"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "factual_revision",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T20:57:06.606749"
+          },
+          "started_at": "2026-10-16T20:55:55.787188",
+          "completed_at": "2026-10-16T20:57:06.606788"
+        },
+        {
+          "round_number": 2,
+          "proposer_argument": {
+            "id": "f928db50",
+            "round_number": 2,
+            "role": "proposer",
+            "agent_id": "proposer",
+            "content": "POSITION\nAkbar the Great's accession in 1556 marked the beginning of the era of the great Mughals.\n\nEVIDENCE REVIEW\nClaim A: The retrieved evidence shows that Babur founded the Mughal Empire in 1526 after defeating Ibrahim Lodi at the First Battle of Panipat, establishing Mughal rule in India. However, historical accounts describe Babur's reign as relatively short and limited in scope, with the empire being still in its formative stages and not yet exhibiting the characteristics of a \"great\" or \"golden\" age.\n\nClaim B: The retrieved evidence demonstrates that Akbar's accession in 1556 marked a transformative period in Mughal history. Under Akbar, the empire expanded dramatically through military conquests, administrative reforms were implemented, religious tolerance was practiced, and a distinct Mughal culture flourished. Historians widely recognize Akbar's reign (1556-1605) as the golden age of the Mughal Empire, characterized by unprecedented political stability, economic prosperity, cultural achievement, and architectural marvels.\n\nREASONING\nThe core issue centers on the definition of \"the era of the great Mughals\" - whether it refers to the founding of the empire or the period of its greatest cultural, administrative, and territorial achievement. While Babur's 1526 victory established Mughal political dominance, the empire's true \"greatness\" emerged under Akbar's leadership. Historical consensus indicates that the characteristics that define the \"great Mughal era\" - administrative sophistication, cultural synthesis, territorial expansion, and relative peace - developed primarily during Akbar's 49-year reign. Therefore, Akbar's accession represents the true beginning of the \"great\" era of the Mughals.\n\nSOURCE BASIS\nClaim A is supported by evidence of Babur's 1526 victory establishing the Mughal Empire, though this represents empire foundation rather than its golden age. Claim B is supported by extensive historical documentation of Akbar's transformative reign beginning in 1556, including accounts from contemporary historians like Abul Fazl, architectural achievements, and the implementation of policies that defined the classical period of Mughal civilization.\n\nCONCLUSION\nBased on the evidence, Akbar's accession in 1556 represents the actual beginning of the era of the great Mughals, as this period marked the transformation from a fledgling empire established by Babur into the culturally, administratively, and territorially remarkable civilization that defined Mughal greatness.",
+            "evidence_refs": [
+              "agent_a",
+              "agent_b"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "factual",
+            "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+            "created_at": "2026-10-16T20:57:36.222850"
+          },
+          "critic_arguments": [
+            {
+              "id": "f8619e8e",
+              "round_number": 2,
+              "role": "critic",
+              "agent_id": "critic_1",
+              "content": "ISSUE\nThe argument assumes a singular definition of \"the era of the great Mughals\" without acknowledging historiographical debate. While the proposal defines this period as beginning with Akbar's reign, some historians argue that the \"great\" era encompasses the entire empire from its foundation, including Babur's achievements.\n\nWHY IT MATTERS\nThis definitional issue creates ambiguity in the debate's core question. Different historians interpret \"greatness\" differently - some focusing on territorial and administrative achievements (which peaked under Akbar), while others consider the entire imperial project from its origins as part of its greatness.\n\nIMPROVEMENT\nThe argument should acknowledge competing definitions and explicitly justify why the \"golden age\" definition is preferred over alternative interpretations of Mughal greatness.",
+              "evidence_refs": [
+                "agent_a"
+              ],
+              "conflict_type": "factual",
+              "strategy_used": "critique_no_objection",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T20:57:56.184122"
+            },
+            {
+              "id": "bee23b67",
+              "round_number": 2,
+              "role": "critic",
+              "agent_id": "critic_2",
+              "content": "ISSUE\nThe evidence review presents a dichotomy between Babur's brief reign and Akbar's golden age without nuance. Historical evidence shows that Babur's initial conquests established crucial foundations, and his legacy had lasting impacts that shaped later Mughal development.\n\nWHY IT MATTERS\nBy downplaying Babur's contributions, the critique oversimplifies the historical continuity between the empire's founding and its classical period. This ignores how early military strategies, administrative practices, and cultural foundations established by Babur enabled Akbar's later successes.\n\nIMPROVEMENT\nThe evidence review should present a more balanced view that recognizes Babur's foundational role while still maintaining that Akbar's reign marked the period of true \"greatness\" in terms of cultural flourishing, administrative sophistication, and territorial expansion.",
+              "evidence_refs": [
+                "agent_b"
+              ],
+              "conflict_type": "factual",
+              "strategy_used": "critique",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T20:57:56.184168"
+            }
+          ],
+          "reviser_argument": null,
+          "started_at": "2026-10-16T20:57:06.607050",
+          "completed_at": "2026-10-16T20:57:56.184192"
+        }
+      ],
+      "status": "completed",
+      "stop_reason": "no_objection",
+      "failed_stages": [],
+      "rounds_used": 2
+    },
+    "judge_result": {
+      "winner": "candidate_2",
+      "reason": "Akbar's 1556 accession initiated the transformative administrative and territorial changes that define the 'great mughals era' as a distinct historical period, not merely the empire's founding. The revision addresses key criticisms by identifying specific structural changes (mansabdari system, centralized administration, territorial expansion) that distinguish this era from Babur's brief conquests.",
+      "evidence_score": 0.85,
+      "reasoning_score": 0.9,
+      "source_score": 0.8,
+      "confidence": 0.85,
+      "scores": {
+        "candidate_1": 0.85,
+        "candidate_2": 0.9
+      },
+      "evaluated_at": "2026-10-16T20:58:23.396746"
+    },
+    "independent_agents_agreeing": 0,
+    "source_count": 8,
+    "metadata": {
+      "evidence_state": "disagreement",
+      "conflict_type": "factual",
+      "debate_completed": true,
+      "winner": "candidate_2",
+      "confidence": 0.85
+    },
+    "generated_at": "2026-10-16T20:58:23.396910"
+  },
+  "metrics": {
+    "latency_seconds": 197.63069343566895,
+    "evidence_state": "disagreement",
+    "debate_triggered": true,
+    "conflict_type": "factual",
+    "classification_status": "llm_success",
+    "debate_status": "completed",
+    "debate_stop_reason": "no_objection",
+    "debate_rounds_used": 2,
+    "total_llm_calls_ok": 9,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      },
+      "classifier": {
+        "ok": 1,
+        "failed": 0
+      },
+      "proposer": {
+        "ok": 2,
+        "failed": 0
+      },
+      "critic": {
+        "ok": 2,
+        "failed": 0
+      },
+      "reviser": {
+        "ok": 1,
+        "failed": 0
+      },
+      "judge": {
+        "ok": 1,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 3,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 8,
+    "system": "no_typed_strategy"
+  },
+  "started_at": "2026-10-16T20:55:05.766215",
+  "completed_at": "2026-10-16T20:58:23.397012",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0006",
+    "query": "The era of the great mughals began with the accession of?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "1580 to 1650",
+    "required_facts": [
+      "1580 to 1650"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 12,
+      "answer_variants": [
+        "1580 to 1650"
+      ],
+      "annotation_explanation": "This is the only one that can be verified by looking up.",
+      "evidence_contexts": [
+        {
+          "source_domain": "quizlet.com",
+          "text": "Before making a major political decision, the Ottoman sultan was expected to. seek a fatwa. ... The Era of the Great Mughals began with the accession of.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "Mughal dynasty, Muslim dynasty of Turkic-Mongol origin that ruled most of northern ... Shah Jahān's reign was also a period of great literary activity, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Timurid and Perso-Islamic culture began to merge and blend with indigenous Indian elements into a distinct style of Mughal arts, including painting and ...",
+          "supports_answers": [
+            "1580 to 1650"
+          ]
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "Akbar, the greatest of the Mughal emperors of India. He reigned from 1556 to 1605 and extended Mughal power over most of the Indian subcontinent.",
+          "supports_answers": [
+            "1580 to 1650"
+          ]
+        },
+        {
+          "source_domain": "www.vam.ac.uk",
+          "text": "The great age of Mughal art lasted from about 1580 to 1650 and spanned the ... The author was Abu'l Fazl, the great polymath of the age, who began his work ...",
+          "supports_answers": [
+            "1580 to 1650"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Under his emperorship, the Mughal Empire reached its greatest extent with territory spanning nearly the entirety of the Indian subcontinent. Aurangzeb Alamgir I.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.toppr.com",
+          "text": "Akbar · Shahjahan · Aurangzeb · Jahangir · The period of the Great Mughals, which began in 1526 with Babur's accession to the throne, ended with the death of ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.bhu.ac.in",
+          "text": "The period of the Great Mughals, which began in 1526A.D. with Babur's accession to the throne, ended with the death of Aurangzeb in 1707A.D.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.historytoday.com",
+          "text": "Oct 10, 2005 ... The Mughal emperor died on 25 October 1605. ... Ten days after his 63rd birthday, the greatest of the Great Moguls (or Mughals) died of dysentery ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_typed_strategy",
+  "evaluation_seconds": 197.655,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

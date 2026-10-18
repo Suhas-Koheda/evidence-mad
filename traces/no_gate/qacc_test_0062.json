@@ -1,0 +1,290 @@
+{
+  "query": "When did indoor toilets become common in america?",
+  "trace_id": "f3977731-23c1-4b39-a47f-e833b01d6881",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "When did indoor toilets become common in america?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:15:48.327649"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "When did indoor toilets become common in america?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:15:48.326836"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "When did indoor toilets become common in america?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:15:53.312320"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "When did indoor toilets become common in america?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:15:53.312354"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "When did indoor toilets become common in america?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:15:53.312367"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "When did indoor toilets become common in america?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:16:33.347476"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "When did indoor toilets become common in america?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:16:38.315324"
+  },
+  "metrics": {
+    "latency_seconds": 49.99007749557495,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_gate"
+  },
+  "started_at": "2026-10-16T22:15:48.325235",
+  "completed_at": "2026-10-16T22:16:38.315368",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0062",
+    "query": "When did indoor toilets become common in america?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "1880's",
+    "required_facts": [
+      "1880's"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 79,
+      "answer_variants": [
+        "1880s"
+      ],
+      "annotation_explanation": "This is the only answer that can be verified by looking into it.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.meyerscompaniesinc.com",
+          "text": "Mar 22, 2021 ... When Did Indoor Plumbing Become Standard? Until the 1840s, indoor plumbing was primarily found in the homes of the rich. In terms of its ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.aceee.org",
+          "text": "The art and practice of indoor plumbing took nearly a century to develop, ... By 2000 the fraction of houses that heated with wood or coal was below 5%.",
+          "supports_answers": [
+            "1880s"
+          ]
+        },
+        {
+          "source_domain": "americanhistory.si.edu",
+          "text": "In the 1880s, spurred by public health reformers and a growing acceptance of “germ theory,” municipalities across the nation installed water and sewage ...",
+          "supports_answers": [
+            "1880s"
+          ]
+        },
+        {
+          "source_domain": "www.m5plumbing.com",
+          "text": "Jan 9, 2020 ... In the 1940s, due to wartime iron, steel, and copper restrictions, American manufacturers had to evolve. These restrictions ended up introducing ...",
+          "supports_answers": [
+            "1880s"
+          ]
+        },
+        {
+          "source_domain": "www.quora.com",
+          "text": "Prior to this time, indoor plumbing was not common in most households, and people relied on outhouses, wells, and other sources of water for their daily needs.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "jwheatingandair.com",
+          "text": "Apr 5, 2021 ... America did not have elaborate indoor plumbing systems in most homes until after the mid-19th century. The adaption of indoor plumbing came ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "victoriaplum.com",
+          "text": "And in the short half-century between 1875 and 1925 - the period of time between when indoor plumbing began to be widely available and when it became almost ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.quora.com",
+          "text": "Aside from one-off designs that graced castles, it wasn't until the 1880s that recognisably modern flush toilets became commonplace. (Even if the common place ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_gate",
+  "evaluation_seconds": 100.003,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

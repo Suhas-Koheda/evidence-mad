@@ -1,0 +1,148 @@
+{
+  "query": "In photosynthesis the carbon in co2 is initially fixed to what molecule?",
+  "trace_id": "1bf5d446-35fa-4a10-889c-43da606c4fb0",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "In photosynthesis the carbon in co2 is initially fixed to what molecule?",
+    "answer": "ribulose-1,5-bisphosphate (RuBP)",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-16T20:56:02.475329"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 10.790828943252563,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-16T20:55:51.684603",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0007",
+    "query": "In photosynthesis the carbon in co2 is initially fixed to what molecule?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "RuBP",
+    "required_facts": [
+      "RuBP"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 13,
+      "answer_variants": [
+        "RuBP",
+        "mesophyll cells",
+        "organic molecules"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 2 and 3",
+      "evidence_contexts": [
+        {
+          "source_domain": "quizlet.com",
+          "text": "... a radioactively-labeled carbon dioxide molecule to evaluate photosynthetic ... In photosynthesis, the carbon in CO2 is initially fixed to what molecule?",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "ripe.illinois.edu",
+          "text": "Mar 18, 2020 ... However, two key restrictions slow down photosynthesis. Rubisco aims to fix carbon dioxide, but can also fix oxygen molecules, which creates ...",
+          "supports_answers": [
+            "RuBP"
+          ]
+        },
+        {
+          "source_domain": "quizlet.com",
+          "text": "In photosynthesis, the carbon in CO2 is initially fixed to what molecule? RuBP. If all of the Glyceraldehyde 3-phosphate (G3P) made in the carbon fixation ...",
+          "supports_answers": [
+            "RuBP"
+          ]
+        },
+        {
+          "source_domain": "www.ncbi.nlm.nih.gov",
+          "text": "The initial reaction in carbon fixation. This reaction, in which carbon dioxide is converted into organic carbon, is catalyzed in the chloroplast stroma by the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nationalgeographic.org",
+          "text": "Jun 2, 2022 ... In the Calvin cycle, carbon dioxide (CO2) molecules are fixed to sugar with the help of an enzyme called RuBisCO. RuBisCO is short for ribulose- ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "earthobservatory.nasa.gov",
+          "text": "Jun 16, 2011 ... Once in the ocean, carbon dioxide gas reacts with water molecules to ... During photosynthesis, plants absorb carbon dioxide and sunlight to ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.khanacademy.org",
+          "text": "It uses up fixed carbon, wastes energy, and tends to happens when plants close ... The first step of the Calvin cycle is the fixation of carbon dioxide by ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "C4 carbon fixation or the Hatch–Slack pathway is one of three known photosynthetic processes ... CO 2 is initially fixed in the mesophyll cells in a reaction catalysed by ...",
+          "supports_answers": [
+            "mesophyll cells"
+          ]
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "For each molecule of carbon dioxide that is fixed, two molecules of NADPH and three molecules of ATP from the light reactions are required. The overall reaction ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.khanacademy.org",
+          "text": "Fixed carbon. Carbon from carbon dioxide—inorganic carbon—can be incorporated into organic molecules; this process is called carbon fixation, and the carbon ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 10.805,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

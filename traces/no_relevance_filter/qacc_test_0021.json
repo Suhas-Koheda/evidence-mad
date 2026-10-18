@@ -1,0 +1,910 @@
+{
+  "query": "Where are the organ mountains in new mexico?",
+  "trace_id": "04c1b9f5-12ea-4b08-b49f-6ef37814c51f",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Where are the organ mountains in new mexico?",
+          "answer": "Based on 5 sources:\n- Organ Mountains: The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in\n\nOrgan Mountains–Desert Peaks National Monument: The Organ Mountains–Desert Peaks National Monument is a United States national monument in the state of New Mexico, managed by the Bureau of Land Management\n\nNew Mexico: New Mexico is a landlocked state in the Southwestern region of the United States\n- It is one of the Mountain States of the southern Rocky Mountains, sharing\n\nSan Augustin Mountains: The San Augustin Mountains are a small mountain subrange located at the southern terminus of the San Andres Mountains east of Las Cruces, New Mexico\n- The\n\nKilbourne Hole: miles (48 km) west of the Franklin Mountains of El Paso, Texas, in the Potrillo volcanic field of Doña Ana County, New Mexico\n- Another maar, Hunt's Hole",
+          "claims": [
+            {
+              "id": "ae01fdcd",
+              "text": "Organ Mountains: The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in\n\nOrgan Mountains–Desert Peaks National Monument: The Organ Mountains–Desert Peaks National Monument is a United States national monument in the state of New Mexico, managed by the Bureau of Land Management\n\nNew Mexico: New Mexico is a landlocked state in the Southwestern region of the United States",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3146851",
+                "title": "Organ Mountains",
+                "snippet": "The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in",
+                "metadata": {
+                  "search_query": "Where are the organ mountains in new mexico?"
+                },
+                "retrieved_at": "2026-10-16T21:23:55.481412",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "bb390b28",
+              "text": "It is one of the Mountain States of the southern Rocky Mountains, sharing\n\nSan Augustin Mountains: The San Augustin Mountains are a small mountain subrange located at the southern terminus of the San Andres Mountains east of Las Cruces, New Mexico",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=42828178",
+                "title": "Organ Mountains–Desert Peaks National Monument",
+                "snippet": "The Organ Mountains–Desert Peaks National Monument is a United States national monument in the state of New Mexico, managed by the Bureau of Land Management",
+                "metadata": {
+                  "search_query": "Where are the organ mountains in new mexico?"
+                },
+                "retrieved_at": "2026-10-16T21:23:55.481424",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0788e10b",
+              "text": "The\n\nKilbourne Hole: miles (48 km) west of the Franklin Mountains of El Paso, Texas, in the Potrillo volcanic field of Doña Ana County, New Mexico",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=21649",
+                "title": "New Mexico",
+                "snippet": "New Mexico is a landlocked state in the Southwestern region of the United States. It is one of the Mountain States of the southern Rocky Mountains, sharing",
+                "metadata": {
+                  "search_query": "Where are the organ mountains in new mexico?"
+                },
+                "retrieved_at": "2026-10-16T21:23:55.481432",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b94b2e0f",
+              "text": "Another maar, Hunt's Hole",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=28496939",
+                "title": "San Augustin Mountains",
+                "snippet": "The San Augustin Mountains are a small mountain subrange located at the southern terminus of the San Andres Mountains east of Las Cruces, New Mexico. The",
+                "metadata": {
+                  "search_query": "Where are the organ mountains in new mexico?"
+                },
+                "retrieved_at": "2026-10-16T21:23:55.481440",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=3146851",
+              "title": "Organ Mountains",
+              "snippet": "The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in",
+              "metadata": {
+                "search_query": "Where are the organ mountains in new mexico?"
+              },
+              "retrieved_at": "2026-10-16T21:23:55.481412",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=42828178",
+              "title": "Organ Mountains–Desert Peaks National Monument",
+              "snippet": "The Organ Mountains–Desert Peaks National Monument is a United States national monument in the state of New Mexico, managed by the Bureau of Land Management",
+              "metadata": {
+                "search_query": "Where are the organ mountains in new mexico?"
+              },
+              "retrieved_at": "2026-10-16T21:23:55.481424",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=21649",
+              "title": "New Mexico",
+              "snippet": "New Mexico is a landlocked state in the Southwestern region of the United States. It is one of the Mountain States of the southern Rocky Mountains, sharing",
+              "metadata": {
+                "search_query": "Where are the organ mountains in new mexico?"
+              },
+              "retrieved_at": "2026-10-16T21:23:55.481432",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=28496939",
+              "title": "San Augustin Mountains",
+              "snippet": "The San Augustin Mountains are a small mountain subrange located at the southern terminus of the San Andres Mountains east of Las Cruces, New Mexico. The",
+              "metadata": {
+                "search_query": "Where are the organ mountains in new mexico?"
+              },
+              "retrieved_at": "2026-10-16T21:23:55.481440",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=414016",
+              "title": "Kilbourne Hole",
+              "snippet": "miles (48 km) west of the Franklin Mountains of El Paso, Texas, in the Potrillo volcanic field of Doña Ana County, New Mexico. Another maar, Hunt's Hole",
+              "metadata": {
+                "search_query": "Where are the organ mountains in new mexico?"
+              },
+              "retrieved_at": "2026-10-16T21:23:55.481447",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Organ Mountains: The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in\n\nOrgan Mountains–Desert Peaks National Monument: The Organ Mountains–Desert Peaks National Monument is a United States national monument in the state of New Mexico, managed by the Bureau of Land Management\n\nNew Mexico: New Mexico is a landlocked state in the Southwestern region of the United States. It is one of the Mountain States of the southern Rocky Mountains, sharing\n\nSan Augustin Mountains: The San Augustin Mountains are a small mountain subrange located at the southern terminus of the San Andres Mountains east of Las Cruces, New Mexico. The\n\nKilbourne Hole: miles (48 km) west of the Franklin Mountains of El Paso, Texas, in the Potrillo volcanic field of Doña Ana County, New Mexico. Another maar, Hunt's Hole",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:23:55.481583"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Where are the organ mountains in new mexico?",
+          "answer": "Based on 5 sources:\n- Organ Mountains - Wikipedia: The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in the Southwestern United States\n- Organ Mountains-Desert Peaks National Monument was declared a national monument on May 21, 2014\n- [1] They lie 10 mi (16 km) east of the city of Las Cruces, in Doña Ana County\n- [2] Organ Needle is the highest\n- Organ Mountains Wilderness Area | New Mexico - Bureau of Land Management: The Organ Mountains Wilderness Area is located in south-central New Mexico on the eastern edge of Las Cruces",
+          "claims": [
+            {
+              "id": "b3c1c82d",
+              "text": "Organ Mountains - Wikipedia: The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in the Southwestern United States",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Organ_Mountains",
+                "title": "Organ Mountains - Wikipedia",
+                "snippet": "The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in the Southwestern United States. Organ Mountains-Desert Peaks National Monument was declared a national monument on May 21, 2014. [1] They lie 10 mi (16 km) east of the city of Las Cruces, in Doña Ana County. [2] Organ Needle is the highest ...",
+                "metadata": {
+                  "search_query": "Where are the organ mountains in new mexico?"
+                },
+                "retrieved_at": "2026-10-16T21:23:55.480895",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "958d5b59",
+              "text": "Organ Mountains-Desert Peaks National Monument was declared a national monument on May 21, 2014",
+              "source": {
+                "url": "https://www.blm.gov/visit/organ-mountains-wilderness",
+                "title": "Organ Mountains Wilderness Area | New Mexico - Bureau of Land Management",
+                "snippet": "The Organ Mountains Wilderness Area is located in south-central New Mexico on the eastern edge of Las Cruces. The Organ Mountains range from 4,600 to just over 9,000 feet, and are so named because of the steep, needle-like spires that resemble the pipes of an organ.",
+                "metadata": {
+                  "search_query": "Where are the organ mountains in new mexico?"
+                },
+                "retrieved_at": "2026-10-16T21:23:55.480917",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a0e7fa8d",
+              "text": "[1] They lie 10 mi (16 km) east of the city of Las Cruces, in Doña Ana County",
+              "source": {
+                "url": "https://www.blm.gov/visit/omdp",
+                "title": "Organ Mountains-Desert Peaks National Monument | New Mexico",
+                "snippet": "The Organ Mountains-Desert Peaks National Monument was established to protect significant prehistoric, historic, geologic, and biologic resources of scientific interest, and includes four areas: the Organ Mountains, Desert Peaks, Potrillo Mountains, and Doña Ana Mountains.The Organ Mountains are a steep, angular mountain range with rocky spires that jut majestically above the Chihuahuan ...",
+                "metadata": {
+                  "search_query": "Where are the organ mountains in new mexico?"
+                },
+                "retrieved_at": "2026-10-16T21:23:55.480927",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9fc31b6f",
+              "text": "[2] Organ Needle is the highest",
+              "source": {
+                "url": "https://www.desertusa.com/desert-new-mexico/organ-mountains.html",
+                "title": "Organ Mountains in New Mexico - DesertUSA",
+                "snippet": "New Mexico's Organ Mountains Explore the Organ Mountains Trails by Jay W. Sharp The Organ Mountains, a small and rugged 9,000-foot high, 32 million-year-old range in south-central New Mexico just east of Las Cruces, have long drawn the adventurous into the rocky folds and crevices of their steep granitic and rhyolite slopes.",
+                "metadata": {
+                  "search_query": "Where are the organ mountains in new mexico?"
+                },
+                "retrieved_at": "2026-10-16T21:23:55.480934",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "adaf8463",
+              "text": "Organ Mountains Wilderness Area | New Mexico - Bureau of Land Management: The Organ Mountains Wilderness Area is located in south-central New Mexico on the eastern edge of Las Cruces",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Organ,_New_Mexico",
+                "title": "Organ, New Mexico - Wikipedia",
+                "snippet": "Organ is an unincorporated community and census-designated place in Doña Ana County, New Mexico, United States. [4][5] As of the 2020 census, Organ had a population of 242.",
+                "metadata": {
+                  "search_query": "Where are the organ mountains in new mexico?"
+                },
+                "retrieved_at": "2026-10-16T21:23:55.480942",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2e1395ba",
+              "text": "The Organ Mountains range from 4,600 to just over 9,000 feet, and are so named because of the steep, needle-like spires that resemble the pipes of an organ",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Organ_Mountains",
+                "title": "Organ Mountains - Wikipedia",
+                "snippet": "The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in the Southwestern United States. Organ Mountains-Desert Peaks National Monument was declared a national monument on May 21, 2014. [1] They lie 10 mi (16 km) east of the city of Las Cruces, in Doña Ana County. [2] Organ Needle is the highest ...",
+                "metadata": {
+                  "search_query": "Where are the organ mountains in new mexico?"
+                },
+                "retrieved_at": "2026-10-16T21:23:55.480895",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0de86b7b",
+              "text": "Organ Mountains-Desert Peaks National Monument | New Mexico: The Organ Mountains-Desert Peaks National Monument was established to protect significant prehistoric, historic, geologic, and biologic resources of scientific interest, and includes four areas: the Organ Mountains, Desert Peaks, Potrillo Mountains, and Doña Ana Mountains",
+              "source": {
+                "url": "https://www.blm.gov/visit/organ-mountains-wilderness",
+                "title": "Organ Mountains Wilderness Area | New Mexico - Bureau of Land Management",
+                "snippet": "The Organ Mountains Wilderness Area is located in south-central New Mexico on the eastern edge of Las Cruces. The Organ Mountains range from 4,600 to just over 9,000 feet, and are so named because of the steep, needle-like spires that resemble the pipes of an organ.",
+                "metadata": {
+                  "search_query": "Where are the organ mountains in new mexico?"
+                },
+                "retrieved_at": "2026-10-16T21:23:55.480917",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9f7ecb8d",
+              "text": "The Organ Mountains are a steep, angular mountain range with rocky spires that jut majestically above the Chihuahuan",
+              "source": {
+                "url": "https://www.blm.gov/visit/omdp",
+                "title": "Organ Mountains-Desert Peaks National Monument | New Mexico",
+                "snippet": "The Organ Mountains-Desert Peaks National Monument was established to protect significant prehistoric, historic, geologic, and biologic resources of scientific interest, and includes four areas: the Organ Mountains, Desert Peaks, Potrillo Mountains, and Doña Ana Mountains.The Organ Mountains are a steep, angular mountain range with rocky spires that jut majestically above the Chihuahuan ...",
+                "metadata": {
+                  "search_query": "Where are the organ mountains in new mexico?"
+                },
+                "retrieved_at": "2026-10-16T21:23:55.480927",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "10cc7f17",
+              "text": "Organ Mountains in New Mexico - DesertUSA: New Mexico's Organ Mountains Explore the Organ Mountains Trails by Jay W",
+              "source": {
+                "url": "https://www.desertusa.com/desert-new-mexico/organ-mountains.html",
+                "title": "Organ Mountains in New Mexico - DesertUSA",
+                "snippet": "New Mexico's Organ Mountains Explore the Organ Mountains Trails by Jay W. Sharp The Organ Mountains, a small and rugged 9,000-foot high, 32 million-year-old range in south-central New Mexico just east of Las Cruces, have long drawn the adventurous into the rocky folds and crevices of their steep granitic and rhyolite slopes.",
+                "metadata": {
+                  "search_query": "Where are the organ mountains in new mexico?"
+                },
+                "retrieved_at": "2026-10-16T21:23:55.480934",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ee3d248c",
+              "text": "Sharp The Organ Mountains, a small and rugged 9,000-foot high, 32 million-year-old range in south-central New Mexico just east of Las Cruces, have long drawn the adventurous into the rocky folds and crevices of their steep granitic and rhyolite slopes",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Organ,_New_Mexico",
+                "title": "Organ, New Mexico - Wikipedia",
+                "snippet": "Organ is an unincorporated community and census-designated place in Doña Ana County, New Mexico, United States. [4][5] As of the 2020 census, Organ had a population of 242.",
+                "metadata": {
+                  "search_query": "Where are the organ mountains in new mexico?"
+                },
+                "retrieved_at": "2026-10-16T21:23:55.480942",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Organ_Mountains",
+              "title": "Organ Mountains - Wikipedia",
+              "snippet": "The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in the Southwestern United States. Organ Mountains-Desert Peaks National Monument was declared a national monument on May 21, 2014. [1] They lie 10 mi (16 km) east of the city of Las Cruces, in Doña Ana County. [2] Organ Needle is the highest ...",
+              "metadata": {
+                "search_query": "Where are the organ mountains in new mexico?"
+              },
+              "retrieved_at": "2026-10-16T21:23:55.480895",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.blm.gov/visit/organ-mountains-wilderness",
+              "title": "Organ Mountains Wilderness Area | New Mexico - Bureau of Land Management",
+              "snippet": "The Organ Mountains Wilderness Area is located in south-central New Mexico on the eastern edge of Las Cruces. The Organ Mountains range from 4,600 to just over 9,000 feet, and are so named because of the steep, needle-like spires that resemble the pipes of an organ.",
+              "metadata": {
+                "search_query": "Where are the organ mountains in new mexico?"
+              },
+              "retrieved_at": "2026-10-16T21:23:55.480917",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.blm.gov/visit/omdp",
+              "title": "Organ Mountains-Desert Peaks National Monument | New Mexico",
+              "snippet": "The Organ Mountains-Desert Peaks National Monument was established to protect significant prehistoric, historic, geologic, and biologic resources of scientific interest, and includes four areas: the Organ Mountains, Desert Peaks, Potrillo Mountains, and Doña Ana Mountains.The Organ Mountains are a steep, angular mountain range with rocky spires that jut majestically above the Chihuahuan ...",
+              "metadata": {
+                "search_query": "Where are the organ mountains in new mexico?"
+              },
+              "retrieved_at": "2026-10-16T21:23:55.480927",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.desertusa.com/desert-new-mexico/organ-mountains.html",
+              "title": "Organ Mountains in New Mexico - DesertUSA",
+              "snippet": "New Mexico's Organ Mountains Explore the Organ Mountains Trails by Jay W. Sharp The Organ Mountains, a small and rugged 9,000-foot high, 32 million-year-old range in south-central New Mexico just east of Las Cruces, have long drawn the adventurous into the rocky folds and crevices of their steep granitic and rhyolite slopes.",
+              "metadata": {
+                "search_query": "Where are the organ mountains in new mexico?"
+              },
+              "retrieved_at": "2026-10-16T21:23:55.480934",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Organ,_New_Mexico",
+              "title": "Organ, New Mexico - Wikipedia",
+              "snippet": "Organ is an unincorporated community and census-designated place in Doña Ana County, New Mexico, United States. [4][5] As of the 2020 census, Organ had a population of 242.",
+              "metadata": {
+                "search_query": "Where are the organ mountains in new mexico?"
+              },
+              "retrieved_at": "2026-10-16T21:23:55.480942",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Organ Mountains - Wikipedia: The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in the Southwestern United States. Organ Mountains-Desert Peaks National Monument was declared a national monument on May 21, 2014. [1] They lie 10 mi (16 km) east of the city of Las Cruces, in Doña Ana County. [2] Organ Needle is the highest ...\n\nOrgan Mountains Wilderness Area | New Mexico - Bureau of Land Management: The Organ Mountains Wilderness Area is located in south-central New Mexico on the eastern edge of Las Cruces. The Organ Mountains range from 4,600 to just over 9,000 feet, and are so named because of the steep, needle-like spires that resemble the pipes of an organ.\n\nOrgan Mountains-Desert Peaks National Monument | New Mexico: The Organ Mountains-Desert Peaks National Monument was established to protect significant prehistoric, historic, geologic, and biologic resources of scientific interest, and includes four areas: the Organ Mountains, Desert Peaks, Potrillo Mountains, and Doña Ana Mountains.The Organ Mountains are a steep, angular mountain range with rocky spires that jut majestically above the Chihuahuan ...\n\nOrgan Mountains in New Mexico - DesertUSA: New Mexico's Organ Mountains Explore the Organ Mountains Trails by Jay W. Sharp The Organ Mountains, a small and rugged 9,000-foot high, 32 million-year-old range in south-central New Mexico just east of Las Cruces, have long drawn the adventurous into the rocky folds and crevices of their steep granitic and rhyolite slopes.\n\nOrgan, New Mexico - Wikipedia: Organ is an unincorporated community and census-designated place in Doña Ana County, New Mexico, United States. [4][5] As of the 2020 census, Organ had a population of 242.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:23:55.481251"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Where are the organ mountains in new mexico?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:23:55.482155"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Where are the organ mountains in new mexico?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The Organ Mountains are located in southern New Mexico.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=3146851",
+            "title": "Organ Mountains",
+            "snippet": "The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T21:23:55.482502",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=3146851",
+          "title": "Organ Mountains",
+          "snippet": "The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:23:55.482502",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=42828178",
+          "title": "Organ Mountains–Desert Peaks National Monument",
+          "snippet": "The Organ Mountains–Desert Peaks National Monument is a United States national monument in the state of New Mexico, managed by the Bureau of Land Management",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:23:55.482522",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=21649",
+          "title": "New Mexico",
+          "snippet": "New Mexico is a landlocked state in the Southwestern region of the United States. It is one of the Mountain States of the southern Rocky Mountains, sharing",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:23:55.482528",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=28496939",
+          "title": "San Augustin Mountains",
+          "snippet": "The San Augustin Mountains are a small mountain subrange located at the southern terminus of the San Andres Mountains east of Las Cruces, New Mexico. The",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:23:55.482538",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=414016",
+          "title": "Kilbourne Hole",
+          "snippet": "miles (48 km) west of the Franklin Mountains of El Paso, Texas, in the Potrillo volcanic field of Doña Ana County, New Mexico. Another maar, Hunt's Hole",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:23:55.482546",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:24:13.578277"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Where are the organ mountains in new mexico?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The Organ Mountains are located in southern New Mexico, 10 miles east of Las Cruces in Doña Ana County.",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Organ_Mountains",
+            "title": "Organ Mountains - Wikipedia",
+            "snippet": "The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in the Southwestern United States. Organ Mountains-Desert Peaks National Monument was declared a national monument on May 21, 2014. [1] They lie 10 mi (16 km) east of the city of Las Cruces, in Doña Ana County. [2] Organ Needle is the highest ...",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T21:24:13.578325",
+            "credibility_score": null
+          },
+          "date": "2014",
+          "version": "null",
+          "scope": "null"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Organ_Mountains",
+          "title": "Organ Mountains - Wikipedia",
+          "snippet": "The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in the Southwestern United States. Organ Mountains-Desert Peaks National Monument was declared a national monument on May 21, 2014. [1] They lie 10 mi (16 km) east of the city of Las Cruces, in Doña Ana County. [2] Organ Needle is the highest ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:24:13.578325",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.blm.gov/visit/organ-mountains-wilderness",
+          "title": "Organ Mountains Wilderness Area | New Mexico - Bureau of Land Management",
+          "snippet": "The Organ Mountains Wilderness Area is located in south-central New Mexico on the eastern edge of Las Cruces. The Organ Mountains range from 4,600 to just over 9,000 feet, and are so named because of the steep, needle-like spires that resemble the pipes of an organ.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:24:13.578334",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.blm.gov/visit/omdp",
+          "title": "Organ Mountains-Desert Peaks National Monument | New Mexico",
+          "snippet": "The Organ Mountains-Desert Peaks National Monument was established to protect significant prehistoric, historic, geologic, and biologic resources of scientific interest, and includes four areas: the Organ Mountains, Desert Peaks, Potrillo Mountains, and Doña Ana Mountains.The Organ Mountains are a steep, angular mountain range with rocky spires that jut majestically above the Chihuahuan ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:24:13.578340",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.desertusa.com/desert-new-mexico/organ-mountains.html",
+          "title": "Organ Mountains in New Mexico - DesertUSA",
+          "snippet": "New Mexico's Organ Mountains Explore the Organ Mountains Trails by Jay W. Sharp The Organ Mountains, a small and rugged 9,000-foot high, 32 million-year-old range in south-central New Mexico just east of Las Cruces, have long drawn the adventurous into the rocky folds and crevices of their steep granitic and rhyolite slopes.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:24:13.578347",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Organ,_New_Mexico",
+          "title": "Organ, New Mexico - Wikipedia",
+          "snippet": "Organ is an unincorporated community and census-designated place in Doña Ana County, New Mexico, United States. [4][5] As of the 2020 census, Organ had a population of 242.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:24:13.578353",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:24:29.055625"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Where are the organ mountains in new mexico?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:24:29.055674"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Where are the organ mountains in new mexico?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The organ mountains in new mexico are located in Doña Ana County near the city of Las Cruces, close to the U.S.-Mexico border. They form part of the larger mountainous region of south-central New Mexico.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "The organ mountains in new mexico are located in Doña Ana County near the city of Las Cruces, close to the U.S.-Mexico border. They form part of the larger mountainous region of south-central New Mexi",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:24:11.773655",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The organ mountains in new mexico are located in Doña Ana County near the city of Las Cruces, close to the U.S.-Mexico border. They form part of the larger mountainous region of south-central New Mexi",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:24:11.773655",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "The organ mountains in new mexico are located in Doña Ana County near the city of Las Cruces, close to the U.S.-Mexico border. They form part of the larger mountainous region of south-central New Mexico."
+      },
+      "retrieved_at": "2026-10-16T21:24:11.773774"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "The Organ Mountains are located in southern New Mexico.",
+        "claim_b_text": "The Organ Mountains are located in southern New Mexico, 10 miles east of Las Cruces in Doña Ana County.",
+        "label": "neutral",
+        "contradiction_score": 0.0011290620313957334,
+        "entailment_score": 0.00025090109556913376,
+        "neutral_score": 0.9993147850036621
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The Organ Mountains are located in southern New Mexico.",
+        "claim_b_text": "The organ mountains in new mexico are located in Doña Ana County near the city of Las Cruces, close to the U.S.-Mexico border. They form part of the larger mountainous region of south-central New Mexico.",
+        "label": "neutral",
+        "contradiction_score": 0.03407464176416397,
+        "entailment_score": 0.0012328150914981961,
+        "neutral_score": 0.9983698725700378
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The Organ Mountains are located in southern New Mexico, 10 miles east of Las Cruces in Doña Ana County.",
+        "claim_b_text": "The organ mountains in new mexico are located in Doña Ana County near the city of Las Cruces, close to the U.S.-Mexico border. They form part of the larger mountainous region of south-central New Mexico.",
+        "label": "neutral",
+        "contradiction_score": 0.001170592149719596,
+        "entailment_score": 0.00020506173314061016,
+        "neutral_score": 0.998624324798584
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "No search results"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "The Organ Mountains are located in southern New Mexico.",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=3146851",
+          "title": "Organ Mountains",
+          "snippet": "The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:23:55.482502",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The organ mountains in new mexico are located in Doña Ana County near the city of Las Cruces, close to the U.S.-Mexico border. They form part of the larger mountainous region of south-central New Mexico.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The organ mountains in new mexico are located in Doña Ana County near the city of Las Cruces, close to the U.S.-Mexico border. They form part of the larger mountainous region of south-central New Mexi",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:24:11.773655",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.03407464176416397
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.03407464176416397,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Where are the organ mountains in new mexico?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [reference_agent]: The Organ Mountains are located in southern New Mexico.\n- [web_agent]: The Organ Mountains are located in southern New Mexico, 10 miles east of Las Cruces in Doña Ana County.\n- [ai_answer_agent]: The organ mountains in new mexico are located in Doña Ana County near the city of Las Cruces, close to the U.S.-Mexico border. They form part of the larger mountainous region of south-central New Mexico.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=3146851",
+        "title": "Organ Mountains",
+        "snippet": "The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:23:55.482502",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=42828178",
+        "title": "Organ Mountains–Desert Peaks National Monument",
+        "snippet": "The Organ Mountains–Desert Peaks National Monument is a United States national monument in the state of New Mexico, managed by the Bureau of Land Management",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:23:55.482522",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=21649",
+        "title": "New Mexico",
+        "snippet": "New Mexico is a landlocked state in the Southwestern region of the United States. It is one of the Mountain States of the southern Rocky Mountains, sharing",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:23:55.482528",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=28496939",
+        "title": "San Augustin Mountains",
+        "snippet": "The San Augustin Mountains are a small mountain subrange located at the southern terminus of the San Andres Mountains east of Las Cruces, New Mexico. The",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:23:55.482538",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=414016",
+        "title": "Kilbourne Hole",
+        "snippet": "miles (48 km) west of the Franklin Mountains of El Paso, Texas, in the Potrillo volcanic field of Doña Ana County, New Mexico. Another maar, Hunt's Hole",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:23:55.482546",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Organ_Mountains",
+        "title": "Organ Mountains - Wikipedia",
+        "snippet": "The Organ Mountains (Spanish: La Sierra de los Órganos, Mescalero-Chiricahua: Tsé daadeezhá-yá) are a rugged mountain range in southern New Mexico in the Southwestern United States. Organ Mountains-Desert Peaks National Monument was declared a national monument on May 21, 2014. [1] They lie 10 mi (16 km) east of the city of Las Cruces, in Doña Ana County. [2] Organ Needle is the highest ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:24:13.578325",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.blm.gov/visit/organ-mountains-wilderness",
+        "title": "Organ Mountains Wilderness Area | New Mexico - Bureau of Land Management",
+        "snippet": "The Organ Mountains Wilderness Area is located in south-central New Mexico on the eastern edge of Las Cruces. The Organ Mountains range from 4,600 to just over 9,000 feet, and are so named because of the steep, needle-like spires that resemble the pipes of an organ.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:24:13.578334",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.blm.gov/visit/omdp",
+        "title": "Organ Mountains-Desert Peaks National Monument | New Mexico",
+        "snippet": "The Organ Mountains-Desert Peaks National Monument was established to protect significant prehistoric, historic, geologic, and biologic resources of scientific interest, and includes four areas: the Organ Mountains, Desert Peaks, Potrillo Mountains, and Doña Ana Mountains.The Organ Mountains are a steep, angular mountain range with rocky spires that jut majestically above the Chihuahuan ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:24:13.578340",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.desertusa.com/desert-new-mexico/organ-mountains.html",
+        "title": "Organ Mountains in New Mexico - DesertUSA",
+        "snippet": "New Mexico's Organ Mountains Explore the Organ Mountains Trails by Jay W. Sharp The Organ Mountains, a small and rugged 9,000-foot high, 32 million-year-old range in south-central New Mexico just east of Las Cruces, have long drawn the adventurous into the rocky folds and crevices of their steep granitic and rhyolite slopes.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:24:13.578347",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Organ,_New_Mexico",
+        "title": "Organ, New Mexico - Wikipedia",
+        "snippet": "Organ is an unincorporated community and census-designated place in Doña Ana County, New Mexico, United States. [4][5] As of the 2020 census, Organ had a population of 242.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:24:13.578353",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The organ mountains in new mexico are located in Doña Ana County near the city of Las Cruces, close to the U.S.-Mexico border. They form part of the larger mountainous region of south-central New Mexi",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:24:11.773655",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T21:24:32.393021"
+  },
+  "metrics": {
+    "latency_seconds": 36.913678884506226,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T21:23:55.479338",
+  "completed_at": "2026-10-16T21:24:32.393092",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0021",
+    "query": "Where are the organ mountains in new mexico?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Southern New Mexico",
+    "required_facts": [
+      "Southern New Mexico"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 30,
+      "answer_variants": [
+        "Southern New Mexico"
+      ],
+      "annotation_explanation": "It is the most widely accepted answer for this question,",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.blm.gov",
+          "text": "The Organ Mountains are a steep, angular mountain range with rocky spires that jut majestically above the Chihuahuan Desert floor to an elevation of 9,000 ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The Organ Mountains are a rugged mountain range in southern New Mexico in the Southwestern United States. Organ Mountains–Desert Peaks National Monument was ...",
+          "supports_answers": [
+            "Southern New Mexico"
+          ]
+        },
+        {
+          "source_domain": "www.blm.gov",
+          "text": "The Organ Mountains are a steep, angular mountain range with rocky spires that jut majestically above the Chihuahuan Desert floor to an elevation of 9,000 feet.",
+          "supports_answers": [
+            "Southern New Mexico"
+          ]
+        },
+        {
+          "source_domain": "peakvisor.com",
+          "text": "The Organ Mountains lie in Doña Ana County in the US state of New Mexico. The impressive set of granite spires rises from Chihuahuan Desert to the tallest ...",
+          "supports_answers": [
+            "Southern New Mexico"
+          ]
+        },
+        {
+          "source_domain": "newmexiconomad.com",
+          "text": "The Organ Mountains are a few miles east of Las Cruces. The range is a southerly extension of the larger San Andres Mountains. Both ranges create a natural ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "lascruces.com",
+          "text": "Sep 28, 2020 ... They were first documented in 1598 when Don Juan de Oñate noted them during his maiden trek over El Camino Real. In 1935, New Mexico School of ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.alltrails.com",
+          "text": "Results 1 - 10 of 35 ... According to users from AllTrails.com, the best place to hike in Organ Mountain - Desert Peaks National Monument is Dripping Springs Trail, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.desertusa.com",
+          "text": "The Organ Mountains, a small and rugged 9,000-foot high, 32 million-year-old range in south-central New Mexico just east of Las Cruces, have long drawn the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.climbing.com",
+          "text": "Dec 4, 2013 ... Get there: The Organs are 10 miles east of Las Cruces, New Mexico. The nearest major airport is El Paso, Texas, 45 miles south. Sugarloaf: From ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 36.932,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

@@ -1,0 +1,1197 @@
+{
+  "query": "Who played tom hagon in the godfather series?",
+  "trace_id": "f3bf6870-0df1-4a9b-8d9b-bc8bbe997f67",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who played tom hagon in the godfather series?",
+          "answer": "Based on 5 sources:\n- Tom Hagen - Wikipedia: Thomas Hagen is a fictional character in Mario Puzo 's 1969 novel The Godfather and Francis Ford Coppola 's films The Godfather (1972) and The Godfather Part II (1974)\n- He is portrayed by Robert Duvall in the films\n- [1] He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone\n- The Godfather Part III: Why Robert Duvall's Tom Hagen Didn't Return - /Film: Robert Duvall played Tom Hagen in the first two films in The Godfather franchise, but he didn't return for the third\n- Robert Duvall | The Godfather Wiki | Fandom: Robert Selden Duvall (born January 5, 1931 - February 15, 2026) was an American actor",
+          "claims": [
+            {
+              "id": "dae30343",
+              "text": "Tom Hagen - Wikipedia: Thomas Hagen is a fictional character in Mario Puzo 's 1969 novel The Godfather and Francis Ford Coppola 's films The Godfather (1972) and The Godfather Part II (1974)",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Tom_Hagen",
+                "title": "Tom Hagen - Wikipedia",
+                "snippet": "Thomas Hagen is a fictional character in Mario Puzo 's 1969 novel The Godfather and Francis Ford Coppola 's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. [1] He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated ...",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.805788",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2cd7ca3b",
+              "text": "He is portrayed by Robert Duvall in the films",
+              "source": {
+                "url": "https://www.slashfilm.com/2102746/robert-duvall-tom-hagen-the-godfather-part-3-absence-explained/",
+                "title": "The Godfather Part III: Why Robert Duvall's Tom Hagen Didn't Return - /Film",
+                "snippet": "Robert Duvall played Tom Hagen in the first two films in The Godfather franchise, but he didn't return for the third. Here's why.",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.805813",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2ba9f5ec",
+              "text": "[1] He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone",
+              "source": {
+                "url": "https://godfather.fandom.com/wiki/Robert_Duvall",
+                "title": "Robert Duvall | The Godfather Wiki | Fandom",
+                "snippet": "Robert Selden Duvall (born January 5, 1931 - February 15, 2026) was an American actor. He portrayed Tom Hagen. Born in San Diego, California, Robert Duvall's first film appearance was To Kill a Mockingbird in 1962. He achieved two Academy Award nominations, both of which while for working with Francis Ford Coppola, director of The Godfather. Duvall appeared as Tom Hagen in The Godfather ...",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.805822",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "19f27fa6",
+              "text": "The Godfather Part III: Why Robert Duvall's Tom Hagen Didn't Return - /Film: Robert Duvall played Tom Hagen in the first two films in The Godfather franchise, but he didn't return for the third",
+              "source": {
+                "url": "https://www.wikiwand.com/en/Tom_Hagen",
+                "title": "Tom Hagen - Wikiwand",
+                "snippet": "Thomas Hagen is a fictional character in Mario Puzo's 1969 novel The Godfather and Francis Ford Coppola's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated for an ...",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.805837",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ec056ab6",
+              "text": "Robert Duvall | The Godfather Wiki | Fandom: Robert Selden Duvall (born January 5, 1931 - February 15, 2026) was an American actor",
+              "source": {
+                "url": "https://www.slashfilm.com/2102746/robert-duvall-tom-hagen-the-godfather-part-3-absence-explained/",
+                "title": "The Godfather Part III: Why Robert Duvall's Tom Hagen Didn't Return - /Film",
+                "snippet": "Robert Duvall played Tom Hagen in the first two films in The Godfather franchise, but he didn't return for the third. Here's why.",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.805813",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e259b37b",
+              "text": "He portrayed Tom Hagen",
+              "source": {
+                "url": "https://godfather.fandom.com/wiki/Robert_Duvall",
+                "title": "Robert Duvall | The Godfather Wiki | Fandom",
+                "snippet": "Robert Selden Duvall (born January 5, 1931 - February 15, 2026) was an American actor. He portrayed Tom Hagen. Born in San Diego, California, Robert Duvall's first film appearance was To Kill a Mockingbird in 1962. He achieved two Academy Award nominations, both of which while for working with Francis Ford Coppola, director of The Godfather. Duvall appeared as Tom Hagen in The Godfather ...",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.805822",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "90e6a981",
+              "text": "Born in San Diego, California, Robert Duvall's first film appearance was To Kill a Mockingbird in 1962",
+              "source": {
+                "url": "https://www.imdb.com/title/tt0068646/characters/nm0000380",
+                "title": "The Godfather (1972) - Robert Duvall as Tom Hagen - IMDb",
+                "snippet": "Tom Hagen: Mr Corleone is Johnny Fontane's godfather. Now Italians regard that as a very close, a very sacred religious relationship. Jack Woltz: Tell your boss he can ask for anything else, but this is one favour I can't grant him. Tom Hagen: Mr. Corleone never asks a second favor once he's refused the first, understood? Jack Woltz: You don't understand. Johnny Fontane never gets that movie ...",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.805829",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2e50d3b9",
+              "text": "He achieved two Academy Award nominations, both of which while for working with Francis Ford Coppola, director of The Godfather",
+              "source": {
+                "url": "https://www.wikiwand.com/en/Tom_Hagen",
+                "title": "Tom Hagen - Wikiwand",
+                "snippet": "Thomas Hagen is a fictional character in Mario Puzo's 1969 novel The Godfather and Francis Ford Coppola's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated for an ...",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.805837",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8f5ce827",
+              "text": "Duvall appeared as Tom Hagen in The Godfather",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Tom_Hagen",
+                "title": "Tom Hagen - Wikipedia",
+                "snippet": "Thomas Hagen is a fictional character in Mario Puzo 's 1969 novel The Godfather and Francis Ford Coppola 's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. [1] He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated ...",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.805788",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3382598a",
+              "text": "The Godfather (1972) - Robert Duvall as Tom Hagen - IMDb: Tom Hagen: Mr Corleone is Johnny Fontane's godfather",
+              "source": {
+                "url": "https://www.slashfilm.com/2102746/robert-duvall-tom-hagen-the-godfather-part-3-absence-explained/",
+                "title": "The Godfather Part III: Why Robert Duvall's Tom Hagen Didn't Return - /Film",
+                "snippet": "Robert Duvall played Tom Hagen in the first two films in The Godfather franchise, but he didn't return for the third. Here's why.",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.805813",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Tom_Hagen",
+              "title": "Tom Hagen - Wikipedia",
+              "snippet": "Thomas Hagen is a fictional character in Mario Puzo 's 1969 novel The Godfather and Francis Ford Coppola 's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. [1] He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated ...",
+              "metadata": {
+                "search_query": "Who played tom hagon in the godfather series?"
+              },
+              "retrieved_at": "2026-10-16T21:42:35.805788",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.slashfilm.com/2102746/robert-duvall-tom-hagen-the-godfather-part-3-absence-explained/",
+              "title": "The Godfather Part III: Why Robert Duvall's Tom Hagen Didn't Return - /Film",
+              "snippet": "Robert Duvall played Tom Hagen in the first two films in The Godfather franchise, but he didn't return for the third. Here's why.",
+              "metadata": {
+                "search_query": "Who played tom hagon in the godfather series?"
+              },
+              "retrieved_at": "2026-10-16T21:42:35.805813",
+              "credibility_score": null
+            },
+            {
+              "url": "https://godfather.fandom.com/wiki/Robert_Duvall",
+              "title": "Robert Duvall | The Godfather Wiki | Fandom",
+              "snippet": "Robert Selden Duvall (born January 5, 1931 - February 15, 2026) was an American actor. He portrayed Tom Hagen. Born in San Diego, California, Robert Duvall's first film appearance was To Kill a Mockingbird in 1962. He achieved two Academy Award nominations, both of which while for working with Francis Ford Coppola, director of The Godfather. Duvall appeared as Tom Hagen in The Godfather ...",
+              "metadata": {
+                "search_query": "Who played tom hagon in the godfather series?"
+              },
+              "retrieved_at": "2026-10-16T21:42:35.805822",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.imdb.com/title/tt0068646/characters/nm0000380",
+              "title": "The Godfather (1972) - Robert Duvall as Tom Hagen - IMDb",
+              "snippet": "Tom Hagen: Mr Corleone is Johnny Fontane's godfather. Now Italians regard that as a very close, a very sacred religious relationship. Jack Woltz: Tell your boss he can ask for anything else, but this is one favour I can't grant him. Tom Hagen: Mr. Corleone never asks a second favor once he's refused the first, understood? Jack Woltz: You don't understand. Johnny Fontane never gets that movie ...",
+              "metadata": {
+                "search_query": "Who played tom hagon in the godfather series?"
+              },
+              "retrieved_at": "2026-10-16T21:42:35.805829",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.wikiwand.com/en/Tom_Hagen",
+              "title": "Tom Hagen - Wikiwand",
+              "snippet": "Thomas Hagen is a fictional character in Mario Puzo's 1969 novel The Godfather and Francis Ford Coppola's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated for an ...",
+              "metadata": {
+                "search_query": "Who played tom hagon in the godfather series?"
+              },
+              "retrieved_at": "2026-10-16T21:42:35.805837",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Tom Hagen - Wikipedia: Thomas Hagen is a fictional character in Mario Puzo 's 1969 novel The Godfather and Francis Ford Coppola 's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. [1] He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated ...\n\nThe Godfather Part III: Why Robert Duvall's Tom Hagen Didn't Return - /Film: Robert Duvall played Tom Hagen in the first two films in The Godfather franchise, but he didn't return for the third. Here's why.\n\nRobert Duvall | The Godfather Wiki | Fandom: Robert Selden Duvall (born January 5, 1931 - February 15, 2026) was an American actor. He portrayed Tom Hagen. Born in San Diego, California, Robert Duvall's first film appearance was To Kill a Mockingbird in 1962. He achieved two Academy Award nominations, both of which while for working with Francis Ford Coppola, director of The Godfather. Duvall appeared as Tom Hagen in The Godfather ...\n\nThe Godfather (1972) - Robert Duvall as Tom Hagen - IMDb: Tom Hagen: Mr Corleone is Johnny Fontane's godfather. Now Italians regard that as a very close, a very sacred religious relationship. Jack Woltz: Tell your boss he can ask for anything else, but this is one favour I can't grant him. Tom Hagen: Mr. Corleone never asks a second favor once he's refused the first, understood? Jack Woltz: You don't understand. Johnny Fontane never gets that movie ...\n\nTom Hagen - Wikiwand: Thomas Hagen is a fictional character in Mario Puzo's 1969 novel The Godfather and Francis Ford Coppola's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated for an ...",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:42:35.806346"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who played tom hagon in the godfather series?",
+          "answer": "Based on 5 sources:\n- Batman: Arkham: and gameplay\n- The games have collectively sold more than 32 million copies worldwide\n- Batman: Arkham Asylum, the first game in the series, was written\n\nBatman (franchise): Batman and Johnny Duncan as Robin In 1966, a Batman feature film based on the contemporaneous Batman television series was released\n- It starred Adam West\n\nStar Wars (film): are played by Drewe Henley (Red Leader, mistakenly credited as Drewe Hemley), Denis Lawson (Red Two/Wedge, credited as Dennis Lawson), Garrick Hagon (Red\n\nKingdom Come (comics): Kerry Shale as The Spectre, William DeMeritt as Billy Batson, Edoardo Ballerini as Norman McCay, Garrick Hagon as Wesley Dodds, Tom Alexander as Magog\n\nLu Kemp: Dramatiques – Déjà Vu\"\n- Archived from the original on 4 October 2011",
+          "claims": [
+            {
+              "id": "cf98e5c4",
+              "text": "Batman: Arkham: and gameplay",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=39457179",
+                "title": "Batman: Arkham",
+                "snippet": "and gameplay. The games have collectively sold more than 32 million copies worldwide. Batman: Arkham Asylum, the first game in the series, was written",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.806525",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c7cc2df3",
+              "text": "The games have collectively sold more than 32 million copies worldwide",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3318376",
+                "title": "Batman (franchise)",
+                "snippet": "Batman and Johnny Duncan as Robin In 1966, a Batman feature film based on the contemporaneous Batman television series was released. It starred Adam West",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.806536",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "4ffd6c5e",
+              "text": "Batman: Arkham Asylum, the first game in the series, was written\n\nBatman (franchise): Batman and Johnny Duncan as Robin In 1966, a Batman feature film based on the contemporaneous Batman television series was released",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=52549",
+                "title": "Star Wars (film)",
+                "snippet": "are played by Drewe Henley (Red Leader, mistakenly credited as Drewe Hemley), Denis Lawson (Red Two/Wedge, credited as Dennis Lawson), Garrick Hagon (Red",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.806543",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ca4b46de",
+              "text": "It starred Adam West\n\nStar Wars (film): are played by Drewe Henley (Red Leader, mistakenly credited as Drewe Hemley), Denis Lawson (Red Two/Wedge, credited as Dennis Lawson), Garrick Hagon (Red\n\nKingdom Come (comics): Kerry Shale as The Spectre, William DeMeritt as Billy Batson, Edoardo Ballerini as Norman McCay, Garrick Hagon as Wesley Dodds, Tom Alexander as Magog\n\nLu Kemp: Dramatiques – Déjà Vu\"",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=454751",
+                "title": "Kingdom Come (comics)",
+                "snippet": "Kerry Shale as The Spectre, William DeMeritt as Billy Batson, Edoardo Ballerini as Norman McCay, Garrick Hagon as Wesley Dodds, Tom Alexander as Magog",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.806549",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "cf42eafe",
+              "text": "Archived from the original on 4 October 2011",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=33409792",
+                "title": "Lu Kemp",
+                "snippet": "Dramatiques – Déjà Vu\". Archived from the original on 4 October 2011. \"BBC Radio 4 - 15 Minute Drama, The Pillow Book, series 2 - Fire, Episode 1\". BBC. \"BBC",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.806555",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "013a1fd2",
+              "text": "\"BBC Radio 4 - 15 Minute Drama, The Pillow Book, series 2 - Fire, Episode 1\"",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=39457179",
+                "title": "Batman: Arkham",
+                "snippet": "and gameplay. The games have collectively sold more than 32 million copies worldwide. Batman: Arkham Asylum, the first game in the series, was written",
+                "metadata": {
+                  "search_query": "Who played tom hagon in the godfather series?"
+                },
+                "retrieved_at": "2026-10-16T21:42:35.806525",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=39457179",
+              "title": "Batman: Arkham",
+              "snippet": "and gameplay. The games have collectively sold more than 32 million copies worldwide. Batman: Arkham Asylum, the first game in the series, was written",
+              "metadata": {
+                "search_query": "Who played tom hagon in the godfather series?"
+              },
+              "retrieved_at": "2026-10-16T21:42:35.806525",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=3318376",
+              "title": "Batman (franchise)",
+              "snippet": "Batman and Johnny Duncan as Robin In 1966, a Batman feature film based on the contemporaneous Batman television series was released. It starred Adam West",
+              "metadata": {
+                "search_query": "Who played tom hagon in the godfather series?"
+              },
+              "retrieved_at": "2026-10-16T21:42:35.806536",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=52549",
+              "title": "Star Wars (film)",
+              "snippet": "are played by Drewe Henley (Red Leader, mistakenly credited as Drewe Hemley), Denis Lawson (Red Two/Wedge, credited as Dennis Lawson), Garrick Hagon (Red",
+              "metadata": {
+                "search_query": "Who played tom hagon in the godfather series?"
+              },
+              "retrieved_at": "2026-10-16T21:42:35.806543",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=454751",
+              "title": "Kingdom Come (comics)",
+              "snippet": "Kerry Shale as The Spectre, William DeMeritt as Billy Batson, Edoardo Ballerini as Norman McCay, Garrick Hagon as Wesley Dodds, Tom Alexander as Magog",
+              "metadata": {
+                "search_query": "Who played tom hagon in the godfather series?"
+              },
+              "retrieved_at": "2026-10-16T21:42:35.806549",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=33409792",
+              "title": "Lu Kemp",
+              "snippet": "Dramatiques – Déjà Vu\". Archived from the original on 4 October 2011. \"BBC Radio 4 - 15 Minute Drama, The Pillow Book, series 2 - Fire, Episode 1\". BBC. \"BBC",
+              "metadata": {
+                "search_query": "Who played tom hagon in the godfather series?"
+              },
+              "retrieved_at": "2026-10-16T21:42:35.806555",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Batman: Arkham: and gameplay. The games have collectively sold more than 32 million copies worldwide. Batman: Arkham Asylum, the first game in the series, was written\n\nBatman (franchise): Batman and Johnny Duncan as Robin In 1966, a Batman feature film based on the contemporaneous Batman television series was released. It starred Adam West\n\nStar Wars (film): are played by Drewe Henley (Red Leader, mistakenly credited as Drewe Hemley), Denis Lawson (Red Two/Wedge, credited as Dennis Lawson), Garrick Hagon (Red\n\nKingdom Come (comics): Kerry Shale as The Spectre, William DeMeritt as Billy Batson, Edoardo Ballerini as Norman McCay, Garrick Hagon as Wesley Dodds, Tom Alexander as Magog\n\nLu Kemp: Dramatiques – Déjà Vu\". Archived from the original on 4 October 2011. \"BBC Radio 4 - 15 Minute Drama, The Pillow Book, series 2 - Fire, Episode 1\". BBC. \"BBC",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:42:35.806778"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who played tom hagon in the godfather series?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:42:35.807446"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "Who played tom hagon in the godfather series?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Robert Duvall played Tom Hagen in the Godfather series.",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Tom_Hagen",
+            "title": "Tom Hagen - Wikipedia",
+            "snippet": "Thomas Hagen is a fictional character in Mario Puzo 's 1969 novel The Godfather and Francis Ford Coppola 's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. [1] He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated ...",
+            "metadata": {
+              "search_query": "Who played tom hagon in the godfather series?"
+            },
+            "retrieved_at": "2026-10-16T21:42:35.808202",
+            "credibility_score": null
+          },
+          "date": "1972",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tom_Hagen",
+          "title": "Tom Hagen - Wikipedia",
+          "snippet": "Thomas Hagen is a fictional character in Mario Puzo 's 1969 novel The Godfather and Francis Ford Coppola 's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. [1] He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated ...",
+          "metadata": {
+            "search_query": "Who played tom hagon in the godfather series?"
+          },
+          "retrieved_at": "2026-10-16T21:42:35.808202",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.slashfilm.com/2102746/robert-duvall-tom-hagen-the-godfather-part-3-absence-explained/",
+          "title": "The Godfather Part III: Why Robert Duvall's Tom Hagen Didn't Return - /Film",
+          "snippet": "Robert Duvall played Tom Hagen in the first two films in The Godfather franchise, but he didn't return for the third. Here's why.",
+          "metadata": {
+            "search_query": "Who played tom hagon in the godfather series?"
+          },
+          "retrieved_at": "2026-10-16T21:42:35.808217",
+          "credibility_score": null
+        },
+        {
+          "url": "https://godfather.fandom.com/wiki/Robert_Duvall",
+          "title": "Robert Duvall | The Godfather Wiki | Fandom",
+          "snippet": "Robert Selden Duvall (born January 5, 1931 - February 15, 2026) was an American actor. He portrayed Tom Hagen. Born in San Diego, California, Robert Duvall's first film appearance was To Kill a Mockingbird in 1962. He achieved two Academy Award nominations, both of which while for working with Francis Ford Coppola, director of The Godfather. Duvall appeared as Tom Hagen in The Godfather ...",
+          "metadata": {
+            "search_query": "Who played tom hagon in the godfather series?"
+          },
+          "retrieved_at": "2026-10-16T21:42:35.808223",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0068646/characters/nm0000380",
+          "title": "The Godfather (1972) - Robert Duvall as Tom Hagen - IMDb",
+          "snippet": "Tom Hagen: Mr Corleone is Johnny Fontane's godfather. Now Italians regard that as a very close, a very sacred religious relationship. Jack Woltz: Tell your boss he can ask for anything else, but this is one favour I can't grant him. Tom Hagen: Mr. Corleone never asks a second favor once he's refused the first, understood? Jack Woltz: You don't understand. Johnny Fontane never gets that movie ...",
+          "metadata": {
+            "search_query": "Who played tom hagon in the godfather series?"
+          },
+          "retrieved_at": "2026-10-16T21:42:35.808229",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.wikiwand.com/en/Tom_Hagen",
+          "title": "Tom Hagen - Wikiwand",
+          "snippet": "Thomas Hagen is a fictional character in Mario Puzo's 1969 novel The Godfather and Francis Ford Coppola's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated for an ...",
+          "metadata": {
+            "search_query": "Who played tom hagon in the godfather series?"
+          },
+          "retrieved_at": "2026-10-16T21:42:35.808234",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:43:08.474401"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who played tom hagon in the godfather series?",
+      "status": "no_relevant_results",
+      "failure_reason": "LLM determined snippets do not answer the query",
+      "claims": [],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=39457179",
+          "title": "Batman: Arkham",
+          "snippet": "and gameplay. The games have collectively sold more than 32 million copies worldwide. Batman: Arkham Asylum, the first game in the series, was written",
+          "metadata": {
+            "search_query": "Who played tom hagon in the godfather series?"
+          },
+          "retrieved_at": "2026-10-16T21:43:08.474669",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=3318376",
+          "title": "Batman (franchise)",
+          "snippet": "Batman and Johnny Duncan as Robin In 1966, a Batman feature film based on the contemporaneous Batman television series was released. It starred Adam West",
+          "metadata": {
+            "search_query": "Who played tom hagon in the godfather series?"
+          },
+          "retrieved_at": "2026-10-16T21:43:08.474699",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=52549",
+          "title": "Star Wars (film)",
+          "snippet": "are played by Drewe Henley (Red Leader, mistakenly credited as Drewe Hemley), Denis Lawson (Red Two/Wedge, credited as Dennis Lawson), Garrick Hagon (Red",
+          "metadata": {
+            "search_query": "Who played tom hagon in the godfather series?"
+          },
+          "retrieved_at": "2026-10-16T21:43:08.474712",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=454751",
+          "title": "Kingdom Come (comics)",
+          "snippet": "Kerry Shale as The Spectre, William DeMeritt as Billy Batson, Edoardo Ballerini as Norman McCay, Garrick Hagon as Wesley Dodds, Tom Alexander as Magog",
+          "metadata": {
+            "search_query": "Who played tom hagon in the godfather series?"
+          },
+          "retrieved_at": "2026-10-16T21:43:08.474722",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=33409792",
+          "title": "Lu Kemp",
+          "snippet": "Dramatiques – Déjà Vu\". Archived from the original on 4 October 2011. \"BBC Radio 4 - 15 Minute Drama, The Pillow Book, series 2 - Fire, Episode 1\". BBC. \"BBC",
+          "metadata": {
+            "search_query": "Who played tom hagon in the godfather series?"
+          },
+          "retrieved_at": "2026-10-16T21:43:08.474734",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:43:31.894994"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who played tom hagon in the godfather series?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:43:31.895038"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who played tom hagon in the godfather series?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "I cannot verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed through available sources.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "I cannot verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed through available sources.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:43:22.192504",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "I cannot verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed through available sources.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:43:22.192504",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "I cannot verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed through available sources."
+      },
+      "retrieved_at": "2026-10-16T21:43:22.192582"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "disagreement",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Robert Duvall played Tom Hagen in the Godfather series.",
+        "claim_b_text": "I cannot verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed through available sources.",
+        "label": "contradiction",
+        "contradiction_score": 0.9,
+        "entailment_score": 0.04,
+        "neutral_score": 0.06
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "LLM determined snippets do not answer the query"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "Robert Duvall played Tom Hagen in the Godfather series.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Tom_Hagen",
+          "title": "Tom Hagen - Wikipedia",
+          "snippet": "Thomas Hagen is a fictional character in Mario Puzo 's 1969 novel The Godfather and Francis Ford Coppola 's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. [1] He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated ...",
+          "metadata": {
+            "search_query": "Who played tom hagon in the godfather series?"
+          },
+          "retrieved_at": "2026-10-16T21:42:35.808202",
+          "credibility_score": null
+        },
+        "date": "1972",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "I cannot verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed through available sources.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "I cannot verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed through available sources.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:43:22.192504",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.9
+    },
+    "rationale": "At least one pair exceeded contradiction threshold (0.7): score=0.900"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": true,
+  "contradiction_score": 0.9,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "27842cea",
+    "type": "source",
+    "confidence": 0.8,
+    "explanation": "The conflict stems from differences in source availability and verifiability. Claim A makes a factual assertion about Robert Duvall playing Tom Hagen, while Claim B states that this specific named entity cannot be confirmed through available sources, indicating a source authority/reliability issue.",
+    "claim_a": {
+      "text": "Robert Duvall played Tom Hagen in the Godfather series.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Tom_Hagen",
+        "title": "Tom Hagen - Wikipedia",
+        "snippet": "Thomas Hagen is a fictional character in Mario Puzo 's 1969 novel The Godfather and Francis Ford Coppola 's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. [1] He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated ...",
+        "metadata": {
+          "search_query": "Who played tom hagon in the godfather series?"
+        },
+        "retrieved_at": "2026-10-16T21:42:35.808202",
+        "credibility_score": null
+      },
+      "date": "1972",
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "I cannot verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed through available sources.",
+      "source": {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "I cannot verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed through available sources.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:43:22.192504",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "classification_status": "llm_success",
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent"
+    },
+    "detected_at": "2026-10-16T21:43:48.089943"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": {
+        "id": "f3d34166",
+        "round_number": 1,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nClaim A is more reliable and accurate, representing established film history.\n\nEVIDENCE REVIEW\nClaim A: Robert Duvall played Tom Hagen in the Godfather series - this is factually correct based on well-documented film information.\nClaim B: Claims inability to verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed - this is inaccurate as the role is widely documented.\n\nREASONING\nThe core issue is a discrepancy between factual film history and a claim of unverifiability. Claim A aligns with established cinema records showing Robert Duvall's role as Tom Hagen in Francis Ford Coppola's The Godfather (1972). Claim B's assertion that this information cannot be verified through available sources contradicts the extensive documentation of this iconic film performance. The minor spelling variation (\"tom hagon\" vs \"Tom Hagen\") doesn't change the factual basis of who played this character.\n\nSOURCE BASIS\nClaim A is supported by well-established film industry records, casting information, and production documentation for The Godfather trilogy. Claim B incorrectly states that this basic film information is unavailable in sources.\n\nCONCLUSION\nAccept Claim A as the accurate representation that Robert Duvall played Tom Hagen in the Godfather series, as this reflects established film history.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "source",
+        "strategy_used": "source",
+        "strategy_text_preview": "You are arguing about a source disagreement.\nEvaluate source authority, provenance, specificity, and reliability.\nPrefer stronger primary evidence where appropriate.",
+        "created_at": "2026-10-16T21:44:06.104572"
+      },
+      "critic_arguments": [
+        {
+          "id": "0b4220f4",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nClaim A contains a minor spelling consistency issue that could be improved\nWHY IT MATTERS\nWhile the factual content is correct, inconsistent spelling between \"Tom Hagen\" and \"tom hagon\" could create confusion and reduce the claim's professionalism\nIMPROVEMENT\nStandardize the spelling to \"Tom Hagen\" throughout the claim and reference to maintain accuracy and consistency",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "source",
+          "strategy_used": "critique_no_objection",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:44:23.471075"
+        },
+        {
+          "id": "8234938f",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nClaim B contains a significant factual error by asserting the information is unverifiable\nWHY IT MATTERS\nThis undermines Claim B's credibility since Tom Hagen's role and Robert Duvall's performance are extensively documented in film industry records and public knowledge\nIMPROVEMENT\nClaim B should either provide verifiable alternative information about the character or acknowledge the well-documented nature of this casting information rather than incorrectly claiming it cannot be verified",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "source",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:44:23.471114"
+        }
+      ],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T21:43:48.090271",
+      "completed_at": "2026-10-16T21:44:23.471135"
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": {
+          "id": "f3d34166",
+          "round_number": 1,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nClaim A is more reliable and accurate, representing established film history.\n\nEVIDENCE REVIEW\nClaim A: Robert Duvall played Tom Hagen in the Godfather series - this is factually correct based on well-documented film information.\nClaim B: Claims inability to verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed - this is inaccurate as the role is widely documented.\n\nREASONING\nThe core issue is a discrepancy between factual film history and a claim of unverifiability. Claim A aligns with established cinema records showing Robert Duvall's role as Tom Hagen in Francis Ford Coppola's The Godfather (1972). Claim B's assertion that this information cannot be verified through available sources contradicts the extensive documentation of this iconic film performance. The minor spelling variation (\"tom hagon\" vs \"Tom Hagen\") doesn't change the factual basis of who played this character.\n\nSOURCE BASIS\nClaim A is supported by well-established film industry records, casting information, and production documentation for The Godfather trilogy. Claim B incorrectly states that this basic film information is unavailable in sources.\n\nCONCLUSION\nAccept Claim A as the accurate representation that Robert Duvall played Tom Hagen in the Godfather series, as this reflects established film history.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "source",
+          "strategy_used": "source",
+          "strategy_text_preview": "You are arguing about a source disagreement.\nEvaluate source authority, provenance, specificity, and reliability.\nPrefer stronger primary evidence where appropriate.",
+          "created_at": "2026-10-16T21:44:06.104572"
+        },
+        "critic_arguments": [
+          {
+            "id": "0b4220f4",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nClaim A contains a minor spelling consistency issue that could be improved\nWHY IT MATTERS\nWhile the factual content is correct, inconsistent spelling between \"Tom Hagen\" and \"tom hagon\" could create confusion and reduce the claim's professionalism\nIMPROVEMENT\nStandardize the spelling to \"Tom Hagen\" throughout the claim and reference to maintain accuracy and consistency",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "source",
+            "strategy_used": "critique_no_objection",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:44:23.471075"
+          },
+          {
+            "id": "8234938f",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nClaim B contains a significant factual error by asserting the information is unverifiable\nWHY IT MATTERS\nThis undermines Claim B's credibility since Tom Hagen's role and Robert Duvall's performance are extensively documented in film industry records and public knowledge\nIMPROVEMENT\nClaim B should either provide verifiable alternative information about the character or acknowledge the well-documented nature of this casting information rather than incorrectly claiming it cannot be verified",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "source",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:44:23.471114"
+          }
+        ],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T21:43:48.090271",
+        "completed_at": "2026-10-16T21:44:23.471135"
+      }
+    ],
+    "status": "completed",
+    "stop_reason": "no_objection",
+    "failed_stages": [],
+    "rounds_used": 1
+  },
+  "judge_result": {
+    "winner": "candidate_1",
+    "reason": "Claim A is factually correct with reliable source evidence; Claim B incorrectly asserts unverifiability of well-documented information",
+    "evidence_score": 0.9,
+    "reasoning_score": 0.9,
+    "source_score": 0.8,
+    "confidence": 0.95,
+    "scores": {
+      "candidate_1": 0.9,
+      "candidate_2": 0.9
+    },
+    "evaluated_at": "2026-10-16T21:44:39.253952"
+  },
+  "final_answer": {
+    "query": "Who played tom hagon in the godfather series?",
+    "answer": "A SOURCE conflict was detected and resolved through structured debate.\n\nResolution: Robert Duvall played Tom Hagen in the Godfather series.\n\nJudge's reasoning: Claim A is factually correct with reliable source evidence; Claim B incorrectly asserts unverifiability of well-documented information",
+    "reasoning": "At least one pair exceeded contradiction threshold (0.7): score=0.900",
+    "evidence_state": "disagreement",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tom_Hagen",
+        "title": "Tom Hagen - Wikipedia",
+        "snippet": "Thomas Hagen is a fictional character in Mario Puzo 's 1969 novel The Godfather and Francis Ford Coppola 's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. [1] He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated ...",
+        "metadata": {
+          "search_query": "Who played tom hagon in the godfather series?"
+        },
+        "retrieved_at": "2026-10-16T21:42:35.808202",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.slashfilm.com/2102746/robert-duvall-tom-hagen-the-godfather-part-3-absence-explained/",
+        "title": "The Godfather Part III: Why Robert Duvall's Tom Hagen Didn't Return - /Film",
+        "snippet": "Robert Duvall played Tom Hagen in the first two films in The Godfather franchise, but he didn't return for the third. Here's why.",
+        "metadata": {
+          "search_query": "Who played tom hagon in the godfather series?"
+        },
+        "retrieved_at": "2026-10-16T21:42:35.808217",
+        "credibility_score": null
+      },
+      {
+        "url": "https://godfather.fandom.com/wiki/Robert_Duvall",
+        "title": "Robert Duvall | The Godfather Wiki | Fandom",
+        "snippet": "Robert Selden Duvall (born January 5, 1931 - February 15, 2026) was an American actor. He portrayed Tom Hagen. Born in San Diego, California, Robert Duvall's first film appearance was To Kill a Mockingbird in 1962. He achieved two Academy Award nominations, both of which while for working with Francis Ford Coppola, director of The Godfather. Duvall appeared as Tom Hagen in The Godfather ...",
+        "metadata": {
+          "search_query": "Who played tom hagon in the godfather series?"
+        },
+        "retrieved_at": "2026-10-16T21:42:35.808223",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0068646/characters/nm0000380",
+        "title": "The Godfather (1972) - Robert Duvall as Tom Hagen - IMDb",
+        "snippet": "Tom Hagen: Mr Corleone is Johnny Fontane's godfather. Now Italians regard that as a very close, a very sacred religious relationship. Jack Woltz: Tell your boss he can ask for anything else, but this is one favour I can't grant him. Tom Hagen: Mr. Corleone never asks a second favor once he's refused the first, understood? Jack Woltz: You don't understand. Johnny Fontane never gets that movie ...",
+        "metadata": {
+          "search_query": "Who played tom hagon in the godfather series?"
+        },
+        "retrieved_at": "2026-10-16T21:42:35.808229",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.wikiwand.com/en/Tom_Hagen",
+        "title": "Tom Hagen - Wikiwand",
+        "snippet": "Thomas Hagen is a fictional character in Mario Puzo's 1969 novel The Godfather and Francis Ford Coppola's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated for an ...",
+        "metadata": {
+          "search_query": "Who played tom hagon in the godfather series?"
+        },
+        "retrieved_at": "2026-10-16T21:42:35.808234",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "I cannot verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed through available sources.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:43:22.192504",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": true,
+    "conflict": {
+      "id": "27842cea",
+      "type": "source",
+      "confidence": 0.8,
+      "explanation": "The conflict stems from differences in source availability and verifiability. Claim A makes a factual assertion about Robert Duvall playing Tom Hagen, while Claim B states that this specific named entity cannot be confirmed through available sources, indicating a source authority/reliability issue.",
+      "claim_a": {
+        "text": "Robert Duvall played Tom Hagen in the Godfather series.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Tom_Hagen",
+          "title": "Tom Hagen - Wikipedia",
+          "snippet": "Thomas Hagen is a fictional character in Mario Puzo 's 1969 novel The Godfather and Francis Ford Coppola 's films The Godfather (1972) and The Godfather Part II (1974). He is portrayed by Robert Duvall in the films. [1] He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well as Ed Falco's novel The Family Corleone. Duvall was nominated ...",
+          "metadata": {
+            "search_query": "Who played tom hagon in the godfather series?"
+          },
+          "retrieved_at": "2026-10-16T21:42:35.808202",
+          "credibility_score": null
+        },
+        "date": "1972",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "I cannot verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed through available sources.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "I cannot verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed through available sources.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:43:22.192504",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "metadata": {
+        "classification_status": "llm_success",
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent"
+      },
+      "detected_at": "2026-10-16T21:43:48.089943"
+    },
+    "debate_outcome": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "proposer_argument": {
+            "id": "f3d34166",
+            "round_number": 1,
+            "role": "proposer",
+            "agent_id": "proposer",
+            "content": "POSITION\nClaim A is more reliable and accurate, representing established film history.\n\nEVIDENCE REVIEW\nClaim A: Robert Duvall played Tom Hagen in the Godfather series - this is factually correct based on well-documented film information.\nClaim B: Claims inability to verify who played \"tom hagon\" in The Godfather series as this specific named entity cannot be confirmed - this is inaccurate as the role is widely documented.\n\nREASONING\nThe core issue is a discrepancy between factual film history and a claim of unverifiability. Claim A aligns with established cinema records showing Robert Duvall's role as Tom Hagen in Francis Ford Coppola's The Godfather (1972). Claim B's assertion that this information cannot be verified through available sources contradicts the extensive documentation of this iconic film performance. The minor spelling variation (\"tom hagon\" vs \"Tom Hagen\") doesn't change the factual basis of who played this character.\n\nSOURCE BASIS\nClaim A is supported by well-established film industry records, casting information, and production documentation for The Godfather trilogy. Claim B incorrectly states that this basic film information is unavailable in sources.\n\nCONCLUSION\nAccept Claim A as the accurate representation that Robert Duvall played Tom Hagen in the Godfather series, as this reflects established film history.",
+            "evidence_refs": [
+              "agent_a",
+              "agent_b"
+            ],
+            "conflict_type": "source",
+            "strategy_used": "source",
+            "strategy_text_preview": "You are arguing about a source disagreement.\nEvaluate source authority, provenance, specificity, and reliability.\nPrefer stronger primary evidence where appropriate.",
+            "created_at": "2026-10-16T21:44:06.104572"
+          },
+          "critic_arguments": [
+            {
+              "id": "0b4220f4",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_1",
+              "content": "ISSUE\nClaim A contains a minor spelling consistency issue that could be improved\nWHY IT MATTERS\nWhile the factual content is correct, inconsistent spelling between \"Tom Hagen\" and \"tom hagon\" could create confusion and reduce the claim's professionalism\nIMPROVEMENT\nStandardize the spelling to \"Tom Hagen\" throughout the claim and reference to maintain accuracy and consistency",
+              "evidence_refs": [
+                "agent_a"
+              ],
+              "conflict_type": "source",
+              "strategy_used": "critique_no_objection",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T21:44:23.471075"
+            },
+            {
+              "id": "8234938f",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_2",
+              "content": "ISSUE\nClaim B contains a significant factual error by asserting the information is unverifiable\nWHY IT MATTERS\nThis undermines Claim B's credibility since Tom Hagen's role and Robert Duvall's performance are extensively documented in film industry records and public knowledge\nIMPROVEMENT\nClaim B should either provide verifiable alternative information about the character or acknowledge the well-documented nature of this casting information rather than incorrectly claiming it cannot be verified",
+              "evidence_refs": [
+                "agent_b"
+              ],
+              "conflict_type": "source",
+              "strategy_used": "critique",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T21:44:23.471114"
+            }
+          ],
+          "reviser_argument": null,
+          "started_at": "2026-10-16T21:43:48.090271",
+          "completed_at": "2026-10-16T21:44:23.471135"
+        }
+      ],
+      "status": "completed",
+      "stop_reason": "no_objection",
+      "failed_stages": [],
+      "rounds_used": 1
+    },
+    "judge_result": {
+      "winner": "candidate_1",
+      "reason": "Claim A is factually correct with reliable source evidence; Claim B incorrectly asserts unverifiability of well-documented information",
+      "evidence_score": 0.9,
+      "reasoning_score": 0.9,
+      "source_score": 0.8,
+      "confidence": 0.95,
+      "scores": {
+        "candidate_1": 0.9,
+        "candidate_2": 0.9
+      },
+      "evaluated_at": "2026-10-16T21:44:39.253952"
+    },
+    "independent_agents_agreeing": 0,
+    "source_count": 6,
+    "metadata": {
+      "evidence_state": "disagreement",
+      "conflict_type": "source",
+      "debate_completed": true,
+      "winner": "candidate_1",
+      "confidence": 0.95
+    },
+    "generated_at": "2026-10-16T21:44:39.254046"
+  },
+  "metrics": {
+    "latency_seconds": 123.45008111000061,
+    "evidence_state": "disagreement",
+    "debate_triggered": true,
+    "conflict_type": "source",
+    "classification_status": "llm_success",
+    "debate_status": "completed",
+    "debate_stop_reason": "no_objection",
+    "debate_rounds_used": 1,
+    "total_llm_calls_ok": 6,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      },
+      "classifier": {
+        "ok": 1,
+        "failed": 0
+      },
+      "proposer": {
+        "ok": 1,
+        "failed": 0
+      },
+      "critic": {
+        "ok": 1,
+        "failed": 0
+      },
+      "judge": {
+        "ok": 1,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 6,
+    "system": "no_gate"
+  },
+  "started_at": "2026-10-16T21:42:35.803955",
+  "completed_at": "2026-10-16T21:44:39.254098",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0032",
+    "query": "Who played tom hagon in the godfather series?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Fully verifiable.",
+    "required_facts": [
+      "Fully verifiable."
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 43,
+      "answer_variants": [
+        "Robert Duvall"
+      ],
+      "annotation_explanation": "Fully verifiable and can be looked up and put down as an answer.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "He is portrayed by Robert Duvall in the films. He also appears in the Mark Winegardner sequel novels The Godfather Returns and The Godfather's Revenge, as well ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "godfather.fandom.com",
+          "text": "Thomas \"Tom\" Hagen was the consigliere and head lawyer of the Corleone family, as well as being the adoptive son of Vito and Carmela Corleone and the ...",
+          "supports_answers": [
+            "Robert Duvall"
+          ]
+        },
+        {
+          "source_domain": "www.imdb.com",
+          "text": "Tom Hagen : Mr Corleone is Johnny Fontane's godfather. Now Italians regard that as a very close, a very sacred religious relationship.",
+          "supports_answers": [
+            "Robert Duvall"
+          ]
+        },
+        {
+          "source_domain": "www.looper.com",
+          "text": "Nov 15, 2021 ... Here's why Robert Duvall's Tom Hagen character was killed off-screen between The Godfather: Part II and The Godfather: Part III.",
+          "supports_answers": [
+            "Robert Duvall"
+          ]
+        },
+        {
+          "source_domain": "www.ea.com",
+          "text": "Recently The Godfather® II developer JC spoke about one of the voice actors in the game, Robert Duvall who will be playing the role of Tom Hagen which he ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "screenrant.com",
+          "text": "Apr 17, 2022 ... Robert Duvall's Tom Hagen is an integral part of the first two Godfather films, but his absence in the third installment is a letdown for ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.sparknotes.com",
+          "text": "In the Godfather trilogy, men separate themselves and their violence from the innocent world of women, but Tom occupies a middle ground.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "bamfstyle.com",
+          "text": "Jun 11, 2020 ... Robert Duvall as Tom Hagen, levelheaded Mafia lawyer. Lake Tahoe, Fall 1958. Film: The Godfather Part II Release Date: December 12, 1974",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_gate",
+  "evaluation_seconds": 123.479,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

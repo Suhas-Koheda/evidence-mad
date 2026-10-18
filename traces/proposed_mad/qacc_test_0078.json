@@ -1,0 +1,281 @@
+{
+  "query": "Who penned the famous indian epic the ramayana?",
+  "trace_id": "6b704128-0688-4fef-be5b-56d50a3b0603",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who penned the famous indian epic the ramayana?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:30:38.373635"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who penned the famous indian epic the ramayana?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:30:38.375383"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "Who penned the famous indian epic the ramayana?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:30:43.355220"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who penned the famous indian epic the ramayana?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:30:43.355294"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who penned the famous indian epic the ramayana?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:30:43.355314"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who penned the famous indian epic the ramayana?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:31:23.393241"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who penned the famous indian epic the ramayana?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:31:28.358181"
+  },
+  "metrics": {
+    "latency_seconds": 49.986334562301636,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "proposed_mad"
+  },
+  "started_at": "2026-10-16T22:30:38.371845",
+  "completed_at": "2026-10-16T22:31:28.358241",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0078",
+    "query": "Who penned the famous indian epic the ramayana?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "AK Ramanujan",
+    "required_facts": [
+      "AK Ramanujan"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 99,
+      "answer_variants": [
+        "AK Ramanujan"
+      ],
+      "annotation_explanation": "I chose it because the source is very trustworthy and its explicitly mentioned in context 4",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The Ramayana is a Sanskrit epic from ancient India, one of the two important epics of ... Rāma marries Sītā; the wedding is celebrated with great festivity in ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.asiahighlights.com",
+          "text": "Oct 13, 2022 ... The 2 great Indian epics are written in Sanskrit, and together form the canon of Hindu scripture. ... Who penned the Indian epic Ramayana.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.cs.ucdavis.edu",
+          "text": "The Ramayana is one of the two great Indian epics. ... As Bharata left, Rama said to him, \"I should have known that you would renounce gladly what most men ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.bbc.com",
+          "text": "Oct 19, 2011 ... Ramayana is India's most popular epic ... the late poet and scholar AK Ramanujan of the Indian epic in a compelling essay he wrote for a ...",
+          "supports_answers": [
+            "AK Ramanujan"
+          ]
+        },
+        {
+          "source_domain": "asiasociety.org",
+          "text": "A leaf from a popular Indian comic book version of Ramayana. The Ramayana is an all-popular epic in South and Southeast Asia. It is the story of King Rama ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.bl.uk",
+          "text": "Valmiki wrote 24,000 verses in his Ramayana and arranged the story into 7 books. But there are numerous and diverse versions of the epic throughout India ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.amazon.com",
+          "text": "The Ramayana: A Shortened Modern Prose Version of the Indian Epic (Penguin Classics) ; Dimensions, ‎7.6 x 5.1 x 0.6 inches ; Best Sellers Rank. #12,950 in Books ( ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "proposed_mad",
+  "evaluation_seconds": 50.002,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

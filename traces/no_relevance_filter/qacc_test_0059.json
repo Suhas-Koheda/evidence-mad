@@ -1,0 +1,296 @@
+{
+  "query": "Who sings in everybody dies in their nightmares?",
+  "trace_id": "74fc7a57-556b-492f-97a7-9ab8b1f8c186",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who sings in everybody dies in their nightmares?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:12:08.354259"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who sings in everybody dies in their nightmares?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:12:08.353045"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Who sings in everybody dies in their nightmares?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:12:18.302205"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who sings in everybody dies in their nightmares?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:12:18.302243"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who sings in everybody dies in their nightmares?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:12:18.302254"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who sings in everybody dies in their nightmares?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:12:53.364831"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who sings in everybody dies in their nightmares?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (No search results); web_agent (No search results); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "No search results"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "No search results"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:13:03.305541"
+  },
+  "metrics": {
+    "latency_seconds": 54.95437836647034,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T22:12:08.351143",
+  "completed_at": "2026-10-16T22:13:03.305585",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0059",
+    "query": "Who sings in everybody dies in their nightmares?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "XXXTENTACION's",
+    "required_facts": [
+      "XXXTENTACION's"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 75,
+      "answer_variants": [
+        "XXXTENTACION's"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 1,2,3,4,7 and 8",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Aug 25, 2017 ... Official Audio by XXXTENTACION - Everybody Dies In Their Nightmares (Audio) © 2017 Bad Vibes Forever / EMPIRE.",
+          "supports_answers": [
+            "XXXTENTACION's"
+          ]
+        },
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Mar 19, 2020 ... Listen to my favourite rapper XXXTENTACION's hit track EVERYBODY DIES IN THEIR NIGHTMARES with clean lyrics on the screen. SUBSCRIBE US.",
+          "supports_answers": [
+            "XXXTENTACION's"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "\"Everybody Dies in Their Nightmares\" is a song by American rapper XXXTentacion from his debut studio album 17 (2017). It was produced by Potsu.",
+          "supports_answers": [
+            "XXXTENTACION's"
+          ]
+        },
+        {
+          "source_domain": "www.whosampled.com",
+          "text": "\"Everybody Dies in Their Nightmares\" by XXXTENTACION sampled Shiloh Dynasty's \"JULY 27, 2015\". Listen to both songs on WhoSampled, the ultimate database of ...",
+          "supports_answers": [
+            "XXXTENTACION's"
+          ]
+        },
+        {
+          "source_domain": "www.reddit.com",
+          "text": "Oct 18, 2017 ... Tbh it's quite hard to find similar songs, since everyone has different tastes and such and what you like in \"Everybody Dies In Their ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "soundcloud.com",
+          "text": "Nov 30, 2021 ... Stream Everybody Dies In Their Nightmares by cl4pers on desktop and mobile. Play over 320 million tracks for free on SoundCloud.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "musicstax.com",
+          "text": "Songs similar to Everybody Dies In Their Nightmares by XXXTENTACION ; Make Eem Run! cover art. Bass Santana. Make Eem Run! ; Armed And Dangerous cover art. Juice ...",
+          "supports_answers": [
+            "XXXTENTACION's"
+          ]
+        },
+        {
+          "source_domain": "tunebat.com",
+          "text": "Aug 25, 2017 ... Album art for Everybody Dies In Their Nightmares by XXXTENTACION. XXXTENTACION. Everybody Dies In Their Nightmares ; Album art for Make Eem Run!",
+          "supports_answers": [
+            "XXXTENTACION's"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 54.97,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

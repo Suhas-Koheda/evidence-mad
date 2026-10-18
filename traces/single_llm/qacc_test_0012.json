@@ -1,0 +1,143 @@
+{
+  "query": "Who wrote the song rainy days and mondays?",
+  "trace_id": "a4a7b46f-1f58-4bca-944a-e54cbab4810c",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who wrote the song rainy days and mondays?",
+    "answer": "\"Rainy Days and Mondays\" was written by Roger Nichols.",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-16T21:06:34.315439"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 15.876989603042603,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-16T21:06:18.438554",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0012",
+    "query": "Who wrote the song rainy days and mondays?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Paul Williams",
+    "required_facts": [
+      "Paul Williams"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 20,
+      "answer_variants": [
+        "Paul Williams"
+      ],
+      "annotation_explanation": "This is the most common answer from the list of choices we had.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "\"Rainy Days and Mondays\" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.songfacts.com",
+          "text": "Songfacts®: · Paul Williams wrote this with Roger Nichols. · Sometimes song lyrics are written on the fly, and that was the case with a line in this song.",
+          "supports_answers": [
+            "Paul Williams"
+          ]
+        },
+        {
+          "source_domain": "www.udiscovermusic.com",
+          "text": "May 15, 2023 ... This beautiful ballad was composed by singer/songwriter Paul Williams, who wrote the lyrics, and Roger Nichols, who wrote the music; it is one ...",
+          "supports_answers": [
+            "Paul Williams"
+          ]
+        },
+        {
+          "source_domain": "nowordsnosong.medium.com",
+          "text": "Jun 9, 2018 ... It was written by Roger Nichols and Paul Williams, who between them would go on to write songs for Three Dog Night, Paul Anka and Art Garfunkel, ...",
+          "supports_answers": [
+            "Paul Williams"
+          ]
+        },
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Sep 28, 2010 ... Carpenters - Rainy Days And Mondays · Comments24K.",
+          "supports_answers": [
+            "Paul Williams"
+          ]
+        },
+        {
+          "source_domain": "secondhandsongs.com",
+          "text": "Written by: Roger Nichols, Paul Williams [US1] ; Language: English ; Released on · Rainy Days and Mondays Single April 1971 ; Other release · Carpenters Album May 14 ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "faroutmagazine.co.uk",
+          "text": "Mar 20, 2022 ... Listen to Karen Carpenter's mesmerising isolated vocals on 'Rainy Days and Mondays' · The tragic song Sonic Youth wrote about Karen Carpenter.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "thecarpenters.fandom.com",
+          "text": "Recorded in early 1971, \"Rainy Days and Mondays\" was released on The Carpenters' third and eponymous album, Carpenters. The song was originally given to the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "tunebat.com",
+          "text": "Carpenters. Rainy Days And Mondays. B♭ Major. key. 6B. camelot. 75. BPM. 3:39. duration. Release Date: 1971. Explicit: No. Album: Carpenters. Label: A&M ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 15.891,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

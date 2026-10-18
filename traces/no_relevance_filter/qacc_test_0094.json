@@ -1,0 +1,1276 @@
+{
+  "query": "Who is the longest railway station in india?",
+  "trace_id": "be968148-f999-4b00-8aa6-0531d26b04c6",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who is the longest railway station in india?",
+          "answer": "Based on 5 sources:\n- Chennai Central railway station: Central Railway Station, formerly Madras Central; station code: MAS) is a railway station in Chennai, India\n- It is one of the busiest railway stations in South\n\nList of longest tunnels: are buried, are excluded\n- The longest tunnels have been constructed for water distribution, followed by tunnels for railways\n- Bering Strait crossing Japan–Korea\n\nRailway platform: The world's longest station platform is at Hubballi Junction in India at 1,507 metres (4,944 ft)\n- The Appalachian Trail station or Benson station in the\n\nChhatrapati Shivaji Terminus: emperor",
+          "claims": [
+            {
+              "id": "fff5d722",
+              "text": "Chennai Central railway station: Central Railway Station, formerly Madras Central; station code: MAS) is a railway station in Chennai, India",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=2356183",
+                "title": "Chennai Central railway station",
+                "snippet": "Central Railway Station, formerly Madras Central; station code: MAS) is a railway station in Chennai, India. It is one of the busiest railway stations in South",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.151997",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "022efd39",
+              "text": "It is one of the busiest railway stations in South\n\nList of longest tunnels: are buried, are excluded",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=52488104",
+                "title": "List of longest tunnels",
+                "snippet": "are buried, are excluded. The longest tunnels have been constructed for water distribution, followed by tunnels for railways. Bering Strait crossing Japan–Korea",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.152016",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "6f1eb09d",
+              "text": "The longest tunnels have been constructed for water distribution, followed by tunnels for railways",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=155664",
+                "title": "Railway platform",
+                "snippet": "The world's longest station platform is at Hubballi Junction in India at 1,507 metres (4,944 ft). The Appalachian Trail station or Benson station in the",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.152031",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1b61c450",
+              "text": "Bering Strait crossing Japan–Korea\n\nRailway platform: The world's longest station platform is at Hubballi Junction in India at 1,507 metres (4,944 ft)",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=287628",
+                "title": "Chhatrapati Shivaji Terminus",
+                "snippet": "emperor. The initials VT and CST are commonly used for the station. The terminus is the headquarters of India's Central Railway zone. It is one of the busiest",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.152043",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e6234e26",
+              "text": "The Appalachian Trail station or Benson station in the\n\nChhatrapati Shivaji Terminus: emperor",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=32988055",
+                "title": "Mangalore Central railway station",
+                "snippet": "Central railway station (officially Mangaluru Central railway station)(station code: MAQ) is an NSG–2 category Indian railway station in Mysore railway division",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.152056",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "422e58c5",
+              "text": "The initials VT and CST are commonly used for the station",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=2356183",
+                "title": "Chennai Central railway station",
+                "snippet": "Central Railway Station, formerly Madras Central; station code: MAS) is a railway station in Chennai, India. It is one of the busiest railway stations in South",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.151997",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b06fc596",
+              "text": "The terminus is the headquarters of India's Central Railway zone",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=52488104",
+                "title": "List of longest tunnels",
+                "snippet": "are buried, are excluded. The longest tunnels have been constructed for water distribution, followed by tunnels for railways. Bering Strait crossing Japan–Korea",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.152016",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "770fb0ec",
+              "text": "It is one of the busiest\n\nMangalore Central railway station: Central railway station (officially Mangaluru Central railway station)(station code: MAQ) is an NSG–2 category Indian railway station in Mysore railway division",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=155664",
+                "title": "Railway platform",
+                "snippet": "The world's longest station platform is at Hubballi Junction in India at 1,507 metres (4,944 ft). The Appalachian Trail station or Benson station in the",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.152031",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=2356183",
+              "title": "Chennai Central railway station",
+              "snippet": "Central Railway Station, formerly Madras Central; station code: MAS) is a railway station in Chennai, India. It is one of the busiest railway stations in South",
+              "metadata": {
+                "search_query": "Who is the longest railway station in india?"
+              },
+              "retrieved_at": "2026-10-17T00:06:49.151997",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=52488104",
+              "title": "List of longest tunnels",
+              "snippet": "are buried, are excluded. The longest tunnels have been constructed for water distribution, followed by tunnels for railways. Bering Strait crossing Japan–Korea",
+              "metadata": {
+                "search_query": "Who is the longest railway station in india?"
+              },
+              "retrieved_at": "2026-10-17T00:06:49.152016",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=155664",
+              "title": "Railway platform",
+              "snippet": "The world's longest station platform is at Hubballi Junction in India at 1,507 metres (4,944 ft). The Appalachian Trail station or Benson station in the",
+              "metadata": {
+                "search_query": "Who is the longest railway station in india?"
+              },
+              "retrieved_at": "2026-10-17T00:06:49.152031",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=287628",
+              "title": "Chhatrapati Shivaji Terminus",
+              "snippet": "emperor. The initials VT and CST are commonly used for the station. The terminus is the headquarters of India's Central Railway zone. It is one of the busiest",
+              "metadata": {
+                "search_query": "Who is the longest railway station in india?"
+              },
+              "retrieved_at": "2026-10-17T00:06:49.152043",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=32988055",
+              "title": "Mangalore Central railway station",
+              "snippet": "Central railway station (officially Mangaluru Central railway station)(station code: MAQ) is an NSG–2 category Indian railway station in Mysore railway division",
+              "metadata": {
+                "search_query": "Who is the longest railway station in india?"
+              },
+              "retrieved_at": "2026-10-17T00:06:49.152056",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Chennai Central railway station: Central Railway Station, formerly Madras Central; station code: MAS) is a railway station in Chennai, India. It is one of the busiest railway stations in South\n\nList of longest tunnels: are buried, are excluded. The longest tunnels have been constructed for water distribution, followed by tunnels for railways. Bering Strait crossing Japan–Korea\n\nRailway platform: The world's longest station platform is at Hubballi Junction in India at 1,507 metres (4,944 ft). The Appalachian Trail station or Benson station in the\n\nChhatrapati Shivaji Terminus: emperor. The initials VT and CST are commonly used for the station. The terminus is the headquarters of India's Central Railway zone. It is one of the busiest\n\nMangalore Central railway station: Central railway station (officially Mangaluru Central railway station)(station code: MAQ) is an NSG–2 category Indian railway station in Mysore railway division",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-17T00:06:49.152372"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who is the longest railway station in india?",
+          "answer": "Based on 5 sources:\n- Which Indian Railway Station has the Longest Name\n- - adda247: The Station with the Longest Name The Puratchi Thalaivar Dr\n- Ramachandran Central Railway Station in Chennai, Tamil Nadu, has the longest name of any railway station in India\n- With a total of 57 letters, this station stands out for its unusually long name, making it one of the most unique and well-known railway stations in the country\n- The Longest Railway Station Name In India Has 57 Letters",
+          "claims": [
+            {
+              "id": "b441f1b3",
+              "text": "Which Indian Railway Station has the Longest Name",
+              "source": {
+                "url": "https://currentaffairs.adda247.com/which-indian-railway-station-has-the-longest-name/",
+                "title": "Which Indian Railway Station has the Longest Name? - adda247",
+                "snippet": "The Station with the Longest Name The Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu, has the longest name of any railway station in India. With a total of 57 letters, this station stands out for its unusually long name, making it one of the most unique and well-known railway stations in the country.",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.150794",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0f94733e",
+              "text": "- adda247: The Station with the Longest Name The Puratchi Thalaivar Dr",
+              "source": {
+                "url": "https://www.news18.com/auto/the-longest-railway-station-name-in-india-has-57-letters-details-here-8990790.html",
+                "title": "The Longest Railway Station Name In India Has 57 Letters ... - News18",
+                "snippet": "Indian Railways ranks fourth in the world's largest train network with around 1,14,500-kilometre track and about 7,500-8000 stations. But do you know out of these 8000 stations, which Indian Railway Station has the longest name?",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.150821",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "aae80df6",
+              "text": "Ramachandran Central Railway Station in Chennai, Tamil Nadu, has the longest name of any railway station in India",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Venkatanarasimharajuvaripeta_railway_station",
+                "title": "Venkatanarasimharajuvaripeta railway station - Wikipedia",
+                "snippet": "Venkatanarasimharajuvaripeta railway station or Venkata Narasimha Rajuvaripet railway station or V N Rajuvaripeta railway station (station code: VKZ) is a railway station in Andhra Pradesh on the border with Tamil Nadu, India. It is on the Renigunta - Arakkonam section of Southern Railway, with the distinction of having the second longest name among all stations on the Indian Railways ...",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.150863",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "93fe57f0",
+              "text": "With a total of 57 letters, this station stands out for its unusually long name, making it one of the most unique and well-known railway stations in the country",
+              "source": {
+                "url": "https://currentaffairs.adda247.com/which-indian-railway-station-has-the-longest-name/",
+                "title": "Which Indian Railway Station has the Longest Name? - adda247",
+                "snippet": "The Station with the Longest Name The Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu, has the longest name of any railway station in India. With a total of 57 letters, this station stands out for its unusually long name, making it one of the most unique and well-known railway stations in the country.",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.150794",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a42f7558",
+              "text": "The Longest Railway Station Name In India Has 57 Letters",
+              "source": {
+                "url": "https://www.news18.com/auto/the-longest-railway-station-name-in-india-has-57-letters-details-here-8990790.html",
+                "title": "The Longest Railway Station Name In India Has 57 Letters ... - News18",
+                "snippet": "Indian Railways ranks fourth in the world's largest train network with around 1,14,500-kilometre track and about 7,500-8000 stations. But do you know out of these 8000 stations, which Indian Railway Station has the longest name?",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.150821",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b28914e8",
+              "text": "- News18: Indian Railways ranks fourth in the world's largest train network with around 1,14,500-kilometre track and about 7,500-8000 stations",
+              "source": {
+                "url": "https://www.news18.com/photogallery/auto/this-indian-railway-station-has-the-longest-name-and-its-57-letters-long-ws-l-10051169.html",
+                "title": "This Indian Railway Station Has The Longest Name, And It's ... - News18",
+                "snippet": "With a sprawling network that stretches over 1,35,207 kilometres and covers nearly 8,000 stations, Indian Railways is one of the largest rail systems in the world. But beyond its scale and reach, it's also full of fascinating trivia. Do you know which railway station in India has the longest name?",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.150835",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "fa15d94f",
+              "text": "But do you know out of these 8000 stations, which Indian Railway Station has the longest name",
+              "source": {
+                "url": "https://www.timesnownews.com/travel/news/did-you-know-the-longest-railway-station-name-in-india-has-57-letters-article-117789164",
+                "title": "Did You Know The Longest Railway Station Name In India Has 57 Letters ...",
+                "snippet": "Located in Tamil Nadu, Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station holds the distinction of having the longest name among all railway stations in the country. The name consists of a total of 57 letters. The station was initially known as Madras Central and later Chennai Central.",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.150849",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3e76f378",
+              "text": "This Indian Railway Station Has The Longest Name, And It's",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Venkatanarasimharajuvaripeta_railway_station",
+                "title": "Venkatanarasimharajuvaripeta railway station - Wikipedia",
+                "snippet": "Venkatanarasimharajuvaripeta railway station or Venkata Narasimha Rajuvaripet railway station or V N Rajuvaripeta railway station (station code: VKZ) is a railway station in Andhra Pradesh on the border with Tamil Nadu, India. It is on the Renigunta - Arakkonam section of Southern Railway, with the distinction of having the second longest name among all stations on the Indian Railways ...",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.150863",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e3ac2322",
+              "text": "- News18: With a sprawling network that stretches over 1,35,207 kilometres and covers nearly 8,000 stations, Indian Railways is one of the largest rail systems in the world",
+              "source": {
+                "url": "https://currentaffairs.adda247.com/which-indian-railway-station-has-the-longest-name/",
+                "title": "Which Indian Railway Station has the Longest Name? - adda247",
+                "snippet": "The Station with the Longest Name The Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu, has the longest name of any railway station in India. With a total of 57 letters, this station stands out for its unusually long name, making it one of the most unique and well-known railway stations in the country.",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.150794",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c996014a",
+              "text": "But beyond its scale and reach, it's also full of fascinating trivia",
+              "source": {
+                "url": "https://www.news18.com/auto/the-longest-railway-station-name-in-india-has-57-letters-details-here-8990790.html",
+                "title": "The Longest Railway Station Name In India Has 57 Letters ... - News18",
+                "snippet": "Indian Railways ranks fourth in the world's largest train network with around 1,14,500-kilometre track and about 7,500-8000 stations. But do you know out of these 8000 stations, which Indian Railway Station has the longest name?",
+                "metadata": {
+                  "search_query": "Who is the longest railway station in india?"
+                },
+                "retrieved_at": "2026-10-17T00:06:49.150821",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://currentaffairs.adda247.com/which-indian-railway-station-has-the-longest-name/",
+              "title": "Which Indian Railway Station has the Longest Name? - adda247",
+              "snippet": "The Station with the Longest Name The Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu, has the longest name of any railway station in India. With a total of 57 letters, this station stands out for its unusually long name, making it one of the most unique and well-known railway stations in the country.",
+              "metadata": {
+                "search_query": "Who is the longest railway station in india?"
+              },
+              "retrieved_at": "2026-10-17T00:06:49.150794",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.news18.com/auto/the-longest-railway-station-name-in-india-has-57-letters-details-here-8990790.html",
+              "title": "The Longest Railway Station Name In India Has 57 Letters ... - News18",
+              "snippet": "Indian Railways ranks fourth in the world's largest train network with around 1,14,500-kilometre track and about 7,500-8000 stations. But do you know out of these 8000 stations, which Indian Railway Station has the longest name?",
+              "metadata": {
+                "search_query": "Who is the longest railway station in india?"
+              },
+              "retrieved_at": "2026-10-17T00:06:49.150821",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.news18.com/photogallery/auto/this-indian-railway-station-has-the-longest-name-and-its-57-letters-long-ws-l-10051169.html",
+              "title": "This Indian Railway Station Has The Longest Name, And It's ... - News18",
+              "snippet": "With a sprawling network that stretches over 1,35,207 kilometres and covers nearly 8,000 stations, Indian Railways is one of the largest rail systems in the world. But beyond its scale and reach, it's also full of fascinating trivia. Do you know which railway station in India has the longest name?",
+              "metadata": {
+                "search_query": "Who is the longest railway station in india?"
+              },
+              "retrieved_at": "2026-10-17T00:06:49.150835",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.timesnownews.com/travel/news/did-you-know-the-longest-railway-station-name-in-india-has-57-letters-article-117789164",
+              "title": "Did You Know The Longest Railway Station Name In India Has 57 Letters ...",
+              "snippet": "Located in Tamil Nadu, Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station holds the distinction of having the longest name among all railway stations in the country. The name consists of a total of 57 letters. The station was initially known as Madras Central and later Chennai Central.",
+              "metadata": {
+                "search_query": "Who is the longest railway station in india?"
+              },
+              "retrieved_at": "2026-10-17T00:06:49.150849",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Venkatanarasimharajuvaripeta_railway_station",
+              "title": "Venkatanarasimharajuvaripeta railway station - Wikipedia",
+              "snippet": "Venkatanarasimharajuvaripeta railway station or Venkata Narasimha Rajuvaripet railway station or V N Rajuvaripeta railway station (station code: VKZ) is a railway station in Andhra Pradesh on the border with Tamil Nadu, India. It is on the Renigunta - Arakkonam section of Southern Railway, with the distinction of having the second longest name among all stations on the Indian Railways ...",
+              "metadata": {
+                "search_query": "Who is the longest railway station in india?"
+              },
+              "retrieved_at": "2026-10-17T00:06:49.150863",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Which Indian Railway Station has the Longest Name? - adda247: The Station with the Longest Name The Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu, has the longest name of any railway station in India. With a total of 57 letters, this station stands out for its unusually long name, making it one of the most unique and well-known railway stations in the country.\n\nThe Longest Railway Station Name In India Has 57 Letters ... - News18: Indian Railways ranks fourth in the world's largest train network with around 1,14,500-kilometre track and about 7,500-8000 stations. But do you know out of these 8000 stations, which Indian Railway Station has the longest name?\n\nThis Indian Railway Station Has The Longest Name, And It's ... - News18: With a sprawling network that stretches over 1,35,207 kilometres and covers nearly 8,000 stations, Indian Railways is one of the largest rail systems in the world. But beyond its scale and reach, it's also full of fascinating trivia. Do you know which railway station in India has the longest name?\n\nDid You Know The Longest Railway Station Name In India Has 57 Letters ...: Located in Tamil Nadu, Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station holds the distinction of having the longest name among all railway stations in the country. The name consists of a total of 57 letters. The station was initially known as Madras Central and later Chennai Central.\n\nVenkatanarasimharajuvaripeta railway station - Wikipedia: Venkatanarasimharajuvaripeta railway station or Venkata Narasimha Rajuvaripet railway station or V N Rajuvaripeta railway station (station code: VKZ) is a railway station in Andhra Pradesh on the border with Tamil Nadu, India. It is on the Renigunta - Arakkonam section of Southern Railway, with the distinction of having the second longest name among all stations on the Indian Railways ...",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-17T00:06:49.151509"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who is the longest railway station in india?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-17T00:06:49.152962"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Who is the longest railway station in india?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Hubballi Junction in India holds the longest station platform at 1,507 metres (4,944 ft).",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=155664",
+            "title": "Railway platform",
+            "snippet": "The world's longest station platform is at Hubballi Junction in India at 1,507 metres (4,944 ft). The Appalachian Trail station or Benson station in the",
+            "metadata": {},
+            "retrieved_at": "2026-10-17T00:06:49.153343",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=2356183",
+          "title": "Chennai Central railway station",
+          "snippet": "Central Railway Station, formerly Madras Central; station code: MAS) is a railway station in Chennai, India. It is one of the busiest railway stations in South",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:06:49.153318",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=52488104",
+          "title": "List of longest tunnels",
+          "snippet": "are buried, are excluded. The longest tunnels have been constructed for water distribution, followed by tunnels for railways. Bering Strait crossing Japan–Korea",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:06:49.153337",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=155664",
+          "title": "Railway platform",
+          "snippet": "The world's longest station platform is at Hubballi Junction in India at 1,507 metres (4,944 ft). The Appalachian Trail station or Benson station in the",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:06:49.153343",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=287628",
+          "title": "Chhatrapati Shivaji Terminus",
+          "snippet": "emperor. The initials VT and CST are commonly used for the station. The terminus is the headquarters of India's Central Railway zone. It is one of the busiest",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:06:49.153349",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=32988055",
+          "title": "Mangalore Central railway station",
+          "snippet": "Central railway station (officially Mangaluru Central railway station)(station code: MAQ) is an NSG–2 category Indian railway station in Mysore railway division",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:06:49.153354",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:07:11.241048"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who is the longest railway station in india?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The longest-named railway station in India is Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu.",
+          "source": {
+            "url": "https://currentaffairs.adda247.com/which-indian-railway-station-has-the-longest-name/",
+            "title": "Which Indian Railway Station has the Longest Name? - adda247",
+            "snippet": "The Station with the Longest Name The Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu, has the longest name of any railway station in India. With a total of 57 letters, this station stands out for its unusually long name, making it one of the most unique and well-known railway stations in the country.",
+            "metadata": {},
+            "retrieved_at": "2026-10-17T00:07:11.241104",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://currentaffairs.adda247.com/which-indian-railway-station-has-the-longest-name/",
+          "title": "Which Indian Railway Station has the Longest Name? - adda247",
+          "snippet": "The Station with the Longest Name The Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu, has the longest name of any railway station in India. With a total of 57 letters, this station stands out for its unusually long name, making it one of the most unique and well-known railway stations in the country.",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:07:11.241104",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.news18.com/auto/the-longest-railway-station-name-in-india-has-57-letters-details-here-8990790.html",
+          "title": "The Longest Railway Station Name In India Has 57 Letters ... - News18",
+          "snippet": "Indian Railways ranks fourth in the world's largest train network with around 1,14,500-kilometre track and about 7,500-8000 stations. But do you know out of these 8000 stations, which Indian Railway Station has the longest name?",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:07:11.241115",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.news18.com/photogallery/auto/this-indian-railway-station-has-the-longest-name-and-its-57-letters-long-ws-l-10051169.html",
+          "title": "This Indian Railway Station Has The Longest Name, And It's ... - News18",
+          "snippet": "With a sprawling network that stretches over 1,35,207 kilometres and covers nearly 8,000 stations, Indian Railways is one of the largest rail systems in the world. But beyond its scale and reach, it's also full of fascinating trivia. Do you know which railway station in India has the longest name?",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:07:11.241122",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.timesnownews.com/travel/news/did-you-know-the-longest-railway-station-name-in-india-has-57-letters-article-117789164",
+          "title": "Did You Know The Longest Railway Station Name In India Has 57 Letters ...",
+          "snippet": "Located in Tamil Nadu, Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station holds the distinction of having the longest name among all railway stations in the country. The name consists of a total of 57 letters. The station was initially known as Madras Central and later Chennai Central.",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:07:11.241129",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Venkatanarasimharajuvaripeta_railway_station",
+          "title": "Venkatanarasimharajuvaripeta railway station - Wikipedia",
+          "snippet": "Venkatanarasimharajuvaripeta railway station or Venkata Narasimha Rajuvaripet railway station or V N Rajuvaripeta railway station (station code: VKZ) is a railway station in Andhra Pradesh on the border with Tamil Nadu, India. It is on the Renigunta - Arakkonam section of Southern Railway, with the distinction of having the second longest name among all stations on the Indian Railways ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:07:11.241136",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:07:33.828025"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who is the longest railway station in india?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:07:33.828072"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who is the longest railway station in india?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Gorakhpur Junction (Gorakhpur Railway Station) is commonly cited as India’s longest railway station by platform length, at about 1,655 meters. I am explicitly assuming “longest” refers to platform length, since the metric is unspecified and Kharagpur is longest by platform count.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+            "snippet": "Gorakhpur Junction (Gorakhpur Railway Station) is commonly cited as India’s longest railway station by platform length, at about 1,655 meters. I am explicitly assuming “longest” refers to platform len",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-17T00:07:18.326466",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+          "snippet": "Gorakhpur Junction (Gorakhpur Railway Station) is commonly cited as India’s longest railway station by platform length, at about 1,655 meters. I am explicitly assuming “longest” refers to platform len",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-17T00:07:18.326466",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "Gorakhpur Junction (Gorakhpur Railway Station) is commonly cited as India’s longest railway station by platform length, at about 1,655 meters. I am explicitly assuming “longest” refers to platform length, since the metric is unspecified and Kharagpur is longest by platform count."
+      },
+      "retrieved_at": "2026-10-17T00:07:18.326550"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "disagreement",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "Hubballi Junction in India holds the longest station platform at 1,507 metres (4,944 ft).",
+        "claim_b_text": "The longest-named railway station in India is Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu.",
+        "label": "contradiction",
+        "contradiction_score": 0.9039100408554077,
+        "entailment_score": 0.0004996958887204528,
+        "neutral_score": 0.34171271324157715
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Hubballi Junction in India holds the longest station platform at 1,507 metres (4,944 ft).",
+        "claim_b_text": "Gorakhpur Junction (Gorakhpur Railway Station) is commonly cited as India’s longest railway station by platform length, at about 1,655 meters. I am explicitly assuming “longest” refers to platform length, since the metric is unspecified and Kharagpur is longest by platform count.",
+        "label": "contradiction",
+        "contradiction_score": 0.9988870024681091,
+        "entailment_score": 8.382897794945166e-05,
+        "neutral_score": 0.2718689739704132
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The longest-named railway station in India is Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu.",
+        "claim_b_text": "Gorakhpur Junction (Gorakhpur Railway Station) is commonly cited as India’s longest railway station by platform length, at about 1,655 meters. I am explicitly assuming “longest” refers to platform length, since the metric is unspecified and Kharagpur is longest by platform count.",
+        "label": "contradiction",
+        "contradiction_score": 0.999250590801239,
+        "entailment_score": 6.605649832636118e-05,
+        "neutral_score": 0.9733949899673462
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "No search results"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "The longest-named railway station in India is Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu.",
+        "source": {
+          "url": "https://currentaffairs.adda247.com/which-indian-railway-station-has-the-longest-name/",
+          "title": "Which Indian Railway Station has the Longest Name? - adda247",
+          "snippet": "The Station with the Longest Name The Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu, has the longest name of any railway station in India. With a total of 57 letters, this station stands out for its unusually long name, making it one of the most unique and well-known railway stations in the country.",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:07:11.241104",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Gorakhpur Junction (Gorakhpur Railway Station) is commonly cited as India’s longest railway station by platform length, at about 1,655 meters. I am explicitly assuming “longest” refers to platform length, since the metric is unspecified and Kharagpur is longest by platform count.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+          "snippet": "Gorakhpur Junction (Gorakhpur Railway Station) is commonly cited as India’s longest railway station by platform length, at about 1,655 meters. I am explicitly assuming “longest” refers to platform len",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-17T00:07:18.326466",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.999250590801239
+    },
+    "rationale": "At least one pair exceeded contradiction threshold (0.7): score=0.999"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": true,
+  "contradiction_score": 0.999250590801239,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "949e887f",
+    "type": "contextual",
+    "confidence": 0.93,
+    "explanation": "The claims use different contextual interpretations of 'longest': Claim A refers to longest station name, while Claim B refers to longest platform length and explicitly notes the metric is unspecified. Thus they conflict because their conditions/metrics differ rather than being directly contradictory facts about the same measure.",
+    "claim_a": {
+      "text": "The longest-named railway station in India is Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu.",
+      "source": {
+        "url": "https://currentaffairs.adda247.com/which-indian-railway-station-has-the-longest-name/",
+        "title": "Which Indian Railway Station has the Longest Name? - adda247",
+        "snippet": "The Station with the Longest Name The Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu, has the longest name of any railway station in India. With a total of 57 letters, this station stands out for its unusually long name, making it one of the most unique and well-known railway stations in the country.",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:07:11.241104",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "Gorakhpur Junction (Gorakhpur Railway Station) is commonly cited as India’s longest railway station by platform length, at about 1,655 meters. I am explicitly assuming “longest” refers to platform length, since the metric is unspecified and Kharagpur is longest by platform count.",
+      "source": {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+        "snippet": "Gorakhpur Junction (Gorakhpur Railway Station) is commonly cited as India’s longest railway station by platform length, at about 1,655 meters. I am explicitly assuming “longest” refers to platform len",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-17T00:07:18.326466",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "classification_status": "llm_success",
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent"
+    },
+    "detected_at": "2026-10-17T00:07:57.140564"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": {
+        "id": "f583589a",
+        "round_number": 1,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nBoth claims are conditionally correct because they apply to different metrics. Claim A measures station name length, while Claim B measures physical platform length. Rather than selecting one winner, the resolution should specify the metric.\n\nEVIDENCE REVIEW\nClaim A: The retrieved evidence supports that Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu holds the record for the longest railway station name in India.\nClaim B: The retrieved evidence supports that Gorakhpur Junction is commonly cited as India’s longest railway station by platform length at about 1,655 meters, with the metric explicitly assumed because it is unspecified and Kharagpur is longest by platform count.\n\nREASONING\nThe contradiction dissolves because the claims use different scopes of interpretation. Claim A refers to textual name length, a naming distinction. Claim B refers to infrastructure length and explicitly notes that a different metric, platform count, yields a different leader. Since the original question does not specify whether longest means name length, platform length, or platform count, the two claims describe different conditions rather than opposing facts about the same measure. Each claim holds under its stated interpretation.\n\nSOURCE BASIS\nOnly the supplied conflict descriptions and statements from agent_a and agent_b are used. No additional external sources are present in this review.\n\nCONCLUSION\nPropose resolving by defining the metric: Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station is the correct answer for longest station name, and Gorakhpur Junction is the correct answer for longest platform length, so the disagreement is contextual rather than factual.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "contextual",
+        "strategy_used": "contextual",
+        "strategy_text_preview": "You are arguing about a contextual disagreement.\nIMPORTANT: First check whether the two claims apply to different populations, platforms, or editions\n(see SCOPE fields below). If the scopes are differ",
+        "created_at": "2026-10-17T00:08:15.580968"
+      },
+      "critic_arguments": [
+        {
+          "id": "4a28e61d",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nThe proposal treats metric ambiguity as the core problem even though agent_a explicitly specifies \"longest-named\" in the original claim, so the disagreement is a category comparison rather than an undefined term.\nWHY IT MATTERS\nThis framing weakens the resolution by implying both sides left \"longest\" unspecified, when in fact agent_a already defined it as name length and agent_b defined it as platform length.\nIMPROVEMENT\nReframe the conclusion to explicitly compare the pre-defined categories of textual name length versus physical platform length, rather than proposing metric clarification as if both claims were undefined.",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "contextual",
+          "strategy_used": "critique_no_objection",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-17T00:08:30.430833"
+        },
+        {
+          "id": "1f44a6f8",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nThe proposal relies entirely on the provided conflict descriptions without flagging that physical platform-length records may change with new construction, and it ignores whether other metrics such as total yard length or number of platforms could yield additional leaders.\nWHY IT MATTERS\nWithout acknowledging record volatility or competing infrastructure metrics, the resolution risks becoming factually brittle if Gorakhpur Junction is surpassed or if the question shifts to yard length instead of platform length.\nIMPROVEMENT\nAdd an explicit limitation that the conclusion applies to current records under the specified metrics only, and note that other physical measures like platform count or yard extent produce different leaders.",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "contextual",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-17T00:08:30.430876"
+        }
+      ],
+      "reviser_argument": null,
+      "started_at": "2026-10-17T00:07:57.140948",
+      "completed_at": "2026-10-17T00:08:30.430897"
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": {
+          "id": "f583589a",
+          "round_number": 1,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nBoth claims are conditionally correct because they apply to different metrics. Claim A measures station name length, while Claim B measures physical platform length. Rather than selecting one winner, the resolution should specify the metric.\n\nEVIDENCE REVIEW\nClaim A: The retrieved evidence supports that Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu holds the record for the longest railway station name in India.\nClaim B: The retrieved evidence supports that Gorakhpur Junction is commonly cited as India’s longest railway station by platform length at about 1,655 meters, with the metric explicitly assumed because it is unspecified and Kharagpur is longest by platform count.\n\nREASONING\nThe contradiction dissolves because the claims use different scopes of interpretation. Claim A refers to textual name length, a naming distinction. Claim B refers to infrastructure length and explicitly notes that a different metric, platform count, yields a different leader. Since the original question does not specify whether longest means name length, platform length, or platform count, the two claims describe different conditions rather than opposing facts about the same measure. Each claim holds under its stated interpretation.\n\nSOURCE BASIS\nOnly the supplied conflict descriptions and statements from agent_a and agent_b are used. No additional external sources are present in this review.\n\nCONCLUSION\nPropose resolving by defining the metric: Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station is the correct answer for longest station name, and Gorakhpur Junction is the correct answer for longest platform length, so the disagreement is contextual rather than factual.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "contextual",
+          "strategy_used": "contextual",
+          "strategy_text_preview": "You are arguing about a contextual disagreement.\nIMPORTANT: First check whether the two claims apply to different populations, platforms, or editions\n(see SCOPE fields below). If the scopes are differ",
+          "created_at": "2026-10-17T00:08:15.580968"
+        },
+        "critic_arguments": [
+          {
+            "id": "4a28e61d",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nThe proposal treats metric ambiguity as the core problem even though agent_a explicitly specifies \"longest-named\" in the original claim, so the disagreement is a category comparison rather than an undefined term.\nWHY IT MATTERS\nThis framing weakens the resolution by implying both sides left \"longest\" unspecified, when in fact agent_a already defined it as name length and agent_b defined it as platform length.\nIMPROVEMENT\nReframe the conclusion to explicitly compare the pre-defined categories of textual name length versus physical platform length, rather than proposing metric clarification as if both claims were undefined.",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "contextual",
+            "strategy_used": "critique_no_objection",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-17T00:08:30.430833"
+          },
+          {
+            "id": "1f44a6f8",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nThe proposal relies entirely on the provided conflict descriptions without flagging that physical platform-length records may change with new construction, and it ignores whether other metrics such as total yard length or number of platforms could yield additional leaders.\nWHY IT MATTERS\nWithout acknowledging record volatility or competing infrastructure metrics, the resolution risks becoming factually brittle if Gorakhpur Junction is surpassed or if the question shifts to yard length instead of platform length.\nIMPROVEMENT\nAdd an explicit limitation that the conclusion applies to current records under the specified metrics only, and note that other physical measures like platform count or yard extent produce different leaders.",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "contextual",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-17T00:08:30.430876"
+          }
+        ],
+        "reviser_argument": null,
+        "started_at": "2026-10-17T00:07:57.140948",
+        "completed_at": "2026-10-17T00:08:30.430897"
+      }
+    ],
+    "status": "completed",
+    "stop_reason": "no_objection",
+    "failed_stages": [],
+    "rounds_used": 1
+  },
+  "judge_result": {
+    "winner": "candidate_1",
+    "reason": "Claim A explicitly defines its metric (longest name) and cites a source; Claim B relies on an unstated assumption about platform length with no provided source. The conflict is contextual, but under strict evidence evaluation Claim A is better supported because its scope is unambiguous and sourced, while Claim B’s interpretation is speculative and lacks citation.",
+    "evidence_score": 0.85,
+    "reasoning_score": 0.8,
+    "source_score": 0.75,
+    "confidence": 0.78,
+    "scores": {
+      "candidate_1": 0.85,
+      "candidate_2": 0.8
+    },
+    "evaluated_at": "2026-10-17T00:08:46.877944"
+  },
+  "final_answer": {
+    "query": "Who is the longest railway station in india?",
+    "answer": "A CONTEXTUAL conflict was detected and resolved through structured debate.\n\nResolution: The longest-named railway station in India is Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu.\n\nJudge's reasoning: Claim A explicitly defines its metric (longest name) and cites a source; Claim B relies on an unstated assumption about platform length with no provided source. The conflict is contextual, but under strict evidence evaluation Claim A is better supported because its scope is unambiguous and sourced, while Claim B’s interpretation is speculative and lacks citation.",
+    "reasoning": "At least one pair exceeded contradiction threshold (0.7): score=0.999",
+    "evidence_state": "disagreement",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=2356183",
+        "title": "Chennai Central railway station",
+        "snippet": "Central Railway Station, formerly Madras Central; station code: MAS) is a railway station in Chennai, India. It is one of the busiest railway stations in South",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:06:49.153318",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=52488104",
+        "title": "List of longest tunnels",
+        "snippet": "are buried, are excluded. The longest tunnels have been constructed for water distribution, followed by tunnels for railways. Bering Strait crossing Japan–Korea",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:06:49.153337",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=155664",
+        "title": "Railway platform",
+        "snippet": "The world's longest station platform is at Hubballi Junction in India at 1,507 metres (4,944 ft). The Appalachian Trail station or Benson station in the",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:06:49.153343",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=287628",
+        "title": "Chhatrapati Shivaji Terminus",
+        "snippet": "emperor. The initials VT and CST are commonly used for the station. The terminus is the headquarters of India's Central Railway zone. It is one of the busiest",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:06:49.153349",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=32988055",
+        "title": "Mangalore Central railway station",
+        "snippet": "Central railway station (officially Mangaluru Central railway station)(station code: MAQ) is an NSG–2 category Indian railway station in Mysore railway division",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:06:49.153354",
+        "credibility_score": null
+      },
+      {
+        "url": "https://currentaffairs.adda247.com/which-indian-railway-station-has-the-longest-name/",
+        "title": "Which Indian Railway Station has the Longest Name? - adda247",
+        "snippet": "The Station with the Longest Name The Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu, has the longest name of any railway station in India. With a total of 57 letters, this station stands out for its unusually long name, making it one of the most unique and well-known railway stations in the country.",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:07:11.241104",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.news18.com/auto/the-longest-railway-station-name-in-india-has-57-letters-details-here-8990790.html",
+        "title": "The Longest Railway Station Name In India Has 57 Letters ... - News18",
+        "snippet": "Indian Railways ranks fourth in the world's largest train network with around 1,14,500-kilometre track and about 7,500-8000 stations. But do you know out of these 8000 stations, which Indian Railway Station has the longest name?",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:07:11.241115",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.news18.com/photogallery/auto/this-indian-railway-station-has-the-longest-name-and-its-57-letters-long-ws-l-10051169.html",
+        "title": "This Indian Railway Station Has The Longest Name, And It's ... - News18",
+        "snippet": "With a sprawling network that stretches over 1,35,207 kilometres and covers nearly 8,000 stations, Indian Railways is one of the largest rail systems in the world. But beyond its scale and reach, it's also full of fascinating trivia. Do you know which railway station in India has the longest name?",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:07:11.241122",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.timesnownews.com/travel/news/did-you-know-the-longest-railway-station-name-in-india-has-57-letters-article-117789164",
+        "title": "Did You Know The Longest Railway Station Name In India Has 57 Letters ...",
+        "snippet": "Located in Tamil Nadu, Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station holds the distinction of having the longest name among all railway stations in the country. The name consists of a total of 57 letters. The station was initially known as Madras Central and later Chennai Central.",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:07:11.241129",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venkatanarasimharajuvaripeta_railway_station",
+        "title": "Venkatanarasimharajuvaripeta railway station - Wikipedia",
+        "snippet": "Venkatanarasimharajuvaripeta railway station or Venkata Narasimha Rajuvaripet railway station or V N Rajuvaripeta railway station (station code: VKZ) is a railway station in Andhra Pradesh on the border with Tamil Nadu, India. It is on the Renigunta - Arakkonam section of Southern Railway, with the distinction of having the second longest name among all stations on the Indian Railways ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:07:11.241136",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+        "snippet": "Gorakhpur Junction (Gorakhpur Railway Station) is commonly cited as India’s longest railway station by platform length, at about 1,655 meters. I am explicitly assuming “longest” refers to platform len",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-17T00:07:18.326466",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": true,
+    "conflict": {
+      "id": "949e887f",
+      "type": "contextual",
+      "confidence": 0.93,
+      "explanation": "The claims use different contextual interpretations of 'longest': Claim A refers to longest station name, while Claim B refers to longest platform length and explicitly notes the metric is unspecified. Thus they conflict because their conditions/metrics differ rather than being directly contradictory facts about the same measure.",
+      "claim_a": {
+        "text": "The longest-named railway station in India is Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu.",
+        "source": {
+          "url": "https://currentaffairs.adda247.com/which-indian-railway-station-has-the-longest-name/",
+          "title": "Which Indian Railway Station has the Longest Name? - adda247",
+          "snippet": "The Station with the Longest Name The Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu, has the longest name of any railway station in India. With a total of 57 letters, this station stands out for its unusually long name, making it one of the most unique and well-known railway stations in the country.",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:07:11.241104",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Gorakhpur Junction (Gorakhpur Railway Station) is commonly cited as India’s longest railway station by platform length, at about 1,655 meters. I am explicitly assuming “longest” refers to platform length, since the metric is unspecified and Kharagpur is longest by platform count.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+          "snippet": "Gorakhpur Junction (Gorakhpur Railway Station) is commonly cited as India’s longest railway station by platform length, at about 1,655 meters. I am explicitly assuming “longest” refers to platform len",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-17T00:07:18.326466",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "metadata": {
+        "classification_status": "llm_success",
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent"
+      },
+      "detected_at": "2026-10-17T00:07:57.140564"
+    },
+    "debate_outcome": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "proposer_argument": {
+            "id": "f583589a",
+            "round_number": 1,
+            "role": "proposer",
+            "agent_id": "proposer",
+            "content": "POSITION\nBoth claims are conditionally correct because they apply to different metrics. Claim A measures station name length, while Claim B measures physical platform length. Rather than selecting one winner, the resolution should specify the metric.\n\nEVIDENCE REVIEW\nClaim A: The retrieved evidence supports that Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station in Chennai, Tamil Nadu holds the record for the longest railway station name in India.\nClaim B: The retrieved evidence supports that Gorakhpur Junction is commonly cited as India’s longest railway station by platform length at about 1,655 meters, with the metric explicitly assumed because it is unspecified and Kharagpur is longest by platform count.\n\nREASONING\nThe contradiction dissolves because the claims use different scopes of interpretation. Claim A refers to textual name length, a naming distinction. Claim B refers to infrastructure length and explicitly notes that a different metric, platform count, yields a different leader. Since the original question does not specify whether longest means name length, platform length, or platform count, the two claims describe different conditions rather than opposing facts about the same measure. Each claim holds under its stated interpretation.\n\nSOURCE BASIS\nOnly the supplied conflict descriptions and statements from agent_a and agent_b are used. No additional external sources are present in this review.\n\nCONCLUSION\nPropose resolving by defining the metric: Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station is the correct answer for longest station name, and Gorakhpur Junction is the correct answer for longest platform length, so the disagreement is contextual rather than factual.",
+            "evidence_refs": [
+              "agent_a",
+              "agent_b"
+            ],
+            "conflict_type": "contextual",
+            "strategy_used": "contextual",
+            "strategy_text_preview": "You are arguing about a contextual disagreement.\nIMPORTANT: First check whether the two claims apply to different populations, platforms, or editions\n(see SCOPE fields below). If the scopes are differ",
+            "created_at": "2026-10-17T00:08:15.580968"
+          },
+          "critic_arguments": [
+            {
+              "id": "4a28e61d",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_1",
+              "content": "ISSUE\nThe proposal treats metric ambiguity as the core problem even though agent_a explicitly specifies \"longest-named\" in the original claim, so the disagreement is a category comparison rather than an undefined term.\nWHY IT MATTERS\nThis framing weakens the resolution by implying both sides left \"longest\" unspecified, when in fact agent_a already defined it as name length and agent_b defined it as platform length.\nIMPROVEMENT\nReframe the conclusion to explicitly compare the pre-defined categories of textual name length versus physical platform length, rather than proposing metric clarification as if both claims were undefined.",
+              "evidence_refs": [
+                "agent_a"
+              ],
+              "conflict_type": "contextual",
+              "strategy_used": "critique_no_objection",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-17T00:08:30.430833"
+            },
+            {
+              "id": "1f44a6f8",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_2",
+              "content": "ISSUE\nThe proposal relies entirely on the provided conflict descriptions without flagging that physical platform-length records may change with new construction, and it ignores whether other metrics such as total yard length or number of platforms could yield additional leaders.\nWHY IT MATTERS\nWithout acknowledging record volatility or competing infrastructure metrics, the resolution risks becoming factually brittle if Gorakhpur Junction is surpassed or if the question shifts to yard length instead of platform length.\nIMPROVEMENT\nAdd an explicit limitation that the conclusion applies to current records under the specified metrics only, and note that other physical measures like platform count or yard extent produce different leaders.",
+              "evidence_refs": [
+                "agent_b"
+              ],
+              "conflict_type": "contextual",
+              "strategy_used": "critique",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-17T00:08:30.430876"
+            }
+          ],
+          "reviser_argument": null,
+          "started_at": "2026-10-17T00:07:57.140948",
+          "completed_at": "2026-10-17T00:08:30.430897"
+        }
+      ],
+      "status": "completed",
+      "stop_reason": "no_objection",
+      "failed_stages": [],
+      "rounds_used": 1
+    },
+    "judge_result": {
+      "winner": "candidate_1",
+      "reason": "Claim A explicitly defines its metric (longest name) and cites a source; Claim B relies on an unstated assumption about platform length with no provided source. The conflict is contextual, but under strict evidence evaluation Claim A is better supported because its scope is unambiguous and sourced, while Claim B’s interpretation is speculative and lacks citation.",
+      "evidence_score": 0.85,
+      "reasoning_score": 0.8,
+      "source_score": 0.75,
+      "confidence": 0.78,
+      "scores": {
+        "candidate_1": 0.85,
+        "candidate_2": 0.8
+      },
+      "evaluated_at": "2026-10-17T00:08:46.877944"
+    },
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "disagreement",
+      "conflict_type": "contextual",
+      "debate_completed": true,
+      "winner": "candidate_1",
+      "confidence": 0.78
+    },
+    "generated_at": "2026-10-17T00:08:46.878093"
+  },
+  "metrics": {
+    "latency_seconds": 117.72895574569702,
+    "evidence_state": "disagreement",
+    "debate_triggered": true,
+    "conflict_type": "contextual",
+    "classification_status": "llm_success",
+    "debate_status": "completed",
+    "debate_stop_reason": "no_objection",
+    "debate_rounds_used": 1,
+    "total_llm_calls_ok": 6,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      },
+      "classifier": {
+        "ok": 1,
+        "failed": 0
+      },
+      "proposer": {
+        "ok": 1,
+        "failed": 0
+      },
+      "critic": {
+        "ok": 1,
+        "failed": 0
+      },
+      "judge": {
+        "ok": 1,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-17T00:06:49.149133",
+  "completed_at": "2026-10-17T00:08:46.878178",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0094",
+    "query": "Who is the longest railway station in india?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "Hubbali",
+    "required_facts": [
+      "Hubbali"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 120,
+      "answer_variants": [
+        "Hubbali",
+        "Karnataka"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 1and 2 and 7",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The world's longest station platform is at Hubbali Junction in India at 1,507 metres (4,944 ft). ... The Appalachian Trail station or Benson station in the United ...",
+          "supports_answers": [
+            "Hubbali"
+          ]
+        },
+        {
+          "source_domain": "www.livemint.com",
+          "text": "Mar 12, 2023 ... Hubballi is a major hub of trade and commerce in the North Karnataka region. This station is situated on the junction connecting railway lines ...",
+          "supports_answers": [
+            "Hubbali"
+          ]
+        },
+        {
+          "source_domain": "timesofindia.indiatimes.com",
+          "text": "Mar 13, 2023 ... Karnataka is now home to the world's longest railway station. If reports are to go by, Indian Railways' South Western Railway(SWR) zone's ...",
+          "supports_answers": [
+            "Karnataka"
+          ]
+        },
+        {
+          "source_domain": "www.walkthroughindia.com",
+          "text": "Kharagpur Railway Platform, West Bengal – 1,072.5 metres (3,519 ft). Kharagpur-Railway-Platform. Kharagpur Junction railway station is the third longest railway ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.wionews.com",
+          "text": "Mar 12, 2023 ... Indian Prime Minister Narendra Modi on Sunday inaugurated the world's longest railway platform of 1.5 kilometres at Sri Siddhaarooda railway ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.adda247.com",
+          "text": "Gorakhpur Railway Station is situated in the Indian state of Uttar Pradesh. It became the World's longest railway platform on 6th October, 2013 with a length of ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.guinnessworldrecords.com",
+          "text": "Jan 13, 2023 ... The longest railway platform is 1,507 metres and was achieved by South Western Railway Hubballi division (India), at Hubballi Railway ...",
+          "supports_answers": [
+            "Hubbali"
+          ]
+        },
+        {
+          "source_domain": "www.holidify.com",
+          "text": "Howrah Junction is the oldest and largest railway station in India. Along with this, it is one of the busiest Railway stations in India.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.thehindu.com",
+          "text": "Apr 14, 2019 ... Earlier, the honour for the longest station name in India belonged to Venkatanarasimharajuvaripeta in Andhra Pradesh. The honour now belongs to ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "indianexpress.com",
+          "text": "Mar 22, 2023 ... The longest railway platform in the world at Shree Siddharoodha Swamiji Hubballi station in Karnataka was inaugurated by Prime Minister ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 117.749,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

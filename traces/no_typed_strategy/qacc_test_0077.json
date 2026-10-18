@@ -1,0 +1,295 @@
+{
+  "query": "How many seasons has greys anatomy been on tv?",
+  "trace_id": "2eebd898-2f9a-4aa5-a5bf-d438a3f63712",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "How many seasons has greys anatomy been on tv?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:30:03.373367"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "How many seasons has greys anatomy been on tv?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:30:03.372940"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "How many seasons has greys anatomy been on tv?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:30:13.353112"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "How many seasons has greys anatomy been on tv?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:30:13.353153"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "How many seasons has greys anatomy been on tv?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:30:13.353173"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "How many seasons has greys anatomy been on tv?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:30:48.385635"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "How many seasons has greys anatomy been on tv?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:30:58.356775"
+  },
+  "metrics": {
+    "latency_seconds": 54.985487937927246,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_typed_strategy"
+  },
+  "started_at": "2026-10-16T22:30:03.371284",
+  "completed_at": "2026-10-16T22:30:58.356862",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0077",
+    "query": "How many seasons has greys anatomy been on tv?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "19",
+    "required_facts": [
+      "19"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 98,
+      "answer_variants": [
+        "19"
+      ],
+      "annotation_explanation": "This is the most widely accepted answer for this question.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Grey's Anatomy is an American medical drama television series focusing on the personal and ... Grey's Anatomy has been well received by critics throughout much of its ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "deadline.com",
+          "text": "Jan 10, 2022 ... ABC has renewed Shondaland's hugely popular medical drama for a 19th season, and Pompeo has signed a new one-year deal to continue as the show's ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.usmagazine.com",
+          "text": "Dec 14, 2022 ... In January 2018, Pompeo opened up about her battle for equal pay on the series after 14 seasons, telling The Hollywood Reporter that she ...",
+          "supports_answers": [
+            "19"
+          ]
+        },
+        {
+          "source_domain": "www.goodhousekeeping.com",
+          "text": "May 27, 2023 ... Is Grey's Anatomy ending after season 20? Here's all that's been confirmed about the ABC drama starring Ellen Pompeo, including cast, ...",
+          "supports_answers": [
+            "19"
+          ]
+        },
+        {
+          "source_domain": "barcomade.com",
+          "text": "“Grey's Anatomy” is the longest-running scripted primetime show on ABC having been on the air since 2005. In that time, it's had 15 seasons, over 300 episodes, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "people.com",
+          "text": "Jan 10, 2022 ... are the only actors who remained on for all 18 seasons — and the series made history as the longest-running medical drama on TV. In recent ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "movieweb.com",
+          "text": "Feb 28, 2022 ... With airplanes crashing and bombs going off, here are a few reasons why Grey's Anatomy remains loved enough to have been on-air since 2005. The ...",
+          "supports_answers": [
+            "19"
+          ]
+        },
+        {
+          "source_domain": "www.hollywoodreporter.com",
+          "text": "Mar 24, 2023 ... ABC has picked up a 20th season of 'Grey's Anatomy' and tapped Meg Marinis as showrunner, replacing Krista Vernoff.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.netflix.com",
+          "text": "Grey's Anatomy. 2005 | Maturity Rating:TV-14 | 19 Seasons | Drama ... Meredith believes she may have erred during surgery and endangered her career, ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_typed_strategy",
+  "evaluation_seconds": 55.001,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

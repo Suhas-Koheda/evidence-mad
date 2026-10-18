@@ -1,0 +1,296 @@
+{
+  "query": "The world's tallest jain statue is located in which state of india?",
+  "trace_id": "6f8cbbbd-b047-49ed-8823-506144ef70af",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "The world's tallest jain statue is located in which state of india?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:34:08.413985"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "The world's tallest jain statue is located in which state of india?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:34:08.413194"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "The world's tallest jain statue is located in which state of india?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:34:18.365062"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "The world's tallest jain statue is located in which state of india?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:34:18.365094"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "The world's tallest jain statue is located in which state of india?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:34:18.365120"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "The world's tallest jain statue is located in which state of india?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:34:53.434973"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "No search results"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "The world's tallest jain statue is located in which state of india?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (No search results); web_agent (No search results); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (No search results).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "No search results"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "No search results"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "No search results"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:35:03.999459"
+  },
+  "metrics": {
+    "latency_seconds": 55.58816885948181,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T22:34:08.411281",
+  "completed_at": "2026-10-16T22:35:03.999523",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0081",
+    "query": "The world's tallest jain statue is located in which state of india?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "Mangi Tungi",
+    "required_facts": [
+      "Mangi Tungi"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 104,
+      "answer_variants": [
+        "Mangi Tungi",
+        "Kevadia"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 1and 5",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The Statue of Ahimsa is located at Mangi-Tungi, in Nashik, in the Indian state of Maharashtra. It is the tallest Jain statue in the world as per Guinness ...",
+          "supports_answers": [
+            "Mangi Tungi"
+          ]
+        },
+        {
+          "source_domain": "www.gktoday.in",
+          "text": "Mar 13, 2016 ... A 108-feet tall idol of Lord Rishabhdeva, the first Teerthankar of Jains, carved out of a single rock, has entered the “Guinness World Records” ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The Gommateshwara statue is a 57-foot (17 m) high monolithic statue on Vindhyagiri Hill in the town of Shravanbelagola in the Indian state of Karnataka. ... It was regarded the tallest Jain statue until 2016.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "testbook.com",
+          "text": "Mar 31, 2023 ... ​The Statue of Unity is the tallest statue in the world, with a height of 182 meters (597 ft), located near Kevadia in the Indian state of ...",
+          "supports_answers": [
+            "Kevadia"
+          ]
+        },
+        {
+          "source_domain": "www.walkthroughindia.com",
+          "text": "The tallest tallest Jain statue in the world is located in Mangi Tungi and Sravanabelagola. Statue of Ahimsa, Mangi Tungi. The Statue of Ahimsa is the tallest ...",
+          "supports_answers": [
+            "Mangi Tungi"
+          ]
+        },
+        {
+          "source_domain": "www.india.com",
+          "text": "Mar 29, 2018 ... India is home to a number of Jain temples that are worth a visit. However, did you know that the world's tallest Jain statue is located in ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.thehindu.com",
+          "text": "Mar 7, 2016 ... ... entered the “Guinness World Records” as the world's tallest Jain statue. The impressive statue is located atop Mangi Tungi mountain near ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.quora.com",
+          "text": "Worlds Tallest Monolithic Statue of Lord Bahubali —”The Gommateshwara ... is located on Vindyagiri hill at Shravanbelagola town in the Indian state of K...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.facebook.com",
+          "text": "May 25, 2018 ... a gateway to the state of enlightenment. In February 2016, one world's tallest Jain statue with height 108 feet(113 feet including pedestal) ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 55.605,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

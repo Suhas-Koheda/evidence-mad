@@ -1,0 +1,936 @@
+{
+  "query": "Who sings the whiskey ain't workin anymore?",
+  "trace_id": "a7b39901-f51d-4248-87c8-e03e69be459a",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who sings the whiskey ain't workin anymore?",
+          "answer": "Based on 5 sources:\n- The Whiskey Ain't Workin' - Wikipedia: \" The Whiskey Ain't Workin' \" is a song recorded by American country music artists Travis Tritt and Marty Stuart\n- It was released in November 1991 as the third single from Tritt's album It's All About to Change\n- Travis Tritt - The Whiskey Ain't Workin' (It's All About To Change): Lyrics: There was a time I could drink my cares away And drown out all of the heartaches that hurt me night and day When the thought of you came crashin' through I'd have one more But now the\n- The Whiskey Ain't Workin - Travis Tritt and Marty Stuart 1991: \"The Whiskey Ain't Workin' \" recorded by country music artists Travis Tritt and Marty Stuart\n- It was released in November 1991 as the third single from Tritt's 1991 album, It's All About to Change",
+          "claims": [
+            {
+              "id": "46fa60eb",
+              "text": "The Whiskey Ain't Workin' - Wikipedia: \" The Whiskey Ain't Workin' \" is a song recorded by American country music artists Travis Tritt and Marty Stuart",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/The_Whiskey_Ain't_Workin'",
+                "title": "The Whiskey Ain't Workin' - Wikipedia",
+                "snippet": "\" The Whiskey Ain't Workin' \" is a song recorded by American country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the third single from Tritt's album It's All About to Change.",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.221586",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3cb773fa",
+              "text": "It was released in November 1991 as the third single from Tritt's album It's All About to Change",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=znnk18qXS4I",
+                "title": "Travis Tritt - The Whiskey Ain't Workin' (It's All About To Change)",
+                "snippet": "Lyrics: There was a time I could drink my cares away And drown out all of the heartaches that hurt me night and day When the thought of you came crashin' through I'd have one more But now the ...",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.221605",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1fdf75c0",
+              "text": "Travis Tritt - The Whiskey Ain't Workin' (It's All About To Change): Lyrics: There was a time I could drink my cares away And drown out all of the heartaches that hurt me night and day When the thought of you came crashin' through I'd have one more But now the",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=NvC638DINIQ",
+                "title": "The Whiskey Ain't Workin - Travis Tritt and Marty Stuart 1991",
+                "snippet": "\"The Whiskey Ain't Workin' \" recorded by country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the third single from Tritt's 1991 album, It's All About to Change.",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.221613",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "cd463310",
+              "text": "The Whiskey Ain't Workin - Travis Tritt and Marty Stuart 1991: \"The Whiskey Ain't Workin' \" recorded by country music artists Travis Tritt and Marty Stuart",
+              "source": {
+                "url": "https://genius.com/Travis-tritt-the-whiskey-aint-workin-lyrics",
+                "title": "Travis Tritt - The Whiskey Ain't Workin' Lyrics | Genius Lyrics",
+                "snippet": "The Whiskey Ain't Workin' Lyrics: There was a time I could drink my cares away / And drown out all of the heartaches that hurt me night and day / When the thought of you came crashin' through, I'd ...",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.221620",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "57ef243b",
+              "text": "It was released in November 1991 as the third single from Tritt's 1991 album, It's All About to Change",
+              "source": {
+                "url": "https://www.azlyrics.com/lyrics/travistritt/thewhiskeyaintworkin.html",
+                "title": "Travis Tritt - The Whiskey Ain't Workin' Lyrics | AZLyrics.com",
+                "snippet": "But now the whiskey ain't workin' anymore (sing it, son) I need one good honky tonk angel to turn my life around That's reason enough for me to lay this old bottle down Well, a woman warm and willing, Lord, that's what I'm looking for (that's right) 'Cause the whiskey ain't workin' anymore Lord, the whiskey ain't workin' anymore That's for sure",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.221627",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "4cb339b1",
+              "text": "Travis Tritt - The Whiskey Ain't Workin' Lyrics | Genius Lyrics: The Whiskey Ain't Workin' Lyrics: There was a time I could drink my cares away / And drown out all of the heartaches that hurt me night and day / When the thought of you came crashin' through, I'd",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/The_Whiskey_Ain't_Workin'",
+                "title": "The Whiskey Ain't Workin' - Wikipedia",
+                "snippet": "\" The Whiskey Ain't Workin' \" is a song recorded by American country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the third single from Tritt's album It's All About to Change.",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.221586",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "aca958a2",
+              "text": "Travis Tritt - The Whiskey Ain't Workin' Lyrics | AZLyrics",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=znnk18qXS4I",
+                "title": "Travis Tritt - The Whiskey Ain't Workin' (It's All About To Change)",
+                "snippet": "Lyrics: There was a time I could drink my cares away And drown out all of the heartaches that hurt me night and day When the thought of you came crashin' through I'd have one more But now the ...",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.221605",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3dce262d",
+              "text": "com: But now the whiskey ain't workin' anymore (sing it, son) I need one good honky tonk angel to turn my life around That's reason enough for me to lay this old bottle down Well, a woman warm and willing, Lord, that's what I'm looking for (that's right) 'Cause the whiskey ain't workin' anymore Lord, the whiskey ain't workin' anymore That's for sure",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=NvC638DINIQ",
+                "title": "The Whiskey Ain't Workin - Travis Tritt and Marty Stuart 1991",
+                "snippet": "\"The Whiskey Ain't Workin' \" recorded by country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the third single from Tritt's 1991 album, It's All About to Change.",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.221613",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/The_Whiskey_Ain't_Workin'",
+              "title": "The Whiskey Ain't Workin' - Wikipedia",
+              "snippet": "\" The Whiskey Ain't Workin' \" is a song recorded by American country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the third single from Tritt's album It's All About to Change.",
+              "metadata": {
+                "search_query": "Who sings the whiskey ain't workin anymore?"
+              },
+              "retrieved_at": "2026-10-16T20:59:55.221586",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=znnk18qXS4I",
+              "title": "Travis Tritt - The Whiskey Ain't Workin' (It's All About To Change)",
+              "snippet": "Lyrics: There was a time I could drink my cares away And drown out all of the heartaches that hurt me night and day When the thought of you came crashin' through I'd have one more But now the ...",
+              "metadata": {
+                "search_query": "Who sings the whiskey ain't workin anymore?"
+              },
+              "retrieved_at": "2026-10-16T20:59:55.221605",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=NvC638DINIQ",
+              "title": "The Whiskey Ain't Workin - Travis Tritt and Marty Stuart 1991",
+              "snippet": "\"The Whiskey Ain't Workin' \" recorded by country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the third single from Tritt's 1991 album, It's All About to Change.",
+              "metadata": {
+                "search_query": "Who sings the whiskey ain't workin anymore?"
+              },
+              "retrieved_at": "2026-10-16T20:59:55.221613",
+              "credibility_score": null
+            },
+            {
+              "url": "https://genius.com/Travis-tritt-the-whiskey-aint-workin-lyrics",
+              "title": "Travis Tritt - The Whiskey Ain't Workin' Lyrics | Genius Lyrics",
+              "snippet": "The Whiskey Ain't Workin' Lyrics: There was a time I could drink my cares away / And drown out all of the heartaches that hurt me night and day / When the thought of you came crashin' through, I'd ...",
+              "metadata": {
+                "search_query": "Who sings the whiskey ain't workin anymore?"
+              },
+              "retrieved_at": "2026-10-16T20:59:55.221620",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.azlyrics.com/lyrics/travistritt/thewhiskeyaintworkin.html",
+              "title": "Travis Tritt - The Whiskey Ain't Workin' Lyrics | AZLyrics.com",
+              "snippet": "But now the whiskey ain't workin' anymore (sing it, son) I need one good honky tonk angel to turn my life around That's reason enough for me to lay this old bottle down Well, a woman warm and willing, Lord, that's what I'm looking for (that's right) 'Cause the whiskey ain't workin' anymore Lord, the whiskey ain't workin' anymore That's for sure",
+              "metadata": {
+                "search_query": "Who sings the whiskey ain't workin anymore?"
+              },
+              "retrieved_at": "2026-10-16T20:59:55.221627",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "The Whiskey Ain't Workin' - Wikipedia: \" The Whiskey Ain't Workin' \" is a song recorded by American country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the third single from Tritt's album It's All About to Change.\n\nTravis Tritt - The Whiskey Ain't Workin' (It's All About To Change): Lyrics: There was a time I could drink my cares away And drown out all of the heartaches that hurt me night and day When the thought of you came crashin' through I'd have one more But now the ...\n\nThe Whiskey Ain't Workin - Travis Tritt and Marty Stuart 1991: \"The Whiskey Ain't Workin' \" recorded by country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the third single from Tritt's 1991 album, It's All About to Change.\n\nTravis Tritt - The Whiskey Ain't Workin' Lyrics | Genius Lyrics: The Whiskey Ain't Workin' Lyrics: There was a time I could drink my cares away / And drown out all of the heartaches that hurt me night and day / When the thought of you came crashin' through, I'd ...\n\nTravis Tritt - The Whiskey Ain't Workin' Lyrics | AZLyrics.com: But now the whiskey ain't workin' anymore (sing it, son) I need one good honky tonk angel to turn my life around That's reason enough for me to lay this old bottle down Well, a woman warm and willing, Lord, that's what I'm looking for (that's right) 'Cause the whiskey ain't workin' anymore Lord, the whiskey ain't workin' anymore That's for sure",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T20:59:55.221929"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who sings the whiskey ain't workin anymore?",
+          "answer": "Based on 5 sources:\n- David Allan Coe: singing the line \"workin' like a nigger for my room and board\"\n- The song paints a picture of a Texas family that verges on caricature, with the narrator describing\n\nC2C: Country to Country: Highway (With A Million Miles To Go) 3\n- Country Boy Rock And Roll 4\n- The Whiskey Ain't Workin' 5\n- Country Music Got A Hold\n\nCountry USA (Time-Life Music): Thompson \"More and More\" – Webb Pierce \"I Don't Hurt Anymore\" – Hank Snow \"If You Ain't Lovin' (You Ain't Livin')\" – Faron Young \"You Better Not Do That\" –\n\nThe Voice (American TV series) season 7: songs in the event that they were eliminated that night, which were respectively \"Anymore\" (Boyd), \"Imagine\" (McAndrew), and \"I'll Be\" (Jamison)",
+          "claims": [
+            {
+              "id": "7e1dd2c3",
+              "text": "David Allan Coe: singing the line \"workin' like a nigger for my room and board\"",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=168267",
+                "title": "David Allan Coe",
+                "snippet": "singing the line \"workin' like a nigger for my room and board\". The song paints a picture of a Texas family that verges on caricature, with the narrator describing",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.222300",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "cb234418",
+              "text": "The song paints a picture of a Texas family that verges on caricature, with the narrator describing\n\nC2C: Country to Country: Highway (With A Million Miles To Go) 3",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=37892719",
+                "title": "C2C: Country to Country",
+                "snippet": "Highway (With A Million Miles To Go) 3. Country Boy Rock And Roll 4. The Whiskey Ain't Workin' 5. Mojave 6. Tempted 7. Old Mexico 8. Country Music Got A Hold",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.222314",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a2079df8",
+              "text": "Country Boy Rock And Roll 4",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3408890",
+                "title": "Country USA (Time-Life Music)",
+                "snippet": "Thompson \"More and More\" – Webb Pierce \"I Don't Hurt Anymore\" – Hank Snow \"If You Ain't Lovin' (You Ain't Livin')\" – Faron Young \"You Better Not Do That\" –",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.222321",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "cadb3ec3",
+              "text": "The Whiskey Ain't Workin' 5",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=39408446",
+                "title": "The Voice (American TV series) season 7",
+                "snippet": "songs in the event that they were eliminated that night, which were respectively \"Anymore\" (Boyd), \"Imagine\" (McAndrew), and \"I'll Be\" (Jamison). The Top 4",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.222329",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "665a15e9",
+              "text": "Country Music Got A Hold\n\nCountry USA (Time-Life Music): Thompson \"More and More\" – Webb Pierce \"I Don't Hurt Anymore\" – Hank Snow \"If You Ain't Lovin' (You Ain't Livin')\" – Faron Young \"You Better Not Do That\" –\n\nThe Voice (American TV series) season 7: songs in the event that they were eliminated that night, which were respectively \"Anymore\" (Boyd), \"Imagine\" (McAndrew), and \"I'll Be\" (Jamison)",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3408890",
+                "title": "Country USA (Time-Life Music)",
+                "snippet": "Thompson \"More and More\" – Webb Pierce \"I Don't Hurt Anymore\" – Hank Snow \"If You Ain't Lovin' (You Ain't Livin')\" – Faron Young \"You Better Not Do That\" –",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.222321",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ef255af5",
+              "text": "The Top 4\n\nCountry music: to go right on ordering the whiskey",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=39408446",
+                "title": "The Voice (American TV series) season 7",
+                "snippet": "songs in the event that they were eliminated that night, which were respectively \"Anymore\" (Boyd), \"Imagine\" (McAndrew), and \"I'll Be\" (Jamison). The Top 4",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.222329",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "651213ab",
+              "text": "\" These honky tonk songs were associated with bar rooms",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=5247",
+                "title": "Country music",
+                "snippet": "to go right on ordering the whiskey.\" These honky tonk songs were associated with bar rooms. The music of these artists who began in this type would",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.222336",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "08b2bbb9",
+              "text": "The music of these artists who began in this type would",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=168267",
+                "title": "David Allan Coe",
+                "snippet": "singing the line \"workin' like a nigger for my room and board\". The song paints a picture of a Texas family that verges on caricature, with the narrator describing",
+                "metadata": {
+                  "search_query": "Who sings the whiskey ain't workin anymore?"
+                },
+                "retrieved_at": "2026-10-16T20:59:55.222300",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=168267",
+              "title": "David Allan Coe",
+              "snippet": "singing the line \"workin' like a nigger for my room and board\". The song paints a picture of a Texas family that verges on caricature, with the narrator describing",
+              "metadata": {
+                "search_query": "Who sings the whiskey ain't workin anymore?"
+              },
+              "retrieved_at": "2026-10-16T20:59:55.222300",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=37892719",
+              "title": "C2C: Country to Country",
+              "snippet": "Highway (With A Million Miles To Go) 3. Country Boy Rock And Roll 4. The Whiskey Ain't Workin' 5. Mojave 6. Tempted 7. Old Mexico 8. Country Music Got A Hold",
+              "metadata": {
+                "search_query": "Who sings the whiskey ain't workin anymore?"
+              },
+              "retrieved_at": "2026-10-16T20:59:55.222314",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=3408890",
+              "title": "Country USA (Time-Life Music)",
+              "snippet": "Thompson \"More and More\" – Webb Pierce \"I Don't Hurt Anymore\" – Hank Snow \"If You Ain't Lovin' (You Ain't Livin')\" – Faron Young \"You Better Not Do That\" –",
+              "metadata": {
+                "search_query": "Who sings the whiskey ain't workin anymore?"
+              },
+              "retrieved_at": "2026-10-16T20:59:55.222321",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=39408446",
+              "title": "The Voice (American TV series) season 7",
+              "snippet": "songs in the event that they were eliminated that night, which were respectively \"Anymore\" (Boyd), \"Imagine\" (McAndrew), and \"I'll Be\" (Jamison). The Top 4",
+              "metadata": {
+                "search_query": "Who sings the whiskey ain't workin anymore?"
+              },
+              "retrieved_at": "2026-10-16T20:59:55.222329",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=5247",
+              "title": "Country music",
+              "snippet": "to go right on ordering the whiskey.\" These honky tonk songs were associated with bar rooms. The music of these artists who began in this type would",
+              "metadata": {
+                "search_query": "Who sings the whiskey ain't workin anymore?"
+              },
+              "retrieved_at": "2026-10-16T20:59:55.222336",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "David Allan Coe: singing the line \"workin' like a nigger for my room and board\". The song paints a picture of a Texas family that verges on caricature, with the narrator describing\n\nC2C: Country to Country: Highway (With A Million Miles To Go) 3. Country Boy Rock And Roll 4. The Whiskey Ain't Workin' 5. Mojave 6. Tempted 7. Old Mexico 8. Country Music Got A Hold\n\nCountry USA (Time-Life Music): Thompson \"More and More\" – Webb Pierce \"I Don't Hurt Anymore\" – Hank Snow \"If You Ain't Lovin' (You Ain't Livin')\" – Faron Young \"You Better Not Do That\" –\n\nThe Voice (American TV series) season 7: songs in the event that they were eliminated that night, which were respectively \"Anymore\" (Boyd), \"Imagine\" (McAndrew), and \"I'll Be\" (Jamison). The Top 4\n\nCountry music: to go right on ordering the whiskey.\" These honky tonk songs were associated with bar rooms. The music of these artists who began in this type would",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T20:59:55.222538"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who sings the whiskey ain't workin anymore?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T20:59:55.222696"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "Who sings the whiskey ain't workin anymore?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The song \"The Whiskey Ain't Workin'\" is performed by Travis Tritt and Marty Stuart.",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/The_Whiskey_Ain't_Workin'",
+            "title": "The Whiskey Ain't Workin' - Wikipedia",
+            "snippet": "\" The Whiskey Ain't Workin' \" is a song recorded by American country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the third single from Tritt's album It's All About to Change.",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T20:59:55.223257",
+            "credibility_score": null
+          },
+          "date": "1991",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Whiskey_Ain't_Workin'",
+          "title": "The Whiskey Ain't Workin' - Wikipedia",
+          "snippet": "\" The Whiskey Ain't Workin' \" is a song recorded by American country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the third single from Tritt's album It's All About to Change.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:59:55.223257",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=znnk18qXS4I",
+          "title": "Travis Tritt - The Whiskey Ain't Workin' (It's All About To Change)",
+          "snippet": "Lyrics: There was a time I could drink my cares away And drown out all of the heartaches that hurt me night and day When the thought of you came crashin' through I'd have one more But now the ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:59:55.223271",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=NvC638DINIQ",
+          "title": "The Whiskey Ain't Workin - Travis Tritt and Marty Stuart 1991",
+          "snippet": "\"The Whiskey Ain't Workin' \" recorded by country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the third single from Tritt's 1991 album, It's All About to Change.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:59:55.223277",
+          "credibility_score": null
+        },
+        {
+          "url": "https://genius.com/Travis-tritt-the-whiskey-aint-workin-lyrics",
+          "title": "Travis Tritt - The Whiskey Ain't Workin' Lyrics | Genius Lyrics",
+          "snippet": "The Whiskey Ain't Workin' Lyrics: There was a time I could drink my cares away / And drown out all of the heartaches that hurt me night and day / When the thought of you came crashin' through, I'd ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:59:55.223282",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.azlyrics.com/lyrics/travistritt/thewhiskeyaintworkin.html",
+          "title": "Travis Tritt - The Whiskey Ain't Workin' Lyrics | AZLyrics.com",
+          "snippet": "But now the whiskey ain't workin' anymore (sing it, son) I need one good honky tonk angel to turn my life around That's reason enough for me to lay this old bottle down Well, a woman warm and willing, Lord, that's what I'm looking for (that's right) 'Cause the whiskey ain't workin' anymore Lord, the whiskey ain't workin' anymore That's for sure",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:59:55.223288",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:00:15.068236"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who sings the whiskey ain't workin anymore?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "C2C: Country to Country sings the whiskey ain't workin anymore.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=37892719",
+            "title": "C2C: Country to Country",
+            "snippet": "Highway (With A Million Miles To Go) 3. Country Boy Rock And Roll 4. The Whiskey Ain't Workin' 5. Mojave 6. Tempted 7. Old Mexico 8. Country Music Got A Hold",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T21:00:15.068292",
+            "credibility_score": null
+          },
+          "date": "2007",
+          "version": null,
+          "scope": "country music"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=168267",
+          "title": "David Allan Coe",
+          "snippet": "singing the line \"workin' like a nigger for my room and board\". The song paints a picture of a Texas family that verges on caricature, with the narrator describing",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:00:15.068283",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=37892719",
+          "title": "C2C: Country to Country",
+          "snippet": "Highway (With A Million Miles To Go) 3. Country Boy Rock And Roll 4. The Whiskey Ain't Workin' 5. Mojave 6. Tempted 7. Old Mexico 8. Country Music Got A Hold",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:00:15.068292",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=3408890",
+          "title": "Country USA (Time-Life Music)",
+          "snippet": "Thompson \"More and More\" – Webb Pierce \"I Don't Hurt Anymore\" – Hank Snow \"If You Ain't Lovin' (You Ain't Livin')\" – Faron Young \"You Better Not Do That\" –",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:00:15.068298",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=39408446",
+          "title": "The Voice (American TV series) season 7",
+          "snippet": "songs in the event that they were eliminated that night, which were respectively \"Anymore\" (Boyd), \"Imagine\" (McAndrew), and \"I'll Be\" (Jamison). The Top 4",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:00:15.068304",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=5247",
+          "title": "Country music",
+          "snippet": "to go right on ordering the whiskey.\" These honky tonk songs were associated with bar rooms. The music of these artists who began in this type would",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:00:15.068311",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:00:44.589414"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who sings the whiskey ain't workin anymore?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:00:44.589475"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who sings the whiskey ain't workin anymore?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The user is asking who sings a song with the title \"whiskey ain't workin anymore\". Looking at this, it appears to be a song title. \"Whiskey, Whiskey, Whiskey\" was a famous song made popular by \"Garth Brooks\" - he had a hit with this song. Actually, I think the song might be \"Whiskey Ain't Working\" which was popularised by \"Tracy Lawrence\" in a country music style, but I need to be more careful about the exact title and artist. Wait, let me reconsider.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "The user is asking who sings a song with the title \"whiskey ain't workin anymore\". \n\nLooking at this, it appears to be a song title. \"Whiskey, Whiskey, Whiskey\" was a famous song made popular by \"Gart",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:00:45.140651",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The user is asking who sings a song with the title \"whiskey ain't workin anymore\". \n\nLooking at this, it appears to be a song title. \"Whiskey, Whiskey, Whiskey\" was a famous song made popular by \"Gart",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:00:45.140651",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "The user is asking who sings a song with the title \"whiskey ain't workin anymore\". \n\nLooking at this, it appears to be a song title. \"Whiskey, Whiskey, Whiskey\" was a famous song made popular by \"Garth Brooks\" - he had a hit with this song. Actually, I think the song might be \"Whiskey Ain't Working\" which was popularised by \"Tracy Lawrence\" in a country music style, but I need to be more careful about the exact title and artist.\n\nWait, let me reconsider. The phrase \"whiskey ain't workin anymore\" - I believe this is actually \"Whiskey, Whiskey, Whiskey\" which was made famous by \"Garth Brooks\" as one of his early big hits.\n\nActually, I'm realizing I may be confusing this. Let me think more systematically. Garth Brooks had a famous early song \"Whiskey, Whiskey, Whiskey\" which might be what the user is referring to.\n\nHowever, I'm not 100% certain about the exact title and whether Garth Brooks is indeed the artist the user is referring to. I should be more cautious here.\n\nWait, I think I recall now that \"Whiskey, Whiskey, Whiskey\" was indeed a hit song by Garth Brooks.\n\nLet me be more careful about this. The user said \"whiskey ain't workin anymore\" - this sounds like there might be a small variation in the wording from the actual song title.\n\nActually, I think the song \"Whiskey, Whiskey, Whiskey\" was performed by Garth Brooks, and it's one of his early big hits from the late 1980s/early 1990s.\n\nI should be more precise about this and acknowledge my uncertainty about whether this is exactly the song the user is referring to.Based on my knowledge, the song with a title similar to \"whiskey ain't workin anymore\" is \"Whiskey, Whiskey, Whiskey\", which was made famous as a hit single by Garth Brooks. However, I'm uncertain if this is exactly the song the user is referring to, as there may be slight variations in the song title or artist you're thinking of."
+      },
+      "retrieved_at": "2026-10-16T21:00:45.140808"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent",
+        "claim_a_text": "The song \"The Whiskey Ain't Workin'\" is performed by Travis Tritt and Marty Stuart.",
+        "claim_b_text": "C2C: Country to Country sings the whiskey ain't workin anymore.",
+        "label": "neutral",
+        "contradiction_score": 0.18346789479255676,
+        "entailment_score": 0.003408584510907531,
+        "neutral_score": 0.885547399520874
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The song \"The Whiskey Ain't Workin'\" is performed by Travis Tritt and Marty Stuart.",
+        "claim_b_text": "The user is asking who sings a song with the title \"whiskey ain't workin anymore\". Looking at this, it appears to be a song title. \"Whiskey, Whiskey, Whiskey\" was a famous song made popular by \"Garth Brooks\" - he had a hit with this song. Actually, I think the song might be \"Whiskey Ain't Working\" which was popularised by \"Tracy Lawrence\" in a country music style, but I need to be more careful about the exact title and artist. Wait, let me reconsider.",
+        "label": "neutral",
+        "contradiction_score": 0.004546806216239929,
+        "entailment_score": 0.0001576431968715042,
+        "neutral_score": 0.9952954649925232
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "C2C: Country to Country sings the whiskey ain't workin anymore.",
+        "claim_b_text": "The user is asking who sings a song with the title \"whiskey ain't workin anymore\". Looking at this, it appears to be a song title. \"Whiskey, Whiskey, Whiskey\" was a famous song made popular by \"Garth Brooks\" - he had a hit with this song. Actually, I think the song might be \"Whiskey Ain't Working\" which was popularised by \"Tracy Lawrence\" in a country music style, but I need to be more careful about the exact title and artist. Wait, let me reconsider.",
+        "label": "neutral",
+        "contradiction_score": 0.0037967772223055363,
+        "entailment_score": 0.0026282535400241613,
+        "neutral_score": 0.9935749173164368
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "reference_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "No search results"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent",
+      "claim_a": {
+        "text": "The song \"The Whiskey Ain't Workin'\" is performed by Travis Tritt and Marty Stuart.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/The_Whiskey_Ain't_Workin'",
+          "title": "The Whiskey Ain't Workin' - Wikipedia",
+          "snippet": "\" The Whiskey Ain't Workin' \" is a song recorded by American country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the third single from Tritt's album It's All About to Change.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:59:55.223257",
+          "credibility_score": null
+        },
+        "date": "1991",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "C2C: Country to Country sings the whiskey ain't workin anymore.",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=37892719",
+          "title": "C2C: Country to Country",
+          "snippet": "Highway (With A Million Miles To Go) 3. Country Boy Rock And Roll 4. The Whiskey Ain't Workin' 5. Mojave 6. Tempted 7. Old Mexico 8. Country Music Got A Hold",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:00:15.068292",
+          "credibility_score": null
+        },
+        "date": "2007",
+        "version": null,
+        "scope": "country music"
+      },
+      "contradiction_score": 0.18346789479255676
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.18346789479255676,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who sings the whiskey ain't workin anymore?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [web_agent]: The song \"The Whiskey Ain't Workin'\" is performed by Travis Tritt and Marty Stuart.\n- [reference_agent]: C2C: Country to Country sings the whiskey ain't workin anymore.\n- [ai_answer_agent]: The user is asking who sings a song with the title \"whiskey ain't workin anymore\". Looking at this, it appears to be a song title. \"Whiskey, Whiskey, Whiskey\" was a famous song made popular by \"Garth Brooks\" - he had a hit with this song. Actually, I think the song might be \"Whiskey Ain't Working\" which was popularised by \"Tracy Lawrence\" in a country music style, but I need to be more careful about the exact title and artist. Wait, let me reconsider.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Whiskey_Ain't_Workin'",
+        "title": "The Whiskey Ain't Workin' - Wikipedia",
+        "snippet": "\" The Whiskey Ain't Workin' \" is a song recorded by American country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the third single from Tritt's album It's All About to Change.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:59:55.223257",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=znnk18qXS4I",
+        "title": "Travis Tritt - The Whiskey Ain't Workin' (It's All About To Change)",
+        "snippet": "Lyrics: There was a time I could drink my cares away And drown out all of the heartaches that hurt me night and day When the thought of you came crashin' through I'd have one more But now the ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:59:55.223271",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NvC638DINIQ",
+        "title": "The Whiskey Ain't Workin - Travis Tritt and Marty Stuart 1991",
+        "snippet": "\"The Whiskey Ain't Workin' \" recorded by country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the third single from Tritt's 1991 album, It's All About to Change.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:59:55.223277",
+        "credibility_score": null
+      },
+      {
+        "url": "https://genius.com/Travis-tritt-the-whiskey-aint-workin-lyrics",
+        "title": "Travis Tritt - The Whiskey Ain't Workin' Lyrics | Genius Lyrics",
+        "snippet": "The Whiskey Ain't Workin' Lyrics: There was a time I could drink my cares away / And drown out all of the heartaches that hurt me night and day / When the thought of you came crashin' through, I'd ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:59:55.223282",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.azlyrics.com/lyrics/travistritt/thewhiskeyaintworkin.html",
+        "title": "Travis Tritt - The Whiskey Ain't Workin' Lyrics | AZLyrics.com",
+        "snippet": "But now the whiskey ain't workin' anymore (sing it, son) I need one good honky tonk angel to turn my life around That's reason enough for me to lay this old bottle down Well, a woman warm and willing, Lord, that's what I'm looking for (that's right) 'Cause the whiskey ain't workin' anymore Lord, the whiskey ain't workin' anymore That's for sure",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:59:55.223288",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=168267",
+        "title": "David Allan Coe",
+        "snippet": "singing the line \"workin' like a nigger for my room and board\". The song paints a picture of a Texas family that verges on caricature, with the narrator describing",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:00:15.068283",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=37892719",
+        "title": "C2C: Country to Country",
+        "snippet": "Highway (With A Million Miles To Go) 3. Country Boy Rock And Roll 4. The Whiskey Ain't Workin' 5. Mojave 6. Tempted 7. Old Mexico 8. Country Music Got A Hold",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:00:15.068292",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=3408890",
+        "title": "Country USA (Time-Life Music)",
+        "snippet": "Thompson \"More and More\" – Webb Pierce \"I Don't Hurt Anymore\" – Hank Snow \"If You Ain't Lovin' (You Ain't Livin')\" – Faron Young \"You Better Not Do That\" –",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:00:15.068298",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=39408446",
+        "title": "The Voice (American TV series) season 7",
+        "snippet": "songs in the event that they were eliminated that night, which were respectively \"Anymore\" (Boyd), \"Imagine\" (McAndrew), and \"I'll Be\" (Jamison). The Top 4",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:00:15.068304",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=5247",
+        "title": "Country music",
+        "snippet": "to go right on ordering the whiskey.\" These honky tonk songs were associated with bar rooms. The music of these artists who began in this type would",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:00:15.068311",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The user is asking who sings a song with the title \"whiskey ain't workin anymore\". \n\nLooking at this, it appears to be a song title. \"Whiskey, Whiskey, Whiskey\" was a famous song made popular by \"Gart",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:00:45.140651",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T21:00:50.667217"
+  },
+  "metrics": {
+    "latency_seconds": 55.44688534736633,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T20:59:55.220325",
+  "completed_at": "2026-10-16T21:00:50.667280",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0008",
+    "query": "Who sings the whiskey ain't workin anymore?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Travis Tritt",
+    "required_facts": [
+      "Travis Tritt"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 14,
+      "answer_variants": [
+        "Travis Tritt"
+      ],
+      "annotation_explanation": "This is a fact and a very well known answer as to who sings this song.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Oct 3, 2011 ... Travis Tritt - The Whiskey Ain't Workin' (It's All About To Change) · Comments239.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "\"The Whiskey Ain't Workin'\" is a song recorded by American country music artists Travis Tritt and Marty Stuart. It was released in November 1991 as the ...",
+          "supports_answers": [
+            "Travis Tritt"
+          ]
+        },
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Nov 24, 2018 ... Travis Tritt & Marty Stuart - The Whiskey Ain't Workin' (Remastered Music Video). 120K views · 4 years ago ...more ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.lyrics.com",
+          "text": "The Whiskey Ain't Workin' Lyrics by Marty Stuart from the The Very Best of ... when they'd start to pour But now the whiskey ain't workin' anymore, sing it, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.jiosaavn.com",
+          "text": "Comin′ 'round, round, round, sing it Travis 'Cause in my mind, peace I′d find when they′d start to pour. But now the whiskey ain't workin′ anymore, sing it, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.whiskeyriff.com",
+          "text": "Dec 18, 2022 ... “The Whiskey Ain't Workin' Anymore” was a Grammy-winning duet between Tritt and Stuart, and Tritt was inducted into the Opry right when it was ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "tabs.ultimate-guitar.com",
+          "text": "The Whiskey Ain't Workin' Travis Tritt & Marty Stuart [Verse] G C G There ... to pour G D G But now the whiskey ain't workinm' anymore (sing it Slim) C G I ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.musicindustryhowto.com",
+          "text": "Nobody wants to live in a world where country musicians don't sing about drinking. ... “The Whiskey Ain't Workin' Anymore” by Travis Tritt and Marty Stuart ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "georgejones.com",
+          "text": "Jul 15, 2019 ... Singing about whiskey has been a thing since country music first existed, and odes to Jack ... #6 “The Whiskey Ain't Workin'” – Travis Tritt.",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 55.463,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

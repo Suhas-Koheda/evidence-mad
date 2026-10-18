@@ -1,0 +1,981 @@
+{
+  "query": "Which was the first village of karnataka which declared independence?",
+  "trace_id": "d4baaf46-cc1d-4a18-805f-84592d43d978",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Which was the first village of karnataka which declared independence?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T23:11:16.937893"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Which was the first village of karnataka which declared independence?",
+          "answer": "Based on 5 sources:\n- Esuru: The Karnataka Village That Declared Independence Before\n- - Medium: The Forgotten Freedom Story of Esuru, Shikaripura in Karnataka Long before India officially became independent in 1947, a small village in Karnataka boldly challenged the British Empire\n- Karnataka: The village that declared freedom in 1942: This village in Shivamogga district was the first in the nation to raise the banner of freedom from British Raj and declare independence in 1942\n- Issuru's Fight For Freedom: When a Small Karnataka Village Dared to\n- : In August 1942, when Mahatma Gandhi called for the Quit India movement, a tiny village down south in Karnataka's Shivamogga had already decided to break free",
+          "claims": [
+            {
+              "id": "f88c5e98",
+              "text": "Esuru: The Karnataka Village That Declared Independence Before",
+              "source": {
+                "url": "https://medium.com/readers-digests/esuru-the-karnataka-village-that-declared-independence-before-india-did-c23312d8a329",
+                "title": "Esuru: The Karnataka Village That Declared Independence Before ... - Medium",
+                "snippet": "The Forgotten Freedom Story of Esuru, Shikaripura in Karnataka Long before India officially became independent in 1947, a small village in Karnataka boldly challenged the British Empire.",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.937080",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b5c864d5",
+              "text": "- Medium: The Forgotten Freedom Story of Esuru, Shikaripura in Karnataka Long before India officially became independent in 1947, a small village in Karnataka boldly challenged the British Empire",
+              "source": {
+                "url": "https://timesofindia.indiatimes.com/city/bengaluru/the-village-that-declared-freedom-in-1942/articleshow/64009236.cms",
+                "title": "Karnataka: The village that declared freedom in 1942",
+                "snippet": "This village in Shivamogga district was the first in the nation to raise the banner of freedom from British Raj and declare independence in 1942.",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.937096",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "46e846dc",
+              "text": "Karnataka: The village that declared freedom in 1942: This village in Shivamogga district was the first in the nation to raise the banner of freedom from British Raj and declare independence in 1942",
+              "source": {
+                "url": "https://thebetterindia.com/193052/karnataka-shivamoga-issur-first-independent-village-british-raj-history-india/",
+                "title": "Issuru's Fight For Freedom: When a Small Karnataka Village Dared to ...",
+                "snippet": "In August 1942, when Mahatma Gandhi called for the Quit India movement, a tiny village down south in Karnataka's Shivamogga had already decided to break free. But it did, becoming the first village in India to declare itself independent. #LostTales #history",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.937104",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "06d79a67",
+              "text": "Issuru's Fight For Freedom: When a Small Karnataka Village Dared to",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Issuru",
+                "title": "Issuru - Wikipedia",
+                "snippet": "In 1942, Issuru attracted national attention when the villagers declared independence of the village from the British government who ruled India at that time. They blockaded the village and prevented the British officers from collecting tax.",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.937111",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "98e20432",
+              "text": ": In August 1942, when Mahatma Gandhi called for the Quit India movement, a tiny village down south in Karnataka's Shivamogga had already decided to break free",
+              "source": {
+                "url": "https://www.newindianexpress.com/states/karnataka/2020/aug/15/first-village-that-declared-itself-independent-2183687.html",
+                "title": "First village that declared itself independent - The New Indian Express",
+                "snippet": "It was the first village to declare itself independent in 1942. When a village officer came for collection of taxes on September 25, his registers were seized by the village youth. The next day ...",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.937118",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ae367241",
+              "text": "But it did, becoming the first village in India to declare itself independent",
+              "source": {
+                "url": "https://medium.com/readers-digests/esuru-the-karnataka-village-that-declared-independence-before-india-did-c23312d8a329",
+                "title": "Esuru: The Karnataka Village That Declared Independence Before ... - Medium",
+                "snippet": "The Forgotten Freedom Story of Esuru, Shikaripura in Karnataka Long before India officially became independent in 1947, a small village in Karnataka boldly challenged the British Empire.",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.937080",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b8c1ca8b",
+              "text": "#LostTales #history\n\nIssuru - Wikipedia: In 1942, Issuru attracted national attention when the villagers declared independence of the village from the British government who ruled India at that time",
+              "source": {
+                "url": "https://timesofindia.indiatimes.com/city/bengaluru/the-village-that-declared-freedom-in-1942/articleshow/64009236.cms",
+                "title": "Karnataka: The village that declared freedom in 1942",
+                "snippet": "This village in Shivamogga district was the first in the nation to raise the banner of freedom from British Raj and declare independence in 1942.",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.937096",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9f4d670c",
+              "text": "They blockaded the village and prevented the British officers from collecting tax",
+              "source": {
+                "url": "https://thebetterindia.com/193052/karnataka-shivamoga-issur-first-independent-village-british-raj-history-india/",
+                "title": "Issuru's Fight For Freedom: When a Small Karnataka Village Dared to ...",
+                "snippet": "In August 1942, when Mahatma Gandhi called for the Quit India movement, a tiny village down south in Karnataka's Shivamogga had already decided to break free. But it did, becoming the first village in India to declare itself independent. #LostTales #history",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.937104",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "eb321e37",
+              "text": "First village that declared itself independent - The New Indian Express: It was the first village to declare itself independent in 1942",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Issuru",
+                "title": "Issuru - Wikipedia",
+                "snippet": "In 1942, Issuru attracted national attention when the villagers declared independence of the village from the British government who ruled India at that time. They blockaded the village and prevented the British officers from collecting tax.",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.937111",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2f7e6d83",
+              "text": "When a village officer came for collection of taxes on September 25, his registers were seized by the village youth",
+              "source": {
+                "url": "https://www.newindianexpress.com/states/karnataka/2020/aug/15/first-village-that-declared-itself-independent-2183687.html",
+                "title": "First village that declared itself independent - The New Indian Express",
+                "snippet": "It was the first village to declare itself independent in 1942. When a village officer came for collection of taxes on September 25, his registers were seized by the village youth. The next day ...",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.937118",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://medium.com/readers-digests/esuru-the-karnataka-village-that-declared-independence-before-india-did-c23312d8a329",
+              "title": "Esuru: The Karnataka Village That Declared Independence Before ... - Medium",
+              "snippet": "The Forgotten Freedom Story of Esuru, Shikaripura in Karnataka Long before India officially became independent in 1947, a small village in Karnataka boldly challenged the British Empire.",
+              "metadata": {
+                "search_query": "Which was the first village of karnataka which declared independence?"
+              },
+              "retrieved_at": "2026-10-16T23:11:16.937080",
+              "credibility_score": null
+            },
+            {
+              "url": "https://timesofindia.indiatimes.com/city/bengaluru/the-village-that-declared-freedom-in-1942/articleshow/64009236.cms",
+              "title": "Karnataka: The village that declared freedom in 1942",
+              "snippet": "This village in Shivamogga district was the first in the nation to raise the banner of freedom from British Raj and declare independence in 1942.",
+              "metadata": {
+                "search_query": "Which was the first village of karnataka which declared independence?"
+              },
+              "retrieved_at": "2026-10-16T23:11:16.937096",
+              "credibility_score": null
+            },
+            {
+              "url": "https://thebetterindia.com/193052/karnataka-shivamoga-issur-first-independent-village-british-raj-history-india/",
+              "title": "Issuru's Fight For Freedom: When a Small Karnataka Village Dared to ...",
+              "snippet": "In August 1942, when Mahatma Gandhi called for the Quit India movement, a tiny village down south in Karnataka's Shivamogga had already decided to break free. But it did, becoming the first village in India to declare itself independent. #LostTales #history",
+              "metadata": {
+                "search_query": "Which was the first village of karnataka which declared independence?"
+              },
+              "retrieved_at": "2026-10-16T23:11:16.937104",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Issuru",
+              "title": "Issuru - Wikipedia",
+              "snippet": "In 1942, Issuru attracted national attention when the villagers declared independence of the village from the British government who ruled India at that time. They blockaded the village and prevented the British officers from collecting tax.",
+              "metadata": {
+                "search_query": "Which was the first village of karnataka which declared independence?"
+              },
+              "retrieved_at": "2026-10-16T23:11:16.937111",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.newindianexpress.com/states/karnataka/2020/aug/15/first-village-that-declared-itself-independent-2183687.html",
+              "title": "First village that declared itself independent - The New Indian Express",
+              "snippet": "It was the first village to declare itself independent in 1942. When a village officer came for collection of taxes on September 25, his registers were seized by the village youth. The next day ...",
+              "metadata": {
+                "search_query": "Which was the first village of karnataka which declared independence?"
+              },
+              "retrieved_at": "2026-10-16T23:11:16.937118",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Esuru: The Karnataka Village That Declared Independence Before ... - Medium: The Forgotten Freedom Story of Esuru, Shikaripura in Karnataka Long before India officially became independent in 1947, a small village in Karnataka boldly challenged the British Empire.\n\nKarnataka: The village that declared freedom in 1942: This village in Shivamogga district was the first in the nation to raise the banner of freedom from British Raj and declare independence in 1942.\n\nIssuru's Fight For Freedom: When a Small Karnataka Village Dared to ...: In August 1942, when Mahatma Gandhi called for the Quit India movement, a tiny village down south in Karnataka's Shivamogga had already decided to break free. But it did, becoming the first village in India to declare itself independent. #LostTales #history\n\nIssuru - Wikipedia: In 1942, Issuru attracted national attention when the villagers declared independence of the village from the British government who ruled India at that time. They blockaded the village and prevented the British officers from collecting tax.\n\nFirst village that declared itself independent - The New Indian Express: It was the first village to declare itself independent in 1942. When a village officer came for collection of taxes on September 25, his registers were seized by the village youth. The next day ...",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T23:11:16.937362"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Which was the first village of karnataka which declared independence?",
+          "answer": "Based on 5 sources:\n- Karnataka: Karnataka is a state on the southwestern coast of India\n- It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation\n\nTimeline of Karnataka: mentioned in the Mahabharata as \"Karnata Desha\"\n- \" Historically, the region was also called \"Kuntala Rajya\"\n- Karnataka was also part of the Dakshinapatha\n\nBijapur district, Karnataka: district in the state of Karnataka in India\n- The city of Bijapur is the headquarters of the district, and is located 530 km northwest of Bengaluru",
+          "claims": [
+            {
+              "id": "a660a9ee",
+              "text": "Karnataka: Karnataka is a state on the southwestern coast of India",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=16880",
+                "title": "Karnataka",
+                "snippet": "Karnataka is a state on the southwestern coast of India. It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.938415",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ab97754f",
+              "text": "It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation\n\nTimeline of Karnataka: mentioned in the Mahabharata as \"Karnata Desha\"",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=28925856",
+                "title": "Timeline of Karnataka",
+                "snippet": "mentioned in the Mahabharata as \"Karnata Desha\".\" Historically, the region was also called \"Kuntala Rajya\". Karnataka was also part of the Dakshinapatha",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.938441",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d8043de7",
+              "text": "\" Historically, the region was also called \"Kuntala Rajya\"",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3266548",
+                "title": "Bijapur district, Karnataka",
+                "snippet": "district in the state of Karnataka in India. The city of Bijapur is the headquarters of the district, and is located 530 km northwest of Bengaluru. Bijapur",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.938455",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c5f2dafd",
+              "text": "Karnataka was also part of the Dakshinapatha\n\nBijapur district, Karnataka: district in the state of Karnataka in India",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=338799",
+                "title": "Kannadigas",
+                "snippet": "of Karnataka and its surrounding regions. They natively speak Kannada, which belongs to the Dravidian language family. Kannada stands among 30 of the",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.938467",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "4bc198d8",
+              "text": "The city of Bijapur is the headquarters of the district, and is located 530 km northwest of Bengaluru",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=31120685",
+                "title": "Kohir",
+                "snippet": "district of the Indian state of Telangana. It serves as the headquarters of Kohir mandal and is situated on the Deccan Plateau near the Telangana–Karnataka border",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.938480",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "914b9bec",
+              "text": "Bijapur\n\nKannadigas: of Karnataka and its surrounding regions",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=16880",
+                "title": "Karnataka",
+                "snippet": "Karnataka is a state on the southwestern coast of India. It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.938415",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b8b84e8f",
+              "text": "They natively speak Kannada, which belongs to the Dravidian language family",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=28925856",
+                "title": "Timeline of Karnataka",
+                "snippet": "mentioned in the Mahabharata as \"Karnata Desha\".\" Historically, the region was also called \"Kuntala Rajya\". Karnataka was also part of the Dakshinapatha",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.938441",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "763c984d",
+              "text": "Kannada stands among 30 of the\n\nKohir: district of the Indian state of Telangana",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3266548",
+                "title": "Bijapur district, Karnataka",
+                "snippet": "district in the state of Karnataka in India. The city of Bijapur is the headquarters of the district, and is located 530 km northwest of Bengaluru. Bijapur",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.938455",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0e9c8a7f",
+              "text": "It serves as the headquarters of Kohir mandal and is situated on the Deccan Plateau near the Telangana–Karnataka border",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=338799",
+                "title": "Kannadigas",
+                "snippet": "of Karnataka and its surrounding regions. They natively speak Kannada, which belongs to the Dravidian language family. Kannada stands among 30 of the",
+                "metadata": {
+                  "search_query": "Which was the first village of karnataka which declared independence?"
+                },
+                "retrieved_at": "2026-10-16T23:11:16.938467",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=16880",
+              "title": "Karnataka",
+              "snippet": "Karnataka is a state on the southwestern coast of India. It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation",
+              "metadata": {
+                "search_query": "Which was the first village of karnataka which declared independence?"
+              },
+              "retrieved_at": "2026-10-16T23:11:16.938415",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=28925856",
+              "title": "Timeline of Karnataka",
+              "snippet": "mentioned in the Mahabharata as \"Karnata Desha\".\" Historically, the region was also called \"Kuntala Rajya\". Karnataka was also part of the Dakshinapatha",
+              "metadata": {
+                "search_query": "Which was the first village of karnataka which declared independence?"
+              },
+              "retrieved_at": "2026-10-16T23:11:16.938441",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=3266548",
+              "title": "Bijapur district, Karnataka",
+              "snippet": "district in the state of Karnataka in India. The city of Bijapur is the headquarters of the district, and is located 530 km northwest of Bengaluru. Bijapur",
+              "metadata": {
+                "search_query": "Which was the first village of karnataka which declared independence?"
+              },
+              "retrieved_at": "2026-10-16T23:11:16.938455",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=338799",
+              "title": "Kannadigas",
+              "snippet": "of Karnataka and its surrounding regions. They natively speak Kannada, which belongs to the Dravidian language family. Kannada stands among 30 of the",
+              "metadata": {
+                "search_query": "Which was the first village of karnataka which declared independence?"
+              },
+              "retrieved_at": "2026-10-16T23:11:16.938467",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=31120685",
+              "title": "Kohir",
+              "snippet": "district of the Indian state of Telangana. It serves as the headquarters of Kohir mandal and is situated on the Deccan Plateau near the Telangana–Karnataka border",
+              "metadata": {
+                "search_query": "Which was the first village of karnataka which declared independence?"
+              },
+              "retrieved_at": "2026-10-16T23:11:16.938480",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Karnataka: Karnataka is a state on the southwestern coast of India. It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation\n\nTimeline of Karnataka: mentioned in the Mahabharata as \"Karnata Desha\".\" Historically, the region was also called \"Kuntala Rajya\". Karnataka was also part of the Dakshinapatha\n\nBijapur district, Karnataka: district in the state of Karnataka in India. The city of Bijapur is the headquarters of the district, and is located 530 km northwest of Bengaluru. Bijapur\n\nKannadigas: of Karnataka and its surrounding regions. They natively speak Kannada, which belongs to the Dravidian language family. Kannada stands among 30 of the\n\nKohir: district of the Indian state of Telangana. It serves as the headquarters of Kohir mandal and is situated on the Deccan Plateau near the Telangana–Karnataka border",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T23:11:16.938797"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Which was the first village of karnataka which declared independence?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:11:16.939381"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Which was the first village of karnataka which declared independence?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The Forgotten Freedom Story of Esuru, Shikaripura in Karnataka Long before India officially became independent in 1947, a small village in Karnataka boldly challenged the British Empire.",
+          "source": {
+            "url": "https://medium.com/readers-digests/esuru-the-karnataka-village-that-declared-independence-before-india-did-c23312d8a329",
+            "title": "Esuru: The Karnataka Village That Declared Independence Before ... - Medium",
+            "snippet": "The Forgotten Freedom Story of Esuru, Shikaripura in Karnataka Long before India officially became independent in 1947, a small village in Karnataka boldly challenged the British Empire.",
+            "metadata": {
+              "search_query": "Which was the first village of karnataka which declared independence?"
+            },
+            "retrieved_at": "2026-10-16T23:11:16.939888",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://medium.com/readers-digests/esuru-the-karnataka-village-that-declared-independence-before-india-did-c23312d8a329",
+          "title": "Esuru: The Karnataka Village That Declared Independence Before ... - Medium",
+          "snippet": "The Forgotten Freedom Story of Esuru, Shikaripura in Karnataka Long before India officially became independent in 1947, a small village in Karnataka boldly challenged the British Empire.",
+          "metadata": {
+            "search_query": "Which was the first village of karnataka which declared independence?"
+          },
+          "retrieved_at": "2026-10-16T23:11:16.939888",
+          "credibility_score": null
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/city/bengaluru/the-village-that-declared-freedom-in-1942/articleshow/64009236.cms",
+          "title": "Karnataka: The village that declared freedom in 1942",
+          "snippet": "This village in Shivamogga district was the first in the nation to raise the banner of freedom from British Raj and declare independence in 1942.",
+          "metadata": {
+            "search_query": "Which was the first village of karnataka which declared independence?"
+          },
+          "retrieved_at": "2026-10-16T23:11:16.939905",
+          "credibility_score": null
+        },
+        {
+          "url": "https://thebetterindia.com/193052/karnataka-shivamoga-issur-first-independent-village-british-raj-history-india/",
+          "title": "Issuru's Fight For Freedom: When a Small Karnataka Village Dared to ...",
+          "snippet": "In August 1942, when Mahatma Gandhi called for the Quit India movement, a tiny village down south in Karnataka's Shivamogga had already decided to break free. But it did, becoming the first village in India to declare itself independent. #LostTales #history",
+          "metadata": {
+            "search_query": "Which was the first village of karnataka which declared independence?"
+          },
+          "retrieved_at": "2026-10-16T23:11:16.939915",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Issuru",
+          "title": "Issuru - Wikipedia",
+          "snippet": "In 1942, Issuru attracted national attention when the villagers declared independence of the village from the British government who ruled India at that time. They blockaded the village and prevented the British officers from collecting tax.",
+          "metadata": {
+            "search_query": "Which was the first village of karnataka which declared independence?"
+          },
+          "retrieved_at": "2026-10-16T23:11:16.939926",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.newindianexpress.com/states/karnataka/2020/aug/15/first-village-that-declared-itself-independent-2183687.html",
+          "title": "First village that declared itself independent - The New Indian Express",
+          "snippet": "It was the first village to declare itself independent in 1942. When a village officer came for collection of taxes on September 25, his registers were seized by the village youth. The next day ...",
+          "metadata": {
+            "search_query": "Which was the first village of karnataka which declared independence?"
+          },
+          "retrieved_at": "2026-10-16T23:11:16.939935",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:12:17.697614"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Which was the first village of karnataka which declared independence?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Karnataka is a state on the southwestern coast of India. It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=16880",
+            "title": "Karnataka",
+            "snippet": "Karnataka is a state on the southwestern coast of India. It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation",
+            "metadata": {
+              "search_query": "Which was the first village of karnataka which declared independence?"
+            },
+            "retrieved_at": "2026-10-16T23:12:17.697938",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=16880",
+          "title": "Karnataka",
+          "snippet": "Karnataka is a state on the southwestern coast of India. It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation",
+          "metadata": {
+            "search_query": "Which was the first village of karnataka which declared independence?"
+          },
+          "retrieved_at": "2026-10-16T23:12:17.697938",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=28925856",
+          "title": "Timeline of Karnataka",
+          "snippet": "mentioned in the Mahabharata as \"Karnata Desha\".\" Historically, the region was also called \"Kuntala Rajya\". Karnataka was also part of the Dakshinapatha",
+          "metadata": {
+            "search_query": "Which was the first village of karnataka which declared independence?"
+          },
+          "retrieved_at": "2026-10-16T23:12:17.697950",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=3266548",
+          "title": "Bijapur district, Karnataka",
+          "snippet": "district in the state of Karnataka in India. The city of Bijapur is the headquarters of the district, and is located 530 km northwest of Bengaluru. Bijapur",
+          "metadata": {
+            "search_query": "Which was the first village of karnataka which declared independence?"
+          },
+          "retrieved_at": "2026-10-16T23:12:17.697958",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=338799",
+          "title": "Kannadigas",
+          "snippet": "of Karnataka and its surrounding regions. They natively speak Kannada, which belongs to the Dravidian language family. Kannada stands among 30 of the",
+          "metadata": {
+            "search_query": "Which was the first village of karnataka which declared independence?"
+          },
+          "retrieved_at": "2026-10-16T23:12:17.697966",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=31120685",
+          "title": "Kohir",
+          "snippet": "district of the Indian state of Telangana. It serves as the headquarters of Kohir mandal and is situated on the Deccan Plateau near the Telangana–Karnataka border",
+          "metadata": {
+            "search_query": "Which was the first village of karnataka which declared independence?"
+          },
+          "retrieved_at": "2026-10-16T23:12:17.697973",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:13:47.731177"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Which was the first village of karnataka which declared independence?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T23:12:09.428434"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent",
+        "claim_a_text": "The Forgotten Freedom Story of Esuru, Shikaripura in Karnataka Long before India officially became independent in 1947, a small village in Karnataka boldly challenged the British Empire.",
+        "claim_b_text": "Karnataka is a state on the southwestern coast of India. It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation",
+        "label": "neutral",
+        "contradiction_score": 0.005771042313426733,
+        "entailment_score": 0.00018683666712604463,
+        "neutral_score": 0.9965954422950745
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "reference_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent",
+      "claim_a": {
+        "text": "The Forgotten Freedom Story of Esuru, Shikaripura in Karnataka Long before India officially became independent in 1947, a small village in Karnataka boldly challenged the British Empire.",
+        "source": {
+          "url": "https://medium.com/readers-digests/esuru-the-karnataka-village-that-declared-independence-before-india-did-c23312d8a329",
+          "title": "Esuru: The Karnataka Village That Declared Independence Before ... - Medium",
+          "snippet": "The Forgotten Freedom Story of Esuru, Shikaripura in Karnataka Long before India officially became independent in 1947, a small village in Karnataka boldly challenged the British Empire.",
+          "metadata": {
+            "search_query": "Which was the first village of karnataka which declared independence?"
+          },
+          "retrieved_at": "2026-10-16T23:11:16.939888",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Karnataka is a state on the southwestern coast of India. It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=16880",
+          "title": "Karnataka",
+          "snippet": "Karnataka is a state on the southwestern coast of India. It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation",
+          "metadata": {
+            "search_query": "Which was the first village of karnataka which declared independence?"
+          },
+          "retrieved_at": "2026-10-16T23:12:17.697938",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.005771042313426733
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.005771042313426733,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Which was the first village of karnataka which declared independence?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [web_agent]: The Forgotten Freedom Story of Esuru, Shikaripura in Karnataka Long before India officially became independent in 1947, a small village in Karnataka boldly challenged the British Empire.\n- [reference_agent]: Karnataka is a state on the southwestern coast of India. It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://medium.com/readers-digests/esuru-the-karnataka-village-that-declared-independence-before-india-did-c23312d8a329",
+        "title": "Esuru: The Karnataka Village That Declared Independence Before ... - Medium",
+        "snippet": "The Forgotten Freedom Story of Esuru, Shikaripura in Karnataka Long before India officially became independent in 1947, a small village in Karnataka boldly challenged the British Empire.",
+        "metadata": {
+          "search_query": "Which was the first village of karnataka which declared independence?"
+        },
+        "retrieved_at": "2026-10-16T23:11:16.939888",
+        "credibility_score": null
+      },
+      {
+        "url": "https://timesofindia.indiatimes.com/city/bengaluru/the-village-that-declared-freedom-in-1942/articleshow/64009236.cms",
+        "title": "Karnataka: The village that declared freedom in 1942",
+        "snippet": "This village in Shivamogga district was the first in the nation to raise the banner of freedom from British Raj and declare independence in 1942.",
+        "metadata": {
+          "search_query": "Which was the first village of karnataka which declared independence?"
+        },
+        "retrieved_at": "2026-10-16T23:11:16.939905",
+        "credibility_score": null
+      },
+      {
+        "url": "https://thebetterindia.com/193052/karnataka-shivamoga-issur-first-independent-village-british-raj-history-india/",
+        "title": "Issuru's Fight For Freedom: When a Small Karnataka Village Dared to ...",
+        "snippet": "In August 1942, when Mahatma Gandhi called for the Quit India movement, a tiny village down south in Karnataka's Shivamogga had already decided to break free. But it did, becoming the first village in India to declare itself independent. #LostTales #history",
+        "metadata": {
+          "search_query": "Which was the first village of karnataka which declared independence?"
+        },
+        "retrieved_at": "2026-10-16T23:11:16.939915",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Issuru",
+        "title": "Issuru - Wikipedia",
+        "snippet": "In 1942, Issuru attracted national attention when the villagers declared independence of the village from the British government who ruled India at that time. They blockaded the village and prevented the British officers from collecting tax.",
+        "metadata": {
+          "search_query": "Which was the first village of karnataka which declared independence?"
+        },
+        "retrieved_at": "2026-10-16T23:11:16.939926",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.newindianexpress.com/states/karnataka/2020/aug/15/first-village-that-declared-itself-independent-2183687.html",
+        "title": "First village that declared itself independent - The New Indian Express",
+        "snippet": "It was the first village to declare itself independent in 1942. When a village officer came for collection of taxes on September 25, his registers were seized by the village youth. The next day ...",
+        "metadata": {
+          "search_query": "Which was the first village of karnataka which declared independence?"
+        },
+        "retrieved_at": "2026-10-16T23:11:16.939935",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=16880",
+        "title": "Karnataka",
+        "snippet": "Karnataka is a state on the southwestern coast of India. It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation",
+        "metadata": {
+          "search_query": "Which was the first village of karnataka which declared independence?"
+        },
+        "retrieved_at": "2026-10-16T23:12:17.697938",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=28925856",
+        "title": "Timeline of Karnataka",
+        "snippet": "mentioned in the Mahabharata as \"Karnata Desha\".\" Historically, the region was also called \"Kuntala Rajya\". Karnataka was also part of the Dakshinapatha",
+        "metadata": {
+          "search_query": "Which was the first village of karnataka which declared independence?"
+        },
+        "retrieved_at": "2026-10-16T23:12:17.697950",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=3266548",
+        "title": "Bijapur district, Karnataka",
+        "snippet": "district in the state of Karnataka in India. The city of Bijapur is the headquarters of the district, and is located 530 km northwest of Bengaluru. Bijapur",
+        "metadata": {
+          "search_query": "Which was the first village of karnataka which declared independence?"
+        },
+        "retrieved_at": "2026-10-16T23:12:17.697958",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=338799",
+        "title": "Kannadigas",
+        "snippet": "of Karnataka and its surrounding regions. They natively speak Kannada, which belongs to the Dravidian language family. Kannada stands among 30 of the",
+        "metadata": {
+          "search_query": "Which was the first village of karnataka which declared independence?"
+        },
+        "retrieved_at": "2026-10-16T23:12:17.697966",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=31120685",
+        "title": "Kohir",
+        "snippet": "district of the Indian state of Telangana. It serves as the headquarters of Kohir mandal and is situated on the Deccan Plateau near the Telangana–Karnataka border",
+        "metadata": {
+          "search_query": "Which was the first village of karnataka which declared independence?"
+        },
+        "retrieved_at": "2026-10-16T23:12:17.697973",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T23:13:49.070480"
+  },
+  "metrics": {
+    "latency_seconds": 152.1346731185913,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 2,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 0,
+        "failed": 2
+      }
+    },
+    "retrieval_failure_rate": 0.25,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "system": "proposed_mad"
+  },
+  "started_at": "2026-10-16T23:11:16.935799",
+  "completed_at": "2026-10-16T23:13:49.070526",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0096",
+    "query": "Which was the first village of karnataka which declared independence?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Issaru",
+    "required_facts": [
+      "Issaru"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 122,
+      "answer_variants": [
+        "Issuru"
+      ],
+      "annotation_explanation": "This is the most common answer from a variety of sources I researched.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "In 1942, Issuru attracted national attention when the villagers declared independence of the village from the British government who ruled India at that ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "timesofindia.indiatimes.com",
+          "text": "May 3, 2018 ... This village in Shivamogga district was the first in the nation to raise the banner of freedom from British Raj and declare independence in ...",
+          "supports_answers": [
+            "Issuru"
+          ]
+        },
+        {
+          "source_domain": "amritmahotsav.nic.in",
+          "text": "Aug 30, 2022 ... The Esuru village in the Shivamogga district of Karnataka is said to be the first village to declare independence in 1942. After declaring ...",
+          "supports_answers": [
+            "Issuru"
+          ]
+        },
+        {
+          "source_domain": "www.newindianexpress.com",
+          "text": "Aug 15, 2020 ... It was the first village to declare itself independent in 1942. When a village officer came for collection of taxes on September 25, his ...",
+          "supports_answers": [
+            "Issuru"
+          ]
+        },
+        {
+          "source_domain": "thefederal.com",
+          "text": "5 days ago ... Issuru, a village in Karnataka's Shivamogga district, was the first in the state to declare Independence from the British Raj and run a ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.deccanherald.com",
+          "text": "Aug 8, 2022 ... Esuru was the first village to self-declare independence during the struggle. Each resident of Esuru belongs to a family of freedom fighters, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "yourstory.com",
+          "text": "Aug 18, 2017 ... A small hamlet in South Karnataka, Issur is the first village in colonial India to have declared its own independence.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.facebook.com",
+          "text": "Sep 13, 2022 ... Read More: https://www.thebetterindia.com/193052/karnataka-shivamoga- ... becoming the first village in India to declare itself independent.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.udayavani.com",
+          "text": "Mar 21, 2022 ... A village named Esuru became the first village in India to declare itself independent. While Gandhi was calling for the British to 'Quit India', ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "proposed_mad",
+  "evaluation_seconds": 152.151,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

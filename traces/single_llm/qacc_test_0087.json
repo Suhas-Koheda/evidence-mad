@@ -1,0 +1,144 @@
+{
+  "query": "Nobel laureate who began career as accountant in calcutta?",
+  "trace_id": "72e797cd-5f63-49a9-96f6-8f0421e73438",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Nobel laureate who began career as accountant in calcutta?",
+    "answer": "C. V. Raman",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-17T00:11:30.056646"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 19.215965509414673,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-17T00:11:10.840801",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0087",
+    "query": "Nobel laureate who began career as accountant in calcutta?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Armartya Sen",
+    "required_facts": [
+      "Armartya Sen"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 110,
+      "answer_variants": [
+        "Amartya Sen"
+      ],
+      "annotation_explanation": "This is the only answer that made sense after looking it up.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.quora.com",
+          "text": "Dr. C.V.raman was a novel prize winner who began his career as an accountant in the finance department of the Indian government in Calcutta.",
+          "supports_answers": [
+            "Amartya Sen"
+          ]
+        },
+        {
+          "source_domain": "kbcliv.in",
+          "text": "Ques : Which Nobel laureate began his career as an accountant in the finance Department of the Indian Government in Calcutta?",
+          "supports_answers": [
+            "Amartya Sen"
+          ]
+        },
+        {
+          "source_domain": "www.queryhome.com",
+          "text": "Sep 27, 2017 ... Which Nobel laureate began his career as an accountant in the finance department of the Indian government in Calcutta? [A] Amartya Sen",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.livemint.com",
+          "text": "Nov 7, 2022 ... CV Raman was the first Pallet Chair of Physics at Calcutta University. ... CV Raman always wanted to work in the field of scientific research and ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "He was posted in Calcutta (now Kolkata) as Assistant Accountant General in June 1907. It was there that he became highly impressed with the Indian Association ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "Jun 26, 2023 ... Amartya Sen, Indian economist who was awarded the 1998 Nobel Prize in ... Sen was educated at Presidency College in Calcutta (now Kolkata).",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "news.harvard.edu",
+          "text": "Jun 3, 2021 ... GAZETTE: Your interest in politics started while you were a college student in Calcutta? SEN: No, I think earlier. In Shantiniketan it started.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.linkedin.com",
+          "text": "Mar 1, 2023 ... Yes, there is at least one accountant who won a Nobel Prize. Working full time as an accountant in finance department at Calcutta, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.acs.org",
+          "text": "His group in Calcutta began an extensive series of measurements of light ... remarking in his 1930 Nobel Prize address that \"... the character of the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.newscientist.com",
+          "text": "Despite not having formally been awarded a PhD, he began acquiring research students from the University of Calcutta in 1915, and soon after from several other ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 19.24,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

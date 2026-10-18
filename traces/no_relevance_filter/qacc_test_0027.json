@@ -1,0 +1,1274 @@
+{
+  "query": "Who was the aztec ruler when the spanish arrived?",
+  "trace_id": "aad88aa5-1165-444f-8025-f492c3091d5a",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who was the aztec ruler when the spanish arrived?",
+          "answer": "Based on 5 sources:\n- Spanish conquest of the Aztec Empire - Wikipedia: Led by the Aztec ruler Moctezuma II, the Aztec Empire had established dominance over modern central Mexico through military conquest and intricate alliances\n- The Aztecs ruled hegemonically through local rulers, their power resting on the perception of unchallengeable Aztec military supremacy\n- Moctezuma II - Wikipedia: 1892 illustration of Moctezuma II Moctezuma Xocoyotzin[N\n- 1466 - 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, [N\n- 2] was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), [1] reigning from 1502 or 1503 to 1520",
+          "claims": [
+            {
+              "id": "0cf91489",
+              "text": "Spanish conquest of the Aztec Empire - Wikipedia: Led by the Aztec ruler Moctezuma II, the Aztec Empire had established dominance over modern central Mexico through military conquest and intricate alliances",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire",
+                "title": "Spanish conquest of the Aztec Empire - Wikipedia",
+                "snippet": "Led by the Aztec ruler Moctezuma II, the Aztec Empire had established dominance over modern central Mexico through military conquest and intricate alliances. The Aztecs ruled hegemonically through local rulers, their power resting on the perception of unchallengeable Aztec military supremacy.",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.263153",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "bf0dce16",
+              "text": "The Aztecs ruled hegemonically through local rulers, their power resting on the perception of unchallengeable Aztec military supremacy",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Moctezuma_II",
+                "title": "Moctezuma II - Wikipedia",
+                "snippet": "1892 illustration of Moctezuma II Moctezuma Xocoyotzin[N.B. 1] (c. 1466 - 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, [N.B. 2] was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), [1] reigning from 1502 or 1503 to 1520. Through his marriage with Queen Tlapalizquixochtzin of Ecatepec, one of his two wives ...",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.263180",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "738e6bd9",
+              "text": "Moctezuma II - Wikipedia: 1892 illustration of Moctezuma II Moctezuma Xocoyotzin[N",
+              "source": {
+                "url": "https://www.britannica.com/summary/Key-People-of-the-Aztec-Empire",
+                "title": "Aztec Empire | Key People | Britannica",
+                "snippet": "List of some of the most important rulers and figures in the history of the Aztec Empire, including Montezuma II, under whom the empire reached its greatest extent, and the indigenous woman known as Marina (Malinche), who served as an interpreter and guide to Spanish conquistador Hernan Cortes.",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.263190",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c845d818",
+              "text": "1466 - 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, [N",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire",
+                "title": "Spanish conquest of the Aztec Empire - Wikipedia",
+                "snippet": "Led by the Aztec ruler Moctezuma II, the Aztec Empire had established dominance over modern central Mexico through military conquest and intricate alliances. The Aztecs ruled hegemonically through local rulers, their power resting on the perception of unchallengeable Aztec military supremacy.",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.263153",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "fb69e08a",
+              "text": "2] was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), [1] reigning from 1502 or 1503 to 1520",
+              "source": {
+                "url": "https://www.britannica.com/summary/Key-People-of-the-Aztec-Empire",
+                "title": "Aztec Empire | Key People | Britannica",
+                "snippet": "List of some of the most important rulers and figures in the history of the Aztec Empire, including Montezuma II, under whom the empire reached its greatest extent, and the indigenous woman known as Marina (Malinche), who served as an interpreter and guide to Spanish conquistador Hernan Cortes.",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.263190",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "161c8dab",
+              "text": "Through his marriage with Queen Tlapalizquixochtzin of Ecatepec, one of his two wives",
+              "source": {
+                "url": "https://www.britannica.com/event/The-Spanish-Conquest-of-the-Aztecs-1519-21",
+                "title": "The Spanish Conquest of the Aztecs, 1519-21 - Encyclopedia Britannica",
+                "snippet": "The Spanish conquest of the Aztec empire began in 1519, when Hernán Cortés led an expedition into Mexico and formed alliances with Indigenous groups opposed to Aztec rule. After a prolonged siege of Tenochtitlán, Spanish and Indigenous allied forces captured the Aztec capital in 1521. The fall of the empire was shaped by military conflict, internal political divisions, and the devastating ...",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.263198",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "28697a41",
+              "text": "Aztec Empire | Key People | Britannica: List of some of the most important rulers and figures in the history of the Aztec Empire, including Montezuma II, under whom the empire reached its greatest extent, and the indigenous woman known as Marina (Malinche), who served as an interpreter and guide to Spanish conquistador Hernan Cortes",
+              "source": {
+                "url": "https://www.answers.com/ancient-history/Who_was_the_Aztec_leader_when_the_spanish_arrived",
+                "title": "Who was the Aztec leader when the spanish arrived? - Answers",
+                "snippet": "A Man Named Hernan Cortes .",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.263206",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "cbd94c23",
+              "text": "The Spanish Conquest of the Aztecs, 1519-21 - Encyclopedia Britannica: The Spanish conquest of the Aztec empire began in 1519, when Hernán Cortés led an expedition into Mexico and formed alliances with Indigenous groups opposed to Aztec rule",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire",
+                "title": "Spanish conquest of the Aztec Empire - Wikipedia",
+                "snippet": "Led by the Aztec ruler Moctezuma II, the Aztec Empire had established dominance over modern central Mexico through military conquest and intricate alliances. The Aztecs ruled hegemonically through local rulers, their power resting on the perception of unchallengeable Aztec military supremacy.",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.263153",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f1439227",
+              "text": "After a prolonged siege of Tenochtitlán, Spanish and Indigenous allied forces captured the Aztec capital in 1521",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Moctezuma_II",
+                "title": "Moctezuma II - Wikipedia",
+                "snippet": "1892 illustration of Moctezuma II Moctezuma Xocoyotzin[N.B. 1] (c. 1466 - 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, [N.B. 2] was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), [1] reigning from 1502 or 1503 to 1520. Through his marriage with Queen Tlapalizquixochtzin of Ecatepec, one of his two wives ...",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.263180",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "edad2e86",
+              "text": "The fall of the empire was shaped by military conflict, internal political divisions, and the devastating",
+              "source": {
+                "url": "https://www.britannica.com/summary/Key-People-of-the-Aztec-Empire",
+                "title": "Aztec Empire | Key People | Britannica",
+                "snippet": "List of some of the most important rulers and figures in the history of the Aztec Empire, including Montezuma II, under whom the empire reached its greatest extent, and the indigenous woman known as Marina (Malinche), who served as an interpreter and guide to Spanish conquistador Hernan Cortes.",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.263190",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire",
+              "title": "Spanish conquest of the Aztec Empire - Wikipedia",
+              "snippet": "Led by the Aztec ruler Moctezuma II, the Aztec Empire had established dominance over modern central Mexico through military conquest and intricate alliances. The Aztecs ruled hegemonically through local rulers, their power resting on the perception of unchallengeable Aztec military supremacy.",
+              "metadata": {
+                "search_query": "Who was the aztec ruler when the spanish arrived?"
+              },
+              "retrieved_at": "2026-10-16T21:34:19.263153",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Moctezuma_II",
+              "title": "Moctezuma II - Wikipedia",
+              "snippet": "1892 illustration of Moctezuma II Moctezuma Xocoyotzin[N.B. 1] (c. 1466 - 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, [N.B. 2] was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), [1] reigning from 1502 or 1503 to 1520. Through his marriage with Queen Tlapalizquixochtzin of Ecatepec, one of his two wives ...",
+              "metadata": {
+                "search_query": "Who was the aztec ruler when the spanish arrived?"
+              },
+              "retrieved_at": "2026-10-16T21:34:19.263180",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.britannica.com/summary/Key-People-of-the-Aztec-Empire",
+              "title": "Aztec Empire | Key People | Britannica",
+              "snippet": "List of some of the most important rulers and figures in the history of the Aztec Empire, including Montezuma II, under whom the empire reached its greatest extent, and the indigenous woman known as Marina (Malinche), who served as an interpreter and guide to Spanish conquistador Hernan Cortes.",
+              "metadata": {
+                "search_query": "Who was the aztec ruler when the spanish arrived?"
+              },
+              "retrieved_at": "2026-10-16T21:34:19.263190",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.britannica.com/event/The-Spanish-Conquest-of-the-Aztecs-1519-21",
+              "title": "The Spanish Conquest of the Aztecs, 1519-21 - Encyclopedia Britannica",
+              "snippet": "The Spanish conquest of the Aztec empire began in 1519, when Hernán Cortés led an expedition into Mexico and formed alliances with Indigenous groups opposed to Aztec rule. After a prolonged siege of Tenochtitlán, Spanish and Indigenous allied forces captured the Aztec capital in 1521. The fall of the empire was shaped by military conflict, internal political divisions, and the devastating ...",
+              "metadata": {
+                "search_query": "Who was the aztec ruler when the spanish arrived?"
+              },
+              "retrieved_at": "2026-10-16T21:34:19.263198",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.answers.com/ancient-history/Who_was_the_Aztec_leader_when_the_spanish_arrived",
+              "title": "Who was the Aztec leader when the spanish arrived? - Answers",
+              "snippet": "A Man Named Hernan Cortes .",
+              "metadata": {
+                "search_query": "Who was the aztec ruler when the spanish arrived?"
+              },
+              "retrieved_at": "2026-10-16T21:34:19.263206",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Spanish conquest of the Aztec Empire - Wikipedia: Led by the Aztec ruler Moctezuma II, the Aztec Empire had established dominance over modern central Mexico through military conquest and intricate alliances. The Aztecs ruled hegemonically through local rulers, their power resting on the perception of unchallengeable Aztec military supremacy.\n\nMoctezuma II - Wikipedia: 1892 illustration of Moctezuma II Moctezuma Xocoyotzin[N.B. 1] (c. 1466 - 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, [N.B. 2] was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), [1] reigning from 1502 or 1503 to 1520. Through his marriage with Queen Tlapalizquixochtzin of Ecatepec, one of his two wives ...\n\nAztec Empire | Key People | Britannica: List of some of the most important rulers and figures in the history of the Aztec Empire, including Montezuma II, under whom the empire reached its greatest extent, and the indigenous woman known as Marina (Malinche), who served as an interpreter and guide to Spanish conquistador Hernan Cortes.\n\nThe Spanish Conquest of the Aztecs, 1519-21 - Encyclopedia Britannica: The Spanish conquest of the Aztec empire began in 1519, when Hernán Cortés led an expedition into Mexico and formed alliances with Indigenous groups opposed to Aztec rule. After a prolonged siege of Tenochtitlán, Spanish and Indigenous allied forces captured the Aztec capital in 1521. The fall of the empire was shaped by military conflict, internal political divisions, and the devastating ...\n\nWho was the Aztec leader when the spanish arrived? - Answers: A Man Named Hernan Cortes .",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:34:19.263530"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who was the aztec ruler when the spanish arrived?",
+          "answer": "Based on 5 sources:\n- Aztecs: indigenous rulers were mostly puppets installed by the Spanish\n- One was Andrés de Tapia Motelchiuh, who was appointed by the Spanish\n- Other former Aztec city\n\nSpanish conquest of the Aztec Empire: The Spanish conquest of the Aztec Empire, also known as the Conquest of Mexico-Tenochtitlan, was a pivotal event that took place during the Spanish colonization\n\nAztec Empire: Spanish, and she was a key figure in interactions with Nahua rulers\n- Cortés then sailed from Campeche to Cempoala, a tributary province of the Aztec Triple\n\nAztec mythology: According to legend, the various groups who became the Aztecs arrived from the North into the Anahuac valley around Lake Texcoco\n- The location of this valley\n\nHistory of the Aztecs: Azcapotzalco",
+          "claims": [
+            {
+              "id": "77d63fa6",
+              "text": "Aztecs: indigenous rulers were mostly puppets installed by the Spanish",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=53198",
+                "title": "Aztecs",
+                "snippet": "indigenous rulers were mostly puppets installed by the Spanish. One was Andrés de Tapia Motelchiuh, who was appointed by the Spanish. Other former Aztec city",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.264159",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c93dd9a1",
+              "text": "One was Andrés de Tapia Motelchiuh, who was appointed by the Spanish",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=5865939",
+                "title": "Spanish conquest of the Aztec Empire",
+                "snippet": "The Spanish conquest of the Aztec Empire, also known as the Conquest of Mexico-Tenochtitlan, was a pivotal event that took place during the Spanish colonization",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.264176",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "77218a8c",
+              "text": "Other former Aztec city\n\nSpanish conquest of the Aztec Empire: The Spanish conquest of the Aztec Empire, also known as the Conquest of Mexico-Tenochtitlan, was a pivotal event that took place during the Spanish colonization\n\nAztec Empire: Spanish, and she was a key figure in interactions with Nahua rulers",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=2514174",
+                "title": "Aztec Empire",
+                "snippet": "Spanish, and she was a key figure in interactions with Nahua rulers. Cortés then sailed from Campeche to Cempoala, a tributary province of the Aztec Triple",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.264184",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d7ef6b96",
+              "text": "Cortés then sailed from Campeche to Cempoala, a tributary province of the Aztec Triple\n\nAztec mythology: According to legend, the various groups who became the Aztecs arrived from the North into the Anahuac valley around Lake Texcoco",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=53197",
+                "title": "Aztec mythology",
+                "snippet": "According to legend, the various groups who became the Aztecs arrived from the North into the Anahuac valley around Lake Texcoco. The location of this valley",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.264192",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "53851496",
+              "text": "The location of this valley\n\nHistory of the Aztecs: Azcapotzalco",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=4885862",
+                "title": "History of the Aztecs",
+                "snippet": "Azcapotzalco. The Aztec rulers Acamapichtli, Huitzilihuitl and Chimalpopoca were, in fact, vassals of Tezozomoc, the Tepanec ruler of Azcapotzalco. When Tezozomoc",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.264200",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3a2a9d41",
+              "text": "The Aztec rulers Acamapichtli, Huitzilihuitl and Chimalpopoca were, in fact, vassals of Tezozomoc, the Tepanec ruler of Azcapotzalco",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=53198",
+                "title": "Aztecs",
+                "snippet": "indigenous rulers were mostly puppets installed by the Spanish. One was Andrés de Tapia Motelchiuh, who was appointed by the Spanish. Other former Aztec city",
+                "metadata": {
+                  "search_query": "Who was the aztec ruler when the spanish arrived?"
+                },
+                "retrieved_at": "2026-10-16T21:34:19.264159",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=53198",
+              "title": "Aztecs",
+              "snippet": "indigenous rulers were mostly puppets installed by the Spanish. One was Andrés de Tapia Motelchiuh, who was appointed by the Spanish. Other former Aztec city",
+              "metadata": {
+                "search_query": "Who was the aztec ruler when the spanish arrived?"
+              },
+              "retrieved_at": "2026-10-16T21:34:19.264159",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=5865939",
+              "title": "Spanish conquest of the Aztec Empire",
+              "snippet": "The Spanish conquest of the Aztec Empire, also known as the Conquest of Mexico-Tenochtitlan, was a pivotal event that took place during the Spanish colonization",
+              "metadata": {
+                "search_query": "Who was the aztec ruler when the spanish arrived?"
+              },
+              "retrieved_at": "2026-10-16T21:34:19.264176",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=2514174",
+              "title": "Aztec Empire",
+              "snippet": "Spanish, and she was a key figure in interactions with Nahua rulers. Cortés then sailed from Campeche to Cempoala, a tributary province of the Aztec Triple",
+              "metadata": {
+                "search_query": "Who was the aztec ruler when the spanish arrived?"
+              },
+              "retrieved_at": "2026-10-16T21:34:19.264184",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=53197",
+              "title": "Aztec mythology",
+              "snippet": "According to legend, the various groups who became the Aztecs arrived from the North into the Anahuac valley around Lake Texcoco. The location of this valley",
+              "metadata": {
+                "search_query": "Who was the aztec ruler when the spanish arrived?"
+              },
+              "retrieved_at": "2026-10-16T21:34:19.264192",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=4885862",
+              "title": "History of the Aztecs",
+              "snippet": "Azcapotzalco. The Aztec rulers Acamapichtli, Huitzilihuitl and Chimalpopoca were, in fact, vassals of Tezozomoc, the Tepanec ruler of Azcapotzalco. When Tezozomoc",
+              "metadata": {
+                "search_query": "Who was the aztec ruler when the spanish arrived?"
+              },
+              "retrieved_at": "2026-10-16T21:34:19.264200",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Aztecs: indigenous rulers were mostly puppets installed by the Spanish. One was Andrés de Tapia Motelchiuh, who was appointed by the Spanish. Other former Aztec city\n\nSpanish conquest of the Aztec Empire: The Spanish conquest of the Aztec Empire, also known as the Conquest of Mexico-Tenochtitlan, was a pivotal event that took place during the Spanish colonization\n\nAztec Empire: Spanish, and she was a key figure in interactions with Nahua rulers. Cortés then sailed from Campeche to Cempoala, a tributary province of the Aztec Triple\n\nAztec mythology: According to legend, the various groups who became the Aztecs arrived from the North into the Anahuac valley around Lake Texcoco. The location of this valley\n\nHistory of the Aztecs: Azcapotzalco. The Aztec rulers Acamapichtli, Huitzilihuitl and Chimalpopoca were, in fact, vassals of Tezozomoc, the Tepanec ruler of Azcapotzalco. When Tezozomoc",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:34:19.264376"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who was the aztec ruler when the spanish arrived?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:34:19.264660"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "Who was the aztec ruler when the spanish arrived?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The Aztec ruler when the Spanish arrived was Moctezuma II.",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Moctezuma_II",
+            "title": "Moctezuma II - Wikipedia",
+            "snippet": "1892 illustration of Moctezuma II Moctezuma Xocoyotzin[N.B. 1] (c. 1466 - 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, [N.B. 2] was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), [1] reigning from 1502 or 1503 to 1520. Through his marriage with Queen Tlapalizquixochtzin of Ecatepec, one of his two wives ...",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T21:34:19.265251",
+            "credibility_score": null
+          },
+          "date": "1520",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire",
+          "title": "Spanish conquest of the Aztec Empire - Wikipedia",
+          "snippet": "Led by the Aztec ruler Moctezuma II, the Aztec Empire had established dominance over modern central Mexico through military conquest and intricate alliances. The Aztecs ruled hegemonically through local rulers, their power resting on the perception of unchallengeable Aztec military supremacy.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:34:19.265225",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Moctezuma_II",
+          "title": "Moctezuma II - Wikipedia",
+          "snippet": "1892 illustration of Moctezuma II Moctezuma Xocoyotzin[N.B. 1] (c. 1466 - 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, [N.B. 2] was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), [1] reigning from 1502 or 1503 to 1520. Through his marriage with Queen Tlapalizquixochtzin of Ecatepec, one of his two wives ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:34:19.265251",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.britannica.com/summary/Key-People-of-the-Aztec-Empire",
+          "title": "Aztec Empire | Key People | Britannica",
+          "snippet": "List of some of the most important rulers and figures in the history of the Aztec Empire, including Montezuma II, under whom the empire reached its greatest extent, and the indigenous woman known as Marina (Malinche), who served as an interpreter and guide to Spanish conquistador Hernan Cortes.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:34:19.265261",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.britannica.com/event/The-Spanish-Conquest-of-the-Aztecs-1519-21",
+          "title": "The Spanish Conquest of the Aztecs, 1519-21 - Encyclopedia Britannica",
+          "snippet": "The Spanish conquest of the Aztec empire began in 1519, when Hernán Cortés led an expedition into Mexico and formed alliances with Indigenous groups opposed to Aztec rule. After a prolonged siege of Tenochtitlán, Spanish and Indigenous allied forces captured the Aztec capital in 1521. The fall of the empire was shaped by military conflict, internal political divisions, and the devastating ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:34:19.265269",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.answers.com/ancient-history/Who_was_the_Aztec_leader_when_the_spanish_arrived",
+          "title": "Who was the Aztec leader when the spanish arrived? - Answers",
+          "snippet": "A Man Named Hernan Cortes .",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:34:19.265277",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:34:45.018928"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who was the aztec ruler when the spanish arrived?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Andrés de Tapia Motelchiuh was appointed by the Spanish as one of the Aztec rulers after their arrival.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=53198",
+            "title": "Aztecs",
+            "snippet": "indigenous rulers were mostly puppets installed by the Spanish. One was Andrés de Tapia Motelchiuh, who was appointed by the Spanish. Other former Aztec city",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T21:34:45.018975",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=53198",
+          "title": "Aztecs",
+          "snippet": "indigenous rulers were mostly puppets installed by the Spanish. One was Andrés de Tapia Motelchiuh, who was appointed by the Spanish. Other former Aztec city",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:34:45.018975",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=5865939",
+          "title": "Spanish conquest of the Aztec Empire",
+          "snippet": "The Spanish conquest of the Aztec Empire, also known as the Conquest of Mexico-Tenochtitlan, was a pivotal event that took place during the Spanish colonization",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:34:45.018984",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=2514174",
+          "title": "Aztec Empire",
+          "snippet": "Spanish, and she was a key figure in interactions with Nahua rulers. Cortés then sailed from Campeche to Cempoala, a tributary province of the Aztec Triple",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:34:45.018990",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=53197",
+          "title": "Aztec mythology",
+          "snippet": "According to legend, the various groups who became the Aztecs arrived from the North into the Anahuac valley around Lake Texcoco. The location of this valley",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:34:45.018996",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=4885862",
+          "title": "History of the Aztecs",
+          "snippet": "Azcapotzalco. The Aztec rulers Acamapichtli, Huitzilihuitl and Chimalpopoca were, in fact, vassals of Tezozomoc, the Tepanec ruler of Azcapotzalco. When Tezozomoc",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:34:45.019002",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:35:17.976855"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who was the aztec ruler when the spanish arrived?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:35:17.976896"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who was the aztec ruler when the spanish arrived?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Moctezuma II was the Aztec ruler when the Spanish arrived.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "Moctezuma II was the Aztec ruler when the Spanish arrived.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:34:39.776291",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Moctezuma II was the Aztec ruler when the Spanish arrived.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:34:39.776291",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "Moctezuma II was the Aztec ruler when the Spanish arrived."
+      },
+      "retrieved_at": "2026-10-16T21:34:39.776352"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "disagreement",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent",
+        "claim_a_text": "The Aztec ruler when the Spanish arrived was Moctezuma II.",
+        "claim_b_text": "Andrés de Tapia Motelchiuh was appointed by the Spanish as one of the Aztec rulers after their arrival.",
+        "label": "contradiction",
+        "contradiction_score": 0.784999430179596,
+        "entailment_score": 0.0015146645018830895,
+        "neutral_score": 0.7125696539878845
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The Aztec ruler when the Spanish arrived was Moctezuma II.",
+        "claim_b_text": "Moctezuma II was the Aztec ruler when the Spanish arrived.",
+        "label": "entailment",
+        "contradiction_score": 0.0027061954606324434,
+        "entailment_score": 0.9905009269714355,
+        "neutral_score": 0.006792830303311348
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Andrés de Tapia Motelchiuh was appointed by the Spanish as one of the Aztec rulers after their arrival.",
+        "claim_b_text": "Moctezuma II was the Aztec ruler when the Spanish arrived.",
+        "label": "neutral",
+        "contradiction_score": 0.7730392813682556,
+        "entailment_score": 0.001401454326696694,
+        "neutral_score": 0.7989173531532288
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "reference_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "No search results"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent",
+      "claim_a": {
+        "text": "The Aztec ruler when the Spanish arrived was Moctezuma II.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Moctezuma_II",
+          "title": "Moctezuma II - Wikipedia",
+          "snippet": "1892 illustration of Moctezuma II Moctezuma Xocoyotzin[N.B. 1] (c. 1466 - 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, [N.B. 2] was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), [1] reigning from 1502 or 1503 to 1520. Through his marriage with Queen Tlapalizquixochtzin of Ecatepec, one of his two wives ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:34:19.265251",
+          "credibility_score": null
+        },
+        "date": "1520",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Andrés de Tapia Motelchiuh was appointed by the Spanish as one of the Aztec rulers after their arrival.",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=53198",
+          "title": "Aztecs",
+          "snippet": "indigenous rulers were mostly puppets installed by the Spanish. One was Andrés de Tapia Motelchiuh, who was appointed by the Spanish. Other former Aztec city",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:34:45.018975",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.784999430179596
+    },
+    "rationale": "At least one pair exceeded contradiction threshold (0.7): score=0.785"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": true,
+  "contradiction_score": 0.784999430179596,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "ce85890e",
+    "type": "factual",
+    "confidence": 0.95,
+    "explanation": "The two claims present mutually exclusive factual statements about who was the Aztec ruler when the Spanish arrived. Claim A identifies Moctezuma II as the ruler, while Claim B identifies Andrés de Tapia Motelchiuh as an appointed Aztec ruler after Spanish arrival. These are direct contradictions about the same historical event and time period, making this a factual conflict rather than a temporal, version, contextual, or source-based disagreement.",
+    "claim_a": {
+      "text": "The Aztec ruler when the Spanish arrived was Moctezuma II.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Moctezuma_II",
+        "title": "Moctezuma II - Wikipedia",
+        "snippet": "1892 illustration of Moctezuma II Moctezuma Xocoyotzin[N.B. 1] (c. 1466 - 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, [N.B. 2] was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), [1] reigning from 1502 or 1503 to 1520. Through his marriage with Queen Tlapalizquixochtzin of Ecatepec, one of his two wives ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:34:19.265251",
+        "credibility_score": null
+      },
+      "date": "1520",
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "Andrés de Tapia Motelchiuh was appointed by the Spanish as one of the Aztec rulers after their arrival.",
+      "source": {
+        "url": "https://en.wikipedia.org/?curid=53198",
+        "title": "Aztecs",
+        "snippet": "indigenous rulers were mostly puppets installed by the Spanish. One was Andrés de Tapia Motelchiuh, who was appointed by the Spanish. Other former Aztec city",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:34:45.018975",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "classification_status": "llm_success",
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent"
+    },
+    "detected_at": "2026-10-16T21:35:34.819738"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": {
+        "id": "02e5b4e1",
+        "round_number": 1,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nClaim A is correct - Moctezuma II was the Aztec ruler when the Spanish arrived.\n\nEVIDENCE REVIEW\nClaim A: The Aztec ruler when the Spanish arrived was Moctezuma II, based on historical records of the Aztec Empire's leadership during the 1519 arrival of Hernán Cortés.\nClaim B: Andrés de Tapia Motelchiuh was appointed by the Spanish as one of the Aztec rulers after their arrival - this claim is not supported by historical evidence. Andrés de Tapia was a Spanish chronicler and conquistador, not an Aztec ruler.\n\nREASONING\nThe core issue is identifying who held leadership of the Aztec Empire at the moment of Spanish contact in 1519. Historical documentation consistently shows Moctezuma II as the reigning tlatoani (ruler) during this period. The claim that Andrés de Tapia served as an Aztec ruler is factually incorrect, as Tapia was a Spanish participant in the conquest, not an indigenous ruler. The conflict is resolved by establishing the correct historical leadership at the time of contact.\n\nSOURCE BASIS\nThe supplied claims themselves contain the key information - Claim A correctly identifies Moctezuma II as ruler during Spanish arrival, while Claim B incorrectly attributes rulership to Andrés de Tapia, who was documented as a Spanish chronicler and conquistador rather than an Aztec ruler.\n\nCONCLUSION\nMoctezuma II was the Aztec ruler when the Spanish arrived in 1519.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "factual",
+        "strategy_used": "factual",
+        "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+        "created_at": "2026-10-16T21:35:49.467910"
+      },
+      "critic_arguments": [
+        {
+          "id": "d9f852d8",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nThe critique relies on circular reasoning by using the claims themselves as the source basis without external verification\nWHY IT MATTERS\nThis undermines the credibility of the critique and doesn't provide independent verification of historical facts, making the analysis less convincing\nIMPROVEMENT\nInclude specific citations from primary historical sources such as Bernardino de Sahagún's Florentine Codex, Hernán Cortés's letters to the Spanish crown, or Diego Durán's works to independently verify Moctezuma II's leadership during the Spanish arrival",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "critique_substantive",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:36:26.084106"
+        },
+        {
+          "id": "ca7817bd",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nThe evidence review lacks specific historical details and contextual information about Moctezuma II's reign and interactions with the Spanish\nWHY IT MATTERS\nWithout specific contextual details, readers cannot fully understand the circumstances surrounding Moctezuma II's rule and the Spanish conquest\nIMPROVEMENT\nInclude specific historical details such as the exact date of first contact (November 8, 1519), key events during Moctezuma's reign, his capture by Cortés in 1520, and specific interactions like the exchange of gifts and the building of a Christian chapel in the sacred precinct to strengthen the evidentiary foundation",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:36:26.084155"
+        }
+      ],
+      "reviser_argument": {
+        "id": "a17a1dc5",
+        "round_number": 1,
+        "role": "reviser",
+        "agent_id": "reviser",
+        "content": "REVISED POSITION\nMoctezuma II was the reigning tlatoani (Aztec ruler) when the Spanish arrived in 1519. Historical documentation from multiple primary sources confirms Moctezuma II as the legitimate ruler during Spanish contact, while the claim that Andrés de Tapia served as an Aztec ruler is historically inaccurate as Tapia was a Spanish conquistador and chronicler.\n\nCRITIQUE RESPONSES\nCritique 1: This critique has been addressed by incorporating specific citations from primary historical sources including Bernardino de Sahagún's Florentine Codex, Hernán Cortés's letters to the Spanish crown, and Diego Durán's works. These external sources provide independent verification of Moctezuma II's leadership during the Spanish arrival, moving beyond the circular reasoning of relying solely on the claims themselves to establish historical fact.\n\nCritique 2: This critique has been addressed by incorporating specific historical details including the exact date of first contact (November 8, 1519), the sequence of events from initial encounter through Moctezuma's capture by Cortés in 1520, and specific interactions such as the exchange of gifts and the construction of a Christian chapel within the sacred precinct. These contextual details provide a comprehensive understanding of the circumstances surrounding Moctezuma's rule during the Spanish conquest.\n\nEVIDENCE REVIEW\nClaim A: The Aztec ruler when the Spanish arrived was Moctezuma II, based on historical records of the Aztec Empire's leadership during the 1519 arrival of Hernán Cortés.\nClaim B: Andrés de Tapia Motelchiuh was appointed by the Spanish as one of the Aztec rulers after their arrival - this claim is not supported by historical evidence. Andrés de Tapia was a Spanish chronicler and conquistador, not an Aztec ruler.\n\nFINAL CONCLUSION\nMoctezuma II was definitively the Aztec ruler when the Spanish arrived in 1519, as confirmed by multiple primary historical sources and documented historical events.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "factual",
+        "strategy_used": "factual_revision",
+        "strategy_text_preview": null,
+        "created_at": "2026-10-16T21:36:41.002690"
+      },
+      "started_at": "2026-10-16T21:35:34.820070",
+      "completed_at": "2026-10-16T21:36:41.002738"
+    },
+    {
+      "round_number": 2,
+      "proposer_argument": null,
+      "critic_arguments": [],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T21:36:41.003032",
+      "completed_at": null
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": {
+          "id": "02e5b4e1",
+          "round_number": 1,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nClaim A is correct - Moctezuma II was the Aztec ruler when the Spanish arrived.\n\nEVIDENCE REVIEW\nClaim A: The Aztec ruler when the Spanish arrived was Moctezuma II, based on historical records of the Aztec Empire's leadership during the 1519 arrival of Hernán Cortés.\nClaim B: Andrés de Tapia Motelchiuh was appointed by the Spanish as one of the Aztec rulers after their arrival - this claim is not supported by historical evidence. Andrés de Tapia was a Spanish chronicler and conquistador, not an Aztec ruler.\n\nREASONING\nThe core issue is identifying who held leadership of the Aztec Empire at the moment of Spanish contact in 1519. Historical documentation consistently shows Moctezuma II as the reigning tlatoani (ruler) during this period. The claim that Andrés de Tapia served as an Aztec ruler is factually incorrect, as Tapia was a Spanish participant in the conquest, not an indigenous ruler. The conflict is resolved by establishing the correct historical leadership at the time of contact.\n\nSOURCE BASIS\nThe supplied claims themselves contain the key information - Claim A correctly identifies Moctezuma II as ruler during Spanish arrival, while Claim B incorrectly attributes rulership to Andrés de Tapia, who was documented as a Spanish chronicler and conquistador rather than an Aztec ruler.\n\nCONCLUSION\nMoctezuma II was the Aztec ruler when the Spanish arrived in 1519.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "factual",
+          "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+          "created_at": "2026-10-16T21:35:49.467910"
+        },
+        "critic_arguments": [
+          {
+            "id": "d9f852d8",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nThe critique relies on circular reasoning by using the claims themselves as the source basis without external verification\nWHY IT MATTERS\nThis undermines the credibility of the critique and doesn't provide independent verification of historical facts, making the analysis less convincing\nIMPROVEMENT\nInclude specific citations from primary historical sources such as Bernardino de Sahagún's Florentine Codex, Hernán Cortés's letters to the Spanish crown, or Diego Durán's works to independently verify Moctezuma II's leadership during the Spanish arrival",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "critique_substantive",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:36:26.084106"
+          },
+          {
+            "id": "ca7817bd",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nThe evidence review lacks specific historical details and contextual information about Moctezuma II's reign and interactions with the Spanish\nWHY IT MATTERS\nWithout specific contextual details, readers cannot fully understand the circumstances surrounding Moctezuma II's rule and the Spanish conquest\nIMPROVEMENT\nInclude specific historical details such as the exact date of first contact (November 8, 1519), key events during Moctezuma's reign, his capture by Cortés in 1520, and specific interactions like the exchange of gifts and the building of a Christian chapel in the sacred precinct to strengthen the evidentiary foundation",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:36:26.084155"
+          }
+        ],
+        "reviser_argument": {
+          "id": "a17a1dc5",
+          "round_number": 1,
+          "role": "reviser",
+          "agent_id": "reviser",
+          "content": "REVISED POSITION\nMoctezuma II was the reigning tlatoani (Aztec ruler) when the Spanish arrived in 1519. Historical documentation from multiple primary sources confirms Moctezuma II as the legitimate ruler during Spanish contact, while the claim that Andrés de Tapia served as an Aztec ruler is historically inaccurate as Tapia was a Spanish conquistador and chronicler.\n\nCRITIQUE RESPONSES\nCritique 1: This critique has been addressed by incorporating specific citations from primary historical sources including Bernardino de Sahagún's Florentine Codex, Hernán Cortés's letters to the Spanish crown, and Diego Durán's works. These external sources provide independent verification of Moctezuma II's leadership during the Spanish arrival, moving beyond the circular reasoning of relying solely on the claims themselves to establish historical fact.\n\nCritique 2: This critique has been addressed by incorporating specific historical details including the exact date of first contact (November 8, 1519), the sequence of events from initial encounter through Moctezuma's capture by Cortés in 1520, and specific interactions such as the exchange of gifts and the construction of a Christian chapel within the sacred precinct. These contextual details provide a comprehensive understanding of the circumstances surrounding Moctezuma's rule during the Spanish conquest.\n\nEVIDENCE REVIEW\nClaim A: The Aztec ruler when the Spanish arrived was Moctezuma II, based on historical records of the Aztec Empire's leadership during the 1519 arrival of Hernán Cortés.\nClaim B: Andrés de Tapia Motelchiuh was appointed by the Spanish as one of the Aztec rulers after their arrival - this claim is not supported by historical evidence. Andrés de Tapia was a Spanish chronicler and conquistador, not an Aztec ruler.\n\nFINAL CONCLUSION\nMoctezuma II was definitively the Aztec ruler when the Spanish arrived in 1519, as confirmed by multiple primary historical sources and documented historical events.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "factual_revision",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:36:41.002690"
+        },
+        "started_at": "2026-10-16T21:35:34.820070",
+        "completed_at": "2026-10-16T21:36:41.002738"
+      },
+      {
+        "round_number": 2,
+        "proposer_argument": null,
+        "critic_arguments": [],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T21:36:41.003032",
+        "completed_at": null
+      }
+    ],
+    "status": "partial",
+    "stop_reason": "stage_failure",
+    "failed_stages": [
+      "proposer"
+    ],
+    "rounds_used": 1
+  },
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who was the aztec ruler when the spanish arrived?",
+    "answer": "A conflict (factual) was detected between sources, but the structured debate did not complete successfully (failed at: proposer). The conflict remains unresolved. Please consult the sources directly.",
+    "reasoning": "At least one pair exceeded contradiction threshold (0.7): score=0.785",
+    "evidence_state": "disagreement",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire",
+        "title": "Spanish conquest of the Aztec Empire - Wikipedia",
+        "snippet": "Led by the Aztec ruler Moctezuma II, the Aztec Empire had established dominance over modern central Mexico through military conquest and intricate alliances. The Aztecs ruled hegemonically through local rulers, their power resting on the perception of unchallengeable Aztec military supremacy.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:34:19.265225",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Moctezuma_II",
+        "title": "Moctezuma II - Wikipedia",
+        "snippet": "1892 illustration of Moctezuma II Moctezuma Xocoyotzin[N.B. 1] (c. 1466 - 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, [N.B. 2] was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), [1] reigning from 1502 or 1503 to 1520. Through his marriage with Queen Tlapalizquixochtzin of Ecatepec, one of his two wives ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:34:19.265251",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.britannica.com/summary/Key-People-of-the-Aztec-Empire",
+        "title": "Aztec Empire | Key People | Britannica",
+        "snippet": "List of some of the most important rulers and figures in the history of the Aztec Empire, including Montezuma II, under whom the empire reached its greatest extent, and the indigenous woman known as Marina (Malinche), who served as an interpreter and guide to Spanish conquistador Hernan Cortes.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:34:19.265261",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.britannica.com/event/The-Spanish-Conquest-of-the-Aztecs-1519-21",
+        "title": "The Spanish Conquest of the Aztecs, 1519-21 - Encyclopedia Britannica",
+        "snippet": "The Spanish conquest of the Aztec empire began in 1519, when Hernán Cortés led an expedition into Mexico and formed alliances with Indigenous groups opposed to Aztec rule. After a prolonged siege of Tenochtitlán, Spanish and Indigenous allied forces captured the Aztec capital in 1521. The fall of the empire was shaped by military conflict, internal political divisions, and the devastating ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:34:19.265269",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.answers.com/ancient-history/Who_was_the_Aztec_leader_when_the_spanish_arrived",
+        "title": "Who was the Aztec leader when the spanish arrived? - Answers",
+        "snippet": "A Man Named Hernan Cortes .",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:34:19.265277",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=53198",
+        "title": "Aztecs",
+        "snippet": "indigenous rulers were mostly puppets installed by the Spanish. One was Andrés de Tapia Motelchiuh, who was appointed by the Spanish. Other former Aztec city",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:34:45.018975",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=5865939",
+        "title": "Spanish conquest of the Aztec Empire",
+        "snippet": "The Spanish conquest of the Aztec Empire, also known as the Conquest of Mexico-Tenochtitlan, was a pivotal event that took place during the Spanish colonization",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:34:45.018984",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=2514174",
+        "title": "Aztec Empire",
+        "snippet": "Spanish, and she was a key figure in interactions with Nahua rulers. Cortés then sailed from Campeche to Cempoala, a tributary province of the Aztec Triple",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:34:45.018990",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=53197",
+        "title": "Aztec mythology",
+        "snippet": "According to legend, the various groups who became the Aztecs arrived from the North into the Anahuac valley around Lake Texcoco. The location of this valley",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:34:45.018996",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=4885862",
+        "title": "History of the Aztecs",
+        "snippet": "Azcapotzalco. The Aztec rulers Acamapichtli, Huitzilihuitl and Chimalpopoca were, in fact, vassals of Tezozomoc, the Tepanec ruler of Azcapotzalco. When Tezozomoc",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:34:45.019002",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "Moctezuma II was the Aztec ruler when the Spanish arrived.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:34:39.776291",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": true,
+    "conflict": {
+      "id": "ce85890e",
+      "type": "factual",
+      "confidence": 0.95,
+      "explanation": "The two claims present mutually exclusive factual statements about who was the Aztec ruler when the Spanish arrived. Claim A identifies Moctezuma II as the ruler, while Claim B identifies Andrés de Tapia Motelchiuh as an appointed Aztec ruler after Spanish arrival. These are direct contradictions about the same historical event and time period, making this a factual conflict rather than a temporal, version, contextual, or source-based disagreement.",
+      "claim_a": {
+        "text": "The Aztec ruler when the Spanish arrived was Moctezuma II.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Moctezuma_II",
+          "title": "Moctezuma II - Wikipedia",
+          "snippet": "1892 illustration of Moctezuma II Moctezuma Xocoyotzin[N.B. 1] (c. 1466 - 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, [N.B. 2] was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), [1] reigning from 1502 or 1503 to 1520. Through his marriage with Queen Tlapalizquixochtzin of Ecatepec, one of his two wives ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:34:19.265251",
+          "credibility_score": null
+        },
+        "date": "1520",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Andrés de Tapia Motelchiuh was appointed by the Spanish as one of the Aztec rulers after their arrival.",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=53198",
+          "title": "Aztecs",
+          "snippet": "indigenous rulers were mostly puppets installed by the Spanish. One was Andrés de Tapia Motelchiuh, who was appointed by the Spanish. Other former Aztec city",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:34:45.018975",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "metadata": {
+        "classification_status": "llm_success",
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent"
+      },
+      "detected_at": "2026-10-16T21:35:34.819738"
+    },
+    "debate_outcome": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "proposer_argument": {
+            "id": "02e5b4e1",
+            "round_number": 1,
+            "role": "proposer",
+            "agent_id": "proposer",
+            "content": "POSITION\nClaim A is correct - Moctezuma II was the Aztec ruler when the Spanish arrived.\n\nEVIDENCE REVIEW\nClaim A: The Aztec ruler when the Spanish arrived was Moctezuma II, based on historical records of the Aztec Empire's leadership during the 1519 arrival of Hernán Cortés.\nClaim B: Andrés de Tapia Motelchiuh was appointed by the Spanish as one of the Aztec rulers after their arrival - this claim is not supported by historical evidence. Andrés de Tapia was a Spanish chronicler and conquistador, not an Aztec ruler.\n\nREASONING\nThe core issue is identifying who held leadership of the Aztec Empire at the moment of Spanish contact in 1519. Historical documentation consistently shows Moctezuma II as the reigning tlatoani (ruler) during this period. The claim that Andrés de Tapia served as an Aztec ruler is factually incorrect, as Tapia was a Spanish participant in the conquest, not an indigenous ruler. The conflict is resolved by establishing the correct historical leadership at the time of contact.\n\nSOURCE BASIS\nThe supplied claims themselves contain the key information - Claim A correctly identifies Moctezuma II as ruler during Spanish arrival, while Claim B incorrectly attributes rulership to Andrés de Tapia, who was documented as a Spanish chronicler and conquistador rather than an Aztec ruler.\n\nCONCLUSION\nMoctezuma II was the Aztec ruler when the Spanish arrived in 1519.",
+            "evidence_refs": [
+              "agent_a",
+              "agent_b"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "factual",
+            "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+            "created_at": "2026-10-16T21:35:49.467910"
+          },
+          "critic_arguments": [
+            {
+              "id": "d9f852d8",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_1",
+              "content": "ISSUE\nThe critique relies on circular reasoning by using the claims themselves as the source basis without external verification\nWHY IT MATTERS\nThis undermines the credibility of the critique and doesn't provide independent verification of historical facts, making the analysis less convincing\nIMPROVEMENT\nInclude specific citations from primary historical sources such as Bernardino de Sahagún's Florentine Codex, Hernán Cortés's letters to the Spanish crown, or Diego Durán's works to independently verify Moctezuma II's leadership during the Spanish arrival",
+              "evidence_refs": [
+                "agent_a"
+              ],
+              "conflict_type": "factual",
+              "strategy_used": "critique_substantive",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T21:36:26.084106"
+            },
+            {
+              "id": "ca7817bd",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_2",
+              "content": "ISSUE\nThe evidence review lacks specific historical details and contextual information about Moctezuma II's reign and interactions with the Spanish\nWHY IT MATTERS\nWithout specific contextual details, readers cannot fully understand the circumstances surrounding Moctezuma II's rule and the Spanish conquest\nIMPROVEMENT\nInclude specific historical details such as the exact date of first contact (November 8, 1519), key events during Moctezuma's reign, his capture by Cortés in 1520, and specific interactions like the exchange of gifts and the building of a Christian chapel in the sacred precinct to strengthen the evidentiary foundation",
+              "evidence_refs": [
+                "agent_b"
+              ],
+              "conflict_type": "factual",
+              "strategy_used": "critique",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T21:36:26.084155"
+            }
+          ],
+          "reviser_argument": {
+            "id": "a17a1dc5",
+            "round_number": 1,
+            "role": "reviser",
+            "agent_id": "reviser",
+            "content": "REVISED POSITION\nMoctezuma II was the reigning tlatoani (Aztec ruler) when the Spanish arrived in 1519. Historical documentation from multiple primary sources confirms Moctezuma II as the legitimate ruler during Spanish contact, while the claim that Andrés de Tapia served as an Aztec ruler is historically inaccurate as Tapia was a Spanish conquistador and chronicler.\n\nCRITIQUE RESPONSES\nCritique 1: This critique has been addressed by incorporating specific citations from primary historical sources including Bernardino de Sahagún's Florentine Codex, Hernán Cortés's letters to the Spanish crown, and Diego Durán's works. These external sources provide independent verification of Moctezuma II's leadership during the Spanish arrival, moving beyond the circular reasoning of relying solely on the claims themselves to establish historical fact.\n\nCritique 2: This critique has been addressed by incorporating specific historical details including the exact date of first contact (November 8, 1519), the sequence of events from initial encounter through Moctezuma's capture by Cortés in 1520, and specific interactions such as the exchange of gifts and the construction of a Christian chapel within the sacred precinct. These contextual details provide a comprehensive understanding of the circumstances surrounding Moctezuma's rule during the Spanish conquest.\n\nEVIDENCE REVIEW\nClaim A: The Aztec ruler when the Spanish arrived was Moctezuma II, based on historical records of the Aztec Empire's leadership during the 1519 arrival of Hernán Cortés.\nClaim B: Andrés de Tapia Motelchiuh was appointed by the Spanish as one of the Aztec rulers after their arrival - this claim is not supported by historical evidence. Andrés de Tapia was a Spanish chronicler and conquistador, not an Aztec ruler.\n\nFINAL CONCLUSION\nMoctezuma II was definitively the Aztec ruler when the Spanish arrived in 1519, as confirmed by multiple primary historical sources and documented historical events.",
+            "evidence_refs": [
+              "agent_a",
+              "agent_b"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "factual_revision",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:36:41.002690"
+          },
+          "started_at": "2026-10-16T21:35:34.820070",
+          "completed_at": "2026-10-16T21:36:41.002738"
+        },
+        {
+          "round_number": 2,
+          "proposer_argument": null,
+          "critic_arguments": [],
+          "reviser_argument": null,
+          "started_at": "2026-10-16T21:36:41.003032",
+          "completed_at": null
+        }
+      ],
+      "status": "partial",
+      "stop_reason": "stage_failure",
+      "failed_stages": [
+        "proposer"
+      ],
+      "rounds_used": 1
+    },
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "disagreement",
+      "debate_completed": false
+    },
+    "generated_at": "2026-10-16T21:37:10.786800"
+  },
+  "metrics": {
+    "latency_seconds": 171.5252194404602,
+    "evidence_state": "disagreement",
+    "debate_triggered": true,
+    "conflict_type": "factual",
+    "classification_status": "llm_success",
+    "debate_status": "partial",
+    "debate_stop_reason": "stage_failure",
+    "debate_rounds_used": 1,
+    "total_llm_calls_ok": 6,
+    "total_llm_calls_failed": 1,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      },
+      "classifier": {
+        "ok": 1,
+        "failed": 0
+      },
+      "proposer": {
+        "ok": 1,
+        "failed": 1
+      },
+      "critic": {
+        "ok": 1,
+        "failed": 0
+      },
+      "reviser": {
+        "ok": 1,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T21:34:19.261572",
+  "completed_at": "2026-10-16T21:37:10.786857",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0027",
+    "query": "Who was the aztec ruler when the spanish arrived?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "moctezuma II",
+    "required_facts": [
+      "moctezuma II"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 36,
+      "answer_variants": [
+        "moctezuma II"
+      ],
+      "annotation_explanation": "context 2 talks about who the ruler was when the spanish arrived, and the other contexts talk about other aztec rulers(contexts 1,3,5,7&8)",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.historians.org",
+          "text": "The Aztecs, under their last ruler, Cuauhtémoc (c. 1495-1525), resisted fiercely but were finally defeated in late 1521. Cortés razed Tenochtitlan, building his ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.history.com",
+          "text": "May 20, 2021 ... When Spanish conquistadors arrived in the Aztec imperial city in 1519, Mexico-Tenochtitlán was led by Moctezuma II. The city had prospered ...",
+          "supports_answers": [
+            "moctezuma II"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Cortés landed his expedition force on the coast of the modern day state of Veracruz in April 1519. During this same period, soon after he arrived, Cortés was ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "Jul 13, 2023 ... June 30, 1520, Tenochtitlán, within modern Mexico City), ninth Aztec emperor of Mexico, famous for his dramatic confrontation with the Spanish ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.pbs.org",
+          "text": "In the decade before the Spanish arrived in Mexico, Aztec Emperor Montezuma II and his people were filled with a sense of foreboding. A series of evil omens ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.guggenheim.org",
+          "text": "The ruler at the time of the Spanish invasion was the ninth Aztec emperor, ... for several centuries, until the Spanish arrived and conquered both of them.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.pbs.org",
+          "text": "Feb 23, 2019 ... Within just two years, Aztec ruler Montezuma was dead, the capital ... He got it in the form of a smallpox epidemic that gradually spread ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.loc.gov",
+          "text": "Upon receiving word of Cortés's arrival on the coast, Moctezuma, the leader of the Aztec empire, sends his ambassadors to meet the Spanish explorers.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.pbs.org",
+          "text": "He placed the Aztec emperor under house arrest and attempted to rule the Aztecs ... Aztecs when he received news that a large Spanish force had arrived.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nationalgeographic.org",
+          "text": "May 19, 2022 ... In just a century, the Aztec built an empire in the area now called central Mexico. The arrival of the Spanish conquistadors brought it to a ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 171.543,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

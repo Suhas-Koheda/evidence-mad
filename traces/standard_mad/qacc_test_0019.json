@@ -1,0 +1,1376 @@
+{
+  "query": "What's the largest city park in the united states?",
+  "trace_id": "a2868699-d33c-4810-a6cb-a98167b8d4b3",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "What's the largest city park in the united states?",
+          "answer": "Based on 5 sources:\n- The 100 Largest City Parks in the US (Update for 2025): The United States is known for having one of the largest and most beautiful park systems anywhere in the world\n- From large urban parks to National Parks, the landscape of this country is breathtaking as it blends nature with the rush of urban life\n- It also preserves wild lands with endless outdoor activities\n- Largest City Parks In The United States - WorldAtlas: Largest City Parks In The United States Here is a fact to ruin a trivia night: the largest city park in the United States is bigger than the state of Rhode Island, and it is not in New York, or Chicago, or any city you would guess\n- It sits inside Anchorage, Alaska, a \"city\" that sprawls across more land than Delaware, which is how a half-million-acre mountain wilderness full of bears and",
+          "claims": [
+            {
+              "id": "0e0537c9",
+              "text": "The 100 Largest City Parks in the US (Update for 2025): The United States is known for having one of the largest and most beautiful park systems anywhere in the world",
+              "source": {
+                "url": "https://www.infoplease.com/us/cities/100-largest-city-parks",
+                "title": "The 100 Largest City Parks in the US (Update for 2025)",
+                "snippet": "The United States is known for having one of the largest and most beautiful park systems anywhere in the world. From large urban parks to National Parks, the landscape of this country is breathtaking as it blends nature with the rush of urban life. It also preserves wild lands with endless outdoor activities.",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:07.619580",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "01f8bb15",
+              "text": "From large urban parks to National Parks, the landscape of this country is breathtaking as it blends nature with the rush of urban life",
+              "source": {
+                "url": "https://www.worldatlas.com/parks/largest-city-parks-in-the-united-states-56041.html",
+                "title": "Largest City Parks In The United States - WorldAtlas",
+                "snippet": "Largest City Parks In The United States Here is a fact to ruin a trivia night: the largest city park in the United States is bigger than the state of Rhode Island, and it is not in New York, or Chicago, or any city you would guess. It sits inside Anchorage, Alaska, a \"city\" that sprawls across more land than Delaware, which is how a half-million-acre mountain wilderness full of bears and ...",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:07.619612",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "37c03a77",
+              "text": "It also preserves wild lands with endless outdoor activities",
+              "source": {
+                "url": "https://usabynumbers.com/largest-city-parks-in-the-us/",
+                "title": "20 Largest City Parks in the US [Update 2024] - USA by Numbers",
+                "snippet": "I've gathered a list of the largest city parks in the United States; each picked for its attractive atmosphere, magnificent scenery, and distinctive style. 1. Chugach State Park, AK A mountainous terrain immediately east of Anchorage in south-central Alaska is protected as part of Chugach State Park, which encompasses a total area of 495,204 ...",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:07.619620",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9cd7270e",
+              "text": "Largest City Parks In The United States - WorldAtlas: Largest City Parks In The United States Here is a fact to ruin a trivia night: the largest city park in the United States is bigger than the state of Rhode Island, and it is not in New York, or Chicago, or any city you would guess",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/List_of_urban_parks_by_size",
+                "title": "List of urban parks by size - Wikipedia",
+                "snippet": "List This list is incomplete; you can help by adding missing items. (June 2018) This is a list of the largest parks located entirely within a metropolitan area. Park systems are included, but not ranked because park systems are networks that contain multiple parks. Not all parks listed below are classified as urban parks by their managing ...",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:07.619628",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "62f856b6",
+              "text": "It sits inside Anchorage, Alaska, a \"city\" that sprawls across more land than Delaware, which is how a half-million-acre mountain wilderness full of bears and",
+              "source": {
+                "url": "https://allsphere.blog/largest-city-parks-united-states",
+                "title": "10 Largest City Parks in the United States [Size vs. Fame]",
+                "snippet": "Discover the 10 largest city parks in the United States. See why Central Park didn't make the cut and explore the massive urban wildlands of the West.",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:07.619634",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2f381723",
+              "text": "20 Largest City Parks in the US [Update 2024] - USA by Numbers: I've gathered a list of the largest city parks in the United States; each picked for its attractive atmosphere, magnificent scenery, and distinctive style",
+              "source": {
+                "url": "https://www.infoplease.com/us/cities/100-largest-city-parks",
+                "title": "The 100 Largest City Parks in the US (Update for 2025)",
+                "snippet": "The United States is known for having one of the largest and most beautiful park systems anywhere in the world. From large urban parks to National Parks, the landscape of this country is breathtaking as it blends nature with the rush of urban life. It also preserves wild lands with endless outdoor activities.",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:07.619580",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "de0f3e05",
+              "text": "Chugach State Park, AK A mountainous terrain immediately east of Anchorage in south-central Alaska is protected as part of Chugach State Park, which encompasses a total area of 495,204",
+              "source": {
+                "url": "https://usabynumbers.com/largest-city-parks-in-the-us/",
+                "title": "20 Largest City Parks in the US [Update 2024] - USA by Numbers",
+                "snippet": "I've gathered a list of the largest city parks in the United States; each picked for its attractive atmosphere, magnificent scenery, and distinctive style. 1. Chugach State Park, AK A mountainous terrain immediately east of Anchorage in south-central Alaska is protected as part of Chugach State Park, which encompasses a total area of 495,204 ...",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:07.619620",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "595c3157",
+              "text": "List of urban parks by size - Wikipedia: List This list is incomplete; you can help by adding missing items",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/List_of_urban_parks_by_size",
+                "title": "List of urban parks by size - Wikipedia",
+                "snippet": "List This list is incomplete; you can help by adding missing items. (June 2018) This is a list of the largest parks located entirely within a metropolitan area. Park systems are included, but not ranked because park systems are networks that contain multiple parks. Not all parks listed below are classified as urban parks by their managing ...",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:07.619628",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "013a8f65",
+              "text": "(June 2018) This is a list of the largest parks located entirely within a metropolitan area",
+              "source": {
+                "url": "https://allsphere.blog/largest-city-parks-united-states",
+                "title": "10 Largest City Parks in the United States [Size vs. Fame]",
+                "snippet": "Discover the 10 largest city parks in the United States. See why Central Park didn't make the cut and explore the massive urban wildlands of the West.",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:07.619634",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0f512867",
+              "text": "Park systems are included, but not ranked because park systems are networks that contain multiple parks",
+              "source": {
+                "url": "https://www.infoplease.com/us/cities/100-largest-city-parks",
+                "title": "The 100 Largest City Parks in the US (Update for 2025)",
+                "snippet": "The United States is known for having one of the largest and most beautiful park systems anywhere in the world. From large urban parks to National Parks, the landscape of this country is breathtaking as it blends nature with the rush of urban life. It also preserves wild lands with endless outdoor activities.",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:07.619580",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.infoplease.com/us/cities/100-largest-city-parks",
+              "title": "The 100 Largest City Parks in the US (Update for 2025)",
+              "snippet": "The United States is known for having one of the largest and most beautiful park systems anywhere in the world. From large urban parks to National Parks, the landscape of this country is breathtaking as it blends nature with the rush of urban life. It also preserves wild lands with endless outdoor activities.",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-17T00:23:07.619580",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.worldatlas.com/parks/largest-city-parks-in-the-united-states-56041.html",
+              "title": "Largest City Parks In The United States - WorldAtlas",
+              "snippet": "Largest City Parks In The United States Here is a fact to ruin a trivia night: the largest city park in the United States is bigger than the state of Rhode Island, and it is not in New York, or Chicago, or any city you would guess. It sits inside Anchorage, Alaska, a \"city\" that sprawls across more land than Delaware, which is how a half-million-acre mountain wilderness full of bears and ...",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-17T00:23:07.619612",
+              "credibility_score": null
+            },
+            {
+              "url": "https://usabynumbers.com/largest-city-parks-in-the-us/",
+              "title": "20 Largest City Parks in the US [Update 2024] - USA by Numbers",
+              "snippet": "I've gathered a list of the largest city parks in the United States; each picked for its attractive atmosphere, magnificent scenery, and distinctive style. 1. Chugach State Park, AK A mountainous terrain immediately east of Anchorage in south-central Alaska is protected as part of Chugach State Park, which encompasses a total area of 495,204 ...",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-17T00:23:07.619620",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/List_of_urban_parks_by_size",
+              "title": "List of urban parks by size - Wikipedia",
+              "snippet": "List This list is incomplete; you can help by adding missing items. (June 2018) This is a list of the largest parks located entirely within a metropolitan area. Park systems are included, but not ranked because park systems are networks that contain multiple parks. Not all parks listed below are classified as urban parks by their managing ...",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-17T00:23:07.619628",
+              "credibility_score": null
+            },
+            {
+              "url": "https://allsphere.blog/largest-city-parks-united-states",
+              "title": "10 Largest City Parks in the United States [Size vs. Fame]",
+              "snippet": "Discover the 10 largest city parks in the United States. See why Central Park didn't make the cut and explore the massive urban wildlands of the West.",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-17T00:23:07.619634",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "The 100 Largest City Parks in the US (Update for 2025): The United States is known for having one of the largest and most beautiful park systems anywhere in the world. From large urban parks to National Parks, the landscape of this country is breathtaking as it blends nature with the rush of urban life. It also preserves wild lands with endless outdoor activities.\n\nLargest City Parks In The United States - WorldAtlas: Largest City Parks In The United States Here is a fact to ruin a trivia night: the largest city park in the United States is bigger than the state of Rhode Island, and it is not in New York, or Chicago, or any city you would guess. It sits inside Anchorage, Alaska, a \"city\" that sprawls across more land than Delaware, which is how a half-million-acre mountain wilderness full of bears and ...\n\n20 Largest City Parks in the US [Update 2024] - USA by Numbers: I've gathered a list of the largest city parks in the United States; each picked for its attractive atmosphere, magnificent scenery, and distinctive style. 1. Chugach State Park, AK A mountainous terrain immediately east of Anchorage in south-central Alaska is protected as part of Chugach State Park, which encompasses a total area of 495,204 ...\n\nList of urban parks by size - Wikipedia: List This list is incomplete; you can help by adding missing items. (June 2018) This is a list of the largest parks located entirely within a metropolitan area. Park systems are included, but not ranked because park systems are networks that contain multiple parks. Not all parks listed below are classified as urban parks by their managing ...\n\n10 Largest City Parks in the United States [Size vs. Fame]: Discover the 10 largest city parks in the United States. See why Central Park didn't make the cut and explore the massive urban wildlands of the West.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-17T00:23:07.620013"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "What's the largest city park in the united states?",
+          "answer": "Based on 5 sources:\n- List of United States cities by population: the most populous municipal corporations of the United States\n- As defined by the United States Census Bureau, an incorporated place includes cities,\n\nUnited States: The United States of America (USA), also known as the United States (U\n- ) or America, is a country primarily located in North America\n- It is a federal\n\nList of largest houses in the United States: This is a list of the largest extant and historic houses in the United States, ordered by area of the main house\n- The list includes houses that have been\n\nWestern United States: The Western United States is the largest region of the country, covering nearly half the land area of the contiguous United States",
+          "claims": [
+            {
+              "id": "2036b01a",
+              "text": "List of United States cities by population: the most populous municipal corporations of the United States",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1649321",
+                "title": "List of United States cities by population",
+                "snippet": "the most populous municipal corporations of the United States. As defined by the United States Census Bureau, an incorporated place includes cities,",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:21.978223",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "4bb7adfd",
+              "text": "As defined by the United States Census Bureau, an incorporated place includes cities,\n\nUnited States: The United States of America (USA), also known as the United States (U",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3434750",
+                "title": "United States",
+                "snippet": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:21.978252",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "98007a71",
+              "text": ") or America, is a country primarily located in North America",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=179578",
+                "title": "Western United States",
+                "snippet": "The Western United States is the largest region of the country, covering nearly half the land area of the contiguous United States. It is also the most",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:21.978267",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "bf07efd8",
+              "text": "It is a federal\n\nList of largest houses in the United States: This is a list of the largest extant and historic houses in the United States, ordered by area of the main house",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=53838",
+                "title": "Dallas",
+                "snippet": "city in the U.S. state of Texas. Located in northern Texas, it is the ninth-most populous city in the United States and third-most populous city in Texas",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:21.978274",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2b072849",
+              "text": "The list includes houses that have been\n\nWestern United States: The Western United States is the largest region of the country, covering nearly half the land area of the contiguous United States",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1649321",
+                "title": "List of United States cities by population",
+                "snippet": "the most populous municipal corporations of the United States. As defined by the United States Census Bureau, an incorporated place includes cities,",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:21.978223",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9c0a46e3",
+              "text": "It is also the most\n\nDallas: city in the U",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3434750",
+                "title": "United States",
+                "snippet": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:21.978252",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2999aa5f",
+              "text": "Located in northern Texas, it is the ninth-most populous city in the United States and third-most populous city in Texas",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=53838",
+                "title": "Dallas",
+                "snippet": "city in the U.S. state of Texas. Located in northern Texas, it is the ninth-most populous city in the United States and third-most populous city in Texas",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-17T00:23:21.978274",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=1649321",
+              "title": "List of United States cities by population",
+              "snippet": "the most populous municipal corporations of the United States. As defined by the United States Census Bureau, an incorporated place includes cities,",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-17T00:23:21.978223",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=3434750",
+              "title": "United States",
+              "snippet": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-17T00:23:21.978252",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=25502621",
+              "title": "List of largest houses in the United States",
+              "snippet": "This is a list of the largest extant and historic houses in the United States, ordered by area of the main house. The list includes houses that have been",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-17T00:23:21.978260",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=179578",
+              "title": "Western United States",
+              "snippet": "The Western United States is the largest region of the country, covering nearly half the land area of the contiguous United States. It is also the most",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-17T00:23:21.978267",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=53838",
+              "title": "Dallas",
+              "snippet": "city in the U.S. state of Texas. Located in northern Texas, it is the ninth-most populous city in the United States and third-most populous city in Texas",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-17T00:23:21.978274",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "List of United States cities by population: the most populous municipal corporations of the United States. As defined by the United States Census Bureau, an incorporated place includes cities,\n\nUnited States: The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal\n\nList of largest houses in the United States: This is a list of the largest extant and historic houses in the United States, ordered by area of the main house. The list includes houses that have been\n\nWestern United States: The Western United States is the largest region of the country, covering nearly half the land area of the contiguous United States. It is also the most\n\nDallas: city in the U.S. state of Texas. Located in northern Texas, it is the ninth-most populous city in the United States and third-most populous city in Texas",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-17T00:23:21.978451"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "What's the largest city park in the united states?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-17T00:23:26.476442"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "What's the largest city park in the united states?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Chugach State Park in Anchorage, Alaska is the largest city park in the United States.",
+          "source": {
+            "url": "https://usabynumbers.com/largest-city-parks-in-the-us/",
+            "title": "20 Largest City Parks in the US [Update 2024] - USA by Numbers",
+            "snippet": "I've gathered a list of the largest city parks in the United States; each picked for its attractive atmosphere, magnificent scenery, and distinctive style. 1. Chugach State Park, AK A mountainous terrain immediately east of Anchorage in south-central Alaska is protected as part of Chugach State Park, which encompasses a total area of 495,204 ...",
+            "metadata": {
+              "search_query": "What's the largest city park in the united states?"
+            },
+            "retrieved_at": "2026-10-17T00:23:26.477511",
+            "credibility_score": null
+          },
+          "date": "2024",
+          "version": null,
+          "scope": "United States"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.infoplease.com/us/cities/100-largest-city-parks",
+          "title": "The 100 Largest City Parks in the US (Update for 2025)",
+          "snippet": "The United States is known for having one of the largest and most beautiful park systems anywhere in the world. From large urban parks to National Parks, the landscape of this country is breathtaking as it blends nature with the rush of urban life. It also preserves wild lands with endless outdoor activities.",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-17T00:23:26.477477",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.worldatlas.com/parks/largest-city-parks-in-the-united-states-56041.html",
+          "title": "Largest City Parks In The United States - WorldAtlas",
+          "snippet": "Largest City Parks In The United States Here is a fact to ruin a trivia night: the largest city park in the United States is bigger than the state of Rhode Island, and it is not in New York, or Chicago, or any city you would guess. It sits inside Anchorage, Alaska, a \"city\" that sprawls across more land than Delaware, which is how a half-million-acre mountain wilderness full of bears and ...",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-17T00:23:26.477504",
+          "credibility_score": null
+        },
+        {
+          "url": "https://usabynumbers.com/largest-city-parks-in-the-us/",
+          "title": "20 Largest City Parks in the US [Update 2024] - USA by Numbers",
+          "snippet": "I've gathered a list of the largest city parks in the United States; each picked for its attractive atmosphere, magnificent scenery, and distinctive style. 1. Chugach State Park, AK A mountainous terrain immediately east of Anchorage in south-central Alaska is protected as part of Chugach State Park, which encompasses a total area of 495,204 ...",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-17T00:23:26.477511",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_urban_parks_by_size",
+          "title": "List of urban parks by size - Wikipedia",
+          "snippet": "List This list is incomplete; you can help by adding missing items. (June 2018) This is a list of the largest parks located entirely within a metropolitan area. Park systems are included, but not ranked because park systems are networks that contain multiple parks. Not all parks listed below are classified as urban parks by their managing ...",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-17T00:23:26.477517",
+          "credibility_score": null
+        },
+        {
+          "url": "https://allsphere.blog/largest-city-parks-united-states",
+          "title": "10 Largest City Parks in the United States [Size vs. Fame]",
+          "snippet": "Discover the 10 largest city parks in the United States. See why Central Park didn't make the cut and explore the massive urban wildlands of the West.",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-17T00:23:26.477523",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:23:39.574269"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "What's the largest city park in the united states?",
+      "status": "no_relevant_results",
+      "failure_reason": "LLM determined snippets do not answer the query",
+      "claims": [],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=1649321",
+          "title": "List of United States cities by population",
+          "snippet": "the most populous municipal corporations of the United States. As defined by the United States Census Bureau, an incorporated place includes cities,",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-17T00:23:39.574577",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=3434750",
+          "title": "United States",
+          "snippet": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-17T00:23:39.574589",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=25502621",
+          "title": "List of largest houses in the United States",
+          "snippet": "This is a list of the largest extant and historic houses in the United States, ordered by area of the main house. The list includes houses that have been",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-17T00:23:39.574596",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=179578",
+          "title": "Western United States",
+          "snippet": "The Western United States is the largest region of the country, covering nearly half the land area of the contiguous United States. It is also the most",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-17T00:23:39.574602",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=53838",
+          "title": "Dallas",
+          "snippet": "city in the U.S. state of Texas. Located in northern Texas, it is the ninth-most populous city in the United States and third-most populous city in Texas",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-17T00:23:39.574609",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:24:09.650196"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "What's the largest city park in the united states?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:24:09.650243"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "What's the largest city park in the united states?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request, re, html\\nurl='https://en.wikipedia.org/wiki/List_of_largest_city_parks_in_the_United_States'\\ntry:\\n data=urllib.request.urlopen(url,timeout=10).read().decode('utf-8','ignore')\\n # extract first table maybe\\n m=re.search(r'<table class=\\\\\\\"wikitable.*?(?:</table>)', data, re.DOTALL)\\n print('found table?', bool(m))\\n if m:\\n snippet=m.group(0)[:3000]\\n print(snippet[:2000])\\nexcept Exception as e:\\n print('error', e)\\n\\\"\\n\"}}<|end_message|>",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+            "snippet": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request, re, html\\nurl='https://en.wikipedia.org/wiki/List_of_largest_city_parks_i",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-17T00:23:18.109427",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+          "snippet": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request, re, html\\nurl='https://en.wikipedia.org/wiki/List_of_largest_city_parks_i",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-17T00:23:18.109427",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request, re, html\\nurl='https://en.wikipedia.org/wiki/List_of_largest_city_parks_in_the_United_States'\\ntry:\\n    data=urllib.request.urlopen(url,timeout=10).read().decode('utf-8','ignore')\\n    # extract first table maybe\\n    m=re.search(r'<table class=\\\\\\\"wikitable.*?(?:</table>)', data, re.DOTALL)\\n    print('found table?', bool(m))\\n    if m:\\n        snippet=m.group(0)[:3000]\\n        print(snippet[:2000])\\nexcept Exception as e:\\n    print('error', e)\\n\\\"\\n\"}}<|end_message|>"
+      },
+      "retrieved_at": "2026-10-17T00:23:18.109546"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Chugach State Park in Anchorage, Alaska is the largest city park in the United States.",
+        "claim_b_text": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request, re, html\\nurl='https://en.wikipedia.org/wiki/List_of_largest_city_parks_in_the_United_States'\\ntry:\\n data=urllib.request.urlopen(url,timeout=10).read().decode('utf-8','ignore')\\n # extract first table maybe\\n m=re.search(r'<table class=\\\\\\\"wikitable.*?(?:</table>)', data, re.DOTALL)\\n print('found table?', bool(m))\\n if m:\\n snippet=m.group(0)[:3000]\\n print(snippet[:2000])\\nexcept Exception as e:\\n print('error', e)\\n\\\"\\n\"}}<|end_message|>",
+        "label": "neutral",
+        "contradiction_score": 0.005504055880010128,
+        "entailment_score": 0.0006127466913312674,
+        "neutral_score": 0.9992232322692871
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "LLM determined snippets do not answer the query"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "Chugach State Park in Anchorage, Alaska is the largest city park in the United States.",
+        "source": {
+          "url": "https://usabynumbers.com/largest-city-parks-in-the-us/",
+          "title": "20 Largest City Parks in the US [Update 2024] - USA by Numbers",
+          "snippet": "I've gathered a list of the largest city parks in the United States; each picked for its attractive atmosphere, magnificent scenery, and distinctive style. 1. Chugach State Park, AK A mountainous terrain immediately east of Anchorage in south-central Alaska is protected as part of Chugach State Park, which encompasses a total area of 495,204 ...",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-17T00:23:26.477511",
+          "credibility_score": null
+        },
+        "date": "2024",
+        "version": null,
+        "scope": "United States"
+      },
+      "claim_b": {
+        "text": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request, re, html\\nurl='https://en.wikipedia.org/wiki/List_of_largest_city_parks_in_the_United_States'\\ntry:\\n data=urllib.request.urlopen(url,timeout=10).read().decode('utf-8','ignore')\\n # extract first table maybe\\n m=re.search(r'<table class=\\\\\\\"wikitable.*?(?:</table>)', data, re.DOTALL)\\n print('found table?', bool(m))\\n if m:\\n snippet=m.group(0)[:3000]\\n print(snippet[:2000])\\nexcept Exception as e:\\n print('error', e)\\n\\\"\\n\"}}<|end_message|>",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+          "snippet": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request, re, html\\nurl='https://en.wikipedia.org/wiki/List_of_largest_city_parks_i",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-17T00:23:18.109427",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.005504055880010128
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.005504055880010128,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "46aab630",
+    "type": "unknown",
+    "confidence": 0.5,
+    "explanation": "Standard MAD always debates (no gate) — generic strategy",
+    "claim_a": {
+      "text": "Chugach State Park in Anchorage, Alaska is the largest city park in the United States.",
+      "source": {
+        "url": "https://usabynumbers.com/largest-city-parks-in-the-us/",
+        "title": "20 Largest City Parks in the US [Update 2024] - USA by Numbers",
+        "snippet": "I've gathered a list of the largest city parks in the United States; each picked for its attractive atmosphere, magnificent scenery, and distinctive style. 1. Chugach State Park, AK A mountainous terrain immediately east of Anchorage in south-central Alaska is protected as part of Chugach State Park, which encompasses a total area of 495,204 ...",
+        "metadata": {
+          "search_query": "What's the largest city park in the united states?"
+        },
+        "retrieved_at": "2026-10-17T00:23:26.477511",
+        "credibility_score": null
+      },
+      "date": "2024",
+      "version": null,
+      "scope": "United States"
+    },
+    "claim_b": {
+      "text": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request, re, html\\nurl='https://en.wikipedia.org/wiki/List_of_largest_city_parks_in_the_United_States'\\ntry:\\n data=urllib.request.urlopen(url,timeout=10).read().decode('utf-8','ignore')\\n # extract first table maybe\\n m=re.search(r'<table class=\\\\\\\"wikitable.*?(?:</table>)', data, re.DOTALL)\\n print('found table?', bool(m))\\n if m:\\n snippet=m.group(0)[:3000]\\n print(snippet[:2000])\\nexcept Exception as e:\\n print('error', e)\\n\\\"\\n\"}}<|end_message|>",
+      "source": {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+        "snippet": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request, re, html\\nurl='https://en.wikipedia.org/wiki/List_of_largest_city_parks_i",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-17T00:23:18.109427",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "forced": true
+    },
+    "detected_at": "2026-10-17T00:24:14.775934"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": {
+        "id": "a7836c4c",
+        "round_number": 1,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"curl -sL -A 'Mozilla/5.0' 'https://en.wikipedia.org/wiki/Chugach_State_Park' | grep -i -o -E 'largest|city park|municipal|acre' | head -n 20\"}}<|end_message|>",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "unknown",
+        "strategy_used": "unknown",
+        "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+        "created_at": "2026-10-17T00:24:30.975174"
+      },
+      "critic_arguments": [
+        {
+          "id": "4788ca33",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request,re\\nurls=['https://en.wikipedia.org/wiki/Chugach_State_Park','https://en.wikipedia.org/wiki/South_Mountain_Park','https://en.wikipedia.org/wiki/List_of_largest_city_parks_in_the_United_States']\\nfor u in urls:\\n    try:\\n        data=urllib.request.urlopen(u,timeout=10).read().decode('utf-8','ignore')\\n        title=re.search(r'<title>(.*?)</title>',data,re.S)\\n        snippet=data[:2000]\\n        # find acreage mention\\n        acre=re.search(r'([0-9,]+)\\\\s*acres?',data,re.I)\\n        print('URL:',u)\\n        print('Title:',title.group(1) if title else 'N/A')\\n        print('Acre mention:',acre.group(1) if acre else 'none')\\n        # check for city/municipal\\n        for kw in ['municipal','city','city park','municipally']:\\n            if kw.lower() in data.lower()[:5000]:\\n                print('Contains',kw)\\n    except Exception as e:\\n        print('ERR',u,e)\\n\\\"\\n\"}}<|end_message|>",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique_substantive",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-17T00:24:47.608250"
+        },
+        {
+          "id": "aa64e825",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "No second critique was returned.",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-17T00:24:47.608295"
+        }
+      ],
+      "reviser_argument": {
+        "id": "658da05c",
+        "round_number": 1,
+        "role": "reviser",
+        "agent_id": "reviser",
+        "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"curl -sL -A 'Mozilla/5.0' 'https://en.wikipedia.org/wiki/South_Mountain_Park' | grep -o -i -E 'largest|city park|municipal|acre' | head -n 20\"}}<|end_message|>",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "unknown",
+        "strategy_used": "unknown_revision",
+        "strategy_text_preview": null,
+        "created_at": "2026-10-17T00:24:55.782236"
+      },
+      "started_at": "2026-10-17T00:24:14.776234",
+      "completed_at": "2026-10-17T00:24:55.782297"
+    },
+    {
+      "round_number": 2,
+      "proposer_argument": {
+        "id": "85d2fca6",
+        "round_number": 2,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request, re\\nurl='https://en.wikipedia.org/wiki/Chugach_State_Park'\\ntry:\\n d=urllib.request.urlopen(url,timeout=10).read().decode('utf-8','ignore')\\n # find area\\n m=re.search(r'Area.*?([0-9,]+).*?(?:square miles|km2)', d, re.IGNORECASE)\\n print('Chugach area snippet:', m.group(0) if m else 'none')\\n # find largest city park mentions\\n for phrase in ['largest city park','largest municipal park','largest park within city limits']:\\n  idx=d.lower().find(phrase)\\n  if idx!=-1:\\n   snippet=d[idx-200:idx+200]\\n   print('phrase', phrase, 'at', idx)\\n   print(snippet[:500])\\nexcept Exception as e:\\n print('error', e)\\n\\\"\\n\"}}<|end_message|>",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "unknown",
+        "strategy_used": "unknown",
+        "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+        "created_at": "2026-10-17T00:25:07.980315"
+      },
+      "critic_arguments": [
+        {
+          "id": "c1b3d19a",
+          "round_number": 2,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"ls -la\"}}<|end_message|>",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique_substantive",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-17T00:25:21.669932"
+        },
+        {
+          "id": "791bed90",
+          "round_number": 2,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "No second critique was returned.",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-17T00:25:21.669973"
+        }
+      ],
+      "reviser_argument": {
+        "id": "51d97d43",
+        "round_number": 2,
+        "role": "reviser",
+        "agent_id": "reviser",
+        "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request,re\\nurl='https://en.wikipedia.org/wiki/List_of_largest_city_parks_in_the_United_States'\\nd=urllib.request.urlopen(url,timeout=10).read().decode('utf-8','ignore')\\n# find table rows with park names and acres\\nrows=re.findall(r'<tr>.*?</tr>', d, re.DOTALL)\\nfor r in rows[:20]:\\n    if 'Chugach' in r or 'South Mountain' in r or 'city' in r.lower():\\n        text=re.sub(r'<[^>]+>', '', r)\\n        if text.strip():\\n            print(text[:400])\\n\\\"\"}}<|end_message|>",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "unknown",
+        "strategy_used": "unknown_revision",
+        "strategy_text_preview": null,
+        "created_at": "2026-10-17T00:25:34.756019"
+      },
+      "started_at": "2026-10-17T00:24:55.782765",
+      "completed_at": "2026-10-17T00:25:34.756074"
+    },
+    {
+      "round_number": 3,
+      "proposer_argument": {
+        "id": "a1d91edf",
+        "round_number": 3,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"ls -la\"}}<|end_message|>",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "unknown",
+        "strategy_used": "unknown",
+        "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+        "created_at": "2026-10-17T00:25:42.844784"
+      },
+      "critic_arguments": [
+        {
+          "id": "280af242",
+          "round_number": 3,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nThe proposal to critique is missing; agent_b presented no claim, evidence, or counter-argument against Chugach State Park.\nWHY IT MATTERS\nA critic cannot assess validity without a substantive opposing position or supporting documentation to analyze.\nIMPROVEMENT\nAgent_b must provide a specific counter-claim with at least one verifiable source identifying an alternative largest city park or a direct factual challenge.",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique_substantive",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-17T00:25:51.187184"
+        },
+        {
+          "id": "dc72fd86",
+          "round_number": 3,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nThe original claims lack citations, definitions of \"city park\" versus state park, and clarification on administrative ownership (municipal versus state-managed within city boundaries).\nWHY IT MATTERS\nChugach State Park is state-managed but located within Anchorage; without precise classification and authoritative sources, the debate risks comparing incompatible categories.\nIMPROVEMENT\nBoth sides should cite primary sources such as Alaska State Parks, Anchorage municipal records, or USGS/NPS data and explicitly state whether ownership, administration, or acreage measurement method is decisive.",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-17T00:25:51.187230"
+        }
+      ],
+      "reviser_argument": {
+        "id": "6c1f9bce",
+        "round_number": 3,
+        "role": "reviser",
+        "agent_id": "reviser",
+        "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"find . -maxdepth 3 -type f | head -n 30\"}}<|end_message|>",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "unknown",
+        "strategy_used": "unknown_revision",
+        "strategy_text_preview": null,
+        "created_at": "2026-10-17T00:26:06.660951"
+      },
+      "started_at": "2026-10-17T00:25:34.756983",
+      "completed_at": "2026-10-17T00:26:06.661000"
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": {
+          "id": "a7836c4c",
+          "round_number": 1,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"curl -sL -A 'Mozilla/5.0' 'https://en.wikipedia.org/wiki/Chugach_State_Park' | grep -i -o -E 'largest|city park|municipal|acre' | head -n 20\"}}<|end_message|>",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "unknown",
+          "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+          "created_at": "2026-10-17T00:24:30.975174"
+        },
+        "critic_arguments": [
+          {
+            "id": "4788ca33",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request,re\\nurls=['https://en.wikipedia.org/wiki/Chugach_State_Park','https://en.wikipedia.org/wiki/South_Mountain_Park','https://en.wikipedia.org/wiki/List_of_largest_city_parks_in_the_United_States']\\nfor u in urls:\\n    try:\\n        data=urllib.request.urlopen(u,timeout=10).read().decode('utf-8','ignore')\\n        title=re.search(r'<title>(.*?)</title>',data,re.S)\\n        snippet=data[:2000]\\n        # find acreage mention\\n        acre=re.search(r'([0-9,]+)\\\\s*acres?',data,re.I)\\n        print('URL:',u)\\n        print('Title:',title.group(1) if title else 'N/A')\\n        print('Acre mention:',acre.group(1) if acre else 'none')\\n        # check for city/municipal\\n        for kw in ['municipal','city','city park','municipally']:\\n            if kw.lower() in data.lower()[:5000]:\\n                print('Contains',kw)\\n    except Exception as e:\\n        print('ERR',u,e)\\n\\\"\\n\"}}<|end_message|>",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique_substantive",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-17T00:24:47.608250"
+          },
+          {
+            "id": "aa64e825",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "No second critique was returned.",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-17T00:24:47.608295"
+          }
+        ],
+        "reviser_argument": {
+          "id": "658da05c",
+          "round_number": 1,
+          "role": "reviser",
+          "agent_id": "reviser",
+          "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"curl -sL -A 'Mozilla/5.0' 'https://en.wikipedia.org/wiki/South_Mountain_Park' | grep -o -i -E 'largest|city park|municipal|acre' | head -n 20\"}}<|end_message|>",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "unknown_revision",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-17T00:24:55.782236"
+        },
+        "started_at": "2026-10-17T00:24:14.776234",
+        "completed_at": "2026-10-17T00:24:55.782297"
+      },
+      {
+        "round_number": 2,
+        "proposer_argument": {
+          "id": "85d2fca6",
+          "round_number": 2,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request, re\\nurl='https://en.wikipedia.org/wiki/Chugach_State_Park'\\ntry:\\n d=urllib.request.urlopen(url,timeout=10).read().decode('utf-8','ignore')\\n # find area\\n m=re.search(r'Area.*?([0-9,]+).*?(?:square miles|km2)', d, re.IGNORECASE)\\n print('Chugach area snippet:', m.group(0) if m else 'none')\\n # find largest city park mentions\\n for phrase in ['largest city park','largest municipal park','largest park within city limits']:\\n  idx=d.lower().find(phrase)\\n  if idx!=-1:\\n   snippet=d[idx-200:idx+200]\\n   print('phrase', phrase, 'at', idx)\\n   print(snippet[:500])\\nexcept Exception as e:\\n print('error', e)\\n\\\"\\n\"}}<|end_message|>",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "unknown",
+          "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+          "created_at": "2026-10-17T00:25:07.980315"
+        },
+        "critic_arguments": [
+          {
+            "id": "c1b3d19a",
+            "round_number": 2,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"ls -la\"}}<|end_message|>",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique_substantive",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-17T00:25:21.669932"
+          },
+          {
+            "id": "791bed90",
+            "round_number": 2,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "No second critique was returned.",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-17T00:25:21.669973"
+          }
+        ],
+        "reviser_argument": {
+          "id": "51d97d43",
+          "round_number": 2,
+          "role": "reviser",
+          "agent_id": "reviser",
+          "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request,re\\nurl='https://en.wikipedia.org/wiki/List_of_largest_city_parks_in_the_United_States'\\nd=urllib.request.urlopen(url,timeout=10).read().decode('utf-8','ignore')\\n# find table rows with park names and acres\\nrows=re.findall(r'<tr>.*?</tr>', d, re.DOTALL)\\nfor r in rows[:20]:\\n    if 'Chugach' in r or 'South Mountain' in r or 'city' in r.lower():\\n        text=re.sub(r'<[^>]+>', '', r)\\n        if text.strip():\\n            print(text[:400])\\n\\\"\"}}<|end_message|>",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "unknown_revision",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-17T00:25:34.756019"
+        },
+        "started_at": "2026-10-17T00:24:55.782765",
+        "completed_at": "2026-10-17T00:25:34.756074"
+      },
+      {
+        "round_number": 3,
+        "proposer_argument": {
+          "id": "a1d91edf",
+          "round_number": 3,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"ls -la\"}}<|end_message|>",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "unknown",
+          "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+          "created_at": "2026-10-17T00:25:42.844784"
+        },
+        "critic_arguments": [
+          {
+            "id": "280af242",
+            "round_number": 3,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nThe proposal to critique is missing; agent_b presented no claim, evidence, or counter-argument against Chugach State Park.\nWHY IT MATTERS\nA critic cannot assess validity without a substantive opposing position or supporting documentation to analyze.\nIMPROVEMENT\nAgent_b must provide a specific counter-claim with at least one verifiable source identifying an alternative largest city park or a direct factual challenge.",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique_substantive",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-17T00:25:51.187184"
+          },
+          {
+            "id": "dc72fd86",
+            "round_number": 3,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nThe original claims lack citations, definitions of \"city park\" versus state park, and clarification on administrative ownership (municipal versus state-managed within city boundaries).\nWHY IT MATTERS\nChugach State Park is state-managed but located within Anchorage; without precise classification and authoritative sources, the debate risks comparing incompatible categories.\nIMPROVEMENT\nBoth sides should cite primary sources such as Alaska State Parks, Anchorage municipal records, or USGS/NPS data and explicitly state whether ownership, administration, or acreage measurement method is decisive.",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-17T00:25:51.187230"
+          }
+        ],
+        "reviser_argument": {
+          "id": "6c1f9bce",
+          "round_number": 3,
+          "role": "reviser",
+          "agent_id": "reviser",
+          "content": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"find . -maxdepth 3 -type f | head -n 30\"}}<|end_message|>",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "unknown_revision",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-17T00:26:06.660951"
+        },
+        "started_at": "2026-10-17T00:25:34.756983",
+        "completed_at": "2026-10-17T00:26:06.661000"
+      }
+    ],
+    "status": "completed",
+    "stop_reason": "max_rounds",
+    "failed_stages": [],
+    "rounds_used": 3
+  },
+  "judge_result": {
+    "winner": "candidate_1",
+    "reason": "LLM evaluation",
+    "evidence_score": 0.8,
+    "reasoning_score": 0.8,
+    "source_score": 0.8,
+    "confidence": 0.8,
+    "scores": {
+      "candidate_1": 0.8,
+      "candidate_2": 0.75
+    },
+    "evaluated_at": "2026-10-17T00:26:24.114860"
+  },
+  "final_answer": {
+    "query": "What's the largest city park in the united states?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [web_agent]: Chugach State Park in Anchorage, Alaska is the largest city park in the United States.\n- [ai_answer_agent]: <|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request, re, html\\nurl='https://en.wikipedia.org/wiki/List_of_largest_city_parks_in_the_United_States'\\ntry:\\n data=urllib.request.urlopen(url,timeout=10).read().decode('utf-8','ignore')\\n # extract first table maybe\\n m=re.search(r'<table class=\\\\\\\"wikitable.*?(?:</table>)', data, re.DOTALL)\\n print('found table?', bool(m))\\n if m:\\n snippet=m.group(0)[:3000]\\n print(snippet[:2000])\\nexcept Exception as e:\\n print('error', e)\\n\\\"\\n\"}}<|end_message|>\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://www.infoplease.com/us/cities/100-largest-city-parks",
+        "title": "The 100 Largest City Parks in the US (Update for 2025)",
+        "snippet": "The United States is known for having one of the largest and most beautiful park systems anywhere in the world. From large urban parks to National Parks, the landscape of this country is breathtaking as it blends nature with the rush of urban life. It also preserves wild lands with endless outdoor activities.",
+        "metadata": {
+          "search_query": "What's the largest city park in the united states?"
+        },
+        "retrieved_at": "2026-10-17T00:23:26.477477",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.worldatlas.com/parks/largest-city-parks-in-the-united-states-56041.html",
+        "title": "Largest City Parks In The United States - WorldAtlas",
+        "snippet": "Largest City Parks In The United States Here is a fact to ruin a trivia night: the largest city park in the United States is bigger than the state of Rhode Island, and it is not in New York, or Chicago, or any city you would guess. It sits inside Anchorage, Alaska, a \"city\" that sprawls across more land than Delaware, which is how a half-million-acre mountain wilderness full of bears and ...",
+        "metadata": {
+          "search_query": "What's the largest city park in the united states?"
+        },
+        "retrieved_at": "2026-10-17T00:23:26.477504",
+        "credibility_score": null
+      },
+      {
+        "url": "https://usabynumbers.com/largest-city-parks-in-the-us/",
+        "title": "20 Largest City Parks in the US [Update 2024] - USA by Numbers",
+        "snippet": "I've gathered a list of the largest city parks in the United States; each picked for its attractive atmosphere, magnificent scenery, and distinctive style. 1. Chugach State Park, AK A mountainous terrain immediately east of Anchorage in south-central Alaska is protected as part of Chugach State Park, which encompasses a total area of 495,204 ...",
+        "metadata": {
+          "search_query": "What's the largest city park in the united states?"
+        },
+        "retrieved_at": "2026-10-17T00:23:26.477511",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_urban_parks_by_size",
+        "title": "List of urban parks by size - Wikipedia",
+        "snippet": "List This list is incomplete; you can help by adding missing items. (June 2018) This is a list of the largest parks located entirely within a metropolitan area. Park systems are included, but not ranked because park systems are networks that contain multiple parks. Not all parks listed below are classified as urban parks by their managing ...",
+        "metadata": {
+          "search_query": "What's the largest city park in the united states?"
+        },
+        "retrieved_at": "2026-10-17T00:23:26.477517",
+        "credibility_score": null
+      },
+      {
+        "url": "https://allsphere.blog/largest-city-parks-united-states",
+        "title": "10 Largest City Parks in the United States [Size vs. Fame]",
+        "snippet": "Discover the 10 largest city parks in the United States. See why Central Park didn't make the cut and explore the massive urban wildlands of the West.",
+        "metadata": {
+          "search_query": "What's the largest city park in the united states?"
+        },
+        "retrieved_at": "2026-10-17T00:23:26.477523",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+        "snippet": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"python3 -c \\\"\\nimport urllib.request, re, html\\nurl='https://en.wikipedia.org/wiki/List_of_largest_city_parks_i",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-17T00:23:18.109427",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 6,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-17T00:24:14.775550"
+  },
+  "metrics": {
+    "latency_seconds": 68.83381366729736,
+    "evidence_state": "uncertain",
+    "debate_triggered": true,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 6,
+    "system": "standard_mad"
+  },
+  "started_at": "2026-10-17T00:23:05.941738",
+  "completed_at": "2026-10-17T00:24:14.775620",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0019",
+    "query": "What's the largest city park in the united states?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Chugach State Park",
+    "required_facts": [
+      "Chugach State Park"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 28,
+      "answer_variants": [
+        "Chugach State Park"
+      ],
+      "annotation_explanation": "This is the only correct answer from the options provided.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.infoplease.com",
+          "text": "Aug 25, 2022 ... While Alaska's Chugach State Park is the largest city park in the US, there are other expansive parks across the United States, including ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.statista.com",
+          "text": "Jun 14, 2023 ... As of 2022, Chugach State Park in Anchorage, Alaska, was the largest city park in the United States by a long shot, spanning 464,318 acres.",
+          "supports_answers": [
+            "Chugach State Park"
+          ]
+        },
+        {
+          "source_domain": "www.playgroundequipment.com",
+          "text": "It is the largest city park in America by far, spanning 495,199.2 acres. What Is Chugach State Park Known For? Chugach State Park is considered one the most ...",
+          "supports_answers": [
+            "Chugach State Park"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The state park is the largest state park in the United States completely within a city's limits. The park is located at the Franklin Mountains, the Rocky ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.onlyinyourstate.com",
+          "text": "Mar 10, 2023 ... In fact, Portland, Oregon, is home to the largest city park in the U.S., and this urban oasis is nothing short of magical. Located just a ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.americansky.co.uk",
+          "text": "Grant Park, Chicago ... What: Nicknamed Chicago's 'front yard', Grant Park has 319 acres of green space to discover. Situated alongside Lake Michigan it was first ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "cloud.tpl.org",
+          "text": "Dec 10, 2010 ... These are the largest parks located within the limits of a U.S. city. Most are owned by the municipality, but some are owned by a state, a.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "usabynumbers.com",
+          "text": "Jan 7, 2023 ... The third-largest city park in the US is Forest Park. With 1400 acres of area, Forest Park is one of the largest city parks in the US. You can ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "247wallst.com",
+          "text": "Jan 5, 2022 ... The most expansive urban park is found in south-central Alaska. Chugach State Park, located mostly within the city of Anchorage, spans nearly ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.stlouis-mo.gov",
+          "text": "Forest Park, officially opened to the public on June 24, 1876, is one of the largest urban parks in the United States. At around 1,300 acres it is bigger ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "standard_mad",
+  "evaluation_seconds": 198.266,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

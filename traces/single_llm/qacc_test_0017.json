@@ -1,0 +1,144 @@
+{
+  "query": "Who began the age of exploration in portugal?",
+  "trace_id": "7d8225ff-84b3-48e2-bb24-9b7ca45b648e",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who began the age of exploration in portugal?",
+    "answer": "Prince Henry the Navigator",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-16T21:16:34.293521"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 19.564284086227417,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-16T21:16:14.729336",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0017",
+    "query": "Who began the age of exploration in portugal?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "as far as 1279",
+    "required_facts": [
+      "as far as 1279"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 25,
+      "answer_variants": [
+        "as far as 1279"
+      ],
+      "annotation_explanation": "This is the correct and verifiable answer to this question.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.history.com",
+          "text": "Sep 13, 2021 ... As early as 1341, Portuguese sailors had made their first forays into the tempting waters that lay beyond their shores, exploring the Canary ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The Portuguese began systematically exploring the Atlantic coast of Africa in 1418, under the sponsorship of Infante Dom Henrique (Prince Henry). In 1488, ...",
+          "supports_answers": [
+            "as far as 1279"
+          ]
+        },
+        {
+          "source_domain": "guides.loc.gov",
+          "text": "Aug 24, 2022 ... The Portuguese were among the very first European explorers to the Americas, and some Americans claim descent from the parties of the first ...",
+          "supports_answers": [
+            "as far as 1279"
+          ]
+        },
+        {
+          "source_domain": "www.worldhistory.org",
+          "text": "Jul 28, 2021 ... The Portuguese built an empire from 1420 onwards that was largely composed of trade centres dotted around the coasts of three continents.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "Henry the Navigator, prince of Portugal, initiated the first great enterprise of the Age of Discovery—the search for a sea route east by south to Cathay.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nationalgeographic.org",
+          "text": "May 19, 2022 ... His actions sparked Europe's age of exploration, which connected the ... The Portuguese started systematically raiding settlements on the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "mrjonesflippedclassroom.weebly.com",
+          "text": "May 1, 2015 ... In 1488, Bartolomeu Dias became the first European to sail around the southern tip of Africa. Picture. n July 1497, Vasco da Gama set sail ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "pressbooks-dev.oer.hawaii.edu",
+          "text": "In the 1500s, Spain surpassed Portugal as the dominant European power. This age of exploration and the subsequent creation of an Atlantic World marked the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.golisbon.com",
+          "text": "How Portugal started globalization ... The beginning of Portugal's pioneering role in world exploration may be traced back to as far as 1279, when King Diniz set ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "human.libretexts.org",
+          "text": "Jul 10, 2022 ... Spain and Portugal led the European Age of Discovery, an era lasting from roughly 1450-1750, in technological advances, exploration, and ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 19.58,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

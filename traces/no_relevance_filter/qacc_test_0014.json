@@ -1,0 +1,966 @@
+{
+  "query": "How are leaders of the two parties in congress chosen?",
+  "trace_id": "562eca93-b09b-4778-8b76-3da10cb710b3",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "How are leaders of the two parties in congress chosen?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:12:18.725743"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "How are leaders of the two parties in congress chosen?",
+          "answer": "Based on 5 sources:\n- How Senate Leaders Are Chosen and Why They Matter: The Senate Majority Leader is chosen by secret ballot inside the majority party's conference at the start of each new Congress, not by the full Senate and not under any provision of the Constitution\n- Whichever party holds the most seats sees its elected floor leader take the title\n- The job exists entirely because of internal party rules and Senate custom, yet the person who holds it is\n- About Parties and Leadership | Majority and Minority Leaders: With each new Congress, the Democratic and Republican Conferences elect one of their members to serve as party leader\n- Depending on which party is in power, one party leader serves as majority leader and the other as minority leader",
+          "claims": [
+            {
+              "id": "ceb52c7d",
+              "text": "How Senate Leaders Are Chosen and Why They Matter: The Senate Majority Leader is chosen by secret ballot inside the majority party's conference at the start of each new Congress, not by the full Senate and not under any provision of the Constitution",
+              "source": {
+                "url": "https://fedlaws.org/how-senate-leaders-are-chosen-and-why-they-matter/",
+                "title": "How Senate Leaders Are Chosen and Why They Matter",
+                "snippet": "The Senate Majority Leader is chosen by secret ballot inside the majority party's conference at the start of each new Congress, not by the full Senate and not under any provision of the Constitution. Whichever party holds the most seats sees its elected floor leader take the title. The job exists entirely because of internal party rules and Senate custom, yet the person who holds it is ...",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.724869",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b67da3e5",
+              "text": "Whichever party holds the most seats sees its elected floor leader take the title",
+              "source": {
+                "url": "https://www.senate.gov/about/parties-leadership/majority-minority-leaders.htm",
+                "title": "About Parties and Leadership | Majority and Minority Leaders",
+                "snippet": "With each new Congress, the Democratic and Republican Conferences elect one of their members to serve as party leader. Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.724891",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "5f5fd89d",
+              "text": "The job exists entirely because of internal party rules and Senate custom, yet the person who holds it is",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Party_leaders_of_the_United_States_House_of_Representatives",
+                "title": "Party leaders of the United States House of Representatives",
+                "snippet": "These leaders are elected every two years in secret balloting of their party caucuses or conferences: the House Democratic Caucus and the House Republican Conference. [1] Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.724901",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "118274b5",
+              "text": "About Parties and Leadership | Majority and Minority Leaders: With each new Congress, the Democratic and Republican Conferences elect one of their members to serve as party leader",
+              "source": {
+                "url": "https://www.congressionalinstitute.org/leadership/",
+                "title": "Congressional Leadership - Congressional Institute",
+                "snippet": "On the following pages is a listing and description of Congressional leadership offices for both the Republican Conference and the Democratic Caucus and the individuals chosen by their party to fill these leadership positions in the House and Senate of the U.S. Congress. The current Congress, the 118th, convened on January 3, 2023.",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.724909",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "34d399e7",
+              "text": "Depending on which party is in power, one party leader serves as majority leader and the other as minority leader",
+              "source": {
+                "url": "https://www.congress.gov/crs_external_products/RS/PDF/RS20881/RS20881.18.pdf",
+                "title": "PDF Party Leaders in the House: Election, Duties, and Responsibilities",
+                "snippet": "Speaker of the House The Speaker is elected by the House on the first day of a new Congress. Customarily, the caucus or conference of each major party first elects a candidate at early organizational meetings. When the new Congress convenes, each party places the name of its candidate in nomination, and the majority party's candidate is typically elected on a party line vote. A rules change ...",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.724916",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "6b9a265b",
+              "text": "Party leaders of the United States House of Representatives: These leaders are elected every two years in secret balloting of their party caucuses or conferences: the House Democratic Caucus and the House Republican Conference",
+              "source": {
+                "url": "https://fedlaws.org/how-senate-leaders-are-chosen-and-why-they-matter/",
+                "title": "How Senate Leaders Are Chosen and Why They Matter",
+                "snippet": "The Senate Majority Leader is chosen by secret ballot inside the majority party's conference at the start of each new Congress, not by the full Senate and not under any provision of the Constitution. Whichever party holds the most seats sees its elected floor leader take the title. The job exists entirely because of internal party rules and Senate custom, yet the person who holds it is ...",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.724869",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "37e73e10",
+              "text": "[1] Depending on which party is in power, one party leader serves as majority leader and the other as minority leader",
+              "source": {
+                "url": "https://www.senate.gov/about/parties-leadership/majority-minority-leaders.htm",
+                "title": "About Parties and Leadership | Majority and Minority Leaders",
+                "snippet": "With each new Congress, the Democratic and Republican Conferences elect one of their members to serve as party leader. Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.724891",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e2897248",
+              "text": "Congressional Leadership - Congressional Institute: On the following pages is a listing and description of Congressional leadership offices for both the Republican Conference and the Democratic Caucus and the individuals chosen by their party to fill these leadership positions in the House and Senate of the U",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Party_leaders_of_the_United_States_House_of_Representatives",
+                "title": "Party leaders of the United States House of Representatives",
+                "snippet": "These leaders are elected every two years in secret balloting of their party caucuses or conferences: the House Democratic Caucus and the House Republican Conference. [1] Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.724901",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "695ace23",
+              "text": "The current Congress, the 118th, convened on January 3, 2023",
+              "source": {
+                "url": "https://fedlaws.org/how-senate-leaders-are-chosen-and-why-they-matter/",
+                "title": "How Senate Leaders Are Chosen and Why They Matter",
+                "snippet": "The Senate Majority Leader is chosen by secret ballot inside the majority party's conference at the start of each new Congress, not by the full Senate and not under any provision of the Constitution. Whichever party holds the most seats sees its elected floor leader take the title. The job exists entirely because of internal party rules and Senate custom, yet the person who holds it is ...",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.724869",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b358912d",
+              "text": "PDF Party Leaders in the House: Election, Duties, and Responsibilities: Speaker of the House The Speaker is elected by the House on the first day of a new Congress",
+              "source": {
+                "url": "https://www.senate.gov/about/parties-leadership/majority-minority-leaders.htm",
+                "title": "About Parties and Leadership | Majority and Minority Leaders",
+                "snippet": "With each new Congress, the Democratic and Republican Conferences elect one of their members to serve as party leader. Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.724891",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://fedlaws.org/how-senate-leaders-are-chosen-and-why-they-matter/",
+              "title": "How Senate Leaders Are Chosen and Why They Matter",
+              "snippet": "The Senate Majority Leader is chosen by secret ballot inside the majority party's conference at the start of each new Congress, not by the full Senate and not under any provision of the Constitution. Whichever party holds the most seats sees its elected floor leader take the title. The job exists entirely because of internal party rules and Senate custom, yet the person who holds it is ...",
+              "metadata": {
+                "search_query": "How are leaders of the two parties in congress chosen?"
+              },
+              "retrieved_at": "2026-10-16T21:12:18.724869",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.senate.gov/about/parties-leadership/majority-minority-leaders.htm",
+              "title": "About Parties and Leadership | Majority and Minority Leaders",
+              "snippet": "With each new Congress, the Democratic and Republican Conferences elect one of their members to serve as party leader. Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.",
+              "metadata": {
+                "search_query": "How are leaders of the two parties in congress chosen?"
+              },
+              "retrieved_at": "2026-10-16T21:12:18.724891",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Party_leaders_of_the_United_States_House_of_Representatives",
+              "title": "Party leaders of the United States House of Representatives",
+              "snippet": "These leaders are elected every two years in secret balloting of their party caucuses or conferences: the House Democratic Caucus and the House Republican Conference. [1] Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.",
+              "metadata": {
+                "search_query": "How are leaders of the two parties in congress chosen?"
+              },
+              "retrieved_at": "2026-10-16T21:12:18.724901",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.congressionalinstitute.org/leadership/",
+              "title": "Congressional Leadership - Congressional Institute",
+              "snippet": "On the following pages is a listing and description of Congressional leadership offices for both the Republican Conference and the Democratic Caucus and the individuals chosen by their party to fill these leadership positions in the House and Senate of the U.S. Congress. The current Congress, the 118th, convened on January 3, 2023.",
+              "metadata": {
+                "search_query": "How are leaders of the two parties in congress chosen?"
+              },
+              "retrieved_at": "2026-10-16T21:12:18.724909",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.congress.gov/crs_external_products/RS/PDF/RS20881/RS20881.18.pdf",
+              "title": "PDF Party Leaders in the House: Election, Duties, and Responsibilities",
+              "snippet": "Speaker of the House The Speaker is elected by the House on the first day of a new Congress. Customarily, the caucus or conference of each major party first elects a candidate at early organizational meetings. When the new Congress convenes, each party places the name of its candidate in nomination, and the majority party's candidate is typically elected on a party line vote. A rules change ...",
+              "metadata": {
+                "search_query": "How are leaders of the two parties in congress chosen?"
+              },
+              "retrieved_at": "2026-10-16T21:12:18.724916",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "How Senate Leaders Are Chosen and Why They Matter: The Senate Majority Leader is chosen by secret ballot inside the majority party's conference at the start of each new Congress, not by the full Senate and not under any provision of the Constitution. Whichever party holds the most seats sees its elected floor leader take the title. The job exists entirely because of internal party rules and Senate custom, yet the person who holds it is ...\n\nAbout Parties and Leadership | Majority and Minority Leaders: With each new Congress, the Democratic and Republican Conferences elect one of their members to serve as party leader. Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.\n\nParty leaders of the United States House of Representatives: These leaders are elected every two years in secret balloting of their party caucuses or conferences: the House Democratic Caucus and the House Republican Conference. [1] Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.\n\nCongressional Leadership - Congressional Institute: On the following pages is a listing and description of Congressional leadership offices for both the Republican Conference and the Democratic Caucus and the individuals chosen by their party to fill these leadership positions in the House and Senate of the U.S. Congress. The current Congress, the 118th, convened on January 3, 2023.\n\nPDF Party Leaders in the House: Election, Duties, and Responsibilities: Speaker of the House The Speaker is elected by the House on the first day of a new Congress. Customarily, the caucus or conference of each major party first elects a candidate at early organizational meetings. When the new Congress convenes, each party places the name of its candidate in nomination, and the majority party's candidate is typically elected on a party line vote. A rules change ...",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:12:18.725397"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "How are leaders of the two parties in congress chosen?",
+          "answer": "Based on 5 sources:\n- Indian National Congress: The Indian National Congress (INC), also known as the Congress Party, or simply the Congress, is a big tent political party in India\n- It is one of the\n\nUnited States Congress: in practice members of Congress since the late 19th century are typically affiliated with one of the two major parties, the Democratic Party or the Republican\n\n15th general convention of Nepali Congress: leaders from across the country\n- Only in the ward committee, around 296,000 were elected\n- Nearly 969,842 active members of the party throughout the country\n\nParty leaders of the United States House of Representatives: serve as the chief spokespersons for their parties on the House floor\n- These leaders are elected every two years in secret balloting of their party caucuses\n\nParty conference: political party",
+          "claims": [
+            {
+              "id": "32a18d9d",
+              "text": "Indian National Congress: The Indian National Congress (INC), also known as the Congress Party, or simply the Congress, is a big tent political party in India",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=149333",
+                "title": "Indian National Congress",
+                "snippet": "The Indian National Congress (INC), also known as the Congress Party, or simply the Congress, is a big tent political party in India. It is one of the",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.726280",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d11f542c",
+              "text": "It is one of the\n\nUnited States Congress: in practice members of Congress since the late 19th century are typically affiliated with one of the two major parties, the Democratic Party or the Republican\n\n15th general convention of Nepali Congress: leaders from across the country",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=31756",
+                "title": "United States Congress",
+                "snippet": "in practice members of Congress since the late 19th century are typically affiliated with one of the two major parties, the Democratic Party or the Republican",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.726305",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "15555d3e",
+              "text": "Only in the ward committee, around 296,000 were elected",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=82084458",
+                "title": "15th general convention of Nepali Congress",
+                "snippet": "leaders from across the country. Only in the ward committee, around 296,000 were elected. Nearly 969,842 active members of the party throughout the country",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.726314",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1f503944",
+              "text": "Nearly 969,842 active members of the party throughout the country\n\nParty leaders of the United States House of Representatives: serve as the chief spokespersons for their parties on the House floor",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=35098328",
+                "title": "Party leaders of the United States House of Representatives",
+                "snippet": "serve as the chief spokespersons for their parties on the House floor. These leaders are elected every two years in secret balloting of their party caucuses",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.726321",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f0ecd430",
+              "text": "These leaders are elected every two years in secret balloting of their party caucuses\n\nParty conference: political party",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3267525",
+                "title": "Party conference",
+                "snippet": "political party. The conference is attended by certain delegates who represent the party membership. In most political parties, the party conference is the highest",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.726329",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "7b839996",
+              "text": "The conference is attended by certain delegates who represent the party membership",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=149333",
+                "title": "Indian National Congress",
+                "snippet": "The Indian National Congress (INC), also known as the Congress Party, or simply the Congress, is a big tent political party in India. It is one of the",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.726280",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "7ce99059",
+              "text": "In most political parties, the party conference is the highest",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=31756",
+                "title": "United States Congress",
+                "snippet": "in practice members of Congress since the late 19th century are typically affiliated with one of the two major parties, the Democratic Party or the Republican",
+                "metadata": {
+                  "search_query": "How are leaders of the two parties in congress chosen?"
+                },
+                "retrieved_at": "2026-10-16T21:12:18.726305",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=149333",
+              "title": "Indian National Congress",
+              "snippet": "The Indian National Congress (INC), also known as the Congress Party, or simply the Congress, is a big tent political party in India. It is one of the",
+              "metadata": {
+                "search_query": "How are leaders of the two parties in congress chosen?"
+              },
+              "retrieved_at": "2026-10-16T21:12:18.726280",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=31756",
+              "title": "United States Congress",
+              "snippet": "in practice members of Congress since the late 19th century are typically affiliated with one of the two major parties, the Democratic Party or the Republican",
+              "metadata": {
+                "search_query": "How are leaders of the two parties in congress chosen?"
+              },
+              "retrieved_at": "2026-10-16T21:12:18.726305",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=82084458",
+              "title": "15th general convention of Nepali Congress",
+              "snippet": "leaders from across the country. Only in the ward committee, around 296,000 were elected. Nearly 969,842 active members of the party throughout the country",
+              "metadata": {
+                "search_query": "How are leaders of the two parties in congress chosen?"
+              },
+              "retrieved_at": "2026-10-16T21:12:18.726314",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=35098328",
+              "title": "Party leaders of the United States House of Representatives",
+              "snippet": "serve as the chief spokespersons for their parties on the House floor. These leaders are elected every two years in secret balloting of their party caucuses",
+              "metadata": {
+                "search_query": "How are leaders of the two parties in congress chosen?"
+              },
+              "retrieved_at": "2026-10-16T21:12:18.726321",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=3267525",
+              "title": "Party conference",
+              "snippet": "political party. The conference is attended by certain delegates who represent the party membership. In most political parties, the party conference is the highest",
+              "metadata": {
+                "search_query": "How are leaders of the two parties in congress chosen?"
+              },
+              "retrieved_at": "2026-10-16T21:12:18.726329",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Indian National Congress: The Indian National Congress (INC), also known as the Congress Party, or simply the Congress, is a big tent political party in India. It is one of the\n\nUnited States Congress: in practice members of Congress since the late 19th century are typically affiliated with one of the two major parties, the Democratic Party or the Republican\n\n15th general convention of Nepali Congress: leaders from across the country. Only in the ward committee, around 296,000 were elected. Nearly 969,842 active members of the party throughout the country\n\nParty leaders of the United States House of Representatives: serve as the chief spokespersons for their parties on the House floor. These leaders are elected every two years in secret balloting of their party caucuses\n\nParty conference: political party. The conference is attended by certain delegates who represent the party membership. In most political parties, the party conference is the highest",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:12:18.726538"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "How are leaders of the two parties in congress chosen?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:12:18.727213"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "How are leaders of the two parties in congress chosen?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Leaders of the two parties in Congress are chosen through internal party elections, where each party's conference elects one member as party leader, with the majority party leader serving as majority leader and the minority party leader as minority leader.",
+          "source": {
+            "url": "https://www.senate.gov/about/parties-leadership/majority-minority-leaders.htm",
+            "title": "About Parties and Leadership | Majority and Minority Leaders",
+            "snippet": "With each new Congress, the Democratic and Republican Conferences elect one of their members to serve as party leader. Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T21:12:18.727253",
+            "credibility_score": null
+          },
+          "date": "2023",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://fedlaws.org/how-senate-leaders-are-chosen-and-why-they-matter/",
+          "title": "How Senate Leaders Are Chosen and Why They Matter",
+          "snippet": "The Senate Majority Leader is chosen by secret ballot inside the majority party's conference at the start of each new Congress, not by the full Senate and not under any provision of the Constitution. Whichever party holds the most seats sees its elected floor leader take the title. The job exists entirely because of internal party rules and Senate custom, yet the person who holds it is ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:12:18.727245",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.senate.gov/about/parties-leadership/majority-minority-leaders.htm",
+          "title": "About Parties and Leadership | Majority and Minority Leaders",
+          "snippet": "With each new Congress, the Democratic and Republican Conferences elect one of their members to serve as party leader. Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:12:18.727253",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Party_leaders_of_the_United_States_House_of_Representatives",
+          "title": "Party leaders of the United States House of Representatives",
+          "snippet": "These leaders are elected every two years in secret balloting of their party caucuses or conferences: the House Democratic Caucus and the House Republican Conference. [1] Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:12:18.727259",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.congressionalinstitute.org/leadership/",
+          "title": "Congressional Leadership - Congressional Institute",
+          "snippet": "On the following pages is a listing and description of Congressional leadership offices for both the Republican Conference and the Democratic Caucus and the individuals chosen by their party to fill these leadership positions in the House and Senate of the U.S. Congress. The current Congress, the 118th, convened on January 3, 2023.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:12:18.727264",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.congress.gov/crs_external_products/RS/PDF/RS20881/RS20881.18.pdf",
+          "title": "PDF Party Leaders in the House: Election, Duties, and Responsibilities",
+          "snippet": "Speaker of the House The Speaker is elected by the House on the first day of a new Congress. Customarily, the caucus or conference of each major party first elects a candidate at early organizational meetings. When the new Congress convenes, each party places the name of its candidate in nomination, and the majority party's candidate is typically elected on a party line vote. A rules change ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:12:18.727270",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:12:40.891964"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "How are leaders of the two parties in congress chosen?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Party leaders in Congress are elected every two years through secret balloting by their respective party caucuses.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=35098328",
+            "title": "Party leaders of the United States House of Representatives",
+            "snippet": "serve as the chief spokespersons for their parties on the House floor. These leaders are elected every two years in secret balloting of their party caucuses",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T21:12:40.892082",
+            "credibility_score": null
+          },
+          "date": "every two years",
+          "version": "null",
+          "scope": "House of Representatives"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=149333",
+          "title": "Indian National Congress",
+          "snippet": "The Indian National Congress (INC), also known as the Congress Party, or simply the Congress, is a big tent political party in India. It is one of the",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:12:40.892040",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=31756",
+          "title": "United States Congress",
+          "snippet": "in practice members of Congress since the late 19th century are typically affiliated with one of the two major parties, the Democratic Party or the Republican",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:12:40.892055",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=82084458",
+          "title": "15th general convention of Nepali Congress",
+          "snippet": "leaders from across the country. Only in the ward committee, around 296,000 were elected. Nearly 969,842 active members of the party throughout the country",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:12:40.892067",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=35098328",
+          "title": "Party leaders of the United States House of Representatives",
+          "snippet": "serve as the chief spokespersons for their parties on the House floor. These leaders are elected every two years in secret balloting of their party caucuses",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:12:40.892082",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=3267525",
+          "title": "Party conference",
+          "snippet": "political party. The conference is attended by certain delegates who represent the party membership. In most political parties, the party conference is the highest",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:12:40.892096",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:12:53.508281"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "How are leaders of the two parties in congress chosen?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Party leaders in Congress are selected through internal party elections where caucus members vote to choose leadership positions such as Speaker of the House, House Majority/Majority Leader, and Senate Majority/Majority Leader for their respective parties.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "Party leaders in Congress are selected through internal party elections where caucus members vote to choose leadership positions such as Speaker of the House, House Majority/Majority Leader, and Senat",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:12:37.602260",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Party leaders in Congress are selected through internal party elections where caucus members vote to choose leadership positions such as Speaker of the House, House Majority/Majority Leader, and Senat",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:12:37.602260",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "Party leaders in Congress are selected through internal party elections where caucus members vote to choose leadership positions such as Speaker of the House, House Majority/Majority Leader, and Senate Majority/Majority Leader for their respective parties."
+      },
+      "retrieved_at": "2026-10-16T21:12:37.602330"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent",
+        "claim_a_text": "Leaders of the two parties in Congress are chosen through internal party elections, where each party's conference elects one member as party leader, with the majority party leader serving as majority leader and the minority party leader as minority leader.",
+        "claim_b_text": "Party leaders in Congress are elected every two years through secret balloting by their respective party caucuses.",
+        "label": "neutral",
+        "contradiction_score": 0.04108752682805061,
+        "entailment_score": 0.0027896123938262463,
+        "neutral_score": 0.9929786324501038
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Leaders of the two parties in Congress are chosen through internal party elections, where each party's conference elects one member as party leader, with the majority party leader serving as majority leader and the minority party leader as minority leader.",
+        "claim_b_text": "Party leaders in Congress are selected through internal party elections where caucus members vote to choose leadership positions such as Speaker of the House, House Majority/Majority Leader, and Senate Majority/Majority Leader for their respective parties.",
+        "label": "neutral",
+        "contradiction_score": 0.44150781631469727,
+        "entailment_score": 0.013187332078814507,
+        "neutral_score": 0.9206865429878235
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Party leaders in Congress are elected every two years through secret balloting by their respective party caucuses.",
+        "claim_b_text": "Party leaders in Congress are selected through internal party elections where caucus members vote to choose leadership positions such as Speaker of the House, House Majority/Majority Leader, and Senate Majority/Majority Leader for their respective parties.",
+        "label": "neutral",
+        "contradiction_score": 0.002241740934550762,
+        "entailment_score": 0.001139134052209556,
+        "neutral_score": 0.9966191053390503
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "reference_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "No search results"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "Leaders of the two parties in Congress are chosen through internal party elections, where each party's conference elects one member as party leader, with the majority party leader serving as majority leader and the minority party leader as minority leader.",
+        "source": {
+          "url": "https://www.senate.gov/about/parties-leadership/majority-minority-leaders.htm",
+          "title": "About Parties and Leadership | Majority and Minority Leaders",
+          "snippet": "With each new Congress, the Democratic and Republican Conferences elect one of their members to serve as party leader. Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:12:18.727253",
+          "credibility_score": null
+        },
+        "date": "2023",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Party leaders in Congress are selected through internal party elections where caucus members vote to choose leadership positions such as Speaker of the House, House Majority/Majority Leader, and Senate Majority/Majority Leader for their respective parties.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Party leaders in Congress are selected through internal party elections where caucus members vote to choose leadership positions such as Speaker of the House, House Majority/Majority Leader, and Senat",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:12:37.602260",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.44150781631469727
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.44150781631469727,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "How are leaders of the two parties in congress chosen?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [web_agent]: Leaders of the two parties in Congress are chosen through internal party elections, where each party's conference elects one member as party leader, with the majority party leader serving as majority leader and the minority party leader as minority leader.\n- [reference_agent]: Party leaders in Congress are elected every two years through secret balloting by their respective party caucuses.\n- [ai_answer_agent]: Party leaders in Congress are selected through internal party elections where caucus members vote to choose leadership positions such as Speaker of the House, House Majority/Majority Leader, and Senate Majority/Majority Leader for their respective parties.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://fedlaws.org/how-senate-leaders-are-chosen-and-why-they-matter/",
+        "title": "How Senate Leaders Are Chosen and Why They Matter",
+        "snippet": "The Senate Majority Leader is chosen by secret ballot inside the majority party's conference at the start of each new Congress, not by the full Senate and not under any provision of the Constitution. Whichever party holds the most seats sees its elected floor leader take the title. The job exists entirely because of internal party rules and Senate custom, yet the person who holds it is ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:12:18.727245",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.senate.gov/about/parties-leadership/majority-minority-leaders.htm",
+        "title": "About Parties and Leadership | Majority and Minority Leaders",
+        "snippet": "With each new Congress, the Democratic and Republican Conferences elect one of their members to serve as party leader. Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:12:18.727253",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Party_leaders_of_the_United_States_House_of_Representatives",
+        "title": "Party leaders of the United States House of Representatives",
+        "snippet": "These leaders are elected every two years in secret balloting of their party caucuses or conferences: the House Democratic Caucus and the House Republican Conference. [1] Depending on which party is in power, one party leader serves as majority leader and the other as minority leader.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:12:18.727259",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.congressionalinstitute.org/leadership/",
+        "title": "Congressional Leadership - Congressional Institute",
+        "snippet": "On the following pages is a listing and description of Congressional leadership offices for both the Republican Conference and the Democratic Caucus and the individuals chosen by their party to fill these leadership positions in the House and Senate of the U.S. Congress. The current Congress, the 118th, convened on January 3, 2023.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:12:18.727264",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.congress.gov/crs_external_products/RS/PDF/RS20881/RS20881.18.pdf",
+        "title": "PDF Party Leaders in the House: Election, Duties, and Responsibilities",
+        "snippet": "Speaker of the House The Speaker is elected by the House on the first day of a new Congress. Customarily, the caucus or conference of each major party first elects a candidate at early organizational meetings. When the new Congress convenes, each party places the name of its candidate in nomination, and the majority party's candidate is typically elected on a party line vote. A rules change ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:12:18.727270",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=149333",
+        "title": "Indian National Congress",
+        "snippet": "The Indian National Congress (INC), also known as the Congress Party, or simply the Congress, is a big tent political party in India. It is one of the",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:12:40.892040",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=31756",
+        "title": "United States Congress",
+        "snippet": "in practice members of Congress since the late 19th century are typically affiliated with one of the two major parties, the Democratic Party or the Republican",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:12:40.892055",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=82084458",
+        "title": "15th general convention of Nepali Congress",
+        "snippet": "leaders from across the country. Only in the ward committee, around 296,000 were elected. Nearly 969,842 active members of the party throughout the country",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:12:40.892067",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=35098328",
+        "title": "Party leaders of the United States House of Representatives",
+        "snippet": "serve as the chief spokespersons for their parties on the House floor. These leaders are elected every two years in secret balloting of their party caucuses",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:12:40.892082",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=3267525",
+        "title": "Party conference",
+        "snippet": "political party. The conference is attended by certain delegates who represent the party membership. In most political parties, the party conference is the highest",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:12:40.892096",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "Party leaders in Congress are selected through internal party elections where caucus members vote to choose leadership positions such as Speaker of the House, House Majority/Majority Leader, and Senat",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:12:37.602260",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T21:12:57.338662"
+  },
+  "metrics": {
+    "latency_seconds": 38.615779876708984,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T21:12:18.722897",
+  "completed_at": "2026-10-16T21:12:57.338752",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0014",
+    "query": "How are leaders of the two parties in congress chosen?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "leaders are the elected",
+    "required_facts": [
+      "leaders are the elected"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 22,
+      "answer_variants": [
+        "leaders are the elected",
+        "Depending on party in power",
+        "minority party meetings"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 1and 4",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.senate.gov",
+          "text": "The practice has been to choose the leader for a two-year term at the beginning of each Congress. The majority and minority leaders are the elected ...",
+          "supports_answers": [
+            "leaders are the elected"
+          ]
+        },
+        {
+          "source_domain": "www.archives.gov",
+          "text": "May 3, 2023 ... First, the political parties in each State choose slates of potential ... winner receives two electors and the winner of each congressional ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.senate.gov",
+          "text": "Depending on which party is in power, one party leader serves as majority leader and the other as minority leader. Both party leaders, also called floor ...",
+          "supports_answers": [
+            "Depending on party in power"
+          ]
+        },
+        {
+          "source_domain": "www.house.gov",
+          "text": "The majority party members and the minority party members meet separately to select their leaders. Third parties rarely have had enough members to elect ...",
+          "supports_answers": [
+            "leaders are the elected",
+            "minority party meetings"
+          ]
+        },
+        {
+          "source_domain": "www.senate.gov",
+          "text": "The most visible role of parties in Congress at this time came in presidential election years, when party members from both the House of Representatives and ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.ushistory.org",
+          "text": "Political parties choose all top leadersip positions. Speaker of the House. The Speaker is the most powerful member of the House of Representatives, and ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "history.house.gov",
+          "text": "The last time a Speaker election required two or more votes on the floor happened in 1923. Congress (Years), Name, State, Final Ballot. 3rd Congress (1793–1795) ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.usa.gov",
+          "text": "Primaries and caucuses are two ways that people help states and political parties choose presidential nominees. Learn how they work and the differences between ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.loc.gov",
+          "text": "Though these conventions were attended by delegates sent from their respective states, delegates were often chosen by state and party bosses with sway over ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "kids-clerk.house.gov",
+          "text": "The minority leader is selected every two years during minority party meetings before the start of a new Congress. The minority leader serves as the floor ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 38.632,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

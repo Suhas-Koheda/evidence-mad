@@ -1,0 +1,302 @@
+{
+  "query": "A single period of precession of earth's axis is completed in about?",
+  "trace_id": "66815a9f-9e8c-4b3b-b251-3261efeff96f",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "A single period of precession of earth's axis is completed in about?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:03:48.295417"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "A single period of precession of earth's axis is completed in about?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:03:48.294093"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "A single period of precession of earth's axis is completed in about?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:03:53.278973"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "A single period of precession of earth's axis is completed in about?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:03:53.279007"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "A single period of precession of earth's axis is completed in about?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:03:53.279020"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "A single period of precession of earth's axis is completed in about?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:04:33.306757"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "A single period of precession of earth's axis is completed in about?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:04:38.282320"
+  },
+  "metrics": {
+    "latency_seconds": 49.98987603187561,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_gate"
+  },
+  "started_at": "2026-10-16T22:03:48.292443",
+  "completed_at": "2026-10-16T22:04:38.282363",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0050",
+    "query": "A single period of precession of earth's axis is completed in about?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "26000 years",
+    "required_facts": [
+      "26000 years"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 63,
+      "answer_variants": [
+        "26,000 years"
+      ],
+      "annotation_explanation": "It is the most common answer that I had to choose from.",
+      "evidence_contexts": [
+        {
+          "source_domain": "solarsystem.nasa.gov",
+          "text": "Precession of Earth's axis over 26,000 years. ... One, called the Chandler wobble, is a free nutation with a period of about 435 days.",
+          "supports_answers": [
+            "26,000 years"
+          ]
+        },
+        {
+          "source_domain": "www.nationalgeographic.org",
+          "text": "Mar 14, 2023 ... The time it takes for a planet or other celestial object to complete one spin around its axis is called its rotation period. Earth's rotation ...",
+          "supports_answers": [
+            "26,000 years"
+          ]
+        },
+        {
+          "source_domain": "climate.nasa.gov",
+          "text": "Feb 27, 2020 ... The direction Earth's axis of rotation is pointed, known as precession. Let's take a look at each (further reading on why Milankovitch cycles ...",
+          "supports_answers": [
+            "26,000 years"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "In particular, axial precession can refer to the gradual shift in the orientation of Earth's axis of rotation in a cycle of approximately 26,000 years.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "starchild.gsfc.nasa.gov",
+          "text": "The spin axis of the Earth undergoes a motion called precession. ... it takes 26,000 years for the axis to trace out the cone one complete time.",
+          "supports_answers": [
+            "26,000 years"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Precession is a change in the orientation of the rotational axis of a rotating body. ... Earth goes through one such complete precessional cycle in a period of ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "The precession is a cyclic wobbling of Earth's axis with a period of 25772 years. ... In compiling his famous star catalog (completed in 129 bce), the Greek ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "earthobservatory.nasa.gov",
+          "text": "Mar 24, 2000 ... During a cycle that averages about 40,000 years, the tilt of the axis ... Earth's orbit changes slowly over time from nearly zero to 0.07.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.umass.edu",
+          "text": "The 18.6-year cycle is caused by the precession of the plane of the lunar orbit, ... to the South pole, and completes one rotation in a time we call a DAY.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nature.com",
+          "text": "Today, perihelion occurs in northern hemisphere winter but at 10,000 years ago (half of a precession cycle) it occurred in northern hemisphere summer, and ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_gate",
+  "evaluation_seconds": 100.004,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

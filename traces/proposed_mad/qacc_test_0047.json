@@ -1,0 +1,297 @@
+{
+  "query": "Where does the sweetness of fruit come from?",
+  "trace_id": "7bda8a95-aee6-41ca-aebd-cb4e889b62bd",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Where does the sweetness of fruit come from?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:59:38.286166"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Where does the sweetness of fruit come from?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:59:38.285588"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Where does the sweetness of fruit come from?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:59:43.267464"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Where does the sweetness of fruit come from?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:59:43.267497"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Where does the sweetness of fruit come from?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:59:43.267514"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Where does the sweetness of fruit come from?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:00:23.298470"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Where does the sweetness of fruit come from?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:00:28.270334"
+  },
+  "metrics": {
+    "latency_seconds": 49.98627591133118,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "proposed_mad"
+  },
+  "started_at": "2026-10-16T21:59:38.284048",
+  "completed_at": "2026-10-16T22:00:28.270378",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0047",
+    "query": "Where does the sweetness of fruit come from?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "Sugars",
+    "required_facts": [
+      "Sugars"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 60,
+      "answer_variants": [
+        "Sugars.",
+        "fruit's extract",
+        "fructose"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 1, 3, 5 and 6",
+      "evidence_contexts": [
+        {
+          "source_domain": "extension.psu.edu",
+          "text": "May 7, 2020 ... The sweetness of a fruit is influenced by the quantity and composition of sugars. Higher contents of sugar in the fruit increases the ...",
+          "supports_answers": [
+            "Sugars."
+          ]
+        },
+        {
+          "source_domain": "foodinsight.org",
+          "text": "Oct 27, 2021 ... Monk fruit, also known as lo han guo or Swingle fruit, is a small round fruit native to southern China. Monk fruit sweeteners are no-calorie ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.medicalnewstoday.com",
+          "text": "All fruit contains sugar, although some varieties have a higher content than others. Low-sugar fruits include strawberries, blackberries, and peaches. Of course ...",
+          "supports_answers": [
+            "Sugars."
+          ]
+        },
+        {
+          "source_domain": "www.healthline.com",
+          "text": "Monk fruit sweeteners are made from the fruit's extract. They may be blended with dextrose or other ingredients to balance sweetness. Monk fruit extract is 150 ...",
+          "supports_answers": [
+            "fruit's extract"
+          ]
+        },
+        {
+          "source_domain": "www.quora.com",
+          "text": "The free sugars responsible for sweetness come from the hydrolysis of starch,and function to make the fruit attractive to seed distributing birds and animals.",
+          "supports_answers": [
+            "Sugars."
+          ]
+        },
+        {
+          "source_domain": "www.halegroves.com",
+          "text": "Dec 27, 2021 ... One of the most appealing things about fruit flavor is its sweetness. Even the tangiest fruits contain fructose, a natural sugar that gives ...",
+          "supports_answers": [
+            "Sugars.",
+            "fructose"
+          ]
+        },
+        {
+          "source_domain": "www.wsj.com",
+          "text": "Jul 22, 2023 ... The sweetness of fruit depends not just on how it is bred but also on growing conditions (more sun means more sweetness), yield (higher yield ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "health.clevelandclinic.org",
+          "text": "Aug 5, 2021 ... Monk fruit is a small, round fruit native to southern China. Monk fruit sweetener comes from the mogroside, which is the sweetest part of the ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "proposed_mad",
+  "evaluation_seconds": 50.001,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

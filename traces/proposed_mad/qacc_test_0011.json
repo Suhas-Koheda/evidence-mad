@@ -1,0 +1,983 @@
+{
+  "query": "The area enclosed by hysteresis loop is a measure of?",
+  "trace_id": "3c1ed6ce-0bb2-463c-ac9f-4c51f2306f07",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "The area enclosed by hysteresis loop is a measure of?",
+          "answer": "Based on 5 sources:\n- Magnetic field: {b} }\\,,} where the integral is a line integral over any closed loop and Ib is the bound current enclosed by that closed loop\n- Unlike the magnetic B field-lines\n\nTransformer: Hysteresis losses Each time the magnetic field is reversed, a small amount of energy is lost due to hysteresis within the core, caused by motion of the\n\nSQUID: superconducting loops containing Josephson junctions\n- SQUIDs are sensitive enough to measure magnetic fields as low as 5×10−18 T with a few days of averaged\n\nParis: Kumar, Rohini (17 July 2025)\n- Undulating patterns of Hysteresis loops in diurnal seasonality of air temperature in Urban Heat Island effect: Insights\n\nRebreather diving: control by injecting gas via a solenoid valve\n- The injection may follow the \"bang-bang\", \"on-off\", or \"hysteresis\" model, where the valve is activated",
+          "claims": [
+            {
+              "id": "7d73e125",
+              "text": "Magnetic field: {b} }\\,,} where the integral is a line integral over any closed loop and Ib is the bound current enclosed by that closed loop",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=36563",
+                "title": "Magnetic field",
+                "snippet": "{b} }\\,,} where the integral is a line integral over any closed loop and Ib is the bound current enclosed by that closed loop. Unlike the magnetic B field-lines",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.334005",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "6d43df03",
+              "text": "Unlike the magnetic B field-lines\n\nTransformer: Hysteresis losses Each time the magnetic field is reversed, a small amount of energy is lost due to hysteresis within the core, caused by motion of the\n\nSQUID: superconducting loops containing Josephson junctions",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=30906",
+                "title": "Transformer",
+                "snippet": "Hysteresis losses Each time the magnetic field is reversed, a small amount of energy is lost due to hysteresis within the core, caused by motion of the",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.334022",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "39ccd3a2",
+              "text": "SQUIDs are sensitive enough to measure magnetic fields as low as 5×10−18 T with a few days of averaged\n\nParis: Kumar, Rohini (17 July 2025)",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=46178",
+                "title": "SQUID",
+                "snippet": "superconducting loops containing Josephson junctions. SQUIDs are sensitive enough to measure magnetic fields as low as 5×10−18 T with a few days of averaged",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.334034",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ba2a9ff8",
+              "text": "Undulating patterns of Hysteresis loops in diurnal seasonality of air temperature in Urban Heat Island effect: Insights\n\nRebreather diving: control by injecting gas via a solenoid valve",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=22989",
+                "title": "Paris",
+                "snippet": "Kumar, Rohini (17 July 2025). Undulating patterns of Hysteresis loops in diurnal seasonality of air temperature in Urban Heat Island effect: Insights",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.334046",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "638ea0c6",
+              "text": "The injection may follow the \"bang-bang\", \"on-off\", or \"hysteresis\" model, where the valve is activated",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=39194607",
+                "title": "Rebreather diving",
+                "snippet": "control by injecting gas via a solenoid valve. The injection may follow the \"bang-bang\", \"on-off\", or \"hysteresis\" model, where the valve is activated",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.334054",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=36563",
+              "title": "Magnetic field",
+              "snippet": "{b} }\\,,} where the integral is a line integral over any closed loop and Ib is the bound current enclosed by that closed loop. Unlike the magnetic B field-lines",
+              "metadata": {
+                "search_query": "The area enclosed by hysteresis loop is a measure of?"
+              },
+              "retrieved_at": "2026-10-16T21:04:52.334005",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=30906",
+              "title": "Transformer",
+              "snippet": "Hysteresis losses Each time the magnetic field is reversed, a small amount of energy is lost due to hysteresis within the core, caused by motion of the",
+              "metadata": {
+                "search_query": "The area enclosed by hysteresis loop is a measure of?"
+              },
+              "retrieved_at": "2026-10-16T21:04:52.334022",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=46178",
+              "title": "SQUID",
+              "snippet": "superconducting loops containing Josephson junctions. SQUIDs are sensitive enough to measure magnetic fields as low as 5×10−18 T with a few days of averaged",
+              "metadata": {
+                "search_query": "The area enclosed by hysteresis loop is a measure of?"
+              },
+              "retrieved_at": "2026-10-16T21:04:52.334034",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=22989",
+              "title": "Paris",
+              "snippet": "Kumar, Rohini (17 July 2025). Undulating patterns of Hysteresis loops in diurnal seasonality of air temperature in Urban Heat Island effect: Insights",
+              "metadata": {
+                "search_query": "The area enclosed by hysteresis loop is a measure of?"
+              },
+              "retrieved_at": "2026-10-16T21:04:52.334046",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=39194607",
+              "title": "Rebreather diving",
+              "snippet": "control by injecting gas via a solenoid valve. The injection may follow the \"bang-bang\", \"on-off\", or \"hysteresis\" model, where the valve is activated",
+              "metadata": {
+                "search_query": "The area enclosed by hysteresis loop is a measure of?"
+              },
+              "retrieved_at": "2026-10-16T21:04:52.334054",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Magnetic field: {b} }\\,,} where the integral is a line integral over any closed loop and Ib is the bound current enclosed by that closed loop. Unlike the magnetic B field-lines\n\nTransformer: Hysteresis losses Each time the magnetic field is reversed, a small amount of energy is lost due to hysteresis within the core, caused by motion of the\n\nSQUID: superconducting loops containing Josephson junctions. SQUIDs are sensitive enough to measure magnetic fields as low as 5×10−18 T with a few days of averaged\n\nParis: Kumar, Rohini (17 July 2025). Undulating patterns of Hysteresis loops in diurnal seasonality of air temperature in Urban Heat Island effect: Insights\n\nRebreather diving: control by injecting gas via a solenoid valve. The injection may follow the \"bang-bang\", \"on-off\", or \"hysteresis\" model, where the valve is activated",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:04:52.334225"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "The area enclosed by hysteresis loop is a measure of?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:04:52.333868"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "The area enclosed by hysteresis loop is a measure of?",
+          "answer": "Based on 5 sources:\n- The area enclosed by a hysteresis loop is the measure of: The area of the loop represents the energy lost in one cycle\n- Hence the correct option is D\n- Note: A narrow hysteresis loop will indicate less loss of energy and a wide loop will indicate more energy loss\n- The core of a transformer has to suffer minimum energy loss and so materials with narrow hysteresis like soft iron are preferred for it\n- The area of the hysteresis loop of a substance represents ______________",
+          "claims": [
+            {
+              "id": "99c42545",
+              "text": "The area enclosed by a hysteresis loop is the measure of: The area of the loop represents the energy lost in one cycle",
+              "source": {
+                "url": "https://www.vedantu.com/question-answer/the-area-enclosed-by-a-hysteresis-loop-is-the-class-12-physics-cbse-5fb443bbde1c3232ee414338",
+                "title": "The area enclosed by a hysteresis loop is the measure of",
+                "snippet": "The area of the loop represents the energy lost in one cycle. Hence the correct option is D. Note: A narrow hysteresis loop will indicate less loss of energy and a wide loop will indicate more energy loss. The core of a transformer has to suffer minimum energy loss and so materials with narrow hysteresis like soft iron are preferred for it.",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.333004",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "77b85d21",
+              "text": "Hence the correct option is D",
+              "source": {
+                "url": "https://www.vedantu.com/question-answer/the-area-of-the-hysteresis-loop-of-a-substance-class-12-physics-cbse-609827ef59ebc569c09ebe35",
+                "title": "The area of the hysteresis loop of a substance represents ______________.",
+                "snippet": "Hint: Once we understand what a hysteresis loop is, it becomes easy to determine what the area of the hysteresis loop determines and what the curves in the hysteresis loop mean. Complete answer: In every system which involves a magnetic field, the phenomenon of hysteresis is bound to occur. In ferromagnetic substances, hysteresis is common property. The hysteresis effect is the effect that ...",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.333038",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e985da73",
+              "text": "Note: A narrow hysteresis loop will indicate less loss of energy and a wide loop will indicate more energy loss",
+              "source": {
+                "url": "https://testbook.com/question-answer/the-area-of-hysteresis-loop-is-a-measure-of--5c94c41ffdb8bb235521ff19",
+                "title": "[Solved] The area of hysteresis loop is a measure of",
+                "snippet": "The energy loss associated with hysteresis is proportional to the area of the hysteresis loop. It is a measure of energy loss per cycle. As the area of the hysteresis loop for a specimen is found to be large, the hysteresis loss in this specimen is also large. Hysteresis loss occurring in a material is, ${W}_{h}=\\eta \\times {B}_{m}^{1.6}\\times f\\times V$ Where, η is hysteresis constant f is ...",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.333051",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "aef4a9ba",
+              "text": "The core of a transformer has to suffer minimum energy loss and so materials with narrow hysteresis like soft iron are preferred for it",
+              "source": {
+                "url": "https://www.geeksforgeeks.org/physics/explain-hysteresis-loop/",
+                "title": "Hysteresis Loop - GeeksforGeeks",
+                "snippet": "Hysteresis Loop - In a system with a magnetic field, hysteresis occurs. Ferromagnetic materials have a common characteristic called hysteresis. The hysteresis effect is a phenomenon that occurs when the magnetization of ferromagnetic materials lags behind the magnetic field. The word hysteresis means \"lagging.\" Magnetic flux density (B) lags after magnetic field strength, resulting in ...",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.333064",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1a0bd66e",
+              "text": "The area of the hysteresis loop of a substance represents ______________",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Hysteresis",
+                "title": "Hysteresis - Wikipedia",
+                "snippet": "Hysteresis can be a dynamic lag between an input and an output that disappears if the input is varied more slowly; this is known as rate-dependent hysteresis. However, phenomena such as the magnetic hysteresis loops are mainly rate-independent, which makes a durable memory possible.",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.333076",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c60c8007",
+              "text": ": Hint: Once we understand what a hysteresis loop is, it becomes easy to determine what the area of the hysteresis loop determines and what the curves in the hysteresis loop mean",
+              "source": {
+                "url": "https://www.vedantu.com/question-answer/the-area-enclosed-by-a-hysteresis-loop-is-the-class-12-physics-cbse-5fb443bbde1c3232ee414338",
+                "title": "The area enclosed by a hysteresis loop is the measure of",
+                "snippet": "The area of the loop represents the energy lost in one cycle. Hence the correct option is D. Note: A narrow hysteresis loop will indicate less loss of energy and a wide loop will indicate more energy loss. The core of a transformer has to suffer minimum energy loss and so materials with narrow hysteresis like soft iron are preferred for it.",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.333004",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2f66703b",
+              "text": "Complete answer: In every system which involves a magnetic field, the phenomenon of hysteresis is bound to occur",
+              "source": {
+                "url": "https://www.vedantu.com/question-answer/the-area-of-the-hysteresis-loop-of-a-substance-class-12-physics-cbse-609827ef59ebc569c09ebe35",
+                "title": "The area of the hysteresis loop of a substance represents ______________.",
+                "snippet": "Hint: Once we understand what a hysteresis loop is, it becomes easy to determine what the area of the hysteresis loop determines and what the curves in the hysteresis loop mean. Complete answer: In every system which involves a magnetic field, the phenomenon of hysteresis is bound to occur. In ferromagnetic substances, hysteresis is common property. The hysteresis effect is the effect that ...",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.333038",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "60e9ef5b",
+              "text": "In ferromagnetic substances, hysteresis is common property",
+              "source": {
+                "url": "https://testbook.com/question-answer/the-area-of-hysteresis-loop-is-a-measure-of--5c94c41ffdb8bb235521ff19",
+                "title": "[Solved] The area of hysteresis loop is a measure of",
+                "snippet": "The energy loss associated with hysteresis is proportional to the area of the hysteresis loop. It is a measure of energy loss per cycle. As the area of the hysteresis loop for a specimen is found to be large, the hysteresis loss in this specimen is also large. Hysteresis loss occurring in a material is, ${W}_{h}=\\eta \\times {B}_{m}^{1.6}\\times f\\times V$ Where, η is hysteresis constant f is ...",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.333051",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "56a8b371",
+              "text": "The hysteresis effect is the effect that",
+              "source": {
+                "url": "https://www.geeksforgeeks.org/physics/explain-hysteresis-loop/",
+                "title": "Hysteresis Loop - GeeksforGeeks",
+                "snippet": "Hysteresis Loop - In a system with a magnetic field, hysteresis occurs. Ferromagnetic materials have a common characteristic called hysteresis. The hysteresis effect is a phenomenon that occurs when the magnetization of ferromagnetic materials lags behind the magnetic field. The word hysteresis means \"lagging.\" Magnetic flux density (B) lags after magnetic field strength, resulting in ...",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.333064",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "31b4f7e7",
+              "text": "[Solved] The area of hysteresis loop is a measure of: The energy loss associated with hysteresis is proportional to the area of the hysteresis loop",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Hysteresis",
+                "title": "Hysteresis - Wikipedia",
+                "snippet": "Hysteresis can be a dynamic lag between an input and an output that disappears if the input is varied more slowly; this is known as rate-dependent hysteresis. However, phenomena such as the magnetic hysteresis loops are mainly rate-independent, which makes a durable memory possible.",
+                "metadata": {
+                  "search_query": "The area enclosed by hysteresis loop is a measure of?"
+                },
+                "retrieved_at": "2026-10-16T21:04:52.333076",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.vedantu.com/question-answer/the-area-enclosed-by-a-hysteresis-loop-is-the-class-12-physics-cbse-5fb443bbde1c3232ee414338",
+              "title": "The area enclosed by a hysteresis loop is the measure of",
+              "snippet": "The area of the loop represents the energy lost in one cycle. Hence the correct option is D. Note: A narrow hysteresis loop will indicate less loss of energy and a wide loop will indicate more energy loss. The core of a transformer has to suffer minimum energy loss and so materials with narrow hysteresis like soft iron are preferred for it.",
+              "metadata": {
+                "search_query": "The area enclosed by hysteresis loop is a measure of?"
+              },
+              "retrieved_at": "2026-10-16T21:04:52.333004",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.vedantu.com/question-answer/the-area-of-the-hysteresis-loop-of-a-substance-class-12-physics-cbse-609827ef59ebc569c09ebe35",
+              "title": "The area of the hysteresis loop of a substance represents ______________.",
+              "snippet": "Hint: Once we understand what a hysteresis loop is, it becomes easy to determine what the area of the hysteresis loop determines and what the curves in the hysteresis loop mean. Complete answer: In every system which involves a magnetic field, the phenomenon of hysteresis is bound to occur. In ferromagnetic substances, hysteresis is common property. The hysteresis effect is the effect that ...",
+              "metadata": {
+                "search_query": "The area enclosed by hysteresis loop is a measure of?"
+              },
+              "retrieved_at": "2026-10-16T21:04:52.333038",
+              "credibility_score": null
+            },
+            {
+              "url": "https://testbook.com/question-answer/the-area-of-hysteresis-loop-is-a-measure-of--5c94c41ffdb8bb235521ff19",
+              "title": "[Solved] The area of hysteresis loop is a measure of",
+              "snippet": "The energy loss associated with hysteresis is proportional to the area of the hysteresis loop. It is a measure of energy loss per cycle. As the area of the hysteresis loop for a specimen is found to be large, the hysteresis loss in this specimen is also large. Hysteresis loss occurring in a material is, ${W}_{h}=\\eta \\times {B}_{m}^{1.6}\\times f\\times V$ Where, η is hysteresis constant f is ...",
+              "metadata": {
+                "search_query": "The area enclosed by hysteresis loop is a measure of?"
+              },
+              "retrieved_at": "2026-10-16T21:04:52.333051",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.geeksforgeeks.org/physics/explain-hysteresis-loop/",
+              "title": "Hysteresis Loop - GeeksforGeeks",
+              "snippet": "Hysteresis Loop - In a system with a magnetic field, hysteresis occurs. Ferromagnetic materials have a common characteristic called hysteresis. The hysteresis effect is a phenomenon that occurs when the magnetization of ferromagnetic materials lags behind the magnetic field. The word hysteresis means \"lagging.\" Magnetic flux density (B) lags after magnetic field strength, resulting in ...",
+              "metadata": {
+                "search_query": "The area enclosed by hysteresis loop is a measure of?"
+              },
+              "retrieved_at": "2026-10-16T21:04:52.333064",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Hysteresis",
+              "title": "Hysteresis - Wikipedia",
+              "snippet": "Hysteresis can be a dynamic lag between an input and an output that disappears if the input is varied more slowly; this is known as rate-dependent hysteresis. However, phenomena such as the magnetic hysteresis loops are mainly rate-independent, which makes a durable memory possible.",
+              "metadata": {
+                "search_query": "The area enclosed by hysteresis loop is a measure of?"
+              },
+              "retrieved_at": "2026-10-16T21:04:52.333076",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "The area enclosed by a hysteresis loop is the measure of: The area of the loop represents the energy lost in one cycle. Hence the correct option is D. Note: A narrow hysteresis loop will indicate less loss of energy and a wide loop will indicate more energy loss. The core of a transformer has to suffer minimum energy loss and so materials with narrow hysteresis like soft iron are preferred for it.\n\nThe area of the hysteresis loop of a substance represents ______________.: Hint: Once we understand what a hysteresis loop is, it becomes easy to determine what the area of the hysteresis loop determines and what the curves in the hysteresis loop mean. Complete answer: In every system which involves a magnetic field, the phenomenon of hysteresis is bound to occur. In ferromagnetic substances, hysteresis is common property. The hysteresis effect is the effect that ...\n\n[Solved] The area of hysteresis loop is a measure of: The energy loss associated with hysteresis is proportional to the area of the hysteresis loop. It is a measure of energy loss per cycle. As the area of the hysteresis loop for a specimen is found to be large, the hysteresis loss in this specimen is also large. Hysteresis loss occurring in a material is, ${W}_{h}=\\eta \\times {B}_{m}^{1.6}\\times f\\times V$ Where, η is hysteresis constant f is ...\n\nHysteresis Loop - GeeksforGeeks: Hysteresis Loop - In a system with a magnetic field, hysteresis occurs. Ferromagnetic materials have a common characteristic called hysteresis. The hysteresis effect is a phenomenon that occurs when the magnetization of ferromagnetic materials lags behind the magnetic field. The word hysteresis means \"lagging.\" Magnetic flux density (B) lags after magnetic field strength, resulting in ...\n\nHysteresis - Wikipedia: Hysteresis can be a dynamic lag between an input and an output that disappears if the input is varied more slowly; this is known as rate-dependent hysteresis. However, phenomena such as the magnetic hysteresis loops are mainly rate-independent, which makes a durable memory possible.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:04:52.333624"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "The area enclosed by hysteresis loop is a measure of?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The area enclosed by a hysteresis loop is a measure of energy loss per cycle.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=30906",
+            "title": "Transformer",
+            "snippet": "Hysteresis losses Each time the magnetic field is reversed, a small amount of energy is lost due to hysteresis within the core, caused by motion of the",
+            "metadata": {
+              "search_query": "The area enclosed by hysteresis loop is a measure of?"
+            },
+            "retrieved_at": "2026-10-16T21:04:52.335426",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=36563",
+          "title": "Magnetic field",
+          "snippet": "{b} }\\,,} where the integral is a line integral over any closed loop and Ib is the bound current enclosed by that closed loop. Unlike the magnetic B field-lines",
+          "metadata": {
+            "search_query": "The area enclosed by hysteresis loop is a measure of?"
+          },
+          "retrieved_at": "2026-10-16T21:04:52.335397",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=30906",
+          "title": "Transformer",
+          "snippet": "Hysteresis losses Each time the magnetic field is reversed, a small amount of energy is lost due to hysteresis within the core, caused by motion of the",
+          "metadata": {
+            "search_query": "The area enclosed by hysteresis loop is a measure of?"
+          },
+          "retrieved_at": "2026-10-16T21:04:52.335426",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=46178",
+          "title": "SQUID",
+          "snippet": "superconducting loops containing Josephson junctions. SQUIDs are sensitive enough to measure magnetic fields as low as 5×10−18 T with a few days of averaged",
+          "metadata": {
+            "search_query": "The area enclosed by hysteresis loop is a measure of?"
+          },
+          "retrieved_at": "2026-10-16T21:04:52.335437",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=22989",
+          "title": "Paris",
+          "snippet": "Kumar, Rohini (17 July 2025). Undulating patterns of Hysteresis loops in diurnal seasonality of air temperature in Urban Heat Island effect: Insights",
+          "metadata": {
+            "search_query": "The area enclosed by hysteresis loop is a measure of?"
+          },
+          "retrieved_at": "2026-10-16T21:04:52.335448",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=39194607",
+          "title": "Rebreather diving",
+          "snippet": "control by injecting gas via a solenoid valve. The injection may follow the \"bang-bang\", \"on-off\", or \"hysteresis\" model, where the valve is activated",
+          "metadata": {
+            "search_query": "The area enclosed by hysteresis loop is a measure of?"
+          },
+          "retrieved_at": "2026-10-16T21:04:52.335459",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:05:18.510018"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "The area enclosed by hysteresis loop is a measure of?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:05:18.510057"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "The area enclosed by hysteresis loop is a measure of?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The area enclosed by a hysteresis loop is a measure of energy loss per cycle.",
+          "source": {
+            "url": "https://testbook.com/question-answer/the-area-of-hysteresis-loop-is-a-measure-of--5c94c41ffdb8bb235521ff19",
+            "title": "[Solved] The area of hysteresis loop is a measure of",
+            "snippet": "The energy loss associated with hysteresis is proportional to the area of the hysteresis loop. It is a measure of energy loss per cycle. As the area of the hysteresis loop for a specimen is found to be large, the hysteresis loss in this specimen is also large. Hysteresis loss occurring in a material is, ${W}_{h}=\\eta \\times {B}_{m}^{1.6}\\times f\\times V$ Where, η is hysteresis constant f is ...",
+            "metadata": {
+              "search_query": "The area enclosed by hysteresis loop is a measure of?"
+            },
+            "retrieved_at": "2026-10-16T21:05:18.510483",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.vedantu.com/question-answer/the-area-enclosed-by-a-hysteresis-loop-is-the-class-12-physics-cbse-5fb443bbde1c3232ee414338",
+          "title": "The area enclosed by a hysteresis loop is the measure of",
+          "snippet": "The area of the loop represents the energy lost in one cycle. Hence the correct option is D. Note: A narrow hysteresis loop will indicate less loss of energy and a wide loop will indicate more energy loss. The core of a transformer has to suffer minimum energy loss and so materials with narrow hysteresis like soft iron are preferred for it.",
+          "metadata": {
+            "search_query": "The area enclosed by hysteresis loop is a measure of?"
+          },
+          "retrieved_at": "2026-10-16T21:05:18.510463",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.vedantu.com/question-answer/the-area-of-the-hysteresis-loop-of-a-substance-class-12-physics-cbse-609827ef59ebc569c09ebe35",
+          "title": "The area of the hysteresis loop of a substance represents ______________.",
+          "snippet": "Hint: Once we understand what a hysteresis loop is, it becomes easy to determine what the area of the hysteresis loop determines and what the curves in the hysteresis loop mean. Complete answer: In every system which involves a magnetic field, the phenomenon of hysteresis is bound to occur. In ferromagnetic substances, hysteresis is common property. The hysteresis effect is the effect that ...",
+          "metadata": {
+            "search_query": "The area enclosed by hysteresis loop is a measure of?"
+          },
+          "retrieved_at": "2026-10-16T21:05:18.510474",
+          "credibility_score": null
+        },
+        {
+          "url": "https://testbook.com/question-answer/the-area-of-hysteresis-loop-is-a-measure-of--5c94c41ffdb8bb235521ff19",
+          "title": "[Solved] The area of hysteresis loop is a measure of",
+          "snippet": "The energy loss associated with hysteresis is proportional to the area of the hysteresis loop. It is a measure of energy loss per cycle. As the area of the hysteresis loop for a specimen is found to be large, the hysteresis loss in this specimen is also large. Hysteresis loss occurring in a material is, ${W}_{h}=\\eta \\times {B}_{m}^{1.6}\\times f\\times V$ Where, η is hysteresis constant f is ...",
+          "metadata": {
+            "search_query": "The area enclosed by hysteresis loop is a measure of?"
+          },
+          "retrieved_at": "2026-10-16T21:05:18.510483",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/physics/explain-hysteresis-loop/",
+          "title": "Hysteresis Loop - GeeksforGeeks",
+          "snippet": "Hysteresis Loop - In a system with a magnetic field, hysteresis occurs. Ferromagnetic materials have a common characteristic called hysteresis. The hysteresis effect is a phenomenon that occurs when the magnetization of ferromagnetic materials lags behind the magnetic field. The word hysteresis means \"lagging.\" Magnetic flux density (B) lags after magnetic field strength, resulting in ...",
+          "metadata": {
+            "search_query": "The area enclosed by hysteresis loop is a measure of?"
+          },
+          "retrieved_at": "2026-10-16T21:05:18.510490",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Hysteresis",
+          "title": "Hysteresis - Wikipedia",
+          "snippet": "Hysteresis can be a dynamic lag between an input and an output that disappears if the input is varied more slowly; this is known as rate-dependent hysteresis. However, phenomena such as the magnetic hysteresis loops are mainly rate-independent, which makes a durable memory possible.",
+          "metadata": {
+            "search_query": "The area enclosed by hysteresis loop is a measure of?"
+          },
+          "retrieved_at": "2026-10-16T21:05:18.510496",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:05:48.457127"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "The area enclosed by hysteresis loop is a measure of?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The area enclosed by the hysteresis loop is a measure of energy loss per cycle.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "The area enclosed by the hysteresis loop is a measure of energy loss per cycle.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:05:06.445302",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The area enclosed by the hysteresis loop is a measure of energy loss per cycle.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:05:06.445302",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "The area enclosed by the hysteresis loop is a measure of energy loss per cycle."
+      },
+      "retrieved_at": "2026-10-16T21:05:06.445364"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "agreement",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "The area enclosed by a hysteresis loop is a measure of energy loss per cycle.",
+        "claim_b_text": "The area enclosed by a hysteresis loop is a measure of energy loss per cycle.",
+        "label": "entailment",
+        "contradiction_score": 0.014678657054901123,
+        "entailment_score": 0.9709011316299438,
+        "neutral_score": 0.01442023366689682
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The area enclosed by a hysteresis loop is a measure of energy loss per cycle.",
+        "claim_b_text": "The area enclosed by the hysteresis loop is a measure of energy loss per cycle.",
+        "label": "entailment",
+        "contradiction_score": 0.01102010253816843,
+        "entailment_score": 0.9751439094543457,
+        "neutral_score": 0.013836014084517956
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The area enclosed by a hysteresis loop is a measure of energy loss per cycle.",
+        "claim_b_text": "The area enclosed by the hysteresis loop is a measure of energy loss per cycle.",
+        "label": "entailment",
+        "contradiction_score": 0.01102010253816843,
+        "entailment_score": 0.9751439094543457,
+        "neutral_score": 0.013836014084517956
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "web_agent",
+      "claim_a": {
+        "text": "The area enclosed by a hysteresis loop is a measure of energy loss per cycle.",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=30906",
+          "title": "Transformer",
+          "snippet": "Hysteresis losses Each time the magnetic field is reversed, a small amount of energy is lost due to hysteresis within the core, caused by motion of the",
+          "metadata": {
+            "search_query": "The area enclosed by hysteresis loop is a measure of?"
+          },
+          "retrieved_at": "2026-10-16T21:04:52.335426",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The area enclosed by a hysteresis loop is a measure of energy loss per cycle.",
+        "source": {
+          "url": "https://testbook.com/question-answer/the-area-of-hysteresis-loop-is-a-measure-of--5c94c41ffdb8bb235521ff19",
+          "title": "[Solved] The area of hysteresis loop is a measure of",
+          "snippet": "The energy loss associated with hysteresis is proportional to the area of the hysteresis loop. It is a measure of energy loss per cycle. As the area of the hysteresis loop for a specimen is found to be large, the hysteresis loss in this specimen is also large. Hysteresis loss occurring in a material is, ${W}_{h}=\\eta \\times {B}_{m}^{1.6}\\times f\\times V$ Where, η is hysteresis constant f is ...",
+          "metadata": {
+            "search_query": "The area enclosed by hysteresis loop is a measure of?"
+          },
+          "retrieved_at": "2026-10-16T21:05:18.510483",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.014678657054901123
+    },
+    "rationale": "All 3 pair(s) exceeded entailment threshold (0.7)"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.014678657054901123,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "The area enclosed by hysteresis loop is a measure of?",
+    "answer": "The area enclosed by a hysteresis loop is a measure of the energy loss per cycle. This energy loss occurs as heat dissipation during the cyclic magnetization and demagnetization process.",
+    "reasoning": "3 independent agent(s) retrieved consistent evidence. All 3 pair(s) exceeded entailment threshold (0.7)",
+    "evidence_state": "agreement",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=36563",
+        "title": "Magnetic field",
+        "snippet": "{b} }\\,,} where the integral is a line integral over any closed loop and Ib is the bound current enclosed by that closed loop. Unlike the magnetic B field-lines",
+        "metadata": {
+          "search_query": "The area enclosed by hysteresis loop is a measure of?"
+        },
+        "retrieved_at": "2026-10-16T21:04:52.335397",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=30906",
+        "title": "Transformer",
+        "snippet": "Hysteresis losses Each time the magnetic field is reversed, a small amount of energy is lost due to hysteresis within the core, caused by motion of the",
+        "metadata": {
+          "search_query": "The area enclosed by hysteresis loop is a measure of?"
+        },
+        "retrieved_at": "2026-10-16T21:04:52.335426",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=46178",
+        "title": "SQUID",
+        "snippet": "superconducting loops containing Josephson junctions. SQUIDs are sensitive enough to measure magnetic fields as low as 5×10−18 T with a few days of averaged",
+        "metadata": {
+          "search_query": "The area enclosed by hysteresis loop is a measure of?"
+        },
+        "retrieved_at": "2026-10-16T21:04:52.335437",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=22989",
+        "title": "Paris",
+        "snippet": "Kumar, Rohini (17 July 2025). Undulating patterns of Hysteresis loops in diurnal seasonality of air temperature in Urban Heat Island effect: Insights",
+        "metadata": {
+          "search_query": "The area enclosed by hysteresis loop is a measure of?"
+        },
+        "retrieved_at": "2026-10-16T21:04:52.335448",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=39194607",
+        "title": "Rebreather diving",
+        "snippet": "control by injecting gas via a solenoid valve. The injection may follow the \"bang-bang\", \"on-off\", or \"hysteresis\" model, where the valve is activated",
+        "metadata": {
+          "search_query": "The area enclosed by hysteresis loop is a measure of?"
+        },
+        "retrieved_at": "2026-10-16T21:04:52.335459",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.vedantu.com/question-answer/the-area-enclosed-by-a-hysteresis-loop-is-the-class-12-physics-cbse-5fb443bbde1c3232ee414338",
+        "title": "The area enclosed by a hysteresis loop is the measure of",
+        "snippet": "The area of the loop represents the energy lost in one cycle. Hence the correct option is D. Note: A narrow hysteresis loop will indicate less loss of energy and a wide loop will indicate more energy loss. The core of a transformer has to suffer minimum energy loss and so materials with narrow hysteresis like soft iron are preferred for it.",
+        "metadata": {
+          "search_query": "The area enclosed by hysteresis loop is a measure of?"
+        },
+        "retrieved_at": "2026-10-16T21:05:18.510463",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.vedantu.com/question-answer/the-area-of-the-hysteresis-loop-of-a-substance-class-12-physics-cbse-609827ef59ebc569c09ebe35",
+        "title": "The area of the hysteresis loop of a substance represents ______________.",
+        "snippet": "Hint: Once we understand what a hysteresis loop is, it becomes easy to determine what the area of the hysteresis loop determines and what the curves in the hysteresis loop mean. Complete answer: In every system which involves a magnetic field, the phenomenon of hysteresis is bound to occur. In ferromagnetic substances, hysteresis is common property. The hysteresis effect is the effect that ...",
+        "metadata": {
+          "search_query": "The area enclosed by hysteresis loop is a measure of?"
+        },
+        "retrieved_at": "2026-10-16T21:05:18.510474",
+        "credibility_score": null
+      },
+      {
+        "url": "https://testbook.com/question-answer/the-area-of-hysteresis-loop-is-a-measure-of--5c94c41ffdb8bb235521ff19",
+        "title": "[Solved] The area of hysteresis loop is a measure of",
+        "snippet": "The energy loss associated with hysteresis is proportional to the area of the hysteresis loop. It is a measure of energy loss per cycle. As the area of the hysteresis loop for a specimen is found to be large, the hysteresis loss in this specimen is also large. Hysteresis loss occurring in a material is, ${W}_{h}=\\eta \\times {B}_{m}^{1.6}\\times f\\times V$ Where, η is hysteresis constant f is ...",
+        "metadata": {
+          "search_query": "The area enclosed by hysteresis loop is a measure of?"
+        },
+        "retrieved_at": "2026-10-16T21:05:18.510483",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/physics/explain-hysteresis-loop/",
+        "title": "Hysteresis Loop - GeeksforGeeks",
+        "snippet": "Hysteresis Loop - In a system with a magnetic field, hysteresis occurs. Ferromagnetic materials have a common characteristic called hysteresis. The hysteresis effect is a phenomenon that occurs when the magnetization of ferromagnetic materials lags behind the magnetic field. The word hysteresis means \"lagging.\" Magnetic flux density (B) lags after magnetic field strength, resulting in ...",
+        "metadata": {
+          "search_query": "The area enclosed by hysteresis loop is a measure of?"
+        },
+        "retrieved_at": "2026-10-16T21:05:18.510490",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hysteresis",
+        "title": "Hysteresis - Wikipedia",
+        "snippet": "Hysteresis can be a dynamic lag between an input and an output that disappears if the input is varied more slowly; this is known as rate-dependent hysteresis. However, phenomena such as the magnetic hysteresis loops are mainly rate-independent, which makes a durable memory possible.",
+        "metadata": {
+          "search_query": "The area enclosed by hysteresis loop is a measure of?"
+        },
+        "retrieved_at": "2026-10-16T21:05:18.510496",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The area enclosed by the hysteresis loop is a measure of energy loss per cycle.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:05:06.445302",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 3,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "agreement"
+    },
+    "generated_at": "2026-10-16T21:06:10.211669"
+  },
+  "metrics": {
+    "latency_seconds": 77.8810727596283,
+    "evidence_state": "agreement",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 3,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      },
+      "answer": {
+        "ok": 1,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 3,
+    "source_count": 11,
+    "system": "proposed_mad"
+  },
+  "started_at": "2026-10-16T21:04:52.330635",
+  "completed_at": "2026-10-16T21:06:10.211785",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0011",
+    "query": "The area enclosed by hysteresis loop is a measure of?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "energy loss per cycle",
+    "required_facts": [
+      "energy loss per cycle"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 18,
+      "answer_variants": [
+        "energy loss per cycle"
+      ],
+      "annotation_explanation": "These are from very creditable sources that I know and trust.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.toppr.com",
+          "text": "Area enclosed by a hysteresis loop is a measure of energy loss per cycle of the paramagnetic materials used for electromagnets and transformer.",
+          "supports_answers": [
+            "energy loss per cycle"
+          ]
+        },
+        {
+          "source_domain": "byjus.com",
+          "text": "The correct option is D Energy loss per cycle. The area enclosed by the hysteresis loop gives the energy loss per cycle of magnetization. Hence, option (d) is ...",
+          "supports_answers": [
+            "energy loss per cycle"
+          ]
+        },
+        {
+          "source_domain": "www.toppr.com",
+          "text": "Area enclosed by a hysteresis loop is a measure of energy loss per cycle of the paramagnetic materials used for electromagnets and transformer.",
+          "supports_answers": [
+            "energy loss per cycle"
+          ]
+        },
+        {
+          "source_domain": "infinitylearn.com",
+          "text": "In the rearrangement of the magnetic domains, some work is done and the energy dissipated in the process is proportional to the area enclosed by hysteresis loop ...",
+          "supports_answers": [
+            "energy loss per cycle"
+          ]
+        },
+        {
+          "source_domain": "www.vedantu.com",
+          "text": "Hint:The hysteresis loop is only exhibited by ferromagnetic materials. It represents how the magnetic field in the ferromagnetic material changes in ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.ncbi.nlm.nih.gov",
+          "text": "Jun 4, 2014 ... The magnitudes of the measured and simulated hysteresis loops ... The area enclosed by the ET trajectories measures the strength of the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "physics.stackexchange.com",
+          "text": "Nov 23, 2017 ... \"The energy loss per unit volume of material per cycle round the loop is ∫HdB, i.e. the area enclosed by the B vs H plot.\" Where does this come ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.ncbi.nlm.nih.gov",
+          "text": "relations, but very little rate dependence in the area enclosed by the loading and ... In every specimen the hysteresis loop was inscribed in a clockwise ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "iopscience.iop.org",
+          "text": "Aug 13, 2020 ... area enclosed by the clockwise loop 1-2-3-4 is the net ... measuring the hysteresis loops of a pyroelectric material, ND.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.neetprep.com",
+          "text": "The area enclosed by hysteresis loop is a measure of : 1. Permeability 2. Susceptibility 3. Retentivity 4. Energy loss per cycle Magnetism and Matter ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "proposed_mad",
+  "evaluation_seconds": 77.903,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

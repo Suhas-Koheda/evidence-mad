@@ -1,0 +1,293 @@
+{
+  "query": "What mall did they use in back to the future?",
+  "trace_id": "c1f05af5-c6fa-46b3-8ea2-58be6a9699b9",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "What mall did they use in back to the future?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:51:08.297751"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "What mall did they use in back to the future?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:51:08.297285"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "What mall did they use in back to the future?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:51:18.245574"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "What mall did they use in back to the future?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:51:18.245608"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "What mall did they use in back to the future?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:51:18.245619"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "What mall did they use in back to the future?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T21:51:53.314448"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "What mall did they use in back to the future?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (No search results); web_agent (No search results); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "No search results"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "No search results"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T21:52:03.248610"
+  },
+  "metrics": {
+    "latency_seconds": 54.95299530029297,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T21:51:08.295601",
+  "completed_at": "2026-10-16T21:52:03.248653",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0038",
+    "query": "What mall did they use in back to the future?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Twin Pines Mall",
+    "required_facts": [
+      "Twin Pines Mall"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 50,
+      "answer_variants": [
+        "Twin Pines Mall"
+      ],
+      "annotation_explanation": "This is the only one that can be looked up to be verified.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "It is most notable for serving as the filming site for the Twin Pines/Lone Pine Mall for the 1985 movie Back to the Future starring Michael J. Fox and ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.discoverlosangeles.com",
+          "text": "Puente Hills Mall ... Recognize this parking lot? It was where Marty McFly accelerated his DeLorean to 88 miles per hour on the early morning of Oct. 26, 1985 and ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "la.curbed.com",
+          "text": "Mar 31, 2020 ... Peabody's ranch, which somehow does not cause any horrible ripple effect. It just changes the mall's name from Twin Pines to Lone Pine. Open in ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.fantrippers.com",
+          "text": "The Twin Pines Mall is Marty McFly's (Michael J. Fox) starting point for the past, this is where he joins Doc and Einstein.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "backtothefuture.fandom.com",
+          "text": "From Back to the Future by George Gipe (quote, pages 240) ... He remembered how Old Man Peabody used to own the land on which the mall sat in 1985, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "footwearnews.com",
+          "text": "Jun 21, 2023 ... Stores Are Closed at the Iconic Scene Location at Puente Hills Mall ... Marty McFly, the film's protagonist, travels back in time to 1955 ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.newsweek.com",
+          "text": "Apr 9, 2021 ... \"So we have Twin Pines Mall, and Lone Pine Mall, but that's not a mistake. Because when Marty first went back to the past, he ran over one of ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "back-to-the-future-1985-movie.fandom.com",
+          "text": "Twin Pines Mall, later known as Lone Pine Mall, was the location that Dr. Emmett Brown chose to show Marty McFly the new DeLorean time machine he had invented.",
+          "supports_answers": [
+            "Twin Pines Mall"
+          ]
+        },
+        {
+          "source_domain": "giggster.com",
+          "text": "One of the funnier scenes in Back to the Future, the scene where Doc tests out the DeLorean, was shot in Industrial City at Puente Hills Mall. Puente Hills Mall ...",
+          "supports_answers": [
+            "Twin Pines Mall"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 54.968,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

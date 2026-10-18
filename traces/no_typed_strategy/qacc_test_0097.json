@@ -1,0 +1,926 @@
+{
+  "query": "Who plays bianca in that's so raven?",
+  "trace_id": "8158275f-a080-4928-930e-e7d16a2cd533",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who plays bianca in that's so raven?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T23:14:32.774036"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who plays bianca in that's so raven?",
+          "answer": "Based on 5 sources:\n- That's So Raven: That's So Raven is an American fantasy teen sitcom that was created by Michael Poryes and Susan Sherman, and aired on Disney Channel for four seasons\n\nThat's So Raven season 3: season of That's So Raven aired on Disney Channel from October 1, 2004 to January 16, 2006\n- The season deals with the Baxter family, Raven (Raven-Symoné)\n\nErica Rivera: American actress who played a minor role as Bianca on the Disney Channel show That's So Raven\n- Her recordings include \"Somebody Stop Me\" in the film What\n\nBianca de Vera: on March 22, 2025\n- Retrieved May 26, 2025\n- Maranan, Gerson Raven (August 12, 2022)",
+          "claims": [
+            {
+              "id": "11831948",
+              "text": "That's So Raven: That's So Raven is an American fantasy teen sitcom that was created by Michael Poryes and Susan Sherman, and aired on Disney Channel for four seasons\n\nThat's So Raven season 3: season of That's So Raven aired on Disney Channel from October 1, 2004 to January 16, 2006",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=494681",
+                "title": "That's So Raven",
+                "snippet": "That's So Raven is an American fantasy teen sitcom that was created by Michael Poryes and Susan Sherman, and aired on Disney Channel for four seasons",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.773227",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "75feb3d0",
+              "text": "The season deals with the Baxter family, Raven (Raven-Symoné)\n\nErica Rivera: American actress who played a minor role as Bianca on the Disney Channel show That's So Raven",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=29102100",
+                "title": "That's So Raven season 3",
+                "snippet": "season of That's So Raven aired on Disney Channel from October 1, 2004 to January 16, 2006. The season deals with the Baxter family, Raven (Raven-Symoné)",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.773273",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c1e2c024",
+              "text": "Her recordings include \"Somebody Stop Me\" in the film What\n\nBianca de Vera: on March 22, 2025",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=5889359",
+                "title": "Erica Rivera",
+                "snippet": "American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.773287",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "5094b3be",
+              "text": "Retrieved May 26, 2025",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=75035779",
+                "title": "Bianca de Vera",
+                "snippet": "on March 22, 2025. Retrieved May 26, 2025. Maranan, Gerson Raven (August 12, 2022). \"Bianca de Vera\". StarMagic. Archived from the original on February",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.773300",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "281b7920",
+              "text": "Maranan, Gerson Raven (August 12, 2022)",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=17067226",
+                "title": "Bianca Chiminello",
+                "snippet": "Bianca Chiminello (born 1976) is an Australian model and actress best known for her role as Jenavian Charto on the television series Farscape. She is also",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.773313",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "953d3f9e",
+              "text": "Archived from the original on February\n\nBianca Chiminello: Bianca Chiminello (born 1976) is an Australian model and actress best known for her role as Jenavian Charto on the television series Farscape",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=5889359",
+                "title": "Erica Rivera",
+                "snippet": "American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.773287",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=494681",
+              "title": "That's So Raven",
+              "snippet": "That's So Raven is an American fantasy teen sitcom that was created by Michael Poryes and Susan Sherman, and aired on Disney Channel for four seasons",
+              "metadata": {
+                "search_query": "Who plays bianca in that's so raven?"
+              },
+              "retrieved_at": "2026-10-16T23:14:32.773227",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=29102100",
+              "title": "That's So Raven season 3",
+              "snippet": "season of That's So Raven aired on Disney Channel from October 1, 2004 to January 16, 2006. The season deals with the Baxter family, Raven (Raven-Symoné)",
+              "metadata": {
+                "search_query": "Who plays bianca in that's so raven?"
+              },
+              "retrieved_at": "2026-10-16T23:14:32.773273",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=5889359",
+              "title": "Erica Rivera",
+              "snippet": "American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What",
+              "metadata": {
+                "search_query": "Who plays bianca in that's so raven?"
+              },
+              "retrieved_at": "2026-10-16T23:14:32.773287",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=75035779",
+              "title": "Bianca de Vera",
+              "snippet": "on March 22, 2025. Retrieved May 26, 2025. Maranan, Gerson Raven (August 12, 2022). \"Bianca de Vera\". StarMagic. Archived from the original on February",
+              "metadata": {
+                "search_query": "Who plays bianca in that's so raven?"
+              },
+              "retrieved_at": "2026-10-16T23:14:32.773300",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=17067226",
+              "title": "Bianca Chiminello",
+              "snippet": "Bianca Chiminello (born 1976) is an Australian model and actress best known for her role as Jenavian Charto on the television series Farscape. She is also",
+              "metadata": {
+                "search_query": "Who plays bianca in that's so raven?"
+              },
+              "retrieved_at": "2026-10-16T23:14:32.773313",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "That's So Raven: That's So Raven is an American fantasy teen sitcom that was created by Michael Poryes and Susan Sherman, and aired on Disney Channel for four seasons\n\nThat's So Raven season 3: season of That's So Raven aired on Disney Channel from October 1, 2004 to January 16, 2006. The season deals with the Baxter family, Raven (Raven-Symoné)\n\nErica Rivera: American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What\n\nBianca de Vera: on March 22, 2025. Retrieved May 26, 2025. Maranan, Gerson Raven (August 12, 2022). \"Bianca de Vera\". StarMagic. Archived from the original on February\n\nBianca Chiminello: Bianca Chiminello (born 1976) is an Australian model and actress best known for her role as Jenavian Charto on the television series Farscape. She is also",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T23:14:32.773604"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who plays bianca in that's so raven?",
+          "answer": "Based on 5 sources:\n- Erica Rivera - Wikipedia: Erica Flor Rivera (born December 18, 1988) is an American actress who played a minor role as Bianca on the Disney Channel show That's So Raven\n- Her recordings include \"Somebody Stop Me\" in the film What a Girl Wants and \"Let Your Baby Go\" in the film Akeelah and the Bee\n- Bianca | That's So Raven wiki | Fandom: Bianca (Erica Rivera) is the leader girl of Alana's former posse\n- She only appears in 2 episodes\n- Ever since Alana got kicked out of Bayside, Bianca took over her role as the mean girl",
+          "claims": [
+            {
+              "id": "8c0ecbef",
+              "text": "Erica Rivera - Wikipedia: Erica Flor Rivera (born December 18, 1988) is an American actress who played a minor role as Bianca on the Disney Channel show That's So Raven",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Erica_Rivera",
+                "title": "Erica Rivera - Wikipedia",
+                "snippet": "Erica Flor Rivera (born December 18, 1988) is an American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What a Girl Wants and \"Let Your Baby Go\" in the film Akeelah and the Bee.",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.774484",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "51d39fa6",
+              "text": "Her recordings include \"Somebody Stop Me\" in the film What a Girl Wants and \"Let Your Baby Go\" in the film Akeelah and the Bee",
+              "source": {
+                "url": "https://thatssoraven.fandom.com/wiki/Bianca",
+                "title": "Bianca | That's So Raven wiki | Fandom",
+                "snippet": "Bianca (Erica Rivera) is the leader girl of Alana's former posse. She only appears in 2 episodes. Ever since Alana got kicked out of Bayside, Bianca took over her role as the mean girl. As Muffy put it, Bianca was \"so bad, she got kicked out of military school.\" Ever since she started going to Bayside, she immediately began to torment Raven and her friends and family (even going so far as ...",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.774518",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "31b44066",
+              "text": "Bianca | That's So Raven wiki | Fandom: Bianca (Erica Rivera) is the leader girl of Alana's former posse",
+              "source": {
+                "url": "https://www.imdb.com/title/tt0300865/fullcredits/",
+                "title": "That's So Raven (TV Series 2003-2007) - Full cast & crew - IMDb",
+                "snippet": "That's So Raven (TV Series 2003-2007) - Cast and crew credits, including actors, actresses, directors, writers and more.",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.774533",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9d58600f",
+              "text": "She only appears in 2 episodes",
+              "source": {
+                "url": "https://www.imdb.com/title/tt0300865/characters/nm1801224",
+                "title": "That's So Raven (TV Series 2003-2007) - Erica Rivera as Bianca - IMDb",
+                "snippet": "It looks like we don't have any photos or quotes yet. Be the first to contribute. Add a photo. Add a quote.",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.774545",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "dfcafb99",
+              "text": "Ever since Alana got kicked out of Bayside, Bianca took over her role as the mean girl",
+              "source": {
+                "url": "https://alchetron.com/Erica-Rivera",
+                "title": "Erica Rivera - Alchetron, The Free Social Encyclopedia",
+                "snippet": "Erica Flor Rivera (born December 18, 1988 in Philadelphia, Pennsylvania, United States) is an American actress and singer who played a minor role as Bianca on the Disney Channel show That's So Raven.",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.774557",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c7dff563",
+              "text": "As Muffy put it, Bianca was \"so bad, she got kicked out of military school",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Erica_Rivera",
+                "title": "Erica Rivera - Wikipedia",
+                "snippet": "Erica Flor Rivera (born December 18, 1988) is an American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What a Girl Wants and \"Let Your Baby Go\" in the film Akeelah and the Bee.",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.774484",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d6402444",
+              "text": "\" Ever since she started going to Bayside, she immediately began to torment Raven and her friends and family (even going so far as",
+              "source": {
+                "url": "https://thatssoraven.fandom.com/wiki/Bianca",
+                "title": "Bianca | That's So Raven wiki | Fandom",
+                "snippet": "Bianca (Erica Rivera) is the leader girl of Alana's former posse. She only appears in 2 episodes. Ever since Alana got kicked out of Bayside, Bianca took over her role as the mean girl. As Muffy put it, Bianca was \"so bad, she got kicked out of military school.\" Ever since she started going to Bayside, she immediately began to torment Raven and her friends and family (even going so far as ...",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.774518",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d78494cc",
+              "text": "That's So Raven (TV Series 2003-2007) - Full cast & crew - IMDb: That's So Raven (TV Series 2003-2007) - Cast and crew credits, including actors, actresses, directors, writers and more",
+              "source": {
+                "url": "https://www.imdb.com/title/tt0300865/fullcredits/",
+                "title": "That's So Raven (TV Series 2003-2007) - Full cast & crew - IMDb",
+                "snippet": "That's So Raven (TV Series 2003-2007) - Cast and crew credits, including actors, actresses, directors, writers and more.",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.774533",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e4be2a18",
+              "text": "That's So Raven (TV Series 2003-2007) - Erica Rivera as Bianca - IMDb: It looks like we don't have any photos or quotes yet",
+              "source": {
+                "url": "https://www.imdb.com/title/tt0300865/characters/nm1801224",
+                "title": "That's So Raven (TV Series 2003-2007) - Erica Rivera as Bianca - IMDb",
+                "snippet": "It looks like we don't have any photos or quotes yet. Be the first to contribute. Add a photo. Add a quote.",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.774545",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "63f252cf",
+              "text": "Be the first to contribute",
+              "source": {
+                "url": "https://alchetron.com/Erica-Rivera",
+                "title": "Erica Rivera - Alchetron, The Free Social Encyclopedia",
+                "snippet": "Erica Flor Rivera (born December 18, 1988 in Philadelphia, Pennsylvania, United States) is an American actress and singer who played a minor role as Bianca on the Disney Channel show That's So Raven.",
+                "metadata": {
+                  "search_query": "Who plays bianca in that's so raven?"
+                },
+                "retrieved_at": "2026-10-16T23:14:32.774557",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Erica_Rivera",
+              "title": "Erica Rivera - Wikipedia",
+              "snippet": "Erica Flor Rivera (born December 18, 1988) is an American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What a Girl Wants and \"Let Your Baby Go\" in the film Akeelah and the Bee.",
+              "metadata": {
+                "search_query": "Who plays bianca in that's so raven?"
+              },
+              "retrieved_at": "2026-10-16T23:14:32.774484",
+              "credibility_score": null
+            },
+            {
+              "url": "https://thatssoraven.fandom.com/wiki/Bianca",
+              "title": "Bianca | That's So Raven wiki | Fandom",
+              "snippet": "Bianca (Erica Rivera) is the leader girl of Alana's former posse. She only appears in 2 episodes. Ever since Alana got kicked out of Bayside, Bianca took over her role as the mean girl. As Muffy put it, Bianca was \"so bad, she got kicked out of military school.\" Ever since she started going to Bayside, she immediately began to torment Raven and her friends and family (even going so far as ...",
+              "metadata": {
+                "search_query": "Who plays bianca in that's so raven?"
+              },
+              "retrieved_at": "2026-10-16T23:14:32.774518",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.imdb.com/title/tt0300865/fullcredits/",
+              "title": "That's So Raven (TV Series 2003-2007) - Full cast & crew - IMDb",
+              "snippet": "That's So Raven (TV Series 2003-2007) - Cast and crew credits, including actors, actresses, directors, writers and more.",
+              "metadata": {
+                "search_query": "Who plays bianca in that's so raven?"
+              },
+              "retrieved_at": "2026-10-16T23:14:32.774533",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.imdb.com/title/tt0300865/characters/nm1801224",
+              "title": "That's So Raven (TV Series 2003-2007) - Erica Rivera as Bianca - IMDb",
+              "snippet": "It looks like we don't have any photos or quotes yet. Be the first to contribute. Add a photo. Add a quote.",
+              "metadata": {
+                "search_query": "Who plays bianca in that's so raven?"
+              },
+              "retrieved_at": "2026-10-16T23:14:32.774545",
+              "credibility_score": null
+            },
+            {
+              "url": "https://alchetron.com/Erica-Rivera",
+              "title": "Erica Rivera - Alchetron, The Free Social Encyclopedia",
+              "snippet": "Erica Flor Rivera (born December 18, 1988 in Philadelphia, Pennsylvania, United States) is an American actress and singer who played a minor role as Bianca on the Disney Channel show That's So Raven.",
+              "metadata": {
+                "search_query": "Who plays bianca in that's so raven?"
+              },
+              "retrieved_at": "2026-10-16T23:14:32.774557",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Erica Rivera - Wikipedia: Erica Flor Rivera (born December 18, 1988) is an American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What a Girl Wants and \"Let Your Baby Go\" in the film Akeelah and the Bee.\n\nBianca | That's So Raven wiki | Fandom: Bianca (Erica Rivera) is the leader girl of Alana's former posse. She only appears in 2 episodes. Ever since Alana got kicked out of Bayside, Bianca took over her role as the mean girl. As Muffy put it, Bianca was \"so bad, she got kicked out of military school.\" Ever since she started going to Bayside, she immediately began to torment Raven and her friends and family (even going so far as ...\n\nThat's So Raven (TV Series 2003-2007) - Full cast & crew - IMDb: That's So Raven (TV Series 2003-2007) - Cast and crew credits, including actors, actresses, directors, writers and more.\n\nThat's So Raven (TV Series 2003-2007) - Erica Rivera as Bianca - IMDb: It looks like we don't have any photos or quotes yet. Be the first to contribute. Add a photo. Add a quote.\n\nErica Rivera - Alchetron, The Free Social Encyclopedia: Erica Flor Rivera (born December 18, 1988 in Philadelphia, Pennsylvania, United States) is an American actress and singer who played a minor role as Bianca on the Disney Channel show That's So Raven.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T23:14:32.774996"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who plays bianca in that's so raven?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:14:32.775841"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who plays bianca in that's so raven?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "That's So Raven is an American fantasy teen sitcom that was created by Michael Poryes and Susan Sherman, and aired on Disney Channel for four seasons",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=494681",
+            "title": "That's So Raven",
+            "snippet": "That's So Raven is an American fantasy teen sitcom that was created by Michael Poryes and Susan Sherman, and aired on Disney Channel for four seasons",
+            "metadata": {
+              "search_query": "Who plays bianca in that's so raven?"
+            },
+            "retrieved_at": "2026-10-16T23:14:32.776098",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=494681",
+          "title": "That's So Raven",
+          "snippet": "That's So Raven is an American fantasy teen sitcom that was created by Michael Poryes and Susan Sherman, and aired on Disney Channel for four seasons",
+          "metadata": {
+            "search_query": "Who plays bianca in that's so raven?"
+          },
+          "retrieved_at": "2026-10-16T23:14:32.776098",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=29102100",
+          "title": "That's So Raven season 3",
+          "snippet": "season of That's So Raven aired on Disney Channel from October 1, 2004 to January 16, 2006. The season deals with the Baxter family, Raven (Raven-Symoné)",
+          "metadata": {
+            "search_query": "Who plays bianca in that's so raven?"
+          },
+          "retrieved_at": "2026-10-16T23:14:32.776109",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=5889359",
+          "title": "Erica Rivera",
+          "snippet": "American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What",
+          "metadata": {
+            "search_query": "Who plays bianca in that's so raven?"
+          },
+          "retrieved_at": "2026-10-16T23:14:32.776116",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=75035779",
+          "title": "Bianca de Vera",
+          "snippet": "on March 22, 2025. Retrieved May 26, 2025. Maranan, Gerson Raven (August 12, 2022). \"Bianca de Vera\". StarMagic. Archived from the original on February",
+          "metadata": {
+            "search_query": "Who plays bianca in that's so raven?"
+          },
+          "retrieved_at": "2026-10-16T23:14:32.776122",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=17067226",
+          "title": "Bianca Chiminello",
+          "snippet": "Bianca Chiminello (born 1976) is an Australian model and actress best known for her role as Jenavian Charto on the television series Farscape. She is also",
+          "metadata": {
+            "search_query": "Who plays bianca in that's so raven?"
+          },
+          "retrieved_at": "2026-10-16T23:14:32.776128",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:15:47.039168"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who plays bianca in that's so raven?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Erica Flor Rivera (born December 18, 1988) is an American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What a Girl Wants and \"Let Your Baby Go\" in the film Akeelah and the Bee.",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Erica_Rivera",
+            "title": "Erica Rivera - Wikipedia",
+            "snippet": "Erica Flor Rivera (born December 18, 1988) is an American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What a Girl Wants and \"Let Your Baby Go\" in the film Akeelah and the Bee.",
+            "metadata": {
+              "search_query": "Who plays bianca in that's so raven?"
+            },
+            "retrieved_at": "2026-10-16T23:15:47.039637",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Erica_Rivera",
+          "title": "Erica Rivera - Wikipedia",
+          "snippet": "Erica Flor Rivera (born December 18, 1988) is an American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What a Girl Wants and \"Let Your Baby Go\" in the film Akeelah and the Bee.",
+          "metadata": {
+            "search_query": "Who plays bianca in that's so raven?"
+          },
+          "retrieved_at": "2026-10-16T23:15:47.039637",
+          "credibility_score": null
+        },
+        {
+          "url": "https://thatssoraven.fandom.com/wiki/Bianca",
+          "title": "Bianca | That's So Raven wiki | Fandom",
+          "snippet": "Bianca (Erica Rivera) is the leader girl of Alana's former posse. She only appears in 2 episodes. Ever since Alana got kicked out of Bayside, Bianca took over her role as the mean girl. As Muffy put it, Bianca was \"so bad, she got kicked out of military school.\" Ever since she started going to Bayside, she immediately began to torment Raven and her friends and family (even going so far as ...",
+          "metadata": {
+            "search_query": "Who plays bianca in that's so raven?"
+          },
+          "retrieved_at": "2026-10-16T23:15:47.039657",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0300865/fullcredits/",
+          "title": "That's So Raven (TV Series 2003-2007) - Full cast & crew - IMDb",
+          "snippet": "That's So Raven (TV Series 2003-2007) - Cast and crew credits, including actors, actresses, directors, writers and more.",
+          "metadata": {
+            "search_query": "Who plays bianca in that's so raven?"
+          },
+          "retrieved_at": "2026-10-16T23:15:47.039668",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0300865/characters/nm1801224",
+          "title": "That's So Raven (TV Series 2003-2007) - Erica Rivera as Bianca - IMDb",
+          "snippet": "It looks like we don't have any photos or quotes yet. Be the first to contribute. Add a photo. Add a quote.",
+          "metadata": {
+            "search_query": "Who plays bianca in that's so raven?"
+          },
+          "retrieved_at": "2026-10-16T23:15:47.039696",
+          "credibility_score": null
+        },
+        {
+          "url": "https://alchetron.com/Erica-Rivera",
+          "title": "Erica Rivera - Alchetron, The Free Social Encyclopedia",
+          "snippet": "Erica Flor Rivera (born December 18, 1988 in Philadelphia, Pennsylvania, United States) is an American actress and singer who played a minor role as Bianca on the Disney Channel show That's So Raven.",
+          "metadata": {
+            "search_query": "Who plays bianca in that's so raven?"
+          },
+          "retrieved_at": "2026-10-16T23:15:47.039706",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:16:32.058931"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who plays bianca in that's so raven?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T23:15:42.367617"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "That's So Raven is an American fantasy teen sitcom that was created by Michael Poryes and Susan Sherman, and aired on Disney Channel for four seasons",
+        "claim_b_text": "Erica Flor Rivera (born December 18, 1988) is an American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What a Girl Wants and \"Let Your Baby Go\" in the film Akeelah and the Bee.",
+        "label": "neutral",
+        "contradiction_score": 0.0003400805580895394,
+        "entailment_score": 0.0002690556284505874,
+        "neutral_score": 0.9994834661483765
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "web_agent",
+      "claim_a": {
+        "text": "That's So Raven is an American fantasy teen sitcom that was created by Michael Poryes and Susan Sherman, and aired on Disney Channel for four seasons",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=494681",
+          "title": "That's So Raven",
+          "snippet": "That's So Raven is an American fantasy teen sitcom that was created by Michael Poryes and Susan Sherman, and aired on Disney Channel for four seasons",
+          "metadata": {
+            "search_query": "Who plays bianca in that's so raven?"
+          },
+          "retrieved_at": "2026-10-16T23:14:32.776098",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Erica Flor Rivera (born December 18, 1988) is an American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What a Girl Wants and \"Let Your Baby Go\" in the film Akeelah and the Bee.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Erica_Rivera",
+          "title": "Erica Rivera - Wikipedia",
+          "snippet": "Erica Flor Rivera (born December 18, 1988) is an American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What a Girl Wants and \"Let Your Baby Go\" in the film Akeelah and the Bee.",
+          "metadata": {
+            "search_query": "Who plays bianca in that's so raven?"
+          },
+          "retrieved_at": "2026-10-16T23:15:47.039637",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.0003400805580895394
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0003400805580895394,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who plays bianca in that's so raven?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [reference_agent]: That's So Raven is an American fantasy teen sitcom that was created by Michael Poryes and Susan Sherman, and aired on Disney Channel for four seasons\n- [web_agent]: Erica Flor Rivera (born December 18, 1988) is an American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What a Girl Wants and \"Let Your Baby Go\" in the film Akeelah and the Bee.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=494681",
+        "title": "That's So Raven",
+        "snippet": "That's So Raven is an American fantasy teen sitcom that was created by Michael Poryes and Susan Sherman, and aired on Disney Channel for four seasons",
+        "metadata": {
+          "search_query": "Who plays bianca in that's so raven?"
+        },
+        "retrieved_at": "2026-10-16T23:14:32.776098",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=29102100",
+        "title": "That's So Raven season 3",
+        "snippet": "season of That's So Raven aired on Disney Channel from October 1, 2004 to January 16, 2006. The season deals with the Baxter family, Raven (Raven-Symoné)",
+        "metadata": {
+          "search_query": "Who plays bianca in that's so raven?"
+        },
+        "retrieved_at": "2026-10-16T23:14:32.776109",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=5889359",
+        "title": "Erica Rivera",
+        "snippet": "American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What",
+        "metadata": {
+          "search_query": "Who plays bianca in that's so raven?"
+        },
+        "retrieved_at": "2026-10-16T23:14:32.776116",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=75035779",
+        "title": "Bianca de Vera",
+        "snippet": "on March 22, 2025. Retrieved May 26, 2025. Maranan, Gerson Raven (August 12, 2022). \"Bianca de Vera\". StarMagic. Archived from the original on February",
+        "metadata": {
+          "search_query": "Who plays bianca in that's so raven?"
+        },
+        "retrieved_at": "2026-10-16T23:14:32.776122",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=17067226",
+        "title": "Bianca Chiminello",
+        "snippet": "Bianca Chiminello (born 1976) is an Australian model and actress best known for her role as Jenavian Charto on the television series Farscape. She is also",
+        "metadata": {
+          "search_query": "Who plays bianca in that's so raven?"
+        },
+        "retrieved_at": "2026-10-16T23:14:32.776128",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Erica_Rivera",
+        "title": "Erica Rivera - Wikipedia",
+        "snippet": "Erica Flor Rivera (born December 18, 1988) is an American actress who played a minor role as Bianca on the Disney Channel show That's So Raven. Her recordings include \"Somebody Stop Me\" in the film What a Girl Wants and \"Let Your Baby Go\" in the film Akeelah and the Bee.",
+        "metadata": {
+          "search_query": "Who plays bianca in that's so raven?"
+        },
+        "retrieved_at": "2026-10-16T23:15:47.039637",
+        "credibility_score": null
+      },
+      {
+        "url": "https://thatssoraven.fandom.com/wiki/Bianca",
+        "title": "Bianca | That's So Raven wiki | Fandom",
+        "snippet": "Bianca (Erica Rivera) is the leader girl of Alana's former posse. She only appears in 2 episodes. Ever since Alana got kicked out of Bayside, Bianca took over her role as the mean girl. As Muffy put it, Bianca was \"so bad, she got kicked out of military school.\" Ever since she started going to Bayside, she immediately began to torment Raven and her friends and family (even going so far as ...",
+        "metadata": {
+          "search_query": "Who plays bianca in that's so raven?"
+        },
+        "retrieved_at": "2026-10-16T23:15:47.039657",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0300865/fullcredits/",
+        "title": "That's So Raven (TV Series 2003-2007) - Full cast & crew - IMDb",
+        "snippet": "That's So Raven (TV Series 2003-2007) - Cast and crew credits, including actors, actresses, directors, writers and more.",
+        "metadata": {
+          "search_query": "Who plays bianca in that's so raven?"
+        },
+        "retrieved_at": "2026-10-16T23:15:47.039668",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.imdb.com/title/tt0300865/characters/nm1801224",
+        "title": "That's So Raven (TV Series 2003-2007) - Erica Rivera as Bianca - IMDb",
+        "snippet": "It looks like we don't have any photos or quotes yet. Be the first to contribute. Add a photo. Add a quote.",
+        "metadata": {
+          "search_query": "Who plays bianca in that's so raven?"
+        },
+        "retrieved_at": "2026-10-16T23:15:47.039696",
+        "credibility_score": null
+      },
+      {
+        "url": "https://alchetron.com/Erica-Rivera",
+        "title": "Erica Rivera - Alchetron, The Free Social Encyclopedia",
+        "snippet": "Erica Flor Rivera (born December 18, 1988 in Philadelphia, Pennsylvania, United States) is an American actress and singer who played a minor role as Bianca on the Disney Channel show That's So Raven.",
+        "metadata": {
+          "search_query": "Who plays bianca in that's so raven?"
+        },
+        "retrieved_at": "2026-10-16T23:15:47.039706",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T23:16:34.015532"
+  },
+  "metrics": {
+    "latency_seconds": 121.2442045211792,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 2,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 0,
+        "failed": 2
+      }
+    },
+    "retrieval_failure_rate": 0.25,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "system": "no_typed_strategy"
+  },
+  "started_at": "2026-10-16T23:14:32.771314",
+  "completed_at": "2026-10-16T23:16:34.015578",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0097",
+    "query": "Who plays bianca in that's so raven?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Erica Rivera",
+    "required_facts": [
+      "Erica Rivera"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 123,
+      "answer_variants": [
+        "Erica Rivera"
+      ],
+      "annotation_explanation": "This is the correct and verified answer to this question.",
+      "evidence_contexts": [
+        {
+          "source_domain": "thatssoraven.fandom.com",
+          "text": "Bianca (Erica Rivera) is the leader girl of Alana's former posse. She only appears in 2 episodes. Advertisement. Biography.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Erica Flor Rivera (born December 18, 1988) is an American actress, singer, rapper, dancer, and artist who played a minor role as Bianca on the Disney ...",
+          "supports_answers": [
+            "Erica Rivera"
+          ]
+        },
+        {
+          "source_domain": "www.cheatsheet.com",
+          "text": "Aug 4, 2021 ... Her crew is now under the leadership of Bianca, played by Erica Rivera, who was “so bad she got kicked out of military school.” On the show, it ...",
+          "supports_answers": [
+            "Erica Rivera"
+          ]
+        },
+        {
+          "source_domain": "www.imdb.com",
+          "text": "Bianca has turned good and her goons thinks Raven is their new boss. Cory's friend Larry irritates both Victor and Cory with his new found interest in ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "disney.fandom.com",
+          "text": "Bianca is the leader girl of Alana's former posse. She only appears in 2 episodes. Advertisement. Biography.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.tiktok.com",
+          "text": "Discover videos related to bianca thats so raven on TikTok. ... We all know that Alana is the #thatssoraven #disneychannel #alanarivera #fyp.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "wiki.celebrity.fm",
+          "text": "Her crew is now under the leadership of Bianca, played by Erica Rivera, who was “so bad she got kicked out of military school.” On the show, it seemed like ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.reddit.com",
+          "text": "Dec 29, 2022 ... Hmm now rewatching tsr and wondering why Bianca had a problem with raven lmbooo so random like that's so weird.",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_typed_strategy",
+  "evaluation_seconds": 121.262,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

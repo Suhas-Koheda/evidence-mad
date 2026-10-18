@@ -1,0 +1,1046 @@
+{
+  "query": "Who did the us share the oregon country with?",
+  "trace_id": "9e029cc7-c199-488f-9bc8-4ccff42a643a",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who did the us share the oregon country with?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:35:43.663951"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who did the us share the oregon country with?",
+          "answer": "Based on 5 sources:\n- Oregon Country - Wikipedia: Oregon Country was a large region of the Pacific Northwest of North America that was subject to a long dispute between the United Kingdom and the United States in the early 19th century\n- Oregon Treaty - Wikipedia: The Oregon Treaty[a] between the United Kingdom and the United States was signed on June 15, 1846, in Washington, D\n- The treaty brought an end to the Oregon boundary dispute by settling competing American and British claims to the Oregon Country through partition\n- The area had been jointly occupied by both Britain and the U\n- since the Treaty of 1818",
+          "claims": [
+            {
+              "id": "6a50fcc0",
+              "text": "Oregon Country - Wikipedia: Oregon Country was a large region of the Pacific Northwest of North America that was subject to a long dispute between the United Kingdom and the United States in the early 19th century",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Oregon_Country",
+                "title": "Oregon Country - Wikipedia",
+                "snippet": "Oregon Country was a large region of the Pacific Northwest of North America that was subject to a long dispute between the United Kingdom and the United States in the early 19th century.",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:45.021159",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d918d6fb",
+              "text": "Oregon Treaty - Wikipedia: The Oregon Treaty[a] between the United Kingdom and the United States was signed on June 15, 1846, in Washington, D",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Oregon_Treaty",
+                "title": "Oregon Treaty - Wikipedia",
+                "snippet": "The Oregon Treaty[a] between the United Kingdom and the United States was signed on June 15, 1846, in Washington, D.C. The treaty brought an end to the Oregon boundary dispute by settling competing American and British claims to the Oregon Country through partition. The area had been jointly occupied by both Britain and the U.S. since the Treaty of 1818. [1]",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:45.021203",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8e1e3a7a",
+              "text": "The treaty brought an end to the Oregon boundary dispute by settling competing American and British claims to the Oregon Country through partition",
+              "source": {
+                "url": "https://www.u-s-history.com/pages/h1029.html",
+                "title": "The Oregon Treaty - U-S-History.com",
+                "snippet": "The Oregon Treaty A long history of dispute characterized the ownership of the Oregon Territory, which included present-day Oregon, Washington, Idaho, and portions of Montana, Wyoming, and British Columbia. Spain and Russia had surrendered their claims to the region, but the United States and Britain were active claimants in the 19th century's early years. The matter's resolution was delayed ...",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:45.021233",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "fba303bc",
+              "text": "The area had been jointly occupied by both Britain and the U",
+              "source": {
+                "url": "https://www.mikegravel.org/who-did-the-us-jointly-own-oregon-with/",
+                "title": "Who did the US jointly own Oregon with? - Mike Gravel",
+                "snippet": "Who did the US jointly own Oregon with? Unraveling the Oregon Question The United States and Great Britain jointly owned the Oregon Country, a vast territory west of the Rocky Mountains, from 1818 until 1846. This agreement, known as joint occupation, temporarily resolved conflicting claims over the region before a final resolution was reached. Background to the Oregon Question The story of ...",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:45.021247",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "06530301",
+              "text": "since the Treaty of 1818",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Oregon_Treaty",
+                "title": "Oregon Treaty - Wikipedia",
+                "snippet": "The Oregon Treaty[a] between the United Kingdom and the United States was signed on June 15, 1846, in Washington, D.C. The treaty brought an end to the Oregon boundary dispute by settling competing American and British claims to the Oregon Country through partition. The area had been jointly occupied by both Britain and the U.S. since the Treaty of 1818. [1]",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:45.021203",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "61a8f0f8",
+              "text": "[1]\n\nOregon Country | historical region, Canada-United States | Britannica: Other articles where Oregon Country is discussed: Hudson's Bay Company: …the fur trade of the Oregon Country (present Oregon, Washington, Idaho, British Columbia, and parts of Montana and Wyoming)",
+              "source": {
+                "url": "https://www.britannica.com/place/Oregon-Country",
+                "title": "Oregon Country | historical region, Canada-United States | Britannica",
+                "snippet": "Other articles where Oregon Country is discussed: Hudson's Bay Company: …the fur trade of the Oregon Country (present Oregon, Washington, Idaho, British Columbia, and parts of Montana and Wyoming). Increasing American immigration, starting in 1834 and continuing into the next decade, diminished the company's influence in the southern part of the Oregon Country, and in 1846 the Oregon ...",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:45.021219",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "5a3296f2",
+              "text": "Increasing American immigration, starting in 1834 and continuing into the next decade, diminished the company's influence in the southern part of the Oregon Country, and in 1846 the Oregon",
+              "source": {
+                "url": "https://www.u-s-history.com/pages/h1029.html",
+                "title": "The Oregon Treaty - U-S-History.com",
+                "snippet": "The Oregon Treaty A long history of dispute characterized the ownership of the Oregon Territory, which included present-day Oregon, Washington, Idaho, and portions of Montana, Wyoming, and British Columbia. Spain and Russia had surrendered their claims to the region, but the United States and Britain were active claimants in the 19th century's early years. The matter's resolution was delayed ...",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:45.021233",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "09e57b67",
+              "text": "The Oregon Treaty - U-S-History",
+              "source": {
+                "url": "https://www.mikegravel.org/who-did-the-us-jointly-own-oregon-with/",
+                "title": "Who did the US jointly own Oregon with? - Mike Gravel",
+                "snippet": "Who did the US jointly own Oregon with? Unraveling the Oregon Question The United States and Great Britain jointly owned the Oregon Country, a vast territory west of the Rocky Mountains, from 1818 until 1846. This agreement, known as joint occupation, temporarily resolved conflicting claims over the region before a final resolution was reached. Background to the Oregon Question The story of ...",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:45.021247",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "711be9b2",
+              "text": "com: The Oregon Treaty A long history of dispute characterized the ownership of the Oregon Territory, which included present-day Oregon, Washington, Idaho, and portions of Montana, Wyoming, and British Columbia",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Oregon_Country",
+                "title": "Oregon Country - Wikipedia",
+                "snippet": "Oregon Country was a large region of the Pacific Northwest of North America that was subject to a long dispute between the United Kingdom and the United States in the early 19th century.",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:45.021159",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e866ed2a",
+              "text": "Spain and Russia had surrendered their claims to the region, but the United States and Britain were active claimants in the 19th century's early years",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Oregon_Treaty",
+                "title": "Oregon Treaty - Wikipedia",
+                "snippet": "The Oregon Treaty[a] between the United Kingdom and the United States was signed on June 15, 1846, in Washington, D.C. The treaty brought an end to the Oregon boundary dispute by settling competing American and British claims to the Oregon Country through partition. The area had been jointly occupied by both Britain and the U.S. since the Treaty of 1818. [1]",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:45.021203",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Oregon_Country",
+              "title": "Oregon Country - Wikipedia",
+              "snippet": "Oregon Country was a large region of the Pacific Northwest of North America that was subject to a long dispute between the United Kingdom and the United States in the early 19th century.",
+              "metadata": {
+                "search_query": "Who did the us share the oregon country with?"
+              },
+              "retrieved_at": "2026-10-16T21:35:45.021159",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Oregon_Treaty",
+              "title": "Oregon Treaty - Wikipedia",
+              "snippet": "The Oregon Treaty[a] between the United Kingdom and the United States was signed on June 15, 1846, in Washington, D.C. The treaty brought an end to the Oregon boundary dispute by settling competing American and British claims to the Oregon Country through partition. The area had been jointly occupied by both Britain and the U.S. since the Treaty of 1818. [1]",
+              "metadata": {
+                "search_query": "Who did the us share the oregon country with?"
+              },
+              "retrieved_at": "2026-10-16T21:35:45.021203",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.britannica.com/place/Oregon-Country",
+              "title": "Oregon Country | historical region, Canada-United States | Britannica",
+              "snippet": "Other articles where Oregon Country is discussed: Hudson's Bay Company: …the fur trade of the Oregon Country (present Oregon, Washington, Idaho, British Columbia, and parts of Montana and Wyoming). Increasing American immigration, starting in 1834 and continuing into the next decade, diminished the company's influence in the southern part of the Oregon Country, and in 1846 the Oregon ...",
+              "metadata": {
+                "search_query": "Who did the us share the oregon country with?"
+              },
+              "retrieved_at": "2026-10-16T21:35:45.021219",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.u-s-history.com/pages/h1029.html",
+              "title": "The Oregon Treaty - U-S-History.com",
+              "snippet": "The Oregon Treaty A long history of dispute characterized the ownership of the Oregon Territory, which included present-day Oregon, Washington, Idaho, and portions of Montana, Wyoming, and British Columbia. Spain and Russia had surrendered their claims to the region, but the United States and Britain were active claimants in the 19th century's early years. The matter's resolution was delayed ...",
+              "metadata": {
+                "search_query": "Who did the us share the oregon country with?"
+              },
+              "retrieved_at": "2026-10-16T21:35:45.021233",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.mikegravel.org/who-did-the-us-jointly-own-oregon-with/",
+              "title": "Who did the US jointly own Oregon with? - Mike Gravel",
+              "snippet": "Who did the US jointly own Oregon with? Unraveling the Oregon Question The United States and Great Britain jointly owned the Oregon Country, a vast territory west of the Rocky Mountains, from 1818 until 1846. This agreement, known as joint occupation, temporarily resolved conflicting claims over the region before a final resolution was reached. Background to the Oregon Question The story of ...",
+              "metadata": {
+                "search_query": "Who did the us share the oregon country with?"
+              },
+              "retrieved_at": "2026-10-16T21:35:45.021247",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Oregon Country - Wikipedia: Oregon Country was a large region of the Pacific Northwest of North America that was subject to a long dispute between the United Kingdom and the United States in the early 19th century.\n\nOregon Treaty - Wikipedia: The Oregon Treaty[a] between the United Kingdom and the United States was signed on June 15, 1846, in Washington, D.C. The treaty brought an end to the Oregon boundary dispute by settling competing American and British claims to the Oregon Country through partition. The area had been jointly occupied by both Britain and the U.S. since the Treaty of 1818. [1]\n\nOregon Country | historical region, Canada-United States | Britannica: Other articles where Oregon Country is discussed: Hudson's Bay Company: …the fur trade of the Oregon Country (present Oregon, Washington, Idaho, British Columbia, and parts of Montana and Wyoming). Increasing American immigration, starting in 1834 and continuing into the next decade, diminished the company's influence in the southern part of the Oregon Country, and in 1846 the Oregon ...\n\nThe Oregon Treaty - U-S-History.com: The Oregon Treaty A long history of dispute characterized the ownership of the Oregon Territory, which included present-day Oregon, Washington, Idaho, and portions of Montana, Wyoming, and British Columbia. Spain and Russia had surrendered their claims to the region, but the United States and Britain were active claimants in the 19th century's early years. The matter's resolution was delayed ...\n\nWho did the US jointly own Oregon with? - Mike Gravel: Who did the US jointly own Oregon with? Unraveling the Oregon Question The United States and Great Britain jointly owned the Oregon Country, a vast territory west of the Rocky Mountains, from 1818 until 1846. This agreement, known as joint occupation, temporarily resolved conflicting claims over the region before a final resolution was reached. Background to the Oregon Question The story of ...",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:35:45.021877"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who did the us share the oregon country with?",
+          "answer": "Based on 5 sources:\n- Oregon: the Western United States, with the Columbia River delineating much of Oregon's northern boundary with Washington, while the Snake River delineates much\n\nUnited States: The United States of America (USA), also known as the United States (U\n- ) or America, is a country primarily located in North America\n- It is a federal\n\nReactions to the 2026 Iran war: Most countries did not take a definitive side in the conflict, but more countries opposed the US-Israeli attacks than supported them\n- Some US allies\n\nCapital punishment in the United States: In the United States, capital punishment (also known as the death penalty) is a legal penalty in 27 states (of which two, Oregon and Wyoming, have no\n\nU\n- Bancorp to Buy California Bancshares: Mergers: Drop in Oregon bank's share price",
+          "claims": [
+            {
+              "id": "4154ed26",
+              "text": "Oregon: the Western United States, with the Columbia River delineating much of Oregon's northern boundary with Washington, while the Snake River delineates much\n\nUnited States: The United States of America (USA), also known as the United States (U",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=26811621",
+                "title": "Oregon",
+                "snippet": "the Western United States, with the Columbia River delineating much of Oregon's northern boundary with Washington, while the Snake River delineates much",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:49.253259",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "083669fc",
+              "text": ") or America, is a country primarily located in North America",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=82535697",
+                "title": "Reactions to the 2026 Iran war",
+                "snippet": "Most countries did not take a definitive side in the conflict, but more countries opposed the US-Israeli attacks than supported them. Some US allies",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:49.253310",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "841d6b53",
+              "text": "It is a federal\n\nReactions to the 2026 Iran war: Most countries did not take a definitive side in the conflict, but more countries opposed the US-Israeli attacks than supported them",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=412425",
+                "title": "Capital punishment in the United States",
+                "snippet": "In the United States, capital punishment (also known as the death penalty) is a legal penalty in 27 states (of which two, Oregon and Wyoming, have no",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:49.253321",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "00212cd2",
+              "text": "Some US allies\n\nCapital punishment in the United States: In the United States, capital punishment (also known as the death penalty) is a legal penalty in 27 states (of which two, Oregon and Wyoming, have no\n\nU",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=523002",
+                "title": "U.S. Bancorp",
+                "snippet": "Buys U.S. Bank Branches\". The Spokesman-Review. December 5, 1995. \"U.S. Bancorp to Buy California Bancshares: Mergers: Drop in Oregon bank's share price",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:49.253345",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "29e45c59",
+              "text": "Bancorp to Buy California Bancshares: Mergers: Drop in Oregon bank's share price",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=412425",
+                "title": "Capital punishment in the United States",
+                "snippet": "In the United States, capital punishment (also known as the death penalty) is a legal penalty in 27 states (of which two, Oregon and Wyoming, have no",
+                "metadata": {
+                  "search_query": "Who did the us share the oregon country with?"
+                },
+                "retrieved_at": "2026-10-16T21:35:49.253321",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=26811621",
+              "title": "Oregon",
+              "snippet": "the Western United States, with the Columbia River delineating much of Oregon's northern boundary with Washington, while the Snake River delineates much",
+              "metadata": {
+                "search_query": "Who did the us share the oregon country with?"
+              },
+              "retrieved_at": "2026-10-16T21:35:49.253259",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=3434750",
+              "title": "United States",
+              "snippet": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal",
+              "metadata": {
+                "search_query": "Who did the us share the oregon country with?"
+              },
+              "retrieved_at": "2026-10-16T21:35:49.253298",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=82535697",
+              "title": "Reactions to the 2026 Iran war",
+              "snippet": "Most countries did not take a definitive side in the conflict, but more countries opposed the US-Israeli attacks than supported them. Some US allies",
+              "metadata": {
+                "search_query": "Who did the us share the oregon country with?"
+              },
+              "retrieved_at": "2026-10-16T21:35:49.253310",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=412425",
+              "title": "Capital punishment in the United States",
+              "snippet": "In the United States, capital punishment (also known as the death penalty) is a legal penalty in 27 states (of which two, Oregon and Wyoming, have no",
+              "metadata": {
+                "search_query": "Who did the us share the oregon country with?"
+              },
+              "retrieved_at": "2026-10-16T21:35:49.253321",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=523002",
+              "title": "U.S. Bancorp",
+              "snippet": "Buys U.S. Bank Branches\". The Spokesman-Review. December 5, 1995. \"U.S. Bancorp to Buy California Bancshares: Mergers: Drop in Oregon bank's share price",
+              "metadata": {
+                "search_query": "Who did the us share the oregon country with?"
+              },
+              "retrieved_at": "2026-10-16T21:35:49.253345",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Oregon: the Western United States, with the Columbia River delineating much of Oregon's northern boundary with Washington, while the Snake River delineates much\n\nUnited States: The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal\n\nReactions to the 2026 Iran war: Most countries did not take a definitive side in the conflict, but more countries opposed the US-Israeli attacks than supported them. Some US allies\n\nCapital punishment in the United States: In the United States, capital punishment (also known as the death penalty) is a legal penalty in 27 states (of which two, Oregon and Wyoming, have no\n\nU.S. Bancorp: Buys U.S. Bank Branches\". The Spokesman-Review. December 5, 1995. \"U.S. Bancorp to Buy California Bancshares: Mergers: Drop in Oregon bank's share price",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:35:49.253591"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who did the us share the oregon country with?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:35:49.254275"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who did the us share the oregon country with?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The United States shared Oregon Country with Great Britain (the United Kingdom).",
+          "source": {
+            "url": "https://www.mikegravel.org/who-did-the-us-jointly-own-oregon-with/",
+            "title": "Who did the US jointly own Oregon with? - Mike Gravel",
+            "snippet": "Who did the US jointly own Oregon with? Unraveling the Oregon Question The United States and Great Britain jointly owned the Oregon Country, a vast territory west of the Rocky Mountains, from 1818 until 1846. This agreement, known as joint occupation, temporarily resolved conflicting claims over the region before a final resolution was reached. Background to the Oregon Question The story of ...",
+            "metadata": {
+              "search_query": "Who did the us share the oregon country with?"
+            },
+            "retrieved_at": "2026-10-16T21:35:49.254750",
+            "credibility_score": null
+          },
+          "date": "1818",
+          "version": "null",
+          "scope": "null"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Oregon_Country",
+          "title": "Oregon Country - Wikipedia",
+          "snippet": "Oregon Country was a large region of the Pacific Northwest of North America that was subject to a long dispute between the United Kingdom and the United States in the early 19th century.",
+          "metadata": {
+            "search_query": "Who did the us share the oregon country with?"
+          },
+          "retrieved_at": "2026-10-16T21:35:49.254715",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Oregon_Treaty",
+          "title": "Oregon Treaty - Wikipedia",
+          "snippet": "The Oregon Treaty[a] between the United Kingdom and the United States was signed on June 15, 1846, in Washington, D.C. The treaty brought an end to the Oregon boundary dispute by settling competing American and British claims to the Oregon Country through partition. The area had been jointly occupied by both Britain and the U.S. since the Treaty of 1818. [1]",
+          "metadata": {
+            "search_query": "Who did the us share the oregon country with?"
+          },
+          "retrieved_at": "2026-10-16T21:35:49.254729",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.britannica.com/place/Oregon-Country",
+          "title": "Oregon Country | historical region, Canada-United States | Britannica",
+          "snippet": "Other articles where Oregon Country is discussed: Hudson's Bay Company: …the fur trade of the Oregon Country (present Oregon, Washington, Idaho, British Columbia, and parts of Montana and Wyoming). Increasing American immigration, starting in 1834 and continuing into the next decade, diminished the company's influence in the southern part of the Oregon Country, and in 1846 the Oregon ...",
+          "metadata": {
+            "search_query": "Who did the us share the oregon country with?"
+          },
+          "retrieved_at": "2026-10-16T21:35:49.254737",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.u-s-history.com/pages/h1029.html",
+          "title": "The Oregon Treaty - U-S-History.com",
+          "snippet": "The Oregon Treaty A long history of dispute characterized the ownership of the Oregon Territory, which included present-day Oregon, Washington, Idaho, and portions of Montana, Wyoming, and British Columbia. Spain and Russia had surrendered their claims to the region, but the United States and Britain were active claimants in the 19th century's early years. The matter's resolution was delayed ...",
+          "metadata": {
+            "search_query": "Who did the us share the oregon country with?"
+          },
+          "retrieved_at": "2026-10-16T21:35:49.254743",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.mikegravel.org/who-did-the-us-jointly-own-oregon-with/",
+          "title": "Who did the US jointly own Oregon with? - Mike Gravel",
+          "snippet": "Who did the US jointly own Oregon with? Unraveling the Oregon Question The United States and Great Britain jointly owned the Oregon Country, a vast territory west of the Rocky Mountains, from 1818 until 1846. This agreement, known as joint occupation, temporarily resolved conflicting claims over the region before a final resolution was reached. Background to the Oregon Question The story of ...",
+          "metadata": {
+            "search_query": "Who did the us share the oregon country with?"
+          },
+          "retrieved_at": "2026-10-16T21:35:49.254750",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:36:24.076774"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who did the us share the oregon country with?",
+      "status": "no_relevant_results",
+      "failure_reason": "LLM determined snippets do not answer the query",
+      "claims": [],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=26811621",
+          "title": "Oregon",
+          "snippet": "the Western United States, with the Columbia River delineating much of Oregon's northern boundary with Washington, while the Snake River delineates much",
+          "metadata": {
+            "search_query": "Who did the us share the oregon country with?"
+          },
+          "retrieved_at": "2026-10-16T21:36:24.077029",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=3434750",
+          "title": "United States",
+          "snippet": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal",
+          "metadata": {
+            "search_query": "Who did the us share the oregon country with?"
+          },
+          "retrieved_at": "2026-10-16T21:36:24.077040",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=82535697",
+          "title": "Reactions to the 2026 Iran war",
+          "snippet": "Most countries did not take a definitive side in the conflict, but more countries opposed the US-Israeli attacks than supported them. Some US allies",
+          "metadata": {
+            "search_query": "Who did the us share the oregon country with?"
+          },
+          "retrieved_at": "2026-10-16T21:36:24.077047",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=412425",
+          "title": "Capital punishment in the United States",
+          "snippet": "In the United States, capital punishment (also known as the death penalty) is a legal penalty in 27 states (of which two, Oregon and Wyoming, have no",
+          "metadata": {
+            "search_query": "Who did the us share the oregon country with?"
+          },
+          "retrieved_at": "2026-10-16T21:36:24.077053",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=523002",
+          "title": "U.S. Bancorp",
+          "snippet": "Buys U.S. Bank Branches\". The Spokesman-Review. December 5, 1995. \"U.S. Bancorp to Buy California Bancshares: Mergers: Drop in Oregon bank's share price",
+          "metadata": {
+            "search_query": "Who did the us share the oregon country with?"
+          },
+          "retrieved_at": "2026-10-16T21:36:24.077059",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:36:35.257738"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who did the us share the oregon country with?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The US shared Oregon Country with Great Britain (British North America/Canada). The joint occupation ended with the Oregon Treaty of 1846 dividing the territory along the 49th parallel.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "The US shared Oregon Country with Great Britain (British North America/Canada). The joint occupation ended with the Oregon Treaty of 1846 dividing the territory along the 49th parallel.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:35:53.106450",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The US shared Oregon Country with Great Britain (British North America/Canada). The joint occupation ended with the Oregon Treaty of 1846 dividing the territory along the 49th parallel.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:35:53.106450",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "The US shared Oregon Country with Great Britain (British North America/Canada). The joint occupation ended with the Oregon Treaty of 1846 dividing the territory along the 49th parallel."
+      },
+      "retrieved_at": "2026-10-16T21:35:53.106518"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The United States shared Oregon Country with Great Britain (the United Kingdom).",
+        "claim_b_text": "The US shared Oregon Country with Great Britain (British North America/Canada). The joint occupation ended with the Oregon Treaty of 1846 dividing the territory along the 49th parallel.",
+        "label": "neutral",
+        "contradiction_score": 0.5417508482933044,
+        "entailment_score": 0.003928803373128176,
+        "neutral_score": 0.9518232941627502
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "reference_agent",
+        "reason": "LLM determined snippets do not answer the query"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "The United States shared Oregon Country with Great Britain (the United Kingdom).",
+        "source": {
+          "url": "https://www.mikegravel.org/who-did-the-us-jointly-own-oregon-with/",
+          "title": "Who did the US jointly own Oregon with? - Mike Gravel",
+          "snippet": "Who did the US jointly own Oregon with? Unraveling the Oregon Question The United States and Great Britain jointly owned the Oregon Country, a vast territory west of the Rocky Mountains, from 1818 until 1846. This agreement, known as joint occupation, temporarily resolved conflicting claims over the region before a final resolution was reached. Background to the Oregon Question The story of ...",
+          "metadata": {
+            "search_query": "Who did the us share the oregon country with?"
+          },
+          "retrieved_at": "2026-10-16T21:35:49.254750",
+          "credibility_score": null
+        },
+        "date": "1818",
+        "version": "null",
+        "scope": "null"
+      },
+      "claim_b": {
+        "text": "The US shared Oregon Country with Great Britain (British North America/Canada). The joint occupation ended with the Oregon Treaty of 1846 dividing the territory along the 49th parallel.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The US shared Oregon Country with Great Britain (British North America/Canada). The joint occupation ended with the Oregon Treaty of 1846 dividing the territory along the 49th parallel.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:35:53.106450",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.5417508482933044
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.5417508482933044,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "51ac4c8c",
+    "type": "unknown",
+    "confidence": 0.5,
+    "explanation": "Standard MAD always debates (no gate) — generic strategy",
+    "claim_a": {
+      "text": "The United States shared Oregon Country with Great Britain (the United Kingdom).",
+      "source": {
+        "url": "https://www.mikegravel.org/who-did-the-us-jointly-own-oregon-with/",
+        "title": "Who did the US jointly own Oregon with? - Mike Gravel",
+        "snippet": "Who did the US jointly own Oregon with? Unraveling the Oregon Question The United States and Great Britain jointly owned the Oregon Country, a vast territory west of the Rocky Mountains, from 1818 until 1846. This agreement, known as joint occupation, temporarily resolved conflicting claims over the region before a final resolution was reached. Background to the Oregon Question The story of ...",
+        "metadata": {
+          "search_query": "Who did the us share the oregon country with?"
+        },
+        "retrieved_at": "2026-10-16T21:35:49.254750",
+        "credibility_score": null
+      },
+      "date": "1818",
+      "version": "null",
+      "scope": "null"
+    },
+    "claim_b": {
+      "text": "The US shared Oregon Country with Great Britain (British North America/Canada). The joint occupation ended with the Oregon Treaty of 1846 dividing the territory along the 49th parallel.",
+      "source": {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The US shared Oregon Country with Great Britain (British North America/Canada). The joint occupation ended with the Oregon Treaty of 1846 dividing the territory along the 49th parallel.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:35:53.106450",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "forced": true
+    },
+    "detected_at": "2026-10-16T21:36:37.466047"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": {
+        "id": "db97d92f",
+        "round_number": 1,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nClaim B is the more accurate position due to greater specificity and historical precision.\n\nEVIDENCE REVIEW\nClaim A: States the US shared Oregon Country with Great Britain (the United Kingdom), which is generally correct but lacks administrative and treaty context.\nClaim B: States the US shared Oregon Country with Great Britain (British North America/Canada), and correctly notes the joint occupation ended with the Oregon Treaty of 1846 dividing the territory along the 49th parallel, which provides more complete and specific historical information.\n\nREASONING\nThe core issue involves identifying the precise administrative entity with which the US shared Oregon Country and understanding the territorial resolution. Claim B is superior because it specifies British North America (the colonial administration) rather than the generic term \"Great Britain,\" and it includes the critical detail about the 1846 treaty and the 49th parallel boundary division, which represents the definitive resolution of the joint occupation.\n\nSOURCE BASIS\nBoth claims derive their evidence from historical knowledge of North American territorial claims and treaties. Claim B incorporates the additional detail about the Oregon Treaty of 1846 and the 49th parallel division, which provides more comprehensive historical context.\n\nCONCLUSION\nClaim B represents the stronger position as it offers greater specificity about the administrative entity (British North America) and includes the crucial treaty information that formally resolved the joint occupation along the 49th parallel.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "unknown",
+        "strategy_used": "unknown",
+        "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+        "created_at": "2026-10-16T21:36:52.973289"
+      },
+      "critic_arguments": [
+        {
+          "id": "7507035b",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nClaim A uses the generic term \"Great Britain (the United Kingdom)\" rather than specifying British North America as the administrative entity governing the territory during joint occupation, which obscures the specific colonial administration involved.\n\nWHY IT MATTERS\nHistorical precision requires identifying the actual governing authority in the region. \"Great Britain\" refers to the British state, but the territory was administered through British North American colonial governments (initially the Hudson's Bay Company and later the Province of Canada). This distinction is crucial for understanding how the joint occupation functioned in practice.\n\nIMPROVEMENT\nChange Claim A to: \"The United States shared Oregon Country with British North America (the British colonial administration in Canada), which was jointly occupied from 1818 until the Oregon Treaty of 1846.\"",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique_no_objection",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:37:14.683393"
+        },
+        {
+          "id": "839df8e6",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nClaim B lacks context explaining why the joint occupation ended in 1846, specifically the diplomatic pressures and mutual interests that motivated both the US and Britain to negotiate the treaty rather than continue the status quo.\n\nWHY IT MATTERS\nWithout explaining the political and economic factors behind the treaty's negotiation, readers may not understand why the joint occupation—relatively stable for nearly three decades—ended when it did. The \"why\" is as important as the \"what\" in historical narratives.\n\nIMPROVEMENT\nAdd to Claim B: \"The US shared Oregon Country with British North America (the British colonial administration in Canada), which was jointly occupied from 1818 until the Oregon Treaty of 1846. The treaty was negotiated due to increasing American settler pressure for annexation, British focus on other imperial priorities, and diplomatic efforts to avoid potential conflict, dividing the territory along the 49th parallel.\"",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:37:14.683434"
+        }
+      ],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T21:36:37.466241",
+      "completed_at": "2026-10-16T21:37:14.683456"
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": {
+          "id": "db97d92f",
+          "round_number": 1,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nClaim B is the more accurate position due to greater specificity and historical precision.\n\nEVIDENCE REVIEW\nClaim A: States the US shared Oregon Country with Great Britain (the United Kingdom), which is generally correct but lacks administrative and treaty context.\nClaim B: States the US shared Oregon Country with Great Britain (British North America/Canada), and correctly notes the joint occupation ended with the Oregon Treaty of 1846 dividing the territory along the 49th parallel, which provides more complete and specific historical information.\n\nREASONING\nThe core issue involves identifying the precise administrative entity with which the US shared Oregon Country and understanding the territorial resolution. Claim B is superior because it specifies British North America (the colonial administration) rather than the generic term \"Great Britain,\" and it includes the critical detail about the 1846 treaty and the 49th parallel boundary division, which represents the definitive resolution of the joint occupation.\n\nSOURCE BASIS\nBoth claims derive their evidence from historical knowledge of North American territorial claims and treaties. Claim B incorporates the additional detail about the Oregon Treaty of 1846 and the 49th parallel division, which provides more comprehensive historical context.\n\nCONCLUSION\nClaim B represents the stronger position as it offers greater specificity about the administrative entity (British North America) and includes the crucial treaty information that formally resolved the joint occupation along the 49th parallel.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "unknown",
+          "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+          "created_at": "2026-10-16T21:36:52.973289"
+        },
+        "critic_arguments": [
+          {
+            "id": "7507035b",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nClaim A uses the generic term \"Great Britain (the United Kingdom)\" rather than specifying British North America as the administrative entity governing the territory during joint occupation, which obscures the specific colonial administration involved.\n\nWHY IT MATTERS\nHistorical precision requires identifying the actual governing authority in the region. \"Great Britain\" refers to the British state, but the territory was administered through British North American colonial governments (initially the Hudson's Bay Company and later the Province of Canada). This distinction is crucial for understanding how the joint occupation functioned in practice.\n\nIMPROVEMENT\nChange Claim A to: \"The United States shared Oregon Country with British North America (the British colonial administration in Canada), which was jointly occupied from 1818 until the Oregon Treaty of 1846.\"",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique_no_objection",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:37:14.683393"
+          },
+          {
+            "id": "839df8e6",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nClaim B lacks context explaining why the joint occupation ended in 1846, specifically the diplomatic pressures and mutual interests that motivated both the US and Britain to negotiate the treaty rather than continue the status quo.\n\nWHY IT MATTERS\nWithout explaining the political and economic factors behind the treaty's negotiation, readers may not understand why the joint occupation—relatively stable for nearly three decades—ended when it did. The \"why\" is as important as the \"what\" in historical narratives.\n\nIMPROVEMENT\nAdd to Claim B: \"The US shared Oregon Country with British North America (the British colonial administration in Canada), which was jointly occupied from 1818 until the Oregon Treaty of 1846. The treaty was negotiated due to increasing American settler pressure for annexation, British focus on other imperial priorities, and diplomatic efforts to avoid potential conflict, dividing the territory along the 49th parallel.\"",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:37:14.683434"
+          }
+        ],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T21:36:37.466241",
+        "completed_at": "2026-10-16T21:37:14.683456"
+      }
+    ],
+    "status": "completed",
+    "stop_reason": "no_objection",
+    "failed_stages": [],
+    "rounds_used": 1
+  },
+  "judge_result": {
+    "winner": "candidate_2",
+    "reason": "Claim B provides greater historical completeness, specifying British North America as the administrative entity and including the crucial Oregon Treaty of 1846 that resolved the joint occupation along the 49th parallel, making it more accurate and informative than Claim A's generic statement.",
+    "evidence_score": 0.9,
+    "reasoning_score": 0.8,
+    "source_score": 0.6,
+    "confidence": 0.85,
+    "scores": {
+      "candidate_1": 0.9,
+      "candidate_2": 0.8
+    },
+    "evaluated_at": "2026-10-16T21:37:43.226872"
+  },
+  "final_answer": {
+    "query": "Who did the us share the oregon country with?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [web_agent]: The United States shared Oregon Country with Great Britain (the United Kingdom).\n- [ai_answer_agent]: The US shared Oregon Country with Great Britain (British North America/Canada). The joint occupation ended with the Oregon Treaty of 1846 dividing the territory along the 49th parallel.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Oregon_Country",
+        "title": "Oregon Country - Wikipedia",
+        "snippet": "Oregon Country was a large region of the Pacific Northwest of North America that was subject to a long dispute between the United Kingdom and the United States in the early 19th century.",
+        "metadata": {
+          "search_query": "Who did the us share the oregon country with?"
+        },
+        "retrieved_at": "2026-10-16T21:35:49.254715",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Oregon_Treaty",
+        "title": "Oregon Treaty - Wikipedia",
+        "snippet": "The Oregon Treaty[a] between the United Kingdom and the United States was signed on June 15, 1846, in Washington, D.C. The treaty brought an end to the Oregon boundary dispute by settling competing American and British claims to the Oregon Country through partition. The area had been jointly occupied by both Britain and the U.S. since the Treaty of 1818. [1]",
+        "metadata": {
+          "search_query": "Who did the us share the oregon country with?"
+        },
+        "retrieved_at": "2026-10-16T21:35:49.254729",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.britannica.com/place/Oregon-Country",
+        "title": "Oregon Country | historical region, Canada-United States | Britannica",
+        "snippet": "Other articles where Oregon Country is discussed: Hudson's Bay Company: …the fur trade of the Oregon Country (present Oregon, Washington, Idaho, British Columbia, and parts of Montana and Wyoming). Increasing American immigration, starting in 1834 and continuing into the next decade, diminished the company's influence in the southern part of the Oregon Country, and in 1846 the Oregon ...",
+        "metadata": {
+          "search_query": "Who did the us share the oregon country with?"
+        },
+        "retrieved_at": "2026-10-16T21:35:49.254737",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.u-s-history.com/pages/h1029.html",
+        "title": "The Oregon Treaty - U-S-History.com",
+        "snippet": "The Oregon Treaty A long history of dispute characterized the ownership of the Oregon Territory, which included present-day Oregon, Washington, Idaho, and portions of Montana, Wyoming, and British Columbia. Spain and Russia had surrendered their claims to the region, but the United States and Britain were active claimants in the 19th century's early years. The matter's resolution was delayed ...",
+        "metadata": {
+          "search_query": "Who did the us share the oregon country with?"
+        },
+        "retrieved_at": "2026-10-16T21:35:49.254743",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.mikegravel.org/who-did-the-us-jointly-own-oregon-with/",
+        "title": "Who did the US jointly own Oregon with? - Mike Gravel",
+        "snippet": "Who did the US jointly own Oregon with? Unraveling the Oregon Question The United States and Great Britain jointly owned the Oregon Country, a vast territory west of the Rocky Mountains, from 1818 until 1846. This agreement, known as joint occupation, temporarily resolved conflicting claims over the region before a final resolution was reached. Background to the Oregon Question The story of ...",
+        "metadata": {
+          "search_query": "Who did the us share the oregon country with?"
+        },
+        "retrieved_at": "2026-10-16T21:35:49.254750",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The US shared Oregon Country with Great Britain (British North America/Canada). The joint occupation ended with the Oregon Treaty of 1846 dividing the territory along the 49th parallel.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:35:53.106450",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 6,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T21:36:37.465725"
+  },
+  "metrics": {
+    "latency_seconds": 54.776872873306274,
+    "evidence_state": "uncertain",
+    "debate_triggered": true,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 6,
+    "system": "standard_mad"
+  },
+  "started_at": "2026-10-16T21:35:42.688841",
+  "completed_at": "2026-10-16T21:36:37.465771",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0028",
+    "query": "Who did the us share the oregon country with?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "British",
+    "required_facts": [
+      "British"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 37,
+      "answer_variants": [
+        "British",
+        "England"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 1and 2 and 4",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.washington.edu",
+          "text": "In 1840 there were about 150 Americans residing in the Oregon Country. ... Britain and the U.S., agreed to share it for an indefinite time—the so-called ...",
+          "supports_answers": [
+            "British"
+          ]
+        },
+        {
+          "source_domain": "smithsonianeducation.org",
+          "text": "However, by the mid-1820s, only the American and British claims endured. ... As with Texas, popular opinion over the Oregon Country was divided.",
+          "supports_answers": [
+            "British"
+          ]
+        },
+        {
+          "source_domain": "www.whitehouse.gov",
+          "text": "Serving under President Monroe, Adams was one of America's great Secretaries of State, arranging with England for the joint occupation of the Oregon country ...",
+          "supports_answers": [
+            "England"
+          ]
+        },
+        {
+          "source_domain": "www.thecanadianencyclopedia.ca",
+          "text": "Jul 23, 2021 ... The British were also disinclined to fight a war with the United States over this territory, so they agreed to the terms of the Oregon Treaty. ( ...",
+          "supports_answers": [
+            "British"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The Territory of Oregon was an organized incorporated territory of the United States that existed from August 14, 1848, until February 14, 1859, when the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nps.gov",
+          "text": "Aug 6, 2022 ... Its capital city was located in Oregon City, not far from Portland. This vast, new territory had a sparse population of American settlers; ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "Meanwhile, in the Oregon Territory, federal authorities were trying to force the Nez Percé, one of the largest and most powerful tribes in the Pacific Northwest ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "standard_mad",
+  "evaluation_seconds": 120.555,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

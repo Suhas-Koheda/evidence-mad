@@ -1,0 +1,145 @@
+{
+  "query": "Who was elected president in mexico in 2000?",
+  "trace_id": "113eb883-330a-459a-afca-4df9fcfd9b9d",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who was elected president in mexico in 2000?",
+    "answer": "Vicente Fox",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-17T00:11:43.912487"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 18.754233598709106,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-17T00:11:25.158352",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0092",
+    "query": "Who was elected president in mexico in 2000?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Vicente Fox",
+    "required_facts": [
+      "Vicente Fox"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 116,
+      "answer_variants": [
+        "Vicente Fox"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 2,3,4,5 and 7",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nytimes.com",
+          "text": "(July 4, 2000) Swept to power by younger, better-educated voters fed up with corruption and one-party rule, President-elect Vicente Fox Quesada began the ...",
+          "supports_answers": [
+            "Vicente Fox"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Vicente Fox Quesada GCMG CYC is a Mexican businessman and politician who served as the 62nd president of Mexico from 1 December 2000 to 30 November 2006.",
+          "supports_answers": [
+            "Vicente Fox"
+          ]
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "Jun 28, 2023 ... Vicente Fox, in full Vicente Fox Quesada, (born July 2, 1942, Mexico City, Mexico), Mexican businessman and politician who was president of ...",
+          "supports_answers": [
+            "Vicente Fox"
+          ]
+        },
+        {
+          "source_domain": "www.theguardian.com",
+          "text": "Jul 3, 2000 ... Vicente Fox, a tough-talking former Coca-Cola executive, shattered the governing party's 71-year hold on the Mexican presidency in a ...",
+          "supports_answers": [
+            "Vicente Fox"
+          ]
+        },
+        {
+          "source_domain": "www.latimes.com",
+          "text": "Jul 3, 2000 ... Voters in Mexico ousted the world's longest-ruling faction, the Institutional Revolutionary Party, on Sunday, handing the presidency to ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.sup.org",
+          "text": "The 2000 Mexican presidential race culminated in the election of opposition candidate Vicente Fox and the end of seven decades of one-party rule.",
+          "supports_answers": [
+            "Vicente Fox"
+          ]
+        },
+        {
+          "source_domain": "carnegieendowment.org",
+          "text": "Feb 17, 2021 ... In 2018, Mexico elected a leftist president for the first time since the country transitioned from authoritarian rule to democracy in 2000.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.economist.com",
+          "text": "May 23, 2023 ... Mexican President Andres Manuel Lopez Obrador (L) listens to Mexico City ... a centre-right party that ruled Mexico for 71 years until 2000.",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 18.77,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

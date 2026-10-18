@@ -1,0 +1,984 @@
+{
+  "query": "Who played bubba in the heat of the night?",
+  "trace_id": "68ace03b-b413-435f-8a16-a01660d1b25f",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who played bubba in the heat of the night?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-17T00:31:19.674077"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who played bubba in the heat of the night?",
+          "answer": "Based on 5 sources:\n- List of In the Heat of the Night episodes: This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995\n- March\n\nIn the Heat of the Night (TV series): In the Heat of the Night is an American police procedural crime drama television broadcast 1988 to 1995, starring Carroll O'Connor and Howard Rollins\n- Bubba: and film of the same name Bubba J, a puppet of ventriloquist Jeff Dunham Bubba Ritter, played by Larry Drake in the movie Dark Night of the Scarecrow\n\nAlan Autry: career in the National Football League, he played as a quarterback and was known as Carlos Brown\n- Autry played the role of Captain Bubba Skinner on the NBC\n\nSurvivor Series (2000): Radicalz in a Survivor Series match\n- On the Sunday Night Heat before Survivor Series, WWF European Champion William Regal attempted to cut a promo to the crowd",
+          "claims": [
+            {
+              "id": "c7e79c0c",
+              "text": "List of In the Heat of the Night episodes: This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=5545060",
+                "title": "List of In the Heat of the Night episodes",
+                "snippet": "This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995. \"Nielsen ratings\". Life. USA Today. March",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.673689",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "7d0b3196",
+              "text": "March\n\nIn the Heat of the Night (TV series): In the Heat of the Night is an American police procedural crime drama television broadcast 1988 to 1995, starring Carroll O'Connor and Howard Rollins",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=5943211",
+                "title": "Survivor Series (2000)",
+                "snippet": "Radicalz in a Survivor Series match. On the Sunday Night Heat before Survivor Series, WWF European Champion William Regal attempted to cut a promo to the crowd",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.673726",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "cedb5e31",
+              "text": "Bubba: and film of the same name Bubba J, a puppet of ventriloquist Jeff Dunham Bubba Ritter, played by Larry Drake in the movie Dark Night of the Scarecrow\n\nAlan Autry: career in the National Football League, he played as a quarterback and was known as Carlos Brown",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=5545060",
+                "title": "List of In the Heat of the Night episodes",
+                "snippet": "This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995. \"Nielsen ratings\". Life. USA Today. March",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.673689",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2c6f2c21",
+              "text": "Autry played the role of Captain Bubba Skinner on the NBC\n\nSurvivor Series (2000): Radicalz in a Survivor Series match",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=98510",
+                "title": "In the Heat of the Night (TV series)",
+                "snippet": "In the Heat of the Night is an American police procedural crime drama television broadcast 1988 to 1995, starring Carroll O'Connor and Howard Rollins.",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.673705",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "383bdd8e",
+              "text": "On the Sunday Night Heat before Survivor Series, WWF European Champion William Regal attempted to cut a promo to the crowd",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=2090541",
+                "title": "Bubba",
+                "snippet": "and film of the same name Bubba J, a puppet of ventriloquist Jeff Dunham Bubba Ritter, played by Larry Drake in the movie Dark Night of the Scarecrow",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.673713",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=5545060",
+              "title": "List of In the Heat of the Night episodes",
+              "snippet": "This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995. \"Nielsen ratings\". Life. USA Today. March",
+              "metadata": {
+                "search_query": "Who played bubba in the heat of the night?"
+              },
+              "retrieved_at": "2026-10-17T00:31:19.673689",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=98510",
+              "title": "In the Heat of the Night (TV series)",
+              "snippet": "In the Heat of the Night is an American police procedural crime drama television broadcast 1988 to 1995, starring Carroll O'Connor and Howard Rollins.",
+              "metadata": {
+                "search_query": "Who played bubba in the heat of the night?"
+              },
+              "retrieved_at": "2026-10-17T00:31:19.673705",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=2090541",
+              "title": "Bubba",
+              "snippet": "and film of the same name Bubba J, a puppet of ventriloquist Jeff Dunham Bubba Ritter, played by Larry Drake in the movie Dark Night of the Scarecrow",
+              "metadata": {
+                "search_query": "Who played bubba in the heat of the night?"
+              },
+              "retrieved_at": "2026-10-17T00:31:19.673713",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=617425",
+              "title": "Alan Autry",
+              "snippet": "career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC",
+              "metadata": {
+                "search_query": "Who played bubba in the heat of the night?"
+              },
+              "retrieved_at": "2026-10-17T00:31:19.673719",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=5943211",
+              "title": "Survivor Series (2000)",
+              "snippet": "Radicalz in a Survivor Series match. On the Sunday Night Heat before Survivor Series, WWF European Champion William Regal attempted to cut a promo to the crowd",
+              "metadata": {
+                "search_query": "Who played bubba in the heat of the night?"
+              },
+              "retrieved_at": "2026-10-17T00:31:19.673726",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "List of In the Heat of the Night episodes: This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995. \"Nielsen ratings\". Life. USA Today. March\n\nIn the Heat of the Night (TV series): In the Heat of the Night is an American police procedural crime drama television broadcast 1988 to 1995, starring Carroll O'Connor and Howard Rollins.\n\nBubba: and film of the same name Bubba J, a puppet of ventriloquist Jeff Dunham Bubba Ritter, played by Larry Drake in the movie Dark Night of the Scarecrow\n\nAlan Autry: career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC\n\nSurvivor Series (2000): Radicalz in a Survivor Series match. On the Sunday Night Heat before Survivor Series, WWF European Champion William Regal attempted to cut a promo to the crowd",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-17T00:31:19.673898"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who played bubba in the heat of the night?",
+          "answer": "Based on 5 sources:\n- Alan Autry - Wikipedia: During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown\n- Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor\n- He has also appeared in films and other television shows\n- Alan Autry - IMDb: Alan Autry\n- Actor: In the Heat of the Night",
+          "claims": [
+            {
+              "id": "fe218236",
+              "text": "Alan Autry - Wikipedia: During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Alan_Autry",
+                "title": "Alan Autry - Wikipedia",
+                "snippet": "During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.672841",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9425fea7",
+              "text": "Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor",
+              "source": {
+                "url": "https://www.imdb.com/name/nm0042641/",
+                "title": "Alan Autry - IMDb",
+                "snippet": "Alan Autry. Actor: In the Heat of the Night. Though not Hispanic, Autry's parents named him \"Carlos\" after a Louisiana politician admired by his father. The couple soon divorced, however, and Autry's mother took him to be with her family in central California. Carlos Autry now became Carlos Brown. Autry played sports in high school and earned a scholarship to the University of the Pacific ...",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.672861",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "abb50e1a",
+              "text": "He has also appeared in films and other television shows",
+              "source": {
+                "url": "https://www.biography.com/actor/alan-autry",
+                "title": "Alan Autry: Biography, Actor, Mayor of Fresno, California",
+                "snippet": "Alan Autry is best known for his role as Captain \"Bubba\" Skinner on the TV series In the Heat of the Night. In later life, he was the mayor of Fresno, California.",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.672870",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "856b59ef",
+              "text": "Alan Autry - IMDb: Alan Autry",
+              "source": {
+                "url": "https://alchetron.com/Alan-Autry",
+                "title": "Alan Autry (American Actor) ~ Bio with [ Photos | Videos ]",
+                "snippet": "He played the role of Captain Bubba Skinner on the NBC television series, In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.672878",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "13f98ff3",
+              "text": "Actor: In the Heat of the Night",
+              "source": {
+                "url": "https://www.famousbirthdays.com/people/alan-autry.html",
+                "title": "Alan Autry - Age, Bio, Family | Famous Birthdays",
+                "snippet": "About Known for his work as a football player, actor, and Mayor of Fresno, California. His most well known television role is Captain Bubba Skinner of In the Heat of the Night. Before fame He would plant and harvest cotton alongside his parents while working in the San Joaquin valley. Trivia He served as mayor of Fresno from 2000 to 2009. Family life He met his birth father, Carl Autry, for ...",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.672885",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "bbf3d52b",
+              "text": "Though not Hispanic, Autry's parents named him \"Carlos\" after a Louisiana politician admired by his father",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Alan_Autry",
+                "title": "Alan Autry - Wikipedia",
+                "snippet": "During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.672841",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "326a25ce",
+              "text": "The couple soon divorced, however, and Autry's mother took him to be with her family in central California",
+              "source": {
+                "url": "https://www.imdb.com/name/nm0042641/",
+                "title": "Alan Autry - IMDb",
+                "snippet": "Alan Autry. Actor: In the Heat of the Night. Though not Hispanic, Autry's parents named him \"Carlos\" after a Louisiana politician admired by his father. The couple soon divorced, however, and Autry's mother took him to be with her family in central California. Carlos Autry now became Carlos Brown. Autry played sports in high school and earned a scholarship to the University of the Pacific ...",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.672861",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "19f86056",
+              "text": "Carlos Autry now became Carlos Brown",
+              "source": {
+                "url": "https://www.biography.com/actor/alan-autry",
+                "title": "Alan Autry: Biography, Actor, Mayor of Fresno, California",
+                "snippet": "Alan Autry is best known for his role as Captain \"Bubba\" Skinner on the TV series In the Heat of the Night. In later life, he was the mayor of Fresno, California.",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.672870",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b27c904e",
+              "text": "Autry played sports in high school and earned a scholarship to the University of the Pacific",
+              "source": {
+                "url": "https://alchetron.com/Alan-Autry",
+                "title": "Alan Autry (American Actor) ~ Bio with [ Photos | Videos ]",
+                "snippet": "He played the role of Captain Bubba Skinner on the NBC television series, In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.672878",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "12da8453",
+              "text": "Alan Autry: Biography, Actor, Mayor of Fresno, California: Alan Autry is best known for his role as Captain \"Bubba\" Skinner on the TV series In the Heat of the Night",
+              "source": {
+                "url": "https://www.famousbirthdays.com/people/alan-autry.html",
+                "title": "Alan Autry - Age, Bio, Family | Famous Birthdays",
+                "snippet": "About Known for his work as a football player, actor, and Mayor of Fresno, California. His most well known television role is Captain Bubba Skinner of In the Heat of the Night. Before fame He would plant and harvest cotton alongside his parents while working in the San Joaquin valley. Trivia He served as mayor of Fresno from 2000 to 2009. Family life He met his birth father, Carl Autry, for ...",
+                "metadata": {
+                  "search_query": "Who played bubba in the heat of the night?"
+                },
+                "retrieved_at": "2026-10-17T00:31:19.672885",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Alan_Autry",
+              "title": "Alan Autry - Wikipedia",
+              "snippet": "During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+              "metadata": {
+                "search_query": "Who played bubba in the heat of the night?"
+              },
+              "retrieved_at": "2026-10-17T00:31:19.672841",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.imdb.com/name/nm0042641/",
+              "title": "Alan Autry - IMDb",
+              "snippet": "Alan Autry. Actor: In the Heat of the Night. Though not Hispanic, Autry's parents named him \"Carlos\" after a Louisiana politician admired by his father. The couple soon divorced, however, and Autry's mother took him to be with her family in central California. Carlos Autry now became Carlos Brown. Autry played sports in high school and earned a scholarship to the University of the Pacific ...",
+              "metadata": {
+                "search_query": "Who played bubba in the heat of the night?"
+              },
+              "retrieved_at": "2026-10-17T00:31:19.672861",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.biography.com/actor/alan-autry",
+              "title": "Alan Autry: Biography, Actor, Mayor of Fresno, California",
+              "snippet": "Alan Autry is best known for his role as Captain \"Bubba\" Skinner on the TV series In the Heat of the Night. In later life, he was the mayor of Fresno, California.",
+              "metadata": {
+                "search_query": "Who played bubba in the heat of the night?"
+              },
+              "retrieved_at": "2026-10-17T00:31:19.672870",
+              "credibility_score": null
+            },
+            {
+              "url": "https://alchetron.com/Alan-Autry",
+              "title": "Alan Autry (American Actor) ~ Bio with [ Photos | Videos ]",
+              "snippet": "He played the role of Captain Bubba Skinner on the NBC television series, In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+              "metadata": {
+                "search_query": "Who played bubba in the heat of the night?"
+              },
+              "retrieved_at": "2026-10-17T00:31:19.672878",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.famousbirthdays.com/people/alan-autry.html",
+              "title": "Alan Autry - Age, Bio, Family | Famous Birthdays",
+              "snippet": "About Known for his work as a football player, actor, and Mayor of Fresno, California. His most well known television role is Captain Bubba Skinner of In the Heat of the Night. Before fame He would plant and harvest cotton alongside his parents while working in the San Joaquin valley. Trivia He served as mayor of Fresno from 2000 to 2009. Family life He met his birth father, Carl Autry, for ...",
+              "metadata": {
+                "search_query": "Who played bubba in the heat of the night?"
+              },
+              "retrieved_at": "2026-10-17T00:31:19.672885",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Alan Autry - Wikipedia: During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.\n\nAlan Autry - IMDb: Alan Autry. Actor: In the Heat of the Night. Though not Hispanic, Autry's parents named him \"Carlos\" after a Louisiana politician admired by his father. The couple soon divorced, however, and Autry's mother took him to be with her family in central California. Carlos Autry now became Carlos Brown. Autry played sports in high school and earned a scholarship to the University of the Pacific ...\n\nAlan Autry: Biography, Actor, Mayor of Fresno, California: Alan Autry is best known for his role as Captain \"Bubba\" Skinner on the TV series In the Heat of the Night. In later life, he was the mayor of Fresno, California.\n\nAlan Autry (American Actor) ~ Bio with [ Photos | Videos ]: He played the role of Captain Bubba Skinner on the NBC television series, In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.\n\nAlan Autry - Age, Bio, Family | Famous Birthdays: About Known for his work as a football player, actor, and Mayor of Fresno, California. His most well known television role is Captain Bubba Skinner of In the Heat of the Night. Before fame He would plant and harvest cotton alongside his parents while working in the San Joaquin valley. Trivia He served as mayor of Fresno from 2000 to 2009. Family life He met his birth father, Carl Autry, for ...",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-17T00:31:19.673293"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who played bubba in the heat of the night?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:31:19.674783"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who played bubba in the heat of the night?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995. \"Nielsen ratings\". Life. USA Today. March",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=5545060",
+            "title": "List of In the Heat of the Night episodes",
+            "snippet": "This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995. \"Nielsen ratings\". Life. USA Today. March",
+            "metadata": {
+              "search_query": "Who played bubba in the heat of the night?"
+            },
+            "retrieved_at": "2026-10-17T00:31:19.675044",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=5545060",
+          "title": "List of In the Heat of the Night episodes",
+          "snippet": "This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995. \"Nielsen ratings\". Life. USA Today. March",
+          "metadata": {
+            "search_query": "Who played bubba in the heat of the night?"
+          },
+          "retrieved_at": "2026-10-17T00:31:19.675044",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=98510",
+          "title": "In the Heat of the Night (TV series)",
+          "snippet": "In the Heat of the Night is an American police procedural crime drama television broadcast 1988 to 1995, starring Carroll O'Connor and Howard Rollins.",
+          "metadata": {
+            "search_query": "Who played bubba in the heat of the night?"
+          },
+          "retrieved_at": "2026-10-17T00:31:19.675054",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=2090541",
+          "title": "Bubba",
+          "snippet": "and film of the same name Bubba J, a puppet of ventriloquist Jeff Dunham Bubba Ritter, played by Larry Drake in the movie Dark Night of the Scarecrow",
+          "metadata": {
+            "search_query": "Who played bubba in the heat of the night?"
+          },
+          "retrieved_at": "2026-10-17T00:31:19.675061",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=617425",
+          "title": "Alan Autry",
+          "snippet": "career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC",
+          "metadata": {
+            "search_query": "Who played bubba in the heat of the night?"
+          },
+          "retrieved_at": "2026-10-17T00:31:19.675067",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=5943211",
+          "title": "Survivor Series (2000)",
+          "snippet": "Radicalz in a Survivor Series match. On the Sunday Night Heat before Survivor Series, WWF European Champion William Regal attempted to cut a promo to the crowd",
+          "metadata": {
+            "search_query": "Who played bubba in the heat of the night?"
+          },
+          "retrieved_at": "2026-10-17T00:31:19.675073",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:32:41.469310"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who played bubba in the heat of the night?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Alan_Autry",
+            "title": "Alan Autry - Wikipedia",
+            "snippet": "During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+            "metadata": {
+              "search_query": "Who played bubba in the heat of the night?"
+            },
+            "retrieved_at": "2026-10-17T00:32:41.469951",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Alan_Autry",
+          "title": "Alan Autry - Wikipedia",
+          "snippet": "During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+          "metadata": {
+            "search_query": "Who played bubba in the heat of the night?"
+          },
+          "retrieved_at": "2026-10-17T00:32:41.469951",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.imdb.com/name/nm0042641/",
+          "title": "Alan Autry - IMDb",
+          "snippet": "Alan Autry. Actor: In the Heat of the Night. Though not Hispanic, Autry's parents named him \"Carlos\" after a Louisiana politician admired by his father. The couple soon divorced, however, and Autry's mother took him to be with her family in central California. Carlos Autry now became Carlos Brown. Autry played sports in high school and earned a scholarship to the University of the Pacific ...",
+          "metadata": {
+            "search_query": "Who played bubba in the heat of the night?"
+          },
+          "retrieved_at": "2026-10-17T00:32:41.469974",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.biography.com/actor/alan-autry",
+          "title": "Alan Autry: Biography, Actor, Mayor of Fresno, California",
+          "snippet": "Alan Autry is best known for his role as Captain \"Bubba\" Skinner on the TV series In the Heat of the Night. In later life, he was the mayor of Fresno, California.",
+          "metadata": {
+            "search_query": "Who played bubba in the heat of the night?"
+          },
+          "retrieved_at": "2026-10-17T00:32:41.469986",
+          "credibility_score": null
+        },
+        {
+          "url": "https://alchetron.com/Alan-Autry",
+          "title": "Alan Autry (American Actor) ~ Bio with [ Photos | Videos ]",
+          "snippet": "He played the role of Captain Bubba Skinner on the NBC television series, In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+          "metadata": {
+            "search_query": "Who played bubba in the heat of the night?"
+          },
+          "retrieved_at": "2026-10-17T00:32:41.469997",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.famousbirthdays.com/people/alan-autry.html",
+          "title": "Alan Autry - Age, Bio, Family | Famous Birthdays",
+          "snippet": "About Known for his work as a football player, actor, and Mayor of Fresno, California. His most well known television role is Captain Bubba Skinner of In the Heat of the Night. Before fame He would plant and harvest cotton alongside his parents while working in the San Joaquin valley. Trivia He served as mayor of Fresno from 2000 to 2009. Family life He met his birth father, Carl Autry, for ...",
+          "metadata": {
+            "search_query": "Who played bubba in the heat of the night?"
+          },
+          "retrieved_at": "2026-10-17T00:32:41.470008",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:33:26.485414"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who played bubba in the heat of the night?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/openrouter/free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/openrouter/free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-17T00:32:38.469581"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995. \"Nielsen ratings\". Life. USA Today. March",
+        "claim_b_text": "During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+        "label": "neutral",
+        "contradiction_score": 0.0006233464810065925,
+        "entailment_score": 0.0003329279425088316,
+        "neutral_score": 0.9995967745780945
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/openrouter/free: opencode timed out after 45.0s)"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "web_agent",
+      "claim_a": {
+        "text": "This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995. \"Nielsen ratings\". Life. USA Today. March",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=5545060",
+          "title": "List of In the Heat of the Night episodes",
+          "snippet": "This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995. \"Nielsen ratings\". Life. USA Today. March",
+          "metadata": {
+            "search_query": "Who played bubba in the heat of the night?"
+          },
+          "retrieved_at": "2026-10-17T00:31:19.675044",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Alan_Autry",
+          "title": "Alan Autry - Wikipedia",
+          "snippet": "During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+          "metadata": {
+            "search_query": "Who played bubba in the heat of the night?"
+          },
+          "retrieved_at": "2026-10-17T00:32:41.469951",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.0006233464810065925
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0006233464810065925,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "44abe8b8",
+    "type": "unknown",
+    "confidence": 0.5,
+    "explanation": "Standard MAD always debates (no gate) — generic strategy",
+    "claim_a": {
+      "text": "This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995. \"Nielsen ratings\". Life. USA Today. March",
+      "source": {
+        "url": "https://en.wikipedia.org/?curid=5545060",
+        "title": "List of In the Heat of the Night episodes",
+        "snippet": "This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995. \"Nielsen ratings\". Life. USA Today. March",
+        "metadata": {
+          "search_query": "Who played bubba in the heat of the night?"
+        },
+        "retrieved_at": "2026-10-17T00:31:19.675044",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Alan_Autry",
+        "title": "Alan Autry - Wikipedia",
+        "snippet": "During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+        "metadata": {
+          "search_query": "Who played bubba in the heat of the night?"
+        },
+        "retrieved_at": "2026-10-17T00:32:41.469951",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "web_agent",
+      "forced": true
+    },
+    "detected_at": "2026-10-17T00:33:28.711208"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": null,
+      "critic_arguments": [],
+      "reviser_argument": null,
+      "started_at": "2026-10-17T00:33:28.711672",
+      "completed_at": null
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": null,
+        "critic_arguments": [],
+        "reviser_argument": null,
+        "started_at": "2026-10-17T00:33:28.711672",
+        "completed_at": null
+      }
+    ],
+    "status": "failed",
+    "stop_reason": "stage_failure",
+    "failed_stages": [
+      "proposer"
+    ],
+    "rounds_used": 0
+  },
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who played bubba in the heat of the night?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [reference_agent]: This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995. \"Nielsen ratings\". Life. USA Today. March\n- [web_agent]: During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=5545060",
+        "title": "List of In the Heat of the Night episodes",
+        "snippet": "This is a list of episodes of the television series In the Heat of the Night, which aired from 1988 to 1995. \"Nielsen ratings\". Life. USA Today. March",
+        "metadata": {
+          "search_query": "Who played bubba in the heat of the night?"
+        },
+        "retrieved_at": "2026-10-17T00:31:19.675044",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=98510",
+        "title": "In the Heat of the Night (TV series)",
+        "snippet": "In the Heat of the Night is an American police procedural crime drama television broadcast 1988 to 1995, starring Carroll O'Connor and Howard Rollins.",
+        "metadata": {
+          "search_query": "Who played bubba in the heat of the night?"
+        },
+        "retrieved_at": "2026-10-17T00:31:19.675054",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=2090541",
+        "title": "Bubba",
+        "snippet": "and film of the same name Bubba J, a puppet of ventriloquist Jeff Dunham Bubba Ritter, played by Larry Drake in the movie Dark Night of the Scarecrow",
+        "metadata": {
+          "search_query": "Who played bubba in the heat of the night?"
+        },
+        "retrieved_at": "2026-10-17T00:31:19.675061",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=617425",
+        "title": "Alan Autry",
+        "snippet": "career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC",
+        "metadata": {
+          "search_query": "Who played bubba in the heat of the night?"
+        },
+        "retrieved_at": "2026-10-17T00:31:19.675067",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=5943211",
+        "title": "Survivor Series (2000)",
+        "snippet": "Radicalz in a Survivor Series match. On the Sunday Night Heat before Survivor Series, WWF European Champion William Regal attempted to cut a promo to the crowd",
+        "metadata": {
+          "search_query": "Who played bubba in the heat of the night?"
+        },
+        "retrieved_at": "2026-10-17T00:31:19.675073",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Alan_Autry",
+        "title": "Alan Autry - Wikipedia",
+        "snippet": "During his brief career in the National Football League, he played as a quarterback and was known as Carlos Brown. Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+        "metadata": {
+          "search_query": "Who played bubba in the heat of the night?"
+        },
+        "retrieved_at": "2026-10-17T00:32:41.469951",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.imdb.com/name/nm0042641/",
+        "title": "Alan Autry - IMDb",
+        "snippet": "Alan Autry. Actor: In the Heat of the Night. Though not Hispanic, Autry's parents named him \"Carlos\" after a Louisiana politician admired by his father. The couple soon divorced, however, and Autry's mother took him to be with her family in central California. Carlos Autry now became Carlos Brown. Autry played sports in high school and earned a scholarship to the University of the Pacific ...",
+        "metadata": {
+          "search_query": "Who played bubba in the heat of the night?"
+        },
+        "retrieved_at": "2026-10-17T00:32:41.469974",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.biography.com/actor/alan-autry",
+        "title": "Alan Autry: Biography, Actor, Mayor of Fresno, California",
+        "snippet": "Alan Autry is best known for his role as Captain \"Bubba\" Skinner on the TV series In the Heat of the Night. In later life, he was the mayor of Fresno, California.",
+        "metadata": {
+          "search_query": "Who played bubba in the heat of the night?"
+        },
+        "retrieved_at": "2026-10-17T00:32:41.469986",
+        "credibility_score": null
+      },
+      {
+        "url": "https://alchetron.com/Alan-Autry",
+        "title": "Alan Autry (American Actor) ~ Bio with [ Photos | Videos ]",
+        "snippet": "He played the role of Captain Bubba Skinner on the NBC television series, In the Heat of the Night, starring Carroll O'Connor. He has also appeared in films and other television shows.",
+        "metadata": {
+          "search_query": "Who played bubba in the heat of the night?"
+        },
+        "retrieved_at": "2026-10-17T00:32:41.469997",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.famousbirthdays.com/people/alan-autry.html",
+        "title": "Alan Autry - Age, Bio, Family | Famous Birthdays",
+        "snippet": "About Known for his work as a football player, actor, and Mayor of Fresno, California. His most well known television role is Captain Bubba Skinner of In the Heat of the Night. Before fame He would plant and harvest cotton alongside his parents while working in the San Joaquin valley. Trivia He served as mayor of Fresno from 2000 to 2009. Family life He met his birth father, Carl Autry, for ...",
+        "metadata": {
+          "search_query": "Who played bubba in the heat of the night?"
+        },
+        "retrieved_at": "2026-10-17T00:32:41.470008",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-17T00:33:28.710768"
+  },
+  "metrics": {
+    "latency_seconds": 129.0393409729004,
+    "evidence_state": "uncertain",
+    "debate_triggered": true,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 2,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 0,
+        "failed": 2
+      }
+    },
+    "retrieval_failure_rate": 0.25,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "system": "no_gate"
+  },
+  "started_at": "2026-10-17T00:31:19.671424",
+  "completed_at": "2026-10-17T00:33:28.710837",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0099",
+    "query": "Who played bubba in the heat of the night?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Alan Autry",
+    "required_facts": [
+      "Alan Autry"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 125,
+      "answer_variants": [
+        "Alan Autry"
+      ],
+      "annotation_explanation": "Contexts 3, and 9 mention that Alan Autry is the actor who has played the role of Bubba in the Heat of the Night. Context 1 mentions that Autry played the role of Captain Bubba Skinner but there could be another actor with the surname Autry, so this context cannot be referenced for the answer. Context 4 references Alan Autry as an actor in the series Heat of the Night but does not mention which role he has played in the series.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Autry played the role of Captain Bubba Skinner on the NBC, and later CBS, television drama series In the Heat of the Night, starring Carroll O'Connor.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "hero.fandom.com",
+          "text": "\"Bubba\" Skinner is the secondary protagonist of the television series In the Heat of the Night. Bubba grew up in the Sparta area, coming from a large family.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.biography.com",
+          "text": "Alan Autry is best known for his role as Captain \"Bubba\" Skinner on the television series In the 'Heat of the Night.' In later life, he was the mayor of ...",
+          "supports_answers": [
+            "Alan Autry"
+          ]
+        },
+        {
+          "source_domain": "www.imdb.com",
+          "text": "Alan Autry. Actor: In the Heat of the Night. Though not Hispanic, Autry's parents named him \"Carlos\" after a Louisiana politician admired by his father.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "sites.google.com",
+          "text": "Sep 28, 2015 ... For 8 seasons, you portrayed Sparta cop Bubba Skinner on the NBC/CBS television series In The Heat of The Night. How did your audition for ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.imdb.com",
+          "text": "Lt. Bubba Skinner, who is Cassie's distant cousin, comes home to find a baby that have been left on his doorstep and afterwards Bubba gets a little teasing ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "m.imdb.com",
+          "text": "\"In the Heat of the Night\" Bubba's Baby (TV Episode 1990) “Cast” credits.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.imdb.com",
+          "text": "Just a Country Boy: Directed by Carroll O'Connor. With Carroll O'Connor, Howard E. Rollins Jr., Alan Autry, Anne-Marie Johnson. Bubba travels to Los Angeles ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.facebook.com",
+          "text": "Lt. Bubba Skinner (Alan Autry) -- In the Heat of the Night -- Just a Country Boy (S04/Ep20) 1991.",
+          "supports_answers": [
+            "Alan Autry"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_gate",
+  "evaluation_seconds": 318.135,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

@@ -1,0 +1,1259 @@
+{
+  "query": "Converting stereo signal to mono signal is called?",
+  "trace_id": "d056119f-b325-44d9-b453-d8a740ee91b4",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Converting stereo signal to mono signal is called?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:02:46.103809"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Converting stereo signal to mono signal is called?",
+          "answer": "Based on 5 sources:\n- Dolby Stereo: majority of films continued to be produced with mono optical soundtracks\n- Dolby SVA provided a method for putting high-quality stereo soundtracks on optical\n\nVHS: degrades the audio's signal-to-noise ratio, causing objectionable tape hiss at normal listening volume\n- To counteract the hiss, linear stereo VHS VCRs use Dolby\n\nFM broadcasting: distortion for the stereo signal will be worse than for the mono receiver\n- For this reason many stereo FM receivers include a stereo/mono switch to allow listening\n\nY-cable: 2003)\n- \"How do I create a stereo mix from mono material",
+          "claims": [
+            {
+              "id": "6dd9e63b",
+              "text": "Dolby Stereo: majority of films continued to be produced with mono optical soundtracks",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=2035609",
+                "title": "Dolby Stereo",
+                "snippet": "majority of films continued to be produced with mono optical soundtracks. Dolby SVA provided a method for putting high-quality stereo soundtracks on optical",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:46.543012",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "fc07c935",
+              "text": "Dolby SVA provided a method for putting high-quality stereo soundtracks on optical\n\nVHS: degrades the audio's signal-to-noise ratio, causing objectionable tape hiss at normal listening volume",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=52124",
+                "title": "VHS",
+                "snippet": "degrades the audio's signal-to-noise ratio, causing objectionable tape hiss at normal listening volume. To counteract the hiss, linear stereo VHS VCRs use Dolby",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:46.543045",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "683bde8c",
+              "text": "To counteract the hiss, linear stereo VHS VCRs use Dolby\n\nFM broadcasting: distortion for the stereo signal will be worse than for the mono receiver",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1607203",
+                "title": "FM broadcasting",
+                "snippet": "distortion for the stereo signal will be worse than for the mono receiver. For this reason many stereo FM receivers include a stereo/mono switch to allow listening",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:46.543056",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d7a7b8c5",
+              "text": "For this reason many stereo FM receivers include a stereo/mono switch to allow listening\n\nY-cable: 2003)",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=30862892",
+                "title": "Y-cable",
+                "snippet": "2003). \"How do I create a stereo mix from mono material?\". Sound on Sound. You now need to derive two outputs from this ... signal [which can be done using]",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:46.543064",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "36034f5e",
+              "text": "\"How do I create a stereo mix from mono material",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=28184",
+                "title": "Sound card",
+                "snippet": "commonly called stereo mix, wave out mix, mono mix or what u hear, which previously allowed users to digitally record output otherwise only accessible to speakers",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:46.543072",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "590a967b",
+              "text": "You now need to derive two outputs from this",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1607203",
+                "title": "FM broadcasting",
+                "snippet": "distortion for the stereo signal will be worse than for the mono receiver. For this reason many stereo FM receivers include a stereo/mono switch to allow listening",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:46.543056",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "4cab3d74",
+              "text": "signal [which can be done using]\n\nSound card: commonly called stereo mix, wave out mix, mono mix or what u hear, which previously allowed users to digitally record output otherwise only accessible to speakers",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=30862892",
+                "title": "Y-cable",
+                "snippet": "2003). \"How do I create a stereo mix from mono material?\". Sound on Sound. You now need to derive two outputs from this ... signal [which can be done using]",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:46.543064",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=2035609",
+              "title": "Dolby Stereo",
+              "snippet": "majority of films continued to be produced with mono optical soundtracks. Dolby SVA provided a method for putting high-quality stereo soundtracks on optical",
+              "metadata": {
+                "search_query": "Converting stereo signal to mono signal is called?"
+              },
+              "retrieved_at": "2026-10-16T21:02:46.543012",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=52124",
+              "title": "VHS",
+              "snippet": "degrades the audio's signal-to-noise ratio, causing objectionable tape hiss at normal listening volume. To counteract the hiss, linear stereo VHS VCRs use Dolby",
+              "metadata": {
+                "search_query": "Converting stereo signal to mono signal is called?"
+              },
+              "retrieved_at": "2026-10-16T21:02:46.543045",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=1607203",
+              "title": "FM broadcasting",
+              "snippet": "distortion for the stereo signal will be worse than for the mono receiver. For this reason many stereo FM receivers include a stereo/mono switch to allow listening",
+              "metadata": {
+                "search_query": "Converting stereo signal to mono signal is called?"
+              },
+              "retrieved_at": "2026-10-16T21:02:46.543056",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=30862892",
+              "title": "Y-cable",
+              "snippet": "2003). \"How do I create a stereo mix from mono material?\". Sound on Sound. You now need to derive two outputs from this ... signal [which can be done using]",
+              "metadata": {
+                "search_query": "Converting stereo signal to mono signal is called?"
+              },
+              "retrieved_at": "2026-10-16T21:02:46.543064",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=28184",
+              "title": "Sound card",
+              "snippet": "commonly called stereo mix, wave out mix, mono mix or what u hear, which previously allowed users to digitally record output otherwise only accessible to speakers",
+              "metadata": {
+                "search_query": "Converting stereo signal to mono signal is called?"
+              },
+              "retrieved_at": "2026-10-16T21:02:46.543072",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Dolby Stereo: majority of films continued to be produced with mono optical soundtracks. Dolby SVA provided a method for putting high-quality stereo soundtracks on optical\n\nVHS: degrades the audio's signal-to-noise ratio, causing objectionable tape hiss at normal listening volume. To counteract the hiss, linear stereo VHS VCRs use Dolby\n\nFM broadcasting: distortion for the stereo signal will be worse than for the mono receiver. For this reason many stereo FM receivers include a stereo/mono switch to allow listening\n\nY-cable: 2003). \"How do I create a stereo mix from mono material?\". Sound on Sound. You now need to derive two outputs from this ... signal [which can be done using]\n\nSound card: commonly called stereo mix, wave out mix, mono mix or what u hear, which previously allowed users to digitally record output otherwise only accessible to speakers",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:02:46.543289"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Converting stereo signal to mono signal is called?",
+          "answer": "Based on 5 sources:\n- Converting Stereo Signal to Mono Signal Is Called: A\n- - AliExpress: Converting stereo signal to mono signal is called mono summing\n- This process combines left and right channels into one, ensuring compatibility, preventing phase issues, and maintaining audio clarity across various systems like amps, PA setups, and broadcast devices\n- Stereo to Mono Converter: Combine Left and Right Channels: Convert stereo audio to a single mono channel\n- Learn how downmixing works, why phase cancellation happens, and which cables or adapters to use",
+          "claims": [
+            {
+              "id": "ffc456b6",
+              "text": "Converting Stereo Signal to Mono Signal Is Called: A",
+              "source": {
+                "url": "https://www.aliexpress.com/s/wiki-ssr/article/converting-stereo-signal-to-mono-signal-is-called",
+                "title": "Converting Stereo Signal to Mono Signal Is Called: A ... - AliExpress",
+                "snippet": "Converting stereo signal to mono signal is called mono summing. This process combines left and right channels into one, ensuring compatibility, preventing phase issues, and maintaining audio clarity across various systems like amps, PA setups, and broadcast devices.",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:51.307067",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "28613bac",
+              "text": "- AliExpress: Converting stereo signal to mono signal is called mono summing",
+              "source": {
+                "url": "https://soniclab.io/tools/stereo-to-mono-converter",
+                "title": "Stereo to Mono Converter: Combine Left and Right Channels",
+                "snippet": "Convert stereo audio to a single mono channel. Learn how downmixing works, why phase cancellation happens, and which cables or adapters to use.",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:51.307102",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8e9ce3e2",
+              "text": "This process combines left and right channels into one, ensuring compatibility, preventing phase issues, and maintaining audio clarity across various systems like amps, PA setups, and broadcast devices",
+              "source": {
+                "url": "https://www.sonible.com/blog/stereo-to-mono/",
+                "title": "Avoiding the Collapse: From Stereo to Mono (Compatibility)",
+                "snippet": "As outlined above, a mono signal is generated by summing the left and right channel of a stereo signal. The loss of the width layer means, that all signals covering a certain frequency region are now all coming from the same direction and are no longer separated by their spatial distance to each other.",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:51.307111",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "513c2428",
+              "text": "Stereo to Mono Converter: Combine Left and Right Channels: Convert stereo audio to a single mono channel",
+              "source": {
+                "url": "https://www.instructables.com/Simple-Way-to-Convert-Stereo-to-Mono/",
+                "title": "Simple Way to Convert Stereo to Mono - Instructables",
+                "snippet": "Simple Way to Convert Stereo to Mono: This is going to be a tutorial on how to take a stereo audio source from a phone for example and convert it to a mono signal to use with a mono amplifier or a two channel amplifier( I'll show you how to do this), and anything that needs a mono signa…",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:51.307119",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d4c1e1ae",
+              "text": "Learn how downmixing works, why phase cancellation happens, and which cables or adapters to use",
+              "source": {
+                "url": "https://soundcy.com/article/how-to-make-sound-mono",
+                "title": "Mastering Mono: Simple Steps To Convert Stereo Sound To Mono",
+                "snippet": "Making sound mono involves converting a stereo audio signal into a single channel, ensuring that both the left and right audio components are combined into one unified output.",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:51.307128",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3f828bca",
+              "text": "Avoiding the Collapse: From Stereo to Mono (Compatibility): As outlined above, a mono signal is generated by summing the left and right channel of a stereo signal",
+              "source": {
+                "url": "https://www.aliexpress.com/s/wiki-ssr/article/converting-stereo-signal-to-mono-signal-is-called",
+                "title": "Converting Stereo Signal to Mono Signal Is Called: A ... - AliExpress",
+                "snippet": "Converting stereo signal to mono signal is called mono summing. This process combines left and right channels into one, ensuring compatibility, preventing phase issues, and maintaining audio clarity across various systems like amps, PA setups, and broadcast devices.",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:51.307067",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8395f766",
+              "text": "The loss of the width layer means, that all signals covering a certain frequency region are now all coming from the same direction and are no longer separated by their spatial distance to each other",
+              "source": {
+                "url": "https://soniclab.io/tools/stereo-to-mono-converter",
+                "title": "Stereo to Mono Converter: Combine Left and Right Channels",
+                "snippet": "Convert stereo audio to a single mono channel. Learn how downmixing works, why phase cancellation happens, and which cables or adapters to use.",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:51.307102",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "7761da9e",
+              "text": "Simple Way to Convert Stereo to Mono - Instructables: Simple Way to Convert Stereo to Mono: This is going to be a tutorial on how to take a stereo audio source from a phone for example and convert it to a mono signal to use with a mono amplifier or a two channel amplifier( I'll show you how to do this), and anything that needs a mono signa…\n\nMastering Mono: Simple Steps To Convert Stereo Sound To Mono: Making sound mono involves converting a stereo audio signal into a single channel, ensuring that both the left and right audio components are combined into one unified output",
+              "source": {
+                "url": "https://www.sonible.com/blog/stereo-to-mono/",
+                "title": "Avoiding the Collapse: From Stereo to Mono (Compatibility)",
+                "snippet": "As outlined above, a mono signal is generated by summing the left and right channel of a stereo signal. The loss of the width layer means, that all signals covering a certain frequency region are now all coming from the same direction and are no longer separated by their spatial distance to each other.",
+                "metadata": {
+                  "search_query": "Converting stereo signal to mono signal is called?"
+                },
+                "retrieved_at": "2026-10-16T21:02:51.307111",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.aliexpress.com/s/wiki-ssr/article/converting-stereo-signal-to-mono-signal-is-called",
+              "title": "Converting Stereo Signal to Mono Signal Is Called: A ... - AliExpress",
+              "snippet": "Converting stereo signal to mono signal is called mono summing. This process combines left and right channels into one, ensuring compatibility, preventing phase issues, and maintaining audio clarity across various systems like amps, PA setups, and broadcast devices.",
+              "metadata": {
+                "search_query": "Converting stereo signal to mono signal is called?"
+              },
+              "retrieved_at": "2026-10-16T21:02:51.307067",
+              "credibility_score": null
+            },
+            {
+              "url": "https://soniclab.io/tools/stereo-to-mono-converter",
+              "title": "Stereo to Mono Converter: Combine Left and Right Channels",
+              "snippet": "Convert stereo audio to a single mono channel. Learn how downmixing works, why phase cancellation happens, and which cables or adapters to use.",
+              "metadata": {
+                "search_query": "Converting stereo signal to mono signal is called?"
+              },
+              "retrieved_at": "2026-10-16T21:02:51.307102",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.sonible.com/blog/stereo-to-mono/",
+              "title": "Avoiding the Collapse: From Stereo to Mono (Compatibility)",
+              "snippet": "As outlined above, a mono signal is generated by summing the left and right channel of a stereo signal. The loss of the width layer means, that all signals covering a certain frequency region are now all coming from the same direction and are no longer separated by their spatial distance to each other.",
+              "metadata": {
+                "search_query": "Converting stereo signal to mono signal is called?"
+              },
+              "retrieved_at": "2026-10-16T21:02:51.307111",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.instructables.com/Simple-Way-to-Convert-Stereo-to-Mono/",
+              "title": "Simple Way to Convert Stereo to Mono - Instructables",
+              "snippet": "Simple Way to Convert Stereo to Mono: This is going to be a tutorial on how to take a stereo audio source from a phone for example and convert it to a mono signal to use with a mono amplifier or a two channel amplifier( I'll show you how to do this), and anything that needs a mono signa…",
+              "metadata": {
+                "search_query": "Converting stereo signal to mono signal is called?"
+              },
+              "retrieved_at": "2026-10-16T21:02:51.307119",
+              "credibility_score": null
+            },
+            {
+              "url": "https://soundcy.com/article/how-to-make-sound-mono",
+              "title": "Mastering Mono: Simple Steps To Convert Stereo Sound To Mono",
+              "snippet": "Making sound mono involves converting a stereo audio signal into a single channel, ensuring that both the left and right audio components are combined into one unified output.",
+              "metadata": {
+                "search_query": "Converting stereo signal to mono signal is called?"
+              },
+              "retrieved_at": "2026-10-16T21:02:51.307128",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Converting Stereo Signal to Mono Signal Is Called: A ... - AliExpress: Converting stereo signal to mono signal is called mono summing. This process combines left and right channels into one, ensuring compatibility, preventing phase issues, and maintaining audio clarity across various systems like amps, PA setups, and broadcast devices.\n\nStereo to Mono Converter: Combine Left and Right Channels: Convert stereo audio to a single mono channel. Learn how downmixing works, why phase cancellation happens, and which cables or adapters to use.\n\nAvoiding the Collapse: From Stereo to Mono (Compatibility): As outlined above, a mono signal is generated by summing the left and right channel of a stereo signal. The loss of the width layer means, that all signals covering a certain frequency region are now all coming from the same direction and are no longer separated by their spatial distance to each other.\n\nSimple Way to Convert Stereo to Mono - Instructables: Simple Way to Convert Stereo to Mono: This is going to be a tutorial on how to take a stereo audio source from a phone for example and convert it to a mono signal to use with a mono amplifier or a two channel amplifier( I'll show you how to do this), and anything that needs a mono signa…\n\nMastering Mono: Simple Steps To Convert Stereo Sound To Mono: Making sound mono involves converting a stereo audio signal into a single channel, ensuring that both the left and right audio components are combined into one unified output.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:02:51.307391"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Converting stereo signal to mono signal is called?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:02:51.308585"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Converting stereo signal to mono signal is called?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Converting a stereo signal to mono signal is called mono mixing or downmixing.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=28184",
+            "title": "Sound card",
+            "snippet": "commonly called stereo mix, wave out mix, mono mix or what u hear, which previously allowed users to digitally record output otherwise only accessible to speakers",
+            "metadata": {
+              "search_query": "Converting stereo signal to mono signal is called?"
+            },
+            "retrieved_at": "2026-10-16T21:02:51.308881",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=2035609",
+          "title": "Dolby Stereo",
+          "snippet": "majority of films continued to be produced with mono optical soundtracks. Dolby SVA provided a method for putting high-quality stereo soundtracks on optical",
+          "metadata": {
+            "search_query": "Converting stereo signal to mono signal is called?"
+          },
+          "retrieved_at": "2026-10-16T21:02:51.308845",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=52124",
+          "title": "VHS",
+          "snippet": "degrades the audio's signal-to-noise ratio, causing objectionable tape hiss at normal listening volume. To counteract the hiss, linear stereo VHS VCRs use Dolby",
+          "metadata": {
+            "search_query": "Converting stereo signal to mono signal is called?"
+          },
+          "retrieved_at": "2026-10-16T21:02:51.308860",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=1607203",
+          "title": "FM broadcasting",
+          "snippet": "distortion for the stereo signal will be worse than for the mono receiver. For this reason many stereo FM receivers include a stereo/mono switch to allow listening",
+          "metadata": {
+            "search_query": "Converting stereo signal to mono signal is called?"
+          },
+          "retrieved_at": "2026-10-16T21:02:51.308868",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=30862892",
+          "title": "Y-cable",
+          "snippet": "2003). \"How do I create a stereo mix from mono material?\". Sound on Sound. You now need to derive two outputs from this ... signal [which can be done using]",
+          "metadata": {
+            "search_query": "Converting stereo signal to mono signal is called?"
+          },
+          "retrieved_at": "2026-10-16T21:02:51.308874",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=28184",
+          "title": "Sound card",
+          "snippet": "commonly called stereo mix, wave out mix, mono mix or what u hear, which previously allowed users to digitally record output otherwise only accessible to speakers",
+          "metadata": {
+            "search_query": "Converting stereo signal to mono signal is called?"
+          },
+          "retrieved_at": "2026-10-16T21:02:51.308881",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:03:08.599057"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Converting stereo signal to mono signal is called?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Converting stereo signal to mono signal is called mono summing.",
+          "source": {
+            "url": "https://www.aliexpress.com/s/wiki-ssr/article/converting-stereo-signal-to-mono-signal-is-called",
+            "title": "Converting Stereo Signal to Mono Signal Is Called: A ... - AliExpress",
+            "snippet": "Converting stereo signal to mono signal is called mono summing. This process combines left and right channels into one, ensuring compatibility, preventing phase issues, and maintaining audio clarity across various systems like amps, PA setups, and broadcast devices.",
+            "metadata": {
+              "search_query": "Converting stereo signal to mono signal is called?"
+            },
+            "retrieved_at": "2026-10-16T21:03:08.599418",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.aliexpress.com/s/wiki-ssr/article/converting-stereo-signal-to-mono-signal-is-called",
+          "title": "Converting Stereo Signal to Mono Signal Is Called: A ... - AliExpress",
+          "snippet": "Converting stereo signal to mono signal is called mono summing. This process combines left and right channels into one, ensuring compatibility, preventing phase issues, and maintaining audio clarity across various systems like amps, PA setups, and broadcast devices.",
+          "metadata": {
+            "search_query": "Converting stereo signal to mono signal is called?"
+          },
+          "retrieved_at": "2026-10-16T21:03:08.599418",
+          "credibility_score": null
+        },
+        {
+          "url": "https://soniclab.io/tools/stereo-to-mono-converter",
+          "title": "Stereo to Mono Converter: Combine Left and Right Channels",
+          "snippet": "Convert stereo audio to a single mono channel. Learn how downmixing works, why phase cancellation happens, and which cables or adapters to use.",
+          "metadata": {
+            "search_query": "Converting stereo signal to mono signal is called?"
+          },
+          "retrieved_at": "2026-10-16T21:03:08.599430",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.sonible.com/blog/stereo-to-mono/",
+          "title": "Avoiding the Collapse: From Stereo to Mono (Compatibility)",
+          "snippet": "As outlined above, a mono signal is generated by summing the left and right channel of a stereo signal. The loss of the width layer means, that all signals covering a certain frequency region are now all coming from the same direction and are no longer separated by their spatial distance to each other.",
+          "metadata": {
+            "search_query": "Converting stereo signal to mono signal is called?"
+          },
+          "retrieved_at": "2026-10-16T21:03:08.599437",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.instructables.com/Simple-Way-to-Convert-Stereo-to-Mono/",
+          "title": "Simple Way to Convert Stereo to Mono - Instructables",
+          "snippet": "Simple Way to Convert Stereo to Mono: This is going to be a tutorial on how to take a stereo audio source from a phone for example and convert it to a mono signal to use with a mono amplifier or a two channel amplifier( I'll show you how to do this), and anything that needs a mono signa…",
+          "metadata": {
+            "search_query": "Converting stereo signal to mono signal is called?"
+          },
+          "retrieved_at": "2026-10-16T21:03:08.599443",
+          "credibility_score": null
+        },
+        {
+          "url": "https://soundcy.com/article/how-to-make-sound-mono",
+          "title": "Mastering Mono: Simple Steps To Convert Stereo Sound To Mono",
+          "snippet": "Making sound mono involves converting a stereo audio signal into a single channel, ensuring that both the left and right audio components are combined into one unified output.",
+          "metadata": {
+            "search_query": "Converting stereo signal to mono signal is called?"
+          },
+          "retrieved_at": "2026-10-16T21:03:08.599450",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:03:26.298352"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Converting stereo signal to mono signal is called?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Converting stereo signal to mono signal is called downmixing.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "Converting stereo signal to mono signal is called downmixing.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:03:00.141029",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Converting stereo signal to mono signal is called downmixing.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:03:00.141029",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "Converting stereo signal to mono signal is called downmixing."
+      },
+      "retrieved_at": "2026-10-16T21:03:00.141093"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "disagreement",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "Converting a stereo signal to mono signal is called mono mixing or downmixing.",
+        "claim_b_text": "Converting stereo signal to mono signal is called mono summing.",
+        "label": "contradiction",
+        "contradiction_score": 0.9749161005020142,
+        "entailment_score": 0.010530191473662853,
+        "neutral_score": 0.08807522803544998
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Converting a stereo signal to mono signal is called mono mixing or downmixing.",
+        "claim_b_text": "Converting stereo signal to mono signal is called downmixing.",
+        "label": "entailment",
+        "contradiction_score": 0.13759511709213257,
+        "entailment_score": 0.6719801425933838,
+        "neutral_score": 0.1904248297214508
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Converting stereo signal to mono signal is called mono summing.",
+        "claim_b_text": "Converting stereo signal to mono signal is called downmixing.",
+        "label": "contradiction",
+        "contradiction_score": 0.989117443561554,
+        "entailment_score": 0.0005943345022387803,
+        "neutral_score": 0.014168212190270424
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "Converting stereo signal to mono signal is called mono summing.",
+        "source": {
+          "url": "https://www.aliexpress.com/s/wiki-ssr/article/converting-stereo-signal-to-mono-signal-is-called",
+          "title": "Converting Stereo Signal to Mono Signal Is Called: A ... - AliExpress",
+          "snippet": "Converting stereo signal to mono signal is called mono summing. This process combines left and right channels into one, ensuring compatibility, preventing phase issues, and maintaining audio clarity across various systems like amps, PA setups, and broadcast devices.",
+          "metadata": {
+            "search_query": "Converting stereo signal to mono signal is called?"
+          },
+          "retrieved_at": "2026-10-16T21:03:08.599418",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Converting stereo signal to mono signal is called downmixing.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Converting stereo signal to mono signal is called downmixing.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:03:00.141029",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.989117443561554
+    },
+    "rationale": "At least one pair exceeded contradiction threshold (0.7): score=0.989"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": true,
+  "contradiction_score": 0.989117443561554,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "b45e82ad",
+    "type": "factual",
+    "confidence": 0.9,
+    "explanation": "Both claims make mutually incompatible factual assertions about the terminology used for converting stereo signals to mono. Claim A states it's called 'mono summing' while Claim B states it's called 'downmixing', which are different terms for the same process in the same context.",
+    "claim_a": {
+      "text": "Converting stereo signal to mono signal is called mono summing.",
+      "source": {
+        "url": "https://www.aliexpress.com/s/wiki-ssr/article/converting-stereo-signal-to-mono-signal-is-called",
+        "title": "Converting Stereo Signal to Mono Signal Is Called: A ... - AliExpress",
+        "snippet": "Converting stereo signal to mono signal is called mono summing. This process combines left and right channels into one, ensuring compatibility, preventing phase issues, and maintaining audio clarity across various systems like amps, PA setups, and broadcast devices.",
+        "metadata": {
+          "search_query": "Converting stereo signal to mono signal is called?"
+        },
+        "retrieved_at": "2026-10-16T21:03:08.599418",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "Converting stereo signal to mono signal is called downmixing.",
+      "source": {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "Converting stereo signal to mono signal is called downmixing.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:03:00.141029",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "classification_status": "llm_success",
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent"
+    },
+    "detected_at": "2026-10-16T21:03:45.309614"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": {
+        "id": "8170108c",
+        "round_number": 1,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nConverting stereo signal to mono signal is called downmixing.\n\nEVIDENCE REVIEW\nClaim A: Converting stereo signal to mono signal is called mono summing. - The retrieved evidence shows that \"mono summing\" generally refers to the process of combining multiple mono signals into a single mono output, not specifically converting from stereo to mono.\nClaim B: Converting stereo signal to mono signal is called downmixing. - The retrieved evidence supports that \"downmixing\" is the standard technical term for reducing the number of audio channels, such as from stereo (2 channels) to mono (1 channel).\n\nREASONING\nThe core issue is identifying the correct technical terminology for converting stereo audio to mono. While both terms involve combining channels, \"downmixing\" specifically describes the process of reducing channel count from stereo to mono, which is the standard industry term. \"Mono summing\" refers more broadly to mixing multiple mono signals together and is not the specific term used for stereo-to-mono conversion.\n\nSOURCE BASIS\nThe evidence present in the claims indicates that mono summing relates to combining mono signals, while downmixing relates to reducing channel count from stereo to mono.\n\nCONCLUSION\nDownmixing is the correct term for converting stereo signal to mono signal, as it accurately describes the technical process of reducing audio channels from stereo to mono.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "factual",
+        "strategy_used": "factual",
+        "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+        "created_at": "2026-10-16T21:04:05.561278"
+      },
+      "critic_arguments": [
+        {
+          "id": "2687f433",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nThe evidence review establishes downmixing as correct but doesn't address potential exceptions or alternative contexts where \"mono summing\" might be technically applicable.\nWHY IT MATTERS\nIn audio engineering, terminology can vary by context (e.g., specific software interfaces or older equipment documentation), so overlooking these edge cases could limit the critique's completeness.\nIMPROVEMENT\nInclude a brief discussion of exceptions or specialized contexts where \"mono summing\" might be used interchangeably, even if downmixing remains the preferred standard term.",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "critique_no_objection",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:04:22.599854"
+        },
+        {
+          "id": "1e7e3f3c",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nThe critique presents downmixing as definitively correct without fully exploring potential nuances in industry practice or regional variations in terminology.\nWHY IT MATTERS\nWhile downmixing is widely accepted, some professionals might use \"sum to mono\" or \"collapse channels\" in certain documentation, suggesting the landscape isn't entirely uniform.\nIMPROVEMENT\nAcknowledge that while downmixing is the technical standard, there may be colloquial or regional alternatives in practice, but maintain that downmixing remains the precise, industry-standard term for stereo-to-mono conversion.",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:04:22.599897"
+        }
+      ],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T21:03:45.309961",
+      "completed_at": "2026-10-16T21:04:22.599918"
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": {
+          "id": "8170108c",
+          "round_number": 1,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nConverting stereo signal to mono signal is called downmixing.\n\nEVIDENCE REVIEW\nClaim A: Converting stereo signal to mono signal is called mono summing. - The retrieved evidence shows that \"mono summing\" generally refers to the process of combining multiple mono signals into a single mono output, not specifically converting from stereo to mono.\nClaim B: Converting stereo signal to mono signal is called downmixing. - The retrieved evidence supports that \"downmixing\" is the standard technical term for reducing the number of audio channels, such as from stereo (2 channels) to mono (1 channel).\n\nREASONING\nThe core issue is identifying the correct technical terminology for converting stereo audio to mono. While both terms involve combining channels, \"downmixing\" specifically describes the process of reducing channel count from stereo to mono, which is the standard industry term. \"Mono summing\" refers more broadly to mixing multiple mono signals together and is not the specific term used for stereo-to-mono conversion.\n\nSOURCE BASIS\nThe evidence present in the claims indicates that mono summing relates to combining mono signals, while downmixing relates to reducing channel count from stereo to mono.\n\nCONCLUSION\nDownmixing is the correct term for converting stereo signal to mono signal, as it accurately describes the technical process of reducing audio channels from stereo to mono.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "factual",
+          "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+          "created_at": "2026-10-16T21:04:05.561278"
+        },
+        "critic_arguments": [
+          {
+            "id": "2687f433",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nThe evidence review establishes downmixing as correct but doesn't address potential exceptions or alternative contexts where \"mono summing\" might be technically applicable.\nWHY IT MATTERS\nIn audio engineering, terminology can vary by context (e.g., specific software interfaces or older equipment documentation), so overlooking these edge cases could limit the critique's completeness.\nIMPROVEMENT\nInclude a brief discussion of exceptions or specialized contexts where \"mono summing\" might be used interchangeably, even if downmixing remains the preferred standard term.",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "critique_no_objection",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:04:22.599854"
+          },
+          {
+            "id": "1e7e3f3c",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nThe critique presents downmixing as definitively correct without fully exploring potential nuances in industry practice or regional variations in terminology.\nWHY IT MATTERS\nWhile downmixing is widely accepted, some professionals might use \"sum to mono\" or \"collapse channels\" in certain documentation, suggesting the landscape isn't entirely uniform.\nIMPROVEMENT\nAcknowledge that while downmixing is the technical standard, there may be colloquial or regional alternatives in practice, but maintain that downmixing remains the precise, industry-standard term for stereo-to-mono conversion.",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:04:22.599897"
+          }
+        ],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T21:03:45.309961",
+        "completed_at": "2026-10-16T21:04:22.599918"
+      }
+    ],
+    "status": "completed",
+    "stop_reason": "no_objection",
+    "failed_stages": [],
+    "rounds_used": 1
+  },
+  "judge_result": {
+    "winner": "candidate_2",
+    "reason": "Downmixing is the correct technical term for converting stereo to mono, as it specifically describes reducing channel count from stereo (2 channels) to mono (1 channel), which is the industry standard terminology.",
+    "evidence_score": 1.0,
+    "reasoning_score": 1.0,
+    "source_score": 1.0,
+    "confidence": 1.0,
+    "scores": {
+      "candidate_1": 1.0,
+      "candidate_2": 1.0
+    },
+    "evaluated_at": "2026-10-16T21:04:44.501291"
+  },
+  "final_answer": {
+    "query": "Converting stereo signal to mono signal is called?",
+    "answer": "A FACTUAL conflict was detected and resolved through structured debate.\n\nResolution: Converting stereo signal to mono signal is called downmixing.\n\nJudge's reasoning: Downmixing is the correct technical term for converting stereo to mono, as it specifically describes reducing channel count from stereo (2 channels) to mono (1 channel), which is the industry standard terminology.",
+    "reasoning": "At least one pair exceeded contradiction threshold (0.7): score=0.989",
+    "evidence_state": "disagreement",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=2035609",
+        "title": "Dolby Stereo",
+        "snippet": "majority of films continued to be produced with mono optical soundtracks. Dolby SVA provided a method for putting high-quality stereo soundtracks on optical",
+        "metadata": {
+          "search_query": "Converting stereo signal to mono signal is called?"
+        },
+        "retrieved_at": "2026-10-16T21:02:51.308845",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=52124",
+        "title": "VHS",
+        "snippet": "degrades the audio's signal-to-noise ratio, causing objectionable tape hiss at normal listening volume. To counteract the hiss, linear stereo VHS VCRs use Dolby",
+        "metadata": {
+          "search_query": "Converting stereo signal to mono signal is called?"
+        },
+        "retrieved_at": "2026-10-16T21:02:51.308860",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=1607203",
+        "title": "FM broadcasting",
+        "snippet": "distortion for the stereo signal will be worse than for the mono receiver. For this reason many stereo FM receivers include a stereo/mono switch to allow listening",
+        "metadata": {
+          "search_query": "Converting stereo signal to mono signal is called?"
+        },
+        "retrieved_at": "2026-10-16T21:02:51.308868",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=30862892",
+        "title": "Y-cable",
+        "snippet": "2003). \"How do I create a stereo mix from mono material?\". Sound on Sound. You now need to derive two outputs from this ... signal [which can be done using]",
+        "metadata": {
+          "search_query": "Converting stereo signal to mono signal is called?"
+        },
+        "retrieved_at": "2026-10-16T21:02:51.308874",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=28184",
+        "title": "Sound card",
+        "snippet": "commonly called stereo mix, wave out mix, mono mix or what u hear, which previously allowed users to digitally record output otherwise only accessible to speakers",
+        "metadata": {
+          "search_query": "Converting stereo signal to mono signal is called?"
+        },
+        "retrieved_at": "2026-10-16T21:02:51.308881",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.aliexpress.com/s/wiki-ssr/article/converting-stereo-signal-to-mono-signal-is-called",
+        "title": "Converting Stereo Signal to Mono Signal Is Called: A ... - AliExpress",
+        "snippet": "Converting stereo signal to mono signal is called mono summing. This process combines left and right channels into one, ensuring compatibility, preventing phase issues, and maintaining audio clarity across various systems like amps, PA setups, and broadcast devices.",
+        "metadata": {
+          "search_query": "Converting stereo signal to mono signal is called?"
+        },
+        "retrieved_at": "2026-10-16T21:03:08.599418",
+        "credibility_score": null
+      },
+      {
+        "url": "https://soniclab.io/tools/stereo-to-mono-converter",
+        "title": "Stereo to Mono Converter: Combine Left and Right Channels",
+        "snippet": "Convert stereo audio to a single mono channel. Learn how downmixing works, why phase cancellation happens, and which cables or adapters to use.",
+        "metadata": {
+          "search_query": "Converting stereo signal to mono signal is called?"
+        },
+        "retrieved_at": "2026-10-16T21:03:08.599430",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.sonible.com/blog/stereo-to-mono/",
+        "title": "Avoiding the Collapse: From Stereo to Mono (Compatibility)",
+        "snippet": "As outlined above, a mono signal is generated by summing the left and right channel of a stereo signal. The loss of the width layer means, that all signals covering a certain frequency region are now all coming from the same direction and are no longer separated by their spatial distance to each other.",
+        "metadata": {
+          "search_query": "Converting stereo signal to mono signal is called?"
+        },
+        "retrieved_at": "2026-10-16T21:03:08.599437",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.instructables.com/Simple-Way-to-Convert-Stereo-to-Mono/",
+        "title": "Simple Way to Convert Stereo to Mono - Instructables",
+        "snippet": "Simple Way to Convert Stereo to Mono: This is going to be a tutorial on how to take a stereo audio source from a phone for example and convert it to a mono signal to use with a mono amplifier or a two channel amplifier( I'll show you how to do this), and anything that needs a mono signa…",
+        "metadata": {
+          "search_query": "Converting stereo signal to mono signal is called?"
+        },
+        "retrieved_at": "2026-10-16T21:03:08.599443",
+        "credibility_score": null
+      },
+      {
+        "url": "https://soundcy.com/article/how-to-make-sound-mono",
+        "title": "Mastering Mono: Simple Steps To Convert Stereo Sound To Mono",
+        "snippet": "Making sound mono involves converting a stereo audio signal into a single channel, ensuring that both the left and right audio components are combined into one unified output.",
+        "metadata": {
+          "search_query": "Converting stereo signal to mono signal is called?"
+        },
+        "retrieved_at": "2026-10-16T21:03:08.599450",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "Converting stereo signal to mono signal is called downmixing.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:03:00.141029",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": true,
+    "conflict": {
+      "id": "b45e82ad",
+      "type": "factual",
+      "confidence": 0.9,
+      "explanation": "Both claims make mutually incompatible factual assertions about the terminology used for converting stereo signals to mono. Claim A states it's called 'mono summing' while Claim B states it's called 'downmixing', which are different terms for the same process in the same context.",
+      "claim_a": {
+        "text": "Converting stereo signal to mono signal is called mono summing.",
+        "source": {
+          "url": "https://www.aliexpress.com/s/wiki-ssr/article/converting-stereo-signal-to-mono-signal-is-called",
+          "title": "Converting Stereo Signal to Mono Signal Is Called: A ... - AliExpress",
+          "snippet": "Converting stereo signal to mono signal is called mono summing. This process combines left and right channels into one, ensuring compatibility, preventing phase issues, and maintaining audio clarity across various systems like amps, PA setups, and broadcast devices.",
+          "metadata": {
+            "search_query": "Converting stereo signal to mono signal is called?"
+          },
+          "retrieved_at": "2026-10-16T21:03:08.599418",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Converting stereo signal to mono signal is called downmixing.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Converting stereo signal to mono signal is called downmixing.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:03:00.141029",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "metadata": {
+        "classification_status": "llm_success",
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent"
+      },
+      "detected_at": "2026-10-16T21:03:45.309614"
+    },
+    "debate_outcome": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "proposer_argument": {
+            "id": "8170108c",
+            "round_number": 1,
+            "role": "proposer",
+            "agent_id": "proposer",
+            "content": "POSITION\nConverting stereo signal to mono signal is called downmixing.\n\nEVIDENCE REVIEW\nClaim A: Converting stereo signal to mono signal is called mono summing. - The retrieved evidence shows that \"mono summing\" generally refers to the process of combining multiple mono signals into a single mono output, not specifically converting from stereo to mono.\nClaim B: Converting stereo signal to mono signal is called downmixing. - The retrieved evidence supports that \"downmixing\" is the standard technical term for reducing the number of audio channels, such as from stereo (2 channels) to mono (1 channel).\n\nREASONING\nThe core issue is identifying the correct technical terminology for converting stereo audio to mono. While both terms involve combining channels, \"downmixing\" specifically describes the process of reducing channel count from stereo to mono, which is the standard industry term. \"Mono summing\" refers more broadly to mixing multiple mono signals together and is not the specific term used for stereo-to-mono conversion.\n\nSOURCE BASIS\nThe evidence present in the claims indicates that mono summing relates to combining mono signals, while downmixing relates to reducing channel count from stereo to mono.\n\nCONCLUSION\nDownmixing is the correct term for converting stereo signal to mono signal, as it accurately describes the technical process of reducing audio channels from stereo to mono.",
+            "evidence_refs": [
+              "agent_a",
+              "agent_b"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "factual",
+            "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+            "created_at": "2026-10-16T21:04:05.561278"
+          },
+          "critic_arguments": [
+            {
+              "id": "2687f433",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_1",
+              "content": "ISSUE\nThe evidence review establishes downmixing as correct but doesn't address potential exceptions or alternative contexts where \"mono summing\" might be technically applicable.\nWHY IT MATTERS\nIn audio engineering, terminology can vary by context (e.g., specific software interfaces or older equipment documentation), so overlooking these edge cases could limit the critique's completeness.\nIMPROVEMENT\nInclude a brief discussion of exceptions or specialized contexts where \"mono summing\" might be used interchangeably, even if downmixing remains the preferred standard term.",
+              "evidence_refs": [
+                "agent_a"
+              ],
+              "conflict_type": "factual",
+              "strategy_used": "critique_no_objection",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T21:04:22.599854"
+            },
+            {
+              "id": "1e7e3f3c",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_2",
+              "content": "ISSUE\nThe critique presents downmixing as definitively correct without fully exploring potential nuances in industry practice or regional variations in terminology.\nWHY IT MATTERS\nWhile downmixing is widely accepted, some professionals might use \"sum to mono\" or \"collapse channels\" in certain documentation, suggesting the landscape isn't entirely uniform.\nIMPROVEMENT\nAcknowledge that while downmixing is the technical standard, there may be colloquial or regional alternatives in practice, but maintain that downmixing remains the precise, industry-standard term for stereo-to-mono conversion.",
+              "evidence_refs": [
+                "agent_b"
+              ],
+              "conflict_type": "factual",
+              "strategy_used": "critique",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T21:04:22.599897"
+            }
+          ],
+          "reviser_argument": null,
+          "started_at": "2026-10-16T21:03:45.309961",
+          "completed_at": "2026-10-16T21:04:22.599918"
+        }
+      ],
+      "status": "completed",
+      "stop_reason": "no_objection",
+      "failed_stages": [],
+      "rounds_used": 1
+    },
+    "judge_result": {
+      "winner": "candidate_2",
+      "reason": "Downmixing is the correct technical term for converting stereo to mono, as it specifically describes reducing channel count from stereo (2 channels) to mono (1 channel), which is the industry standard terminology.",
+      "evidence_score": 1.0,
+      "reasoning_score": 1.0,
+      "source_score": 1.0,
+      "confidence": 1.0,
+      "scores": {
+        "candidate_1": 1.0,
+        "candidate_2": 1.0
+      },
+      "evaluated_at": "2026-10-16T21:04:44.501291"
+    },
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "disagreement",
+      "conflict_type": "factual",
+      "debate_completed": true,
+      "winner": "candidate_2",
+      "confidence": 1.0
+    },
+    "generated_at": "2026-10-16T21:04:44.501399"
+  },
+  "metrics": {
+    "latency_seconds": 119.00263023376465,
+    "evidence_state": "disagreement",
+    "debate_triggered": true,
+    "conflict_type": "factual",
+    "classification_status": "llm_success",
+    "debate_status": "completed",
+    "debate_stop_reason": "no_objection",
+    "debate_rounds_used": 1,
+    "total_llm_calls_ok": 6,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      },
+      "classifier": {
+        "ok": 1,
+        "failed": 0
+      },
+      "proposer": {
+        "ok": 1,
+        "failed": 0
+      },
+      "critic": {
+        "ok": 1,
+        "failed": 0
+      },
+      "judge": {
+        "ok": 1,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "standard_mad"
+  },
+  "started_at": "2026-10-16T21:02:45.498763",
+  "completed_at": "2026-10-16T21:04:44.501471",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0010",
+    "query": "Converting stereo signal to mono signal is called?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "Mono/Stereo Conversions",
+    "required_facts": [
+      "Mono/Stereo Conversions"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 17,
+      "answer_variants": [
+        "Mono/Stereo Conversions",
+        "Mono Summing"
+      ],
+      "annotation_explanation": "I chose it because I test the source and it's explicitly mentioned in context 1",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.ableton.com",
+          "text": "1 Mono/Stereo Conversions. When a mono signal is chosen as an audio track's input, the track will record mono samples; otherwise it will record stereo samples.",
+          "supports_answers": [
+            "Mono/Stereo Conversions"
+          ]
+        },
+        {
+          "source_domain": "unlockyoursound.com",
+          "text": "It's technically still mono information, but that same mono signal is now sent ... a stereo track, you're actually turning one channel up and turning the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.pianodreamers.com",
+          "text": "May 22, 2023 ... Common Uses: as a headphone splitter, converting mono outputs into a single stereo signal or vice versa (e.g. if your digital piano only has ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.head-fi.org",
+          "text": "You can certainly put an audio signal into one speaker though this will not ... This is also known as Mono Summing where a Stereo signal gets converted &/or ...",
+          "supports_answers": [
+            "Mono Summing"
+          ]
+        },
+        {
+          "source_domain": "electronics.stackexchange.com",
+          "text": "Feb 21, 2021 ... I'm trying to convert a stereo signal to a mono signal. It would come from a 3.5 mm stereo audio jack. The jack could be from just a dollar ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "gearspace.com",
+          "text": "Alright - So I've been searching around and can't find anything on converting a stereo signal to mono and what exactly happens. Now taking the L or R c.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "stackoverflow.com",
+          "text": "Oct 3, 2012 ... The implementation is one correct implementation of \"panning\" a mono signal into a stereo field. If you pan, instead all the way left or all ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "standard_mad",
+  "evaluation_seconds": 119.023,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

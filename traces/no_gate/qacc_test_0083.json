@@ -1,0 +1,999 @@
+{
+  "query": "When did brent barry won the dunk contest?",
+  "trace_id": "a2bbbf3c-dec9-427f-9766-24dabeb2d94a",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "When did brent barry won the dunk contest?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-17T00:33:19.703831"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "When did brent barry won the dunk contest?",
+          "answer": "Based on 5 sources:\n- Brent Barry - Wikipedia: The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996\n- He is the son of Basketball Hall of Famer Rick Barry\n- After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime\n- [3]\n\nBrent Barry - 1996 NBA Slam Dunk Contest (Champion) - YouTube: February 10, 1996 - Los Angeles Clippers rookie Brent Barry skied his way to the 1996 NBA Slam Dunk Contest crown with a series of free throw line jams\n- Brent Barry cut his dunk contest trophy into a bowl - Basketball Network: Brent Barry had his trophy from the 1996 NBA Dunk Contest cut in half and turned it into a chip bowl for special occasions like Halloween or the Super Bowl",
+          "claims": [
+            {
+              "id": "199db04a",
+              "text": "Brent Barry - Wikipedia: The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Brent_Barry",
+                "title": "Brent Barry - Wikipedia",
+                "snippet": "The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime. [3]",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.702994",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d56b911a",
+              "text": "He is the son of Basketball Hall of Famer Rick Barry",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=9It1HS65xnk",
+                "title": "Brent Barry - 1996 NBA Slam Dunk Contest (Champion) - YouTube",
+                "snippet": "February 10, 1996 - Los Angeles Clippers rookie Brent Barry skied his way to the 1996 NBA Slam Dunk Contest crown with a series of free throw line jams.",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.703013",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "adfc1a10",
+              "text": "After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime",
+              "source": {
+                "url": "https://www.basketballnetwork.net/off-the-court/brent-barry-revealed-that-he-converted-his-1996-dunk-contest-trophy-into-a-special-occasion-chips-bowl",
+                "title": "Brent Barry cut his dunk contest trophy into a bowl - Basketball Network",
+                "snippet": "Brent Barry had his trophy from the 1996 NBA Dunk Contest cut in half and turned it into a chip bowl for special occasions like Halloween or the Super Bowl.",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.703022",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "30dd18b7",
+              "text": "[3]\n\nBrent Barry - 1996 NBA Slam Dunk Contest (Champion) - YouTube: February 10, 1996 - Los Angeles Clippers rookie Brent Barry skied his way to the 1996 NBA Slam Dunk Contest crown with a series of free throw line jams",
+              "source": {
+                "url": "https://www.nba.com/news/history-slam-dunk-contest",
+                "title": "NBA All-Star Slam Dunk Contest Winners - NBA.com",
+                "snippet": "History NBA All-Star Slam Dunk Contest Winners Check out every NBA slam dunk contest winners since 1984.",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.703029",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2d96a590",
+              "text": "Brent Barry cut his dunk contest trophy into a bowl - Basketball Network: Brent Barry had his trophy from the 1996 NBA Dunk Contest cut in half and turned it into a chip bowl for special occasions like Halloween or the Super Bowl",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Slam_Dunk_Contest",
+                "title": "Slam Dunk Contest - Wikipedia",
+                "snippet": "The NBA Slam Dunk Contest (officially known as the AT&T Slam Dunk) is an annual National Basketball Association (NBA) competition held during the NBA All-Star Weekend. [1] The contest was conceived of and started by the American Basketball Association (ABA) for its 1976 ABA All-Star Game in Denver. [2] The winner was Julius Erving of the New York Nets. [2] As a result of the ABA-NBA merger ...",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.703035",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "35ce5e3c",
+              "text": "NBA All-Star Slam Dunk Contest Winners - NBA",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Brent_Barry",
+                "title": "Brent Barry - Wikipedia",
+                "snippet": "The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime. [3]",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.702994",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "21e37fd0",
+              "text": "com: History NBA All-Star Slam Dunk Contest Winners Check out every NBA slam dunk contest winners since 1984",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=9It1HS65xnk",
+                "title": "Brent Barry - 1996 NBA Slam Dunk Contest (Champion) - YouTube",
+                "snippet": "February 10, 1996 - Los Angeles Clippers rookie Brent Barry skied his way to the 1996 NBA Slam Dunk Contest crown with a series of free throw line jams.",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.703013",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "48c2eaf4",
+              "text": "Slam Dunk Contest - Wikipedia: The NBA Slam Dunk Contest (officially known as the AT&T Slam Dunk) is an annual National Basketball Association (NBA) competition held during the NBA All-Star Weekend",
+              "source": {
+                "url": "https://www.basketballnetwork.net/off-the-court/brent-barry-revealed-that-he-converted-his-1996-dunk-contest-trophy-into-a-special-occasion-chips-bowl",
+                "title": "Brent Barry cut his dunk contest trophy into a bowl - Basketball Network",
+                "snippet": "Brent Barry had his trophy from the 1996 NBA Dunk Contest cut in half and turned it into a chip bowl for special occasions like Halloween or the Super Bowl.",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.703022",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e0015add",
+              "text": "[1] The contest was conceived of and started by the American Basketball Association (ABA) for its 1976 ABA All-Star Game in Denver",
+              "source": {
+                "url": "https://www.nba.com/news/history-slam-dunk-contest",
+                "title": "NBA All-Star Slam Dunk Contest Winners - NBA.com",
+                "snippet": "History NBA All-Star Slam Dunk Contest Winners Check out every NBA slam dunk contest winners since 1984.",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.703029",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "499e3e26",
+              "text": "[2] The winner was Julius Erving of the New York Nets",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Slam_Dunk_Contest",
+                "title": "Slam Dunk Contest - Wikipedia",
+                "snippet": "The NBA Slam Dunk Contest (officially known as the AT&T Slam Dunk) is an annual National Basketball Association (NBA) competition held during the NBA All-Star Weekend. [1] The contest was conceived of and started by the American Basketball Association (ABA) for its 1976 ABA All-Star Game in Denver. [2] The winner was Julius Erving of the New York Nets. [2] As a result of the ABA-NBA merger ...",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.703035",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Brent_Barry",
+              "title": "Brent Barry - Wikipedia",
+              "snippet": "The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime. [3]",
+              "metadata": {
+                "search_query": "When did brent barry won the dunk contest?"
+              },
+              "retrieved_at": "2026-10-17T00:33:19.702994",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=9It1HS65xnk",
+              "title": "Brent Barry - 1996 NBA Slam Dunk Contest (Champion) - YouTube",
+              "snippet": "February 10, 1996 - Los Angeles Clippers rookie Brent Barry skied his way to the 1996 NBA Slam Dunk Contest crown with a series of free throw line jams.",
+              "metadata": {
+                "search_query": "When did brent barry won the dunk contest?"
+              },
+              "retrieved_at": "2026-10-17T00:33:19.703013",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.basketballnetwork.net/off-the-court/brent-barry-revealed-that-he-converted-his-1996-dunk-contest-trophy-into-a-special-occasion-chips-bowl",
+              "title": "Brent Barry cut his dunk contest trophy into a bowl - Basketball Network",
+              "snippet": "Brent Barry had his trophy from the 1996 NBA Dunk Contest cut in half and turned it into a chip bowl for special occasions like Halloween or the Super Bowl.",
+              "metadata": {
+                "search_query": "When did brent barry won the dunk contest?"
+              },
+              "retrieved_at": "2026-10-17T00:33:19.703022",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.nba.com/news/history-slam-dunk-contest",
+              "title": "NBA All-Star Slam Dunk Contest Winners - NBA.com",
+              "snippet": "History NBA All-Star Slam Dunk Contest Winners Check out every NBA slam dunk contest winners since 1984.",
+              "metadata": {
+                "search_query": "When did brent barry won the dunk contest?"
+              },
+              "retrieved_at": "2026-10-17T00:33:19.703029",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Slam_Dunk_Contest",
+              "title": "Slam Dunk Contest - Wikipedia",
+              "snippet": "The NBA Slam Dunk Contest (officially known as the AT&T Slam Dunk) is an annual National Basketball Association (NBA) competition held during the NBA All-Star Weekend. [1] The contest was conceived of and started by the American Basketball Association (ABA) for its 1976 ABA All-Star Game in Denver. [2] The winner was Julius Erving of the New York Nets. [2] As a result of the ABA-NBA merger ...",
+              "metadata": {
+                "search_query": "When did brent barry won the dunk contest?"
+              },
+              "retrieved_at": "2026-10-17T00:33:19.703035",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Brent Barry - Wikipedia: The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime. [3]\n\nBrent Barry - 1996 NBA Slam Dunk Contest (Champion) - YouTube: February 10, 1996 - Los Angeles Clippers rookie Brent Barry skied his way to the 1996 NBA Slam Dunk Contest crown with a series of free throw line jams.\n\nBrent Barry cut his dunk contest trophy into a bowl - Basketball Network: Brent Barry had his trophy from the 1996 NBA Dunk Contest cut in half and turned it into a chip bowl for special occasions like Halloween or the Super Bowl.\n\nNBA All-Star Slam Dunk Contest Winners - NBA.com: History NBA All-Star Slam Dunk Contest Winners Check out every NBA slam dunk contest winners since 1984.\n\nSlam Dunk Contest - Wikipedia: The NBA Slam Dunk Contest (officially known as the AT&T Slam Dunk) is an annual National Basketball Association (NBA) competition held during the NBA All-Star Weekend. [1] The contest was conceived of and started by the American Basketball Association (ABA) for its 1976 ABA All-Star Game in Denver. [2] The winner was Julius Erving of the New York Nets. [2] As a result of the ABA-NBA merger ...",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-17T00:33:19.703303"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "When did brent barry won the dunk contest?",
+          "answer": "Based on 5 sources:\n- Brent Barry: won the Slam Dunk Contest in 1996\n- He is the son of Basketball Hall of Famer Rick Barry\n- After retiring, Barry worked as a sports commentator for the\n\nSlam Dunk Contest: The NBA Slam Dunk Contest (officially known as the AT&T Slam Dunk) is an annual National Basketball Association (NBA) competition held during the NBA\n\nSlam dunk: against the Chicago Bulls (the most recent shattered-backboard incident in the NBA to date)\n- In the 1996 NBA Slam Dunk Contest, winner Brent Barry dunked from\n\n2010 NBA All-Star Game: Robinson won his third Slam Dunk Contest while Paul Pierce and Steve Nash won the Three-Point Shootout and Skills Challenge respectively\n- Team Texas, the home\n\nNBA on CBS: season, the NBA's first after the ABA–NBA merger brought four American Basketball Association teams into the league, CBS held a slam dunk contest that ran",
+          "claims": [
+            {
+              "id": "41571eb5",
+              "text": "Brent Barry: won the Slam Dunk Contest in 1996",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=633925",
+                "title": "Brent Barry",
+                "snippet": "won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.704130",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a944f24f",
+              "text": "He is the son of Basketball Hall of Famer Rick Barry",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1826771",
+                "title": "Slam Dunk Contest",
+                "snippet": "The NBA Slam Dunk Contest (officially known as the AT&T Slam Dunk) is an annual National Basketball Association (NBA) competition held during the NBA",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.704146",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "6dd29af2",
+              "text": "After retiring, Barry worked as a sports commentator for the\n\nSlam Dunk Contest: The NBA Slam Dunk Contest (officially known as the AT&T Slam Dunk) is an annual National Basketball Association (NBA) competition held during the NBA\n\nSlam dunk: against the Chicago Bulls (the most recent shattered-backboard incident in the NBA to date)",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=147733",
+                "title": "Slam dunk",
+                "snippet": "against the Chicago Bulls (the most recent shattered-backboard incident in the NBA to date). In the 1996 NBA Slam Dunk Contest, winner Brent Barry dunked from",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.704155",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "94907f3a",
+              "text": "In the 1996 NBA Slam Dunk Contest, winner Brent Barry dunked from\n\n2010 NBA All-Star Game: Robinson won his third Slam Dunk Contest while Paul Pierce and Steve Nash won the Three-Point Shootout and Skills Challenge respectively",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=15753220",
+                "title": "2010 NBA All-Star Game",
+                "snippet": "Robinson won his third Slam Dunk Contest while Paul Pierce and Steve Nash won the Three-Point Shootout and Skills Challenge respectively. Team Texas, the home",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.704161",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2d673c40",
+              "text": "Team Texas, the home\n\nNBA on CBS: season, the NBA's first after the ABA–NBA merger brought four American Basketball Association teams into the league, CBS held a slam dunk contest that ran",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3505049",
+                "title": "NBA on CBS",
+                "snippet": "season, the NBA's first after the ABA–NBA merger brought four American Basketball Association teams into the league, CBS held a slam dunk contest that ran",
+                "metadata": {
+                  "search_query": "When did brent barry won the dunk contest?"
+                },
+                "retrieved_at": "2026-10-17T00:33:19.704167",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=633925",
+              "title": "Brent Barry",
+              "snippet": "won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the",
+              "metadata": {
+                "search_query": "When did brent barry won the dunk contest?"
+              },
+              "retrieved_at": "2026-10-17T00:33:19.704130",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=1826771",
+              "title": "Slam Dunk Contest",
+              "snippet": "The NBA Slam Dunk Contest (officially known as the AT&T Slam Dunk) is an annual National Basketball Association (NBA) competition held during the NBA",
+              "metadata": {
+                "search_query": "When did brent barry won the dunk contest?"
+              },
+              "retrieved_at": "2026-10-17T00:33:19.704146",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=147733",
+              "title": "Slam dunk",
+              "snippet": "against the Chicago Bulls (the most recent shattered-backboard incident in the NBA to date). In the 1996 NBA Slam Dunk Contest, winner Brent Barry dunked from",
+              "metadata": {
+                "search_query": "When did brent barry won the dunk contest?"
+              },
+              "retrieved_at": "2026-10-17T00:33:19.704155",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=15753220",
+              "title": "2010 NBA All-Star Game",
+              "snippet": "Robinson won his third Slam Dunk Contest while Paul Pierce and Steve Nash won the Three-Point Shootout and Skills Challenge respectively. Team Texas, the home",
+              "metadata": {
+                "search_query": "When did brent barry won the dunk contest?"
+              },
+              "retrieved_at": "2026-10-17T00:33:19.704161",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=3505049",
+              "title": "NBA on CBS",
+              "snippet": "season, the NBA's first after the ABA–NBA merger brought four American Basketball Association teams into the league, CBS held a slam dunk contest that ran",
+              "metadata": {
+                "search_query": "When did brent barry won the dunk contest?"
+              },
+              "retrieved_at": "2026-10-17T00:33:19.704167",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Brent Barry: won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the\n\nSlam Dunk Contest: The NBA Slam Dunk Contest (officially known as the AT&T Slam Dunk) is an annual National Basketball Association (NBA) competition held during the NBA\n\nSlam dunk: against the Chicago Bulls (the most recent shattered-backboard incident in the NBA to date). In the 1996 NBA Slam Dunk Contest, winner Brent Barry dunked from\n\n2010 NBA All-Star Game: Robinson won his third Slam Dunk Contest while Paul Pierce and Steve Nash won the Three-Point Shootout and Skills Challenge respectively. Team Texas, the home\n\nNBA on CBS: season, the NBA's first after the ABA–NBA merger brought four American Basketball Association teams into the league, CBS held a slam dunk contest that ran",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-17T00:33:19.704338"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "When did brent barry won the dunk contest?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:33:19.705364"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "When did brent barry won the dunk contest?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime. [3]",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Brent_Barry",
+            "title": "Brent Barry - Wikipedia",
+            "snippet": "The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime. [3]",
+            "metadata": {
+              "search_query": "When did brent barry won the dunk contest?"
+            },
+            "retrieved_at": "2026-10-17T00:33:19.705848",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Brent_Barry",
+          "title": "Brent Barry - Wikipedia",
+          "snippet": "The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime. [3]",
+          "metadata": {
+            "search_query": "When did brent barry won the dunk contest?"
+          },
+          "retrieved_at": "2026-10-17T00:33:19.705848",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9It1HS65xnk",
+          "title": "Brent Barry - 1996 NBA Slam Dunk Contest (Champion) - YouTube",
+          "snippet": "February 10, 1996 - Los Angeles Clippers rookie Brent Barry skied his way to the 1996 NBA Slam Dunk Contest crown with a series of free throw line jams.",
+          "metadata": {
+            "search_query": "When did brent barry won the dunk contest?"
+          },
+          "retrieved_at": "2026-10-17T00:33:19.705865",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.basketballnetwork.net/off-the-court/brent-barry-revealed-that-he-converted-his-1996-dunk-contest-trophy-into-a-special-occasion-chips-bowl",
+          "title": "Brent Barry cut his dunk contest trophy into a bowl - Basketball Network",
+          "snippet": "Brent Barry had his trophy from the 1996 NBA Dunk Contest cut in half and turned it into a chip bowl for special occasions like Halloween or the Super Bowl.",
+          "metadata": {
+            "search_query": "When did brent barry won the dunk contest?"
+          },
+          "retrieved_at": "2026-10-17T00:33:19.705871",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.nba.com/news/history-slam-dunk-contest",
+          "title": "NBA All-Star Slam Dunk Contest Winners - NBA.com",
+          "snippet": "History NBA All-Star Slam Dunk Contest Winners Check out every NBA slam dunk contest winners since 1984.",
+          "metadata": {
+            "search_query": "When did brent barry won the dunk contest?"
+          },
+          "retrieved_at": "2026-10-17T00:33:19.705877",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Slam_Dunk_Contest",
+          "title": "Slam Dunk Contest - Wikipedia",
+          "snippet": "The NBA Slam Dunk Contest (officially known as the AT&T Slam Dunk) is an annual National Basketball Association (NBA) competition held during the NBA All-Star Weekend. [1] The contest was conceived of and started by the American Basketball Association (ABA) for its 1976 ABA All-Star Game in Denver. [2] The winner was Julius Erving of the New York Nets. [2] As a result of the ABA-NBA merger ...",
+          "metadata": {
+            "search_query": "When did brent barry won the dunk contest?"
+          },
+          "retrieved_at": "2026-10-17T00:33:19.705883",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:34:07.724856"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "When did brent barry won the dunk contest?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=633925",
+            "title": "Brent Barry",
+            "snippet": "won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the",
+            "metadata": {
+              "search_query": "When did brent barry won the dunk contest?"
+            },
+            "retrieved_at": "2026-10-17T00:34:07.725262",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=633925",
+          "title": "Brent Barry",
+          "snippet": "won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the",
+          "metadata": {
+            "search_query": "When did brent barry won the dunk contest?"
+          },
+          "retrieved_at": "2026-10-17T00:34:07.725262",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=1826771",
+          "title": "Slam Dunk Contest",
+          "snippet": "The NBA Slam Dunk Contest (officially known as the AT&T Slam Dunk) is an annual National Basketball Association (NBA) competition held during the NBA",
+          "metadata": {
+            "search_query": "When did brent barry won the dunk contest?"
+          },
+          "retrieved_at": "2026-10-17T00:34:07.725285",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=147733",
+          "title": "Slam dunk",
+          "snippet": "against the Chicago Bulls (the most recent shattered-backboard incident in the NBA to date). In the 1996 NBA Slam Dunk Contest, winner Brent Barry dunked from",
+          "metadata": {
+            "search_query": "When did brent barry won the dunk contest?"
+          },
+          "retrieved_at": "2026-10-17T00:34:07.725301",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=15753220",
+          "title": "2010 NBA All-Star Game",
+          "snippet": "Robinson won his third Slam Dunk Contest while Paul Pierce and Steve Nash won the Three-Point Shootout and Skills Challenge respectively. Team Texas, the home",
+          "metadata": {
+            "search_query": "When did brent barry won the dunk contest?"
+          },
+          "retrieved_at": "2026-10-17T00:34:07.725312",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=3505049",
+          "title": "NBA on CBS",
+          "snippet": "season, the NBA's first after the ABA–NBA merger brought four American Basketball Association teams into the league, CBS held a slam dunk contest that ran",
+          "metadata": {
+            "search_query": "When did brent barry won the dunk contest?"
+          },
+          "retrieved_at": "2026-10-17T00:34:07.725324",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:35:01.747258"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "When did brent barry won the dunk contest?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/openrouter/free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/openrouter/free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-17T00:34:04.718201"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent",
+        "claim_a_text": "The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime. [3]",
+        "claim_b_text": "won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the",
+        "label": "neutral",
+        "contradiction_score": 0.002556725637987256,
+        "entailment_score": 0.005327416118234396,
+        "neutral_score": 0.9942739605903625
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "reference_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/openrouter/free: opencode timed out after 45.0s)"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent",
+      "claim_a": {
+        "text": "The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime. [3]",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Brent_Barry",
+          "title": "Brent Barry - Wikipedia",
+          "snippet": "The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime. [3]",
+          "metadata": {
+            "search_query": "When did brent barry won the dunk contest?"
+          },
+          "retrieved_at": "2026-10-17T00:33:19.705848",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=633925",
+          "title": "Brent Barry",
+          "snippet": "won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the",
+          "metadata": {
+            "search_query": "When did brent barry won the dunk contest?"
+          },
+          "retrieved_at": "2026-10-17T00:34:07.725262",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.002556725637987256
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.002556725637987256,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "ac779f80",
+    "type": "unknown",
+    "confidence": 0.5,
+    "explanation": "Standard MAD always debates (no gate) — generic strategy",
+    "claim_a": {
+      "text": "The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime. [3]",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Brent_Barry",
+        "title": "Brent Barry - Wikipedia",
+        "snippet": "The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime. [3]",
+        "metadata": {
+          "search_query": "When did brent barry won the dunk contest?"
+        },
+        "retrieved_at": "2026-10-17T00:33:19.705848",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the",
+      "source": {
+        "url": "https://en.wikipedia.org/?curid=633925",
+        "title": "Brent Barry",
+        "snippet": "won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the",
+        "metadata": {
+          "search_query": "When did brent barry won the dunk contest?"
+        },
+        "retrieved_at": "2026-10-17T00:34:07.725262",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent",
+      "forced": true
+    },
+    "detected_at": "2026-10-17T00:35:03.973939"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": null,
+      "critic_arguments": [],
+      "reviser_argument": null,
+      "started_at": "2026-10-17T00:35:03.974341",
+      "completed_at": null
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": null,
+        "critic_arguments": [],
+        "reviser_argument": null,
+        "started_at": "2026-10-17T00:35:03.974341",
+        "completed_at": null
+      }
+    ],
+    "status": "failed",
+    "stop_reason": "stage_failure",
+    "failed_stages": [
+      "proposer"
+    ],
+    "rounds_used": 0
+  },
+  "judge_result": null,
+  "final_answer": {
+    "query": "When did brent barry won the dunk contest?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [web_agent]: The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime. [3]\n- [reference_agent]: won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brent_Barry",
+        "title": "Brent Barry - Wikipedia",
+        "snippet": "The shooting guard played professionally in the NBA, winning two league championships with the Spurs in 2005 and 2007, and also won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the NBA on TNT and was a studio host for the NBA TV show NBA Gametime. [3]",
+        "metadata": {
+          "search_query": "When did brent barry won the dunk contest?"
+        },
+        "retrieved_at": "2026-10-17T00:33:19.705848",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=9It1HS65xnk",
+        "title": "Brent Barry - 1996 NBA Slam Dunk Contest (Champion) - YouTube",
+        "snippet": "February 10, 1996 - Los Angeles Clippers rookie Brent Barry skied his way to the 1996 NBA Slam Dunk Contest crown with a series of free throw line jams.",
+        "metadata": {
+          "search_query": "When did brent barry won the dunk contest?"
+        },
+        "retrieved_at": "2026-10-17T00:33:19.705865",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.basketballnetwork.net/off-the-court/brent-barry-revealed-that-he-converted-his-1996-dunk-contest-trophy-into-a-special-occasion-chips-bowl",
+        "title": "Brent Barry cut his dunk contest trophy into a bowl - Basketball Network",
+        "snippet": "Brent Barry had his trophy from the 1996 NBA Dunk Contest cut in half and turned it into a chip bowl for special occasions like Halloween or the Super Bowl.",
+        "metadata": {
+          "search_query": "When did brent barry won the dunk contest?"
+        },
+        "retrieved_at": "2026-10-17T00:33:19.705871",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.nba.com/news/history-slam-dunk-contest",
+        "title": "NBA All-Star Slam Dunk Contest Winners - NBA.com",
+        "snippet": "History NBA All-Star Slam Dunk Contest Winners Check out every NBA slam dunk contest winners since 1984.",
+        "metadata": {
+          "search_query": "When did brent barry won the dunk contest?"
+        },
+        "retrieved_at": "2026-10-17T00:33:19.705877",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Slam_Dunk_Contest",
+        "title": "Slam Dunk Contest - Wikipedia",
+        "snippet": "The NBA Slam Dunk Contest (officially known as the AT&T Slam Dunk) is an annual National Basketball Association (NBA) competition held during the NBA All-Star Weekend. [1] The contest was conceived of and started by the American Basketball Association (ABA) for its 1976 ABA All-Star Game in Denver. [2] The winner was Julius Erving of the New York Nets. [2] As a result of the ABA-NBA merger ...",
+        "metadata": {
+          "search_query": "When did brent barry won the dunk contest?"
+        },
+        "retrieved_at": "2026-10-17T00:33:19.705883",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=633925",
+        "title": "Brent Barry",
+        "snippet": "won the Slam Dunk Contest in 1996. He is the son of Basketball Hall of Famer Rick Barry. After retiring, Barry worked as a sports commentator for the",
+        "metadata": {
+          "search_query": "When did brent barry won the dunk contest?"
+        },
+        "retrieved_at": "2026-10-17T00:34:07.725262",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=1826771",
+        "title": "Slam Dunk Contest",
+        "snippet": "The NBA Slam Dunk Contest (officially known as the AT&T Slam Dunk) is an annual National Basketball Association (NBA) competition held during the NBA",
+        "metadata": {
+          "search_query": "When did brent barry won the dunk contest?"
+        },
+        "retrieved_at": "2026-10-17T00:34:07.725285",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=147733",
+        "title": "Slam dunk",
+        "snippet": "against the Chicago Bulls (the most recent shattered-backboard incident in the NBA to date). In the 1996 NBA Slam Dunk Contest, winner Brent Barry dunked from",
+        "metadata": {
+          "search_query": "When did brent barry won the dunk contest?"
+        },
+        "retrieved_at": "2026-10-17T00:34:07.725301",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=15753220",
+        "title": "2010 NBA All-Star Game",
+        "snippet": "Robinson won his third Slam Dunk Contest while Paul Pierce and Steve Nash won the Three-Point Shootout and Skills Challenge respectively. Team Texas, the home",
+        "metadata": {
+          "search_query": "When did brent barry won the dunk contest?"
+        },
+        "retrieved_at": "2026-10-17T00:34:07.725312",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=3505049",
+        "title": "NBA on CBS",
+        "snippet": "season, the NBA's first after the ABA–NBA merger brought four American Basketball Association teams into the league, CBS held a slam dunk contest that ran",
+        "metadata": {
+          "search_query": "When did brent barry won the dunk contest?"
+        },
+        "retrieved_at": "2026-10-17T00:34:07.725324",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-17T00:35:03.973572"
+  },
+  "metrics": {
+    "latency_seconds": 104.27202272415161,
+    "evidence_state": "uncertain",
+    "debate_triggered": true,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 2,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 0,
+        "failed": 2
+      }
+    },
+    "retrieval_failure_rate": 0.25,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "system": "no_gate"
+  },
+  "started_at": "2026-10-17T00:33:19.701542",
+  "completed_at": "2026-10-17T00:35:03.973618",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0083",
+    "query": "When did brent barry won the dunk contest?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "1996",
+    "required_facts": [
+      "1996"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 106,
+      "answer_variants": [
+        "1996"
+      ],
+      "annotation_explanation": "This is the only one that can be verified by looking it up.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Mar 3, 2012 ... February 10, 1996 - Los Angeles Clippers rookie Brent Barry skied his way to the 1996 NBA Slam Dunk Contest crown with a series of free ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "He was on the San Antonio Spurs championship teams in 2005 and 2007. He won the Slam Dunk Contest in the NBA All-Star Weekend in 1996 with a Julius ...",
+          "supports_answers": [
+            "1996"
+          ]
+        },
+        {
+          "source_domain": "ballislife.com",
+          "text": "Dec 31, 2016 ... The not so popular 1996 NBA dunk contest is mainly known for two things: #1 is Brent Barry, four years after Woody Harrelson tried to dunk ...",
+          "supports_answers": [
+            "1996"
+          ]
+        },
+        {
+          "source_domain": "www.latimes.com",
+          "text": "Feb 16, 2018 ... Brent Barry was a surprise winner of the slam dunk contest in 1996, when he was a rookie with the Clippers. (Barry ...",
+          "supports_answers": [
+            "1996"
+          ]
+        },
+        {
+          "source_domain": "bleacherreport.com",
+          "text": "Brent Barry won the contest, even though he technically used the same dunk in ... Webb's final dunk was a perfectly executed two-handed reverse slam that ...",
+          "supports_answers": [
+            "1996"
+          ]
+        },
+        {
+          "source_domain": "www.reddit.com",
+          "text": "Feb 19, 2023 ... Dunk contest, 3pt contest and crip walk legend, Brent Barry. ... Hollywood has got to be running out of corpses to desecrate by now.",
+          "supports_answers": [
+            "1996"
+          ]
+        },
+        {
+          "source_domain": "www.barstoolsports.com",
+          "text": "Feb 19, 2023 ... Fucking Brent Barry won the dunk contest in 1996. I know everyone says the dunk contest isn't what it used to be, which is true, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.goldenstateofmind.com",
+          "text": "Jan 14, 2023 ... Since Brent Barry won the slam dunk contest in 1996, there's never been another white dunk champ. In fact, there's only been six white ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.basketballnetwork.net",
+          "text": "Jan 30, 2021 ... However, it gave us the most surprising winner, with rookie Brent Barry taking home the trophy. Barry played for the LA Clippers, who were a ...",
+          "supports_answers": [
+            "1996"
+          ]
+        },
+        {
+          "source_domain": "www.quora.com",
+          "text": "No one has. Brent Barry won the dunk contest in 1996 as a Clipper https://youtu.be/9It1HS65xnk Exercise is best way to increase vertical jump.",
+          "supports_answers": [
+            "1996"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_gate",
+  "evaluation_seconds": 317.763,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

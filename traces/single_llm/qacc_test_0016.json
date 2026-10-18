@@ -1,0 +1,146 @@
+{
+  "query": "Where is the tennessee titans football stadium located?",
+  "trace_id": "7da48b02-4f41-4b9e-9777-96262caa458e",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Where is the tennessee titans football stadium located?",
+    "answer": "The Tennessee Titans' stadium, Nissan Stadium, is located in Nashville, Tennessee on the west bank of the Cumberland River.",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-16T21:13:33.523410"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 33.57603693008423,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-16T21:12:59.947473",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0016",
+    "query": "Where is the tennessee titans football stadium located?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Nashville",
+    "required_facts": [
+      "Nashville"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 24,
+      "answer_variants": [
+        "Nashville"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 1, 2,3,4,5,6,7 and 8",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Nissan Stadium is a multi-purpose stadium in Nashville, Tennessee, United States. Owned by the Metropolitan Government of Nashville and Davidson County, ...",
+          "supports_answers": [
+            "Nashville"
+          ]
+        },
+        {
+          "source_domain": "www.tennesseetitans.com",
+          "text": "Nissan Stadium - Music City's Premier Entertainment Destination - is the home of the Tennessee Titans.",
+          "supports_answers": [
+            "Nashville"
+          ]
+        },
+        {
+          "source_domain": "www.trolleytours.com",
+          "text": "Home to the NFL's Tennessee Titans, Nissan Stadium is a multipurpose sports and entertainment venue located on the east bank of the Cumberland River across ...",
+          "supports_answers": [
+            "Nashville"
+          ]
+        },
+        {
+          "source_domain": "www.tnvacation.com",
+          "text": "In 1999, the team moved into its 69,143-seat home, Nissan Stadium, located on the east bank of the Cumberland River in downtown Nashville. Don't miss any of the ...",
+          "supports_answers": [
+            "Nashville"
+          ]
+        },
+        {
+          "source_domain": "www.mapquest.com",
+          "text": "Get directions, reviews and information for Nissan Stadium in Nashville, TN. You can also find other Delivery Service on MapQuest.",
+          "supports_answers": [
+            "Nashville"
+          ]
+        },
+        {
+          "source_domain": "www.stadiumsofprofootball.com",
+          "text": "Located in the Music City along the banks of the Cumberland River and across from downtown Nashville, Nissan Stadium has been the home of the Titans since ...",
+          "supports_answers": [
+            "Nashville"
+          ]
+        },
+        {
+          "source_domain": "nashvilledowntown.com",
+          "text": "Nissan Stadium, formerly known as LP Field, is home to the Tennessee Titans. Nissan Stadium will host all of the Titans' home football games, along with ...",
+          "supports_answers": [
+            "Nashville"
+          ]
+        },
+        {
+          "source_domain": "www.visitmusiccity.com",
+          "text": "Located on 105 acres on Nashville's East Bank of the Cumberland River overlooking downtown Nashville, the venue hosts Tennessee Titans home football games, ...",
+          "supports_answers": [
+            "Nashville"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 33.594,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

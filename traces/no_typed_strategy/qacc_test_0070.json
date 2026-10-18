@@ -1,0 +1,297 @@
+{
+  "query": "Who has said that caste is a closed class?",
+  "trace_id": "5c838271-5630-4d75-9d1a-9ec2a01c7963",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who has said that caste is a closed class?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:23:03.351591"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who has said that caste is a closed class?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:23:03.350980"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Who has said that caste is a closed class?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:23:13.332769"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who has said that caste is a closed class?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:23:13.332798"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who has said that caste is a closed class?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:23:13.332811"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who has said that caste is a closed class?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:23:48.370033"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who has said that caste is a closed class?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:23:58.335917"
+  },
+  "metrics": {
+    "latency_seconds": 54.98666548728943,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_typed_strategy"
+  },
+  "started_at": "2026-10-16T22:23:03.349249",
+  "completed_at": "2026-10-16T22:23:58.335963",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0070",
+    "query": "Who has said that caste is a closed class?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Majumdar & Madan",
+    "required_facts": [
+      "Majumdar & Madan"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 90,
+      "answer_variants": [
+        "Majumdar & Madan"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 1,2,3 and 9",
+      "evidence_contexts": [
+        {
+          "source_domain": "byjus.com",
+          "text": "Majumdar & Madan said this statement -Caste is a closed class. This statement refers to the Caste System in India. · \"Only God, who appointed me, will remove me.",
+          "supports_answers": [
+            "Majumdar & Madan"
+          ]
+        },
+        {
+          "source_domain": "www.doubtnut.com",
+          "text": "Majumdar & Madan said Caste is a closed class. · Who was Charu Majumdar? · Introducing Deepa, Madan said : His father is the only son of my father. · Who gave the ...",
+          "supports_answers": [
+            "Majumdar & Madan"
+          ]
+        },
+        {
+          "source_domain": "www.sarthaks.com",
+          "text": "Feb 5, 2019 ... Majumdar & Madan said, \"Caste is a closed class\".",
+          "supports_answers": [
+            "Majumdar & Madan"
+          ]
+        },
+        {
+          "source_domain": "courses.lumenlearning.com",
+          "text": "Caste systems are closed stratification systems in which people can do little ... The class system has fluid boundaries–think of “rags to riches” stories, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.cnn.com",
+          "text": "Apr 16, 2020 ... Pollama said she was stopped by higher caste community members as she ... India has closed its railways for the first time in 167 years.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.wisdomlib.org",
+          "text": "May 1, 2020 ... Such class is closed caste. Thus we can say that the caste system in modern India is a close class system which does not favour any movement ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "openstax.org",
+          "text": "Jun 3, 2021 ... Differentiate between open and closed stratification systems; Distinguish between caste and class systems; Explain why meritocracy is considered ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.columbia.edu",
+          "text": "(2) Mr. Nesfield defines a caste as \"a class of the community which disowns any ... In spite of the newness of the point we must say that Mr. Nesfield has ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "brainly.in",
+          "text": "Dec 8, 2019 ... Definition of Caste System. According to Mazumdar & Madan – 'Caste is a closed class' i.e. class refers to people based on property, ...",
+          "supports_answers": [
+            "Majumdar & Madan"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_typed_strategy",
+  "evaluation_seconds": 55.001,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

@@ -1,0 +1,958 @@
+{
+  "query": "Who wrote the song rainy days and mondays?",
+  "trace_id": "f3b68fa1-c917-4369-b9c5-e125ba68c374",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who wrote the song rainy days and mondays?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-17T00:04:54.899974"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who wrote the song rainy days and mondays?",
+          "answer": "Based on 5 sources:\n- Paul Williams (songwriter): Begun\" and \"Rainy Days and Mondays\"\n- He also wrote \"Cried Like a Baby\" for teen idol Bobby Sherman\n- Williams is also known for writing the score and lyrics\n\nRoger Nichols (songwriter): covered by R\n- ), reached the Top TWenty\n- Six months later, \"Rainy Days and Mondays\" was another gold record by The Carpenters and Nichols' third gold record\n\nI Won't Last a Day Without You: Begun\" and \"Rainy Days and Mondays\" to the Carpenters",
+          "claims": [
+            {
+              "id": "9c77800f",
+              "text": "Paul Williams (songwriter): Begun\" and \"Rainy Days and Mondays\"",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=371868",
+                "title": "Paul Williams (songwriter)",
+                "snippet": "Begun\" and \"Rainy Days and Mondays\". He also wrote \"Cried Like a Baby\" for teen idol Bobby Sherman. Williams is also known for writing the score and lyrics",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.096047",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "859f83a2",
+              "text": "He also wrote \"Cried Like a Baby\" for teen idol Bobby Sherman",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=7683596",
+                "title": "Roger Nichols (songwriter)",
+                "snippet": "covered by R.E.M.), reached the Top TWenty. Six months later, \"Rainy Days and Mondays\" was another gold record by The Carpenters and Nichols' third gold record",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.096076",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "92df420b",
+              "text": "Williams is also known for writing the score and lyrics\n\nRoger Nichols (songwriter): covered by R",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=8076977",
+                "title": "I Won't Last a Day Without You",
+                "snippet": "Begun\" and \"Rainy Days and Mondays\" to the Carpenters. The song was written by Paul Williams (lyrics) and Roger Nichols (music) who also wrote two previous",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.096085",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "4eefecd1",
+              "text": "), reached the Top TWenty",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=371868",
+                "title": "Paul Williams (songwriter)",
+                "snippet": "Begun\" and \"Rainy Days and Mondays\". He also wrote \"Cried Like a Baby\" for teen idol Bobby Sherman. Williams is also known for writing the score and lyrics",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.096047",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "85fb6f9f",
+              "text": "Six months later, \"Rainy Days and Mondays\" was another gold record by The Carpenters and Nichols' third gold record\n\nI Won't Last a Day Without You: Begun\" and \"Rainy Days and Mondays\" to the Carpenters",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=7683596",
+                "title": "Roger Nichols (songwriter)",
+                "snippet": "covered by R.E.M.), reached the Top TWenty. Six months later, \"Rainy Days and Mondays\" was another gold record by The Carpenters and Nichols' third gold record",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.096076",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b707c604",
+              "text": "The song was written by Paul Williams (lyrics) and Roger Nichols (music) who also wrote two previous\n\nPills 'n' Thrills and Bellyaches: producing \"Step On\", a cover of the John Kongos song, for Happy Mondays",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=8076977",
+                "title": "I Won't Last a Day Without You",
+                "snippet": "Begun\" and \"Rainy Days and Mondays\" to the Carpenters. The song was written by Paul Williams (lyrics) and Roger Nichols (music) who also wrote two previous",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.096085",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "83f26b08",
+              "text": "The band went on a tour of the United States, and by the end of which, had started\n\nRainbow Connection: Connection\" \"Leave Yesterday Behind\" \"Medley (Superstar/Rainy Days and Mondays)\" JP CD promo (2001) SIC-1039 \"The Rainbow Connection\" \"Leave Yesterday Behind\" \"Watch",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=770551",
+                "title": "Pills 'n' Thrills and Bellyaches",
+                "snippet": "producing \"Step On\", a cover of the John Kongos song, for Happy Mondays. The band went on a tour of the United States, and by the end of which, had started",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.096092",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=371868",
+              "title": "Paul Williams (songwriter)",
+              "snippet": "Begun\" and \"Rainy Days and Mondays\". He also wrote \"Cried Like a Baby\" for teen idol Bobby Sherman. Williams is also known for writing the score and lyrics",
+              "metadata": {
+                "search_query": "Who wrote the song rainy days and mondays?"
+              },
+              "retrieved_at": "2026-10-17T00:04:55.096047",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=7683596",
+              "title": "Roger Nichols (songwriter)",
+              "snippet": "covered by R.E.M.), reached the Top TWenty. Six months later, \"Rainy Days and Mondays\" was another gold record by The Carpenters and Nichols' third gold record",
+              "metadata": {
+                "search_query": "Who wrote the song rainy days and mondays?"
+              },
+              "retrieved_at": "2026-10-17T00:04:55.096076",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=8076977",
+              "title": "I Won't Last a Day Without You",
+              "snippet": "Begun\" and \"Rainy Days and Mondays\" to the Carpenters. The song was written by Paul Williams (lyrics) and Roger Nichols (music) who also wrote two previous",
+              "metadata": {
+                "search_query": "Who wrote the song rainy days and mondays?"
+              },
+              "retrieved_at": "2026-10-17T00:04:55.096085",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=770551",
+              "title": "Pills 'n' Thrills and Bellyaches",
+              "snippet": "producing \"Step On\", a cover of the John Kongos song, for Happy Mondays. The band went on a tour of the United States, and by the end of which, had started",
+              "metadata": {
+                "search_query": "Who wrote the song rainy days and mondays?"
+              },
+              "retrieved_at": "2026-10-17T00:04:55.096092",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=1828484",
+              "title": "Rainbow Connection",
+              "snippet": "Connection\" \"Leave Yesterday Behind\" \"Medley (Superstar/Rainy Days and Mondays)\" JP CD promo (2001) SIC-1039 \"The Rainbow Connection\" \"Leave Yesterday Behind\" \"Watch",
+              "metadata": {
+                "search_query": "Who wrote the song rainy days and mondays?"
+              },
+              "retrieved_at": "2026-10-17T00:04:55.096099",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Paul Williams (songwriter): Begun\" and \"Rainy Days and Mondays\". He also wrote \"Cried Like a Baby\" for teen idol Bobby Sherman. Williams is also known for writing the score and lyrics\n\nRoger Nichols (songwriter): covered by R.E.M.), reached the Top TWenty. Six months later, \"Rainy Days and Mondays\" was another gold record by The Carpenters and Nichols' third gold record\n\nI Won't Last a Day Without You: Begun\" and \"Rainy Days and Mondays\" to the Carpenters. The song was written by Paul Williams (lyrics) and Roger Nichols (music) who also wrote two previous\n\nPills 'n' Thrills and Bellyaches: producing \"Step On\", a cover of the John Kongos song, for Happy Mondays. The band went on a tour of the United States, and by the end of which, had started\n\nRainbow Connection: Connection\" \"Leave Yesterday Behind\" \"Medley (Superstar/Rainy Days and Mondays)\" JP CD promo (2001) SIC-1039 \"The Rainbow Connection\" \"Leave Yesterday Behind\" \"Watch",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-17T00:04:55.096278"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who wrote the song rainy days and mondays?",
+          "answer": "Based on 5 sources:\n- Rainy Days and Mondays - Wikipedia: \" Rainy Days and Mondays \" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew\n- [3] It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo\n- Rainy Days And Mondays by Carpenters - Songfacts: Sometimes song lyrics are written on the fly, and that was the case with a line in this song\n- Says Williams: \"On 'Rainy Days And Mondays' Chuck Kay, who was head of publishing at A&M, said, 'That's a perfect song for The 5th Dimension, let's play it for them\n- ' I said, 'Well, there are a couple of lines that aren't done yet",
+          "claims": [
+            {
+              "id": "e48cc6b2",
+              "text": "Rainy Days and Mondays - Wikipedia: \" Rainy Days and Mondays \" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Rainy_Days_and_Mondays",
+                "title": "Rainy Days and Mondays - Wikipedia",
+                "snippet": "\" Rainy Days and Mondays \" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew. [3] It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo.",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.244156",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "12b029c7",
+              "text": "[3] It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo",
+              "source": {
+                "url": "https://www.songfacts.com/facts/carpenters/rainy-days-and-mondays",
+                "title": "Rainy Days And Mondays by Carpenters - Songfacts",
+                "snippet": "Sometimes song lyrics are written on the fly, and that was the case with a line in this song. Says Williams: \"On 'Rainy Days And Mondays' Chuck Kay, who was head of publishing at A&M, said, 'That's a perfect song for The 5th Dimension, let's play it for them.' I said, 'Well, there are a couple of lines that aren't done yet.'",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.244185",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "6f8004c4",
+              "text": "Rainy Days And Mondays by Carpenters - Songfacts: Sometimes song lyrics are written on the fly, and that was the case with a line in this song",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Carpenters_(album)",
+                "title": "Carpenters (album) - Wikipedia",
+                "snippet": "Songs \"Rainy Days and Mondays\" The music of \"Rainy Days and Mondays\" was composed by Roger Nichols, and the lyrics were written by Paul Williams, who later recorded his own version of the song. It was released as a single and charted well in the United States at number two on the Billboard Hot 100.",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.244194",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "92c0a03a",
+              "text": "Says Williams: \"On 'Rainy Days And Mondays' Chuck Kay, who was head of publishing at A&M, said, 'That's a perfect song for The 5th Dimension, let's play it for them",
+              "source": {
+                "url": "https://classicsongoftheday.com/rainy-days-and-mondays-carpenters/",
+                "title": "\"Rainy Days and Mondays\" (Carpenters) - Classic Song of the Day",
+                "snippet": "Mr. Williams also wrote, with Kenneth Ascher, a previous classic song of the day, \" Rainbow Connection,\" from The Muppet Movie. After they wrote \"Rainy Days and Mondays,\" Williams and Nichols sent a demo to Richard Carpenter and he jumped at it.",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.244201",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9cd1a8d3",
+              "text": "' I said, 'Well, there are a couple of lines that aren't done yet",
+              "source": {
+                "url": "https://www.wikiwand.com/en/Rainy_Days_and_Mondays",
+                "title": "Rainy Days and Mondays - Wikiwand",
+                "snippet": "\"Rainy Days and Mondays\" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew. It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo. The B-side on the single is \"Saturday\", a song written and sung by Richard Carpenter.",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.244207",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "40ab4899",
+              "text": "'\n\nCarpenters (album) - Wikipedia: Songs \"Rainy Days and Mondays\" The music of \"Rainy Days and Mondays\" was composed by Roger Nichols, and the lyrics were written by Paul Williams, who later recorded his own version of the song",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Rainy_Days_and_Mondays",
+                "title": "Rainy Days and Mondays - Wikipedia",
+                "snippet": "\" Rainy Days and Mondays \" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew. [3] It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo.",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.244156",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "25ba00b2",
+              "text": "It was released as a single and charted well in the United States at number two on the Billboard Hot 100",
+              "source": {
+                "url": "https://www.songfacts.com/facts/carpenters/rainy-days-and-mondays",
+                "title": "Rainy Days And Mondays by Carpenters - Songfacts",
+                "snippet": "Sometimes song lyrics are written on the fly, and that was the case with a line in this song. Says Williams: \"On 'Rainy Days And Mondays' Chuck Kay, who was head of publishing at A&M, said, 'That's a perfect song for The 5th Dimension, let's play it for them.' I said, 'Well, there are a couple of lines that aren't done yet.'",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.244185",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1bdce603",
+              "text": "\"Rainy Days and Mondays\" (Carpenters) - Classic Song of the Day: Mr",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Carpenters_(album)",
+                "title": "Carpenters (album) - Wikipedia",
+                "snippet": "Songs \"Rainy Days and Mondays\" The music of \"Rainy Days and Mondays\" was composed by Roger Nichols, and the lyrics were written by Paul Williams, who later recorded his own version of the song. It was released as a single and charted well in the United States at number two on the Billboard Hot 100.",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.244194",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "39753d63",
+              "text": "Williams also wrote, with Kenneth Ascher, a previous classic song of the day, \" Rainbow Connection,\" from The Muppet Movie",
+              "source": {
+                "url": "https://classicsongoftheday.com/rainy-days-and-mondays-carpenters/",
+                "title": "\"Rainy Days and Mondays\" (Carpenters) - Classic Song of the Day",
+                "snippet": "Mr. Williams also wrote, with Kenneth Ascher, a previous classic song of the day, \" Rainbow Connection,\" from The Muppet Movie. After they wrote \"Rainy Days and Mondays,\" Williams and Nichols sent a demo to Richard Carpenter and he jumped at it.",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.244201",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "258c4d07",
+              "text": "After they wrote \"Rainy Days and Mondays,\" Williams and Nichols sent a demo to Richard Carpenter and he jumped at it",
+              "source": {
+                "url": "https://www.wikiwand.com/en/Rainy_Days_and_Mondays",
+                "title": "Rainy Days and Mondays - Wikiwand",
+                "snippet": "\"Rainy Days and Mondays\" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew. It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo. The B-side on the single is \"Saturday\", a song written and sung by Richard Carpenter.",
+                "metadata": {
+                  "search_query": "Who wrote the song rainy days and mondays?"
+                },
+                "retrieved_at": "2026-10-17T00:04:55.244207",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Rainy_Days_and_Mondays",
+              "title": "Rainy Days and Mondays - Wikipedia",
+              "snippet": "\" Rainy Days and Mondays \" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew. [3] It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo.",
+              "metadata": {
+                "search_query": "Who wrote the song rainy days and mondays?"
+              },
+              "retrieved_at": "2026-10-17T00:04:55.244156",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.songfacts.com/facts/carpenters/rainy-days-and-mondays",
+              "title": "Rainy Days And Mondays by Carpenters - Songfacts",
+              "snippet": "Sometimes song lyrics are written on the fly, and that was the case with a line in this song. Says Williams: \"On 'Rainy Days And Mondays' Chuck Kay, who was head of publishing at A&M, said, 'That's a perfect song for The 5th Dimension, let's play it for them.' I said, 'Well, there are a couple of lines that aren't done yet.'",
+              "metadata": {
+                "search_query": "Who wrote the song rainy days and mondays?"
+              },
+              "retrieved_at": "2026-10-17T00:04:55.244185",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Carpenters_(album)",
+              "title": "Carpenters (album) - Wikipedia",
+              "snippet": "Songs \"Rainy Days and Mondays\" The music of \"Rainy Days and Mondays\" was composed by Roger Nichols, and the lyrics were written by Paul Williams, who later recorded his own version of the song. It was released as a single and charted well in the United States at number two on the Billboard Hot 100.",
+              "metadata": {
+                "search_query": "Who wrote the song rainy days and mondays?"
+              },
+              "retrieved_at": "2026-10-17T00:04:55.244194",
+              "credibility_score": null
+            },
+            {
+              "url": "https://classicsongoftheday.com/rainy-days-and-mondays-carpenters/",
+              "title": "\"Rainy Days and Mondays\" (Carpenters) - Classic Song of the Day",
+              "snippet": "Mr. Williams also wrote, with Kenneth Ascher, a previous classic song of the day, \" Rainbow Connection,\" from The Muppet Movie. After they wrote \"Rainy Days and Mondays,\" Williams and Nichols sent a demo to Richard Carpenter and he jumped at it.",
+              "metadata": {
+                "search_query": "Who wrote the song rainy days and mondays?"
+              },
+              "retrieved_at": "2026-10-17T00:04:55.244201",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.wikiwand.com/en/Rainy_Days_and_Mondays",
+              "title": "Rainy Days and Mondays - Wikiwand",
+              "snippet": "\"Rainy Days and Mondays\" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew. It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo. The B-side on the single is \"Saturday\", a song written and sung by Richard Carpenter.",
+              "metadata": {
+                "search_query": "Who wrote the song rainy days and mondays?"
+              },
+              "retrieved_at": "2026-10-17T00:04:55.244207",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Rainy Days and Mondays - Wikipedia: \" Rainy Days and Mondays \" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew. [3] It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo.\n\nRainy Days And Mondays by Carpenters - Songfacts: Sometimes song lyrics are written on the fly, and that was the case with a line in this song. Says Williams: \"On 'Rainy Days And Mondays' Chuck Kay, who was head of publishing at A&M, said, 'That's a perfect song for The 5th Dimension, let's play it for them.' I said, 'Well, there are a couple of lines that aren't done yet.'\n\nCarpenters (album) - Wikipedia: Songs \"Rainy Days and Mondays\" The music of \"Rainy Days and Mondays\" was composed by Roger Nichols, and the lyrics were written by Paul Williams, who later recorded his own version of the song. It was released as a single and charted well in the United States at number two on the Billboard Hot 100.\n\n\"Rainy Days and Mondays\" (Carpenters) - Classic Song of the Day: Mr. Williams also wrote, with Kenneth Ascher, a previous classic song of the day, \" Rainbow Connection,\" from The Muppet Movie. After they wrote \"Rainy Days and Mondays,\" Williams and Nichols sent a demo to Richard Carpenter and he jumped at it.\n\nRainy Days and Mondays - Wikiwand: \"Rainy Days and Mondays\" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew. It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo. The B-side on the single is \"Saturday\", a song written and sung by Richard Carpenter.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-17T00:04:55.244467"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who wrote the song rainy days and mondays?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:04:55.245326"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who wrote the song rainy days and mondays?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The song \"rainy days and mondays\" was written by Paul Williams (lyrics) and Roger Nichols (music).",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=8076977",
+            "title": "I Won't Last a Day Without You",
+            "snippet": "Begun\" and \"Rainy Days and Mondays\" to the Carpenters. The song was written by Paul Williams (lyrics) and Roger Nichols (music) who also wrote two previous",
+            "metadata": {},
+            "retrieved_at": "2026-10-17T00:04:55.245371",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=371868",
+          "title": "Paul Williams (songwriter)",
+          "snippet": "Begun\" and \"Rainy Days and Mondays\". He also wrote \"Cried Like a Baby\" for teen idol Bobby Sherman. Williams is also known for writing the score and lyrics",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:04:55.245358",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=7683596",
+          "title": "Roger Nichols (songwriter)",
+          "snippet": "covered by R.E.M.), reached the Top TWenty. Six months later, \"Rainy Days and Mondays\" was another gold record by The Carpenters and Nichols' third gold record",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:04:55.245365",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=8076977",
+          "title": "I Won't Last a Day Without You",
+          "snippet": "Begun\" and \"Rainy Days and Mondays\" to the Carpenters. The song was written by Paul Williams (lyrics) and Roger Nichols (music) who also wrote two previous",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:04:55.245371",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=770551",
+          "title": "Pills 'n' Thrills and Bellyaches",
+          "snippet": "producing \"Step On\", a cover of the John Kongos song, for Happy Mondays. The band went on a tour of the United States, and by the end of which, had started",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:04:55.245377",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=1828484",
+          "title": "Rainbow Connection",
+          "snippet": "Connection\" \"Leave Yesterday Behind\" \"Medley (Superstar/Rainy Days and Mondays)\" JP CD promo (2001) SIC-1039 \"The Rainbow Connection\" \"Leave Yesterday Behind\" \"Watch",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:04:55.245382",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:05:16.005041"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who wrote the song rainy days and mondays?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The song \"rainy days and mondays\" was written by Paul Williams (lyrics) and Roger Nichols (music).",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Rainy_Days_and_Mondays",
+            "title": "Rainy Days and Mondays - Wikipedia",
+            "snippet": "\" Rainy Days and Mondays \" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew. [3] It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo.",
+            "metadata": {},
+            "retrieved_at": "2026-10-17T00:05:16.005114",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rainy_Days_and_Mondays",
+          "title": "Rainy Days and Mondays - Wikipedia",
+          "snippet": "\" Rainy Days and Mondays \" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew. [3] It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo.",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:05:16.005114",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.songfacts.com/facts/carpenters/rainy-days-and-mondays",
+          "title": "Rainy Days And Mondays by Carpenters - Songfacts",
+          "snippet": "Sometimes song lyrics are written on the fly, and that was the case with a line in this song. Says Williams: \"On 'Rainy Days And Mondays' Chuck Kay, who was head of publishing at A&M, said, 'That's a perfect song for The 5th Dimension, let's play it for them.' I said, 'Well, there are a couple of lines that aren't done yet.'",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:05:16.005128",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Carpenters_(album)",
+          "title": "Carpenters (album) - Wikipedia",
+          "snippet": "Songs \"Rainy Days and Mondays\" The music of \"Rainy Days and Mondays\" was composed by Roger Nichols, and the lyrics were written by Paul Williams, who later recorded his own version of the song. It was released as a single and charted well in the United States at number two on the Billboard Hot 100.",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:05:16.005137",
+          "credibility_score": null
+        },
+        {
+          "url": "https://classicsongoftheday.com/rainy-days-and-mondays-carpenters/",
+          "title": "\"Rainy Days and Mondays\" (Carpenters) - Classic Song of the Day",
+          "snippet": "Mr. Williams also wrote, with Kenneth Ascher, a previous classic song of the day, \" Rainbow Connection,\" from The Muppet Movie. After they wrote \"Rainy Days and Mondays,\" Williams and Nichols sent a demo to Richard Carpenter and he jumped at it.",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:05:16.005147",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.wikiwand.com/en/Rainy_Days_and_Mondays",
+          "title": "Rainy Days and Mondays - Wikiwand",
+          "snippet": "\"Rainy Days and Mondays\" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew. It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo. The B-side on the single is \"Saturday\", a song written and sung by Richard Carpenter.",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:05:16.005156",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:05:29.397835"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who wrote the song rainy days and mondays?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The song \"rainy days and mondays\" was written by Paul Williams and Roger Nichols. It was famously recorded by The Carpenters.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+            "snippet": "The song \"rainy days and mondays\" was written by Paul Williams and Roger Nichols. It was famously recorded by The Carpenters.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-17T00:05:05.559275",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+          "snippet": "The song \"rainy days and mondays\" was written by Paul Williams and Roger Nichols. It was famously recorded by The Carpenters.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-17T00:05:05.559275",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "The song \"rainy days and mondays\" was written by Paul Williams and Roger Nichols. It was famously recorded by The Carpenters."
+      },
+      "retrieved_at": "2026-10-17T00:05:05.559349"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "The song \"rainy days and mondays\" was written by Paul Williams (lyrics) and Roger Nichols (music).",
+        "claim_b_text": "The song \"rainy days and mondays\" was written by Paul Williams (lyrics) and Roger Nichols (music).",
+        "label": "entailment",
+        "contradiction_score": 0.0042993174865841866,
+        "entailment_score": 0.9908995628356934,
+        "neutral_score": 0.004801079630851746
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The song \"rainy days and mondays\" was written by Paul Williams (lyrics) and Roger Nichols (music).",
+        "claim_b_text": "The song \"rainy days and mondays\" was written by Paul Williams and Roger Nichols. It was famously recorded by The Carpenters.",
+        "label": "neutral",
+        "contradiction_score": 0.0008998900302685797,
+        "entailment_score": 0.0004939484060741961,
+        "neutral_score": 0.9991533756256104
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The song \"rainy days and mondays\" was written by Paul Williams (lyrics) and Roger Nichols (music).",
+        "claim_b_text": "The song \"rainy days and mondays\" was written by Paul Williams and Roger Nichols. It was famously recorded by The Carpenters.",
+        "label": "neutral",
+        "contradiction_score": 0.0008998900302685797,
+        "entailment_score": 0.0004939484060741961,
+        "neutral_score": 0.9991533756256104
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "No search results"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "web_agent",
+      "claim_a": {
+        "text": "The song \"rainy days and mondays\" was written by Paul Williams (lyrics) and Roger Nichols (music).",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=8076977",
+          "title": "I Won't Last a Day Without You",
+          "snippet": "Begun\" and \"Rainy Days and Mondays\" to the Carpenters. The song was written by Paul Williams (lyrics) and Roger Nichols (music) who also wrote two previous",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:04:55.245371",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The song \"rainy days and mondays\" was written by Paul Williams (lyrics) and Roger Nichols (music).",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Rainy_Days_and_Mondays",
+          "title": "Rainy Days and Mondays - Wikipedia",
+          "snippet": "\" Rainy Days and Mondays \" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew. [3] It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo.",
+          "metadata": {},
+          "retrieved_at": "2026-10-17T00:05:16.005114",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.0042993174865841866
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0042993174865841866,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who wrote the song rainy days and mondays?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [reference_agent]: The song \"rainy days and mondays\" was written by Paul Williams (lyrics) and Roger Nichols (music).\n- [web_agent]: The song \"rainy days and mondays\" was written by Paul Williams (lyrics) and Roger Nichols (music).\n- [ai_answer_agent]: The song \"rainy days and mondays\" was written by Paul Williams and Roger Nichols. It was famously recorded by The Carpenters.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=371868",
+        "title": "Paul Williams (songwriter)",
+        "snippet": "Begun\" and \"Rainy Days and Mondays\". He also wrote \"Cried Like a Baby\" for teen idol Bobby Sherman. Williams is also known for writing the score and lyrics",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:04:55.245358",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=7683596",
+        "title": "Roger Nichols (songwriter)",
+        "snippet": "covered by R.E.M.), reached the Top TWenty. Six months later, \"Rainy Days and Mondays\" was another gold record by The Carpenters and Nichols' third gold record",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:04:55.245365",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=8076977",
+        "title": "I Won't Last a Day Without You",
+        "snippet": "Begun\" and \"Rainy Days and Mondays\" to the Carpenters. The song was written by Paul Williams (lyrics) and Roger Nichols (music) who also wrote two previous",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:04:55.245371",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=770551",
+        "title": "Pills 'n' Thrills and Bellyaches",
+        "snippet": "producing \"Step On\", a cover of the John Kongos song, for Happy Mondays. The band went on a tour of the United States, and by the end of which, had started",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:04:55.245377",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=1828484",
+        "title": "Rainbow Connection",
+        "snippet": "Connection\" \"Leave Yesterday Behind\" \"Medley (Superstar/Rainy Days and Mondays)\" JP CD promo (2001) SIC-1039 \"The Rainbow Connection\" \"Leave Yesterday Behind\" \"Watch",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:04:55.245382",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Rainy_Days_and_Mondays",
+        "title": "Rainy Days and Mondays - Wikipedia",
+        "snippet": "\" Rainy Days and Mondays \" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew. [3] It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo.",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:05:16.005114",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.songfacts.com/facts/carpenters/rainy-days-and-mondays",
+        "title": "Rainy Days And Mondays by Carpenters - Songfacts",
+        "snippet": "Sometimes song lyrics are written on the fly, and that was the case with a line in this song. Says Williams: \"On 'Rainy Days And Mondays' Chuck Kay, who was head of publishing at A&M, said, 'That's a perfect song for The 5th Dimension, let's play it for them.' I said, 'Well, there are a couple of lines that aren't done yet.'",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:05:16.005128",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Carpenters_(album)",
+        "title": "Carpenters (album) - Wikipedia",
+        "snippet": "Songs \"Rainy Days and Mondays\" The music of \"Rainy Days and Mondays\" was composed by Roger Nichols, and the lyrics were written by Paul Williams, who later recorded his own version of the song. It was released as a single and charted well in the United States at number two on the Billboard Hot 100.",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:05:16.005137",
+        "credibility_score": null
+      },
+      {
+        "url": "https://classicsongoftheday.com/rainy-days-and-mondays-carpenters/",
+        "title": "\"Rainy Days and Mondays\" (Carpenters) - Classic Song of the Day",
+        "snippet": "Mr. Williams also wrote, with Kenneth Ascher, a previous classic song of the day, \" Rainbow Connection,\" from The Muppet Movie. After they wrote \"Rainy Days and Mondays,\" Williams and Nichols sent a demo to Richard Carpenter and he jumped at it.",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:05:16.005147",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.wikiwand.com/en/Rainy_Days_and_Mondays",
+        "title": "Rainy Days and Mondays - Wikiwand",
+        "snippet": "\"Rainy Days and Mondays\" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew. It was written by Paul Williams (lyrics) and Roger Nichols (music), who had previously written \"We've Only Just Begun\", another hit for the duo. The B-side on the single is \"Saturday\", a song written and sung by Richard Carpenter.",
+        "metadata": {},
+        "retrieved_at": "2026-10-17T00:05:16.005156",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+        "snippet": "The song \"rainy days and mondays\" was written by Paul Williams and Roger Nichols. It was famously recorded by The Carpenters.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-17T00:05:05.559275",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-17T00:05:34.283059"
+  },
+  "metrics": {
+    "latency_seconds": 39.83514904975891,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-17T00:04:54.447909",
+  "completed_at": "2026-10-17T00:05:34.283124",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0012",
+    "query": "Who wrote the song rainy days and mondays?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Paul Williams",
+    "required_facts": [
+      "Paul Williams"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 20,
+      "answer_variants": [
+        "Paul Williams"
+      ],
+      "annotation_explanation": "This is the most common answer from the list of choices we had.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "\"Rainy Days and Mondays\" is a song by the Carpenters from their self-titled third album, with instrumental backing by the Wrecking Crew.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.songfacts.com",
+          "text": "Songfacts®: · Paul Williams wrote this with Roger Nichols. · Sometimes song lyrics are written on the fly, and that was the case with a line in this song.",
+          "supports_answers": [
+            "Paul Williams"
+          ]
+        },
+        {
+          "source_domain": "www.udiscovermusic.com",
+          "text": "May 15, 2023 ... This beautiful ballad was composed by singer/songwriter Paul Williams, who wrote the lyrics, and Roger Nichols, who wrote the music; it is one ...",
+          "supports_answers": [
+            "Paul Williams"
+          ]
+        },
+        {
+          "source_domain": "nowordsnosong.medium.com",
+          "text": "Jun 9, 2018 ... It was written by Roger Nichols and Paul Williams, who between them would go on to write songs for Three Dog Night, Paul Anka and Art Garfunkel, ...",
+          "supports_answers": [
+            "Paul Williams"
+          ]
+        },
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Sep 28, 2010 ... Carpenters - Rainy Days And Mondays · Comments24K.",
+          "supports_answers": [
+            "Paul Williams"
+          ]
+        },
+        {
+          "source_domain": "secondhandsongs.com",
+          "text": "Written by: Roger Nichols, Paul Williams [US1] ; Language: English ; Released on · Rainy Days and Mondays Single April 1971 ; Other release · Carpenters Album May 14 ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "faroutmagazine.co.uk",
+          "text": "Mar 20, 2022 ... Listen to Karen Carpenter's mesmerising isolated vocals on 'Rainy Days and Mondays' · The tragic song Sonic Youth wrote about Karen Carpenter.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "thecarpenters.fandom.com",
+          "text": "Recorded in early 1971, \"Rainy Days and Mondays\" was released on The Carpenters' third and eponymous album, Carpenters. The song was originally given to the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "tunebat.com",
+          "text": "Carpenters. Rainy Days And Mondays. B♭ Major. key. 6B. camelot. 75. BPM. 3:39. duration. Release Date: 1971. Explicit: No. Album: Carpenters. Label: A&M ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 39.851,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

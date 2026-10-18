@@ -1,0 +1,536 @@
+{
+  "query": "What's the largest city park in the united states?",
+  "trace_id": "06faa050-9e94-4762-b858-4f9a7da7c0c0",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "What's the largest city park in the united states?",
+          "answer": "Based on 5 sources:\n- List of United States cities by population: the most populous municipal corporations of the United States\n- As defined by the United States Census Bureau, an incorporated place includes cities,\n\nUnited States: The United States of America (USA), also known as the United States (U\n- ) or America, is a country primarily located in North America\n- It is a federal\n\nDallas: city in the U\n- Located in northern Texas, it is the ninth-most populous city in the United States and third-most populous city in Texas\n\nList of largest houses in the United States: This is a list of the largest extant and historic houses in the United States, ordered by area of the main house",
+          "claims": [
+            {
+              "id": "7ec86f27",
+              "text": "List of United States cities by population: the most populous municipal corporations of the United States",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1649321",
+                "title": "List of United States cities by population",
+                "snippet": "the most populous municipal corporations of the United States. As defined by the United States Census Bureau, an incorporated place includes cities,",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-16T21:19:19.254412",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b8472676",
+              "text": "As defined by the United States Census Bureau, an incorporated place includes cities,\n\nUnited States: The United States of America (USA), also known as the United States (U",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3434750",
+                "title": "United States",
+                "snippet": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-16T21:19:19.254427",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0d0eef70",
+              "text": ") or America, is a country primarily located in North America",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=25502621",
+                "title": "List of largest houses in the United States",
+                "snippet": "This is a list of the largest extant and historic houses in the United States, ordered by area of the main house. The list includes houses that have been",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-16T21:19:19.254443",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3c5e90d9",
+              "text": "It is a federal\n\nDallas: city in the U",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=21355232",
+                "title": "List of national parks of the United States",
+                "snippet": "The United States has 63 national parks, which are congressionally designated protected areas operated by the National Park Service, an agency of the",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-16T21:19:19.254450",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "da96bf94",
+              "text": "Located in northern Texas, it is the ninth-most populous city in the United States and third-most populous city in Texas\n\nList of largest houses in the United States: This is a list of the largest extant and historic houses in the United States, ordered by area of the main house",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=53838",
+                "title": "Dallas",
+                "snippet": "city in the U.S. state of Texas. Located in northern Texas, it is the ninth-most populous city in the United States and third-most populous city in Texas",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-16T21:19:19.254436",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b2ef24d1",
+              "text": "The list includes houses that have been\n\nList of national parks of the United States: The United States has 63 national parks, which are congressionally designated protected areas operated by the National Park Service, an agency of the",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=25502621",
+                "title": "List of largest houses in the United States",
+                "snippet": "This is a list of the largest extant and historic houses in the United States, ordered by area of the main house. The list includes houses that have been",
+                "metadata": {
+                  "search_query": "What's the largest city park in the united states?"
+                },
+                "retrieved_at": "2026-10-16T21:19:19.254443",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=1649321",
+              "title": "List of United States cities by population",
+              "snippet": "the most populous municipal corporations of the United States. As defined by the United States Census Bureau, an incorporated place includes cities,",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-16T21:19:19.254412",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=3434750",
+              "title": "United States",
+              "snippet": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-16T21:19:19.254427",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=53838",
+              "title": "Dallas",
+              "snippet": "city in the U.S. state of Texas. Located in northern Texas, it is the ninth-most populous city in the United States and third-most populous city in Texas",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-16T21:19:19.254436",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=25502621",
+              "title": "List of largest houses in the United States",
+              "snippet": "This is a list of the largest extant and historic houses in the United States, ordered by area of the main house. The list includes houses that have been",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-16T21:19:19.254443",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=21355232",
+              "title": "List of national parks of the United States",
+              "snippet": "The United States has 63 national parks, which are congressionally designated protected areas operated by the National Park Service, an agency of the",
+              "metadata": {
+                "search_query": "What's the largest city park in the united states?"
+              },
+              "retrieved_at": "2026-10-16T21:19:19.254450",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "List of United States cities by population: the most populous municipal corporations of the United States. As defined by the United States Census Bureau, an incorporated place includes cities,\n\nUnited States: The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal\n\nDallas: city in the U.S. state of Texas. Located in northern Texas, it is the ninth-most populous city in the United States and third-most populous city in Texas\n\nList of largest houses in the United States: This is a list of the largest extant and historic houses in the United States, ordered by area of the main house. The list includes houses that have been\n\nList of national parks of the United States: The United States has 63 national parks, which are congressionally designated protected areas operated by the National Park Service, an agency of the",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:19:19.254639"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "What's the largest city park in the united states?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:19:19.253991"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "What's the largest city park in the united states?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:19:19.254817"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "What's the largest city park in the united states?",
+      "status": "no_relevant_results",
+      "failure_reason": "LLM determined snippets do not answer the query",
+      "claims": [],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=1649321",
+          "title": "List of United States cities by population",
+          "snippet": "the most populous municipal corporations of the United States. As defined by the United States Census Bureau, an incorporated place includes cities,",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-16T21:19:19.255698",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=3434750",
+          "title": "United States",
+          "snippet": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-16T21:19:19.255728",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=53838",
+          "title": "Dallas",
+          "snippet": "city in the U.S. state of Texas. Located in northern Texas, it is the ninth-most populous city in the United States and third-most populous city in Texas",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-16T21:19:19.255741",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=25502621",
+          "title": "List of largest houses in the United States",
+          "snippet": "This is a list of the largest extant and historic houses in the United States, ordered by area of the main house. The list includes houses that have been",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-16T21:19:19.255762",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=21355232",
+          "title": "List of national parks of the United States",
+          "snippet": "The United States has 63 national parks, which are congressionally designated protected areas operated by the National Park Service, an agency of the",
+          "metadata": {
+            "search_query": "What's the largest city park in the united states?"
+          },
+          "retrieved_at": "2026-10-16T21:19:19.255773",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:19:39.709563"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "What's the largest city park in the united states?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:19:39.709607"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "What's the largest city park in the united states?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:19:39.709620"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "What's the largest city park in the united states?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The largest city park in the United States is Golden Gate Park in San Francisco, California, covering approximately 4,000 acres within the city's incorporated boundaries. This urban park complex includes diverse landscapes from forests to meadows and gardens.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "The largest city park in the United States is Golden Gate Park in San Francisco, California, covering approximately 4,000 acres within the city's incorporated boundaries. This urban park complex inclu",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:19:38.379416",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The largest city park in the United States is Golden Gate Park in San Francisco, California, covering approximately 4,000 acres within the city's incorporated boundaries. This urban park complex inclu",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:19:38.379416",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "The largest city park in the United States is Golden Gate Park in San Francisco, California, covering approximately 4,000 acres within the city's incorporated boundaries. This urban park complex includes diverse landscapes from forests to meadows and gardens."
+      },
+      "retrieved_at": "2026-10-16T21:19:38.379487"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "LLM determined snippets do not answer the query"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 1 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "What's the largest city park in the united states?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (LLM determined snippets do not answer the query); web_agent (All search results filtered out as irrelevant); wikidata_agent (All search results filtered out as irrelevant).",
+    "reasoning": "Only 1 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "LLM determined snippets do not answer the query"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "All search results filtered out as irrelevant"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T21:20:06.945907"
+  },
+  "metrics": {
+    "latency_seconds": 47.69347906112671,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 1,
+    "failed_agents": 3,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "proposed_mad"
+  },
+  "started_at": "2026-10-16T21:19:19.252417",
+  "completed_at": "2026-10-16T21:20:06.945961",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0019",
+    "query": "What's the largest city park in the united states?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Chugach State Park",
+    "required_facts": [
+      "Chugach State Park"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 28,
+      "answer_variants": [
+        "Chugach State Park"
+      ],
+      "annotation_explanation": "This is the only correct answer from the options provided.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.infoplease.com",
+          "text": "Aug 25, 2022 ... While Alaska's Chugach State Park is the largest city park in the US, there are other expansive parks across the United States, including ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.statista.com",
+          "text": "Jun 14, 2023 ... As of 2022, Chugach State Park in Anchorage, Alaska, was the largest city park in the United States by a long shot, spanning 464,318 acres.",
+          "supports_answers": [
+            "Chugach State Park"
+          ]
+        },
+        {
+          "source_domain": "www.playgroundequipment.com",
+          "text": "It is the largest city park in America by far, spanning 495,199.2 acres. What Is Chugach State Park Known For? Chugach State Park is considered one the most ...",
+          "supports_answers": [
+            "Chugach State Park"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The state park is the largest state park in the United States completely within a city's limits. The park is located at the Franklin Mountains, the Rocky ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.onlyinyourstate.com",
+          "text": "Mar 10, 2023 ... In fact, Portland, Oregon, is home to the largest city park in the U.S., and this urban oasis is nothing short of magical. Located just a ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.americansky.co.uk",
+          "text": "Grant Park, Chicago ... What: Nicknamed Chicago's 'front yard', Grant Park has 319 acres of green space to discover. Situated alongside Lake Michigan it was first ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "cloud.tpl.org",
+          "text": "Dec 10, 2010 ... These are the largest parks located within the limits of a U.S. city. Most are owned by the municipality, but some are owned by a state, a.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "usabynumbers.com",
+          "text": "Jan 7, 2023 ... The third-largest city park in the US is Forest Park. With 1400 acres of area, Forest Park is one of the largest city parks in the US. You can ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "247wallst.com",
+          "text": "Jan 5, 2022 ... The most expansive urban park is found in south-central Alaska. Chugach State Park, located mostly within the city of Anchorage, spans nearly ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.stlouis-mo.gov",
+          "text": "Forest Park, officially opened to the public on June 24, 1876, is one of the largest urban parks in the United States. At around 1,300 acres it is bigger ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "proposed_mad",
+  "evaluation_seconds": 47.712,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

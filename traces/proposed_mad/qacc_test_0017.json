@@ -1,0 +1,939 @@
+{
+  "query": "Who began the age of exploration in portugal?",
+  "trace_id": "365468b6-1f02-423a-af13-987a9723b4ae",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who began the age of exploration in portugal?",
+          "answer": "Based on 5 sources:\n- Portugal in the Age of Exploration: A Detailed Summary: Portugal in the Age of Exploration is an important topic in the study of world history\n- During the 15th and 16th centuries, Portugal became the first European nation begin carrying out overseas exploration, sending its sailors and navigators further into the unknown than any European country had gone before\n- Age of Discovery - Wikipedia: The Age of Discovery (c\n- 1620), [1] also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail\n- It was a period from approximately the 15th to the 17th century, during which seafarers from European countries explored, colonized, and conquered regions across the globe",
+          "claims": [
+            {
+              "id": "95288213",
+              "text": "Portugal in the Age of Exploration: A Detailed Summary: Portugal in the Age of Exploration is an important topic in the study of world history",
+              "source": {
+                "url": "https://historycrunch.com/portugal-in-the-age-of-exploration/",
+                "title": "Portugal in the Age of Exploration: A Detailed Summary",
+                "snippet": "Portugal in the Age of Exploration is an important topic in the study of world history. During the 15th and 16th centuries, Portugal became the first European nation begin carrying out overseas exploration, sending its sailors and navigators further into the unknown than any European country had gone before.",
+                "metadata": {
+                  "search_query": "Who began the age of exploration in portugal?"
+                },
+                "retrieved_at": "2026-10-16T21:16:29.762303",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "749641e5",
+              "text": "During the 15th and 16th centuries, Portugal became the first European nation begin carrying out overseas exploration, sending its sailors and navigators further into the unknown than any European country had gone before",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Age_of_Discovery",
+                "title": "Age of Discovery - Wikipedia",
+                "snippet": "The Age of Discovery (c. 1418 - c. 1620), [1] also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail. It was a period from approximately the 15th to the 17th century, during which seafarers from European countries explored, colonized, and conquered regions across the globe.",
+                "metadata": {
+                  "search_query": "Who began the age of exploration in portugal?"
+                },
+                "retrieved_at": "2026-10-16T21:16:29.762326",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ab9a3738",
+              "text": "Age of Discovery - Wikipedia: The Age of Discovery (c",
+              "source": {
+                "url": "https://www.history.com/articles/portugal-age-exploration",
+                "title": "How Portugal's Seafaring Expertise Launched the Age of Exploration ...",
+                "snippet": "Portugal's Golden Age Nears Its End In the early 16th century, Portugal was the most prosperous nation in the world, thanks to its feats of navigation, exploration and conquest.",
+                "metadata": {
+                  "search_query": "Who began the age of exploration in portugal?"
+                },
+                "retrieved_at": "2026-10-16T21:16:29.762335",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9deb431a",
+              "text": "1620), [1] also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Portuguese_maritime_exploration",
+                "title": "Portuguese maritime exploration - Wikipedia",
+                "snippet": "Portuguese sailors were at the vanguard of European exploration, chronicling and mapping the coasts of Africa and Asia, then known as the East Indies, Canada and Brazil (the West Indies), in what became known as the Age of Discovery.",
+                "metadata": {
+                  "search_query": "Who began the age of exploration in portugal?"
+                },
+                "retrieved_at": "2026-10-16T21:16:29.762353",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "daa23b11",
+              "text": "It was a period from approximately the 15th to the 17th century, during which seafarers from European countries explored, colonized, and conquered regions across the globe",
+              "source": {
+                "url": "https://historycrunch.com/portugal-in-the-age-of-exploration/",
+                "title": "Portugal in the Age of Exploration: A Detailed Summary",
+                "snippet": "Portugal in the Age of Exploration is an important topic in the study of world history. During the 15th and 16th centuries, Portugal became the first European nation begin carrying out overseas exploration, sending its sailors and navigators further into the unknown than any European country had gone before.",
+                "metadata": {
+                  "search_query": "Who began the age of exploration in portugal?"
+                },
+                "retrieved_at": "2026-10-16T21:16:29.762303",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e9a56e13",
+              "text": "How Portugal's Seafaring Expertise Launched the Age of Exploration",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Age_of_Discovery",
+                "title": "Age of Discovery - Wikipedia",
+                "snippet": "The Age of Discovery (c. 1418 - c. 1620), [1] also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail. It was a period from approximately the 15th to the 17th century, during which seafarers from European countries explored, colonized, and conquered regions across the globe.",
+                "metadata": {
+                  "search_query": "Who began the age of exploration in portugal?"
+                },
+                "retrieved_at": "2026-10-16T21:16:29.762326",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "767f0984",
+              "text": ": Portugal's Golden Age Nears Its End In the early 16th century, Portugal was the most prosperous nation in the world, thanks to its feats of navigation, exploration and conquest",
+              "source": {
+                "url": "https://www.history.com/articles/portugal-age-exploration",
+                "title": "How Portugal's Seafaring Expertise Launched the Age of Exploration ...",
+                "snippet": "Portugal's Golden Age Nears Its End In the early 16th century, Portugal was the most prosperous nation in the world, thanks to its feats of navigation, exploration and conquest.",
+                "metadata": {
+                  "search_query": "Who began the age of exploration in portugal?"
+                },
+                "retrieved_at": "2026-10-16T21:16:29.762335",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "23729fa3",
+              "text": "Portugal & the Age of Exploration - World History Encyclopedia: The impact on Portugal from the Age of Exploration was to enrich the ruling class from new resources and trade routes",
+              "source": {
+                "url": "https://www.worldhistory.org/collection/136/portugal--the-age-of-exploration/",
+                "title": "Portugal & the Age of Exploration - World History Encyclopedia",
+                "snippet": "The impact on Portugal from the Age of Exploration was to enrich the ruling class from new resources and trade routes. For more ordinary Portuguese, the empire gave the opportunity to emigrate and start a new life.",
+                "metadata": {
+                  "search_query": "Who began the age of exploration in portugal?"
+                },
+                "retrieved_at": "2026-10-16T21:16:29.762342",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "973a4e6b",
+              "text": "For more ordinary Portuguese, the empire gave the opportunity to emigrate and start a new life",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Portuguese_maritime_exploration",
+                "title": "Portuguese maritime exploration - Wikipedia",
+                "snippet": "Portuguese sailors were at the vanguard of European exploration, chronicling and mapping the coasts of Africa and Asia, then known as the East Indies, Canada and Brazil (the West Indies), in what became known as the Age of Discovery.",
+                "metadata": {
+                  "search_query": "Who began the age of exploration in portugal?"
+                },
+                "retrieved_at": "2026-10-16T21:16:29.762353",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "14023b26",
+              "text": "Portuguese maritime exploration - Wikipedia: Portuguese sailors were at the vanguard of European exploration, chronicling and mapping the coasts of Africa and Asia, then known as the East Indies, Canada and Brazil (the West Indies), in what became known as the Age of Discovery",
+              "source": {
+                "url": "https://historycrunch.com/portugal-in-the-age-of-exploration/",
+                "title": "Portugal in the Age of Exploration: A Detailed Summary",
+                "snippet": "Portugal in the Age of Exploration is an important topic in the study of world history. During the 15th and 16th centuries, Portugal became the first European nation begin carrying out overseas exploration, sending its sailors and navigators further into the unknown than any European country had gone before.",
+                "metadata": {
+                  "search_query": "Who began the age of exploration in portugal?"
+                },
+                "retrieved_at": "2026-10-16T21:16:29.762303",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://historycrunch.com/portugal-in-the-age-of-exploration/",
+              "title": "Portugal in the Age of Exploration: A Detailed Summary",
+              "snippet": "Portugal in the Age of Exploration is an important topic in the study of world history. During the 15th and 16th centuries, Portugal became the first European nation begin carrying out overseas exploration, sending its sailors and navigators further into the unknown than any European country had gone before.",
+              "metadata": {
+                "search_query": "Who began the age of exploration in portugal?"
+              },
+              "retrieved_at": "2026-10-16T21:16:29.762303",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Age_of_Discovery",
+              "title": "Age of Discovery - Wikipedia",
+              "snippet": "The Age of Discovery (c. 1418 - c. 1620), [1] also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail. It was a period from approximately the 15th to the 17th century, during which seafarers from European countries explored, colonized, and conquered regions across the globe.",
+              "metadata": {
+                "search_query": "Who began the age of exploration in portugal?"
+              },
+              "retrieved_at": "2026-10-16T21:16:29.762326",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.history.com/articles/portugal-age-exploration",
+              "title": "How Portugal's Seafaring Expertise Launched the Age of Exploration ...",
+              "snippet": "Portugal's Golden Age Nears Its End In the early 16th century, Portugal was the most prosperous nation in the world, thanks to its feats of navigation, exploration and conquest.",
+              "metadata": {
+                "search_query": "Who began the age of exploration in portugal?"
+              },
+              "retrieved_at": "2026-10-16T21:16:29.762335",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.worldhistory.org/collection/136/portugal--the-age-of-exploration/",
+              "title": "Portugal & the Age of Exploration - World History Encyclopedia",
+              "snippet": "The impact on Portugal from the Age of Exploration was to enrich the ruling class from new resources and trade routes. For more ordinary Portuguese, the empire gave the opportunity to emigrate and start a new life.",
+              "metadata": {
+                "search_query": "Who began the age of exploration in portugal?"
+              },
+              "retrieved_at": "2026-10-16T21:16:29.762342",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Portuguese_maritime_exploration",
+              "title": "Portuguese maritime exploration - Wikipedia",
+              "snippet": "Portuguese sailors were at the vanguard of European exploration, chronicling and mapping the coasts of Africa and Asia, then known as the East Indies, Canada and Brazil (the West Indies), in what became known as the Age of Discovery.",
+              "metadata": {
+                "search_query": "Who began the age of exploration in portugal?"
+              },
+              "retrieved_at": "2026-10-16T21:16:29.762353",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Portugal in the Age of Exploration: A Detailed Summary: Portugal in the Age of Exploration is an important topic in the study of world history. During the 15th and 16th centuries, Portugal became the first European nation begin carrying out overseas exploration, sending its sailors and navigators further into the unknown than any European country had gone before.\n\nAge of Discovery - Wikipedia: The Age of Discovery (c. 1418 - c. 1620), [1] also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail. It was a period from approximately the 15th to the 17th century, during which seafarers from European countries explored, colonized, and conquered regions across the globe.\n\nHow Portugal's Seafaring Expertise Launched the Age of Exploration ...: Portugal's Golden Age Nears Its End In the early 16th century, Portugal was the most prosperous nation in the world, thanks to its feats of navigation, exploration and conquest.\n\nPortugal & the Age of Exploration - World History Encyclopedia: The impact on Portugal from the Age of Exploration was to enrich the ruling class from new resources and trade routes. For more ordinary Portuguese, the empire gave the opportunity to emigrate and start a new life.\n\nPortuguese maritime exploration - Wikipedia: Portuguese sailors were at the vanguard of European exploration, chronicling and mapping the coasts of Africa and Asia, then known as the East Indies, Canada and Brazil (the West Indies), in what became known as the Age of Discovery.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:16:29.762885"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who began the age of exploration in portugal?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:16:29.764082"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who began the age of exploration in portugal?",
+          "answer": "Based on 5 sources:\n- Age of Discovery: The Age of Discovery (c\n- 1620), also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail\n\nPortuguese maritime exploration: Portuguese maritime explorations resulted in numerous territories and maritime routes recorded by the Portuguese on journeys during the 15th and 16th\n\nExploration: Exploration is the process of exploring, an activity which has some expectation of discovery\n- Organised exploration is largely a human activity, but exploratory\n\nPortuguese nautical science: signed Portuguese sea chart is a Portolan made by Pedro Reinel in 1485 representing Western Europe and parts of Africa, reflecting the explorations made\n\nEuropean exploration of Africa: Africa begins with the Age of Discovery in the 15th century, pioneered by the Kingdom of Portugal under Henry the Navigator\n- The Cape of Good Hope was first",
+          "claims": [
+            {
+              "id": "54be759f",
+              "text": "Age of Discovery: The Age of Discovery (c",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=690842",
+                "title": "Age of Discovery",
+                "snippet": "The Age of Discovery (c. 1418 – c. 1620), also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail",
+                "metadata": {
+                  "search_query": "Who began the age of exploration in portugal?"
+                },
+                "retrieved_at": "2026-10-16T21:16:34.803835",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "6b140c68",
+              "text": "1620), also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail\n\nPortuguese maritime exploration: Portuguese maritime explorations resulted in numerous territories and maritime routes recorded by the Portuguese on journeys during the 15th and 16th\n\nExploration: Exploration is the process of exploring, an activity which has some expectation of discovery",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=72826783",
+                "title": "Exploration",
+                "snippet": "Exploration is the process of exploring, an activity which has some expectation of discovery. Organised exploration is largely a human activity, but exploratory",
+                "metadata": {
+                  "search_query": "Who began the age of exploration in portugal?"
+                },
+                "retrieved_at": "2026-10-16T21:16:34.803877",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "88ddd08c",
+              "text": "Organised exploration is largely a human activity, but exploratory\n\nPortuguese nautical science: signed Portuguese sea chart is a Portolan made by Pedro Reinel in 1485 representing Western Europe and parts of Africa, reflecting the explorations made\n\nEuropean exploration of Africa: Africa begins with the Age of Discovery in the 15th century, pioneered by the Kingdom of Portugal under Henry the Navigator",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=72465922",
+                "title": "Portuguese nautical science",
+                "snippet": "signed Portuguese sea chart is a Portolan made by Pedro Reinel in 1485 representing Western Europe and parts of Africa, reflecting the explorations made",
+                "metadata": {
+                  "search_query": "Who began the age of exploration in portugal?"
+                },
+                "retrieved_at": "2026-10-16T21:16:34.803884",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1378a534",
+              "text": "The Cape of Good Hope was first",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=2041178",
+                "title": "European exploration of Africa",
+                "snippet": "Africa begins with the Age of Discovery in the 15th century, pioneered by the Kingdom of Portugal under Henry the Navigator. The Cape of Good Hope was first",
+                "metadata": {
+                  "search_query": "Who began the age of exploration in portugal?"
+                },
+                "retrieved_at": "2026-10-16T21:16:34.803891",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=690842",
+              "title": "Age of Discovery",
+              "snippet": "The Age of Discovery (c. 1418 – c. 1620), also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail",
+              "metadata": {
+                "search_query": "Who began the age of exploration in portugal?"
+              },
+              "retrieved_at": "2026-10-16T21:16:34.803835",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=14346997",
+              "title": "Portuguese maritime exploration",
+              "snippet": "Portuguese maritime explorations resulted in numerous territories and maritime routes recorded by the Portuguese on journeys during the 15th and 16th",
+              "metadata": {
+                "search_query": "Who began the age of exploration in portugal?"
+              },
+              "retrieved_at": "2026-10-16T21:16:34.803868",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=72826783",
+              "title": "Exploration",
+              "snippet": "Exploration is the process of exploring, an activity which has some expectation of discovery. Organised exploration is largely a human activity, but exploratory",
+              "metadata": {
+                "search_query": "Who began the age of exploration in portugal?"
+              },
+              "retrieved_at": "2026-10-16T21:16:34.803877",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=72465922",
+              "title": "Portuguese nautical science",
+              "snippet": "signed Portuguese sea chart is a Portolan made by Pedro Reinel in 1485 representing Western Europe and parts of Africa, reflecting the explorations made",
+              "metadata": {
+                "search_query": "Who began the age of exploration in portugal?"
+              },
+              "retrieved_at": "2026-10-16T21:16:34.803884",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=2041178",
+              "title": "European exploration of Africa",
+              "snippet": "Africa begins with the Age of Discovery in the 15th century, pioneered by the Kingdom of Portugal under Henry the Navigator. The Cape of Good Hope was first",
+              "metadata": {
+                "search_query": "Who began the age of exploration in portugal?"
+              },
+              "retrieved_at": "2026-10-16T21:16:34.803891",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Age of Discovery: The Age of Discovery (c. 1418 – c. 1620), also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail\n\nPortuguese maritime exploration: Portuguese maritime explorations resulted in numerous territories and maritime routes recorded by the Portuguese on journeys during the 15th and 16th\n\nExploration: Exploration is the process of exploring, an activity which has some expectation of discovery. Organised exploration is largely a human activity, but exploratory\n\nPortuguese nautical science: signed Portuguese sea chart is a Portolan made by Pedro Reinel in 1485 representing Western Europe and parts of Africa, reflecting the explorations made\n\nEuropean exploration of Africa: Africa begins with the Age of Discovery in the 15th century, pioneered by the Kingdom of Portugal under Henry the Navigator. The Cape of Good Hope was first",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:16:34.804066"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "Who began the age of exploration in portugal?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Portugal began the age of exploration.",
+          "source": {
+            "url": "https://historycrunch.com/portugal-in-the-age-of-exploration/",
+            "title": "Portugal in the Age of Exploration: A Detailed Summary",
+            "snippet": "Portugal in the Age of Exploration is an important topic in the study of world history. During the 15th and 16th centuries, Portugal became the first European nation begin carrying out overseas exploration, sending its sailors and navigators further into the unknown than any European country had gone before.",
+            "metadata": {
+              "search_query": "Who began the age of exploration in portugal?"
+            },
+            "retrieved_at": "2026-10-16T21:16:34.805126",
+            "credibility_score": null
+          },
+          "date": "15th century",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://historycrunch.com/portugal-in-the-age-of-exploration/",
+          "title": "Portugal in the Age of Exploration: A Detailed Summary",
+          "snippet": "Portugal in the Age of Exploration is an important topic in the study of world history. During the 15th and 16th centuries, Portugal became the first European nation begin carrying out overseas exploration, sending its sailors and navigators further into the unknown than any European country had gone before.",
+          "metadata": {
+            "search_query": "Who began the age of exploration in portugal?"
+          },
+          "retrieved_at": "2026-10-16T21:16:34.805126",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Age_of_Discovery",
+          "title": "Age of Discovery - Wikipedia",
+          "snippet": "The Age of Discovery (c. 1418 - c. 1620), [1] also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail. It was a period from approximately the 15th to the 17th century, during which seafarers from European countries explored, colonized, and conquered regions across the globe.",
+          "metadata": {
+            "search_query": "Who began the age of exploration in portugal?"
+          },
+          "retrieved_at": "2026-10-16T21:16:34.805154",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.history.com/articles/portugal-age-exploration",
+          "title": "How Portugal's Seafaring Expertise Launched the Age of Exploration ...",
+          "snippet": "Portugal's Golden Age Nears Its End In the early 16th century, Portugal was the most prosperous nation in the world, thanks to its feats of navigation, exploration and conquest.",
+          "metadata": {
+            "search_query": "Who began the age of exploration in portugal?"
+          },
+          "retrieved_at": "2026-10-16T21:16:34.805162",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.worldhistory.org/collection/136/portugal--the-age-of-exploration/",
+          "title": "Portugal & the Age of Exploration - World History Encyclopedia",
+          "snippet": "The impact on Portugal from the Age of Exploration was to enrich the ruling class from new resources and trade routes. For more ordinary Portuguese, the empire gave the opportunity to emigrate and start a new life.",
+          "metadata": {
+            "search_query": "Who began the age of exploration in portugal?"
+          },
+          "retrieved_at": "2026-10-16T21:16:34.805168",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Portuguese_maritime_exploration",
+          "title": "Portuguese maritime exploration - Wikipedia",
+          "snippet": "Portuguese sailors were at the vanguard of European exploration, chronicling and mapping the coasts of Africa and Asia, then known as the East Indies, Canada and Brazil (the West Indies), in what became known as the Age of Discovery.",
+          "metadata": {
+            "search_query": "Who began the age of exploration in portugal?"
+          },
+          "retrieved_at": "2026-10-16T21:16:34.805175",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:17:14.119664"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who began the age of exploration in portugal?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:17:14.119723"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who began the age of exploration in portugal?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Henry the Navigator began the age of exploration in Portugal.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=2041178",
+            "title": "European exploration of Africa",
+            "snippet": "Africa begins with the Age of Discovery in the 15th century, pioneered by the Kingdom of Portugal under Henry the Navigator. The Cape of Good Hope was first",
+            "metadata": {
+              "search_query": "Who began the age of exploration in portugal?"
+            },
+            "retrieved_at": "2026-10-16T21:17:14.120032",
+            "credibility_score": null
+          },
+          "date": "15th century",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=690842",
+          "title": "Age of Discovery",
+          "snippet": "The Age of Discovery (c. 1418 – c. 1620), also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail",
+          "metadata": {
+            "search_query": "Who began the age of exploration in portugal?"
+          },
+          "retrieved_at": "2026-10-16T21:17:14.119995",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=14346997",
+          "title": "Portuguese maritime exploration",
+          "snippet": "Portuguese maritime explorations resulted in numerous territories and maritime routes recorded by the Portuguese on journeys during the 15th and 16th",
+          "metadata": {
+            "search_query": "Who began the age of exploration in portugal?"
+          },
+          "retrieved_at": "2026-10-16T21:17:14.120010",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=72826783",
+          "title": "Exploration",
+          "snippet": "Exploration is the process of exploring, an activity which has some expectation of discovery. Organised exploration is largely a human activity, but exploratory",
+          "metadata": {
+            "search_query": "Who began the age of exploration in portugal?"
+          },
+          "retrieved_at": "2026-10-16T21:17:14.120021",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=2041178",
+          "title": "European exploration of Africa",
+          "snippet": "Africa begins with the Age of Discovery in the 15th century, pioneered by the Kingdom of Portugal under Henry the Navigator. The Cape of Good Hope was first",
+          "metadata": {
+            "search_query": "Who began the age of exploration in portugal?"
+          },
+          "retrieved_at": "2026-10-16T21:17:14.120032",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 1,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:17:29.516148"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who began the age of exploration in portugal?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Prince Henry the Navigator began the age of exploration in Portugal.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "Prince Henry the Navigator began the age of exploration in Portugal.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:16:45.339292",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Prince Henry the Navigator began the age of exploration in Portugal.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:16:45.339292",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "Prince Henry the Navigator began the age of exploration in Portugal."
+      },
+      "retrieved_at": "2026-10-16T21:16:45.339353"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent",
+        "claim_a_text": "Portugal began the age of exploration.",
+        "claim_b_text": "Henry the Navigator began the age of exploration in Portugal.",
+        "label": "neutral",
+        "contradiction_score": 0.5215452909469604,
+        "entailment_score": 0.0032933782786130905,
+        "neutral_score": 0.9592887759208679
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Portugal began the age of exploration.",
+        "claim_b_text": "Prince Henry the Navigator began the age of exploration in Portugal.",
+        "label": "neutral",
+        "contradiction_score": 0.5980568528175354,
+        "entailment_score": 0.002180680865421891,
+        "neutral_score": 0.9888440370559692
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Henry the Navigator began the age of exploration in Portugal.",
+        "claim_b_text": "Prince Henry the Navigator began the age of exploration in Portugal.",
+        "label": "neutral",
+        "contradiction_score": 0.008605455979704857,
+        "entailment_score": 0.10029512643814087,
+        "neutral_score": 0.8910993337631226
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "reference_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "Portugal began the age of exploration.",
+        "source": {
+          "url": "https://historycrunch.com/portugal-in-the-age-of-exploration/",
+          "title": "Portugal in the Age of Exploration: A Detailed Summary",
+          "snippet": "Portugal in the Age of Exploration is an important topic in the study of world history. During the 15th and 16th centuries, Portugal became the first European nation begin carrying out overseas exploration, sending its sailors and navigators further into the unknown than any European country had gone before.",
+          "metadata": {
+            "search_query": "Who began the age of exploration in portugal?"
+          },
+          "retrieved_at": "2026-10-16T21:16:34.805126",
+          "credibility_score": null
+        },
+        "date": "15th century",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Prince Henry the Navigator began the age of exploration in Portugal.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Prince Henry the Navigator began the age of exploration in Portugal.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:16:45.339292",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.5980568528175354
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.5980568528175354,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who began the age of exploration in portugal?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [web_agent]: Portugal began the age of exploration.\n- [reference_agent]: Henry the Navigator began the age of exploration in Portugal.\n- [ai_answer_agent]: Prince Henry the Navigator began the age of exploration in Portugal.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://historycrunch.com/portugal-in-the-age-of-exploration/",
+        "title": "Portugal in the Age of Exploration: A Detailed Summary",
+        "snippet": "Portugal in the Age of Exploration is an important topic in the study of world history. During the 15th and 16th centuries, Portugal became the first European nation begin carrying out overseas exploration, sending its sailors and navigators further into the unknown than any European country had gone before.",
+        "metadata": {
+          "search_query": "Who began the age of exploration in portugal?"
+        },
+        "retrieved_at": "2026-10-16T21:16:34.805126",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Age_of_Discovery",
+        "title": "Age of Discovery - Wikipedia",
+        "snippet": "The Age of Discovery (c. 1418 - c. 1620), [1] also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail. It was a period from approximately the 15th to the 17th century, during which seafarers from European countries explored, colonized, and conquered regions across the globe.",
+        "metadata": {
+          "search_query": "Who began the age of exploration in portugal?"
+        },
+        "retrieved_at": "2026-10-16T21:16:34.805154",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.history.com/articles/portugal-age-exploration",
+        "title": "How Portugal's Seafaring Expertise Launched the Age of Exploration ...",
+        "snippet": "Portugal's Golden Age Nears Its End In the early 16th century, Portugal was the most prosperous nation in the world, thanks to its feats of navigation, exploration and conquest.",
+        "metadata": {
+          "search_query": "Who began the age of exploration in portugal?"
+        },
+        "retrieved_at": "2026-10-16T21:16:34.805162",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.worldhistory.org/collection/136/portugal--the-age-of-exploration/",
+        "title": "Portugal & the Age of Exploration - World History Encyclopedia",
+        "snippet": "The impact on Portugal from the Age of Exploration was to enrich the ruling class from new resources and trade routes. For more ordinary Portuguese, the empire gave the opportunity to emigrate and start a new life.",
+        "metadata": {
+          "search_query": "Who began the age of exploration in portugal?"
+        },
+        "retrieved_at": "2026-10-16T21:16:34.805168",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Portuguese_maritime_exploration",
+        "title": "Portuguese maritime exploration - Wikipedia",
+        "snippet": "Portuguese sailors were at the vanguard of European exploration, chronicling and mapping the coasts of Africa and Asia, then known as the East Indies, Canada and Brazil (the West Indies), in what became known as the Age of Discovery.",
+        "metadata": {
+          "search_query": "Who began the age of exploration in portugal?"
+        },
+        "retrieved_at": "2026-10-16T21:16:34.805175",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=690842",
+        "title": "Age of Discovery",
+        "snippet": "The Age of Discovery (c. 1418 – c. 1620), also known as the Age of Exploration, was part of the early modern period and overlapped with the Age of Sail",
+        "metadata": {
+          "search_query": "Who began the age of exploration in portugal?"
+        },
+        "retrieved_at": "2026-10-16T21:17:14.119995",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=14346997",
+        "title": "Portuguese maritime exploration",
+        "snippet": "Portuguese maritime explorations resulted in numerous territories and maritime routes recorded by the Portuguese on journeys during the 15th and 16th",
+        "metadata": {
+          "search_query": "Who began the age of exploration in portugal?"
+        },
+        "retrieved_at": "2026-10-16T21:17:14.120010",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=72826783",
+        "title": "Exploration",
+        "snippet": "Exploration is the process of exploring, an activity which has some expectation of discovery. Organised exploration is largely a human activity, but exploratory",
+        "metadata": {
+          "search_query": "Who began the age of exploration in portugal?"
+        },
+        "retrieved_at": "2026-10-16T21:17:14.120021",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=2041178",
+        "title": "European exploration of Africa",
+        "snippet": "Africa begins with the Age of Discovery in the 15th century, pioneered by the Kingdom of Portugal under Henry the Navigator. The Cape of Good Hope was first",
+        "metadata": {
+          "search_query": "Who began the age of exploration in portugal?"
+        },
+        "retrieved_at": "2026-10-16T21:17:14.120032",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "Prince Henry the Navigator began the age of exploration in Portugal.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:16:45.339292",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T21:17:32.469111"
+  },
+  "metrics": {
+    "latency_seconds": 62.70830535888672,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 1,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "system": "proposed_mad"
+  },
+  "started_at": "2026-10-16T21:16:29.760800",
+  "completed_at": "2026-10-16T21:17:32.469159",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0017",
+    "query": "Who began the age of exploration in portugal?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "as far as 1279",
+    "required_facts": [
+      "as far as 1279"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 25,
+      "answer_variants": [
+        "as far as 1279"
+      ],
+      "annotation_explanation": "This is the correct and verifiable answer to this question.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.history.com",
+          "text": "Sep 13, 2021 ... As early as 1341, Portuguese sailors had made their first forays into the tempting waters that lay beyond their shores, exploring the Canary ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The Portuguese began systematically exploring the Atlantic coast of Africa in 1418, under the sponsorship of Infante Dom Henrique (Prince Henry). In 1488, ...",
+          "supports_answers": [
+            "as far as 1279"
+          ]
+        },
+        {
+          "source_domain": "guides.loc.gov",
+          "text": "Aug 24, 2022 ... The Portuguese were among the very first European explorers to the Americas, and some Americans claim descent from the parties of the first ...",
+          "supports_answers": [
+            "as far as 1279"
+          ]
+        },
+        {
+          "source_domain": "www.worldhistory.org",
+          "text": "Jul 28, 2021 ... The Portuguese built an empire from 1420 onwards that was largely composed of trade centres dotted around the coasts of three continents.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "Henry the Navigator, prince of Portugal, initiated the first great enterprise of the Age of Discovery—the search for a sea route east by south to Cathay.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nationalgeographic.org",
+          "text": "May 19, 2022 ... His actions sparked Europe's age of exploration, which connected the ... The Portuguese started systematically raiding settlements on the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "mrjonesflippedclassroom.weebly.com",
+          "text": "May 1, 2015 ... In 1488, Bartolomeu Dias became the first European to sail around the southern tip of Africa. Picture. n July 1497, Vasco da Gama set sail ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "pressbooks-dev.oer.hawaii.edu",
+          "text": "In the 1500s, Spain surpassed Portugal as the dominant European power. This age of exploration and the subsequent creation of an Atlantic World marked the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.golisbon.com",
+          "text": "How Portugal started globalization ... The beginning of Portugal's pioneering role in world exploration may be traced back to as far as 1279, when King Diniz set ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "human.libretexts.org",
+          "text": "Jul 10, 2022 ... Spain and Portugal led the European Age of Discovery, an era lasting from roughly 1450-1750, in technological advances, exploration, and ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "proposed_mad",
+  "evaluation_seconds": 62.727,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

@@ -1,0 +1,826 @@
+{
+  "query": "Who created the convention on the rights of the child?",
+  "trace_id": "3e0cbb1a-277e-4ea1-ba1a-014ec63d44d8",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who created the convention on the rights of the child?",
+          "answer": "Based on 5 sources:\n- Convention on the Rights of the Child - Wikipedia: The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets out the civil, political, economic, social, health, and cultural rights of children\n- [4]\n\nBackground to the Convention | OHCHR - UN Human Rights Office: Monitoring Under article 44 of the Convention, States parties accept the duty to submit regular reports to the Committee on the Rights of the Child on the steps they have taken to put the Convention into effect and on progress in the enjoyment of children's rights in their territories\n- The Beginnings of the Convention on the Rights of the Child: The Convention on the Rights of the Child The Beginnings of the Convention In the absence of any legally binding text, it seemed difficult to effectively protect children's rights\n- Thus, in 1978, Poland proposed the idea of a Convention on the Rights of the Child that would be legally binding for all nations\n- The […]\n\nConvention on the Rights of the Child | OHCHR: Entry into force: 2 September 1990, in accordance with article 49 Preamble The States Parties to the present Convention, Considering that, in accordance with the principles proclaimed in the Charter of the United Nations, recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,\n\nHistory of child rights - UNICEF: The Convention on the Rights of the Child is adopted by the United Nations General Assembly and widely acclaimed as a landmark achievement for human rights, recognizing the roles of children as social, economic, political, civil and cultural actors",
+          "claims": [
+            {
+              "id": "7fc8fa17",
+              "text": "Convention on the Rights of the Child - Wikipedia: The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets out the civil, political, economic, social, health, and cultural rights of children",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Convention_on_the_Rights_of_the_Child",
+                "title": "Convention on the Rights of the Child - Wikipedia",
+                "snippet": "The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets out the civil, political, economic, social, health, and cultural rights of children. [4]",
+                "metadata": {
+                  "search_query": "Who created the convention on the rights of the child?"
+                },
+                "retrieved_at": "2026-10-16T20:43:53.465420",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "72eb76eb",
+              "text": "[4]\n\nBackground to the Convention | OHCHR - UN Human Rights Office: Monitoring Under article 44 of the Convention, States parties accept the duty to submit regular reports to the Committee on the Rights of the Child on the steps they have taken to put the Convention into effect and on progress in the enjoyment of children's rights in their territories",
+              "source": {
+                "url": "https://www.ohchr.org/en/treaty-bodies/crc/background-convention",
+                "title": "Background to the Convention | OHCHR - UN Human Rights Office",
+                "snippet": "Monitoring Under article 44 of the Convention, States parties accept the duty to submit regular reports to the Committee on the Rights of the Child on the steps they have taken to put the Convention into effect and on progress in the enjoyment of children's rights in their territories.",
+                "metadata": {
+                  "search_query": "Who created the convention on the rights of the child?"
+                },
+                "retrieved_at": "2026-10-16T20:43:53.465451",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ad8c45a8",
+              "text": "The Beginnings of the Convention on the Rights of the Child: The Convention on the Rights of the Child The Beginnings of the Convention In the absence of any legally binding text, it seemed difficult to effectively protect children's rights",
+              "source": {
+                "url": "https://www.humanium.org/en/convention/beginnings/",
+                "title": "The Beginnings of the Convention on the Rights of the Child",
+                "snippet": "The Convention on the Rights of the Child The Beginnings of the Convention In the absence of any legally binding text, it seemed difficult to effectively protect children's rights. Thus, in 1978, Poland proposed the idea of a Convention on the Rights of the Child that would be legally binding for all nations. The […]",
+                "metadata": {
+                  "search_query": "Who created the convention on the rights of the child?"
+                },
+                "retrieved_at": "2026-10-16T20:43:53.465460",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "95c2d070",
+              "text": "Thus, in 1978, Poland proposed the idea of a Convention on the Rights of the Child that would be legally binding for all nations",
+              "source": {
+                "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-child",
+                "title": "Convention on the Rights of the Child | OHCHR",
+                "snippet": "Entry into force: 2 September 1990, in accordance with article 49 Preamble The States Parties to the present Convention, Considering that, in accordance with the principles proclaimed in the Charter of the United Nations, recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,",
+                "metadata": {
+                  "search_query": "Who created the convention on the rights of the child?"
+                },
+                "retrieved_at": "2026-10-16T20:43:53.465469",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "48d4058e",
+              "text": "The […]\n\nConvention on the Rights of the Child | OHCHR: Entry into force: 2 September 1990, in accordance with article 49 Preamble The States Parties to the present Convention, Considering that, in accordance with the principles proclaimed in the Charter of the United Nations, recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,\n\nHistory of child rights - UNICEF: The Convention on the Rights of the Child is adopted by the United Nations General Assembly and widely acclaimed as a landmark achievement for human rights, recognizing the roles of children as social, economic, political, civil and cultural actors",
+              "source": {
+                "url": "https://www.unicef.org/child-rights-convention/history-child-rights",
+                "title": "History of child rights - UNICEF",
+                "snippet": "The Convention on the Rights of the Child is adopted by the United Nations General Assembly and widely acclaimed as a landmark achievement for human rights, recognizing the roles of children as social, economic, political, civil and cultural actors. The Convention guarantees and sets minimum standards for protecting the rights of children in all capacities. UNICEF, which helped draft the ...",
+                "metadata": {
+                  "search_query": "Who created the convention on the rights of the child?"
+                },
+                "retrieved_at": "2026-10-16T20:43:53.465477",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "25bc4e9c",
+              "text": "The Convention guarantees and sets minimum standards for protecting the rights of children in all capacities",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Convention_on_the_Rights_of_the_Child",
+                "title": "Convention on the Rights of the Child - Wikipedia",
+                "snippet": "The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets out the civil, political, economic, social, health, and cultural rights of children. [4]",
+                "metadata": {
+                  "search_query": "Who created the convention on the rights of the child?"
+                },
+                "retrieved_at": "2026-10-16T20:43:53.465420",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "55b50e77",
+              "text": "UNICEF, which helped draft the",
+              "source": {
+                "url": "https://www.ohchr.org/en/treaty-bodies/crc/background-convention",
+                "title": "Background to the Convention | OHCHR - UN Human Rights Office",
+                "snippet": "Monitoring Under article 44 of the Convention, States parties accept the duty to submit regular reports to the Committee on the Rights of the Child on the steps they have taken to put the Convention into effect and on progress in the enjoyment of children's rights in their territories.",
+                "metadata": {
+                  "search_query": "Who created the convention on the rights of the child?"
+                },
+                "retrieved_at": "2026-10-16T20:43:53.465451",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Convention_on_the_Rights_of_the_Child",
+              "title": "Convention on the Rights of the Child - Wikipedia",
+              "snippet": "The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets out the civil, political, economic, social, health, and cultural rights of children. [4]",
+              "metadata": {
+                "search_query": "Who created the convention on the rights of the child?"
+              },
+              "retrieved_at": "2026-10-16T20:43:53.465420",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.ohchr.org/en/treaty-bodies/crc/background-convention",
+              "title": "Background to the Convention | OHCHR - UN Human Rights Office",
+              "snippet": "Monitoring Under article 44 of the Convention, States parties accept the duty to submit regular reports to the Committee on the Rights of the Child on the steps they have taken to put the Convention into effect and on progress in the enjoyment of children's rights in their territories.",
+              "metadata": {
+                "search_query": "Who created the convention on the rights of the child?"
+              },
+              "retrieved_at": "2026-10-16T20:43:53.465451",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.humanium.org/en/convention/beginnings/",
+              "title": "The Beginnings of the Convention on the Rights of the Child",
+              "snippet": "The Convention on the Rights of the Child The Beginnings of the Convention In the absence of any legally binding text, it seemed difficult to effectively protect children's rights. Thus, in 1978, Poland proposed the idea of a Convention on the Rights of the Child that would be legally binding for all nations. The […]",
+              "metadata": {
+                "search_query": "Who created the convention on the rights of the child?"
+              },
+              "retrieved_at": "2026-10-16T20:43:53.465460",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-child",
+              "title": "Convention on the Rights of the Child | OHCHR",
+              "snippet": "Entry into force: 2 September 1990, in accordance with article 49 Preamble The States Parties to the present Convention, Considering that, in accordance with the principles proclaimed in the Charter of the United Nations, recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,",
+              "metadata": {
+                "search_query": "Who created the convention on the rights of the child?"
+              },
+              "retrieved_at": "2026-10-16T20:43:53.465469",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.unicef.org/child-rights-convention/history-child-rights",
+              "title": "History of child rights - UNICEF",
+              "snippet": "The Convention on the Rights of the Child is adopted by the United Nations General Assembly and widely acclaimed as a landmark achievement for human rights, recognizing the roles of children as social, economic, political, civil and cultural actors. The Convention guarantees and sets minimum standards for protecting the rights of children in all capacities. UNICEF, which helped draft the ...",
+              "metadata": {
+                "search_query": "Who created the convention on the rights of the child?"
+              },
+              "retrieved_at": "2026-10-16T20:43:53.465477",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Convention on the Rights of the Child - Wikipedia: The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets out the civil, political, economic, social, health, and cultural rights of children. [4]\n\nBackground to the Convention | OHCHR - UN Human Rights Office: Monitoring Under article 44 of the Convention, States parties accept the duty to submit regular reports to the Committee on the Rights of the Child on the steps they have taken to put the Convention into effect and on progress in the enjoyment of children's rights in their territories.\n\nThe Beginnings of the Convention on the Rights of the Child: The Convention on the Rights of the Child The Beginnings of the Convention In the absence of any legally binding text, it seemed difficult to effectively protect children's rights. Thus, in 1978, Poland proposed the idea of a Convention on the Rights of the Child that would be legally binding for all nations. The […]\n\nConvention on the Rights of the Child | OHCHR: Entry into force: 2 September 1990, in accordance with article 49 Preamble The States Parties to the present Convention, Considering that, in accordance with the principles proclaimed in the Charter of the United Nations, recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,\n\nHistory of child rights - UNICEF: The Convention on the Rights of the Child is adopted by the United Nations General Assembly and widely acclaimed as a landmark achievement for human rights, recognizing the roles of children as social, economic, political, civil and cultural actors. The Convention guarantees and sets minimum standards for protecting the rights of children in all capacities. UNICEF, which helped draft the ...",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T20:43:53.465739"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who created the convention on the rights of the child?",
+          "answer": "Based on 5 sources:\n- Convention on the Rights of the Child: The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets\n\nCommittee on the Rights of the Child: The Committee on the Rights of the Child (CRC) is a body of experts that monitor and report on the implementation of the United Nations Convention on\n\nU\n- ratification of the Convention on the Rights of the Child: The United States has signed the United Nations Convention on the Rights of the Child (UNCRC); however, it remains the only United Nations member state\n\nConvention on the Rights of Persons with Disabilities: The Convention on the Rights of Persons with Disabilities (CRPD) is an international human rights treaty of the United Nations intended to protect the\n\nHague Convention on the Civil Aspects of International Child Abduction: The Hague Convention on the Civil Aspects of International Child Abduction or Hague Abduction Convention is a multilateral treaty that provides an expeditious",
+          "claims": [
+            {
+              "id": "c89c0f2a",
+              "text": "Convention on the Rights of the Child: The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets\n\nCommittee on the Rights of the Child: The Committee on the Rights of the Child (CRC) is a body of experts that monitor and report on the implementation of the United Nations Convention on\n\nU",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=46489",
+                "title": "Convention on the Rights of the Child",
+                "snippet": "The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets",
+                "metadata": {
+                  "search_query": "Who created the convention on the rights of the child?"
+                },
+                "retrieved_at": "2026-10-16T20:44:06.858009",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f7afbdd8",
+              "text": "ratification of the Convention on the Rights of the Child: The United States has signed the United Nations Convention on the Rights of the Child (UNCRC); however, it remains the only United Nations member state\n\nConvention on the Rights of Persons with Disabilities: The Convention on the Rights of Persons with Disabilities (CRPD) is an international human rights treaty of the United Nations intended to protect the\n\nHague Convention on the Civil Aspects of International Child Abduction: The Hague Convention on the Civil Aspects of International Child Abduction or Hague Abduction Convention is a multilateral treaty that provides an expeditious",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=20535437",
+                "title": "U.S. ratification of the Convention on the Rights of the Child",
+                "snippet": "The United States has signed the United Nations Convention on the Rights of the Child (UNCRC); however, it remains the only United Nations member state",
+                "metadata": {
+                  "search_query": "Who created the convention on the rights of the child?"
+                },
+                "retrieved_at": "2026-10-16T20:44:06.858050",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=46489",
+              "title": "Convention on the Rights of the Child",
+              "snippet": "The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets",
+              "metadata": {
+                "search_query": "Who created the convention on the rights of the child?"
+              },
+              "retrieved_at": "2026-10-16T20:44:06.858009",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=3031437",
+              "title": "Committee on the Rights of the Child",
+              "snippet": "The Committee on the Rights of the Child (CRC) is a body of experts that monitor and report on the implementation of the United Nations Convention on",
+              "metadata": {
+                "search_query": "Who created the convention on the rights of the child?"
+              },
+              "retrieved_at": "2026-10-16T20:44:06.858040",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=20535437",
+              "title": "U.S. ratification of the Convention on the Rights of the Child",
+              "snippet": "The United States has signed the United Nations Convention on the Rights of the Child (UNCRC); however, it remains the only United Nations member state",
+              "metadata": {
+                "search_query": "Who created the convention on the rights of the child?"
+              },
+              "retrieved_at": "2026-10-16T20:44:06.858050",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=17604930",
+              "title": "Convention on the Rights of Persons with Disabilities",
+              "snippet": "The Convention on the Rights of Persons with Disabilities (CRPD) is an international human rights treaty of the United Nations intended to protect the",
+              "metadata": {
+                "search_query": "Who created the convention on the rights of the child?"
+              },
+              "retrieved_at": "2026-10-16T20:44:06.858058",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=1966474",
+              "title": "Hague Convention on the Civil Aspects of International Child Abduction",
+              "snippet": "The Hague Convention on the Civil Aspects of International Child Abduction or Hague Abduction Convention is a multilateral treaty that provides an expeditious",
+              "metadata": {
+                "search_query": "Who created the convention on the rights of the child?"
+              },
+              "retrieved_at": "2026-10-16T20:44:06.858067",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Convention on the Rights of the Child: The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets\n\nCommittee on the Rights of the Child: The Committee on the Rights of the Child (CRC) is a body of experts that monitor and report on the implementation of the United Nations Convention on\n\nU.S. ratification of the Convention on the Rights of the Child: The United States has signed the United Nations Convention on the Rights of the Child (UNCRC); however, it remains the only United Nations member state\n\nConvention on the Rights of Persons with Disabilities: The Convention on the Rights of Persons with Disabilities (CRPD) is an international human rights treaty of the United Nations intended to protect the\n\nHague Convention on the Civil Aspects of International Child Abduction: The Hague Convention on the Civil Aspects of International Child Abduction or Hague Abduction Convention is a multilateral treaty that provides an expeditious",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T20:44:06.858212"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who created the convention on the rights of the child?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T20:44:11.137509"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "Who created the convention on the rights of the child?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Poland proposed the idea of a Convention on the Rights of the Child in 1978.",
+          "source": {
+            "url": "https://www.humanium.org/en/convention/beginnings/",
+            "title": "The Beginnings of the Convention on the Rights of the Child",
+            "snippet": "The Convention on the Rights of the Child The Beginnings of the Convention In the absence of any legally binding text, it seemed difficult to effectively protect children's rights. Thus, in 1978, Poland proposed the idea of a Convention on the Rights of the Child that would be legally binding for all nations. The […]",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T20:44:11.138262",
+            "credibility_score": null
+          },
+          "date": "1978",
+          "version": "null",
+          "scope": "null"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Convention_on_the_Rights_of_the_Child",
+          "title": "Convention on the Rights of the Child - Wikipedia",
+          "snippet": "The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets out the civil, political, economic, social, health, and cultural rights of children. [4]",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:44:11.138228",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.ohchr.org/en/treaty-bodies/crc/background-convention",
+          "title": "Background to the Convention | OHCHR - UN Human Rights Office",
+          "snippet": "Monitoring Under article 44 of the Convention, States parties accept the duty to submit regular reports to the Committee on the Rights of the Child on the steps they have taken to put the Convention into effect and on progress in the enjoyment of children's rights in their territories.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:44:11.138255",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.humanium.org/en/convention/beginnings/",
+          "title": "The Beginnings of the Convention on the Rights of the Child",
+          "snippet": "The Convention on the Rights of the Child The Beginnings of the Convention In the absence of any legally binding text, it seemed difficult to effectively protect children's rights. Thus, in 1978, Poland proposed the idea of a Convention on the Rights of the Child that would be legally binding for all nations. The […]",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:44:11.138262",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-child",
+          "title": "Convention on the Rights of the Child | OHCHR",
+          "snippet": "Entry into force: 2 September 1990, in accordance with article 49 Preamble The States Parties to the present Convention, Considering that, in accordance with the principles proclaimed in the Charter of the United Nations, recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:44:11.138268",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.unicef.org/child-rights-convention/history-child-rights",
+          "title": "History of child rights - UNICEF",
+          "snippet": "The Convention on the Rights of the Child is adopted by the United Nations General Assembly and widely acclaimed as a landmark achievement for human rights, recognizing the roles of children as social, economic, political, civil and cultural actors. The Convention guarantees and sets minimum standards for protecting the rights of children in all capacities. UNICEF, which helped draft the ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:44:11.138273",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T20:44:28.068303"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who created the convention on the rights of the child?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The United Nations created the Convention on the Rights of the Child.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=46489",
+            "title": "Convention on the Rights of the Child",
+            "snippet": "The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T20:44:28.068372",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": "international human rights treaty"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=46489",
+          "title": "Convention on the Rights of the Child",
+          "snippet": "The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:44:28.068372",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=3031437",
+          "title": "Committee on the Rights of the Child",
+          "snippet": "The Committee on the Rights of the Child (CRC) is a body of experts that monitor and report on the implementation of the United Nations Convention on",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:44:28.068386",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=20535437",
+          "title": "U.S. ratification of the Convention on the Rights of the Child",
+          "snippet": "The United States has signed the United Nations Convention on the Rights of the Child (UNCRC); however, it remains the only United Nations member state",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:44:28.068396",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=17604930",
+          "title": "Convention on the Rights of Persons with Disabilities",
+          "snippet": "The Convention on the Rights of Persons with Disabilities (CRPD) is an international human rights treaty of the United Nations intended to protect the",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:44:28.068406",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=1966474",
+          "title": "Hague Convention on the Civil Aspects of International Child Abduction",
+          "snippet": "The Hague Convention on the Civil Aspects of International Child Abduction or Hague Abduction Convention is a multilateral treaty that provides an expeditious",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:44:28.068415",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T20:44:44.036401"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who created the convention on the rights of the child?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T20:44:44.036445"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who created the convention on the rights of the child?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The United Nations General Assembly created the Convention on the Rights of the Child through adoption of UN General Assembly Resolution 44/25 on November 20, 1989. This convention established international standards for the protection of children's rights globally.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "The United Nations General Assembly created the Convention on the Rights of the Child through adoption of UN General Assembly Resolution 44/25 on November 20, 1989. This convention established interna",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T20:44:06.007103",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The United Nations General Assembly created the Convention on the Rights of the Child through adoption of UN General Assembly Resolution 44/25 on November 20, 1989. This convention established interna",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T20:44:06.007103",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "The United Nations General Assembly created the Convention on the Rights of the Child through adoption of UN General Assembly Resolution 44/25 on November 20, 1989. This convention established international standards for the protection of children's rights globally."
+      },
+      "retrieved_at": "2026-10-16T20:44:06.007192"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent",
+        "claim_a_text": "Poland proposed the idea of a Convention on the Rights of the Child in 1978.",
+        "claim_b_text": "The United Nations created the Convention on the Rights of the Child.",
+        "label": "neutral",
+        "contradiction_score": 0.321469783782959,
+        "entailment_score": 0.0006005215109325945,
+        "neutral_score": 0.8484760522842407
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Poland proposed the idea of a Convention on the Rights of the Child in 1978.",
+        "claim_b_text": "The United Nations General Assembly created the Convention on the Rights of the Child through adoption of UN General Assembly Resolution 44/25 on November 20, 1989. This convention established international standards for the protection of children's rights globally.",
+        "label": "neutral",
+        "contradiction_score": 0.005405085626989603,
+        "entailment_score": 0.00015266785339917988,
+        "neutral_score": 0.999447762966156
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The United Nations created the Convention on the Rights of the Child.",
+        "claim_b_text": "The United Nations General Assembly created the Convention on the Rights of the Child through adoption of UN General Assembly Resolution 44/25 on November 20, 1989. This convention established international standards for the protection of children's rights globally.",
+        "label": "neutral",
+        "contradiction_score": 0.005607317667454481,
+        "entailment_score": 0.000652157876174897,
+        "neutral_score": 0.9989855885505676
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "reference_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "No search results"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent",
+      "claim_a": {
+        "text": "Poland proposed the idea of a Convention on the Rights of the Child in 1978.",
+        "source": {
+          "url": "https://www.humanium.org/en/convention/beginnings/",
+          "title": "The Beginnings of the Convention on the Rights of the Child",
+          "snippet": "The Convention on the Rights of the Child The Beginnings of the Convention In the absence of any legally binding text, it seemed difficult to effectively protect children's rights. Thus, in 1978, Poland proposed the idea of a Convention on the Rights of the Child that would be legally binding for all nations. The […]",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:44:11.138262",
+          "credibility_score": null
+        },
+        "date": "1978",
+        "version": "null",
+        "scope": "null"
+      },
+      "claim_b": {
+        "text": "The United Nations created the Convention on the Rights of the Child.",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=46489",
+          "title": "Convention on the Rights of the Child",
+          "snippet": "The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T20:44:28.068372",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": "international human rights treaty"
+      },
+      "contradiction_score": 0.321469783782959
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.321469783782959,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who created the convention on the rights of the child?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [web_agent]: Poland proposed the idea of a Convention on the Rights of the Child in 1978.\n- [reference_agent]: The United Nations created the Convention on the Rights of the Child.\n- [ai_answer_agent]: The United Nations General Assembly created the Convention on the Rights of the Child through adoption of UN General Assembly Resolution 44/25 on November 20, 1989. This convention established international standards for the protection of children's rights globally.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Convention_on_the_Rights_of_the_Child",
+        "title": "Convention on the Rights of the Child - Wikipedia",
+        "snippet": "The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets out the civil, political, economic, social, health, and cultural rights of children. [4]",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:44:11.138228",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.ohchr.org/en/treaty-bodies/crc/background-convention",
+        "title": "Background to the Convention | OHCHR - UN Human Rights Office",
+        "snippet": "Monitoring Under article 44 of the Convention, States parties accept the duty to submit regular reports to the Committee on the Rights of the Child on the steps they have taken to put the Convention into effect and on progress in the enjoyment of children's rights in their territories.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:44:11.138255",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.humanium.org/en/convention/beginnings/",
+        "title": "The Beginnings of the Convention on the Rights of the Child",
+        "snippet": "The Convention on the Rights of the Child The Beginnings of the Convention In the absence of any legally binding text, it seemed difficult to effectively protect children's rights. Thus, in 1978, Poland proposed the idea of a Convention on the Rights of the Child that would be legally binding for all nations. The […]",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:44:11.138262",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-child",
+        "title": "Convention on the Rights of the Child | OHCHR",
+        "snippet": "Entry into force: 2 September 1990, in accordance with article 49 Preamble The States Parties to the present Convention, Considering that, in accordance with the principles proclaimed in the Charter of the United Nations, recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:44:11.138268",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.unicef.org/child-rights-convention/history-child-rights",
+        "title": "History of child rights - UNICEF",
+        "snippet": "The Convention on the Rights of the Child is adopted by the United Nations General Assembly and widely acclaimed as a landmark achievement for human rights, recognizing the roles of children as social, economic, political, civil and cultural actors. The Convention guarantees and sets minimum standards for protecting the rights of children in all capacities. UNICEF, which helped draft the ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:44:11.138273",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=46489",
+        "title": "Convention on the Rights of the Child",
+        "snippet": "The United Nations Convention on the Rights of the Child (commonly abbreviated as the CRC or UNCRC) is an international human rights treaty which sets",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:44:28.068372",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=3031437",
+        "title": "Committee on the Rights of the Child",
+        "snippet": "The Committee on the Rights of the Child (CRC) is a body of experts that monitor and report on the implementation of the United Nations Convention on",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:44:28.068386",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=20535437",
+        "title": "U.S. ratification of the Convention on the Rights of the Child",
+        "snippet": "The United States has signed the United Nations Convention on the Rights of the Child (UNCRC); however, it remains the only United Nations member state",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:44:28.068396",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=17604930",
+        "title": "Convention on the Rights of Persons with Disabilities",
+        "snippet": "The Convention on the Rights of Persons with Disabilities (CRPD) is an international human rights treaty of the United Nations intended to protect the",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:44:28.068406",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=1966474",
+        "title": "Hague Convention on the Civil Aspects of International Child Abduction",
+        "snippet": "The Hague Convention on the Civil Aspects of International Child Abduction or Hague Abduction Convention is a multilateral treaty that provides an expeditious",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T20:44:28.068415",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The United Nations General Assembly created the Convention on the Rights of the Child through adoption of UN General Assembly Resolution 44/25 on November 20, 1989. This convention established interna",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T20:44:06.007103",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T20:45:01.269525"
+  },
+  "metrics": {
+    "latency_seconds": 71.39319968223572,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T20:43:49.876332",
+  "completed_at": "2026-10-16T20:45:01.269621",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0000",
+    "query": "Who created the convention on the rights of the child?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "most common",
+    "required_facts": [
+      "most common"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 0,
+      "answer_variants": [
+        "the United Nations"
+      ],
+      "annotation_explanation": "This is the only answer that can be looked up and verified.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.ohchr.org",
+          "text": "The Convention on the Rights of the Child was adopted by the General Assembly of the United Nations by its resolution 44/25 of 20 November 1989.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.hrw.org",
+          "text": "Nov 17, 2014 ... The Convention on the Rights of the Child is an international treaty adopted by the United Nations on November 20, 1989, establishing global ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.unicef.org",
+          "text": "The League of Nations adopts the Geneva Declaration on the Rights of the Child, drafted by Eglantyne Jebb, founder of the Save the Children Fund. The ...",
+          "supports_answers": [
+            "the United Nations"
+          ]
+        },
+        {
+          "source_domain": "www.canada.ca",
+          "text": "Nov 5, 2021 ... The UNCRC is a human rights treaty created by the United Nations that provides a full list of rights for all children up to the age of 18.",
+          "supports_answers": [
+            "the United Nations"
+          ]
+        },
+        {
+          "source_domain": "www.unicef.org",
+          "text": "In 1989, world leaders made a historic commitment to the world's children by adopting the United Nations Convention on the Rights of the Child – an ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The United Nations Convention on the Rights of the Child is an international human rights treaty which sets out the civil, political, economic, social, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.humanium.org",
+          "text": "Since 1919, the international community, following the creation of The League ... The Convention on the Rights of the Child is adopted unanimously by the UN ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.savethechildren.org.uk",
+          "text": "The United Nations Convention on the Rights of the Child (UNCRC) is a legally-binding international agreement setting out the civil, political, economic, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "humanrights.gov.au",
+          "text": "The United Nations General Assembly adopted the Convention on the Rights of the Child in November 1989. The Convention came into force on 2 September 1990.",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 71.466,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

@@ -1,0 +1,302 @@
+{
+  "query": "Where does the sciatic nerve run in the foot?",
+  "trace_id": "e87a2de0-4ce2-4a1d-85da-371766f1f4f3",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Where does the sciatic nerve run in the foot?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:25:03.356232"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Where does the sciatic nerve run in the foot?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:25:03.355425"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Where does the sciatic nerve run in the foot?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:25:13.337730"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Where does the sciatic nerve run in the foot?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:25:13.337768"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Where does the sciatic nerve run in the foot?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:25:13.337787"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Where does the sciatic nerve run in the foot?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:25:48.369992"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Where does the sciatic nerve run in the foot?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:25:58.340703"
+  },
+  "metrics": {
+    "latency_seconds": 54.98693513870239,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_typed_strategy"
+  },
+  "started_at": "2026-10-16T22:25:03.353769",
+  "completed_at": "2026-10-16T22:25:58.340764",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0072",
+    "query": "Where does the sciatic nerve run in the foot?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "each leg",
+    "required_facts": [
+      "each leg"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 92,
+      "answer_variants": [
+        "each leg"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 2,3 4 and 8",
+      "evidence_contexts": [
+        {
+          "source_domain": "my.clevelandclinic.org",
+          "text": "May 21, 2023 ... You have two sciatic nerves, one on each side of your body. Each sciatic nerve runs through your hip and buttock on one side. They each go down ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.spine-health.com",
+          "text": "The sciatic nerve is the largest and longest nerve in the human body, originating at the base of the spine and running along the back of each leg into the foot.",
+          "supports_answers": [
+            "each leg"
+          ]
+        },
+        {
+          "source_domain": "my.clevelandclinic.org",
+          "text": "Jun 15, 2021 ... Your sciatic nerve roots start in your lower back and run down the back of each leg. Sciatica is the pain or discomfort if your sciatic ...",
+          "supports_answers": [
+            "each leg"
+          ]
+        },
+        {
+          "source_domain": "www.pennmedicine.org",
+          "text": "Neuropathy - sciatic nerve; Sciatic nerve dysfunction; Low back pain - sciatica; ... This nerve starts in the lower back and runs down the back of each leg.",
+          "supports_answers": [
+            "each leg"
+          ]
+        },
+        {
+          "source_domain": "www.mayoclinic.org",
+          "text": "Sep 13, 2022 ... Pressure on the sciatic nerve can cause pain and often numbness down a leg. Self-care measures might help.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nhsinform.scot",
+          "text": "Jun 16, 2023 ... The sciatic nerve starts in the lower back and goes all the way down the back of the leg into the foot. Symptoms can be experienced along ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.webmd.com",
+          "text": "Feb 15, 2023 ... Depending on where the sciatic nerve is affected, the pain may also extend to the foot or toes. The pain may worsen when you cough or sneeze.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.healthcentral.com",
+          "text": "Nov 7, 2022 ... Sciatic nerve pain can radiate down the back to the leg and foot. ... L5, S1, S2, and S3) and ultimately splits to run down both the inside ...",
+          "supports_answers": [
+            "each leg"
+          ]
+        },
+        {
+          "source_domain": "www.cedars-sinai.org",
+          "text": "Functions to assist in rotating the hip and turning the leg and foot outward; Runs diagonally, with the sciatic nerve running vertically directly beneath it ( ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nhs.uk",
+          "text": "Find out about the symptoms, what you can do to ease the pain, ... Sciatica is where the sciatic nerve, which runs from your lower back to your feet, ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_typed_strategy",
+  "evaluation_seconds": 55.001,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

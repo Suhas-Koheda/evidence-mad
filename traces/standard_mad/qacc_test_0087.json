@@ -1,0 +1,1076 @@
+{
+  "query": "Nobel laureate who began career as accountant in calcutta?",
+  "trace_id": "85e07db9-66a3-406e-9625-f7c475d249c0",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Nobel laureate who began career as accountant in calcutta?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T22:45:36.487522"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Nobel laureate who began career as accountant in calcutta?",
+          "answer": "Based on 5 sources:\n- [FREE] Which Nobel Laureate began his career as an accountant in the\n- : Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta\n- He is recognized for his significant contributions to welfare economics and social choice theory\n- Raman - Wikipedia: Raman's elder brother C\n- Subrahmanya Ayyar had joined the prestigious Indian government service, Indian Finance Service (now Indian Audit and Accounts Service)",
+          "claims": [
+            {
+              "id": "c03a6043",
+              "text": "[FREE] Which Nobel Laureate began his career as an accountant in the",
+              "source": {
+                "url": "https://brainly.com/question/35988281",
+                "title": "[FREE] Which Nobel Laureate began his career as an accountant in the ...",
+                "snippet": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.692536",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "92970473",
+              "text": ": Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/C._V._Raman",
+                "title": "C. V. Raman - Wikipedia",
+                "snippet": "Raman's elder brother C. Subrahmanya Ayyar had joined the prestigious Indian government service, Indian Finance Service (now Indian Audit and Accounts Service). [24] Raman followed suit and qualified for the Indian Finance Service achieving first position in the entrance examination in February 1907. [25] He was posted in Calcutta (now Kolkata) as Assistant Accountant General in June 1907. [12 ...",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.692568",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a21c9edb",
+              "text": "He is recognized for his significant contributions to welfare economics and social choice theory",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/List_of_Indian_Nobel_laureates",
+                "title": "List of Indian Nobel laureates - Wikipedia",
+                "snippet": "The following are not Indians, but rather Nobel laureates born in British India or laureates who are of Indian origin but subsequently non-citizens of India; however, they are still often included in lists of Indian Nobel laureates.",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.692577",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9f05ddd7",
+              "text": "Raman - Wikipedia: Raman's elder brother C",
+              "source": {
+                "url": "https://brainly.com/question/35988281",
+                "title": "[FREE] Which Nobel Laureate began his career as an accountant in the ...",
+                "snippet": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.692536",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "af875dd2",
+              "text": "Subrahmanya Ayyar had joined the prestigious Indian government service, Indian Finance Service (now Indian Audit and Accounts Service)",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/C._V._Raman",
+                "title": "C. V. Raman - Wikipedia",
+                "snippet": "Raman's elder brother C. Subrahmanya Ayyar had joined the prestigious Indian government service, Indian Finance Service (now Indian Audit and Accounts Service). [24] Raman followed suit and qualified for the Indian Finance Service achieving first position in the entrance examination in February 1907. [25] He was posted in Calcutta (now Kolkata) as Assistant Accountant General in June 1907. [12 ...",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.692568",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "747b29a2",
+              "text": "[24] Raman followed suit and qualified for the Indian Finance Service achieving first position in the entrance examination in February 1907",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/List_of_Indian_Nobel_laureates",
+                "title": "List of Indian Nobel laureates - Wikipedia",
+                "snippet": "The following are not Indians, but rather Nobel laureates born in British India or laureates who are of Indian origin but subsequently non-citizens of India; however, they are still often included in lists of Indian Nobel laureates.",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.692577",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "6e6a6b98",
+              "text": "[25] He was posted in Calcutta (now Kolkata) as Assistant Accountant General in June 1907",
+              "source": {
+                "url": "https://staging.conocer.cide.edu/textbooks/book-search/filedownload.ashx/nobel_laureate_who_began_career_as_accountant_in_calcutta.pdf",
+                "title": "PDF Nobel Laureate Who Began Career As Accountant In Calcutta",
+                "snippet": "The Life & Times of Shyama Prasad Mookerjee Tathagata Roy,2014-06-25 Indian Nobel Laureates Arun Anand,2013-01-01 Established by the philanthropist inventor Alfred Nobel the Nobel Prize is awarded for exemplary work in different fields. Since its inception in 1895; the recipients of this prize have been from various countries. Many Indians too have received this prestigious award. In this book ...",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.692585",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "37fb4cdc",
+              "text": "List of Indian Nobel laureates - Wikipedia: The following are not Indians, but rather Nobel laureates born in British India or laureates who are of Indian origin but subsequently non-citizens of India; however, they are still often included in lists of Indian Nobel laureates",
+              "source": {
+                "url": "https://brainly.com/question/35988281",
+                "title": "[FREE] Which Nobel Laureate began his career as an accountant in the ...",
+                "snippet": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.692536",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "fa77986e",
+              "text": "PDF Nobel Laureate Who Began Career As Accountant In Calcutta: The Life & Times of Shyama Prasad Mookerjee Tathagata Roy,2014-06-25 Indian Nobel Laureates Arun Anand,2013-01-01 Established by the philanthropist inventor Alfred Nobel the Nobel Prize is awarded for exemplary work in different fields",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/C._V._Raman",
+                "title": "C. V. Raman - Wikipedia",
+                "snippet": "Raman's elder brother C. Subrahmanya Ayyar had joined the prestigious Indian government service, Indian Finance Service (now Indian Audit and Accounts Service). [24] Raman followed suit and qualified for the Indian Finance Service achieving first position in the entrance examination in February 1907. [25] He was posted in Calcutta (now Kolkata) as Assistant Accountant General in June 1907. [12 ...",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.692568",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e5e5f35c",
+              "text": "Since its inception in 1895; the recipients of this prize have been from various countries",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/List_of_Indian_Nobel_laureates",
+                "title": "List of Indian Nobel laureates - Wikipedia",
+                "snippet": "The following are not Indians, but rather Nobel laureates born in British India or laureates who are of Indian origin but subsequently non-citizens of India; however, they are still often included in lists of Indian Nobel laureates.",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.692577",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://brainly.com/question/35988281",
+              "title": "[FREE] Which Nobel Laureate began his career as an accountant in the ...",
+              "snippet": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+              "metadata": {
+                "search_query": "Nobel laureate who began career as accountant in calcutta?"
+              },
+              "retrieved_at": "2026-10-16T22:45:36.692536",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/C._V._Raman",
+              "title": "C. V. Raman - Wikipedia",
+              "snippet": "Raman's elder brother C. Subrahmanya Ayyar had joined the prestigious Indian government service, Indian Finance Service (now Indian Audit and Accounts Service). [24] Raman followed suit and qualified for the Indian Finance Service achieving first position in the entrance examination in February 1907. [25] He was posted in Calcutta (now Kolkata) as Assistant Accountant General in June 1907. [12 ...",
+              "metadata": {
+                "search_query": "Nobel laureate who began career as accountant in calcutta?"
+              },
+              "retrieved_at": "2026-10-16T22:45:36.692568",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/List_of_Indian_Nobel_laureates",
+              "title": "List of Indian Nobel laureates - Wikipedia",
+              "snippet": "The following are not Indians, but rather Nobel laureates born in British India or laureates who are of Indian origin but subsequently non-citizens of India; however, they are still often included in lists of Indian Nobel laureates.",
+              "metadata": {
+                "search_query": "Nobel laureate who began career as accountant in calcutta?"
+              },
+              "retrieved_at": "2026-10-16T22:45:36.692577",
+              "credibility_score": null
+            },
+            {
+              "url": "https://staging.conocer.cide.edu/textbooks/book-search/filedownload.ashx/nobel_laureate_who_began_career_as_accountant_in_calcutta.pdf",
+              "title": "PDF Nobel Laureate Who Began Career As Accountant In Calcutta",
+              "snippet": "The Life & Times of Shyama Prasad Mookerjee Tathagata Roy,2014-06-25 Indian Nobel Laureates Arun Anand,2013-01-01 Established by the philanthropist inventor Alfred Nobel the Nobel Prize is awarded for exemplary work in different fields. Since its inception in 1895; the recipients of this prize have been from various countries. Many Indians too have received this prestigious award. In this book ...",
+              "metadata": {
+                "search_query": "Nobel laureate who began career as accountant in calcutta?"
+              },
+              "retrieved_at": "2026-10-16T22:45:36.692585",
+              "credibility_score": null
+            },
+            {
+              "url": "https://auth2.satellitedeskworks.com/file-preview/open-document/fetch.php/Nobel Laureate Who Began Career As Accountant In Calcutta.pdf",
+              "title": "PDF Nobel Laureate Who Began Career As Accountant In Calcutta",
+              "snippet": "Nobel Laureate Who Began Career As Accountant In Calcutta The AccountantThe Management AccountantAccounting for Management: Text and Cases, 3th EditionThe Chartered AccountantAccountant Student and",
+              "metadata": {
+                "search_query": "Nobel laureate who began career as accountant in calcutta?"
+              },
+              "retrieved_at": "2026-10-16T22:45:36.692593",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "[FREE] Which Nobel Laureate began his career as an accountant in the ...: Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.\n\nC. V. Raman - Wikipedia: Raman's elder brother C. Subrahmanya Ayyar had joined the prestigious Indian government service, Indian Finance Service (now Indian Audit and Accounts Service). [24] Raman followed suit and qualified for the Indian Finance Service achieving first position in the entrance examination in February 1907. [25] He was posted in Calcutta (now Kolkata) as Assistant Accountant General in June 1907. [12 ...\n\nList of Indian Nobel laureates - Wikipedia: The following are not Indians, but rather Nobel laureates born in British India or laureates who are of Indian origin but subsequently non-citizens of India; however, they are still often included in lists of Indian Nobel laureates.\n\nPDF Nobel Laureate Who Began Career As Accountant In Calcutta: The Life & Times of Shyama Prasad Mookerjee Tathagata Roy,2014-06-25 Indian Nobel Laureates Arun Anand,2013-01-01 Established by the philanthropist inventor Alfred Nobel the Nobel Prize is awarded for exemplary work in different fields. Since its inception in 1895; the recipients of this prize have been from various countries. Many Indians too have received this prestigious award. In this book ...\n\nPDF Nobel Laureate Who Began Career As Accountant In Calcutta: Nobel Laureate Who Began Career As Accountant In Calcutta The AccountantThe Management AccountantAccounting for Management: Text and Cases, 3th EditionThe Chartered AccountantAccountant Student and",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:45:36.692892"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Nobel laureate who began career as accountant in calcutta?",
+          "answer": "Based on 4 sources:\n- Satyendra Nath Bose: Satyendra Nath Bose to commemorate his contributions to science\n- Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up\n\nB\n- Ambedkar: 17 October 2013\n- Retrieved 17 October 2013\n- Face the People - FTP: Nobel laureate Amartya Sen on economic growth, Indian politics",
+          "claims": [
+            {
+              "id": "d57f2c1e",
+              "text": "Satyendra Nath Bose: Satyendra Nath Bose to commemorate his contributions to science",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=71777",
+                "title": "Satyendra Nath Bose",
+                "snippet": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.721614",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "7a47c4ce",
+              "text": "Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up\n\nB",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=197522",
+                "title": "B. R. Ambedkar",
+                "snippet": "17 October 2013. Retrieved 17 October 2013. Face the People - FTP: Nobel laureate Amartya Sen on economic growth, Indian politics. YouTube. 22 July 2013",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.721646",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3b0319ec",
+              "text": "Ambedkar: 17 October 2013",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3454",
+                "title": "Bangladesh",
+                "snippet": "first Asian and non-European laureate of the Nobel Prize in Literature. Kazi Nazrul Islam was a revolutionary poet who espoused political rebellion against",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.721662",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ef4e45d4",
+              "text": "Retrieved 17 October 2013",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=71777",
+                "title": "Satyendra Nath Bose",
+                "snippet": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.721614",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8bae5d97",
+              "text": "Face the People - FTP: Nobel laureate Amartya Sen on economic growth, Indian politics",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=197522",
+                "title": "B. R. Ambedkar",
+                "snippet": "17 October 2013. Retrieved 17 October 2013. Face the People - FTP: Nobel laureate Amartya Sen on economic growth, Indian politics. YouTube. 22 July 2013",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.721646",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "71e25f2c",
+              "text": "22 July 2013\n\nScotland: engagement with the European poetic tradition and European politics\"",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3454",
+                "title": "Bangladesh",
+                "snippet": "first Asian and non-European laureate of the Nobel Prize in Literature. Kazi Nazrul Islam was a revolutionary poet who espoused political rebellion against",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.721662",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1e535554",
+              "text": "Nobel Prize Laureate Seamus Heaney credited MacLean with saving Scottish Gaelic poetry\n\nBangladesh: first Asian and non-European laureate of the Nobel Prize in Literature",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=71777",
+                "title": "Satyendra Nath Bose",
+                "snippet": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.721614",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "14f30e37",
+              "text": "Kazi Nazrul Islam was a revolutionary poet who espoused political rebellion against",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=197522",
+                "title": "B. R. Ambedkar",
+                "snippet": "17 October 2013. Retrieved 17 October 2013. Face the People - FTP: Nobel laureate Amartya Sen on economic growth, Indian politics. YouTube. 22 July 2013",
+                "metadata": {
+                  "search_query": "Nobel laureate who began career as accountant in calcutta?"
+                },
+                "retrieved_at": "2026-10-16T22:45:36.721646",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=71777",
+              "title": "Satyendra Nath Bose",
+              "snippet": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+              "metadata": {
+                "search_query": "Nobel laureate who began career as accountant in calcutta?"
+              },
+              "retrieved_at": "2026-10-16T22:45:36.721614",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=197522",
+              "title": "B. R. Ambedkar",
+              "snippet": "17 October 2013. Retrieved 17 October 2013. Face the People - FTP: Nobel laureate Amartya Sen on economic growth, Indian politics. YouTube. 22 July 2013",
+              "metadata": {
+                "search_query": "Nobel laureate who began career as accountant in calcutta?"
+              },
+              "retrieved_at": "2026-10-16T22:45:36.721646",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=26994",
+              "title": "Scotland",
+              "snippet": "engagement with the European poetic tradition and European politics\". Nobel Prize Laureate Seamus Heaney credited MacLean with saving Scottish Gaelic poetry",
+              "metadata": {
+                "search_query": "Nobel laureate who began career as accountant in calcutta?"
+              },
+              "retrieved_at": "2026-10-16T22:45:36.721655",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=3454",
+              "title": "Bangladesh",
+              "snippet": "first Asian and non-European laureate of the Nobel Prize in Literature. Kazi Nazrul Islam was a revolutionary poet who espoused political rebellion against",
+              "metadata": {
+                "search_query": "Nobel laureate who began career as accountant in calcutta?"
+              },
+              "retrieved_at": "2026-10-16T22:45:36.721662",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Satyendra Nath Bose: Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up\n\nB. R. Ambedkar: 17 October 2013. Retrieved 17 October 2013. Face the People - FTP: Nobel laureate Amartya Sen on economic growth, Indian politics. YouTube. 22 July 2013\n\nScotland: engagement with the European poetic tradition and European politics\". Nobel Prize Laureate Seamus Heaney credited MacLean with saving Scottish Gaelic poetry\n\nBangladesh: first Asian and non-European laureate of the Nobel Prize in Literature. Kazi Nazrul Islam was a revolutionary poet who espoused political rebellion against",
+          "metadata": {
+            "search_results_count": 4,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:45:36.721905"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Nobel laureate who began career as accountant in calcutta?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:45:36.722675"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Nobel laureate who began career as accountant in calcutta?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+          "source": {
+            "url": "https://brainly.com/question/35988281",
+            "title": "[FREE] Which Nobel Laureate began his career as an accountant in the ...",
+            "snippet": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+            "metadata": {
+              "search_query": "Nobel laureate who began career as accountant in calcutta?"
+            },
+            "retrieved_at": "2026-10-16T22:45:36.723095",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://brainly.com/question/35988281",
+          "title": "[FREE] Which Nobel Laureate began his career as an accountant in the ...",
+          "snippet": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+          "metadata": {
+            "search_query": "Nobel laureate who began career as accountant in calcutta?"
+          },
+          "retrieved_at": "2026-10-16T22:45:36.723095",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/C._V._Raman",
+          "title": "C. V. Raman - Wikipedia",
+          "snippet": "Raman's elder brother C. Subrahmanya Ayyar had joined the prestigious Indian government service, Indian Finance Service (now Indian Audit and Accounts Service). [24] Raman followed suit and qualified for the Indian Finance Service achieving first position in the entrance examination in February 1907. [25] He was posted in Calcutta (now Kolkata) as Assistant Accountant General in June 1907. [12 ...",
+          "metadata": {
+            "search_query": "Nobel laureate who began career as accountant in calcutta?"
+          },
+          "retrieved_at": "2026-10-16T22:45:36.723105",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Indian_Nobel_laureates",
+          "title": "List of Indian Nobel laureates - Wikipedia",
+          "snippet": "The following are not Indians, but rather Nobel laureates born in British India or laureates who are of Indian origin but subsequently non-citizens of India; however, they are still often included in lists of Indian Nobel laureates.",
+          "metadata": {
+            "search_query": "Nobel laureate who began career as accountant in calcutta?"
+          },
+          "retrieved_at": "2026-10-16T22:45:36.723113",
+          "credibility_score": null
+        },
+        {
+          "url": "https://staging.conocer.cide.edu/textbooks/book-search/filedownload.ashx/nobel_laureate_who_began_career_as_accountant_in_calcutta.pdf",
+          "title": "PDF Nobel Laureate Who Began Career As Accountant In Calcutta",
+          "snippet": "The Life & Times of Shyama Prasad Mookerjee Tathagata Roy,2014-06-25 Indian Nobel Laureates Arun Anand,2013-01-01 Established by the philanthropist inventor Alfred Nobel the Nobel Prize is awarded for exemplary work in different fields. Since its inception in 1895; the recipients of this prize have been from various countries. Many Indians too have received this prestigious award. In this book ...",
+          "metadata": {
+            "search_query": "Nobel laureate who began career as accountant in calcutta?"
+          },
+          "retrieved_at": "2026-10-16T22:45:36.723119",
+          "credibility_score": null
+        },
+        {
+          "url": "https://auth2.satellitedeskworks.com/file-preview/open-document/fetch.php/Nobel Laureate Who Began Career As Accountant In Calcutta.pdf",
+          "title": "PDF Nobel Laureate Who Began Career As Accountant In Calcutta",
+          "snippet": "Nobel Laureate Who Began Career As Accountant In Calcutta The AccountantThe Management AccountantAccounting for Management: Text and Cases, 3th EditionThe Chartered AccountantAccountant Student and",
+          "metadata": {
+            "search_query": "Nobel laureate who began career as accountant in calcutta?"
+          },
+          "retrieved_at": "2026-10-16T22:45:36.723125",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:46:23.942506"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Nobel laureate who began career as accountant in calcutta?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=71777",
+            "title": "Satyendra Nath Bose",
+            "snippet": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+            "metadata": {
+              "search_query": "Nobel laureate who began career as accountant in calcutta?"
+            },
+            "retrieved_at": "2026-10-16T22:46:23.942790",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=71777",
+          "title": "Satyendra Nath Bose",
+          "snippet": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+          "metadata": {
+            "search_query": "Nobel laureate who began career as accountant in calcutta?"
+          },
+          "retrieved_at": "2026-10-16T22:46:23.942790",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=197522",
+          "title": "B. R. Ambedkar",
+          "snippet": "17 October 2013. Retrieved 17 October 2013. Face the People - FTP: Nobel laureate Amartya Sen on economic growth, Indian politics. YouTube. 22 July 2013",
+          "metadata": {
+            "search_query": "Nobel laureate who began career as accountant in calcutta?"
+          },
+          "retrieved_at": "2026-10-16T22:46:23.942807",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=26994",
+          "title": "Scotland",
+          "snippet": "engagement with the European poetic tradition and European politics\". Nobel Prize Laureate Seamus Heaney credited MacLean with saving Scottish Gaelic poetry",
+          "metadata": {
+            "search_query": "Nobel laureate who began career as accountant in calcutta?"
+          },
+          "retrieved_at": "2026-10-16T22:46:23.942819",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=3454",
+          "title": "Bangladesh",
+          "snippet": "first Asian and non-European laureate of the Nobel Prize in Literature. Kazi Nazrul Islam was a revolutionary poet who espoused political rebellion against",
+          "metadata": {
+            "search_query": "Nobel laureate who began career as accountant in calcutta?"
+          },
+          "retrieved_at": "2026-10-16T22:46:23.942831",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 4,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:47:50.975797"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Nobel laureate who began career as accountant in calcutta?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:46:20.936922"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "disagreement",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent",
+        "claim_a_text": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+        "claim_b_text": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+        "label": "contradiction",
+        "contradiction_score": 0.974568247795105,
+        "entailment_score": 0.00042372342431917787,
+        "neutral_score": 0.047863539308309555
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "reference_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent",
+      "claim_a": {
+        "text": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+        "source": {
+          "url": "https://brainly.com/question/35988281",
+          "title": "[FREE] Which Nobel Laureate began his career as an accountant in the ...",
+          "snippet": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+          "metadata": {
+            "search_query": "Nobel laureate who began career as accountant in calcutta?"
+          },
+          "retrieved_at": "2026-10-16T22:45:36.723095",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=71777",
+          "title": "Satyendra Nath Bose",
+          "snippet": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+          "metadata": {
+            "search_query": "Nobel laureate who began career as accountant in calcutta?"
+          },
+          "retrieved_at": "2026-10-16T22:46:23.942790",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.974568247795105
+    },
+    "rationale": "At least one pair exceeded contradiction threshold (0.7): score=0.975"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": true,
+  "contradiction_score": 0.974568247795105,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "64f56bd1",
+    "type": "factual",
+    "confidence": 0.75,
+    "explanation": "Direct factual contradiction detected",
+    "claim_a": {
+      "text": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+      "source": {
+        "url": "https://brainly.com/question/35988281",
+        "title": "[FREE] Which Nobel Laureate began his career as an accountant in the ...",
+        "snippet": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+        "metadata": {
+          "search_query": "Nobel laureate who began career as accountant in calcutta?"
+        },
+        "retrieved_at": "2026-10-16T22:45:36.723095",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+      "source": {
+        "url": "https://en.wikipedia.org/?curid=71777",
+        "title": "Satyendra Nath Bose",
+        "snippet": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+        "metadata": {
+          "search_query": "Nobel laureate who began career as accountant in calcutta?"
+        },
+        "retrieved_at": "2026-10-16T22:46:23.942790",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "classification_status": "fallback",
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent"
+    },
+    "detected_at": "2026-10-16T22:48:37.424488"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": null,
+      "critic_arguments": [],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T22:48:37.424912",
+      "completed_at": null
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": null,
+        "critic_arguments": [],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T22:48:37.424912",
+        "completed_at": null
+      }
+    ],
+    "status": "failed",
+    "stop_reason": "stage_failure",
+    "failed_stages": [
+      "proposer"
+    ],
+    "rounds_used": 0
+  },
+  "judge_result": null,
+  "final_answer": {
+    "query": "Nobel laureate who began career as accountant in calcutta?",
+    "answer": "A conflict (factual) was detected between sources, but the structured debate did not complete successfully (failed at: proposer). The conflict remains unresolved. Please consult the sources directly.",
+    "reasoning": "At least one pair exceeded contradiction threshold (0.7): score=0.975",
+    "evidence_state": "disagreement",
+    "sources": [
+      {
+        "url": "https://brainly.com/question/35988281",
+        "title": "[FREE] Which Nobel Laureate began his career as an accountant in the ...",
+        "snippet": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+        "metadata": {
+          "search_query": "Nobel laureate who began career as accountant in calcutta?"
+        },
+        "retrieved_at": "2026-10-16T22:45:36.723095",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/C._V._Raman",
+        "title": "C. V. Raman - Wikipedia",
+        "snippet": "Raman's elder brother C. Subrahmanya Ayyar had joined the prestigious Indian government service, Indian Finance Service (now Indian Audit and Accounts Service). [24] Raman followed suit and qualified for the Indian Finance Service achieving first position in the entrance examination in February 1907. [25] He was posted in Calcutta (now Kolkata) as Assistant Accountant General in June 1907. [12 ...",
+        "metadata": {
+          "search_query": "Nobel laureate who began career as accountant in calcutta?"
+        },
+        "retrieved_at": "2026-10-16T22:45:36.723105",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_Indian_Nobel_laureates",
+        "title": "List of Indian Nobel laureates - Wikipedia",
+        "snippet": "The following are not Indians, but rather Nobel laureates born in British India or laureates who are of Indian origin but subsequently non-citizens of India; however, they are still often included in lists of Indian Nobel laureates.",
+        "metadata": {
+          "search_query": "Nobel laureate who began career as accountant in calcutta?"
+        },
+        "retrieved_at": "2026-10-16T22:45:36.723113",
+        "credibility_score": null
+      },
+      {
+        "url": "https://staging.conocer.cide.edu/textbooks/book-search/filedownload.ashx/nobel_laureate_who_began_career_as_accountant_in_calcutta.pdf",
+        "title": "PDF Nobel Laureate Who Began Career As Accountant In Calcutta",
+        "snippet": "The Life & Times of Shyama Prasad Mookerjee Tathagata Roy,2014-06-25 Indian Nobel Laureates Arun Anand,2013-01-01 Established by the philanthropist inventor Alfred Nobel the Nobel Prize is awarded for exemplary work in different fields. Since its inception in 1895; the recipients of this prize have been from various countries. Many Indians too have received this prestigious award. In this book ...",
+        "metadata": {
+          "search_query": "Nobel laureate who began career as accountant in calcutta?"
+        },
+        "retrieved_at": "2026-10-16T22:45:36.723119",
+        "credibility_score": null
+      },
+      {
+        "url": "https://auth2.satellitedeskworks.com/file-preview/open-document/fetch.php/Nobel Laureate Who Began Career As Accountant In Calcutta.pdf",
+        "title": "PDF Nobel Laureate Who Began Career As Accountant In Calcutta",
+        "snippet": "Nobel Laureate Who Began Career As Accountant In Calcutta The AccountantThe Management AccountantAccounting for Management: Text and Cases, 3th EditionThe Chartered AccountantAccountant Student and",
+        "metadata": {
+          "search_query": "Nobel laureate who began career as accountant in calcutta?"
+        },
+        "retrieved_at": "2026-10-16T22:45:36.723125",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=71777",
+        "title": "Satyendra Nath Bose",
+        "snippet": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+        "metadata": {
+          "search_query": "Nobel laureate who began career as accountant in calcutta?"
+        },
+        "retrieved_at": "2026-10-16T22:46:23.942790",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=197522",
+        "title": "B. R. Ambedkar",
+        "snippet": "17 October 2013. Retrieved 17 October 2013. Face the People - FTP: Nobel laureate Amartya Sen on economic growth, Indian politics. YouTube. 22 July 2013",
+        "metadata": {
+          "search_query": "Nobel laureate who began career as accountant in calcutta?"
+        },
+        "retrieved_at": "2026-10-16T22:46:23.942807",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=26994",
+        "title": "Scotland",
+        "snippet": "engagement with the European poetic tradition and European politics\". Nobel Prize Laureate Seamus Heaney credited MacLean with saving Scottish Gaelic poetry",
+        "metadata": {
+          "search_query": "Nobel laureate who began career as accountant in calcutta?"
+        },
+        "retrieved_at": "2026-10-16T22:46:23.942819",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=3454",
+        "title": "Bangladesh",
+        "snippet": "first Asian and non-European laureate of the Nobel Prize in Literature. Kazi Nazrul Islam was a revolutionary poet who espoused political rebellion against",
+        "metadata": {
+          "search_query": "Nobel laureate who began career as accountant in calcutta?"
+        },
+        "retrieved_at": "2026-10-16T22:46:23.942831",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": true,
+    "conflict": {
+      "id": "64f56bd1",
+      "type": "factual",
+      "confidence": 0.75,
+      "explanation": "Direct factual contradiction detected",
+      "claim_a": {
+        "text": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+        "source": {
+          "url": "https://brainly.com/question/35988281",
+          "title": "[FREE] Which Nobel Laureate began his career as an accountant in the ...",
+          "snippet": "Amartya Sen, the Nobel Laureate in Economic Sciences, started his career as an accountant in the finance department of the Indian government in Calcutta. He is recognized for his significant contributions to welfare economics and social choice theory.",
+          "metadata": {
+            "search_query": "Nobel laureate who began career as accountant in calcutta?"
+          },
+          "retrieved_at": "2026-10-16T22:45:36.723095",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=71777",
+          "title": "Satyendra Nath Bose",
+          "snippet": "Satyendra Nath Bose to commemorate his contributions to science. Soviet Nobel laureate Lev Landau kept a list of names of physicists which he ranked on up",
+          "metadata": {
+            "search_query": "Nobel laureate who began career as accountant in calcutta?"
+          },
+          "retrieved_at": "2026-10-16T22:46:23.942790",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "metadata": {
+        "classification_status": "fallback",
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent"
+      },
+      "detected_at": "2026-10-16T22:48:37.424488"
+    },
+    "debate_outcome": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "proposer_argument": null,
+          "critic_arguments": [],
+          "reviser_argument": null,
+          "started_at": "2026-10-16T22:48:37.424912",
+          "completed_at": null
+        }
+      ],
+      "status": "failed",
+      "stop_reason": "stage_failure",
+      "failed_stages": [
+        "proposer"
+      ],
+      "rounds_used": 0
+    },
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 9,
+    "metadata": {
+      "evidence_state": "disagreement",
+      "debate_completed": false
+    },
+    "generated_at": "2026-10-16T22:49:22.445220"
+  },
+  "metrics": {
+    "latency_seconds": 226.5235607624054,
+    "evidence_state": "disagreement",
+    "debate_triggered": true,
+    "conflict_type": "factual",
+    "classification_status": "fallback",
+    "debate_status": "failed",
+    "debate_stop_reason": "stage_failure",
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 4,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 0,
+        "failed": 2
+      },
+      "classifier": {
+        "ok": 0,
+        "failed": 1
+      },
+      "proposer": {
+        "ok": 0,
+        "failed": 1
+      }
+    },
+    "retrieval_failure_rate": 0.25,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 9,
+    "system": "standard_mad"
+  },
+  "started_at": "2026-10-16T22:45:35.921654",
+  "completed_at": "2026-10-16T22:49:22.445276",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0087",
+    "query": "Nobel laureate who began career as accountant in calcutta?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Armartya Sen",
+    "required_facts": [
+      "Armartya Sen"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 110,
+      "answer_variants": [
+        "Amartya Sen"
+      ],
+      "annotation_explanation": "This is the only answer that made sense after looking it up.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.quora.com",
+          "text": "Dr. C.V.raman was a novel prize winner who began his career as an accountant in the finance department of the Indian government in Calcutta.",
+          "supports_answers": [
+            "Amartya Sen"
+          ]
+        },
+        {
+          "source_domain": "kbcliv.in",
+          "text": "Ques : Which Nobel laureate began his career as an accountant in the finance Department of the Indian Government in Calcutta?",
+          "supports_answers": [
+            "Amartya Sen"
+          ]
+        },
+        {
+          "source_domain": "www.queryhome.com",
+          "text": "Sep 27, 2017 ... Which Nobel laureate began his career as an accountant in the finance department of the Indian government in Calcutta? [A] Amartya Sen",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.livemint.com",
+          "text": "Nov 7, 2022 ... CV Raman was the first Pallet Chair of Physics at Calcutta University. ... CV Raman always wanted to work in the field of scientific research and ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "He was posted in Calcutta (now Kolkata) as Assistant Accountant General in June 1907. It was there that he became highly impressed with the Indian Association ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "Jun 26, 2023 ... Amartya Sen, Indian economist who was awarded the 1998 Nobel Prize in ... Sen was educated at Presidency College in Calcutta (now Kolkata).",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "news.harvard.edu",
+          "text": "Jun 3, 2021 ... GAZETTE: Your interest in politics started while you were a college student in Calcutta? SEN: No, I think earlier. In Shantiniketan it started.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.linkedin.com",
+          "text": "Mar 1, 2023 ... Yes, there is at least one accountant who won a Nobel Prize. Working full time as an accountant in finance department at Calcutta, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.acs.org",
+          "text": "His group in Calcutta began an extensive series of measurements of light ... remarking in his 1930 Nobel Prize address that \"... the character of the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.newscientist.com",
+          "text": "Despite not having formally been awarded a PhD, he began acquiring research students from the University of Calcutta in 1915, and soon after from several other ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "standard_mad",
+  "evaluation_seconds": 226.54,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

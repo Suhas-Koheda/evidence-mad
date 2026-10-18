@@ -1,0 +1,146 @@
+{
+  "query": "Where does the last name waller come from?",
+  "trace_id": "6b325796-e88c-4dbf-949f-364152773bb2",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Where does the last name waller come from?",
+    "answer": "German/English occupational surname, from \"waller\" (wall-builder/mason).",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-17T00:11:18.168640"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 16.98609161376953,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-17T00:11:01.182734",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0084",
+    "query": "Where does the last name waller come from?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "anglo saxon",
+    "required_facts": [
+      "anglo saxon"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 107,
+      "answer_variants": [
+        "Anglo—Saxon"
+      ],
+      "annotation_explanation": "This is the only verifiable option that can be looked up.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.houseofnames.com",
+          "text": "The ancient name of Waller finds its origins with the ancient Anglo-Saxon culture of Britain. It comes from a name for a mason. [1] Hence, Waller is an ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.ancestry.com",
+          "text": "It is a West Midlands dialect form of Weller . South German: nickname from Middle High German wallære 'traveler roamer pilgrim'. Swedish (rarely Wallér): ...",
+          "supports_answers": [
+            "Anglo—Saxon"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Waller is a surname mainly of Old English origin, with several possible etymologies. Notable people with this name include: ...",
+          "supports_answers": [
+            "Anglo—Saxon"
+          ]
+        },
+        {
+          "source_domain": "forebears.io",
+          "text": "A Gauler or Waller, a foreigner, from the Anglo—Saxon \"waller—went,\"foreign men, strangers. — An Etymological Dictionary of Family and Christian Names (1857) by ...",
+          "supports_answers": [
+            "Anglo—Saxon"
+          ]
+        },
+        {
+          "source_domain": "www.surnamedb.com",
+          "text": "Finally, it may be a nickname for a \"good humoured person\", from the Norman word \"wall(i)er\", cheerful, merry. Richard Waller (1395 - 1462) was sheriff of ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "philosophy-religion.blurtit.com",
+          "text": "Waller is an Anglo-Saxon name and is of English and German origin. Visit Waller Name Meaning, Origin, History, Nationality. Top Places of origin for name ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "namecensus.com",
+          "text": "The most recent statistics we have for the Waller surname is from the 2010 census data.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.your-family-history.com",
+          "text": "Waller name meaning: Topographic for someone who lived near a wall (wall of a ... Search for the Waller family. Forename Surname Where did they come from?",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.thebump.com",
+          "text": "Sep 28, 2022 ... Waller as a boy's name is of Old English and Old German origin, and the meaning of Waller is \"wall maker; powerful one\". On This Page.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "surnam.es",
+          "text": "Globalization has meant that surnames spread far beyond their nation of origin, ... Equivalent takes place when it comes to Waller, which as you can ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 17.001,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

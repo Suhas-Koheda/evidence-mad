@@ -1,0 +1,146 @@
+{
+  "query": "When did france and belgium invade the ruhr?",
+  "trace_id": "4c0d85f3-22a2-442f-a689-6aea07009c95",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "When did france and belgium invade the ruhr?",
+    "answer": "1923",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-17T00:11:46.896042"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 16.823615550994873,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-17T00:11:30.072531",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0093",
+    "query": "When did france and belgium invade the ruhr?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "January 1923",
+    "required_facts": [
+      "January 1923"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 118,
+      "answer_variants": [
+        "January 1923"
+      ],
+      "annotation_explanation": "This is the only verifiable one that can be looked up.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.theholocaustexplained.org",
+          "text": "On the 9 January 1923, in response to the lack of payment of reparations, France and Belgium invaded the Ruhr. The Ruhr was a region of Germany which ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The Occupation of the Ruhr (German: Ruhrbesetzung) was a period of military occupation of the Ruhr region of Germany by France and Belgium between 11 ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.icrc.org",
+          "text": "Jan 21, 2005 ... In January 1923 French and Belgian troops occupied the Ruhr coalfields in order to enforce German payment of reparations stemming from the First ...",
+          "supports_answers": [
+            "January 1923"
+          ]
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "Aug 9, 2023 ... Ruhr occupation, (1923–25) occupation of the industrial Ruhr River valley region in Germany by French and Belgian troops.",
+          "supports_answers": [
+            "January 1923"
+          ]
+        },
+        {
+          "source_domain": "nvdatabase.swarthmore.edu",
+          "text": "France refused to compromise with the Germans and decided to seize coal and other products in the Ruhr in lieu of reparations, using Belgium and Italy as allies ...",
+          "supports_answers": [
+            "January 1923"
+          ]
+        },
+        {
+          "source_domain": "alphahistory.com",
+          "text": "Sep 25, 2019 ... In January 1923, French and Belgian troops crossed the border and took control of numerous places in Germany's Ruhr Valley.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "encyclopedia.1914-1918-online.net",
+          "text": "Oct 14, 2016 ... The 1923-1925 Ruhr occupation by France and Belgium was triggered when ... announced that France would occupy the Ruhr District to extract ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.tutor2u.net",
+          "text": "Jan 19, 2019 ... In retaliation, the French army invaded the Ruhr and seized goods and ... The French did not take kindly to the strikes and proceeded to ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.jstor.org",
+          "text": "When French and Belgian troops occupied the Ruhr in January 1923, ... To British officials in Whitehall and Germany, the Ruhr invasion con.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.studysmarter.co.uk",
+          "text": "The Occupation of the Ruhr took place from January 1923 to September 1925, when the French invaded the Ruhr region of Germany in order to collect goods to pay ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 16.838,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

@@ -1,0 +1,199 @@
+{
+  "single_llm": {
+    "n": 96,
+    "evaluation_status": {
+      "success": 96
+    },
+    "opencode_model_signature_counts": {
+      "console-openrouter/cohere/north-mini-code:free": 32,
+      "console-openrouter/openrouter/free": 64
+    },
+    "debate_triggered": 0,
+    "debate_rate": 0.0,
+    "debate_outcome_counts": {
+      "not_triggered": 96
+    },
+    "evidence_state_counts": {
+      "not_recorded": 96
+    },
+    "latency_seconds": {
+      "median": 16.785956263542175,
+      "p95": 26.511940479278564,
+      "mean": 17.482971688111622
+    },
+    "successful_calls_per_question_mean": 1.0,
+    "failed_calls_per_question_mean": 0.0,
+    "usable_retrieval_agents_per_question_mean": 0.0,
+    "retrieved_claims_per_question_mean": 0.0,
+    "key_fact_accuracy": "not scored in these traces; no gold labels available"
+  },
+  "standard_mad": {
+    "n": 96,
+    "evaluation_status": {
+      "success": 96
+    },
+    "opencode_model_signature_counts": {
+      "console-openrouter/cohere/north-mini-code:free": 88,
+      "console-openrouter/openrouter/free": 8
+    },
+    "debate_triggered": 50,
+    "debate_rate": 0.5208333333333334,
+    "debate_outcome_counts": {
+      "failed": 21,
+      "completed": 29,
+      "not_triggered": 46
+    },
+    "evidence_state_counts": {
+      "uncertain": 29,
+      "agreement": 5,
+      "disagreement": 16,
+      "insufficient": 46
+    },
+    "latency_seconds": {
+      "median": 54.98725152015686,
+      "p95": 211.4687421321869,
+      "mean": 86.4312781939904
+    },
+    "successful_calls_per_question_mean": 1.4166666666666667,
+    "failed_calls_per_question_mean": 0.4895833333333333,
+    "usable_retrieval_agents_per_question_mean": 1.2395833333333333,
+    "retrieved_claims_per_question_mean": 1.2395833333333333,
+    "key_fact_accuracy": "not scored in these traces; no gold labels available"
+  },
+  "proposed_mad": {
+    "n": 96,
+    "evaluation_status": {
+      "success": 96
+    },
+    "opencode_model_signature_counts": {
+      "console-openrouter/cohere/north-mini-code:free": 91,
+      "console-openrouter/openrouter/free": 5
+    },
+    "debate_triggered": 22,
+    "debate_rate": 0.22916666666666666,
+    "debate_outcome_counts": {
+      "failed": 5,
+      "not_triggered": 74,
+      "completed": 16,
+      "partial": 1
+    },
+    "evidence_state_counts": {
+      "disagreement": 22,
+      "uncertain": 26,
+      "agreement": 1,
+      "insufficient": 47
+    },
+    "latency_seconds": {
+      "median": 49.987633228302,
+      "p95": 232.65480768680573,
+      "mean": 87.685588474075
+    },
+    "successful_calls_per_question_mean": 1.8541666666666667,
+    "failed_calls_per_question_mean": 0.3854166666666667,
+    "usable_retrieval_agents_per_question_mean": 1.3125,
+    "retrieved_claims_per_question_mean": 1.3125,
+    "key_fact_accuracy": "not scored in these traces; no gold labels available"
+  },
+  "no_gate": {
+    "n": 96,
+    "evaluation_status": {
+      "success": 96
+    },
+    "opencode_model_signature_counts": {
+      "console-openrouter/cohere/north-mini-code:free": 86,
+      "console-openrouter/openrouter/free": 10
+    },
+    "debate_triggered": 50,
+    "debate_rate": 0.5208333333333334,
+    "debate_outcome_counts": {
+      "completed": 28,
+      "failed": 21,
+      "partial": 1,
+      "not_triggered": 46
+    },
+    "evidence_state_counts": {
+      "disagreement": 24,
+      "uncertain": 25,
+      "agreement": 1,
+      "insufficient": 46
+    },
+    "latency_seconds": {
+      "median": 49.989808559417725,
+      "p95": 200.21105271577835,
+      "mean": 84.58363588651021
+    },
+    "successful_calls_per_question_mean": 1.65625,
+    "failed_calls_per_question_mean": 0.4583333333333333,
+    "usable_retrieval_agents_per_question_mean": 1.2604166666666667,
+    "retrieved_claims_per_question_mean": 1.25,
+    "key_fact_accuracy": "not scored in these traces; no gold labels available"
+  },
+  "no_typed_strategy": {
+    "n": 96,
+    "evaluation_status": {
+      "success": 96
+    },
+    "opencode_model_signature_counts": {
+      "console-openrouter/cohere/north-mini-code:free": 92,
+      "console-openrouter/openrouter/free": 4
+    },
+    "debate_triggered": 23,
+    "debate_rate": 0.23958333333333334,
+    "debate_outcome_counts": {
+      "partial": 5,
+      "completed": 11,
+      "not_triggered": 73,
+      "failed": 7
+    },
+    "evidence_state_counts": {
+      "disagreement": 23,
+      "uncertain": 24,
+      "agreement": 1,
+      "insufficient": 48
+    },
+    "latency_seconds": {
+      "median": 54.987608790397644,
+      "p95": 238.55310493707657,
+      "mean": 96.77984540661176
+    },
+    "successful_calls_per_question_mean": 1.8958333333333333,
+    "failed_calls_per_question_mean": 0.4895833333333333,
+    "usable_retrieval_agents_per_question_mean": 1.2708333333333333,
+    "retrieved_claims_per_question_mean": 1.2708333333333333,
+    "key_fact_accuracy": "not scored in these traces; no gold labels available"
+  },
+  "no_relevance_filter": {
+    "n": 96,
+    "evaluation_status": {
+      "success": 96
+    },
+    "opencode_model_signature_counts": {
+      "console-openrouter/cohere/north-mini-code:free": 91,
+      "console-openrouter/openrouter/free": 5
+    },
+    "debate_triggered": 18,
+    "debate_rate": 0.1875,
+    "debate_outcome_counts": {
+      "not_triggered": 78,
+      "completed": 13,
+      "partial": 2,
+      "failed": 3
+    },
+    "evidence_state_counts": {
+      "uncertain": 30,
+      "disagreement": 18,
+      "insufficient": 47,
+      "agreement": 1
+    },
+    "latency_seconds": {
+      "median": 54.95641767978668,
+      "p95": 205.41992431879044,
+      "mean": 86.13967723151048
+    },
+    "successful_calls_per_question_mean": 1.5729166666666667,
+    "failed_calls_per_question_mean": 0.3854166666666667,
+    "usable_retrieval_agents_per_question_mean": 1.28125,
+    "retrieved_claims_per_question_mean": 1.28125,
+    "key_fact_accuracy": "not scored in these traces; no gold labels available"
+  }
+}

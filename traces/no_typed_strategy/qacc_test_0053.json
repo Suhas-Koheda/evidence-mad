@@ -1,0 +1,303 @@
+{
+  "query": "Who played the mom on what's eating gilbert grape?",
+  "trace_id": "0c3cebcc-0490-4ad9-8f36-5256e519c6d5",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who played the mom on what's eating gilbert grape?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:06:03.305661"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who played the mom on what's eating gilbert grape?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:06:03.304381"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Who played the mom on what's eating gilbert grape?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:06:13.285740"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who played the mom on what's eating gilbert grape?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:06:13.285770"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who played the mom on what's eating gilbert grape?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:06:13.285795"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who played the mom on what's eating gilbert grape?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:06:48.323976"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who played the mom on what's eating gilbert grape?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:06:58.288980"
+  },
+  "metrics": {
+    "latency_seconds": 54.98672103881836,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_typed_strategy"
+  },
+  "started_at": "2026-10-16T22:06:03.302251",
+  "completed_at": "2026-10-16T22:06:58.289026",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0053",
+    "query": "Who played the mom on what's eating gilbert grape?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Darlene Cates",
+    "required_facts": [
+      "Darlene Cates"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 67,
+      "answer_variants": [
+        "Darlene Cates"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 1,2,3,4,5,7 and 9",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.nytimes.com",
+          "text": "Mar 28, 2017 ... Darlene Cates, who played the morbidly obese housebound mother in the acclaimed 1993 film “What's Eating Gilbert Grape,” died on Sunday at ...",
+          "supports_answers": [
+            "Darlene Cates"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Darlene Cates was an American actress. She became known for her role in the 1993 film What's Eating Gilbert Grape, in which she played the title character's ...",
+          "supports_answers": [
+            "Darlene Cates"
+          ]
+        },
+        {
+          "source_domain": "www.hollywoodreporter.com",
+          "text": "Mar 28, 2017 ... Cates played the housebound, morbidly obese mother to Johnny Depp's Gilbert Grape and Leonardo DiCaprio's Arnie Grape in the 1993 film. DiCaprio ...",
+          "supports_answers": [
+            "Darlene Cates"
+          ]
+        },
+        {
+          "source_domain": "www.usatoday.com",
+          "text": "Mar 28, 2017 ... NEW YORK (AP) — Darlene Cates, who played the housebound mother in the 1993 film What's Eating Gilbert Grape, has died.",
+          "supports_answers": [
+            "Darlene Cates"
+          ]
+        },
+        {
+          "source_domain": "www.vanityfair.com",
+          "text": "Mar 29, 2017 ... Leonardo DiCaprio has paid tribute to the late actress Darlene Cates, who played his mother in the 1993 drama *What's Eating Gilbert Grape?",
+          "supports_answers": [
+            "Darlene Cates"
+          ]
+        },
+        {
+          "source_domain": "www.imdb.com",
+          "text": "What's Eating Gilbert Grape: Directed by Lasse Hallström. With Johnny Depp, Leonardo DiCaprio, Juliette Lewis, Mary Steenburgen. A young man in a small ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "variety.com",
+          "text": "Mar 28, 2017 ... Darlene Cates, known for playing the mother in “What's Eating Gilbert Grape,” has died. She was 69. Cates' daughter, Sheri Cates Morgan, ...",
+          "supports_answers": [
+            "Darlene Cates"
+          ]
+        },
+        {
+          "source_domain": "www.rottentomatoes.com",
+          "text": "Gilbert Grape (Johnny Depp) is a small-town young man with a lot of responsibility. Chief among his concerns are his mother (Darlene Cates), who is so ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.washingtonpost.com",
+          "text": "Mar 30, 2017 ... Darlene Cates, who played the morbidly obese, housebound mother in the 1993 film “What's Eating Gilbert Grape,” died March 26 at her home in ...",
+          "supports_answers": [
+            "Darlene Cates"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_typed_strategy",
+  "evaluation_seconds": 55.002,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

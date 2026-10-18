@@ -1,0 +1,130 @@
+{
+  "query": "What were the two causes of the dust bowl?",
+  "trace_id": "8a3d803a-c180-481a-a21f-03d858d85317",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "What were the two causes of the dust bowl?",
+    "answer": "Drought and poor agricultural practices (overplowing and removal of native grasses).",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-17T00:09:22.977373"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 16.748296976089478,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-17T00:09:06.229204",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0056",
+    "query": "What were the two causes of the dust bowl?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "federal land policies",
+    "required_facts": [
+      "federal land policies"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 70,
+      "answer_variants": [
+        "poverty",
+        "federal land policies"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 3 and the source is trustworthy",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.fldoe.org",
+          "text": "Depression played a role, it was hardly the only guilty party. What circumstances conspired to cause the. Dust Bowl? Economic depression coupled with ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "drought.unl.edu",
+          "text": "Farmers also started to abandon soil conservation practices. These events laid the groundwork for the severe soil erosion that would cause the Dust Bowl. 1929 ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.history.com",
+          "text": "Oct 27, 2009 ... The Dust Bowl was caused by several economic and agricultural factors, including federal land policies, changes in regional weather, farm ...",
+          "supports_answers": [
+            "federal land policies"
+          ]
+        },
+        {
+          "source_domain": "www.ncbi.nlm.nih.gov",
+          "text": "Aug 28, 2013 ... What were “the Dust Bowl” and the “Dirty Thirties”? The phrase “Dust Bowl” originated ... Looking back on the human causes of soil erosion.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "public.wmo.int",
+          "text": "Some 40% of aerosols in the troposphere (the lowest layer of Earth's atmosphere) are dust particles from wind erosion. The main sources of these mineral ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "science.howstuffworks.com",
+          "text": "Apr 20, 2022 ... The biggest causes for the dust bowl were poverty that led to poor agricultural techniques, extremely high temperatures, long periods of drought ...",
+          "supports_answers": [
+            "poverty"
+          ]
+        },
+        {
+          "source_domain": "www.kennedy-center.org",
+          "text": "A second major cause of the Dust Bowl catastrophe was related to farming practices. To gain insight into this part of the causal equation, ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 16.766,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

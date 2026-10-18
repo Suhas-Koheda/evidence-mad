@@ -1,0 +1,129 @@
+{
+  "query": "Who plays the robot on the orville show?",
+  "trace_id": "0a101523-4f86-439e-a84b-ac0f301859bd",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who plays the robot on the orville show?",
+    "answer": "Seth MacFarlane",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-17T00:10:45.999321"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 13.892982006072998,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-17T00:10:32.106446",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0075",
+    "query": "Who plays the robot on the orville show?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "Jackson",
+    "required_facts": [
+      "Jackson"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 96,
+      "answer_variants": [
+        "Jackson",
+        "Isaac"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 1,2 and 5",
+      "evidence_contexts": [
+        {
+          "source_domain": "orville.fandom.com",
+          "text": "Jackson received word of a television audition for a \"robot\" from his agent knowing only that the show was a Seth MacFarlane science-fiction project. Unlike ...",
+          "supports_answers": [
+            "Jackson"
+          ]
+        },
+        {
+          "source_domain": "www.pinterest.com",
+          "text": "Nov 4, 2017 - Mark Jackson is the actor who plays Isaac the artificial life form on The Orville. He also does the voice, not Brent Spiner, as some people ...",
+          "supports_answers": [
+            "Jackson"
+          ]
+        },
+        {
+          "source_domain": "orville.fandom.com",
+          "text": "Isaac continued to serve on the Bridge of the Orville but was never ... in their respective shows, with Jerald playing Kasidy Yates on Star Trek: Deep Space ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.cbr.com",
+          "text": "Feb 28, 2021 ... The Orville: Who Plays Isaac on Seth MacFarlane's Sci-Fi Comedy ... a Kaylon robot whose character arc would become an integral part of ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "winteriscoming.net",
+          "text": "Jul 7, 2022 ... English actor Mark Jackson plays Isaac on The Orville. Jackson doesn't just voice Isaac, he also wears the suit to actually portray the ...",
+          "supports_answers": [
+            "Jackson"
+          ]
+        },
+        {
+          "source_domain": "www.express.co.uk",
+          "text": "Feb 13, 2019 ... Isaac the robot has been a fan favourite character since the show began last year. On The Orvile season two this week, the cast will face ...",
+          "supports_answers": [
+            "Isaac"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 13.909,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

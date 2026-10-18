@@ -1,0 +1,887 @@
+{
+  "query": "When was the first epistle of john written?",
+  "trace_id": "fc69a289-a4f1-4210-ad84-738b777087d4",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "When was the first epistle of john written?",
+          "answer": "Based on 5 sources:\n- First Epistle of John: The First Epistle of John is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles\n- There is no scholarly consensus\n\nFirst Epistle of Clement: The First Epistle of Clement (Ancient Greek: Κλήμεντος πρὸς Κορινθίους, romanized: Klḗmentos pròs Korinthíous, lit\n- 'Clement to Corinthians') is a letter\n\nFirst Epistle of Peter: The First Epistle of Peter is a book of the New Testament\n- The author presents himself as Peter the Apostle\n- The ending of the letter includes a statement\n\nFirst Epistle to the Corinthians: The First Epistle to the Corinthians (Ancient Greek: Αʹ Ἐπιστολὴ πρὸς Κορινθίους, A Epistolē pros Korinthious) is among the Pauline epistles in the New\n\nEpistle: letter",
+          "claims": [
+            {
+              "id": "c9459625",
+              "text": "First Epistle of John: The First Epistle of John is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=11388",
+                "title": "First Epistle of John",
+                "snippet": "The First Epistle of John is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles. There is no scholarly consensus",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181878",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9e7f76ce",
+              "text": "There is no scholarly consensus\n\nFirst Epistle of Clement: The First Epistle of Clement (Ancient Greek: Κλήμεντος πρὸς Κορινθίους, romanized: Klḗmentos pròs Korinthíous, lit",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=8977499",
+                "title": "First Epistle of Clement",
+                "snippet": "The First Epistle of Clement (Ancient Greek: Κλήμεντος πρὸς Κορινθίους, romanized: Klḗmentos pròs Korinthíous, lit. 'Clement to Corinthians') is a letter",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181892",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "7facf10d",
+              "text": "'Clement to Corinthians') is a letter\n\nFirst Epistle of Peter: The First Epistle of Peter is a book of the New Testament",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=11387",
+                "title": "First Epistle of Peter",
+                "snippet": "The First Epistle of Peter is a book of the New Testament. The author presents himself as Peter the Apostle. The ending of the letter includes a statement",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181901",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e92ec085",
+              "text": "The author presents himself as Peter the Apostle",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=11378",
+                "title": "First Epistle to the Corinthians",
+                "snippet": "The First Epistle to the Corinthians (Ancient Greek: Αʹ Ἐπιστολὴ πρὸς Κορινθίους, A Epistolē pros Korinthious) is among the Pauline epistles in the New",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181908",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9d49a088",
+              "text": "The ending of the letter includes a statement\n\nFirst Epistle to the Corinthians: The First Epistle to the Corinthians (Ancient Greek: Αʹ Ἐπιστολὴ πρὸς Κορινθίους, A Epistolē pros Korinthious) is among the Pauline epistles in the New\n\nEpistle: letter",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=181117",
+                "title": "Epistle",
+                "snippet": "letter. The epistle genre of letter-writing was common in ancient Egypt as part of the scribal-school writing curriculum. The letters in the New Testament",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181924",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "fd65fdb5",
+              "text": "The epistle genre of letter-writing was common in ancient Egypt as part of the scribal-school writing curriculum",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=11388",
+                "title": "First Epistle of John",
+                "snippet": "The First Epistle of John is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles. There is no scholarly consensus",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181878",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f0c3a2f7",
+              "text": "The letters in the New Testament",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=8977499",
+                "title": "First Epistle of Clement",
+                "snippet": "The First Epistle of Clement (Ancient Greek: Κλήμεντος πρὸς Κορινθίους, romanized: Klḗmentos pròs Korinthíous, lit. 'Clement to Corinthians') is a letter",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181892",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=11388",
+              "title": "First Epistle of John",
+              "snippet": "The First Epistle of John is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles. There is no scholarly consensus",
+              "metadata": {
+                "search_query": "When was the first epistle of john written?"
+              },
+              "retrieved_at": "2026-10-16T21:09:31.181878",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=8977499",
+              "title": "First Epistle of Clement",
+              "snippet": "The First Epistle of Clement (Ancient Greek: Κλήμεντος πρὸς Κορινθίους, romanized: Klḗmentos pròs Korinthíous, lit. 'Clement to Corinthians') is a letter",
+              "metadata": {
+                "search_query": "When was the first epistle of john written?"
+              },
+              "retrieved_at": "2026-10-16T21:09:31.181892",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=11387",
+              "title": "First Epistle of Peter",
+              "snippet": "The First Epistle of Peter is a book of the New Testament. The author presents himself as Peter the Apostle. The ending of the letter includes a statement",
+              "metadata": {
+                "search_query": "When was the first epistle of john written?"
+              },
+              "retrieved_at": "2026-10-16T21:09:31.181901",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=11378",
+              "title": "First Epistle to the Corinthians",
+              "snippet": "The First Epistle to the Corinthians (Ancient Greek: Αʹ Ἐπιστολὴ πρὸς Κορινθίους, A Epistolē pros Korinthious) is among the Pauline epistles in the New",
+              "metadata": {
+                "search_query": "When was the first epistle of john written?"
+              },
+              "retrieved_at": "2026-10-16T21:09:31.181908",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=181117",
+              "title": "Epistle",
+              "snippet": "letter. The epistle genre of letter-writing was common in ancient Egypt as part of the scribal-school writing curriculum. The letters in the New Testament",
+              "metadata": {
+                "search_query": "When was the first epistle of john written?"
+              },
+              "retrieved_at": "2026-10-16T21:09:31.181924",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "First Epistle of John: The First Epistle of John is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles. There is no scholarly consensus\n\nFirst Epistle of Clement: The First Epistle of Clement (Ancient Greek: Κλήμεντος πρὸς Κορινθίους, romanized: Klḗmentos pròs Korinthíous, lit. 'Clement to Corinthians') is a letter\n\nFirst Epistle of Peter: The First Epistle of Peter is a book of the New Testament. The author presents himself as Peter the Apostle. The ending of the letter includes a statement\n\nFirst Epistle to the Corinthians: The First Epistle to the Corinthians (Ancient Greek: Αʹ Ἐπιστολὴ πρὸς Κορινθίους, A Epistolē pros Korinthious) is among the Pauline epistles in the New\n\nEpistle: letter. The epistle genre of letter-writing was common in ancient Egypt as part of the scribal-school writing curriculum. The letters in the New Testament",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:09:31.182159"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "When was the first epistle of john written?",
+          "answer": "Based on 5 sources:\n- First Epistle of John - Wikipedia: The First Epistle of John[a] is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles\n- There is no scholarly consensus as to the authorship of the Johannine works\n- Johannine epistles - Wikipedia: The First Epistle of John stands out from the others due to its form, but they are united by language, style, contents, themes, and worldview\n- [10] The Second and Third Epistles of John are composed as regular Greco-Roman letters, with greetings and endings, while the First Epistle of John lacks such characteristic markings and instead resembles a sermon or an exhortatory speech\n- When Was the First Epistle of John Written",
+          "claims": [
+            {
+              "id": "9127e30d",
+              "text": "First Epistle of John - Wikipedia: The First Epistle of John[a] is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/First_Epistle_of_John",
+                "title": "First Epistle of John - Wikipedia",
+                "snippet": "The First Epistle of John[a] is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles. There is no scholarly consensus as to the authorship of the Johannine works.",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181240",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "36c43280",
+              "text": "There is no scholarly consensus as to the authorship of the Johannine works",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Johannine_epistles",
+                "title": "Johannine epistles - Wikipedia",
+                "snippet": "The First Epistle of John stands out from the others due to its form, but they are united by language, style, contents, themes, and worldview. [10] The Second and Third Epistles of John are composed as regular Greco-Roman letters, with greetings and endings, while the First Epistle of John lacks such characteristic markings and instead resembles a sermon or an exhortatory speech. [10][11 ...",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181259",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "4d8e6eb3",
+              "text": "Johannine epistles - Wikipedia: The First Epistle of John stands out from the others due to its form, but they are united by language, style, contents, themes, and worldview",
+              "source": {
+                "url": "https://www.ministryvoice.com/when-was-the-first-epistle-of-john-written/",
+                "title": "When Was the First Epistle of John Written? A Historical Perspective on ...",
+                "snippet": "The book of 1 John is generally dated around AD 85-95. This dating reflects the usual view that the letter belongs to the late first century and is closely associated in time with the Gospel of John. Because the letter itself is anonymous, the date is not established by an explicit authorial signature or stated year within the text; instead, the date is presented as a customary placement ...",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181268",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "29591165",
+              "text": "[10] The Second and Third Epistles of John are composed as regular Greco-Roman letters, with greetings and endings, while the First Epistle of John lacks such characteristic markings and instead resembles a sermon or an exhortatory speech",
+              "source": {
+                "url": "https://www.biblegateway.com/resources/encyclopedia-of-the-bible/Epistles-John",
+                "title": "Encyclopedia of The Bible - The Epistles of John",
+                "snippet": "A second John, known as John the elder, has been cited as the author of the epistles, both from the reference to \"the Elder\" in 2 and 3 John, and from a reference by Papias to a John the elder who perhaps was a different person from the Apostle John.",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181276",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "aaf758df",
+              "text": "When Was the First Epistle of John Written",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/First_Epistle_of_John",
+                "title": "First Epistle of John - Wikipedia",
+                "snippet": "The First Epistle of John[a] is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles. There is no scholarly consensus as to the authorship of the Johannine works.",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181240",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "98458279",
+              "text": "A Historical Perspective on",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Johannine_epistles",
+                "title": "Johannine epistles - Wikipedia",
+                "snippet": "The First Epistle of John stands out from the others due to its form, but they are united by language, style, contents, themes, and worldview. [10] The Second and Third Epistles of John are composed as regular Greco-Roman letters, with greetings and endings, while the First Epistle of John lacks such characteristic markings and instead resembles a sermon or an exhortatory speech. [10][11 ...",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181259",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c1e9e131",
+              "text": ": The book of 1 John is generally dated around AD 85-95",
+              "source": {
+                "url": "https://www.ministryvoice.com/when-was-the-first-epistle-of-john-written/",
+                "title": "When Was the First Epistle of John Written? A Historical Perspective on ...",
+                "snippet": "The book of 1 John is generally dated around AD 85-95. This dating reflects the usual view that the letter belongs to the late first century and is closely associated in time with the Gospel of John. Because the letter itself is anonymous, the date is not established by an explicit authorial signature or stated year within the text; instead, the date is presented as a customary placement ...",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181268",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1cd99fcb",
+              "text": "This dating reflects the usual view that the letter belongs to the late first century and is closely associated in time with the Gospel of John",
+              "source": {
+                "url": "https://www.biblegateway.com/resources/encyclopedia-of-the-bible/Epistles-John",
+                "title": "Encyclopedia of The Bible - The Epistles of John",
+                "snippet": "A second John, known as John the elder, has been cited as the author of the epistles, both from the reference to \"the Elder\" in 2 and 3 John, and from a reference by Papias to a John the elder who perhaps was a different person from the Apostle John.",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181276",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "eb508d7a",
+              "text": "Because the letter itself is anonymous, the date is not established by an explicit authorial signature or stated year within the text; instead, the date is presented as a customary placement",
+              "source": {
+                "url": "https://www.newworldencyclopedia.org/entry/First_Epistle_of_John",
+                "title": "First Epistle of John - New World Encyclopedia",
+                "snippet": "The First Epistle of John is a book of the Bible New Testament, the fourth of the \"catholic\" or general epistles. It was probably written in Ephesus about 90-110 C.E. and is more a sermon than a letter. The author's purpose is to counter the heresy that Jesus did not come \"in the flesh\" but only as a spirit, together with a possibly related teaching that Christians were free from normal ...",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181283",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b9f48805",
+              "text": "Encyclopedia of The Bible - The Epistles of John: A second John, known as John the elder, has been cited as the author of the epistles, both from the reference to \"the Elder\" in 2 and 3 John, and from a reference by Papias to a John the elder who perhaps was a different person from the Apostle John",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/First_Epistle_of_John",
+                "title": "First Epistle of John - Wikipedia",
+                "snippet": "The First Epistle of John[a] is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles. There is no scholarly consensus as to the authorship of the Johannine works.",
+                "metadata": {
+                  "search_query": "When was the first epistle of john written?"
+                },
+                "retrieved_at": "2026-10-16T21:09:31.181240",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/First_Epistle_of_John",
+              "title": "First Epistle of John - Wikipedia",
+              "snippet": "The First Epistle of John[a] is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles. There is no scholarly consensus as to the authorship of the Johannine works.",
+              "metadata": {
+                "search_query": "When was the first epistle of john written?"
+              },
+              "retrieved_at": "2026-10-16T21:09:31.181240",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Johannine_epistles",
+              "title": "Johannine epistles - Wikipedia",
+              "snippet": "The First Epistle of John stands out from the others due to its form, but they are united by language, style, contents, themes, and worldview. [10] The Second and Third Epistles of John are composed as regular Greco-Roman letters, with greetings and endings, while the First Epistle of John lacks such characteristic markings and instead resembles a sermon or an exhortatory speech. [10][11 ...",
+              "metadata": {
+                "search_query": "When was the first epistle of john written?"
+              },
+              "retrieved_at": "2026-10-16T21:09:31.181259",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.ministryvoice.com/when-was-the-first-epistle-of-john-written/",
+              "title": "When Was the First Epistle of John Written? A Historical Perspective on ...",
+              "snippet": "The book of 1 John is generally dated around AD 85-95. This dating reflects the usual view that the letter belongs to the late first century and is closely associated in time with the Gospel of John. Because the letter itself is anonymous, the date is not established by an explicit authorial signature or stated year within the text; instead, the date is presented as a customary placement ...",
+              "metadata": {
+                "search_query": "When was the first epistle of john written?"
+              },
+              "retrieved_at": "2026-10-16T21:09:31.181268",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.biblegateway.com/resources/encyclopedia-of-the-bible/Epistles-John",
+              "title": "Encyclopedia of The Bible - The Epistles of John",
+              "snippet": "A second John, known as John the elder, has been cited as the author of the epistles, both from the reference to \"the Elder\" in 2 and 3 John, and from a reference by Papias to a John the elder who perhaps was a different person from the Apostle John.",
+              "metadata": {
+                "search_query": "When was the first epistle of john written?"
+              },
+              "retrieved_at": "2026-10-16T21:09:31.181276",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.newworldencyclopedia.org/entry/First_Epistle_of_John",
+              "title": "First Epistle of John - New World Encyclopedia",
+              "snippet": "The First Epistle of John is a book of the Bible New Testament, the fourth of the \"catholic\" or general epistles. It was probably written in Ephesus about 90-110 C.E. and is more a sermon than a letter. The author's purpose is to counter the heresy that Jesus did not come \"in the flesh\" but only as a spirit, together with a possibly related teaching that Christians were free from normal ...",
+              "metadata": {
+                "search_query": "When was the first epistle of john written?"
+              },
+              "retrieved_at": "2026-10-16T21:09:31.181283",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "First Epistle of John - Wikipedia: The First Epistle of John[a] is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles. There is no scholarly consensus as to the authorship of the Johannine works.\n\nJohannine epistles - Wikipedia: The First Epistle of John stands out from the others due to its form, but they are united by language, style, contents, themes, and worldview. [10] The Second and Third Epistles of John are composed as regular Greco-Roman letters, with greetings and endings, while the First Epistle of John lacks such characteristic markings and instead resembles a sermon or an exhortatory speech. [10][11 ...\n\nWhen Was the First Epistle of John Written? A Historical Perspective on ...: The book of 1 John is generally dated around AD 85-95. This dating reflects the usual view that the letter belongs to the late first century and is closely associated in time with the Gospel of John. Because the letter itself is anonymous, the date is not established by an explicit authorial signature or stated year within the text; instead, the date is presented as a customary placement ...\n\nEncyclopedia of The Bible - The Epistles of John: A second John, known as John the elder, has been cited as the author of the epistles, both from the reference to \"the Elder\" in 2 and 3 John, and from a reference by Papias to a John the elder who perhaps was a different person from the Apostle John.\n\nFirst Epistle of John - New World Encyclopedia: The First Epistle of John is a book of the Bible New Testament, the fourth of the \"catholic\" or general epistles. It was probably written in Ephesus about 90-110 C.E. and is more a sermon than a letter. The author's purpose is to counter the heresy that Jesus did not come \"in the flesh\" but only as a spirit, together with a possibly related teaching that Christians were free from normal ...",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:09:31.182757"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "When was the first epistle of john written?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:09:31.182990"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "When was the first epistle of john written?",
+      "status": "no_relevant_results",
+      "failure_reason": "LLM found no answer",
+      "claims": [],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=11388",
+          "title": "First Epistle of John",
+          "snippet": "The First Epistle of John is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles. There is no scholarly consensus",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:09:31.183440",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=8977499",
+          "title": "First Epistle of Clement",
+          "snippet": "The First Epistle of Clement (Ancient Greek: Κλήμεντος πρὸς Κορινθίους, romanized: Klḗmentos pròs Korinthíous, lit. 'Clement to Corinthians') is a letter",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:09:31.183459",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=11387",
+          "title": "First Epistle of Peter",
+          "snippet": "The First Epistle of Peter is a book of the New Testament. The author presents himself as Peter the Apostle. The ending of the letter includes a statement",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:09:31.183465",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=11378",
+          "title": "First Epistle to the Corinthians",
+          "snippet": "The First Epistle to the Corinthians (Ancient Greek: Αʹ Ἐπιστολὴ πρὸς Κορινθίους, A Epistolē pros Korinthious) is among the Pauline epistles in the New",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:09:31.183471",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=181117",
+          "title": "Epistle",
+          "snippet": "letter. The epistle genre of letter-writing was common in ancient Egypt as part of the scribal-school writing curriculum. The letters in the New Testament",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:09:31.183476",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:09:54.161905"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "When was the first epistle of john written?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The First Epistle of John was generally dated around AD 85-95.",
+          "source": {
+            "url": "https://www.ministryvoice.com/when-was-the-first-epistle-of-john-written/",
+            "title": "When Was the First Epistle of John Written? A Historical Perspective on ...",
+            "snippet": "The book of 1 John is generally dated around AD 85-95. This dating reflects the usual view that the letter belongs to the late first century and is closely associated in time with the Gospel of John. Because the letter itself is anonymous, the date is not established by an explicit authorial signature or stated year within the text; instead, the date is presented as a customary placement ...",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T21:09:54.162008",
+            "credibility_score": null
+          },
+          "date": "AD 85-95",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/First_Epistle_of_John",
+          "title": "First Epistle of John - Wikipedia",
+          "snippet": "The First Epistle of John[a] is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles. There is no scholarly consensus as to the authorship of the Johannine works.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:09:54.161982",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Johannine_epistles",
+          "title": "Johannine epistles - Wikipedia",
+          "snippet": "The First Epistle of John stands out from the others due to its form, but they are united by language, style, contents, themes, and worldview. [10] The Second and Third Epistles of John are composed as regular Greco-Roman letters, with greetings and endings, while the First Epistle of John lacks such characteristic markings and instead resembles a sermon or an exhortatory speech. [10][11 ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:09:54.161997",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.ministryvoice.com/when-was-the-first-epistle-of-john-written/",
+          "title": "When Was the First Epistle of John Written? A Historical Perspective on ...",
+          "snippet": "The book of 1 John is generally dated around AD 85-95. This dating reflects the usual view that the letter belongs to the late first century and is closely associated in time with the Gospel of John. Because the letter itself is anonymous, the date is not established by an explicit authorial signature or stated year within the text; instead, the date is presented as a customary placement ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:09:54.162008",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.biblegateway.com/resources/encyclopedia-of-the-bible/Epistles-John",
+          "title": "Encyclopedia of The Bible - The Epistles of John",
+          "snippet": "A second John, known as John the elder, has been cited as the author of the epistles, both from the reference to \"the Elder\" in 2 and 3 John, and from a reference by Papias to a John the elder who perhaps was a different person from the Apostle John.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:09:54.162018",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.newworldencyclopedia.org/entry/First_Epistle_of_John",
+          "title": "First Epistle of John - New World Encyclopedia",
+          "snippet": "The First Epistle of John is a book of the Bible New Testament, the fourth of the \"catholic\" or general epistles. It was probably written in Ephesus about 90-110 C.E. and is more a sermon than a letter. The author's purpose is to counter the heresy that Jesus did not come \"in the flesh\" but only as a spirit, together with a possibly related teaching that Christians were free from normal ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:09:54.162029",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:10:11.144034"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "When was the first epistle of john written?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:10:11.144079"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "When was the first epistle of john written?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The First Epistle of John is traditionally dated to approximately 85-95 AD, though scholarly debate persists on the precise timeframe. Academic consensus generally places its composition in the late first century, with some recent scholarship suggesting possible dates extending into the early second century.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "The First Epistle of John is traditionally dated to approximately 85-95 AD, though scholarly debate persists on the precise timeframe. Academic consensus generally places its composition in the late f",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:09:43.510161",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The First Epistle of John is traditionally dated to approximately 85-95 AD, though scholarly debate persists on the precise timeframe. Academic consensus generally places its composition in the late f",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:09:43.510161",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "The First Epistle of John is traditionally dated to approximately 85-95 AD, though scholarly debate persists on the precise timeframe. Academic consensus generally places its composition in the late first century, with some recent scholarship suggesting possible dates extending into the early second century."
+      },
+      "retrieved_at": "2026-10-16T21:09:43.510230"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The First Epistle of John was generally dated around AD 85-95.",
+        "claim_b_text": "The First Epistle of John is traditionally dated to approximately 85-95 AD, though scholarly debate persists on the precise timeframe. Academic consensus generally places its composition in the late first century, with some recent scholarship suggesting possible dates extending into the early second century.",
+        "label": "neutral",
+        "contradiction_score": 0.00837379414588213,
+        "entailment_score": 0.006753347348421812,
+        "neutral_score": 0.9848729372024536
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "LLM found no answer"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "No search results"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "The First Epistle of John was generally dated around AD 85-95.",
+        "source": {
+          "url": "https://www.ministryvoice.com/when-was-the-first-epistle-of-john-written/",
+          "title": "When Was the First Epistle of John Written? A Historical Perspective on ...",
+          "snippet": "The book of 1 John is generally dated around AD 85-95. This dating reflects the usual view that the letter belongs to the late first century and is closely associated in time with the Gospel of John. Because the letter itself is anonymous, the date is not established by an explicit authorial signature or stated year within the text; instead, the date is presented as a customary placement ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:09:54.162008",
+          "credibility_score": null
+        },
+        "date": "AD 85-95",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The First Epistle of John is traditionally dated to approximately 85-95 AD, though scholarly debate persists on the precise timeframe. Academic consensus generally places its composition in the late first century, with some recent scholarship suggesting possible dates extending into the early second century.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The First Epistle of John is traditionally dated to approximately 85-95 AD, though scholarly debate persists on the precise timeframe. Academic consensus generally places its composition in the late f",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:09:43.510161",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.00837379414588213
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.00837379414588213,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "When was the first epistle of john written?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [web_agent]: The First Epistle of John was generally dated around AD 85-95.\n- [ai_answer_agent]: The First Epistle of John is traditionally dated to approximately 85-95 AD, though scholarly debate persists on the precise timeframe. Academic consensus generally places its composition in the late first century, with some recent scholarship suggesting possible dates extending into the early second century.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/First_Epistle_of_John",
+        "title": "First Epistle of John - Wikipedia",
+        "snippet": "The First Epistle of John[a] is the first of the Johannine epistles of the New Testament, and the fourth of the catholic epistles. There is no scholarly consensus as to the authorship of the Johannine works.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:09:54.161982",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Johannine_epistles",
+        "title": "Johannine epistles - Wikipedia",
+        "snippet": "The First Epistle of John stands out from the others due to its form, but they are united by language, style, contents, themes, and worldview. [10] The Second and Third Epistles of John are composed as regular Greco-Roman letters, with greetings and endings, while the First Epistle of John lacks such characteristic markings and instead resembles a sermon or an exhortatory speech. [10][11 ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:09:54.161997",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.ministryvoice.com/when-was-the-first-epistle-of-john-written/",
+        "title": "When Was the First Epistle of John Written? A Historical Perspective on ...",
+        "snippet": "The book of 1 John is generally dated around AD 85-95. This dating reflects the usual view that the letter belongs to the late first century and is closely associated in time with the Gospel of John. Because the letter itself is anonymous, the date is not established by an explicit authorial signature or stated year within the text; instead, the date is presented as a customary placement ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:09:54.162008",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.biblegateway.com/resources/encyclopedia-of-the-bible/Epistles-John",
+        "title": "Encyclopedia of The Bible - The Epistles of John",
+        "snippet": "A second John, known as John the elder, has been cited as the author of the epistles, both from the reference to \"the Elder\" in 2 and 3 John, and from a reference by Papias to a John the elder who perhaps was a different person from the Apostle John.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:09:54.162018",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.newworldencyclopedia.org/entry/First_Epistle_of_John",
+        "title": "First Epistle of John - New World Encyclopedia",
+        "snippet": "The First Epistle of John is a book of the Bible New Testament, the fourth of the \"catholic\" or general epistles. It was probably written in Ephesus about 90-110 C.E. and is more a sermon than a letter. The author's purpose is to counter the heresy that Jesus did not come \"in the flesh\" but only as a spirit, together with a possibly related teaching that Christians were free from normal ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:09:54.162029",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The First Epistle of John is traditionally dated to approximately 85-95 AD, though scholarly debate persists on the precise timeframe. Academic consensus generally places its composition in the late f",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:09:43.510161",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 6,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T21:10:12.273441"
+  },
+  "metrics": {
+    "latency_seconds": 41.09384369850159,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 6,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T21:09:31.179588",
+  "completed_at": "2026-10-16T21:10:12.273488",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0013",
+    "query": "When was the first epistle of john written?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "90-95",
+    "required_facts": [
+      "90-95"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 21,
+      "answer_variants": [
+        "A.D. 90–95."
+      ],
+      "annotation_explanation": "It is the most common answer from a variety of creditable sources.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The author of the First Epistle is termed John the Evangelist, who most modern scholars believe is not the same as John the Apostle.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "insight.org",
+          "text": "The author of this epistle never identified himself by name, but Christians since the beginning of the church have considered this letter authoritative, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "israelmyglory.org",
+          "text": "The church fathers in the first and second centuries recognized John as the author of 1 John. Irenaeus, who when he was young, heard Polycarp speak, testified ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.biblegateway.com",
+          "text": "Traditionally, John the son of Zebedee was considered the author of the epistles. When tradition is combined with reasonable possibilities, it seems that he ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.gotquestions.org",
+          "text": "Jan 4, 2022 ... Purpose of Writing: The Book of 1 John seems to be a summary that assumes the readers' knowledge of the gospel as written by John and offers ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "Jul 3, 2023 ... Letters of John, abbreviation John, three New Testament writings, all composed sometime around 100 ce and traditionally attributed to St.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.gty.org",
+          "text": "May 12, 2011 ... A.D. 90–95. It was likely written from Ephesus to the churches of Asia Minor over which John exercised apostolic leadership. Background and ...",
+          "supports_answers": [
+            "A.D. 90–95."
+          ]
+        },
+        {
+          "source_domain": "www.churchofjesuschrist.org",
+          "text": "It was likely written sometime in the latter part of the first century A.D.. Although John spent much of the early part of his life in Palestine, the area was ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.ewtn.com",
+          "text": "The same vein of divine love and charity towards our neighbour, which runs throughout the Gospel written by the beloved disciple and Evangelist, St. John, is ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "zondervanacademic.com",
+          "text": "Oct 3, 2019 ... The earliest ascription of authorship to John comes from Polycarp, bishop of Smyrna (d. AD 156), and from Papias, a contemporary of Polycarp, ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 41.11,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

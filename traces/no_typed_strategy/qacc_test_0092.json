@@ -1,0 +1,1063 @@
+{
+  "query": "Who was elected president in mexico in 2000?",
+  "trace_id": "9ec597af-13a5-455f-bc5f-9ed4efbf9cf6",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who was elected president in mexico in 2000?",
+          "answer": "Based on 5 sources:\n- President of Mexico: The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos\n\nElections in Mexico: current Mexican electoral system, the president of Mexico is directly elected for a six-year non-renewable term\n- The 128 senators are elected for a six-year\n\nMexico: entity in the country, governed by a mayor or municipal president (presidente municipal), elected by its residents by plurality\n- Gulf of Mexico Pacific\n\nList of heads of state of Mexico: of Mexico is the person who controls the executive power in the country\n- Under the current constitution, this responsibility lies with the President of\n\nNational Action Party (Mexico): elections\n- In the historic 2000 Mexican general election, PAN candidate Vicente Fox was elected president, the first time in 71 years that the Mexican presidency",
+          "claims": [
+            {
+              "id": "dae799ce",
+              "text": "President of Mexico: The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos\n\nElections in Mexico: current Mexican electoral system, the president of Mexico is directly elected for a six-year non-renewable term",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=24356889",
+                "title": "President of Mexico",
+                "snippet": "The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.959080",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "29a00fc3",
+              "text": "The 128 senators are elected for a six-year\n\nMexico: entity in the country, governed by a mayor or municipal president (presidente municipal), elected by its residents by plurality",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=924152",
+                "title": "Elections in Mexico",
+                "snippet": "current Mexican electoral system, the president of Mexico is directly elected for a six-year non-renewable term. The 128 senators are elected for a six-year",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.959101",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "6a940f5f",
+              "text": "Gulf of Mexico Pacific\n\nList of heads of state of Mexico: of Mexico is the person who controls the executive power in the country",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3966054",
+                "title": "Mexico",
+                "snippet": "entity in the country, governed by a mayor or municipal president (presidente municipal), elected by its residents by plurality. Gulf of Mexico Pacific",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.959112",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "7da664de",
+              "text": "Under the current constitution, this responsibility lies with the President of\n\nNational Action Party (Mexico): elections",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=152578",
+                "title": "List of heads of state of Mexico",
+                "snippet": "of Mexico is the person who controls the executive power in the country. Under the current constitution, this responsibility lies with the President of",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.959123",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "85ef6188",
+              "text": "In the historic 2000 Mexican general election, PAN candidate Vicente Fox was elected president, the first time in 71 years that the Mexican presidency",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=199859",
+                "title": "National Action Party (Mexico)",
+                "snippet": "elections. In the historic 2000 Mexican general election, PAN candidate Vicente Fox was elected president, the first time in 71 years that the Mexican presidency",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.959135",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=24356889",
+              "title": "President of Mexico",
+              "snippet": "The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos",
+              "metadata": {
+                "search_query": "Who was elected president in mexico in 2000?"
+              },
+              "retrieved_at": "2026-10-16T22:59:56.959080",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=924152",
+              "title": "Elections in Mexico",
+              "snippet": "current Mexican electoral system, the president of Mexico is directly elected for a six-year non-renewable term. The 128 senators are elected for a six-year",
+              "metadata": {
+                "search_query": "Who was elected president in mexico in 2000?"
+              },
+              "retrieved_at": "2026-10-16T22:59:56.959101",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=3966054",
+              "title": "Mexico",
+              "snippet": "entity in the country, governed by a mayor or municipal president (presidente municipal), elected by its residents by plurality. Gulf of Mexico Pacific",
+              "metadata": {
+                "search_query": "Who was elected president in mexico in 2000?"
+              },
+              "retrieved_at": "2026-10-16T22:59:56.959112",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=152578",
+              "title": "List of heads of state of Mexico",
+              "snippet": "of Mexico is the person who controls the executive power in the country. Under the current constitution, this responsibility lies with the President of",
+              "metadata": {
+                "search_query": "Who was elected president in mexico in 2000?"
+              },
+              "retrieved_at": "2026-10-16T22:59:56.959123",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=199859",
+              "title": "National Action Party (Mexico)",
+              "snippet": "elections. In the historic 2000 Mexican general election, PAN candidate Vicente Fox was elected president, the first time in 71 years that the Mexican presidency",
+              "metadata": {
+                "search_query": "Who was elected president in mexico in 2000?"
+              },
+              "retrieved_at": "2026-10-16T22:59:56.959135",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "President of Mexico: The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos\n\nElections in Mexico: current Mexican electoral system, the president of Mexico is directly elected for a six-year non-renewable term. The 128 senators are elected for a six-year\n\nMexico: entity in the country, governed by a mayor or municipal president (presidente municipal), elected by its residents by plurality. Gulf of Mexico Pacific\n\nList of heads of state of Mexico: of Mexico is the person who controls the executive power in the country. Under the current constitution, this responsibility lies with the President of\n\nNational Action Party (Mexico): elections. In the historic 2000 Mexican general election, PAN candidate Vicente Fox was elected president, the first time in 71 years that the Mexican presidency",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:59:56.959370"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who was elected president in mexico in 2000?",
+          "answer": "Based on 5 sources:\n- 2000 Mexican general election - Wikipedia: General elections were held in Mexico on Sunday, 2 July 2000\n- Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution\n- The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200\n- Vicente Fox - Wikipedia: Vicente Fox Quesada (Latin American Spanish: [biˈsente ˈfoks keˈsaða]; born 2 July 1942) is a Mexican businessman and politician who served as the 62nd president of Mexico from 2000 to 2006\n- After campaigning as a right-wing populist, [1][2][3][4] Fox was elected president on the National Action Party (PAN) ticket in the 2000 election",
+          "claims": [
+            {
+              "id": "529e050a",
+              "text": "2000 Mexican general election - Wikipedia: General elections were held in Mexico on Sunday, 2 July 2000",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/2000_Mexican_general_election",
+                "title": "2000 Mexican general election - Wikipedia",
+                "snippet": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.958126",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e1e479e9",
+              "text": "Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Vicente_Fox",
+                "title": "Vicente Fox - Wikipedia",
+                "snippet": "Vicente Fox Quesada (Latin American Spanish: [biˈsente ˈfoks keˈsaða]; born 2 July 1942) is a Mexican businessman and politician who served as the 62nd president of Mexico from 2000 to 2006. After campaigning as a right-wing populist, [1][2][3][4] Fox was elected president on the National Action Party (PAN) ticket in the 2000 election.",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.958157",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "da03cec7",
+              "text": "The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200",
+              "source": {
+                "url": "https://simple.wikipedia.org/wiki/Vicente_Fox",
+                "title": "Vicente Fox - Simple English Wikipedia, the free encyclopedia",
+                "snippet": "Fox was elected President of Mexico in the 2000 presidential election, a historically important election that made him the first president elected from an opposition party since Francisco I. Madero in 1910. He was the first opposition party member in 71 years to defeat the Institutional Revolutionary Party (PRI). He won with 42 percent of the vote.",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.958172",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0a7ff509",
+              "text": "Vicente Fox - Wikipedia: Vicente Fox Quesada (Latin American Spanish: [biˈsente ˈfoks keˈsaða]; born 2 July 1942) is a Mexican businessman and politician who served as the 62nd president of Mexico from 2000 to 2006",
+              "source": {
+                "url": "https://thisday.info/history/vicente-fox-elected-president/",
+                "title": "Vicente Fox Elected President | thisDay.",
+                "snippet": "What was Vicente Fox Elected President? General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution.",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.958186",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8fcba7a6",
+              "text": "After campaigning as a right-wing populist, [1][2][3][4] Fox was elected president on the National Action Party (PAN) ticket in the 2000 election",
+              "source": {
+                "url": "https://www.historyng.com/events/2000-presidential-election-in-mexico-2000",
+                "title": "2000 Presidential Election in Mexico - historyng.com",
+                "snippet": "The full story of 2000 Presidential Election in Mexico. Causes, context, and lasting impact. Verified War & Conflict history from Mexico.",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.958199",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "acb46560",
+              "text": "Vicente Fox - Simple English Wikipedia, the free encyclopedia: Fox was elected President of Mexico in the 2000 presidential election, a historically important election that made him the first president elected from an opposition party since Francisco I",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/2000_Mexican_general_election",
+                "title": "2000 Mexican general election - Wikipedia",
+                "snippet": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.958126",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "90ecf9f7",
+              "text": "He was the first opposition party member in 71 years to defeat the Institutional Revolutionary Party (PRI)",
+              "source": {
+                "url": "https://simple.wikipedia.org/wiki/Vicente_Fox",
+                "title": "Vicente Fox - Simple English Wikipedia, the free encyclopedia",
+                "snippet": "Fox was elected President of Mexico in the 2000 presidential election, a historically important election that made him the first president elected from an opposition party since Francisco I. Madero in 1910. He was the first opposition party member in 71 years to defeat the Institutional Revolutionary Party (PRI). He won with 42 percent of the vote.",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.958172",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1d6215e4",
+              "text": "He won with 42 percent of the vote",
+              "source": {
+                "url": "https://thisday.info/history/vicente-fox-elected-president/",
+                "title": "Vicente Fox Elected President | thisDay.",
+                "snippet": "What was Vicente Fox Elected President? General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution.",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.958186",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c2709ec8",
+              "text": "Vicente Fox Elected President | thisDay",
+              "source": {
+                "url": "https://www.historyng.com/events/2000-presidential-election-in-mexico-2000",
+                "title": "2000 Presidential Election in Mexico - historyng.com",
+                "snippet": "The full story of 2000 Presidential Election in Mexico. Causes, context, and lasting impact. Verified War & Conflict history from Mexico.",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.958199",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e445eabe",
+              "text": ": What was Vicente Fox Elected President",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/2000_Mexican_general_election",
+                "title": "2000 Mexican general election - Wikipedia",
+                "snippet": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+                "metadata": {
+                  "search_query": "Who was elected president in mexico in 2000?"
+                },
+                "retrieved_at": "2026-10-16T22:59:56.958126",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/2000_Mexican_general_election",
+              "title": "2000 Mexican general election - Wikipedia",
+              "snippet": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+              "metadata": {
+                "search_query": "Who was elected president in mexico in 2000?"
+              },
+              "retrieved_at": "2026-10-16T22:59:56.958126",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Vicente_Fox",
+              "title": "Vicente Fox - Wikipedia",
+              "snippet": "Vicente Fox Quesada (Latin American Spanish: [biˈsente ˈfoks keˈsaða]; born 2 July 1942) is a Mexican businessman and politician who served as the 62nd president of Mexico from 2000 to 2006. After campaigning as a right-wing populist, [1][2][3][4] Fox was elected president on the National Action Party (PAN) ticket in the 2000 election.",
+              "metadata": {
+                "search_query": "Who was elected president in mexico in 2000?"
+              },
+              "retrieved_at": "2026-10-16T22:59:56.958157",
+              "credibility_score": null
+            },
+            {
+              "url": "https://simple.wikipedia.org/wiki/Vicente_Fox",
+              "title": "Vicente Fox - Simple English Wikipedia, the free encyclopedia",
+              "snippet": "Fox was elected President of Mexico in the 2000 presidential election, a historically important election that made him the first president elected from an opposition party since Francisco I. Madero in 1910. He was the first opposition party member in 71 years to defeat the Institutional Revolutionary Party (PRI). He won with 42 percent of the vote.",
+              "metadata": {
+                "search_query": "Who was elected president in mexico in 2000?"
+              },
+              "retrieved_at": "2026-10-16T22:59:56.958172",
+              "credibility_score": null
+            },
+            {
+              "url": "https://thisday.info/history/vicente-fox-elected-president/",
+              "title": "Vicente Fox Elected President | thisDay.",
+              "snippet": "What was Vicente Fox Elected President? General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution.",
+              "metadata": {
+                "search_query": "Who was elected president in mexico in 2000?"
+              },
+              "retrieved_at": "2026-10-16T22:59:56.958186",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.historyng.com/events/2000-presidential-election-in-mexico-2000",
+              "title": "2000 Presidential Election in Mexico - historyng.com",
+              "snippet": "The full story of 2000 Presidential Election in Mexico. Causes, context, and lasting impact. Verified War & Conflict history from Mexico.",
+              "metadata": {
+                "search_query": "Who was elected president in mexico in 2000?"
+              },
+              "retrieved_at": "2026-10-16T22:59:56.958199",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "2000 Mexican general election - Wikipedia: General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...\n\nVicente Fox - Wikipedia: Vicente Fox Quesada (Latin American Spanish: [biˈsente ˈfoks keˈsaða]; born 2 July 1942) is a Mexican businessman and politician who served as the 62nd president of Mexico from 2000 to 2006. After campaigning as a right-wing populist, [1][2][3][4] Fox was elected president on the National Action Party (PAN) ticket in the 2000 election.\n\nVicente Fox - Simple English Wikipedia, the free encyclopedia: Fox was elected President of Mexico in the 2000 presidential election, a historically important election that made him the first president elected from an opposition party since Francisco I. Madero in 1910. He was the first opposition party member in 71 years to defeat the Institutional Revolutionary Party (PRI). He won with 42 percent of the vote.\n\nVicente Fox Elected President | thisDay.: What was Vicente Fox Elected President? General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution.\n\n2000 Presidential Election in Mexico - historyng.com: The full story of 2000 Presidential Election in Mexico. Causes, context, and lasting impact. Verified War & Conflict history from Mexico.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:59:56.958805"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who was elected president in mexico in 2000?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T22:59:56.960119"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Who was elected president in mexico in 2000?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=24356889",
+            "title": "President of Mexico",
+            "snippet": "The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos",
+            "metadata": {
+              "search_query": "Who was elected president in mexico in 2000?"
+            },
+            "retrieved_at": "2026-10-16T22:59:56.960804",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=24356889",
+          "title": "President of Mexico",
+          "snippet": "The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos",
+          "metadata": {
+            "search_query": "Who was elected president in mexico in 2000?"
+          },
+          "retrieved_at": "2026-10-16T22:59:56.960804",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=924152",
+          "title": "Elections in Mexico",
+          "snippet": "current Mexican electoral system, the president of Mexico is directly elected for a six-year non-renewable term. The 128 senators are elected for a six-year",
+          "metadata": {
+            "search_query": "Who was elected president in mexico in 2000?"
+          },
+          "retrieved_at": "2026-10-16T22:59:56.960826",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=3966054",
+          "title": "Mexico",
+          "snippet": "entity in the country, governed by a mayor or municipal president (presidente municipal), elected by its residents by plurality. Gulf of Mexico Pacific",
+          "metadata": {
+            "search_query": "Who was elected president in mexico in 2000?"
+          },
+          "retrieved_at": "2026-10-16T22:59:56.960833",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=152578",
+          "title": "List of heads of state of Mexico",
+          "snippet": "of Mexico is the person who controls the executive power in the country. Under the current constitution, this responsibility lies with the President of",
+          "metadata": {
+            "search_query": "Who was elected president in mexico in 2000?"
+          },
+          "retrieved_at": "2026-10-16T22:59:56.960845",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=199859",
+          "title": "National Action Party (Mexico)",
+          "snippet": "elections. In the historic 2000 Mexican general election, PAN candidate Vicente Fox was elected president, the first time in 71 years that the Mexican presidency",
+          "metadata": {
+            "search_query": "Who was elected president in mexico in 2000?"
+          },
+          "retrieved_at": "2026-10-16T22:59:56.960851",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:01:43.339145"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who was elected president in mexico in 2000?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/2000_Mexican_general_election",
+            "title": "2000 Mexican general election - Wikipedia",
+            "snippet": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+            "metadata": {
+              "search_query": "Who was elected president in mexico in 2000?"
+            },
+            "retrieved_at": "2026-10-16T23:01:43.339708",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2000_Mexican_general_election",
+          "title": "2000 Mexican general election - Wikipedia",
+          "snippet": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+          "metadata": {
+            "search_query": "Who was elected president in mexico in 2000?"
+          },
+          "retrieved_at": "2026-10-16T23:01:43.339708",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Vicente_Fox",
+          "title": "Vicente Fox - Wikipedia",
+          "snippet": "Vicente Fox Quesada (Latin American Spanish: [biˈsente ˈfoks keˈsaða]; born 2 July 1942) is a Mexican businessman and politician who served as the 62nd president of Mexico from 2000 to 2006. After campaigning as a right-wing populist, [1][2][3][4] Fox was elected president on the National Action Party (PAN) ticket in the 2000 election.",
+          "metadata": {
+            "search_query": "Who was elected president in mexico in 2000?"
+          },
+          "retrieved_at": "2026-10-16T23:01:43.339729",
+          "credibility_score": null
+        },
+        {
+          "url": "https://simple.wikipedia.org/wiki/Vicente_Fox",
+          "title": "Vicente Fox - Simple English Wikipedia, the free encyclopedia",
+          "snippet": "Fox was elected President of Mexico in the 2000 presidential election, a historically important election that made him the first president elected from an opposition party since Francisco I. Madero in 1910. He was the first opposition party member in 71 years to defeat the Institutional Revolutionary Party (PRI). He won with 42 percent of the vote.",
+          "metadata": {
+            "search_query": "Who was elected president in mexico in 2000?"
+          },
+          "retrieved_at": "2026-10-16T23:01:43.339741",
+          "credibility_score": null
+        },
+        {
+          "url": "https://thisday.info/history/vicente-fox-elected-president/",
+          "title": "Vicente Fox Elected President | thisDay.",
+          "snippet": "What was Vicente Fox Elected President? General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution.",
+          "metadata": {
+            "search_query": "Who was elected president in mexico in 2000?"
+          },
+          "retrieved_at": "2026-10-16T23:01:43.339753",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.historyng.com/events/2000-presidential-election-in-mexico-2000",
+          "title": "2000 Presidential Election in Mexico - historyng.com",
+          "snippet": "The full story of 2000 Presidential Election in Mexico. Causes, context, and lasting impact. Verified War & Conflict history from Mexico.",
+          "metadata": {
+            "search_query": "Who was elected president in mexico in 2000?"
+          },
+          "retrieved_at": "2026-10-16T23:01:43.339764",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:02:28.357672"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who was elected president in mexico in 2000?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:02:28.357732"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who was elected president in mexico in 2000?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T23:01:10.926163"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "disagreement",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos",
+        "claim_b_text": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+        "label": "contradiction",
+        "contradiction_score": 0.9992864727973938,
+        "entailment_score": 0.00015274950419552624,
+        "neutral_score": 0.7716091275215149
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "web_agent",
+      "claim_a": {
+        "text": "The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=24356889",
+          "title": "President of Mexico",
+          "snippet": "The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos",
+          "metadata": {
+            "search_query": "Who was elected president in mexico in 2000?"
+          },
+          "retrieved_at": "2026-10-16T22:59:56.960804",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/2000_Mexican_general_election",
+          "title": "2000 Mexican general election - Wikipedia",
+          "snippet": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+          "metadata": {
+            "search_query": "Who was elected president in mexico in 2000?"
+          },
+          "retrieved_at": "2026-10-16T23:01:43.339708",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.9992864727973938
+    },
+    "rationale": "At least one pair exceeded contradiction threshold (0.7): score=0.999"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": true,
+  "contradiction_score": 0.9992864727973938,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "942ac6a6",
+    "type": "unknown",
+    "confidence": 0.75,
+    "explanation": "Direct factual contradiction detected",
+    "claim_a": {
+      "text": "The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos",
+      "source": {
+        "url": "https://en.wikipedia.org/?curid=24356889",
+        "title": "President of Mexico",
+        "snippet": "The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos",
+        "metadata": {
+          "search_query": "Who was elected president in mexico in 2000?"
+        },
+        "retrieved_at": "2026-10-16T22:59:56.960804",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/2000_Mexican_general_election",
+        "title": "2000 Mexican general election - Wikipedia",
+        "snippet": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+        "metadata": {
+          "search_query": "Who was elected president in mexico in 2000?"
+        },
+        "retrieved_at": "2026-10-16T23:01:43.339708",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "classification_status": "fallback",
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "web_agent",
+      "original_type": "factual",
+      "strategy_override": "UNKNOWN"
+    },
+    "detected_at": "2026-10-16T23:03:14.888898"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": null,
+      "critic_arguments": [],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T23:03:14.889562",
+      "completed_at": null
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": null,
+        "critic_arguments": [],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T23:03:14.889562",
+        "completed_at": null
+      }
+    ],
+    "status": "failed",
+    "stop_reason": "stage_failure",
+    "failed_stages": [
+      "proposer"
+    ],
+    "rounds_used": 0
+  },
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who was elected president in mexico in 2000?",
+    "answer": "A conflict (factual) was detected between sources, but the structured debate did not complete successfully (failed at: proposer). The conflict remains unresolved. Please consult the sources directly.",
+    "reasoning": "At least one pair exceeded contradiction threshold (0.7): score=0.999",
+    "evidence_state": "disagreement",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=24356889",
+        "title": "President of Mexico",
+        "snippet": "The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos",
+        "metadata": {
+          "search_query": "Who was elected president in mexico in 2000?"
+        },
+        "retrieved_at": "2026-10-16T22:59:56.960804",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=924152",
+        "title": "Elections in Mexico",
+        "snippet": "current Mexican electoral system, the president of Mexico is directly elected for a six-year non-renewable term. The 128 senators are elected for a six-year",
+        "metadata": {
+          "search_query": "Who was elected president in mexico in 2000?"
+        },
+        "retrieved_at": "2026-10-16T22:59:56.960826",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=3966054",
+        "title": "Mexico",
+        "snippet": "entity in the country, governed by a mayor or municipal president (presidente municipal), elected by its residents by plurality. Gulf of Mexico Pacific",
+        "metadata": {
+          "search_query": "Who was elected president in mexico in 2000?"
+        },
+        "retrieved_at": "2026-10-16T22:59:56.960833",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=152578",
+        "title": "List of heads of state of Mexico",
+        "snippet": "of Mexico is the person who controls the executive power in the country. Under the current constitution, this responsibility lies with the President of",
+        "metadata": {
+          "search_query": "Who was elected president in mexico in 2000?"
+        },
+        "retrieved_at": "2026-10-16T22:59:56.960845",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=199859",
+        "title": "National Action Party (Mexico)",
+        "snippet": "elections. In the historic 2000 Mexican general election, PAN candidate Vicente Fox was elected president, the first time in 71 years that the Mexican presidency",
+        "metadata": {
+          "search_query": "Who was elected president in mexico in 2000?"
+        },
+        "retrieved_at": "2026-10-16T22:59:56.960851",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/2000_Mexican_general_election",
+        "title": "2000 Mexican general election - Wikipedia",
+        "snippet": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+        "metadata": {
+          "search_query": "Who was elected president in mexico in 2000?"
+        },
+        "retrieved_at": "2026-10-16T23:01:43.339708",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Vicente_Fox",
+        "title": "Vicente Fox - Wikipedia",
+        "snippet": "Vicente Fox Quesada (Latin American Spanish: [biˈsente ˈfoks keˈsaða]; born 2 July 1942) is a Mexican businessman and politician who served as the 62nd president of Mexico from 2000 to 2006. After campaigning as a right-wing populist, [1][2][3][4] Fox was elected president on the National Action Party (PAN) ticket in the 2000 election.",
+        "metadata": {
+          "search_query": "Who was elected president in mexico in 2000?"
+        },
+        "retrieved_at": "2026-10-16T23:01:43.339729",
+        "credibility_score": null
+      },
+      {
+        "url": "https://simple.wikipedia.org/wiki/Vicente_Fox",
+        "title": "Vicente Fox - Simple English Wikipedia, the free encyclopedia",
+        "snippet": "Fox was elected President of Mexico in the 2000 presidential election, a historically important election that made him the first president elected from an opposition party since Francisco I. Madero in 1910. He was the first opposition party member in 71 years to defeat the Institutional Revolutionary Party (PRI). He won with 42 percent of the vote.",
+        "metadata": {
+          "search_query": "Who was elected president in mexico in 2000?"
+        },
+        "retrieved_at": "2026-10-16T23:01:43.339741",
+        "credibility_score": null
+      },
+      {
+        "url": "https://thisday.info/history/vicente-fox-elected-president/",
+        "title": "Vicente Fox Elected President | thisDay.",
+        "snippet": "What was Vicente Fox Elected President? General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution.",
+        "metadata": {
+          "search_query": "Who was elected president in mexico in 2000?"
+        },
+        "retrieved_at": "2026-10-16T23:01:43.339753",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.historyng.com/events/2000-presidential-election-in-mexico-2000",
+        "title": "2000 Presidential Election in Mexico - historyng.com",
+        "snippet": "The full story of 2000 Presidential Election in Mexico. Causes, context, and lasting impact. Verified War & Conflict history from Mexico.",
+        "metadata": {
+          "search_query": "Who was elected president in mexico in 2000?"
+        },
+        "retrieved_at": "2026-10-16T23:01:43.339764",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": true,
+    "conflict": {
+      "id": "942ac6a6",
+      "type": "unknown",
+      "confidence": 0.75,
+      "explanation": "Direct factual contradiction detected",
+      "claim_a": {
+        "text": "The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=24356889",
+          "title": "President of Mexico",
+          "snippet": "The president of Mexico (Spanish: presidente de México), officially the president of the United Mexican States (Spanish: presidente de los Estados Unidos",
+          "metadata": {
+            "search_query": "Who was elected president in mexico in 2000?"
+          },
+          "retrieved_at": "2026-10-16T22:59:56.960804",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/2000_Mexican_general_election",
+          "title": "2000 Mexican general election - Wikipedia",
+          "snippet": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, replacing President Ernesto Zedillo Ponce de León, who was ineligible for re-election under the 1917 Constitution. The election system ran under plurality voting; 500 members of the Chamber of Deputies (300 by the first-past-the-post system and 200 ...",
+          "metadata": {
+            "search_query": "Who was elected president in mexico in 2000?"
+          },
+          "retrieved_at": "2026-10-16T23:01:43.339708",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "metadata": {
+        "classification_status": "fallback",
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "original_type": "factual",
+        "strategy_override": "UNKNOWN"
+      },
+      "detected_at": "2026-10-16T23:03:14.888898"
+    },
+    "debate_outcome": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "proposer_argument": null,
+          "critic_arguments": [],
+          "reviser_argument": null,
+          "started_at": "2026-10-16T23:03:14.889562",
+          "completed_at": null
+        }
+      ],
+      "status": "failed",
+      "stop_reason": "stage_failure",
+      "failed_stages": [
+        "proposer"
+      ],
+      "rounds_used": 0
+    },
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "metadata": {
+      "evidence_state": "disagreement",
+      "debate_completed": false
+    },
+    "generated_at": "2026-10-16T23:04:27.061637"
+  },
+  "metrics": {
+    "latency_seconds": 270.1051390171051,
+    "evidence_state": "disagreement",
+    "debate_triggered": true,
+    "conflict_type": "factual",
+    "classification_status": "fallback",
+    "debate_status": "failed",
+    "debate_stop_reason": "stage_failure",
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 4,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 0,
+        "failed": 2
+      },
+      "classifier": {
+        "ok": 0,
+        "failed": 1
+      },
+      "proposer": {
+        "ok": 0,
+        "failed": 1
+      }
+    },
+    "retrieval_failure_rate": 0.25,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "system": "no_typed_strategy"
+  },
+  "started_at": "2026-10-16T22:59:56.956488",
+  "completed_at": "2026-10-16T23:04:27.061721",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0092",
+    "query": "Who was elected president in mexico in 2000?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Vicente Fox",
+    "required_facts": [
+      "Vicente Fox"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 116,
+      "answer_variants": [
+        "Vicente Fox"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 2,3,4,5 and 7",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "General elections were held in Mexico on Sunday, 2 July 2000. Voters went to the polls to elect a new president to serve a single six-year term, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nytimes.com",
+          "text": "(July 4, 2000) Swept to power by younger, better-educated voters fed up with corruption and one-party rule, President-elect Vicente Fox Quesada began the ...",
+          "supports_answers": [
+            "Vicente Fox"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Vicente Fox Quesada GCMG CYC is a Mexican businessman and politician who served as the 62nd president of Mexico from 1 December 2000 to 30 November 2006.",
+          "supports_answers": [
+            "Vicente Fox"
+          ]
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "Jun 28, 2023 ... Vicente Fox, in full Vicente Fox Quesada, (born July 2, 1942, Mexico City, Mexico), Mexican businessman and politician who was president of ...",
+          "supports_answers": [
+            "Vicente Fox"
+          ]
+        },
+        {
+          "source_domain": "www.theguardian.com",
+          "text": "Jul 3, 2000 ... Vicente Fox, a tough-talking former Coca-Cola executive, shattered the governing party's 71-year hold on the Mexican presidency in a ...",
+          "supports_answers": [
+            "Vicente Fox"
+          ]
+        },
+        {
+          "source_domain": "www.latimes.com",
+          "text": "Jul 3, 2000 ... Voters in Mexico ousted the world's longest-ruling faction, the Institutional Revolutionary Party, on Sunday, handing the presidency to ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.sup.org",
+          "text": "The 2000 Mexican presidential race culminated in the election of opposition candidate Vicente Fox and the end of seven decades of one-party rule.",
+          "supports_answers": [
+            "Vicente Fox"
+          ]
+        },
+        {
+          "source_domain": "carnegieendowment.org",
+          "text": "Feb 17, 2021 ... In 2018, Mexico elected a leftist president for the first time since the country transitioned from authoritarian rule to democracy in 2000.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.economist.com",
+          "text": "May 23, 2023 ... Mexican President Andres Manuel Lopez Obrador (L) listens to Mexico City ... a centre-right party that ruled Mexico for 71 years until 2000.",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_typed_strategy",
+  "evaluation_seconds": 270.124,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

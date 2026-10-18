@@ -1,0 +1,1309 @@
+{
+  "query": "Mainland greece is a body of land with water on three sides called?",
+  "trace_id": "cca367dd-5111-4e9a-a507-fff47667588e",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Mainland greece is a body of land with water on three sides called?",
+          "answer": "Based on 5 sources:\n- Headland: A headland, also known as a head, is a coastal landform, a point of land usually high and often with a sheer drop, that extends into a body of water\n- It\n\nOcean: The ocean is the body of salt water that covers approximately 70\n- The ocean is conventionally divided into large bodies of water, which are\n\nMycenaean Greece: distinctively Greek civilization in mainland Greece with its palatial states, urban organization, works of art, and writing system\n- The Mycenaeans were mainland Greek\n\nGlossary of geography terms (A–M): surface of a body of water meets the land\n- In property law, the boundary of a piece of land which is bounded by a stream or watercourse, often with the\n\nBlack Sea: critical water levels, connections with surrounding water bodies can become established",
+          "claims": [
+            {
+              "id": "25a0a735",
+              "text": "Headland: A headland, also known as a head, is a coastal landform, a point of land usually high and often with a sheer drop, that extends into a body of water",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=18859466",
+                "title": "Headland",
+                "snippet": "A headland, also known as a head, is a coastal landform, a point of land usually high and often with a sheer drop, that extends into a body of water. It",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.916234",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "23eb48b7",
+              "text": "It\n\nOcean: The ocean is the body of salt water that covers approximately 70",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=18842359",
+                "title": "Ocean",
+                "snippet": "The ocean is the body of salt water that covers approximately 70.8% of Earth. The ocean is conventionally divided into large bodies of water, which are",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.916245",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "cb0e6651",
+              "text": "The ocean is conventionally divided into large bodies of water, which are\n\nMycenaean Greece: distinctively Greek civilization in mainland Greece with its palatial states, urban organization, works of art, and writing system",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=29034375",
+                "title": "Glossary of geography terms (A–M)",
+                "snippet": "surface of a body of water meets the land. 2.  In property law, the boundary of a piece of land which is bounded by a stream or watercourse, often with the",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.916259",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0ccbef9e",
+              "text": "The Mycenaeans were mainland Greek\n\nGlossary of geography terms (A–M): surface of a body of water meets the land",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3386",
+                "title": "Black Sea",
+                "snippet": "critical water levels, connections with surrounding water bodies can become established. It is through the most active of these connective routes, the Turkish",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.916267",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2fdfcd31",
+              "text": "In property law, the boundary of a piece of land which is bounded by a stream or watercourse, often with the\n\nBlack Sea: critical water levels, connections with surrounding water bodies can become established",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=18842359",
+                "title": "Ocean",
+                "snippet": "The ocean is the body of salt water that covers approximately 70.8% of Earth. The ocean is conventionally divided into large bodies of water, which are",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.916245",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "bc651c7d",
+              "text": "It is through the most active of these connective routes, the Turkish",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=565602",
+                "title": "Mycenaean Greece",
+                "snippet": "distinctively Greek civilization in mainland Greece with its palatial states, urban organization, works of art, and writing system. The Mycenaeans were mainland Greek",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.916252",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=18859466",
+              "title": "Headland",
+              "snippet": "A headland, also known as a head, is a coastal landform, a point of land usually high and often with a sheer drop, that extends into a body of water. It",
+              "metadata": {
+                "search_query": "Mainland greece is a body of land with water on three sides called?"
+              },
+              "retrieved_at": "2026-10-16T20:47:24.916234",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=18842359",
+              "title": "Ocean",
+              "snippet": "The ocean is the body of salt water that covers approximately 70.8% of Earth. The ocean is conventionally divided into large bodies of water, which are",
+              "metadata": {
+                "search_query": "Mainland greece is a body of land with water on three sides called?"
+              },
+              "retrieved_at": "2026-10-16T20:47:24.916245",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=565602",
+              "title": "Mycenaean Greece",
+              "snippet": "distinctively Greek civilization in mainland Greece with its palatial states, urban organization, works of art, and writing system. The Mycenaeans were mainland Greek",
+              "metadata": {
+                "search_query": "Mainland greece is a body of land with water on three sides called?"
+              },
+              "retrieved_at": "2026-10-16T20:47:24.916252",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=29034375",
+              "title": "Glossary of geography terms (A–M)",
+              "snippet": "surface of a body of water meets the land. 2.  In property law, the boundary of a piece of land which is bounded by a stream or watercourse, often with the",
+              "metadata": {
+                "search_query": "Mainland greece is a body of land with water on three sides called?"
+              },
+              "retrieved_at": "2026-10-16T20:47:24.916259",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=3386",
+              "title": "Black Sea",
+              "snippet": "critical water levels, connections with surrounding water bodies can become established. It is through the most active of these connective routes, the Turkish",
+              "metadata": {
+                "search_query": "Mainland greece is a body of land with water on three sides called?"
+              },
+              "retrieved_at": "2026-10-16T20:47:24.916267",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Headland: A headland, also known as a head, is a coastal landform, a point of land usually high and often with a sheer drop, that extends into a body of water. It\n\nOcean: The ocean is the body of salt water that covers approximately 70.8% of Earth. The ocean is conventionally divided into large bodies of water, which are\n\nMycenaean Greece: distinctively Greek civilization in mainland Greece with its palatial states, urban organization, works of art, and writing system. The Mycenaeans were mainland Greek\n\nGlossary of geography terms (A–M): surface of a body of water meets the land. 2.  In property law, the boundary of a piece of land which is bounded by a stream or watercourse, often with the\n\nBlack Sea: critical water levels, connections with surrounding water bodies can become established. It is through the most active of these connective routes, the Turkish",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T20:47:24.916425"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Mainland greece is a body of land with water on three sides called?",
+          "answer": "Based on 5 sources:\n- Geography of Greece - Wikipedia: Mainland Greece covers about 80% of the total territory and is largely mountainous\n- The largest mountain range of Greece is the Pindus range, the southern extension of the Dinaric Alps, which forms the spine of the Greek mainland, separating Epirus from Thessaly and Macedonia\n- What is a body of land with water on three sides called in mainland Greece\n- : In mainland Greece, a body of land surrounded by water on three sides is known as a peninsula, with the Peloponnesian Peninsula being a prominent example\n- Peninsulas are significant for their unique geographical features and historical importance",
+          "claims": [
+            {
+              "id": "d8a126cf",
+              "text": "Geography of Greece - Wikipedia: Mainland Greece covers about 80% of the total territory and is largely mountainous",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Geography_of_Greece",
+                "title": "Geography of Greece - Wikipedia",
+                "snippet": "Mainland Greece covers about 80% of the total territory and is largely mountainous. The largest mountain range of Greece is the Pindus range, the southern extension of the Dinaric Alps, which forms the spine of the Greek mainland, separating Epirus from Thessaly and Macedonia.",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.915460",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "7cf9853e",
+              "text": "The largest mountain range of Greece is the Pindus range, the southern extension of the Dinaric Alps, which forms the spine of the Greek mainland, separating Epirus from Thessaly and Macedonia",
+              "source": {
+                "url": "https://brainly.com/question/15508682",
+                "title": "What is a body of land with water on three sides called in mainland Greece?",
+                "snippet": "In mainland Greece, a body of land surrounded by water on three sides is known as a peninsula, with the Peloponnesian Peninsula being a prominent example. Peninsulas are significant for their unique geographical features and historical importance.",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.915478",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8aeab3c6",
+              "text": "What is a body of land with water on three sides called in mainland Greece",
+              "source": {
+                "url": "https://www.classace.io/answers/mainland-greece-is-a-body-of-land-with-a-water-on-three-sides-called-a",
+                "title": "Answers to: mainland greece is a body of land with a water on three ...",
+                "snippet": "Answers Mainland Greece is a body of land surrounded by water on three sides and is referred to as a **peninsula**.",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.915487",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e7994211",
+              "text": ": In mainland Greece, a body of land surrounded by water on three sides is known as a peninsula, with the Peloponnesian Peninsula being a prominent example",
+              "source": {
+                "url": "https://www.answers.com/natural-sciences/Is_it_true_that_the_mainland_of_Greece_of_peninsulaa_body_land_with_water_on_three_sides",
+                "title": "Is it true that the mainland of Greece of peninsulaa body land with ...",
+                "snippet": "No, the mainland of Greece is not a peninsula; it is a part of the Balkan Peninsula. A peninsula is a landmass surrounded by water on three sides, while the Greek mainland is bordered by the ...",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.915494",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "aaa60d2f",
+              "text": "Peninsulas are significant for their unique geographical features and historical importance",
+              "source": {
+                "url": "https://quizlet.com/113338709/history-chapter-4-the-early-greeks-pg-116-2nd-trimester-flash-cards/",
+                "title": "History- Chapter 4 - The Early Greeks pg. 116 2nd Trimester",
+                "snippet": "mainland Greece is a peninsula- a body of land with water on all three sides. 10. Ancient Greeks made their living from the sea, fishers, sailors and traders others settled in farming communities. Greece has mountains and rocky soil were not ideal for growing crops. 11. Climate was mild and some places grew wheat, barley, olives and grapes.",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.915501",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a8d3deec",
+              "text": "Answers to: mainland greece is a body of land with a water on three",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Geography_of_Greece",
+                "title": "Geography of Greece - Wikipedia",
+                "snippet": "Mainland Greece covers about 80% of the total territory and is largely mountainous. The largest mountain range of Greece is the Pindus range, the southern extension of the Dinaric Alps, which forms the spine of the Greek mainland, separating Epirus from Thessaly and Macedonia.",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.915460",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "46b16a4d",
+              "text": ": Answers Mainland Greece is a body of land surrounded by water on three sides and is referred to as a **peninsula**",
+              "source": {
+                "url": "https://brainly.com/question/15508682",
+                "title": "What is a body of land with water on three sides called in mainland Greece?",
+                "snippet": "In mainland Greece, a body of land surrounded by water on three sides is known as a peninsula, with the Peloponnesian Peninsula being a prominent example. Peninsulas are significant for their unique geographical features and historical importance.",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.915478",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1dea1ba3",
+              "text": "Is it true that the mainland of Greece of peninsulaa body land with",
+              "source": {
+                "url": "https://www.classace.io/answers/mainland-greece-is-a-body-of-land-with-a-water-on-three-sides-called-a",
+                "title": "Answers to: mainland greece is a body of land with a water on three ...",
+                "snippet": "Answers Mainland Greece is a body of land surrounded by water on three sides and is referred to as a **peninsula**.",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.915487",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d4930470",
+              "text": ": No, the mainland of Greece is not a peninsula; it is a part of the Balkan Peninsula",
+              "source": {
+                "url": "https://www.answers.com/natural-sciences/Is_it_true_that_the_mainland_of_Greece_of_peninsulaa_body_land_with_water_on_three_sides",
+                "title": "Is it true that the mainland of Greece of peninsulaa body land with ...",
+                "snippet": "No, the mainland of Greece is not a peninsula; it is a part of the Balkan Peninsula. A peninsula is a landmass surrounded by water on three sides, while the Greek mainland is bordered by the ...",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.915494",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e854cf94",
+              "text": "A peninsula is a landmass surrounded by water on three sides, while the Greek mainland is bordered by the",
+              "source": {
+                "url": "https://quizlet.com/113338709/history-chapter-4-the-early-greeks-pg-116-2nd-trimester-flash-cards/",
+                "title": "History- Chapter 4 - The Early Greeks pg. 116 2nd Trimester",
+                "snippet": "mainland Greece is a peninsula- a body of land with water on all three sides. 10. Ancient Greeks made their living from the sea, fishers, sailors and traders others settled in farming communities. Greece has mountains and rocky soil were not ideal for growing crops. 11. Climate was mild and some places grew wheat, barley, olives and grapes.",
+                "metadata": {
+                  "search_query": "Mainland greece is a body of land with water on three sides called?"
+                },
+                "retrieved_at": "2026-10-16T20:47:24.915501",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Geography_of_Greece",
+              "title": "Geography of Greece - Wikipedia",
+              "snippet": "Mainland Greece covers about 80% of the total territory and is largely mountainous. The largest mountain range of Greece is the Pindus range, the southern extension of the Dinaric Alps, which forms the spine of the Greek mainland, separating Epirus from Thessaly and Macedonia.",
+              "metadata": {
+                "search_query": "Mainland greece is a body of land with water on three sides called?"
+              },
+              "retrieved_at": "2026-10-16T20:47:24.915460",
+              "credibility_score": null
+            },
+            {
+              "url": "https://brainly.com/question/15508682",
+              "title": "What is a body of land with water on three sides called in mainland Greece?",
+              "snippet": "In mainland Greece, a body of land surrounded by water on three sides is known as a peninsula, with the Peloponnesian Peninsula being a prominent example. Peninsulas are significant for their unique geographical features and historical importance.",
+              "metadata": {
+                "search_query": "Mainland greece is a body of land with water on three sides called?"
+              },
+              "retrieved_at": "2026-10-16T20:47:24.915478",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.classace.io/answers/mainland-greece-is-a-body-of-land-with-a-water-on-three-sides-called-a",
+              "title": "Answers to: mainland greece is a body of land with a water on three ...",
+              "snippet": "Answers Mainland Greece is a body of land surrounded by water on three sides and is referred to as a **peninsula**.",
+              "metadata": {
+                "search_query": "Mainland greece is a body of land with water on three sides called?"
+              },
+              "retrieved_at": "2026-10-16T20:47:24.915487",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.answers.com/natural-sciences/Is_it_true_that_the_mainland_of_Greece_of_peninsulaa_body_land_with_water_on_three_sides",
+              "title": "Is it true that the mainland of Greece of peninsulaa body land with ...",
+              "snippet": "No, the mainland of Greece is not a peninsula; it is a part of the Balkan Peninsula. A peninsula is a landmass surrounded by water on three sides, while the Greek mainland is bordered by the ...",
+              "metadata": {
+                "search_query": "Mainland greece is a body of land with water on three sides called?"
+              },
+              "retrieved_at": "2026-10-16T20:47:24.915494",
+              "credibility_score": null
+            },
+            {
+              "url": "https://quizlet.com/113338709/history-chapter-4-the-early-greeks-pg-116-2nd-trimester-flash-cards/",
+              "title": "History- Chapter 4 - The Early Greeks pg. 116 2nd Trimester",
+              "snippet": "mainland Greece is a peninsula- a body of land with water on all three sides. 10. Ancient Greeks made their living from the sea, fishers, sailors and traders others settled in farming communities. Greece has mountains and rocky soil were not ideal for growing crops. 11. Climate was mild and some places grew wheat, barley, olives and grapes.",
+              "metadata": {
+                "search_query": "Mainland greece is a body of land with water on three sides called?"
+              },
+              "retrieved_at": "2026-10-16T20:47:24.915501",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Geography of Greece - Wikipedia: Mainland Greece covers about 80% of the total territory and is largely mountainous. The largest mountain range of Greece is the Pindus range, the southern extension of the Dinaric Alps, which forms the spine of the Greek mainland, separating Epirus from Thessaly and Macedonia.\n\nWhat is a body of land with water on three sides called in mainland Greece?: In mainland Greece, a body of land surrounded by water on three sides is known as a peninsula, with the Peloponnesian Peninsula being a prominent example. Peninsulas are significant for their unique geographical features and historical importance.\n\nAnswers to: mainland greece is a body of land with a water on three ...: Answers Mainland Greece is a body of land surrounded by water on three sides and is referred to as a **peninsula**.\n\nIs it true that the mainland of Greece of peninsulaa body land with ...: No, the mainland of Greece is not a peninsula; it is a part of the Balkan Peninsula. A peninsula is a landmass surrounded by water on three sides, while the Greek mainland is bordered by the ...\n\nHistory- Chapter 4 - The Early Greeks pg. 116 2nd Trimester: mainland Greece is a peninsula- a body of land with water on all three sides. 10. Ancient Greeks made their living from the sea, fishers, sailors and traders others settled in farming communities. Greece has mountains and rocky soil were not ideal for growing crops. 11. Climate was mild and some places grew wheat, barley, olives and grapes.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T20:47:24.915883"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Mainland greece is a body of land with water on three sides called?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T20:47:24.916554"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Mainland greece is a body of land with water on three sides called?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Mainland Greece is a body of land with water on three sides called a headland.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=18859466",
+            "title": "Headland",
+            "snippet": "A headland, also known as a head, is a coastal landform, a point of land usually high and often with a sheer drop, that extends into a body of water. It",
+            "metadata": {
+              "search_query": "Mainland greece is a body of land with water on three sides called?"
+            },
+            "retrieved_at": "2026-10-16T20:47:24.917500",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=18859466",
+          "title": "Headland",
+          "snippet": "A headland, also known as a head, is a coastal landform, a point of land usually high and often with a sheer drop, that extends into a body of water. It",
+          "metadata": {
+            "search_query": "Mainland greece is a body of land with water on three sides called?"
+          },
+          "retrieved_at": "2026-10-16T20:47:24.917500",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=18842359",
+          "title": "Ocean",
+          "snippet": "The ocean is the body of salt water that covers approximately 70.8% of Earth. The ocean is conventionally divided into large bodies of water, which are",
+          "metadata": {
+            "search_query": "Mainland greece is a body of land with water on three sides called?"
+          },
+          "retrieved_at": "2026-10-16T20:47:24.917520",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=565602",
+          "title": "Mycenaean Greece",
+          "snippet": "distinctively Greek civilization in mainland Greece with its palatial states, urban organization, works of art, and writing system. The Mycenaeans were mainland Greek",
+          "metadata": {
+            "search_query": "Mainland greece is a body of land with water on three sides called?"
+          },
+          "retrieved_at": "2026-10-16T20:47:24.917527",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=29034375",
+          "title": "Glossary of geography terms (A–M)",
+          "snippet": "surface of a body of water meets the land. 2.  In property law, the boundary of a piece of land which is bounded by a stream or watercourse, often with the",
+          "metadata": {
+            "search_query": "Mainland greece is a body of land with water on three sides called?"
+          },
+          "retrieved_at": "2026-10-16T20:47:24.917533",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=3386",
+          "title": "Black Sea",
+          "snippet": "critical water levels, connections with surrounding water bodies can become established. It is through the most active of these connective routes, the Turkish",
+          "metadata": {
+            "search_query": "Mainland greece is a body of land with water on three sides called?"
+          },
+          "retrieved_at": "2026-10-16T20:47:24.917539",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T20:47:54.261549"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Mainland greece is a body of land with water on three sides called?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Mainland Greece is a body of land with water on three sides called a peninsula.",
+          "source": {
+            "url": "https://brainly.com/question/15508682",
+            "title": "What is a body of land with water on three sides called in mainland Greece?",
+            "snippet": "In mainland Greece, a body of land surrounded by water on three sides is known as a peninsula, with the Peloponnesian Peninsula being a prominent example. Peninsulas are significant for their unique geographical features and historical importance.",
+            "metadata": {
+              "search_query": "Mainland greece is a body of land with water on three sides called?"
+            },
+            "retrieved_at": "2026-10-16T20:47:54.261965",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Geography_of_Greece",
+          "title": "Geography of Greece - Wikipedia",
+          "snippet": "Mainland Greece covers about 80% of the total territory and is largely mountainous. The largest mountain range of Greece is the Pindus range, the southern extension of the Dinaric Alps, which forms the spine of the Greek mainland, separating Epirus from Thessaly and Macedonia.",
+          "metadata": {
+            "search_query": "Mainland greece is a body of land with water on three sides called?"
+          },
+          "retrieved_at": "2026-10-16T20:47:54.261951",
+          "credibility_score": null
+        },
+        {
+          "url": "https://brainly.com/question/15508682",
+          "title": "What is a body of land with water on three sides called in mainland Greece?",
+          "snippet": "In mainland Greece, a body of land surrounded by water on three sides is known as a peninsula, with the Peloponnesian Peninsula being a prominent example. Peninsulas are significant for their unique geographical features and historical importance.",
+          "metadata": {
+            "search_query": "Mainland greece is a body of land with water on three sides called?"
+          },
+          "retrieved_at": "2026-10-16T20:47:54.261965",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.classace.io/answers/mainland-greece-is-a-body-of-land-with-a-water-on-three-sides-called-a",
+          "title": "Answers to: mainland greece is a body of land with a water on three ...",
+          "snippet": "Answers Mainland Greece is a body of land surrounded by water on three sides and is referred to as a **peninsula**.",
+          "metadata": {
+            "search_query": "Mainland greece is a body of land with water on three sides called?"
+          },
+          "retrieved_at": "2026-10-16T20:47:54.261973",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.answers.com/natural-sciences/Is_it_true_that_the_mainland_of_Greece_of_peninsulaa_body_land_with_water_on_three_sides",
+          "title": "Is it true that the mainland of Greece of peninsulaa body land with ...",
+          "snippet": "No, the mainland of Greece is not a peninsula; it is a part of the Balkan Peninsula. A peninsula is a landmass surrounded by water on three sides, while the Greek mainland is bordered by the ...",
+          "metadata": {
+            "search_query": "Mainland greece is a body of land with water on three sides called?"
+          },
+          "retrieved_at": "2026-10-16T20:47:54.261979",
+          "credibility_score": null
+        },
+        {
+          "url": "https://quizlet.com/113338709/history-chapter-4-the-early-greeks-pg-116-2nd-trimester-flash-cards/",
+          "title": "History- Chapter 4 - The Early Greeks pg. 116 2nd Trimester",
+          "snippet": "mainland Greece is a peninsula- a body of land with water on all three sides. 10. Ancient Greeks made their living from the sea, fishers, sailors and traders others settled in farming communities. Greece has mountains and rocky soil were not ideal for growing crops. 11. Climate was mild and some places grew wheat, barley, olives and grapes.",
+          "metadata": {
+            "search_query": "Mainland greece is a body of land with water on three sides called?"
+          },
+          "retrieved_at": "2026-10-16T20:47:54.261986",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T20:48:11.117503"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Mainland greece is a body of land with water on three sides called?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T20:48:11.117541"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Mainland greece is a body of land with water on three sides called?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Mainland Greece is called a peninsula.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "Mainland Greece is called a peninsula.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T20:47:43.184350",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Mainland Greece is called a peninsula.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T20:47:43.184350",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "Mainland Greece is called a peninsula."
+      },
+      "retrieved_at": "2026-10-16T20:47:43.184428"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "disagreement",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "Mainland Greece is a body of land with water on three sides called a headland.",
+        "claim_b_text": "Mainland Greece is a body of land with water on three sides called a peninsula.",
+        "label": "contradiction",
+        "contradiction_score": 0.9358459711074829,
+        "entailment_score": 0.03502142056822777,
+        "neutral_score": 0.06372176855802536
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Mainland Greece is a body of land with water on three sides called a headland.",
+        "claim_b_text": "Mainland Greece is called a peninsula.",
+        "label": "contradiction",
+        "contradiction_score": 0.9780754446983337,
+        "entailment_score": 0.006395409349352121,
+        "neutral_score": 0.3882954716682434
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Mainland Greece is a body of land with water on three sides called a peninsula.",
+        "claim_b_text": "Mainland Greece is called a peninsula.",
+        "label": "neutral",
+        "contradiction_score": 0.004934357479214668,
+        "entailment_score": 0.13661479949951172,
+        "neutral_score": 0.8584508299827576
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "Mainland Greece is a body of land with water on three sides called a headland.",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=18859466",
+          "title": "Headland",
+          "snippet": "A headland, also known as a head, is a coastal landform, a point of land usually high and often with a sheer drop, that extends into a body of water. It",
+          "metadata": {
+            "search_query": "Mainland greece is a body of land with water on three sides called?"
+          },
+          "retrieved_at": "2026-10-16T20:47:24.917500",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Mainland Greece is called a peninsula.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Mainland Greece is called a peninsula.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T20:47:43.184350",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.9780754446983337
+    },
+    "rationale": "At least one pair exceeded contradiction threshold (0.7): score=0.978"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": true,
+  "contradiction_score": 0.9780754446983337,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "ae67920d",
+    "type": "unknown",
+    "confidence": 0.85,
+    "explanation": "The conflict arises because the claims use different geographical terminology to describe mainland Greece. Claim A describes it as a 'headland' (a narrow extension of land into water), while Claim B calls it a 'peninsula' (land surrounded by water on three sides). Both terms accurately describe mainland Greece from different geographical perspectives - a peninsula can also have headland characteristics. The disagreement is about the classification/naming rather than factual inconsistency.",
+    "claim_a": {
+      "text": "Mainland Greece is a body of land with water on three sides called a headland.",
+      "source": {
+        "url": "https://en.wikipedia.org/?curid=18859466",
+        "title": "Headland",
+        "snippet": "A headland, also known as a head, is a coastal landform, a point of land usually high and often with a sheer drop, that extends into a body of water. It",
+        "metadata": {
+          "search_query": "Mainland greece is a body of land with water on three sides called?"
+        },
+        "retrieved_at": "2026-10-16T20:47:24.917500",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "Mainland Greece is called a peninsula.",
+      "source": {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "Mainland Greece is called a peninsula.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T20:47:43.184350",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "classification_status": "llm_success",
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "ai_answer_agent",
+      "original_type": "contextual",
+      "strategy_override": "UNKNOWN"
+    },
+    "detected_at": "2026-10-16T20:48:42.631610"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": {
+        "id": "251419c8",
+        "round_number": 1,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nMainland Greece is best described as a peninsula, though certain peninsular regions within Greece exhibit headland characteristics.\n\nEVIDENCE REVIEW\nClaim A: Mainland Greece is a body of land with water on three sides called a headland.\nClaim B: Mainland Greece is called a peninsula.\n\nREASONING\nThe conflict stems from differing geographical terminology. A peninsula is land surrounded by water on three sides, which accurately describes mainland Greece as a whole. A headland, however, refers to a narrow extension of land into a body of water - more appropriate for specific promontories or capes within Greece (like the Mani Peninsula's coastal formations). While both terms could apply to different scales of geography, the general classification of mainland Greece itself is more accurately captured by \"peninsula\" rather than \"headland.\"\n\nREASONING CONTINUED\nThe resolution recognizes that mainland Greece as a single geographic entity fits the definition of a peninsula. However, specific peninsular regions within Greece's coastline may contain headland features at local scales.\n\nSOURCE BASIS\nBoth claims originate from the same geographical scope - mainland Greece itself. The disagreement centers on appropriate geographical terminology rather than factual inconsistency about Greece's basic physical characteristics.\n\nCONCLUSION\nMainland Greece is correctly classified as a peninsula. Specific headland characteristics may apply to smaller peninsular regions within Greece's overall geography.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "contextual",
+        "strategy_used": "contextual",
+        "strategy_text_preview": "You are arguing about a contextual disagreement.\nIMPORTANT: First check whether the two claims apply to different populations, platforms, or editions\n(see SCOPE fields below). If the scopes are differ",
+        "created_at": "2026-10-16T20:49:04.369020"
+      },
+      "critic_arguments": [
+        {
+          "id": "86af97e6",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nClaim A's terminology is geographically inaccurate - mainland Greece is not standardly referred to as a \"headland\" in geographical terminology; it's more precisely described as a peninsula.\nWHY IT MATTERS\nThis error undermines the credibility of Claim A by using incorrect geographical terminology that doesn't match standard geographic classification systems.\nIMPROVEMENT\nEither provide evidence that \"headland\" is used in a specific alternative context for mainland Greece, or revise Claim A to accurately state that mainland Greece is a peninsula, not a headland.",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "contextual",
+          "strategy_used": "critique_no_objection",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T20:49:20.255511"
+        },
+        {
+          "id": "8875a58b",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nThe critique claims that certain peninsular regions within Greece exhibit headland characteristics but fails to provide specific locations or concrete examples to support this assertion.\nWHY IT MATTERS\nWithout specific geographical references, this claim lacks evidential support and remains unsubstantiated, weakening the argument that headland features exist within Greece's peninsular regions.\nIMPROVEMENT\nInclude specific examples such as the Mani Peninsula's coastal promontories, Cape Maleas, or other well-defined headland formations within Greece to substantiate the claim about headland characteristics within peninsular regions.",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "contextual",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T20:49:20.255552"
+        }
+      ],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T20:48:42.631991",
+      "completed_at": "2026-10-16T20:49:20.255575"
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": {
+          "id": "251419c8",
+          "round_number": 1,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nMainland Greece is best described as a peninsula, though certain peninsular regions within Greece exhibit headland characteristics.\n\nEVIDENCE REVIEW\nClaim A: Mainland Greece is a body of land with water on three sides called a headland.\nClaim B: Mainland Greece is called a peninsula.\n\nREASONING\nThe conflict stems from differing geographical terminology. A peninsula is land surrounded by water on three sides, which accurately describes mainland Greece as a whole. A headland, however, refers to a narrow extension of land into a body of water - more appropriate for specific promontories or capes within Greece (like the Mani Peninsula's coastal formations). While both terms could apply to different scales of geography, the general classification of mainland Greece itself is more accurately captured by \"peninsula\" rather than \"headland.\"\n\nREASONING CONTINUED\nThe resolution recognizes that mainland Greece as a single geographic entity fits the definition of a peninsula. However, specific peninsular regions within Greece's coastline may contain headland features at local scales.\n\nSOURCE BASIS\nBoth claims originate from the same geographical scope - mainland Greece itself. The disagreement centers on appropriate geographical terminology rather than factual inconsistency about Greece's basic physical characteristics.\n\nCONCLUSION\nMainland Greece is correctly classified as a peninsula. Specific headland characteristics may apply to smaller peninsular regions within Greece's overall geography.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "contextual",
+          "strategy_used": "contextual",
+          "strategy_text_preview": "You are arguing about a contextual disagreement.\nIMPORTANT: First check whether the two claims apply to different populations, platforms, or editions\n(see SCOPE fields below). If the scopes are differ",
+          "created_at": "2026-10-16T20:49:04.369020"
+        },
+        "critic_arguments": [
+          {
+            "id": "86af97e6",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nClaim A's terminology is geographically inaccurate - mainland Greece is not standardly referred to as a \"headland\" in geographical terminology; it's more precisely described as a peninsula.\nWHY IT MATTERS\nThis error undermines the credibility of Claim A by using incorrect geographical terminology that doesn't match standard geographic classification systems.\nIMPROVEMENT\nEither provide evidence that \"headland\" is used in a specific alternative context for mainland Greece, or revise Claim A to accurately state that mainland Greece is a peninsula, not a headland.",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "contextual",
+            "strategy_used": "critique_no_objection",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T20:49:20.255511"
+          },
+          {
+            "id": "8875a58b",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nThe critique claims that certain peninsular regions within Greece exhibit headland characteristics but fails to provide specific locations or concrete examples to support this assertion.\nWHY IT MATTERS\nWithout specific geographical references, this claim lacks evidential support and remains unsubstantiated, weakening the argument that headland features exist within Greece's peninsular regions.\nIMPROVEMENT\nInclude specific examples such as the Mani Peninsula's coastal promontories, Cape Maleas, or other well-defined headland formations within Greece to substantiate the claim about headland characteristics within peninsular regions.",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "contextual",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T20:49:20.255552"
+          }
+        ],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T20:48:42.631991",
+        "completed_at": "2026-10-16T20:49:20.255575"
+      }
+    ],
+    "status": "completed",
+    "stop_reason": "no_objection",
+    "failed_stages": [],
+    "rounds_used": 1
+  },
+  "judge_result": {
+    "winner": "candidate_2",
+    "reason": "Mainland Greece is geographically defined as a peninsula (land surrounded by water on three sides), not a headland. Claim B correctly identifies this standard geographical classification.",
+    "evidence_score": 0.6,
+    "reasoning_score": 0.9,
+    "source_score": 0.4,
+    "confidence": 0.95,
+    "scores": {
+      "candidate_1": 0.6,
+      "candidate_2": 0.9
+    },
+    "evaluated_at": "2026-10-16T20:49:39.941470"
+  },
+  "final_answer": {
+    "query": "Mainland greece is a body of land with water on three sides called?",
+    "answer": "A CONTEXTUAL conflict was detected and resolved through structured debate.\n\nResolution: Mainland Greece is called a peninsula.\n\nJudge's reasoning: Mainland Greece is geographically defined as a peninsula (land surrounded by water on three sides), not a headland. Claim B correctly identifies this standard geographical classification.",
+    "reasoning": "At least one pair exceeded contradiction threshold (0.7): score=0.978",
+    "evidence_state": "disagreement",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=18859466",
+        "title": "Headland",
+        "snippet": "A headland, also known as a head, is a coastal landform, a point of land usually high and often with a sheer drop, that extends into a body of water. It",
+        "metadata": {
+          "search_query": "Mainland greece is a body of land with water on three sides called?"
+        },
+        "retrieved_at": "2026-10-16T20:47:24.917500",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=18842359",
+        "title": "Ocean",
+        "snippet": "The ocean is the body of salt water that covers approximately 70.8% of Earth. The ocean is conventionally divided into large bodies of water, which are",
+        "metadata": {
+          "search_query": "Mainland greece is a body of land with water on three sides called?"
+        },
+        "retrieved_at": "2026-10-16T20:47:24.917520",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=565602",
+        "title": "Mycenaean Greece",
+        "snippet": "distinctively Greek civilization in mainland Greece with its palatial states, urban organization, works of art, and writing system. The Mycenaeans were mainland Greek",
+        "metadata": {
+          "search_query": "Mainland greece is a body of land with water on three sides called?"
+        },
+        "retrieved_at": "2026-10-16T20:47:24.917527",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=29034375",
+        "title": "Glossary of geography terms (A–M)",
+        "snippet": "surface of a body of water meets the land. 2.  In property law, the boundary of a piece of land which is bounded by a stream or watercourse, often with the",
+        "metadata": {
+          "search_query": "Mainland greece is a body of land with water on three sides called?"
+        },
+        "retrieved_at": "2026-10-16T20:47:24.917533",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=3386",
+        "title": "Black Sea",
+        "snippet": "critical water levels, connections with surrounding water bodies can become established. It is through the most active of these connective routes, the Turkish",
+        "metadata": {
+          "search_query": "Mainland greece is a body of land with water on three sides called?"
+        },
+        "retrieved_at": "2026-10-16T20:47:24.917539",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Geography_of_Greece",
+        "title": "Geography of Greece - Wikipedia",
+        "snippet": "Mainland Greece covers about 80% of the total territory and is largely mountainous. The largest mountain range of Greece is the Pindus range, the southern extension of the Dinaric Alps, which forms the spine of the Greek mainland, separating Epirus from Thessaly and Macedonia.",
+        "metadata": {
+          "search_query": "Mainland greece is a body of land with water on three sides called?"
+        },
+        "retrieved_at": "2026-10-16T20:47:54.261951",
+        "credibility_score": null
+      },
+      {
+        "url": "https://brainly.com/question/15508682",
+        "title": "What is a body of land with water on three sides called in mainland Greece?",
+        "snippet": "In mainland Greece, a body of land surrounded by water on three sides is known as a peninsula, with the Peloponnesian Peninsula being a prominent example. Peninsulas are significant for their unique geographical features and historical importance.",
+        "metadata": {
+          "search_query": "Mainland greece is a body of land with water on three sides called?"
+        },
+        "retrieved_at": "2026-10-16T20:47:54.261965",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.classace.io/answers/mainland-greece-is-a-body-of-land-with-a-water-on-three-sides-called-a",
+        "title": "Answers to: mainland greece is a body of land with a water on three ...",
+        "snippet": "Answers Mainland Greece is a body of land surrounded by water on three sides and is referred to as a **peninsula**.",
+        "metadata": {
+          "search_query": "Mainland greece is a body of land with water on three sides called?"
+        },
+        "retrieved_at": "2026-10-16T20:47:54.261973",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.answers.com/natural-sciences/Is_it_true_that_the_mainland_of_Greece_of_peninsulaa_body_land_with_water_on_three_sides",
+        "title": "Is it true that the mainland of Greece of peninsulaa body land with ...",
+        "snippet": "No, the mainland of Greece is not a peninsula; it is a part of the Balkan Peninsula. A peninsula is a landmass surrounded by water on three sides, while the Greek mainland is bordered by the ...",
+        "metadata": {
+          "search_query": "Mainland greece is a body of land with water on three sides called?"
+        },
+        "retrieved_at": "2026-10-16T20:47:54.261979",
+        "credibility_score": null
+      },
+      {
+        "url": "https://quizlet.com/113338709/history-chapter-4-the-early-greeks-pg-116-2nd-trimester-flash-cards/",
+        "title": "History- Chapter 4 - The Early Greeks pg. 116 2nd Trimester",
+        "snippet": "mainland Greece is a peninsula- a body of land with water on all three sides. 10. Ancient Greeks made their living from the sea, fishers, sailors and traders others settled in farming communities. Greece has mountains and rocky soil were not ideal for growing crops. 11. Climate was mild and some places grew wheat, barley, olives and grapes.",
+        "metadata": {
+          "search_query": "Mainland greece is a body of land with water on three sides called?"
+        },
+        "retrieved_at": "2026-10-16T20:47:54.261986",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "Mainland Greece is called a peninsula.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T20:47:43.184350",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": true,
+    "conflict": {
+      "id": "ae67920d",
+      "type": "unknown",
+      "confidence": 0.85,
+      "explanation": "The conflict arises because the claims use different geographical terminology to describe mainland Greece. Claim A describes it as a 'headland' (a narrow extension of land into water), while Claim B calls it a 'peninsula' (land surrounded by water on three sides). Both terms accurately describe mainland Greece from different geographical perspectives - a peninsula can also have headland characteristics. The disagreement is about the classification/naming rather than factual inconsistency.",
+      "claim_a": {
+        "text": "Mainland Greece is a body of land with water on three sides called a headland.",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=18859466",
+          "title": "Headland",
+          "snippet": "A headland, also known as a head, is a coastal landform, a point of land usually high and often with a sheer drop, that extends into a body of water. It",
+          "metadata": {
+            "search_query": "Mainland greece is a body of land with water on three sides called?"
+          },
+          "retrieved_at": "2026-10-16T20:47:24.917500",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Mainland Greece is called a peninsula.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Mainland Greece is called a peninsula.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T20:47:43.184350",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "metadata": {
+        "classification_status": "llm_success",
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "original_type": "contextual",
+        "strategy_override": "UNKNOWN"
+      },
+      "detected_at": "2026-10-16T20:48:42.631610"
+    },
+    "debate_outcome": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "proposer_argument": {
+            "id": "251419c8",
+            "round_number": 1,
+            "role": "proposer",
+            "agent_id": "proposer",
+            "content": "POSITION\nMainland Greece is best described as a peninsula, though certain peninsular regions within Greece exhibit headland characteristics.\n\nEVIDENCE REVIEW\nClaim A: Mainland Greece is a body of land with water on three sides called a headland.\nClaim B: Mainland Greece is called a peninsula.\n\nREASONING\nThe conflict stems from differing geographical terminology. A peninsula is land surrounded by water on three sides, which accurately describes mainland Greece as a whole. A headland, however, refers to a narrow extension of land into a body of water - more appropriate for specific promontories or capes within Greece (like the Mani Peninsula's coastal formations). While both terms could apply to different scales of geography, the general classification of mainland Greece itself is more accurately captured by \"peninsula\" rather than \"headland.\"\n\nREASONING CONTINUED\nThe resolution recognizes that mainland Greece as a single geographic entity fits the definition of a peninsula. However, specific peninsular regions within Greece's coastline may contain headland features at local scales.\n\nSOURCE BASIS\nBoth claims originate from the same geographical scope - mainland Greece itself. The disagreement centers on appropriate geographical terminology rather than factual inconsistency about Greece's basic physical characteristics.\n\nCONCLUSION\nMainland Greece is correctly classified as a peninsula. Specific headland characteristics may apply to smaller peninsular regions within Greece's overall geography.",
+            "evidence_refs": [
+              "agent_a",
+              "agent_b"
+            ],
+            "conflict_type": "contextual",
+            "strategy_used": "contextual",
+            "strategy_text_preview": "You are arguing about a contextual disagreement.\nIMPORTANT: First check whether the two claims apply to different populations, platforms, or editions\n(see SCOPE fields below). If the scopes are differ",
+            "created_at": "2026-10-16T20:49:04.369020"
+          },
+          "critic_arguments": [
+            {
+              "id": "86af97e6",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_1",
+              "content": "ISSUE\nClaim A's terminology is geographically inaccurate - mainland Greece is not standardly referred to as a \"headland\" in geographical terminology; it's more precisely described as a peninsula.\nWHY IT MATTERS\nThis error undermines the credibility of Claim A by using incorrect geographical terminology that doesn't match standard geographic classification systems.\nIMPROVEMENT\nEither provide evidence that \"headland\" is used in a specific alternative context for mainland Greece, or revise Claim A to accurately state that mainland Greece is a peninsula, not a headland.",
+              "evidence_refs": [
+                "agent_a"
+              ],
+              "conflict_type": "contextual",
+              "strategy_used": "critique_no_objection",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T20:49:20.255511"
+            },
+            {
+              "id": "8875a58b",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_2",
+              "content": "ISSUE\nThe critique claims that certain peninsular regions within Greece exhibit headland characteristics but fails to provide specific locations or concrete examples to support this assertion.\nWHY IT MATTERS\nWithout specific geographical references, this claim lacks evidential support and remains unsubstantiated, weakening the argument that headland features exist within Greece's peninsular regions.\nIMPROVEMENT\nInclude specific examples such as the Mani Peninsula's coastal promontories, Cape Maleas, or other well-defined headland formations within Greece to substantiate the claim about headland characteristics within peninsular regions.",
+              "evidence_refs": [
+                "agent_b"
+              ],
+              "conflict_type": "contextual",
+              "strategy_used": "critique",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T20:49:20.255552"
+            }
+          ],
+          "reviser_argument": null,
+          "started_at": "2026-10-16T20:48:42.631991",
+          "completed_at": "2026-10-16T20:49:20.255575"
+        }
+      ],
+      "status": "completed",
+      "stop_reason": "no_objection",
+      "failed_stages": [],
+      "rounds_used": 1
+    },
+    "judge_result": {
+      "winner": "candidate_2",
+      "reason": "Mainland Greece is geographically defined as a peninsula (land surrounded by water on three sides), not a headland. Claim B correctly identifies this standard geographical classification.",
+      "evidence_score": 0.6,
+      "reasoning_score": 0.9,
+      "source_score": 0.4,
+      "confidence": 0.95,
+      "scores": {
+        "candidate_1": 0.6,
+        "candidate_2": 0.9
+      },
+      "evaluated_at": "2026-10-16T20:49:39.941470"
+    },
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "disagreement",
+      "conflict_type": "contextual",
+      "debate_completed": true,
+      "winner": "candidate_2",
+      "confidence": 0.95
+    },
+    "generated_at": "2026-10-16T20:49:39.941577"
+  },
+  "metrics": {
+    "latency_seconds": 135.0274338722229,
+    "evidence_state": "disagreement",
+    "debate_triggered": true,
+    "conflict_type": "contextual",
+    "classification_status": "llm_success",
+    "debate_status": "completed",
+    "debate_stop_reason": "no_objection",
+    "debate_rounds_used": 1,
+    "total_llm_calls_ok": 6,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      },
+      "classifier": {
+        "ok": 1,
+        "failed": 0
+      },
+      "proposer": {
+        "ok": 1,
+        "failed": 0
+      },
+      "critic": {
+        "ok": 1,
+        "failed": 0
+      },
+      "judge": {
+        "ok": 1,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "no_typed_strategy"
+  },
+  "started_at": "2026-10-16T20:47:24.914134",
+  "completed_at": "2026-10-16T20:49:39.941637",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0002",
+    "query": "Mainland greece is a body of land with water on three sides called?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "peninsula",
+    "required_facts": [
+      "peninsula"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 4,
+      "answer_variants": [
+        "peninsula"
+      ],
+      "annotation_explanation": "I believe the answer peninsula is correct because every context agrees it is the answer, both directly stating it or implying it. The question requires some interpretation, but it is clear that the question is asking about the type of land not a land name based on its description, which is the same as the answer.",
+      "evidence_contexts": [
+        {
+          "source_domain": "quizlet.com",
+          "text": "Greece is a ___ land framed by water. mountainous. The mainland is a ______, a body of land with water on three sides. peninsula. Many ancient Greeks lived ...",
+          "supports_answers": [
+            "peninsula"
+          ]
+        },
+        {
+          "source_domain": "www.quora.com",
+          "text": "A piece of land surrounded by water on three sides is called a peninsula. The word \"peninsula\" comes from the Latin words \"paene\" (almost) and \"insula\" ...",
+          "supports_answers": [
+            "peninsula"
+          ]
+        },
+        {
+          "source_domain": "quizlet.com",
+          "text": "peninsula. a body of land that is surrounded by water on three sides. Image: peninsula ; isthmus. a narrow strip of land with water on both sides that connects ...",
+          "supports_answers": [
+            "peninsula"
+          ]
+        },
+        {
+          "source_domain": "www.cbsd.org",
+          "text": "Mediterranean Sea. The mainland of Greece is a peninsula. A peninsula is land that is surrounded on three sides by water. Greece also includes many.",
+          "supports_answers": [
+            "peninsula"
+          ]
+        },
+        {
+          "source_domain": "www.diffen.com",
+          "text": "So a peninsula is often defined as land surrounded by water on three sides. Comparison chart.",
+          "supports_answers": [
+            "peninsula"
+          ]
+        },
+        {
+          "source_domain": "fa-motta.weebly.com",
+          "text": "A peninsula (puh • NIHN • suh • luh) is a body of land with water on three sides. Far to the east of the Greek mainland is another peninsula called Anatolia ...",
+          "supports_answers": [
+            "peninsula"
+          ]
+        },
+        {
+          "source_domain": "www.nationalgeographic.org",
+          "text": "May 1, 2023 ... A peninsula is a piece of land surrounded by water on three sides. ... The Western Uplands, also known as the Northern Highlands, ...",
+          "supports_answers": [
+            "peninsula"
+          ]
+        },
+        {
+          "source_domain": "www.studystack.com",
+          "text": "Greek is a what ____ land farmed by water? Mountainous. The mainland is a _____, a body of land with water on three sides, Peininsula. Many ancient Greeks lived ...",
+          "supports_answers": [
+            "peninsula"
+          ]
+        },
+        {
+          "source_domain": "www.nationalgeographic.org",
+          "text": "May 19, 2022 ... A peninsula is a piece of land that is almost entirely surrounded by water but is connected to the mainland on one side.",
+          "supports_answers": [
+            "peninsula"
+          ]
+        },
+        {
+          "source_domain": "www.studystack.com",
+          "text": "A body of land with water on three sides. ... The mainland is a ______. Peninsula ... the Greeks went through a difficult period of time called the ______.",
+          "supports_answers": [
+            "peninsula"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_typed_strategy",
+  "evaluation_seconds": 135.049,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

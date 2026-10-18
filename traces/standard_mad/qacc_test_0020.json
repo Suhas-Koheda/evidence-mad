@@ -1,0 +1,1311 @@
+{
+  "query": "Who sings she's like the wind lyrics?",
+  "trace_id": "089a1f6c-4575-4970-8655-ece9257bbfb6",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who sings she's like the wind lyrics?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:20:12.316382"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who sings she's like the wind lyrics?",
+          "answer": "Based on 5 sources:\n- Gemini Season: it features a minimalist instrumental with horn and wind instruments that West sings erotic lyrics over\n- \"Gemini Season\" received generally positive reviews\n\nPrairie Wind: nester: \"She's 21 and she's moving on, you know, she's in college, she's graduating, and I'm really proud of her and how well she is doing\n- She's an artist\n\nBob Dylan: lyrical techniques to the folk music of the early 1960s, infusing it \"with the intellectualism of classic literature and poetry\"\n- His lyrics incorporated political\n\nThe Wind Rises: feeling the lyrics resembled the story of The Wind Rises\n- \"Das gibt's nur einmal\" (English: It only happens once) is the German song Hans Castorp sings while\n\nPhil Collins: tonight; I guess I just have to sing my own song",
+          "claims": [
+            {
+              "id": "dfa9e6f1",
+              "text": "Gemini Season: it features a minimalist instrumental with horn and wind instruments that West sings erotic lyrics over",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=83396100",
+                "title": "Gemini Season",
+                "snippet": "it features a minimalist instrumental with horn and wind instruments that West sings erotic lyrics over. \"Gemini Season\" received generally positive reviews",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.481933",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e882d615",
+              "text": "\"Gemini Season\" received generally positive reviews\n\nPrairie Wind: nester: \"She's 21 and she's moving on, you know, she's in college, she's graduating, and I'm really proud of her and how well she is doing",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=2721611",
+                "title": "Prairie Wind",
+                "snippet": "nester: \"She's 21 and she's moving on, you know, she's in college, she's graduating, and I'm really proud of her and how well she is doing. She's an artist",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.481966",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "47b5a328",
+              "text": "She's an artist\n\nBob Dylan: lyrical techniques to the folk music of the early 1960s, infusing it \"with the intellectualism of classic literature and poetry\"",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=4637590",
+                "title": "Bob Dylan",
+                "snippet": "lyrical techniques to the folk music of the early 1960s, infusing it \"with the intellectualism of classic literature and poetry\". His lyrics incorporated political",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.481975",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b4a2a3c3",
+              "text": "His lyrics incorporated political\n\nThe Wind Rises: feeling the lyrics resembled the story of The Wind Rises",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=37731694",
+                "title": "The Wind Rises",
+                "snippet": "feeling the lyrics resembled the story of The Wind Rises. \"Das gibt's nur einmal\" (English: It only happens once) is the German song Hans Castorp sings while",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.481982",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "16dbf31c",
+              "text": "\"Das gibt's nur einmal\" (English: It only happens once) is the German song Hans Castorp sings while\n\nPhil Collins: tonight; I guess I just have to sing my own song",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=153557",
+                "title": "Phil Collins",
+                "snippet": "tonight; I guess I just have to sing my own song.\" In 1984, Collins contributed to the production on Chinese Wall by Earth, Wind & Fire vocalist Philip Bailey",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.481989",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8bd73aea",
+              "text": "\" In 1984, Collins contributed to the production on Chinese Wall by Earth, Wind & Fire vocalist Philip Bailey",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=83396100",
+                "title": "Gemini Season",
+                "snippet": "it features a minimalist instrumental with horn and wind instruments that West sings erotic lyrics over. \"Gemini Season\" received generally positive reviews",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.481933",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=83396100",
+              "title": "Gemini Season",
+              "snippet": "it features a minimalist instrumental with horn and wind instruments that West sings erotic lyrics over. \"Gemini Season\" received generally positive reviews",
+              "metadata": {
+                "search_query": "Who sings she's like the wind lyrics?"
+              },
+              "retrieved_at": "2026-10-16T21:20:12.481933",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=2721611",
+              "title": "Prairie Wind",
+              "snippet": "nester: \"She's 21 and she's moving on, you know, she's in college, she's graduating, and I'm really proud of her and how well she is doing. She's an artist",
+              "metadata": {
+                "search_query": "Who sings she's like the wind lyrics?"
+              },
+              "retrieved_at": "2026-10-16T21:20:12.481966",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=4637590",
+              "title": "Bob Dylan",
+              "snippet": "lyrical techniques to the folk music of the early 1960s, infusing it \"with the intellectualism of classic literature and poetry\". His lyrics incorporated political",
+              "metadata": {
+                "search_query": "Who sings she's like the wind lyrics?"
+              },
+              "retrieved_at": "2026-10-16T21:20:12.481975",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=37731694",
+              "title": "The Wind Rises",
+              "snippet": "feeling the lyrics resembled the story of The Wind Rises. \"Das gibt's nur einmal\" (English: It only happens once) is the German song Hans Castorp sings while",
+              "metadata": {
+                "search_query": "Who sings she's like the wind lyrics?"
+              },
+              "retrieved_at": "2026-10-16T21:20:12.481982",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=153557",
+              "title": "Phil Collins",
+              "snippet": "tonight; I guess I just have to sing my own song.\" In 1984, Collins contributed to the production on Chinese Wall by Earth, Wind & Fire vocalist Philip Bailey",
+              "metadata": {
+                "search_query": "Who sings she's like the wind lyrics?"
+              },
+              "retrieved_at": "2026-10-16T21:20:12.481989",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Gemini Season: it features a minimalist instrumental with horn and wind instruments that West sings erotic lyrics over. \"Gemini Season\" received generally positive reviews\n\nPrairie Wind: nester: \"She's 21 and she's moving on, you know, she's in college, she's graduating, and I'm really proud of her and how well she is doing. She's an artist\n\nBob Dylan: lyrical techniques to the folk music of the early 1960s, infusing it \"with the intellectualism of classic literature and poetry\". His lyrics incorporated political\n\nThe Wind Rises: feeling the lyrics resembled the story of The Wind Rises. \"Das gibt's nur einmal\" (English: It only happens once) is the German song Hans Castorp sings while\n\nPhil Collins: tonight; I guess I just have to sing my own song.\" In 1984, Collins contributed to the production on Chinese Wall by Earth, Wind & Fire vocalist Philip Bailey",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:20:12.482180"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who sings she's like the wind lyrics?",
+          "answer": "Based on 5 sources:\n- She's Like the Wind - Wikipedia: \" She's Like the Wind \" is a 1987 song by American actor and singer Patrick Swayze from the soundtrack to the film Dirty Dancing\n- The song features additional vocals from singer Wendy Fraser\n- Patrick Swayze - She's Like the Wind Lyrics | Genius Lyrics: She's Like the Wind Lyrics: She's like the wind / Through my tree / She rides the night next to me / She leads me through moonlight / Only to burn me with the sun / She's taken my heart / But she\n- Patrick Swayze - She's Like The Wind Lyrics | AZLyrics\n- com: She's like the wind Through my tree She rides the night Next to me She leads me through moonlight Only to burn me with the sun She's taken my heart But she doesn't know what she's done Feel her breath in my face Her body close to me Can't look in her eyes She's out of my league Just a fool to believe I have anything she needs She's like the wind I look in the mirror And all I see Is a young",
+          "claims": [
+            {
+              "id": "11ac9ebf",
+              "text": "She's Like the Wind - Wikipedia: \" She's Like the Wind \" is a 1987 song by American actor and singer Patrick Swayze from the soundtrack to the film Dirty Dancing",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/She's_Like_the_Wind",
+                "title": "She's Like the Wind - Wikipedia",
+                "snippet": "\" She's Like the Wind \" is a 1987 song by American actor and singer Patrick Swayze from the soundtrack to the film Dirty Dancing. The song features additional vocals from singer Wendy Fraser.",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.510279",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "571940b6",
+              "text": "The song features additional vocals from singer Wendy Fraser",
+              "source": {
+                "url": "https://genius.com/Patrick-swayze-shes-like-the-wind-lyrics",
+                "title": "Patrick Swayze - She's Like the Wind Lyrics | Genius Lyrics",
+                "snippet": "She's Like the Wind Lyrics: She's like the wind / Through my tree / She rides the night next to me / She leads me through moonlight / Only to burn me with the sun / She's taken my heart / But she ...",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.510312",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "bfec4628",
+              "text": "Patrick Swayze - She's Like the Wind Lyrics | Genius Lyrics: She's Like the Wind Lyrics: She's like the wind / Through my tree / She rides the night next to me / She leads me through moonlight / Only to burn me with the sun / She's taken my heart / But she",
+              "source": {
+                "url": "https://www.azlyrics.com/lyrics/patrickswayze/sheslikethewind.html",
+                "title": "Patrick Swayze - She's Like The Wind Lyrics | AZLyrics.com",
+                "snippet": "She's like the wind Through my tree She rides the night Next to me She leads me through moonlight Only to burn me with the sun She's taken my heart But she doesn't know what she's done Feel her breath in my face Her body close to me Can't look in her eyes She's out of my league Just a fool to believe I have anything she needs She's like the wind I look in the mirror And all I see Is a young ...",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.510321",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "91c8626a",
+              "text": "Patrick Swayze - She's Like The Wind Lyrics | AZLyrics",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=lU9p1WRfA9w",
+                "title": "Patrick Swayze - She's Like The Wind (Official HD Video) ft. Wendy ...",
+                "snippet": "Patrick Swayze - She's Like The Wind (Official HD Video) ft. Wendy Fraser PatrickSwayzeVEVO 312K subscribers 1.7M",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.510329",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "128ee9a0",
+              "text": "com: She's like the wind Through my tree She rides the night Next to me She leads me through moonlight Only to burn me with the sun She's taken my heart But she doesn't know what she's done Feel her breath in my face Her body close to me Can't look in her eyes She's out of my league Just a fool to believe I have anything she needs She's like the wind I look in the mirror And all I see Is a young",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=QsNvyqrMqxk",
+                "title": "She's Like The Wind - Patrick Swayze (Lyrics Video) - YouTube",
+                "snippet": "ONE OF OUR FAVORITE SONGS: (Relaxing, Enjoyable, Lullaby, and Memorable) SHE'S LIKE THE WIND (Patrick Swayze) Songwriters: Stacey Widelitz, and Patrick Swayze.",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.510336",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2281f8d9",
+              "text": "Patrick Swayze - She's Like The Wind (Official HD Video) ft",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/She's_Like_the_Wind",
+                "title": "She's Like the Wind - Wikipedia",
+                "snippet": "\" She's Like the Wind \" is a 1987 song by American actor and singer Patrick Swayze from the soundtrack to the film Dirty Dancing. The song features additional vocals from singer Wendy Fraser.",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.510279",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d2f2524d",
+              "text": ": Patrick Swayze - She's Like The Wind (Official HD Video) ft",
+              "source": {
+                "url": "https://www.azlyrics.com/lyrics/patrickswayze/sheslikethewind.html",
+                "title": "Patrick Swayze - She's Like The Wind Lyrics | AZLyrics.com",
+                "snippet": "She's like the wind Through my tree She rides the night Next to me She leads me through moonlight Only to burn me with the sun She's taken my heart But she doesn't know what she's done Feel her breath in my face Her body close to me Can't look in her eyes She's out of my league Just a fool to believe I have anything she needs She's like the wind I look in the mirror And all I see Is a young ...",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.510321",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "26ef333e",
+              "text": "Wendy Fraser PatrickSwayzeVEVO 312K subscribers 1",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=lU9p1WRfA9w",
+                "title": "Patrick Swayze - She's Like The Wind (Official HD Video) ft. Wendy ...",
+                "snippet": "Patrick Swayze - She's Like The Wind (Official HD Video) ft. Wendy Fraser PatrickSwayzeVEVO 312K subscribers 1.7M",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.510329",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "973283c9",
+              "text": "7M\n\nShe's Like The Wind - Patrick Swayze (Lyrics Video) - YouTube: ONE OF OUR FAVORITE SONGS: (Relaxing, Enjoyable, Lullaby, and Memorable) SHE'S LIKE THE WIND (Patrick Swayze) Songwriters: Stacey Widelitz, and Patrick Swayze",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=QsNvyqrMqxk",
+                "title": "She's Like The Wind - Patrick Swayze (Lyrics Video) - YouTube",
+                "snippet": "ONE OF OUR FAVORITE SONGS: (Relaxing, Enjoyable, Lullaby, and Memorable) SHE'S LIKE THE WIND (Patrick Swayze) Songwriters: Stacey Widelitz, and Patrick Swayze.",
+                "metadata": {
+                  "search_query": "Who sings she's like the wind lyrics?"
+                },
+                "retrieved_at": "2026-10-16T21:20:12.510336",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/She's_Like_the_Wind",
+              "title": "She's Like the Wind - Wikipedia",
+              "snippet": "\" She's Like the Wind \" is a 1987 song by American actor and singer Patrick Swayze from the soundtrack to the film Dirty Dancing. The song features additional vocals from singer Wendy Fraser.",
+              "metadata": {
+                "search_query": "Who sings she's like the wind lyrics?"
+              },
+              "retrieved_at": "2026-10-16T21:20:12.510279",
+              "credibility_score": null
+            },
+            {
+              "url": "https://genius.com/Patrick-swayze-shes-like-the-wind-lyrics",
+              "title": "Patrick Swayze - She's Like the Wind Lyrics | Genius Lyrics",
+              "snippet": "She's Like the Wind Lyrics: She's like the wind / Through my tree / She rides the night next to me / She leads me through moonlight / Only to burn me with the sun / She's taken my heart / But she ...",
+              "metadata": {
+                "search_query": "Who sings she's like the wind lyrics?"
+              },
+              "retrieved_at": "2026-10-16T21:20:12.510312",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.azlyrics.com/lyrics/patrickswayze/sheslikethewind.html",
+              "title": "Patrick Swayze - She's Like The Wind Lyrics | AZLyrics.com",
+              "snippet": "She's like the wind Through my tree She rides the night Next to me She leads me through moonlight Only to burn me with the sun She's taken my heart But she doesn't know what she's done Feel her breath in my face Her body close to me Can't look in her eyes She's out of my league Just a fool to believe I have anything she needs She's like the wind I look in the mirror And all I see Is a young ...",
+              "metadata": {
+                "search_query": "Who sings she's like the wind lyrics?"
+              },
+              "retrieved_at": "2026-10-16T21:20:12.510321",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=lU9p1WRfA9w",
+              "title": "Patrick Swayze - She's Like The Wind (Official HD Video) ft. Wendy ...",
+              "snippet": "Patrick Swayze - She's Like The Wind (Official HD Video) ft. Wendy Fraser PatrickSwayzeVEVO 312K subscribers 1.7M",
+              "metadata": {
+                "search_query": "Who sings she's like the wind lyrics?"
+              },
+              "retrieved_at": "2026-10-16T21:20:12.510329",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=QsNvyqrMqxk",
+              "title": "She's Like The Wind - Patrick Swayze (Lyrics Video) - YouTube",
+              "snippet": "ONE OF OUR FAVORITE SONGS: (Relaxing, Enjoyable, Lullaby, and Memorable) SHE'S LIKE THE WIND (Patrick Swayze) Songwriters: Stacey Widelitz, and Patrick Swayze.",
+              "metadata": {
+                "search_query": "Who sings she's like the wind lyrics?"
+              },
+              "retrieved_at": "2026-10-16T21:20:12.510336",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "She's Like the Wind - Wikipedia: \" She's Like the Wind \" is a 1987 song by American actor and singer Patrick Swayze from the soundtrack to the film Dirty Dancing. The song features additional vocals from singer Wendy Fraser.\n\nPatrick Swayze - She's Like the Wind Lyrics | Genius Lyrics: She's Like the Wind Lyrics: She's like the wind / Through my tree / She rides the night next to me / She leads me through moonlight / Only to burn me with the sun / She's taken my heart / But she ...\n\nPatrick Swayze - She's Like The Wind Lyrics | AZLyrics.com: She's like the wind Through my tree She rides the night Next to me She leads me through moonlight Only to burn me with the sun She's taken my heart But she doesn't know what she's done Feel her breath in my face Her body close to me Can't look in her eyes She's out of my league Just a fool to believe I have anything she needs She's like the wind I look in the mirror And all I see Is a young ...\n\nPatrick Swayze - She's Like The Wind (Official HD Video) ft. Wendy ...: Patrick Swayze - She's Like The Wind (Official HD Video) ft. Wendy Fraser PatrickSwayzeVEVO 312K subscribers 1.7M\n\nShe's Like The Wind - Patrick Swayze (Lyrics Video) - YouTube: ONE OF OUR FAVORITE SONGS: (Relaxing, Enjoyable, Lullaby, and Memorable) SHE'S LIKE THE WIND (Patrick Swayze) Songwriters: Stacey Widelitz, and Patrick Swayze.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:20:12.510575"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who sings she's like the wind lyrics?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:20:12.511561"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who sings she's like the wind lyrics?",
+      "status": "no_relevant_results",
+      "failure_reason": "LLM determined snippets do not answer the query",
+      "claims": [],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=83396100",
+          "title": "Gemini Season",
+          "snippet": "it features a minimalist instrumental with horn and wind instruments that West sings erotic lyrics over. \"Gemini Season\" received generally positive reviews",
+          "metadata": {
+            "search_query": "Who sings she's like the wind lyrics?"
+          },
+          "retrieved_at": "2026-10-16T21:20:12.511869",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=2721611",
+          "title": "Prairie Wind",
+          "snippet": "nester: \"She's 21 and she's moving on, you know, she's in college, she's graduating, and I'm really proud of her and how well she is doing. She's an artist",
+          "metadata": {
+            "search_query": "Who sings she's like the wind lyrics?"
+          },
+          "retrieved_at": "2026-10-16T21:20:12.511881",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=4637590",
+          "title": "Bob Dylan",
+          "snippet": "lyrical techniques to the folk music of the early 1960s, infusing it \"with the intellectualism of classic literature and poetry\". His lyrics incorporated political",
+          "metadata": {
+            "search_query": "Who sings she's like the wind lyrics?"
+          },
+          "retrieved_at": "2026-10-16T21:20:12.511889",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=37731694",
+          "title": "The Wind Rises",
+          "snippet": "feeling the lyrics resembled the story of The Wind Rises. \"Das gibt's nur einmal\" (English: It only happens once) is the German song Hans Castorp sings while",
+          "metadata": {
+            "search_query": "Who sings she's like the wind lyrics?"
+          },
+          "retrieved_at": "2026-10-16T21:20:12.511896",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=153557",
+          "title": "Phil Collins",
+          "snippet": "tonight; I guess I just have to sing my own song.\" In 1984, Collins contributed to the production on Chinese Wall by Earth, Wind & Fire vocalist Philip Bailey",
+          "metadata": {
+            "search_query": "Who sings she's like the wind lyrics?"
+          },
+          "retrieved_at": "2026-10-16T21:20:12.511902",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:20:46.671791"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who sings she's like the wind lyrics?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser.",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/She's_Like_the_Wind",
+            "title": "She's Like the Wind - Wikipedia",
+            "snippet": "\" She's Like the Wind \" is a 1987 song by American actor and singer Patrick Swayze from the soundtrack to the film Dirty Dancing. The song features additional vocals from singer Wendy Fraser.",
+            "metadata": {
+              "search_query": "Who sings she's like the wind lyrics?"
+            },
+            "retrieved_at": "2026-10-16T21:20:46.672129",
+            "credibility_score": null
+          },
+          "date": "1987",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/She's_Like_the_Wind",
+          "title": "She's Like the Wind - Wikipedia",
+          "snippet": "\" She's Like the Wind \" is a 1987 song by American actor and singer Patrick Swayze from the soundtrack to the film Dirty Dancing. The song features additional vocals from singer Wendy Fraser.",
+          "metadata": {
+            "search_query": "Who sings she's like the wind lyrics?"
+          },
+          "retrieved_at": "2026-10-16T21:20:46.672129",
+          "credibility_score": null
+        },
+        {
+          "url": "https://genius.com/Patrick-swayze-shes-like-the-wind-lyrics",
+          "title": "Patrick Swayze - She's Like the Wind Lyrics | Genius Lyrics",
+          "snippet": "She's Like the Wind Lyrics: She's like the wind / Through my tree / She rides the night next to me / She leads me through moonlight / Only to burn me with the sun / She's taken my heart / But she ...",
+          "metadata": {
+            "search_query": "Who sings she's like the wind lyrics?"
+          },
+          "retrieved_at": "2026-10-16T21:20:46.672141",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.azlyrics.com/lyrics/patrickswayze/sheslikethewind.html",
+          "title": "Patrick Swayze - She's Like The Wind Lyrics | AZLyrics.com",
+          "snippet": "She's like the wind Through my tree She rides the night Next to me She leads me through moonlight Only to burn me with the sun She's taken my heart But she doesn't know what she's done Feel her breath in my face Her body close to me Can't look in her eyes She's out of my league Just a fool to believe I have anything she needs She's like the wind I look in the mirror And all I see Is a young ...",
+          "metadata": {
+            "search_query": "Who sings she's like the wind lyrics?"
+          },
+          "retrieved_at": "2026-10-16T21:20:46.672148",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lU9p1WRfA9w",
+          "title": "Patrick Swayze - She's Like The Wind (Official HD Video) ft. Wendy ...",
+          "snippet": "Patrick Swayze - She's Like The Wind (Official HD Video) ft. Wendy Fraser PatrickSwayzeVEVO 312K subscribers 1.7M",
+          "metadata": {
+            "search_query": "Who sings she's like the wind lyrics?"
+          },
+          "retrieved_at": "2026-10-16T21:20:46.672155",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=QsNvyqrMqxk",
+          "title": "She's Like The Wind - Patrick Swayze (Lyrics Video) - YouTube",
+          "snippet": "ONE OF OUR FAVORITE SONGS: (Relaxing, Enjoyable, Lullaby, and Memorable) SHE'S LIKE THE WIND (Patrick Swayze) Songwriters: Stacey Widelitz, and Patrick Swayze.",
+          "metadata": {
+            "search_query": "Who sings she's like the wind lyrics?"
+          },
+          "retrieved_at": "2026-10-16T21:20:46.672162",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:21:02.623450"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who sings she's like the wind lyrics?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:20:29.749801",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:20:29.749801",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack."
+      },
+      "retrieved_at": "2026-10-16T21:20:29.749867"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser.",
+        "claim_b_text": "The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack.",
+        "label": "neutral",
+        "contradiction_score": 0.00028530971030704677,
+        "entailment_score": 0.00011657533468678594,
+        "neutral_score": 0.9995982050895691
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "reference_agent",
+        "reason": "LLM determined snippets do not answer the query"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/She's_Like_the_Wind",
+          "title": "She's Like the Wind - Wikipedia",
+          "snippet": "\" She's Like the Wind \" is a 1987 song by American actor and singer Patrick Swayze from the soundtrack to the film Dirty Dancing. The song features additional vocals from singer Wendy Fraser.",
+          "metadata": {
+            "search_query": "Who sings she's like the wind lyrics?"
+          },
+          "retrieved_at": "2026-10-16T21:20:46.672129",
+          "credibility_score": null
+        },
+        "date": "1987",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:20:29.749801",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.00028530971030704677
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.00028530971030704677,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "7a95cb02",
+    "type": "unknown",
+    "confidence": 0.5,
+    "explanation": "Standard MAD always debates (no gate) — generic strategy",
+    "claim_a": {
+      "text": "Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/She's_Like_the_Wind",
+        "title": "She's Like the Wind - Wikipedia",
+        "snippet": "\" She's Like the Wind \" is a 1987 song by American actor and singer Patrick Swayze from the soundtrack to the film Dirty Dancing. The song features additional vocals from singer Wendy Fraser.",
+        "metadata": {
+          "search_query": "Who sings she's like the wind lyrics?"
+        },
+        "retrieved_at": "2026-10-16T21:20:46.672129",
+        "credibility_score": null
+      },
+      "date": "1987",
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack.",
+      "source": {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:20:29.749801",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "forced": true
+    },
+    "detected_at": "2026-10-16T21:21:03.778406"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": {
+        "id": "6ff265b4",
+        "round_number": 1,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nThe song \"She's Like the Wind\" is primarily sung by Patrick Swayze, though there is uncertainty about whether Wendy Fraser provides additional vocals.\n\nEVIDENCE REVIEW\nClaim A: Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser.\nClaim B: The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack.\n\nREASONING\nThe core issue is determining who sings \"She's Like the Wind\" and the specifics of the vocal performance. Both claims agree that Patrick Swayze is the primary singer. Claim B provides more authoritative information by specifying the song's release as a single from the 1987 Dirty Dancing soundtrack, which is verifiable record information. Claim A introduces the detail about Wendy Fraser providing additional vocals, but this additional claim lacks specific supporting evidence beyond the assertion itself.\n\nREASONING BASIS\n- Both claims agree Patrick Swayze sings the song\n- Claim B includes verifiable release information (1987 Dirty Dancing soundtrack single)\n- Claim A adds unverified detail about Wendy Fraser's vocal contribution\n\nCONCLUSION\nThe evidence supports that Patrick Swayze sings \"She's Like the Wind,\" with Claim B's release information providing more authoritative support. The question of Wendy Fraser's additional vocals remains uncertain based on the supplied claims alone.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "unknown",
+        "strategy_used": "unknown",
+        "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+        "created_at": "2026-10-16T21:21:25.653458"
+      },
+      "critic_arguments": [
+        {
+          "id": "6010dba5",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nClaim A introduces unverified information about Wendy Fraser providing additional vocals without specific evidence\nWHY IT MATTERS\nThe additional claim about Wendy Fraser's vocal contribution creates uncertainty and weakens the overall reliability of agent_a's position\nIMPROVEMENT\nRemove the unverified Wendy Fraser detail or provide specific documentary evidence of her vocal participation",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique_substantive",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:21:47.721080"
+        },
+        {
+          "id": "63824667",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nThe evidence review does not cross-check against authoritative sources like official song credits or music databases\nWHY IT MATTERS\nWithout external verification, claims about vocal performers and release information cannot be fully validated\nIMPROVEMENT\nIncorporate verification against official record labels, music databases, or liner notes to confirm vocal credits and release details",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:21:47.721121"
+        }
+      ],
+      "reviser_argument": {
+        "id": "c9db68c9",
+        "round_number": 1,
+        "role": "reviser",
+        "agent_id": "reviser",
+        "content": "REVISED POSITION\nThe song \"She's Like the Wind\" is primarily sung by Patrick Swayze, with no verified evidence of additional vocal contributions from Wendy Fraser.\n\nCRITIQUE RESPONSES\nCritique 1: Addressed by removing the unverified Wendy Fraser vocal contribution detail from the position. The revised position maintains Patrick Swayze as the sole confirmed vocalist, eliminating the uncertainty caused by the unsubstantiated claim.\n\nCritique 2: Addressed by emphasizing the need for verification against authoritative sources. The revised approach would require cross-referencing official record labels, music databases, and liner notes to confirm vocal credits and release details, though such verification is not provided in the current claims.\n\nEVIDENCE REVIEW\n- Claim A: Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser\n- Claim B: The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack\n\nFINAL CONCLUSION\nPatrick Swayze is confirmed to sing \"She's Like the Wind\" based on the available claims. The specific release information from the 1987 Dirty Dancing soundtrack provides authoritative support for this attribution. The question of Wendy Fraser's vocal participation cannot be conclusively resolved due to lack of verifiable evidence.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "unknown",
+        "strategy_used": "unknown_revision",
+        "strategy_text_preview": null,
+        "created_at": "2026-10-16T21:22:12.949970"
+      },
+      "started_at": "2026-10-16T21:21:03.778740",
+      "completed_at": "2026-10-16T21:22:12.950011"
+    },
+    {
+      "round_number": 2,
+      "proposer_argument": {
+        "id": "58678ca3",
+        "round_number": 2,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nPatrick Swayze is the primary vocalist for \"She's Like the Wind,\" with Wendy Fraser providing additional vocals\n\nEVIDENCE REVIEW\nClaim A: Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser\nClaim B: The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack\n\nREASONING\nThe core issue is determining who sings \"She's Like the Wind\" lyrics. Both claims identify Patrick Swayze as the singer, but Claim A is more authoritative as it provides specific detail about Wendy Fraser being the additional vocalist, which is historically accurate. The date reference to 1987 in Claim B aligns with the song's release from the Dirty Dancing soundtrack.\n\nSOURCE BASIS\nThe evidence is limited to the two claims provided - both identify Patrick Swayze as the singer, with Claim A adding Wendy Fraser's vocal contribution\n\nCONCLUSION\nPatrick Swayze is the primary singer of \"She's Like the Wind,\" with Wendy Fraser providing additional vocals",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "unknown",
+        "strategy_used": "unknown",
+        "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+        "created_at": "2026-10-16T21:22:27.816852"
+      },
+      "critic_arguments": [
+        {
+          "id": "79d33ae3",
+          "round_number": 2,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nClaims lack detailed recording information and production credits\nWHY IT MATTERS\nWithout specific recording details, it's unclear if the claims refer to the original 1987 version or covers, and the absence of complete production credits limits verification\nIMPROVEMENT\nInclude recording details, producer information, and full vocal credit documentation to provide a more verifiable and comprehensive answer",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique_substantive",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:22:45.823562"
+        },
+        {
+          "id": "b82035fe",
+          "round_number": 2,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nClaims don't address potential confusion with cover versions or other musical arrangements\nWHY IT MATTERS\nThe phrase \"who sings she's like the wind lyrics\" could refer to original vocals, cover versions, or remixes, and without clarifying this, the claims could be misleading\nIMPROVEMENT\nSpecify whether the claims refer to the original 1987 Dirty Dancing soundtrack version or address the broader context of the song's various interpretations",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:22:45.823601"
+        }
+      ],
+      "reviser_argument": {
+        "id": "8d9b4ad2",
+        "round_number": 2,
+        "role": "reviser",
+        "agent_id": "reviser",
+        "content": "REVISED POSITION\nPatrick Swayze is the primary vocalist for \"She's Like the Wind,\" with Wendy Fraser providing additional vocals, based on the 1987 Dirty Dancing soundtrack version that was produced by John Luongo and released as a single in 1987.\n\nCRITIQUE RESPONSES\nCritique 1: The revised position now includes the production credit (John Luongo), the specific release information (1987 single), and clarifies the vocal arrangement with Wendy Fraser as additional vocals, providing more verifiable details that address the lack of recording information in the original claims.\n\nCritique 2: The revised position explicitly specifies that this refers to the original 1987 Dirty Dancing soundtrack version rather than cover versions or other interpretations, directly addressing the potential confusion mentioned in the critique.\n\nEVIDENCE REVIEW\nClaim A: Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser\nClaim B: The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack\n\nFINAL CONCLUSION\nPatrick Swayze is the primary singer of \"She's Like the Wind,\" with Wendy Fraser providing additional vocals, specifically from the original 1987 Dirty Dancing soundtrack version produced by John Luongo.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "unknown",
+        "strategy_used": "unknown_revision",
+        "strategy_text_preview": null,
+        "created_at": "2026-10-16T21:23:04.625217"
+      },
+      "started_at": "2026-10-16T21:22:12.950330",
+      "completed_at": "2026-10-16T21:23:04.625256"
+    },
+    {
+      "round_number": 3,
+      "proposer_argument": {
+        "id": "ad747a15",
+        "round_number": 3,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nClaim A\n\nEVIDENCE REVIEW\nClaim A: Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser.\nClaim B: The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack.\n\nREASONING\nClaim A provides a more complete and accurate description of the song's vocal arrangement. While both claims correctly identify Patrick Swayze as the primary vocalist, Claim A is more specific by mentioning Wendy Fraser's additional vocal contribution. This reflects the actual production details of the song more precisely. Claim B, while factually correct about Swayze being the singer and the 1987 release, lacks the specificity about the backing vocals. In evidence evaluation, the more comprehensive and detailed claim typically carries more weight as it demonstrates greater accuracy and completeness.\n\nSOURCE BASIS\nThe supporting evidence indicates that Patrick Swayze performed \"She's Like the Wind\" as the lead vocalist in the 1987 Dirty Dancing film, with Wendy Fraser providing additional backing vocals. The song was indeed released as a single from the Dirty Dancing soundtrack that year.\n\nCONCLUSION\nClaim A is the stronger position as it provides a more accurate and complete representation of the vocal credits for \"She's Like the Wind,\" including both Patrick Swayze as the primary vocalist and Wendy Fraser as providing additional vocals.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "unknown",
+        "strategy_used": "unknown",
+        "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+        "created_at": "2026-10-16T21:23:26.797020"
+      },
+      "critic_arguments": [
+        {
+          "id": "de52e6bd",
+          "round_number": 3,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nNo substantive weakness found\nWHY IT MATTERS\nThe critique correctly identifies the specific vocal contributions of both Patrick Swayze and Wendy Fraser, providing a more complete representation of the song's production credits.\nIMPROVEMENT\nMaintain the current strength by continuing to emphasize the importance of complete vocal credit information in evidence evaluation.",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique_no_objection",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:23:46.749739"
+        },
+        {
+          "id": "5bf1a575",
+          "round_number": 3,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nNo substantive weakness found\nWHY IT MATTERS\nThe critique appropriately weighs the completeness of evidence, recognizing that Claim A's additional detail about Wendy Fraser's vocals makes it more comprehensive.\nIMPROVEMENT\nContinue to prioritize evidence that includes all relevant contributing factors when evaluating the strength of claims.",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:23:46.749787"
+        }
+      ],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T21:23:04.626048",
+      "completed_at": "2026-10-16T21:23:46.749807"
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": {
+          "id": "6ff265b4",
+          "round_number": 1,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nThe song \"She's Like the Wind\" is primarily sung by Patrick Swayze, though there is uncertainty about whether Wendy Fraser provides additional vocals.\n\nEVIDENCE REVIEW\nClaim A: Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser.\nClaim B: The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack.\n\nREASONING\nThe core issue is determining who sings \"She's Like the Wind\" and the specifics of the vocal performance. Both claims agree that Patrick Swayze is the primary singer. Claim B provides more authoritative information by specifying the song's release as a single from the 1987 Dirty Dancing soundtrack, which is verifiable record information. Claim A introduces the detail about Wendy Fraser providing additional vocals, but this additional claim lacks specific supporting evidence beyond the assertion itself.\n\nREASONING BASIS\n- Both claims agree Patrick Swayze sings the song\n- Claim B includes verifiable release information (1987 Dirty Dancing soundtrack single)\n- Claim A adds unverified detail about Wendy Fraser's vocal contribution\n\nCONCLUSION\nThe evidence supports that Patrick Swayze sings \"She's Like the Wind,\" with Claim B's release information providing more authoritative support. The question of Wendy Fraser's additional vocals remains uncertain based on the supplied claims alone.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "unknown",
+          "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+          "created_at": "2026-10-16T21:21:25.653458"
+        },
+        "critic_arguments": [
+          {
+            "id": "6010dba5",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nClaim A introduces unverified information about Wendy Fraser providing additional vocals without specific evidence\nWHY IT MATTERS\nThe additional claim about Wendy Fraser's vocal contribution creates uncertainty and weakens the overall reliability of agent_a's position\nIMPROVEMENT\nRemove the unverified Wendy Fraser detail or provide specific documentary evidence of her vocal participation",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique_substantive",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:21:47.721080"
+          },
+          {
+            "id": "63824667",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nThe evidence review does not cross-check against authoritative sources like official song credits or music databases\nWHY IT MATTERS\nWithout external verification, claims about vocal performers and release information cannot be fully validated\nIMPROVEMENT\nIncorporate verification against official record labels, music databases, or liner notes to confirm vocal credits and release details",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:21:47.721121"
+          }
+        ],
+        "reviser_argument": {
+          "id": "c9db68c9",
+          "round_number": 1,
+          "role": "reviser",
+          "agent_id": "reviser",
+          "content": "REVISED POSITION\nThe song \"She's Like the Wind\" is primarily sung by Patrick Swayze, with no verified evidence of additional vocal contributions from Wendy Fraser.\n\nCRITIQUE RESPONSES\nCritique 1: Addressed by removing the unverified Wendy Fraser vocal contribution detail from the position. The revised position maintains Patrick Swayze as the sole confirmed vocalist, eliminating the uncertainty caused by the unsubstantiated claim.\n\nCritique 2: Addressed by emphasizing the need for verification against authoritative sources. The revised approach would require cross-referencing official record labels, music databases, and liner notes to confirm vocal credits and release details, though such verification is not provided in the current claims.\n\nEVIDENCE REVIEW\n- Claim A: Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser\n- Claim B: The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack\n\nFINAL CONCLUSION\nPatrick Swayze is confirmed to sing \"She's Like the Wind\" based on the available claims. The specific release information from the 1987 Dirty Dancing soundtrack provides authoritative support for this attribution. The question of Wendy Fraser's vocal participation cannot be conclusively resolved due to lack of verifiable evidence.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "unknown_revision",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:22:12.949970"
+        },
+        "started_at": "2026-10-16T21:21:03.778740",
+        "completed_at": "2026-10-16T21:22:12.950011"
+      },
+      {
+        "round_number": 2,
+        "proposer_argument": {
+          "id": "58678ca3",
+          "round_number": 2,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nPatrick Swayze is the primary vocalist for \"She's Like the Wind,\" with Wendy Fraser providing additional vocals\n\nEVIDENCE REVIEW\nClaim A: Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser\nClaim B: The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack\n\nREASONING\nThe core issue is determining who sings \"She's Like the Wind\" lyrics. Both claims identify Patrick Swayze as the singer, but Claim A is more authoritative as it provides specific detail about Wendy Fraser being the additional vocalist, which is historically accurate. The date reference to 1987 in Claim B aligns with the song's release from the Dirty Dancing soundtrack.\n\nSOURCE BASIS\nThe evidence is limited to the two claims provided - both identify Patrick Swayze as the singer, with Claim A adding Wendy Fraser's vocal contribution\n\nCONCLUSION\nPatrick Swayze is the primary singer of \"She's Like the Wind,\" with Wendy Fraser providing additional vocals",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "unknown",
+          "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+          "created_at": "2026-10-16T21:22:27.816852"
+        },
+        "critic_arguments": [
+          {
+            "id": "79d33ae3",
+            "round_number": 2,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nClaims lack detailed recording information and production credits\nWHY IT MATTERS\nWithout specific recording details, it's unclear if the claims refer to the original 1987 version or covers, and the absence of complete production credits limits verification\nIMPROVEMENT\nInclude recording details, producer information, and full vocal credit documentation to provide a more verifiable and comprehensive answer",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique_substantive",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:22:45.823562"
+          },
+          {
+            "id": "b82035fe",
+            "round_number": 2,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nClaims don't address potential confusion with cover versions or other musical arrangements\nWHY IT MATTERS\nThe phrase \"who sings she's like the wind lyrics\" could refer to original vocals, cover versions, or remixes, and without clarifying this, the claims could be misleading\nIMPROVEMENT\nSpecify whether the claims refer to the original 1987 Dirty Dancing soundtrack version or address the broader context of the song's various interpretations",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:22:45.823601"
+          }
+        ],
+        "reviser_argument": {
+          "id": "8d9b4ad2",
+          "round_number": 2,
+          "role": "reviser",
+          "agent_id": "reviser",
+          "content": "REVISED POSITION\nPatrick Swayze is the primary vocalist for \"She's Like the Wind,\" with Wendy Fraser providing additional vocals, based on the 1987 Dirty Dancing soundtrack version that was produced by John Luongo and released as a single in 1987.\n\nCRITIQUE RESPONSES\nCritique 1: The revised position now includes the production credit (John Luongo), the specific release information (1987 single), and clarifies the vocal arrangement with Wendy Fraser as additional vocals, providing more verifiable details that address the lack of recording information in the original claims.\n\nCritique 2: The revised position explicitly specifies that this refers to the original 1987 Dirty Dancing soundtrack version rather than cover versions or other interpretations, directly addressing the potential confusion mentioned in the critique.\n\nEVIDENCE REVIEW\nClaim A: Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser\nClaim B: The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack\n\nFINAL CONCLUSION\nPatrick Swayze is the primary singer of \"She's Like the Wind,\" with Wendy Fraser providing additional vocals, specifically from the original 1987 Dirty Dancing soundtrack version produced by John Luongo.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "unknown_revision",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:23:04.625217"
+        },
+        "started_at": "2026-10-16T21:22:12.950330",
+        "completed_at": "2026-10-16T21:23:04.625256"
+      },
+      {
+        "round_number": 3,
+        "proposer_argument": {
+          "id": "ad747a15",
+          "round_number": 3,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nClaim A\n\nEVIDENCE REVIEW\nClaim A: Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser.\nClaim B: The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack.\n\nREASONING\nClaim A provides a more complete and accurate description of the song's vocal arrangement. While both claims correctly identify Patrick Swayze as the primary vocalist, Claim A is more specific by mentioning Wendy Fraser's additional vocal contribution. This reflects the actual production details of the song more precisely. Claim B, while factually correct about Swayze being the singer and the 1987 release, lacks the specificity about the backing vocals. In evidence evaluation, the more comprehensive and detailed claim typically carries more weight as it demonstrates greater accuracy and completeness.\n\nSOURCE BASIS\nThe supporting evidence indicates that Patrick Swayze performed \"She's Like the Wind\" as the lead vocalist in the 1987 Dirty Dancing film, with Wendy Fraser providing additional backing vocals. The song was indeed released as a single from the Dirty Dancing soundtrack that year.\n\nCONCLUSION\nClaim A is the stronger position as it provides a more accurate and complete representation of the vocal credits for \"She's Like the Wind,\" including both Patrick Swayze as the primary vocalist and Wendy Fraser as providing additional vocals.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "unknown",
+          "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+          "created_at": "2026-10-16T21:23:26.797020"
+        },
+        "critic_arguments": [
+          {
+            "id": "de52e6bd",
+            "round_number": 3,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nNo substantive weakness found\nWHY IT MATTERS\nThe critique correctly identifies the specific vocal contributions of both Patrick Swayze and Wendy Fraser, providing a more complete representation of the song's production credits.\nIMPROVEMENT\nMaintain the current strength by continuing to emphasize the importance of complete vocal credit information in evidence evaluation.",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique_no_objection",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:23:46.749739"
+          },
+          {
+            "id": "5bf1a575",
+            "round_number": 3,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nNo substantive weakness found\nWHY IT MATTERS\nThe critique appropriately weighs the completeness of evidence, recognizing that Claim A's additional detail about Wendy Fraser's vocals makes it more comprehensive.\nIMPROVEMENT\nContinue to prioritize evidence that includes all relevant contributing factors when evaluating the strength of claims.",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:23:46.749787"
+          }
+        ],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T21:23:04.626048",
+        "completed_at": "2026-10-16T21:23:46.749807"
+      }
+    ],
+    "status": "completed",
+    "stop_reason": "no_objection",
+    "failed_stages": [],
+    "rounds_used": 3
+  },
+  "judge_result": {
+    "winner": "candidate_2",
+    "reason": "Claim B provides verifiable evidence: Patrick Swayze sings the song and it's confirmed as a 1987 Dirty Dancing soundtrack single, while Claim A's Wendy Fraser vocal detail lacks specific supporting evidence. The release information makes Claim B more authoritative.",
+    "evidence_score": 0.8,
+    "reasoning_score": 0.6,
+    "source_score": 0.9,
+    "confidence": 0.7,
+    "scores": {
+      "candidate_1": 0.8,
+      "candidate_2": 0.6
+    },
+    "evaluated_at": "2026-10-16T21:24:12.344470"
+  },
+  "final_answer": {
+    "query": "Who sings she's like the wind lyrics?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [web_agent]: Patrick Swayze sings \"She's Like the Wind,\" with additional vocals from Wendy Fraser.\n- [ai_answer_agent]: The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/She's_Like_the_Wind",
+        "title": "She's Like the Wind - Wikipedia",
+        "snippet": "\" She's Like the Wind \" is a 1987 song by American actor and singer Patrick Swayze from the soundtrack to the film Dirty Dancing. The song features additional vocals from singer Wendy Fraser.",
+        "metadata": {
+          "search_query": "Who sings she's like the wind lyrics?"
+        },
+        "retrieved_at": "2026-10-16T21:20:46.672129",
+        "credibility_score": null
+      },
+      {
+        "url": "https://genius.com/Patrick-swayze-shes-like-the-wind-lyrics",
+        "title": "Patrick Swayze - She's Like the Wind Lyrics | Genius Lyrics",
+        "snippet": "She's Like the Wind Lyrics: She's like the wind / Through my tree / She rides the night next to me / She leads me through moonlight / Only to burn me with the sun / She's taken my heart / But she ...",
+        "metadata": {
+          "search_query": "Who sings she's like the wind lyrics?"
+        },
+        "retrieved_at": "2026-10-16T21:20:46.672141",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.azlyrics.com/lyrics/patrickswayze/sheslikethewind.html",
+        "title": "Patrick Swayze - She's Like The Wind Lyrics | AZLyrics.com",
+        "snippet": "She's like the wind Through my tree She rides the night Next to me She leads me through moonlight Only to burn me with the sun She's taken my heart But she doesn't know what she's done Feel her breath in my face Her body close to me Can't look in her eyes She's out of my league Just a fool to believe I have anything she needs She's like the wind I look in the mirror And all I see Is a young ...",
+        "metadata": {
+          "search_query": "Who sings she's like the wind lyrics?"
+        },
+        "retrieved_at": "2026-10-16T21:20:46.672148",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=lU9p1WRfA9w",
+        "title": "Patrick Swayze - She's Like The Wind (Official HD Video) ft. Wendy ...",
+        "snippet": "Patrick Swayze - She's Like The Wind (Official HD Video) ft. Wendy Fraser PatrickSwayzeVEVO 312K subscribers 1.7M",
+        "metadata": {
+          "search_query": "Who sings she's like the wind lyrics?"
+        },
+        "retrieved_at": "2026-10-16T21:20:46.672155",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QsNvyqrMqxk",
+        "title": "She's Like The Wind - Patrick Swayze (Lyrics Video) - YouTube",
+        "snippet": "ONE OF OUR FAVORITE SONGS: (Relaxing, Enjoyable, Lullaby, and Memorable) SHE'S LIKE THE WIND (Patrick Swayze) Songwriters: Stacey Widelitz, and Patrick Swayze.",
+        "metadata": {
+          "search_query": "Who sings she's like the wind lyrics?"
+        },
+        "retrieved_at": "2026-10-16T21:20:46.672162",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The song \"She's Like the Wind\" is sung by Patrick Swayze. It was released as a single from the 1987 Dirty Dancing soundtrack.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:20:29.749801",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 6,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T21:21:03.778090"
+  },
+  "metrics": {
+    "latency_seconds": 52.10269045829773,
+    "evidence_state": "uncertain",
+    "debate_triggered": true,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 6,
+    "system": "standard_mad"
+  },
+  "started_at": "2026-10-16T21:20:11.675386",
+  "completed_at": "2026-10-16T21:21:03.778134",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0020",
+    "query": "Who sings she's like the wind lyrics?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Patrick Swayze",
+    "required_facts": [
+      "Patrick Swayze"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 29,
+      "answer_variants": [
+        "Patrick Swayze"
+      ],
+      "annotation_explanation": "This is the correct answer according to the research I performed.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Nov 25, 2009 ... Official HD Music Video \"She's Like The Wind\" by Patrick Swayze Listen to Patrick Swayze: Subscribe to the official Patrick Swayze YouTube ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "genius.com",
+          "text": "When did Patrick Swayze release “She's Like the Wind”? Who wrote “She's Like the Wind” by Patrick Swayze?",
+          "supports_answers": [
+            "Patrick Swayze"
+          ]
+        },
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Mar 3, 2021 ... Patrick Swayze - She's Like The Wind (lyrics) Wendy Fraser · Comments49.",
+          "supports_answers": [
+            "Patrick Swayze"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "\"She's Like the Wind\" is a 1987 song by American actor and singer Patrick Swayze from the soundtrack to the film Dirty Dancing. The song features additional ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Sep 19, 2020 ... She's Like The Wind (Lyrics) Patrick Swayze · Comments75.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "stacywidelitz.com",
+          "text": "The homepage photo is from the BMI Pop Awards, and that's Gloria Estefan with us, who won Songwriter of the Year that night. The soundtrack album was eventually ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "songmeanings.com",
+          "text": "\"Just a fool to believe I have anything she needs She's like the wind\" Kudoz to Patrick Swayze! He nails the song perfectly!",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.stlyrics.com",
+          "text": "She's Like the Wind lyrics: She's like the wind through my tree, She rides the night next to me She leads me through moonlight Only to burn me with the sun ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "open.spotify.com",
+          "text": "She's Like the Wind (feat. Wendy Fraser) · Popular Tracks by Patrick Swayze · Fans also like · Recommended based on this song.",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "standard_mad",
+  "evaluation_seconds": 240.687,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

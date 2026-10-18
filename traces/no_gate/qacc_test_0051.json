@@ -1,0 +1,301 @@
+{
+  "query": "Who won the fifth season of america's got talent?",
+  "trace_id": "bffadb2a-c24b-4396-8d38-c3ee8d75a516",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who won the fifth season of america's got talent?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:04:48.297898"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who won the fifth season of america's got talent?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:04:48.299743"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "Who won the fifth season of america's got talent?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:04:53.282132"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who won the fifth season of america's got talent?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:04:53.282190"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who won the fifth season of america's got talent?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:04:53.282203"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who won the fifth season of america's got talent?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:05:33.310244"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who won the fifth season of america's got talent?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:05:38.284809"
+  },
+  "metrics": {
+    "latency_seconds": 49.988770723342896,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_gate"
+  },
+  "started_at": "2026-10-16T22:04:48.296042",
+  "completed_at": "2026-10-16T22:05:38.284866",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0051",
+    "query": "Who won the fifth season of america's got talent?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Michael Grimm",
+    "required_facts": [
+      "Michael Grimm"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 64,
+      "answer_variants": [
+        "Michael Grimm"
+      ],
+      "annotation_explanation": "This is the only answer that can be verified by looking at the facts.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The fifth season was won by soul singer Michael Grimm, with classical crossover singer Jackie Evancho finishing in second, and blacklight performaners Fighting ...",
+          "supports_answers": [
+            "Michael Grimm"
+          ]
+        },
+        {
+          "source_domain": "www.tvinsider.com",
+          "text": "Jun 7, 2023 ... Season 5 champ's wife gives update on his condition. ... who won the fifth season of America's Got Talent in 2010, is sedated in hospital ...",
+          "supports_answers": [
+            "Michael Grimm"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Michael Joseph Grimm (born December 30, 1978) is an American singer-songwriter and winner of the fifth season of America's Got Talent.",
+          "supports_answers": [
+            "Michael Grimm"
+          ]
+        },
+        {
+          "source_domain": "www.usatoday.com",
+          "text": "Jun 7, 2023 ... Singer Michael Grimm, who won Season 5 of \"America's Got Talent,\" has been hospitalized and sedated following an undisclosed illness, ...",
+          "supports_answers": [
+            "Michael Grimm"
+          ]
+        },
+        {
+          "source_domain": "www.nbc.com",
+          "text": "Jul 7, 2023 ... AGT Winners List · Season 1 - Bianca Ryan · Season 2 - Terry Fator · Season 3 - Neal E. Boyd · Season 4 - Kevin Skinner · Season 5 - Michael Grimm.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.cbsnews.com",
+          "text": "Sep 16, 2010 ... The Mississippi Crooner Pulled Off An Upset Victory to Win Fifth Season of NBC Reality Competition.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.goldderby.com",
+          "text": "Feb 28, 2023 ... Bianca Ryan won Season 1 on August 16, 2006, an 11-year-old singer. The runners-up were male clogging group All That and singers/musicians The ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.cbsnews.com",
+          "text": "Jun 2, 2010 ... ... are back as the fifth season of NBC's \"America's Got Talent\" kicked off Tuesday night in round one of open auditions from Los Angeles.",
+          "supports_answers": [
+            "Michael Grimm"
+          ]
+        },
+        {
+          "source_domain": "deadline.com",
+          "text": "Jun 6, 2023 ... Michael Grimm, the musician that won America's Got Talent Season 5, is in intensive care and his wife is sharing a health update.",
+          "supports_answers": [
+            "Michael Grimm"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_gate",
+  "evaluation_seconds": 100.004,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

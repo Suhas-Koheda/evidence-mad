@@ -1,0 +1,298 @@
+{
+  "query": "What type of reproduction do whiptail lizards use?",
+  "trace_id": "1b2611b4-0955-4a70-b46a-890aed1cb04d",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "What type of reproduction do whiptail lizards use?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:47:39.265308"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "What type of reproduction do whiptail lizards use?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:47:39.265640"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "What type of reproduction do whiptail lizards use?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:47:48.237008"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "What type of reproduction do whiptail lizards use?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:47:48.237042"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "What type of reproduction do whiptail lizards use?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:47:48.237057"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "What type of reproduction do whiptail lizards use?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T21:48:24.279378"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "What type of reproduction do whiptail lizards use?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T21:48:28.239205"
+  },
+  "metrics": {
+    "latency_seconds": 48.976285219192505,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "proposed_mad"
+  },
+  "started_at": "2026-10-16T21:47:39.262910",
+  "completed_at": "2026-10-16T21:48:28.239267",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0035",
+    "query": "What type of reproduction do whiptail lizards use?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "asexual",
+    "required_facts": [
+      "asexual"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 46,
+      "answer_variants": [
+        "asexual"
+      ],
+      "annotation_explanation": "This is the only correct choice I was given in the options.",
+      "evidence_contexts": [
+        {
+          "source_domain": "education.nationalgeographic.org",
+          "text": "Jun 2, 2022 ... Without females, lizards in the Aspidoscelis genus, like this New Mexico Whiptail (Aspidoscelis neomexicana), reproduce asexually.",
+          "supports_answers": [
+            "asexual"
+          ]
+        },
+        {
+          "source_domain": "www.scientificamerican.com",
+          "text": "Feb 21, 2010 ... These southwestern lizards' asexual reproduction is no longer a secret ... their homologous chromosomes (as sexual species do by taking one ...",
+          "supports_answers": [
+            "asexual"
+          ]
+        },
+        {
+          "source_domain": "cosmosmagazine.com",
+          "text": "Aug 3, 2022 ... The form of asexuality these whiptail lizards use is called parthenogenesis – it's a form of asexual reproduction in which the embryo can ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "knowablemagazine.org",
+          "text": "Mar 23, 2021 ... And then there are the parthenogenetic lizards: entirely female species ... Once you shift from doing the form of reproduction that most ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.theverge.com",
+          "text": "Jul 19, 2015 ... Many species of whiptail lizards are all female. ... During sexual reproduction, a sperm and an egg combine to form a fetus.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "tigris), or through the parthenogenetic reproduction of an adult New Mexico whiptail. New Mexico whiptail. New Mexico whiptail (Aspidoscelis neomexicanus).",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.desertmuseum.org",
+          "text": "Whiptails are long, slender lizards with pointed snouts and extremely long ... Eggs typically take 60 to 75 days to hatch regardless of reproductive style.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "a-z-animals.com",
+          "text": "May 4, 2023 ... “Many whiptail lizards reproduce sexually.” ... The Aspidoscelis costatus, or western Mexico whiptail, is a type of whiptail lizard found ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "animaldiversity.org",
+          "text": "Whiptails use tactile senses to forage and for reproductive tactics, like mounting as a signal to mate. Western whiptails, like most other lizards, can see in ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.torontozoo.com",
+          "text": "These lizards are diurnal but most active in the early morning and late afternoon. ... Desert whiptails reproduce by parthenogenesis: there is no sexual ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "proposed_mad",
+  "evaluation_seconds": 48.991,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

@@ -1,0 +1,993 @@
+{
+  "query": "What is the inner core of the earth made from?",
+  "trace_id": "431649ea-ff3f-4df2-9bf3-d8a81b4273ba",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "What is the inner core of the earth made from?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:27:07.463459"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "What is the inner core of the earth made from?",
+          "answer": "Based on 5 sources:\n- Internal structure of Earth: structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core\n- Its chemical\n\nHollow Earth: details describing inner Earth in Kabalistic literature, such as the Zohar and Hesed L'Avraham)\n- The idea of a subterranean realm is also mentioned in\n\nInge Lehmann: geophysicist who is known for her discovery in 1936 of the solid inner core that exists within the molten outer core of the Earth\n- She also discovered the seismic\n\nEarth: Earth is the third planet from the Sun and the only astronomical object known to harbor life\n- This is made possible by Earth being an ocean world, the\n\nEarth mass: the upper crust to as much as 13000 kg/m3 in the inner core",
+          "claims": [
+            {
+              "id": "bfc703d8",
+              "text": "Internal structure of Earth: structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1417149",
+                "title": "Internal structure of Earth",
+                "snippet": "structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core. Its chemical",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.462995",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "23090f49",
+              "text": "Its chemical\n\nHollow Earth: details describing inner Earth in Kabalistic literature, such as the Zohar and Hesed L'Avraham)",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=13912",
+                "title": "Hollow Earth",
+                "snippet": "details describing inner Earth in Kabalistic literature, such as the Zohar and Hesed L'Avraham). The idea of a subterranean realm is also mentioned in",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.463007",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c3792d42",
+              "text": "The idea of a subterranean realm is also mentioned in\n\nInge Lehmann: geophysicist who is known for her discovery in 1936 of the solid inner core that exists within the molten outer core of the Earth",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=145577",
+                "title": "Inge Lehmann",
+                "snippet": "geophysicist who is known for her discovery in 1936 of the solid inner core that exists within the molten outer core of the Earth. She also discovered the seismic",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.463015",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "48b2ab90",
+              "text": "She also discovered the seismic\n\nEarth: Earth is the third planet from the Sun and the only astronomical object known to harbor life",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=9228",
+                "title": "Earth",
+                "snippet": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.463022",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "307f0d43",
+              "text": "This is made possible by Earth being an ocean world, the\n\nEarth mass: the upper crust to as much as 13000 kg/m3 in the inner core",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=9951602",
+                "title": "Earth mass",
+                "snippet": "the upper crust to as much as 13000 kg/m3 in the inner core. The Earth's core accounts for 15% of Earth's volume but more than 30% of the mass, the mantle",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.463029",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e7b8b9cf",
+              "text": "The Earth's core accounts for 15% of Earth's volume but more than 30% of the mass, the mantle",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1417149",
+                "title": "Internal structure of Earth",
+                "snippet": "structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core. Its chemical",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.462995",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=1417149",
+              "title": "Internal structure of Earth",
+              "snippet": "structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core. Its chemical",
+              "metadata": {
+                "search_query": "What is the inner core of the earth made from?"
+              },
+              "retrieved_at": "2026-10-16T21:27:07.462995",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=13912",
+              "title": "Hollow Earth",
+              "snippet": "details describing inner Earth in Kabalistic literature, such as the Zohar and Hesed L'Avraham). The idea of a subterranean realm is also mentioned in",
+              "metadata": {
+                "search_query": "What is the inner core of the earth made from?"
+              },
+              "retrieved_at": "2026-10-16T21:27:07.463007",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=145577",
+              "title": "Inge Lehmann",
+              "snippet": "geophysicist who is known for her discovery in 1936 of the solid inner core that exists within the molten outer core of the Earth. She also discovered the seismic",
+              "metadata": {
+                "search_query": "What is the inner core of the earth made from?"
+              },
+              "retrieved_at": "2026-10-16T21:27:07.463015",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=9228",
+              "title": "Earth",
+              "snippet": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the",
+              "metadata": {
+                "search_query": "What is the inner core of the earth made from?"
+              },
+              "retrieved_at": "2026-10-16T21:27:07.463022",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=9951602",
+              "title": "Earth mass",
+              "snippet": "the upper crust to as much as 13000 kg/m3 in the inner core. The Earth's core accounts for 15% of Earth's volume but more than 30% of the mass, the mantle",
+              "metadata": {
+                "search_query": "What is the inner core of the earth made from?"
+              },
+              "retrieved_at": "2026-10-16T21:27:07.463029",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Internal structure of Earth: structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core. Its chemical\n\nHollow Earth: details describing inner Earth in Kabalistic literature, such as the Zohar and Hesed L'Avraham). The idea of a subterranean realm is also mentioned in\n\nInge Lehmann: geophysicist who is known for her discovery in 1936 of the solid inner core that exists within the molten outer core of the Earth. She also discovered the seismic\n\nEarth: Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the\n\nEarth mass: the upper crust to as much as 13000 kg/m3 in the inner core. The Earth's core accounts for 15% of Earth's volume but more than 30% of the mass, the mantle",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:27:07.463600"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "What is the inner core of the earth made from?",
+          "answer": "Based on 5 sources:\n- Earth's inner core - Wikipedia: Earth's inner core is the innermost geologic layer of the planet Earth\n- It is primarily a solid ball with a radius of about 1,230 km (760 mi), which is about 20% of Earth's radius or 70% of the Moon 's radius\n- [1][2] As recently as February 2025 there are indications that the previously believed solid iron-nickel sphere is partially deformable and undergoing viscous changes\n- Internal structure of Earth - Wikipedia: Geological cross section of Earth, showing the different layers of the interior\n- The internal structure of Earth is the spatial variation of chemical and physical properties in the solid Earth",
+          "claims": [
+            {
+              "id": "6be0b240",
+              "text": "Earth's inner core - Wikipedia: Earth's inner core is the innermost geologic layer of the planet Earth",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Earth's_inner_core",
+                "title": "Earth's inner core - Wikipedia",
+                "snippet": "Earth's inner core is the innermost geologic layer of the planet Earth. It is primarily a solid ball with a radius of about 1,230 km (760 mi), which is about 20% of Earth's radius or 70% of the Moon 's radius. [1][2] As recently as February 2025 there are indications that the previously believed solid iron-nickel sphere is partially deformable and undergoing viscous changes. [3] There are no ...",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.462218",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "406c4a62",
+              "text": "It is primarily a solid ball with a radius of about 1,230 km (760 mi), which is about 20% of Earth's radius or 70% of the Moon 's radius",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Internal_structure_of_Earth",
+                "title": "Internal structure of Earth - Wikipedia",
+                "snippet": "Geological cross section of Earth, showing the different layers of the interior. The internal structure of Earth is the spatial variation of chemical and physical properties in the solid Earth. The primary structure is a series of layers: Its mechanical structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core ...",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.462236",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "4096891a",
+              "text": "[1][2] As recently as February 2025 there are indications that the previously believed solid iron-nickel sphere is partially deformable and undergoing viscous changes",
+              "source": {
+                "url": "https://www.britannica.com/place/Earth/The-interior",
+                "title": "Earth - Core, Mantle, Crust | Britannica",
+                "snippet": "Earth - Core, Mantle, Crust: More than 90 percent of Earth's mass is composed of iron, oxygen, silicon, and magnesium, elements that can form the crystalline minerals known as silicates. Nevertheless, in chemical and mineralogical composition, as in physical properties, Earth is far from homogeneous. Apart from the superficial lateral differences near the surface (i.e., in the compositions ...",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.462244",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e33f754e",
+              "text": "Internal structure of Earth - Wikipedia: Geological cross section of Earth, showing the different layers of the interior",
+              "source": {
+                "url": "https://education.nationalgeographic.org/resource/core/",
+                "title": "Core",
+                "snippet": "Earth Science, Geology, Geography, Physical Geography, Physics Photograph Earth's Interior Earth is divided into three main layers. The dense, hot inner core (yellow), the molten outer core (orange), the mantle (red), and the thin crust (brown), which supports all life in the known universe. Illustration by Mary Crooks Photograph Photograph ...",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.462260",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e6b1414e",
+              "text": "The internal structure of Earth is the spatial variation of chemical and physical properties in the solid Earth",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Earth's_inner_core",
+                "title": "Earth's inner core - Wikipedia",
+                "snippet": "Earth's inner core is the innermost geologic layer of the planet Earth. It is primarily a solid ball with a radius of about 1,230 km (760 mi), which is about 20% of Earth's radius or 70% of the Moon 's radius. [1][2] As recently as February 2025 there are indications that the previously believed solid iron-nickel sphere is partially deformable and undergoing viscous changes. [3] There are no ...",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.462218",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8cc77c52",
+              "text": "The primary structure is a series of layers: Its mechanical structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Internal_structure_of_Earth",
+                "title": "Internal structure of Earth - Wikipedia",
+                "snippet": "Geological cross section of Earth, showing the different layers of the interior. The internal structure of Earth is the spatial variation of chemical and physical properties in the solid Earth. The primary structure is a series of layers: Its mechanical structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core ...",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.462236",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9da21527",
+              "text": "Earth - Core, Mantle, Crust | Britannica: Earth - Core, Mantle, Crust: More than 90 percent of Earth's mass is composed of iron, oxygen, silicon, and magnesium, elements that can form the crystalline minerals known as silicates",
+              "source": {
+                "url": "https://www.britannica.com/place/Earth/The-interior",
+                "title": "Earth - Core, Mantle, Crust | Britannica",
+                "snippet": "Earth - Core, Mantle, Crust: More than 90 percent of Earth's mass is composed of iron, oxygen, silicon, and magnesium, elements that can form the crystalline minerals known as silicates. Nevertheless, in chemical and mineralogical composition, as in physical properties, Earth is far from homogeneous. Apart from the superficial lateral differences near the surface (i.e., in the compositions ...",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.462244",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1e0103f8",
+              "text": "Nevertheless, in chemical and mineralogical composition, as in physical properties, Earth is far from homogeneous",
+              "source": {
+                "url": "https://study.com/learn/lesson/inner-core-earth-composition-facts-description.html",
+                "title": "Inner Core of the Earth | Composition, Characteristics & Facts",
+                "snippet": "Learn about the inner core of the Earth. Discover the inner core composition and characteristics, the inner core elements, and numerous inner core facts.",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.462252",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a1afc6dc",
+              "text": "Apart from the superficial lateral differences near the surface (i",
+              "source": {
+                "url": "https://education.nationalgeographic.org/resource/core/",
+                "title": "Core",
+                "snippet": "Earth Science, Geology, Geography, Physical Geography, Physics Photograph Earth's Interior Earth is divided into three main layers. The dense, hot inner core (yellow), the molten outer core (orange), the mantle (red), and the thin crust (brown), which supports all life in the known universe. Illustration by Mary Crooks Photograph Photograph ...",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.462260",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ae5f6366",
+              "text": ", in the compositions",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Internal_structure_of_Earth",
+                "title": "Internal structure of Earth - Wikipedia",
+                "snippet": "Geological cross section of Earth, showing the different layers of the interior. The internal structure of Earth is the spatial variation of chemical and physical properties in the solid Earth. The primary structure is a series of layers: Its mechanical structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core ...",
+                "metadata": {
+                  "search_query": "What is the inner core of the earth made from?"
+                },
+                "retrieved_at": "2026-10-16T21:27:07.462236",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Earth's_inner_core",
+              "title": "Earth's inner core - Wikipedia",
+              "snippet": "Earth's inner core is the innermost geologic layer of the planet Earth. It is primarily a solid ball with a radius of about 1,230 km (760 mi), which is about 20% of Earth's radius or 70% of the Moon 's radius. [1][2] As recently as February 2025 there are indications that the previously believed solid iron-nickel sphere is partially deformable and undergoing viscous changes. [3] There are no ...",
+              "metadata": {
+                "search_query": "What is the inner core of the earth made from?"
+              },
+              "retrieved_at": "2026-10-16T21:27:07.462218",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Internal_structure_of_Earth",
+              "title": "Internal structure of Earth - Wikipedia",
+              "snippet": "Geological cross section of Earth, showing the different layers of the interior. The internal structure of Earth is the spatial variation of chemical and physical properties in the solid Earth. The primary structure is a series of layers: Its mechanical structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core ...",
+              "metadata": {
+                "search_query": "What is the inner core of the earth made from?"
+              },
+              "retrieved_at": "2026-10-16T21:27:07.462236",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.britannica.com/place/Earth/The-interior",
+              "title": "Earth - Core, Mantle, Crust | Britannica",
+              "snippet": "Earth - Core, Mantle, Crust: More than 90 percent of Earth's mass is composed of iron, oxygen, silicon, and magnesium, elements that can form the crystalline minerals known as silicates. Nevertheless, in chemical and mineralogical composition, as in physical properties, Earth is far from homogeneous. Apart from the superficial lateral differences near the surface (i.e., in the compositions ...",
+              "metadata": {
+                "search_query": "What is the inner core of the earth made from?"
+              },
+              "retrieved_at": "2026-10-16T21:27:07.462244",
+              "credibility_score": null
+            },
+            {
+              "url": "https://study.com/learn/lesson/inner-core-earth-composition-facts-description.html",
+              "title": "Inner Core of the Earth | Composition, Characteristics & Facts",
+              "snippet": "Learn about the inner core of the Earth. Discover the inner core composition and characteristics, the inner core elements, and numerous inner core facts.",
+              "metadata": {
+                "search_query": "What is the inner core of the earth made from?"
+              },
+              "retrieved_at": "2026-10-16T21:27:07.462252",
+              "credibility_score": null
+            },
+            {
+              "url": "https://education.nationalgeographic.org/resource/core/",
+              "title": "Core",
+              "snippet": "Earth Science, Geology, Geography, Physical Geography, Physics Photograph Earth's Interior Earth is divided into three main layers. The dense, hot inner core (yellow), the molten outer core (orange), the mantle (red), and the thin crust (brown), which supports all life in the known universe. Illustration by Mary Crooks Photograph Photograph ...",
+              "metadata": {
+                "search_query": "What is the inner core of the earth made from?"
+              },
+              "retrieved_at": "2026-10-16T21:27:07.462260",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Earth's inner core - Wikipedia: Earth's inner core is the innermost geologic layer of the planet Earth. It is primarily a solid ball with a radius of about 1,230 km (760 mi), which is about 20% of Earth's radius or 70% of the Moon 's radius. [1][2] As recently as February 2025 there are indications that the previously believed solid iron-nickel sphere is partially deformable and undergoing viscous changes. [3] There are no ...\n\nInternal structure of Earth - Wikipedia: Geological cross section of Earth, showing the different layers of the interior. The internal structure of Earth is the spatial variation of chemical and physical properties in the solid Earth. The primary structure is a series of layers: Its mechanical structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core ...\n\nEarth - Core, Mantle, Crust | Britannica: Earth - Core, Mantle, Crust: More than 90 percent of Earth's mass is composed of iron, oxygen, silicon, and magnesium, elements that can form the crystalline minerals known as silicates. Nevertheless, in chemical and mineralogical composition, as in physical properties, Earth is far from homogeneous. Apart from the superficial lateral differences near the surface (i.e., in the compositions ...\n\nInner Core of the Earth | Composition, Characteristics & Facts: Learn about the inner core of the Earth. Discover the inner core composition and characteristics, the inner core elements, and numerous inner core facts.\n\nCore: Earth Science, Geology, Geography, Physical Geography, Physics Photograph Earth's Interior Earth is divided into three main layers. The dense, hot inner core (yellow), the molten outer core (orange), the mantle (red), and the thin crust (brown), which supports all life in the known universe. Illustration by Mary Crooks Photograph Photograph ...",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:27:07.462594"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "What is the inner core of the earth made from?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:27:07.464637"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "What is the inner core of the earth made from?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The inner core of the earth is made from a solid, rigid material composed primarily of iron-nickel alloy with a density of approximately 13000 kg/m3.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=9951602",
+            "title": "Earth mass",
+            "snippet": "the upper crust to as much as 13000 kg/m3 in the inner core. The Earth's core accounts for 15% of Earth's volume but more than 30% of the mass, the mantle",
+            "metadata": {
+              "search_query": "What is the inner core of the earth made from?"
+            },
+            "retrieved_at": "2026-10-16T21:27:07.465111",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=1417149",
+          "title": "Internal structure of Earth",
+          "snippet": "structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core. Its chemical",
+          "metadata": {
+            "search_query": "What is the inner core of the earth made from?"
+          },
+          "retrieved_at": "2026-10-16T21:27:07.465061",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=13912",
+          "title": "Hollow Earth",
+          "snippet": "details describing inner Earth in Kabalistic literature, such as the Zohar and Hesed L'Avraham). The idea of a subterranean realm is also mentioned in",
+          "metadata": {
+            "search_query": "What is the inner core of the earth made from?"
+          },
+          "retrieved_at": "2026-10-16T21:27:07.465079",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=145577",
+          "title": "Inge Lehmann",
+          "snippet": "geophysicist who is known for her discovery in 1936 of the solid inner core that exists within the molten outer core of the Earth. She also discovered the seismic",
+          "metadata": {
+            "search_query": "What is the inner core of the earth made from?"
+          },
+          "retrieved_at": "2026-10-16T21:27:07.465091",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=9228",
+          "title": "Earth",
+          "snippet": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the",
+          "metadata": {
+            "search_query": "What is the inner core of the earth made from?"
+          },
+          "retrieved_at": "2026-10-16T21:27:07.465101",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=9951602",
+          "title": "Earth mass",
+          "snippet": "the upper crust to as much as 13000 kg/m3 in the inner core. The Earth's core accounts for 15% of Earth's volume but more than 30% of the mass, the mantle",
+          "metadata": {
+            "search_query": "What is the inner core of the earth made from?"
+          },
+          "retrieved_at": "2026-10-16T21:27:07.465111",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:27:27.992811"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "What is the inner core of the earth made from?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The inner core of the earth is made from primarily solid iron and nickel.",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Earth's_inner_core",
+            "title": "Earth's inner core - Wikipedia",
+            "snippet": "Earth's inner core is the innermost geologic layer of the planet Earth. It is primarily a solid ball with a radius of about 1,230 km (760 mi), which is about 20% of Earth's radius or 70% of the Moon 's radius. [1][2] As recently as February 2025 there are indications that the previously believed solid iron-nickel sphere is partially deformable and undergoing viscous changes. [3] There are no ...",
+            "metadata": {
+              "search_query": "What is the inner core of the earth made from?"
+            },
+            "retrieved_at": "2026-10-16T21:27:27.993207",
+            "credibility_score": null
+          },
+          "date": "2025",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Earth's_inner_core",
+          "title": "Earth's inner core - Wikipedia",
+          "snippet": "Earth's inner core is the innermost geologic layer of the planet Earth. It is primarily a solid ball with a radius of about 1,230 km (760 mi), which is about 20% of Earth's radius or 70% of the Moon 's radius. [1][2] As recently as February 2025 there are indications that the previously believed solid iron-nickel sphere is partially deformable and undergoing viscous changes. [3] There are no ...",
+          "metadata": {
+            "search_query": "What is the inner core of the earth made from?"
+          },
+          "retrieved_at": "2026-10-16T21:27:27.993207",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Internal_structure_of_Earth",
+          "title": "Internal structure of Earth - Wikipedia",
+          "snippet": "Geological cross section of Earth, showing the different layers of the interior. The internal structure of Earth is the spatial variation of chemical and physical properties in the solid Earth. The primary structure is a series of layers: Its mechanical structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core ...",
+          "metadata": {
+            "search_query": "What is the inner core of the earth made from?"
+          },
+          "retrieved_at": "2026-10-16T21:27:27.993219",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.britannica.com/place/Earth/The-interior",
+          "title": "Earth - Core, Mantle, Crust | Britannica",
+          "snippet": "Earth - Core, Mantle, Crust: More than 90 percent of Earth's mass is composed of iron, oxygen, silicon, and magnesium, elements that can form the crystalline minerals known as silicates. Nevertheless, in chemical and mineralogical composition, as in physical properties, Earth is far from homogeneous. Apart from the superficial lateral differences near the surface (i.e., in the compositions ...",
+          "metadata": {
+            "search_query": "What is the inner core of the earth made from?"
+          },
+          "retrieved_at": "2026-10-16T21:27:27.993227",
+          "credibility_score": null
+        },
+        {
+          "url": "https://study.com/learn/lesson/inner-core-earth-composition-facts-description.html",
+          "title": "Inner Core of the Earth | Composition, Characteristics & Facts",
+          "snippet": "Learn about the inner core of the Earth. Discover the inner core composition and characteristics, the inner core elements, and numerous inner core facts.",
+          "metadata": {
+            "search_query": "What is the inner core of the earth made from?"
+          },
+          "retrieved_at": "2026-10-16T21:27:27.993234",
+          "credibility_score": null
+        },
+        {
+          "url": "https://education.nationalgeographic.org/resource/core/",
+          "title": "Core",
+          "snippet": "Earth Science, Geology, Geography, Physical Geography, Physics Photograph Earth's Interior Earth is divided into three main layers. The dense, hot inner core (yellow), the molten outer core (orange), the mantle (red), and the thin crust (brown), which supports all life in the known universe. Illustration by Mary Crooks Photograph Photograph ...",
+          "metadata": {
+            "search_query": "What is the inner core of the earth made from?"
+          },
+          "retrieved_at": "2026-10-16T21:27:27.993241",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:27:53.650198"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "What is the inner core of the earth made from?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The Earth's inner core is primarily made from solid iron and nickel.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "The Earth's inner core is primarily made from solid iron and nickel.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:27:22.203950",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The Earth's inner core is primarily made from solid iron and nickel.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:27:22.203950",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "The Earth's inner core is primarily made from solid iron and nickel."
+      },
+      "retrieved_at": "2026-10-16T21:27:22.204017"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "The inner core of the earth is made from a solid, rigid material composed primarily of iron-nickel alloy with a density of approximately 13000 kg/m3.",
+        "claim_b_text": "The inner core of the earth is made from primarily solid iron and nickel.",
+        "label": "neutral",
+        "contradiction_score": 0.0024553483817726374,
+        "entailment_score": 0.0046123662032186985,
+        "neutral_score": 0.9945690631866455
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The inner core of the earth is made from a solid, rigid material composed primarily of iron-nickel alloy with a density of approximately 13000 kg/m3.",
+        "claim_b_text": "The Earth's inner core is primarily made from solid iron and nickel.",
+        "label": "neutral",
+        "contradiction_score": 0.0029184240847826004,
+        "entailment_score": 0.006366709712892771,
+        "neutral_score": 0.992750883102417
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The inner core of the earth is made from primarily solid iron and nickel.",
+        "claim_b_text": "The Earth's inner core is primarily made from solid iron and nickel.",
+        "label": "entailment",
+        "contradiction_score": 0.003127855248749256,
+        "entailment_score": 0.9845608472824097,
+        "neutral_score": 0.01441726554185152
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "The inner core of the earth is made from primarily solid iron and nickel.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Earth's_inner_core",
+          "title": "Earth's inner core - Wikipedia",
+          "snippet": "Earth's inner core is the innermost geologic layer of the planet Earth. It is primarily a solid ball with a radius of about 1,230 km (760 mi), which is about 20% of Earth's radius or 70% of the Moon 's radius. [1][2] As recently as February 2025 there are indications that the previously believed solid iron-nickel sphere is partially deformable and undergoing viscous changes. [3] There are no ...",
+          "metadata": {
+            "search_query": "What is the inner core of the earth made from?"
+          },
+          "retrieved_at": "2026-10-16T21:27:27.993207",
+          "credibility_score": null
+        },
+        "date": "2025",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The Earth's inner core is primarily made from solid iron and nickel.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The Earth's inner core is primarily made from solid iron and nickel.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:27:22.203950",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.003127855248749256
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.003127855248749256,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "What is the inner core of the earth made from?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [reference_agent]: The inner core of the earth is made from a solid, rigid material composed primarily of iron-nickel alloy with a density of approximately 13000 kg/m3.\n- [web_agent]: The inner core of the earth is made from primarily solid iron and nickel.\n- [ai_answer_agent]: The Earth's inner core is primarily made from solid iron and nickel.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=1417149",
+        "title": "Internal structure of Earth",
+        "snippet": "structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core. Its chemical",
+        "metadata": {
+          "search_query": "What is the inner core of the earth made from?"
+        },
+        "retrieved_at": "2026-10-16T21:27:07.465061",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=13912",
+        "title": "Hollow Earth",
+        "snippet": "details describing inner Earth in Kabalistic literature, such as the Zohar and Hesed L'Avraham). The idea of a subterranean realm is also mentioned in",
+        "metadata": {
+          "search_query": "What is the inner core of the earth made from?"
+        },
+        "retrieved_at": "2026-10-16T21:27:07.465079",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=145577",
+        "title": "Inge Lehmann",
+        "snippet": "geophysicist who is known for her discovery in 1936 of the solid inner core that exists within the molten outer core of the Earth. She also discovered the seismic",
+        "metadata": {
+          "search_query": "What is the inner core of the earth made from?"
+        },
+        "retrieved_at": "2026-10-16T21:27:07.465091",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=9228",
+        "title": "Earth",
+        "snippet": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the",
+        "metadata": {
+          "search_query": "What is the inner core of the earth made from?"
+        },
+        "retrieved_at": "2026-10-16T21:27:07.465101",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=9951602",
+        "title": "Earth mass",
+        "snippet": "the upper crust to as much as 13000 kg/m3 in the inner core. The Earth's core accounts for 15% of Earth's volume but more than 30% of the mass, the mantle",
+        "metadata": {
+          "search_query": "What is the inner core of the earth made from?"
+        },
+        "retrieved_at": "2026-10-16T21:27:07.465111",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Earth's_inner_core",
+        "title": "Earth's inner core - Wikipedia",
+        "snippet": "Earth's inner core is the innermost geologic layer of the planet Earth. It is primarily a solid ball with a radius of about 1,230 km (760 mi), which is about 20% of Earth's radius or 70% of the Moon 's radius. [1][2] As recently as February 2025 there are indications that the previously believed solid iron-nickel sphere is partially deformable and undergoing viscous changes. [3] There are no ...",
+        "metadata": {
+          "search_query": "What is the inner core of the earth made from?"
+        },
+        "retrieved_at": "2026-10-16T21:27:27.993207",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Internal_structure_of_Earth",
+        "title": "Internal structure of Earth - Wikipedia",
+        "snippet": "Geological cross section of Earth, showing the different layers of the interior. The internal structure of Earth is the spatial variation of chemical and physical properties in the solid Earth. The primary structure is a series of layers: Its mechanical structure is of a rigid lithosphere, a semi-fluid asthenosphere, a semi-fluid mesosphere, a liquid outer core, and a solid, rigid inner core ...",
+        "metadata": {
+          "search_query": "What is the inner core of the earth made from?"
+        },
+        "retrieved_at": "2026-10-16T21:27:27.993219",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.britannica.com/place/Earth/The-interior",
+        "title": "Earth - Core, Mantle, Crust | Britannica",
+        "snippet": "Earth - Core, Mantle, Crust: More than 90 percent of Earth's mass is composed of iron, oxygen, silicon, and magnesium, elements that can form the crystalline minerals known as silicates. Nevertheless, in chemical and mineralogical composition, as in physical properties, Earth is far from homogeneous. Apart from the superficial lateral differences near the surface (i.e., in the compositions ...",
+        "metadata": {
+          "search_query": "What is the inner core of the earth made from?"
+        },
+        "retrieved_at": "2026-10-16T21:27:27.993227",
+        "credibility_score": null
+      },
+      {
+        "url": "https://study.com/learn/lesson/inner-core-earth-composition-facts-description.html",
+        "title": "Inner Core of the Earth | Composition, Characteristics & Facts",
+        "snippet": "Learn about the inner core of the Earth. Discover the inner core composition and characteristics, the inner core elements, and numerous inner core facts.",
+        "metadata": {
+          "search_query": "What is the inner core of the earth made from?"
+        },
+        "retrieved_at": "2026-10-16T21:27:27.993234",
+        "credibility_score": null
+      },
+      {
+        "url": "https://education.nationalgeographic.org/resource/core/",
+        "title": "Core",
+        "snippet": "Earth Science, Geology, Geography, Physical Geography, Physics Photograph Earth's Interior Earth is divided into three main layers. The dense, hot inner core (yellow), the molten outer core (orange), the mantle (red), and the thin crust (brown), which supports all life in the known universe. Illustration by Mary Crooks Photograph Photograph ...",
+        "metadata": {
+          "search_query": "What is the inner core of the earth made from?"
+        },
+        "retrieved_at": "2026-10-16T21:27:27.993241",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The Earth's inner core is primarily made from solid iron and nickel.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:27:22.203950",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T21:27:57.623766"
+  },
+  "metrics": {
+    "latency_seconds": 50.16326665878296,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "no_typed_strategy"
+  },
+  "started_at": "2026-10-16T21:27:07.460479",
+  "completed_at": "2026-10-16T21:27:57.623821",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0023",
+    "query": "What is the inner core of the earth made from?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "iron–nickel",
+    "required_facts": [
+      "iron–nickel"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 32,
+      "answer_variants": [
+        "iron–nickel",
+        "metal"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 2,3,7 and 9",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.nationalgeographic.org",
+          "text": "Jun 12, 2023 ... Unlike the mineral-rich crust and mantle, the core is made almost entirely of metal—specifically, iron (Fe) and nickel (Ni). The shorthand used ...",
+          "supports_answers": [
+            "metal"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The inner core is believed to be composed of an iron–nickel alloy with some other elements. The temperature at the inner core's surface is estimated to be ...",
+          "supports_answers": [
+            "iron–nickel"
+          ]
+        },
+        {
+          "source_domain": "www.sciencenews.org",
+          "text": "Mar 16, 2023 ... Earth's heart may have a secret chamber. The planet's inner core isn't just a solid ball of nickel and iron, researchers say, but contains ...",
+          "supports_answers": [
+            "iron–nickel"
+          ]
+        },
+        {
+          "source_domain": "www.space.com",
+          "text": "Apr 30, 2023 ... Earth is made up of several layers: the lithosphere, asthenosphere, lower mantle (also known as mesospheric mantle), outer core and inner ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.amnh.org",
+          "text": "At the time, geophysicists believed Earth to be made up of a liquid core surrounded by a solid mantle, itself surrounded by a crust, all separated by abrupt ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.scientificamerican.com",
+          "text": "Oct 6, 1997 ... The bottom line here is simply that a large part of the interior of the planet (the outer core) is composed of somewhat impure molten iron alloy ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.wonderopolis.org",
+          "text": "The inner core, which is about 750 miles thick, is made primarily of iron. Unlike the outer core, the inner core is mostly solid. Although the iron in the inner ...",
+          "supports_answers": [
+            "iron–nickel"
+          ]
+        },
+        {
+          "source_domain": "solarsystem.nasa.gov",
+          "text": "This layer is about 1,400 miles (2,300 kilometers) thick, made of iron and nickel fluids. In between the outer core and crust is the mantle, the thickest layer.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nbcnews.com",
+          "text": "Feb 24, 2023 ... The inner core's outer shell and its newly confirmed innermost sphere both are hot enough to be molten but are a solid iron-nickel alloy because ...",
+          "supports_answers": [
+            "iron–nickel"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_typed_strategy",
+  "evaluation_seconds": 50.187,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

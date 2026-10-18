@@ -1,0 +1,1144 @@
+{
+  "query": "When was the japanese videogame company nintendo founded?",
+  "trace_id": "86a3d69b-12d3-417d-8835-c8bfa8072f8c",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "When was the japanese videogame company nintendo founded?",
+          "answer": "Based on 5 sources:\n- List of Lego video games: Interactive staff founded company Giant Interactive Entertainment for future Lego game publishing\n- Following the release of Lego Star Wars: The Video Game,\n\nNintendo: video games and video game consoles\n- The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda\n\nVideo game crash of 1983: console, the Nintendo Entertainment System (NES), released in October 1985\n- The NES was designed to avoid the missteps that caused the 1983 crash and the stigma\n\nWii: The Wii (/wiː/ WEE) is a home video game console developed and marketed by Nintendo\n- It was released on November 19, 2006, in North America, and in December\n\nHistory of Nintendo: The history of Nintendo, a Japanese video game company based in Kyoto, starts in 1889 when Fusajiro Yamauchi founded \"Yamauchi Nintendo\", a producer of",
+          "claims": [
+            {
+              "id": "ff731f88",
+              "text": "List of Lego video games: Interactive staff founded company Giant Interactive Entertainment for future Lego game publishing",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=3551842",
+                "title": "List of Lego video games",
+                "snippet": "Interactive staff founded company Giant Interactive Entertainment for future Lego game publishing. Following the release of Lego Star Wars: The Video Game,",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.902355",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "94b3beae",
+              "text": "Following the release of Lego Star Wars: The Video Game,\n\nNintendo: video games and video game consoles",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=21197",
+                "title": "Nintendo",
+                "snippet": "video games and video game consoles. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.902374",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2515c1cc",
+              "text": "The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda\n\nVideo game crash of 1983: console, the Nintendo Entertainment System (NES), released in October 1985",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=64393",
+                "title": "Video game crash of 1983",
+                "snippet": "console, the Nintendo Entertainment System (NES), released in October 1985. The NES was designed to avoid the missteps that caused the 1983 crash and the stigma",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.902382",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "00dd2a9c",
+              "text": "The NES was designed to avoid the missteps that caused the 1983 crash and the stigma\n\nWii: The Wii (/wiː/ WEE) is a home video game console developed and marketed by Nintendo",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=421853",
+                "title": "Wii",
+                "snippet": "The Wii (/wiː/ WEE) is a home video game console developed and marketed by Nintendo. It was released on November 19, 2006, in North America, and in December",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.902390",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f0009517",
+              "text": "It was released on November 19, 2006, in North America, and in December\n\nHistory of Nintendo: The history of Nintendo, a Japanese video game company based in Kyoto, starts in 1889 when Fusajiro Yamauchi founded \"Yamauchi Nintendo\", a producer of",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=7225705",
+                "title": "History of Nintendo",
+                "snippet": "The history of Nintendo, a Japanese video game company based in Kyoto, starts in 1889 when Fusajiro Yamauchi founded \"Yamauchi Nintendo\", a producer of",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.902398",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=3551842",
+              "title": "List of Lego video games",
+              "snippet": "Interactive staff founded company Giant Interactive Entertainment for future Lego game publishing. Following the release of Lego Star Wars: The Video Game,",
+              "metadata": {
+                "search_query": "When was the japanese videogame company nintendo founded?"
+              },
+              "retrieved_at": "2026-10-16T21:42:26.902355",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=21197",
+              "title": "Nintendo",
+              "snippet": "video games and video game consoles. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda",
+              "metadata": {
+                "search_query": "When was the japanese videogame company nintendo founded?"
+              },
+              "retrieved_at": "2026-10-16T21:42:26.902374",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=64393",
+              "title": "Video game crash of 1983",
+              "snippet": "console, the Nintendo Entertainment System (NES), released in October 1985. The NES was designed to avoid the missteps that caused the 1983 crash and the stigma",
+              "metadata": {
+                "search_query": "When was the japanese videogame company nintendo founded?"
+              },
+              "retrieved_at": "2026-10-16T21:42:26.902382",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=421853",
+              "title": "Wii",
+              "snippet": "The Wii (/wiː/ WEE) is a home video game console developed and marketed by Nintendo. It was released on November 19, 2006, in North America, and in December",
+              "metadata": {
+                "search_query": "When was the japanese videogame company nintendo founded?"
+              },
+              "retrieved_at": "2026-10-16T21:42:26.902390",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=7225705",
+              "title": "History of Nintendo",
+              "snippet": "The history of Nintendo, a Japanese video game company based in Kyoto, starts in 1889 when Fusajiro Yamauchi founded \"Yamauchi Nintendo\", a producer of",
+              "metadata": {
+                "search_query": "When was the japanese videogame company nintendo founded?"
+              },
+              "retrieved_at": "2026-10-16T21:42:26.902398",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "List of Lego video games: Interactive staff founded company Giant Interactive Entertainment for future Lego game publishing. Following the release of Lego Star Wars: The Video Game,\n\nNintendo: video games and video game consoles. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda\n\nVideo game crash of 1983: console, the Nintendo Entertainment System (NES), released in October 1985. The NES was designed to avoid the missteps that caused the 1983 crash and the stigma\n\nWii: The Wii (/wiː/ WEE) is a home video game console developed and marketed by Nintendo. It was released on November 19, 2006, in North America, and in December\n\nHistory of Nintendo: The history of Nintendo, a Japanese video game company based in Kyoto, starts in 1889 when Fusajiro Yamauchi founded \"Yamauchi Nintendo\", a producer of",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:42:26.903208"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "When was the japanese videogame company nintendo founded?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:42:26.902946"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "When was the japanese videogame company nintendo founded?",
+          "answer": "Based on 5 sources:\n- History of Nintendo - Wikipedia: Nintendo poster from early Meiji Era, showing the company's hanafuda cards Nintendo's first headquarters was in Kyoto (1889)\n- Nintendo was founded as Yamauchi Nintendo (山内任天堂) by Fusajiro Yamauchi on September 23, 1889, [1][2][3] though it was originally named Nintendo Koppai\n- Based in Kyoto, Japan, the business produced and marketed hanafuda, a type of Japanese playing card\n- Nintendo - Wikipedia: Nintendo Co\n- [c] is a Japanese multinational video game company headquartered in Kyoto",
+          "claims": [
+            {
+              "id": "5221c81f",
+              "text": "History of Nintendo - Wikipedia: Nintendo poster from early Meiji Era, showing the company's hanafuda cards Nintendo's first headquarters was in Kyoto (1889)",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/History_of_Nintendo",
+                "title": "History of Nintendo - Wikipedia",
+                "snippet": "Nintendo poster from early Meiji Era, showing the company's hanafuda cards Nintendo's first headquarters was in Kyoto (1889). Nintendo was founded as Yamauchi Nintendo (山内任天堂) by Fusajiro Yamauchi on September 23, 1889, [1][2][3] though it was originally named Nintendo Koppai. Based in Kyoto, Japan, the business produced and marketed hanafuda, a type of Japanese playing card. The ...",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.901890",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "15049696",
+              "text": "Nintendo was founded as Yamauchi Nintendo (山内任天堂) by Fusajiro Yamauchi on September 23, 1889, [1][2][3] though it was originally named Nintendo Koppai",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Nintendo",
+                "title": "Nintendo - Wikipedia",
+                "snippet": "Nintendo Co., Ltd.[c] is a Japanese multinational video game company headquartered in Kyoto. It develops, publishes, and manufactures both video games and video game consoles. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda playing cards. After venturing into various lines of business and becoming a public company ...",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.901910",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ec518f2b",
+              "text": "Based in Kyoto, Japan, the business produced and marketed hanafuda, a type of Japanese playing card",
+              "source": {
+                "url": "https://www.nintendo.co.jp/corporate/en/history/index.html",
+                "title": "Corporate Information : Company History",
+                "snippet": "Launched the home video game system, Family Computer System (known as Nintendo Entertainment System outside Japan.) Established a new manufacturing plant, which is now Uji Plant, in Uji City, Kyoto.",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.901918",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0191c3fd",
+              "text": "Nintendo - Wikipedia: Nintendo Co",
+              "source": {
+                "url": "https://baike.baidu.com/en/item/Nintendo Co., Ltd./1511017",
+                "title": "Nintendo Co., Ltd.（Japanese video game software and hardware ...",
+                "snippet": "Nintendo Co., Ltd., founded in 1889 and formally established in 1947, is a Japanese company primarily engaged in the development of Video Games software and hardware. Its headquarters is located at 11-1 Kamitobaguchi Hokodate-cho, Minami-ku, Kyoto, Japan. The company is one of the three major players in the electronic game industry and a pioneer of the modern electronic game industry.",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.901932",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "192acd4b",
+              "text": "[c] is a Japanese multinational video game company headquartered in Kyoto",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Nintendo",
+                "title": "Nintendo - Wikipedia",
+                "snippet": "Nintendo Co., Ltd.[c] is a Japanese multinational video game company headquartered in Kyoto. It develops, publishes, and manufactures both video games and video game consoles. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda playing cards. After venturing into various lines of business and becoming a public company ...",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.901910",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0149dcca",
+              "text": "It develops, publishes, and manufactures both video games and video game consoles",
+              "source": {
+                "url": "https://www.nintendo.co.jp/corporate/en/history/index.html",
+                "title": "Corporate Information : Company History",
+                "snippet": "Launched the home video game system, Family Computer System (known as Nintendo Entertainment System outside Japan.) Established a new manufacturing plant, which is now Uji Plant, in Uji City, Kyoto.",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.901918",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e4623184",
+              "text": "The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda playing cards",
+              "source": {
+                "url": "https://careers.nintendo.com/our-history/",
+                "title": "Our History - Nintendo Careers Site",
+                "snippet": "Discover the rich history of Nintendo, from its founding in 1889 to its evolution into a global leader in the gaming industry.",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.901925",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "5600777c",
+              "text": "After venturing into various lines of business and becoming a public company",
+              "source": {
+                "url": "https://baike.baidu.com/en/item/Nintendo Co., Ltd./1511017",
+                "title": "Nintendo Co., Ltd.（Japanese video game software and hardware ...",
+                "snippet": "Nintendo Co., Ltd., founded in 1889 and formally established in 1947, is a Japanese company primarily engaged in the development of Video Games software and hardware. Its headquarters is located at 11-1 Kamitobaguchi Hokodate-cho, Minami-ku, Kyoto, Japan. The company is one of the three major players in the electronic game industry and a pioneer of the modern electronic game industry.",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.901932",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0d66821b",
+              "text": "Corporate Information : Company History: Launched the home video game system, Family Computer System (known as Nintendo Entertainment System outside Japan",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/History_of_Nintendo",
+                "title": "History of Nintendo - Wikipedia",
+                "snippet": "Nintendo poster from early Meiji Era, showing the company's hanafuda cards Nintendo's first headquarters was in Kyoto (1889). Nintendo was founded as Yamauchi Nintendo (山内任天堂) by Fusajiro Yamauchi on September 23, 1889, [1][2][3] though it was originally named Nintendo Koppai. Based in Kyoto, Japan, the business produced and marketed hanafuda, a type of Japanese playing card. The ...",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.901890",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "7a6d209f",
+              "text": ") Established a new manufacturing plant, which is now Uji Plant, in Uji City, Kyoto",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Nintendo",
+                "title": "Nintendo - Wikipedia",
+                "snippet": "Nintendo Co., Ltd.[c] is a Japanese multinational video game company headquartered in Kyoto. It develops, publishes, and manufactures both video games and video game consoles. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda playing cards. After venturing into various lines of business and becoming a public company ...",
+                "metadata": {
+                  "search_query": "When was the japanese videogame company nintendo founded?"
+                },
+                "retrieved_at": "2026-10-16T21:42:26.901910",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/History_of_Nintendo",
+              "title": "History of Nintendo - Wikipedia",
+              "snippet": "Nintendo poster from early Meiji Era, showing the company's hanafuda cards Nintendo's first headquarters was in Kyoto (1889). Nintendo was founded as Yamauchi Nintendo (山内任天堂) by Fusajiro Yamauchi on September 23, 1889, [1][2][3] though it was originally named Nintendo Koppai. Based in Kyoto, Japan, the business produced and marketed hanafuda, a type of Japanese playing card. The ...",
+              "metadata": {
+                "search_query": "When was the japanese videogame company nintendo founded?"
+              },
+              "retrieved_at": "2026-10-16T21:42:26.901890",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Nintendo",
+              "title": "Nintendo - Wikipedia",
+              "snippet": "Nintendo Co., Ltd.[c] is a Japanese multinational video game company headquartered in Kyoto. It develops, publishes, and manufactures both video games and video game consoles. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda playing cards. After venturing into various lines of business and becoming a public company ...",
+              "metadata": {
+                "search_query": "When was the japanese videogame company nintendo founded?"
+              },
+              "retrieved_at": "2026-10-16T21:42:26.901910",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.nintendo.co.jp/corporate/en/history/index.html",
+              "title": "Corporate Information : Company History",
+              "snippet": "Launched the home video game system, Family Computer System (known as Nintendo Entertainment System outside Japan.) Established a new manufacturing plant, which is now Uji Plant, in Uji City, Kyoto.",
+              "metadata": {
+                "search_query": "When was the japanese videogame company nintendo founded?"
+              },
+              "retrieved_at": "2026-10-16T21:42:26.901918",
+              "credibility_score": null
+            },
+            {
+              "url": "https://careers.nintendo.com/our-history/",
+              "title": "Our History - Nintendo Careers Site",
+              "snippet": "Discover the rich history of Nintendo, from its founding in 1889 to its evolution into a global leader in the gaming industry.",
+              "metadata": {
+                "search_query": "When was the japanese videogame company nintendo founded?"
+              },
+              "retrieved_at": "2026-10-16T21:42:26.901925",
+              "credibility_score": null
+            },
+            {
+              "url": "https://baike.baidu.com/en/item/Nintendo Co., Ltd./1511017",
+              "title": "Nintendo Co., Ltd.（Japanese video game software and hardware ...",
+              "snippet": "Nintendo Co., Ltd., founded in 1889 and formally established in 1947, is a Japanese company primarily engaged in the development of Video Games software and hardware. Its headquarters is located at 11-1 Kamitobaguchi Hokodate-cho, Minami-ku, Kyoto, Japan. The company is one of the three major players in the electronic game industry and a pioneer of the modern electronic game industry.",
+              "metadata": {
+                "search_query": "When was the japanese videogame company nintendo founded?"
+              },
+              "retrieved_at": "2026-10-16T21:42:26.901932",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "History of Nintendo - Wikipedia: Nintendo poster from early Meiji Era, showing the company's hanafuda cards Nintendo's first headquarters was in Kyoto (1889). Nintendo was founded as Yamauchi Nintendo (山内任天堂) by Fusajiro Yamauchi on September 23, 1889, [1][2][3] though it was originally named Nintendo Koppai. Based in Kyoto, Japan, the business produced and marketed hanafuda, a type of Japanese playing card. The ...\n\nNintendo - Wikipedia: Nintendo Co., Ltd.[c] is a Japanese multinational video game company headquartered in Kyoto. It develops, publishes, and manufactures both video games and video game consoles. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda playing cards. After venturing into various lines of business and becoming a public company ...\n\nCorporate Information : Company History: Launched the home video game system, Family Computer System (known as Nintendo Entertainment System outside Japan.) Established a new manufacturing plant, which is now Uji Plant, in Uji City, Kyoto.\n\nOur History - Nintendo Careers Site: Discover the rich history of Nintendo, from its founding in 1889 to its evolution into a global leader in the gaming industry.\n\nNintendo Co., Ltd.（Japanese video game software and hardware ...: Nintendo Co., Ltd., founded in 1889 and formally established in 1947, is a Japanese company primarily engaged in the development of Video Games software and hardware. Its headquarters is located at 11-1 Kamitobaguchi Hokodate-cho, Minami-ku, Kyoto, Japan. The company is one of the three major players in the electronic game industry and a pioneer of the modern electronic game industry.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:42:26.902777"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "When was the japanese videogame company nintendo founded?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Nintendo was founded in 1889 by Fusajiro Yamauchi.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=21197",
+            "title": "Nintendo",
+            "snippet": "video games and video game consoles. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda",
+            "metadata": {
+              "search_query": "When was the japanese videogame company nintendo founded?"
+            },
+            "retrieved_at": "2026-10-16T21:42:26.904181",
+            "credibility_score": null
+          },
+          "date": "1889",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=3551842",
+          "title": "List of Lego video games",
+          "snippet": "Interactive staff founded company Giant Interactive Entertainment for future Lego game publishing. Following the release of Lego Star Wars: The Video Game,",
+          "metadata": {
+            "search_query": "When was the japanese videogame company nintendo founded?"
+          },
+          "retrieved_at": "2026-10-16T21:42:26.904163",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=21197",
+          "title": "Nintendo",
+          "snippet": "video games and video game consoles. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda",
+          "metadata": {
+            "search_query": "When was the japanese videogame company nintendo founded?"
+          },
+          "retrieved_at": "2026-10-16T21:42:26.904181",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=64393",
+          "title": "Video game crash of 1983",
+          "snippet": "console, the Nintendo Entertainment System (NES), released in October 1985. The NES was designed to avoid the missteps that caused the 1983 crash and the stigma",
+          "metadata": {
+            "search_query": "When was the japanese videogame company nintendo founded?"
+          },
+          "retrieved_at": "2026-10-16T21:42:26.904188",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=421853",
+          "title": "Wii",
+          "snippet": "The Wii (/wiː/ WEE) is a home video game console developed and marketed by Nintendo. It was released on November 19, 2006, in North America, and in December",
+          "metadata": {
+            "search_query": "When was the japanese videogame company nintendo founded?"
+          },
+          "retrieved_at": "2026-10-16T21:42:26.904194",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=7225705",
+          "title": "History of Nintendo",
+          "snippet": "The history of Nintendo, a Japanese video game company based in Kyoto, starts in 1889 when Fusajiro Yamauchi founded \"Yamauchi Nintendo\", a producer of",
+          "metadata": {
+            "search_query": "When was the japanese videogame company nintendo founded?"
+          },
+          "retrieved_at": "2026-10-16T21:42:26.904200",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:42:40.834353"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "When was the japanese videogame company nintendo founded?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:42:40.834394"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "When was the japanese videogame company nintendo founded?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Nintendo was founded by Fusajiro Yamauchi on September 23, 1889, in Kyoto, Japan, originally named Nintendo Koppai, to produce and market hanafuda, a type of Japanese playing card.",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/History_of_Nintendo",
+            "title": "History of Nintendo - Wikipedia",
+            "snippet": "Nintendo poster from early Meiji Era, showing the company's hanafuda cards Nintendo's first headquarters was in Kyoto (1889). Nintendo was founded as Yamauchi Nintendo (山内任天堂) by Fusajiro Yamauchi on September 23, 1889, [1][2][3] though it was originally named Nintendo Koppai. Based in Kyoto, Japan, the business produced and marketed hanafuda, a type of Japanese playing card. The ...",
+            "metadata": {
+              "search_query": "When was the japanese videogame company nintendo founded?"
+            },
+            "retrieved_at": "2026-10-16T21:42:40.834802",
+            "credibility_score": null
+          },
+          "date": "1889",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/History_of_Nintendo",
+          "title": "History of Nintendo - Wikipedia",
+          "snippet": "Nintendo poster from early Meiji Era, showing the company's hanafuda cards Nintendo's first headquarters was in Kyoto (1889). Nintendo was founded as Yamauchi Nintendo (山内任天堂) by Fusajiro Yamauchi on September 23, 1889, [1][2][3] though it was originally named Nintendo Koppai. Based in Kyoto, Japan, the business produced and marketed hanafuda, a type of Japanese playing card. The ...",
+          "metadata": {
+            "search_query": "When was the japanese videogame company nintendo founded?"
+          },
+          "retrieved_at": "2026-10-16T21:42:40.834802",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Nintendo",
+          "title": "Nintendo - Wikipedia",
+          "snippet": "Nintendo Co., Ltd.[c] is a Japanese multinational video game company headquartered in Kyoto. It develops, publishes, and manufactures both video games and video game consoles. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda playing cards. After venturing into various lines of business and becoming a public company ...",
+          "metadata": {
+            "search_query": "When was the japanese videogame company nintendo founded?"
+          },
+          "retrieved_at": "2026-10-16T21:42:40.834814",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.nintendo.co.jp/corporate/en/history/index.html",
+          "title": "Corporate Information : Company History",
+          "snippet": "Launched the home video game system, Family Computer System (known as Nintendo Entertainment System outside Japan.) Established a new manufacturing plant, which is now Uji Plant, in Uji City, Kyoto.",
+          "metadata": {
+            "search_query": "When was the japanese videogame company nintendo founded?"
+          },
+          "retrieved_at": "2026-10-16T21:42:40.834822",
+          "credibility_score": null
+        },
+        {
+          "url": "https://careers.nintendo.com/our-history/",
+          "title": "Our History - Nintendo Careers Site",
+          "snippet": "Discover the rich history of Nintendo, from its founding in 1889 to its evolution into a global leader in the gaming industry.",
+          "metadata": {
+            "search_query": "When was the japanese videogame company nintendo founded?"
+          },
+          "retrieved_at": "2026-10-16T21:42:40.834829",
+          "credibility_score": null
+        },
+        {
+          "url": "https://baike.baidu.com/en/item/Nintendo Co., Ltd./1511017",
+          "title": "Nintendo Co., Ltd.（Japanese video game software and hardware ...",
+          "snippet": "Nintendo Co., Ltd., founded in 1889 and formally established in 1947, is a Japanese company primarily engaged in the development of Video Games software and hardware. Its headquarters is located at 11-1 Kamitobaguchi Hokodate-cho, Minami-ku, Kyoto, Japan. The company is one of the three major players in the electronic game industry and a pioneer of the modern electronic game industry.",
+          "metadata": {
+            "search_query": "When was the japanese videogame company nintendo founded?"
+          },
+          "retrieved_at": "2026-10-16T21:42:40.834835",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:42:58.254645"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "When was the japanese videogame company nintendo founded?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Nintendo was founded on September 23, 1889.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "Nintendo was founded on September 23, 1889.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:42:35.297653",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Nintendo was founded on September 23, 1889.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:42:35.297653",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "Nintendo was founded on September 23, 1889."
+      },
+      "retrieved_at": "2026-10-16T21:42:35.297751"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "Nintendo was founded in 1889 by Fusajiro Yamauchi.",
+        "claim_b_text": "Nintendo was founded by Fusajiro Yamauchi on September 23, 1889, in Kyoto, Japan, originally named Nintendo Koppai, to produce and market hanafuda, a type of Japanese playing card.",
+        "label": "neutral",
+        "contradiction_score": 0.0007048213155940175,
+        "entailment_score": 0.00044375768629834056,
+        "neutral_score": 0.9990392923355103
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Nintendo was founded in 1889 by Fusajiro Yamauchi.",
+        "claim_b_text": "Nintendo was founded on September 23, 1889.",
+        "label": "neutral",
+        "contradiction_score": 0.0007247432367876172,
+        "entailment_score": 0.0005716372979804873,
+        "neutral_score": 0.9989627599716187
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Nintendo was founded by Fusajiro Yamauchi on September 23, 1889, in Kyoto, Japan, originally named Nintendo Koppai, to produce and market hanafuda, a type of Japanese playing card.",
+        "claim_b_text": "Nintendo was founded on September 23, 1889.",
+        "label": "neutral",
+        "contradiction_score": 0.0011888935696333647,
+        "entailment_score": 0.000651479815132916,
+        "neutral_score": 0.9985657334327698
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "Nintendo was founded by Fusajiro Yamauchi on September 23, 1889, in Kyoto, Japan, originally named Nintendo Koppai, to produce and market hanafuda, a type of Japanese playing card.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/History_of_Nintendo",
+          "title": "History of Nintendo - Wikipedia",
+          "snippet": "Nintendo poster from early Meiji Era, showing the company's hanafuda cards Nintendo's first headquarters was in Kyoto (1889). Nintendo was founded as Yamauchi Nintendo (山内任天堂) by Fusajiro Yamauchi on September 23, 1889, [1][2][3] though it was originally named Nintendo Koppai. Based in Kyoto, Japan, the business produced and marketed hanafuda, a type of Japanese playing card. The ...",
+          "metadata": {
+            "search_query": "When was the japanese videogame company nintendo founded?"
+          },
+          "retrieved_at": "2026-10-16T21:42:40.834802",
+          "credibility_score": null
+        },
+        "date": "1889",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Nintendo was founded on September 23, 1889.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Nintendo was founded on September 23, 1889.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:42:35.297653",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.0011888935696333647
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0011888935696333647,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "c1510710",
+    "type": "unknown",
+    "confidence": 0.5,
+    "explanation": "Standard MAD always debates (no gate) — generic strategy",
+    "claim_a": {
+      "text": "Nintendo was founded in 1889 by Fusajiro Yamauchi.",
+      "source": {
+        "url": "https://en.wikipedia.org/?curid=21197",
+        "title": "Nintendo",
+        "snippet": "video games and video game consoles. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda",
+        "metadata": {
+          "search_query": "When was the japanese videogame company nintendo founded?"
+        },
+        "retrieved_at": "2026-10-16T21:42:26.904181",
+        "credibility_score": null
+      },
+      "date": "1889",
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "Nintendo was founded by Fusajiro Yamauchi on September 23, 1889, in Kyoto, Japan, originally named Nintendo Koppai, to produce and market hanafuda, a type of Japanese playing card.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/History_of_Nintendo",
+        "title": "History of Nintendo - Wikipedia",
+        "snippet": "Nintendo poster from early Meiji Era, showing the company's hanafuda cards Nintendo's first headquarters was in Kyoto (1889). Nintendo was founded as Yamauchi Nintendo (山内任天堂) by Fusajiro Yamauchi on September 23, 1889, [1][2][3] though it was originally named Nintendo Koppai. Based in Kyoto, Japan, the business produced and marketed hanafuda, a type of Japanese playing card. The ...",
+        "metadata": {
+          "search_query": "When was the japanese videogame company nintendo founded?"
+        },
+        "retrieved_at": "2026-10-16T21:42:40.834802",
+        "credibility_score": null
+      },
+      "date": "1889",
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "web_agent",
+      "forced": true
+    },
+    "detected_at": "2026-10-16T21:43:01.679601"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": {
+        "id": "02dd498c",
+        "round_number": 1,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nClaim B\n\nEVIDENCE REVIEW\nClaim A: Supports that Nintendo was founded in 1889 by Fusajiro Yamauchi.\nClaim B: Supports that Nintendo was founded by Fusajiro Yamauchi on September 23, 1889, in Kyoto, Japan, originally named Nintendo Koppai, to produce and market hanafuda, a type of Japanese playing card.\n\nREASONING\nThe core issue is determining the exact founding date of Nintendo. Claim B provides stronger, more specific, and more authoritative evidence by including the precise date (September 23, 1889), location (Kyoto, Japan), original name (Nintendo Koppai), and original business purpose (producing hanafuda cards). This comprehensive detail makes Claim B the more reliable source for answering the specific question about Nintendo's founding date.\n\nSOURCE BASIS\nClaim B includes detailed historical information about Nintendo's founding, providing exact date, location, original name, and business purpose, which aligns with authoritative historical records about Nintendo's origins.\n\nCONCLUSION\nNintendo was founded on September 23, 1889, by Fusajiro Yamauchi in Kyoto, Japan, originally named Nintendo Koppai, to produce and market hanafuda playing cards.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "unknown",
+        "strategy_used": "unknown",
+        "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+        "created_at": "2026-10-16T21:43:21.966354"
+      },
+      "critic_arguments": [
+        {
+          "id": "c6ac517e",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nClaim B provides a specific founding date of September 23, 1889, which is not consistently documented in authoritative historical sources about Nintendo's establishment.\nWHY IT MATTERS\nIncluding an unverified specific date undermines the overall credibility of an otherwise accurate historical claim and could lead to the propagation of potentially incorrect information.\nIMPROVEMENT\nQualify the date claim by stating Nintendo was founded in 1889 by Fusajiro Yamauchi in Kyoto, Japan, while noting that the exact day is not definitively documented in historical records.",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique_no_objection",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:43:46.960244"
+        },
+        {
+          "id": "806ce5a2",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nClaim A is factually correct but lacks essential contextual details about Nintendo's original business and name.\nWHY IT MATTERS\nWithout information about Nintendo's original name (Nintendo Koppai) and its initial business of producing hanafuda playing cards, the claim provides an incomplete historical picture.\nIMPROVEMENT\nEnhance Claim A by including that Nintendo was founded as Nintendo Koppai in Kyoto, Japan, specifically to manufacture and market traditional Japanese playing cards (hanfuda).",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:43:46.960290"
+        }
+      ],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T21:43:01.679975",
+      "completed_at": "2026-10-16T21:43:46.960313"
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": {
+          "id": "02dd498c",
+          "round_number": 1,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nClaim B\n\nEVIDENCE REVIEW\nClaim A: Supports that Nintendo was founded in 1889 by Fusajiro Yamauchi.\nClaim B: Supports that Nintendo was founded by Fusajiro Yamauchi on September 23, 1889, in Kyoto, Japan, originally named Nintendo Koppai, to produce and market hanafuda, a type of Japanese playing card.\n\nREASONING\nThe core issue is determining the exact founding date of Nintendo. Claim B provides stronger, more specific, and more authoritative evidence by including the precise date (September 23, 1889), location (Kyoto, Japan), original name (Nintendo Koppai), and original business purpose (producing hanafuda cards). This comprehensive detail makes Claim B the more reliable source for answering the specific question about Nintendo's founding date.\n\nSOURCE BASIS\nClaim B includes detailed historical information about Nintendo's founding, providing exact date, location, original name, and business purpose, which aligns with authoritative historical records about Nintendo's origins.\n\nCONCLUSION\nNintendo was founded on September 23, 1889, by Fusajiro Yamauchi in Kyoto, Japan, originally named Nintendo Koppai, to produce and market hanafuda playing cards.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "unknown",
+          "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+          "created_at": "2026-10-16T21:43:21.966354"
+        },
+        "critic_arguments": [
+          {
+            "id": "c6ac517e",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nClaim B provides a specific founding date of September 23, 1889, which is not consistently documented in authoritative historical sources about Nintendo's establishment.\nWHY IT MATTERS\nIncluding an unverified specific date undermines the overall credibility of an otherwise accurate historical claim and could lead to the propagation of potentially incorrect information.\nIMPROVEMENT\nQualify the date claim by stating Nintendo was founded in 1889 by Fusajiro Yamauchi in Kyoto, Japan, while noting that the exact day is not definitively documented in historical records.",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique_no_objection",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:43:46.960244"
+          },
+          {
+            "id": "806ce5a2",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nClaim A is factually correct but lacks essential contextual details about Nintendo's original business and name.\nWHY IT MATTERS\nWithout information about Nintendo's original name (Nintendo Koppai) and its initial business of producing hanafuda playing cards, the claim provides an incomplete historical picture.\nIMPROVEMENT\nEnhance Claim A by including that Nintendo was founded as Nintendo Koppai in Kyoto, Japan, specifically to manufacture and market traditional Japanese playing cards (hanfuda).",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:43:46.960290"
+          }
+        ],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T21:43:01.679975",
+        "completed_at": "2026-10-16T21:43:46.960313"
+      }
+    ],
+    "status": "completed",
+    "stop_reason": "no_objection",
+    "failed_stages": [],
+    "rounds_used": 1
+  },
+  "judge_result": {
+    "winner": "candidate_2",
+    "reason": "Claim B provides more comprehensive historical information including location, original name, and business purpose, making it more valuable for understanding Nintendo's founding context.",
+    "evidence_score": 0.9,
+    "reasoning_score": 0.8,
+    "source_score": 0.8,
+    "confidence": 0.85,
+    "scores": {
+      "candidate_1": 0.9,
+      "candidate_2": 0.8
+    },
+    "evaluated_at": "2026-10-16T21:44:09.568950"
+  },
+  "final_answer": {
+    "query": "When was the japanese videogame company nintendo founded?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [reference_agent]: Nintendo was founded in 1889 by Fusajiro Yamauchi.\n- [web_agent]: Nintendo was founded by Fusajiro Yamauchi on September 23, 1889, in Kyoto, Japan, originally named Nintendo Koppai, to produce and market hanafuda, a type of Japanese playing card.\n- [ai_answer_agent]: Nintendo was founded on September 23, 1889.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=3551842",
+        "title": "List of Lego video games",
+        "snippet": "Interactive staff founded company Giant Interactive Entertainment for future Lego game publishing. Following the release of Lego Star Wars: The Video Game,",
+        "metadata": {
+          "search_query": "When was the japanese videogame company nintendo founded?"
+        },
+        "retrieved_at": "2026-10-16T21:42:26.904163",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=21197",
+        "title": "Nintendo",
+        "snippet": "video games and video game consoles. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda",
+        "metadata": {
+          "search_query": "When was the japanese videogame company nintendo founded?"
+        },
+        "retrieved_at": "2026-10-16T21:42:26.904181",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=64393",
+        "title": "Video game crash of 1983",
+        "snippet": "console, the Nintendo Entertainment System (NES), released in October 1985. The NES was designed to avoid the missteps that caused the 1983 crash and the stigma",
+        "metadata": {
+          "search_query": "When was the japanese videogame company nintendo founded?"
+        },
+        "retrieved_at": "2026-10-16T21:42:26.904188",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=421853",
+        "title": "Wii",
+        "snippet": "The Wii (/wiː/ WEE) is a home video game console developed and marketed by Nintendo. It was released on November 19, 2006, in North America, and in December",
+        "metadata": {
+          "search_query": "When was the japanese videogame company nintendo founded?"
+        },
+        "retrieved_at": "2026-10-16T21:42:26.904194",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=7225705",
+        "title": "History of Nintendo",
+        "snippet": "The history of Nintendo, a Japanese video game company based in Kyoto, starts in 1889 when Fusajiro Yamauchi founded \"Yamauchi Nintendo\", a producer of",
+        "metadata": {
+          "search_query": "When was the japanese videogame company nintendo founded?"
+        },
+        "retrieved_at": "2026-10-16T21:42:26.904200",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_Nintendo",
+        "title": "History of Nintendo - Wikipedia",
+        "snippet": "Nintendo poster from early Meiji Era, showing the company's hanafuda cards Nintendo's first headquarters was in Kyoto (1889). Nintendo was founded as Yamauchi Nintendo (山内任天堂) by Fusajiro Yamauchi on September 23, 1889, [1][2][3] though it was originally named Nintendo Koppai. Based in Kyoto, Japan, the business produced and marketed hanafuda, a type of Japanese playing card. The ...",
+        "metadata": {
+          "search_query": "When was the japanese videogame company nintendo founded?"
+        },
+        "retrieved_at": "2026-10-16T21:42:40.834802",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nintendo",
+        "title": "Nintendo - Wikipedia",
+        "snippet": "Nintendo Co., Ltd.[c] is a Japanese multinational video game company headquartered in Kyoto. It develops, publishes, and manufactures both video games and video game consoles. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda playing cards. After venturing into various lines of business and becoming a public company ...",
+        "metadata": {
+          "search_query": "When was the japanese videogame company nintendo founded?"
+        },
+        "retrieved_at": "2026-10-16T21:42:40.834814",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.nintendo.co.jp/corporate/en/history/index.html",
+        "title": "Corporate Information : Company History",
+        "snippet": "Launched the home video game system, Family Computer System (known as Nintendo Entertainment System outside Japan.) Established a new manufacturing plant, which is now Uji Plant, in Uji City, Kyoto.",
+        "metadata": {
+          "search_query": "When was the japanese videogame company nintendo founded?"
+        },
+        "retrieved_at": "2026-10-16T21:42:40.834822",
+        "credibility_score": null
+      },
+      {
+        "url": "https://careers.nintendo.com/our-history/",
+        "title": "Our History - Nintendo Careers Site",
+        "snippet": "Discover the rich history of Nintendo, from its founding in 1889 to its evolution into a global leader in the gaming industry.",
+        "metadata": {
+          "search_query": "When was the japanese videogame company nintendo founded?"
+        },
+        "retrieved_at": "2026-10-16T21:42:40.834829",
+        "credibility_score": null
+      },
+      {
+        "url": "https://baike.baidu.com/en/item/Nintendo Co., Ltd./1511017",
+        "title": "Nintendo Co., Ltd.（Japanese video game software and hardware ...",
+        "snippet": "Nintendo Co., Ltd., founded in 1889 and formally established in 1947, is a Japanese company primarily engaged in the development of Video Games software and hardware. Its headquarters is located at 11-1 Kamitobaguchi Hokodate-cho, Minami-ku, Kyoto, Japan. The company is one of the three major players in the electronic game industry and a pioneer of the modern electronic game industry.",
+        "metadata": {
+          "search_query": "When was the japanese videogame company nintendo founded?"
+        },
+        "retrieved_at": "2026-10-16T21:42:40.834835",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "Nintendo was founded on September 23, 1889.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:42:35.297653",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T21:43:01.679155"
+  },
+  "metrics": {
+    "latency_seconds": 34.7790265083313,
+    "evidence_state": "uncertain",
+    "debate_triggered": true,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "no_gate"
+  },
+  "started_at": "2026-10-16T21:42:26.900131",
+  "completed_at": "2026-10-16T21:43:01.679226",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0031",
+    "query": "When was the japanese videogame company nintendo founded?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "1889",
+    "required_facts": [
+      "1889"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 41,
+      "answer_variants": [
+        "1889"
+      ],
+      "annotation_explanation": "This was the most common answer from the list of answers.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Nintendo Co., Ltd. is a Japanese multinational video game company headquartered in Kyoto. It develops, publishes and releases both video games and video ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.knoe.com",
+          "text": "Sep 23, 2019 ... Video game giant Nintendo was founded on September 23, 1889. ... Japan, the company began its business by producing hanafuda, or Japanese ...",
+          "supports_answers": [
+            "1889"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Nintendo started to focus on the home game market. It stopped manufacturing and releasing arcade games in Japan in late 1985, and withdrew its membership from ...",
+          "supports_answers": [
+            "1889"
+          ]
+        },
+        {
+          "source_domain": "www.nintendo.com",
+          "text": "Mario™ was first introduced in the Super Mario Bros.™ game. 1986. The character Link™ made his first appearance in the Legend of Zelda ...",
+          "supports_answers": [
+            "1889"
+          ]
+        },
+        {
+          "source_domain": "www.nintendo.co.jp",
+          "text": "Fusajiro Yamauchi began manufacturing and selling Japanese playing cards, Hanafuda, ... Started selling the Super Mario Bros. game software for the Nintendo ...",
+          "supports_answers": [
+            "1889"
+          ]
+        },
+        {
+          "source_domain": "www.edn.com",
+          "text": "Sep 23, 2013 ... The company had success producing handmade hanafuda, Japanese playing cards, and in 1949, ... the company started developing video games.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.businessinsider.com",
+          "text": "Sep 23, 2019 ... Founder Fusajiro Yamauchi began the company by selling hand-painted playing cards, which eventually became the most popular brand in Japan.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "history-computer.com",
+          "text": "Aug 6, 2023 ... Nintendo started in Japan in 1889 as a card game company specializing in hand-drawn Hanafuda cards. The Nintendo Game Boy was released 100 ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nintendo.co.uk",
+          "text": "Nintendo Co., Ltd., headquartered in Kyoto, Japan, has created franchises ... The microprocessor was introduced into a videogame system created by Nintendo.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "scholarworks.sjsu.edu",
+          "text": "Nov 24, 2020 ... Within a few years, Nintendo released a new home video game system called the Family Computer System/Famicom (in Japan) 1983 ​(​Nintendo Co.",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_gate",
+  "evaluation_seconds": 148.497,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

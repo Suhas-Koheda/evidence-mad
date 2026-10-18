@@ -1,0 +1,832 @@
+{
+  "query": "Who sang the national anthem at the 2002 super bowl?",
+  "trace_id": "57fbf968-ed9c-4096-ad94-726e49af6e48",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who sang the national anthem at the 2002 super bowl?",
+          "answer": "Based on 5 sources:\n- List of national anthem performers at the Super Bowl: first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977\n- Since Super Bowl XVI in 1982 (except 1985 and\n\nSuper Bowl XLI: time until Luke Bryan sang at Super Bowl LI that a male artist had sung the national anthem at a Super Bowl\n- Two days before the game, 4 tornadoes devastated\n\nSuper Bowl XXX: Super Bowl XXX was an American football game between the National Football Conference (NFC) champion Dallas Cowboys and the American Football Conference\n\nSuper Bowl VI: Super Bowl VI was an American football game between the National Football Conference (NFC) champion Dallas Cowboys and the American Football Conference\n\nSuper Bowl XXXV: Super Bowl XXXV was an American football game to decide the National Football League (NFL) champion for the 2000 Season between the American Football",
+          "claims": [
+            {
+              "id": "35c07fbd",
+              "text": "List of national anthem performers at the Super Bowl: first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=15376140",
+                "title": "List of national anthem performers at the Super Bowl",
+                "snippet": "first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977. Since Super Bowl XVI in 1982 (except 1985 and",
+                "metadata": {
+                  "search_query": "Who sang the national anthem at the 2002 super bowl?"
+                },
+                "retrieved_at": "2026-10-16T22:57:00.110941",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b796758f",
+              "text": "Since Super Bowl XVI in 1982 (except 1985 and\n\nSuper Bowl XLI: time until Luke Bryan sang at Super Bowl LI that a male artist had sung the national anthem at a Super Bowl",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1227585",
+                "title": "Super Bowl XLI",
+                "snippet": "time until Luke Bryan sang at Super Bowl LI that a male artist had sung the national anthem at a Super Bowl. Two days before the game, 4 tornadoes devastated",
+                "metadata": {
+                  "search_query": "Who sang the national anthem at the 2002 super bowl?"
+                },
+                "retrieved_at": "2026-10-16T22:57:00.110953",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "dc3777d8",
+              "text": "Two days before the game, 4 tornadoes devastated\n\nSuper Bowl XXX: Super Bowl XXX was an American football game between the National Football Conference (NFC) champion Dallas Cowboys and the American Football Conference\n\nSuper Bowl VI: Super Bowl VI was an American football game between the National Football Conference (NFC) champion Dallas Cowboys and the American Football Conference\n\nSuper Bowl XXXV: Super Bowl XXXV was an American football game to decide the National Football League (NFL) champion for the 2000 Season between the American Football",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=29155",
+                "title": "Super Bowl XXX",
+                "snippet": "Super Bowl XXX was an American football game between the National Football Conference (NFC) champion Dallas Cowboys and the American Football Conference",
+                "metadata": {
+                  "search_query": "Who sang the national anthem at the 2002 super bowl?"
+                },
+                "retrieved_at": "2026-10-16T22:57:00.110960",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=15376140",
+              "title": "List of national anthem performers at the Super Bowl",
+              "snippet": "first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977. Since Super Bowl XVI in 1982 (except 1985 and",
+              "metadata": {
+                "search_query": "Who sang the national anthem at the 2002 super bowl?"
+              },
+              "retrieved_at": "2026-10-16T22:57:00.110941",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=1227585",
+              "title": "Super Bowl XLI",
+              "snippet": "time until Luke Bryan sang at Super Bowl LI that a male artist had sung the national anthem at a Super Bowl. Two days before the game, 4 tornadoes devastated",
+              "metadata": {
+                "search_query": "Who sang the national anthem at the 2002 super bowl?"
+              },
+              "retrieved_at": "2026-10-16T22:57:00.110953",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=29155",
+              "title": "Super Bowl XXX",
+              "snippet": "Super Bowl XXX was an American football game between the National Football Conference (NFC) champion Dallas Cowboys and the American Football Conference",
+              "metadata": {
+                "search_query": "Who sang the national anthem at the 2002 super bowl?"
+              },
+              "retrieved_at": "2026-10-16T22:57:00.110960",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=29132",
+              "title": "Super Bowl VI",
+              "snippet": "Super Bowl VI was an American football game between the National Football Conference (NFC) champion Dallas Cowboys and the American Football Conference",
+              "metadata": {
+                "search_query": "Who sang the national anthem at the 2002 super bowl?"
+              },
+              "retrieved_at": "2026-10-16T22:57:00.110967",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=29160",
+              "title": "Super Bowl XXXV",
+              "snippet": "Super Bowl XXXV was an American football game to decide the National Football League (NFL) champion for the 2000 Season between the American Football",
+              "metadata": {
+                "search_query": "Who sang the national anthem at the 2002 super bowl?"
+              },
+              "retrieved_at": "2026-10-16T22:57:00.110974",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "List of national anthem performers at the Super Bowl: first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977. Since Super Bowl XVI in 1982 (except 1985 and\n\nSuper Bowl XLI: time until Luke Bryan sang at Super Bowl LI that a male artist had sung the national anthem at a Super Bowl. Two days before the game, 4 tornadoes devastated\n\nSuper Bowl XXX: Super Bowl XXX was an American football game between the National Football Conference (NFC) champion Dallas Cowboys and the American Football Conference\n\nSuper Bowl VI: Super Bowl VI was an American football game between the National Football Conference (NFC) champion Dallas Cowboys and the American Football Conference\n\nSuper Bowl XXXV: Super Bowl XXXV was an American football game to decide the National Football League (NFL) champion for the 2000 Season between the American Football",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:57:00.111103"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who sang the national anthem at the 2002 super bowl?",
+          "answer": "Based on 5 sources:\n- Mariah Carey - The Star-Spangled Banner (Super Bowl 2002): Mariah Carey performing the US National Anthem at the Super Bowl XXXVI in Louisiana Superdome, New Orleans, Louisiana\n\nMariah Carey - The Star Spangled Banner @ 2002 Superbowl: Mariah Carey - The Star Spangled Banner @ 2002 Superbowl MariahCarey2006 184 subscribers Subscribe\n\nList of national anthem performers at the Super Bowl - Wikipedia: Jennifer Hudson sings the national anthem at Super Bowl XLIII\n- \"The Star-Spangled Banner\" is the national anthem of the United States\n- It has been performed at all but one Super Bowl since its first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977\n- The Mariah Network: Super Bowl XXXVI Mariah Carey, accompanied by the Boston Pops, performed the National Anthem at Super Bowl XXXVI at the Louisiana Superdome in New Orleans on February 3, 2002\n- Every Super Bowl National Anthem Singer: Complete List (Updated 2026): With Charlie Puth set to sing at Super Bowl 60 in 2026, here is a complete year-by-year look at every Super Bowl national anthem performer from 1967 through the present",
+          "claims": [
+            {
+              "id": "9c81f44d",
+              "text": "Mariah Carey - The Star-Spangled Banner (Super Bowl 2002): Mariah Carey performing the US National Anthem at the Super Bowl XXXVI in Louisiana Superdome, New Orleans, Louisiana\n\nMariah Carey - The Star Spangled Banner @ 2002 Superbowl: Mariah Carey - The Star Spangled Banner @ 2002 Superbowl MariahCarey2006 184 subscribers Subscribe\n\nList of national anthem performers at the Super Bowl - Wikipedia: Jennifer Hudson sings the national anthem at Super Bowl XLIII",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=R43P9ofkOyg",
+                "title": "Mariah Carey - The Star-Spangled Banner (Super Bowl 2002)",
+                "snippet": "Mariah Carey performing the US National Anthem at the Super Bowl XXXVI in Louisiana Superdome, New Orleans, Louisiana",
+                "metadata": {
+                  "search_query": "Who sang the national anthem at the 2002 super bowl?"
+                },
+                "retrieved_at": "2026-10-16T22:57:00.110384",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d5fb0276",
+              "text": "\"The Star-Spangled Banner\" is the national anthem of the United States",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=9q0QxfYfoJY",
+                "title": "Mariah Carey - The Star Spangled Banner @ 2002 Superbowl",
+                "snippet": "Mariah Carey - The Star Spangled Banner @ 2002 Superbowl MariahCarey2006 184 subscribers Subscribe",
+                "metadata": {
+                  "search_query": "Who sang the national anthem at the 2002 super bowl?"
+                },
+                "retrieved_at": "2026-10-16T22:57:00.110403",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3ebd470f",
+              "text": "It has been performed at all but one Super Bowl since its first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/List_of_national_anthem_performers_at_the_Super_Bowl",
+                "title": "List of national anthem performers at the Super Bowl - Wikipedia",
+                "snippet": "Jennifer Hudson sings the national anthem at Super Bowl XLIII. \"The Star-Spangled Banner\" is the national anthem of the United States. It has been performed at all but one Super Bowl since its first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977.",
+                "metadata": {
+                  "search_query": "Who sang the national anthem at the 2002 super bowl?"
+                },
+                "retrieved_at": "2026-10-16T22:57:00.110412",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "45ef4fc9",
+              "text": "The Mariah Network: Super Bowl XXXVI Mariah Carey, accompanied by the Boston Pops, performed the National Anthem at Super Bowl XXXVI at the Louisiana Superdome in New Orleans on February 3, 2002",
+              "source": {
+                "url": "https://mariahcareynetwork.com/tv/appearances/superbowl.html",
+                "title": "The Mariah Network",
+                "snippet": "Super Bowl XXXVI Mariah Carey, accompanied by the Boston Pops, performed the National Anthem at Super Bowl XXXVI at the Louisiana Superdome in New Orleans on February 3, 2002.",
+                "metadata": {
+                  "search_query": "Who sang the national anthem at the 2002 super bowl?"
+                },
+                "retrieved_at": "2026-10-16T22:57:00.110419",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "efdf2ec4",
+              "text": "Every Super Bowl National Anthem Singer: Complete List (Updated 2026): With Charlie Puth set to sing at Super Bowl 60 in 2026, here is a complete year-by-year look at every Super Bowl national anthem performer from 1967 through the present",
+              "source": {
+                "url": "https://www.profootballnetwork.com/every-super-bowl-national-anthem-singer-complete-list-updated-2026/",
+                "title": "Every Super Bowl National Anthem Singer: Complete List (Updated 2026)",
+                "snippet": "With Charlie Puth set to sing at Super Bowl 60 in 2026, here is a complete year-by-year look at every Super Bowl national anthem performer from 1967 through the present. Dive into PFSN's NFL Mock Draft Simulator and run a mock by yourself or with your friends!",
+                "metadata": {
+                  "search_query": "Who sang the national anthem at the 2002 super bowl?"
+                },
+                "retrieved_at": "2026-10-16T22:57:00.110426",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "69fbe4de",
+              "text": "Dive into PFSN's NFL Mock Draft Simulator and run a mock by yourself or with your friends",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=R43P9ofkOyg",
+                "title": "Mariah Carey - The Star-Spangled Banner (Super Bowl 2002)",
+                "snippet": "Mariah Carey performing the US National Anthem at the Super Bowl XXXVI in Louisiana Superdome, New Orleans, Louisiana",
+                "metadata": {
+                  "search_query": "Who sang the national anthem at the 2002 super bowl?"
+                },
+                "retrieved_at": "2026-10-16T22:57:00.110384",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.youtube.com/watch?v=R43P9ofkOyg",
+              "title": "Mariah Carey - The Star-Spangled Banner (Super Bowl 2002)",
+              "snippet": "Mariah Carey performing the US National Anthem at the Super Bowl XXXVI in Louisiana Superdome, New Orleans, Louisiana",
+              "metadata": {
+                "search_query": "Who sang the national anthem at the 2002 super bowl?"
+              },
+              "retrieved_at": "2026-10-16T22:57:00.110384",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=9q0QxfYfoJY",
+              "title": "Mariah Carey - The Star Spangled Banner @ 2002 Superbowl",
+              "snippet": "Mariah Carey - The Star Spangled Banner @ 2002 Superbowl MariahCarey2006 184 subscribers Subscribe",
+              "metadata": {
+                "search_query": "Who sang the national anthem at the 2002 super bowl?"
+              },
+              "retrieved_at": "2026-10-16T22:57:00.110403",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/List_of_national_anthem_performers_at_the_Super_Bowl",
+              "title": "List of national anthem performers at the Super Bowl - Wikipedia",
+              "snippet": "Jennifer Hudson sings the national anthem at Super Bowl XLIII. \"The Star-Spangled Banner\" is the national anthem of the United States. It has been performed at all but one Super Bowl since its first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977.",
+              "metadata": {
+                "search_query": "Who sang the national anthem at the 2002 super bowl?"
+              },
+              "retrieved_at": "2026-10-16T22:57:00.110412",
+              "credibility_score": null
+            },
+            {
+              "url": "https://mariahcareynetwork.com/tv/appearances/superbowl.html",
+              "title": "The Mariah Network",
+              "snippet": "Super Bowl XXXVI Mariah Carey, accompanied by the Boston Pops, performed the National Anthem at Super Bowl XXXVI at the Louisiana Superdome in New Orleans on February 3, 2002.",
+              "metadata": {
+                "search_query": "Who sang the national anthem at the 2002 super bowl?"
+              },
+              "retrieved_at": "2026-10-16T22:57:00.110419",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.profootballnetwork.com/every-super-bowl-national-anthem-singer-complete-list-updated-2026/",
+              "title": "Every Super Bowl National Anthem Singer: Complete List (Updated 2026)",
+              "snippet": "With Charlie Puth set to sing at Super Bowl 60 in 2026, here is a complete year-by-year look at every Super Bowl national anthem performer from 1967 through the present. Dive into PFSN's NFL Mock Draft Simulator and run a mock by yourself or with your friends!",
+              "metadata": {
+                "search_query": "Who sang the national anthem at the 2002 super bowl?"
+              },
+              "retrieved_at": "2026-10-16T22:57:00.110426",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Mariah Carey - The Star-Spangled Banner (Super Bowl 2002): Mariah Carey performing the US National Anthem at the Super Bowl XXXVI in Louisiana Superdome, New Orleans, Louisiana\n\nMariah Carey - The Star Spangled Banner @ 2002 Superbowl: Mariah Carey - The Star Spangled Banner @ 2002 Superbowl MariahCarey2006 184 subscribers Subscribe\n\nList of national anthem performers at the Super Bowl - Wikipedia: Jennifer Hudson sings the national anthem at Super Bowl XLIII. \"The Star-Spangled Banner\" is the national anthem of the United States. It has been performed at all but one Super Bowl since its first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977.\n\nThe Mariah Network: Super Bowl XXXVI Mariah Carey, accompanied by the Boston Pops, performed the National Anthem at Super Bowl XXXVI at the Louisiana Superdome in New Orleans on February 3, 2002.\n\nEvery Super Bowl National Anthem Singer: Complete List (Updated 2026): With Charlie Puth set to sing at Super Bowl 60 in 2026, here is a complete year-by-year look at every Super Bowl national anthem performer from 1967 through the present. Dive into PFSN's NFL Mock Draft Simulator and run a mock by yourself or with your friends!",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:57:00.110736"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who sang the national anthem at the 2002 super bowl?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T22:57:00.111698"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Who sang the national anthem at the 2002 super bowl?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977. Since Super Bowl XVI in 1982 (except 1985 and",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=15376140",
+            "title": "List of national anthem performers at the Super Bowl",
+            "snippet": "first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977. Since Super Bowl XVI in 1982 (except 1985 and",
+            "metadata": {
+              "search_query": "Who sang the national anthem at the 2002 super bowl?"
+            },
+            "retrieved_at": "2026-10-16T22:57:00.112368",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=15376140",
+          "title": "List of national anthem performers at the Super Bowl",
+          "snippet": "first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977. Since Super Bowl XVI in 1982 (except 1985 and",
+          "metadata": {
+            "search_query": "Who sang the national anthem at the 2002 super bowl?"
+          },
+          "retrieved_at": "2026-10-16T22:57:00.112368",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=1227585",
+          "title": "Super Bowl XLI",
+          "snippet": "time until Luke Bryan sang at Super Bowl LI that a male artist had sung the national anthem at a Super Bowl. Two days before the game, 4 tornadoes devastated",
+          "metadata": {
+            "search_query": "Who sang the national anthem at the 2002 super bowl?"
+          },
+          "retrieved_at": "2026-10-16T22:57:00.112390",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=29155",
+          "title": "Super Bowl XXX",
+          "snippet": "Super Bowl XXX was an American football game between the National Football Conference (NFC) champion Dallas Cowboys and the American Football Conference",
+          "metadata": {
+            "search_query": "Who sang the national anthem at the 2002 super bowl?"
+          },
+          "retrieved_at": "2026-10-16T22:57:00.112397",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=29132",
+          "title": "Super Bowl VI",
+          "snippet": "Super Bowl VI was an American football game between the National Football Conference (NFC) champion Dallas Cowboys and the American Football Conference",
+          "metadata": {
+            "search_query": "Who sang the national anthem at the 2002 super bowl?"
+          },
+          "retrieved_at": "2026-10-16T22:57:00.112403",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=29160",
+          "title": "Super Bowl XXXV",
+          "snippet": "Super Bowl XXXV was an American football game to decide the National Football League (NFL) champion for the 2000 Season between the American Football",
+          "metadata": {
+            "search_query": "Who sang the national anthem at the 2002 super bowl?"
+          },
+          "retrieved_at": "2026-10-16T22:57:00.112409",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:58:10.864006"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who sang the national anthem at the 2002 super bowl?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Mariah Carey performing the US National Anthem at the Super Bowl XXXVI in Louisiana Superdome, New Orleans, Louisiana",
+          "source": {
+            "url": "https://www.youtube.com/watch?v=R43P9ofkOyg",
+            "title": "Mariah Carey - The Star-Spangled Banner (Super Bowl 2002)",
+            "snippet": "Mariah Carey performing the US National Anthem at the Super Bowl XXXVI in Louisiana Superdome, New Orleans, Louisiana",
+            "metadata": {
+              "search_query": "Who sang the national anthem at the 2002 super bowl?"
+            },
+            "retrieved_at": "2026-10-16T22:58:10.864459",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=R43P9ofkOyg",
+          "title": "Mariah Carey - The Star-Spangled Banner (Super Bowl 2002)",
+          "snippet": "Mariah Carey performing the US National Anthem at the Super Bowl XXXVI in Louisiana Superdome, New Orleans, Louisiana",
+          "metadata": {
+            "search_query": "Who sang the national anthem at the 2002 super bowl?"
+          },
+          "retrieved_at": "2026-10-16T22:58:10.864459",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9q0QxfYfoJY",
+          "title": "Mariah Carey - The Star Spangled Banner @ 2002 Superbowl",
+          "snippet": "Mariah Carey - The Star Spangled Banner @ 2002 Superbowl MariahCarey2006 184 subscribers Subscribe",
+          "metadata": {
+            "search_query": "Who sang the national anthem at the 2002 super bowl?"
+          },
+          "retrieved_at": "2026-10-16T22:58:10.864474",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_national_anthem_performers_at_the_Super_Bowl",
+          "title": "List of national anthem performers at the Super Bowl - Wikipedia",
+          "snippet": "Jennifer Hudson sings the national anthem at Super Bowl XLIII. \"The Star-Spangled Banner\" is the national anthem of the United States. It has been performed at all but one Super Bowl since its first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977.",
+          "metadata": {
+            "search_query": "Who sang the national anthem at the 2002 super bowl?"
+          },
+          "retrieved_at": "2026-10-16T22:58:10.864483",
+          "credibility_score": null
+        },
+        {
+          "url": "https://mariahcareynetwork.com/tv/appearances/superbowl.html",
+          "title": "The Mariah Network",
+          "snippet": "Super Bowl XXXVI Mariah Carey, accompanied by the Boston Pops, performed the National Anthem at Super Bowl XXXVI at the Louisiana Superdome in New Orleans on February 3, 2002.",
+          "metadata": {
+            "search_query": "Who sang the national anthem at the 2002 super bowl?"
+          },
+          "retrieved_at": "2026-10-16T22:58:10.864490",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.profootballnetwork.com/every-super-bowl-national-anthem-singer-complete-list-updated-2026/",
+          "title": "Every Super Bowl National Anthem Singer: Complete List (Updated 2026)",
+          "snippet": "With Charlie Puth set to sing at Super Bowl 60 in 2026, here is a complete year-by-year look at every Super Bowl national anthem performer from 1967 through the present. Dive into PFSN's NFL Mock Draft Simulator and run a mock by yourself or with your friends!",
+          "metadata": {
+            "search_query": "Who sang the national anthem at the 2002 super bowl?"
+          },
+          "retrieved_at": "2026-10-16T22:58:10.864498",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:59:13.678031"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who sang the national anthem at the 2002 super bowl?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:59:13.678070"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who sang the national anthem at the 2002 super bowl?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:57:58.241936"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977. Since Super Bowl XVI in 1982 (except 1985 and",
+        "claim_b_text": "Mariah Carey performing the US National Anthem at the Super Bowl XXXVI in Louisiana Superdome, New Orleans, Louisiana",
+        "label": "neutral",
+        "contradiction_score": 0.5317979454994202,
+        "entailment_score": 0.006300761830061674,
+        "neutral_score": 0.8417684435844421
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "web_agent",
+      "claim_a": {
+        "text": "first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977. Since Super Bowl XVI in 1982 (except 1985 and",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=15376140",
+          "title": "List of national anthem performers at the Super Bowl",
+          "snippet": "first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977. Since Super Bowl XVI in 1982 (except 1985 and",
+          "metadata": {
+            "search_query": "Who sang the national anthem at the 2002 super bowl?"
+          },
+          "retrieved_at": "2026-10-16T22:57:00.112368",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Mariah Carey performing the US National Anthem at the Super Bowl XXXVI in Louisiana Superdome, New Orleans, Louisiana",
+        "source": {
+          "url": "https://www.youtube.com/watch?v=R43P9ofkOyg",
+          "title": "Mariah Carey - The Star-Spangled Banner (Super Bowl 2002)",
+          "snippet": "Mariah Carey performing the US National Anthem at the Super Bowl XXXVI in Louisiana Superdome, New Orleans, Louisiana",
+          "metadata": {
+            "search_query": "Who sang the national anthem at the 2002 super bowl?"
+          },
+          "retrieved_at": "2026-10-16T22:58:10.864459",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.5317979454994202
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.5317979454994202,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who sang the national anthem at the 2002 super bowl?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [reference_agent]: first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977. Since Super Bowl XVI in 1982 (except 1985 and\n- [web_agent]: Mariah Carey performing the US National Anthem at the Super Bowl XXXVI in Louisiana Superdome, New Orleans, Louisiana\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=15376140",
+        "title": "List of national anthem performers at the Super Bowl",
+        "snippet": "first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977. Since Super Bowl XVI in 1982 (except 1985 and",
+        "metadata": {
+          "search_query": "Who sang the national anthem at the 2002 super bowl?"
+        },
+        "retrieved_at": "2026-10-16T22:57:00.112368",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=1227585",
+        "title": "Super Bowl XLI",
+        "snippet": "time until Luke Bryan sang at Super Bowl LI that a male artist had sung the national anthem at a Super Bowl. Two days before the game, 4 tornadoes devastated",
+        "metadata": {
+          "search_query": "Who sang the national anthem at the 2002 super bowl?"
+        },
+        "retrieved_at": "2026-10-16T22:57:00.112390",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=29155",
+        "title": "Super Bowl XXX",
+        "snippet": "Super Bowl XXX was an American football game between the National Football Conference (NFC) champion Dallas Cowboys and the American Football Conference",
+        "metadata": {
+          "search_query": "Who sang the national anthem at the 2002 super bowl?"
+        },
+        "retrieved_at": "2026-10-16T22:57:00.112397",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=29132",
+        "title": "Super Bowl VI",
+        "snippet": "Super Bowl VI was an American football game between the National Football Conference (NFC) champion Dallas Cowboys and the American Football Conference",
+        "metadata": {
+          "search_query": "Who sang the national anthem at the 2002 super bowl?"
+        },
+        "retrieved_at": "2026-10-16T22:57:00.112403",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=29160",
+        "title": "Super Bowl XXXV",
+        "snippet": "Super Bowl XXXV was an American football game to decide the National Football League (NFL) champion for the 2000 Season between the American Football",
+        "metadata": {
+          "search_query": "Who sang the national anthem at the 2002 super bowl?"
+        },
+        "retrieved_at": "2026-10-16T22:57:00.112409",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R43P9ofkOyg",
+        "title": "Mariah Carey - The Star-Spangled Banner (Super Bowl 2002)",
+        "snippet": "Mariah Carey performing the US National Anthem at the Super Bowl XXXVI in Louisiana Superdome, New Orleans, Louisiana",
+        "metadata": {
+          "search_query": "Who sang the national anthem at the 2002 super bowl?"
+        },
+        "retrieved_at": "2026-10-16T22:58:10.864459",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=9q0QxfYfoJY",
+        "title": "Mariah Carey - The Star Spangled Banner @ 2002 Superbowl",
+        "snippet": "Mariah Carey - The Star Spangled Banner @ 2002 Superbowl MariahCarey2006 184 subscribers Subscribe",
+        "metadata": {
+          "search_query": "Who sang the national anthem at the 2002 super bowl?"
+        },
+        "retrieved_at": "2026-10-16T22:58:10.864474",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_national_anthem_performers_at_the_Super_Bowl",
+        "title": "List of national anthem performers at the Super Bowl - Wikipedia",
+        "snippet": "Jennifer Hudson sings the national anthem at Super Bowl XLIII. \"The Star-Spangled Banner\" is the national anthem of the United States. It has been performed at all but one Super Bowl since its first year in 1967; Vikki Carr sang \"America the Beautiful\" in place of the anthem at Super Bowl XI in 1977.",
+        "metadata": {
+          "search_query": "Who sang the national anthem at the 2002 super bowl?"
+        },
+        "retrieved_at": "2026-10-16T22:58:10.864483",
+        "credibility_score": null
+      },
+      {
+        "url": "https://mariahcareynetwork.com/tv/appearances/superbowl.html",
+        "title": "The Mariah Network",
+        "snippet": "Super Bowl XXXVI Mariah Carey, accompanied by the Boston Pops, performed the National Anthem at Super Bowl XXXVI at the Louisiana Superdome in New Orleans on February 3, 2002.",
+        "metadata": {
+          "search_query": "Who sang the national anthem at the 2002 super bowl?"
+        },
+        "retrieved_at": "2026-10-16T22:58:10.864490",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.profootballnetwork.com/every-super-bowl-national-anthem-singer-complete-list-updated-2026/",
+        "title": "Every Super Bowl National Anthem Singer: Complete List (Updated 2026)",
+        "snippet": "With Charlie Puth set to sing at Super Bowl 60 in 2026, here is a complete year-by-year look at every Super Bowl national anthem performer from 1967 through the present. Dive into PFSN's NFL Mock Draft Simulator and run a mock by yourself or with your friends!",
+        "metadata": {
+          "search_query": "Who sang the national anthem at the 2002 super bowl?"
+        },
+        "retrieved_at": "2026-10-16T22:58:10.864498",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T22:59:14.905861"
+  },
+  "metrics": {
+    "latency_seconds": 134.79705691337585,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 2,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 0,
+        "failed": 2
+      }
+    },
+    "retrieval_failure_rate": 0.25,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "system": "proposed_mad"
+  },
+  "started_at": "2026-10-16T22:57:00.108798",
+  "completed_at": "2026-10-16T22:59:14.905923",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0091",
+    "query": "Who sang the national anthem at the 2002 super bowl?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Mariah Carey",
+    "required_facts": [
+      "Mariah Carey"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 115,
+      "answer_variants": [
+        "Mariah Carey"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 2,3,4,5,7 and 10",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Faith Hill performed the anthem at Super Bowl XXXIV in 2000. It became popular in country radio. Following the September 11 attacks, her version entered the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "americanfootball.fandom.com",
+          "text": "Performer list ; XXXVI, 2002, Superdome, New Orleans, Mariah Carey ASL performed by New Orleans Police Officer Joe Narcisse ; XXXVII, 2003, Qualcomm Stadium, San ...",
+          "supports_answers": [
+            "Mariah Carey"
+          ]
+        },
+        {
+          "source_domain": "www.betfirm.com",
+          "text": "List of National Anthem Performers Preceding the Super Bowl ; XXXVI, 2002, Mariah Carey ; XXXV, 2001, Backstreet Boys ; XXXIV, 2000, Faith Hill ; XXXIII, 1999, Cher.",
+          "supports_answers": [
+            "Mariah Carey"
+          ]
+        },
+        {
+          "source_domain": "people.com",
+          "text": "Feb 12, 2023 ... A History of Super Bowl National Anthem Singers ... with the occasional actor or singer sprinkled in. ... 2002: Mariah Carey. super bowl ...",
+          "supports_answers": [
+            "Mariah Carey"
+          ]
+        },
+        {
+          "source_domain": "www.rollingstone.com",
+          "text": "Feb 12, 2023 ... Mariah Carey (2002). Mariah Carey sings National Anthem. (Photo by Theo Wargo/Getty Images).",
+          "supports_answers": [
+            "Mariah Carey"
+          ]
+        },
+        {
+          "source_domain": "www.eonline.com",
+          "text": "Feb 12, 2023 ... Natalie Cole. In 1994, Natalie Cole appeared at Super Bowl XXVIII alongside the Atlanta University Center Chorus to sing the National Anthem.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "deadspin.com",
+          "text": "Feb 8, 2023 ... The Best - Mariah Carey - Super Bowl XXXVI (2002) ... Just a few months after 9/11, when the world still felt like it had turned upside down, ...",
+          "supports_answers": [
+            "Mariah Carey"
+          ]
+        },
+        {
+          "source_domain": "www.eonline.com",
+          "text": "Feb 12, 2023 ... In 2002, the \"We Belong Together\" singer performed the National Anthem at Super Bowl XXXVI in New Orleans. Dixie Chicks, 2003 Super Bowl, Anthem ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nbcbayarea.com",
+          "text": "Feb 3, 2023 ... Super Bowl XXVI: Harry Connick Jr. Super Bowl XXV: Whitney Houston, Florida Orchestra. Super Bowl XXIV: Aaron Neville. Super Bowl XXIII: Billy ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "societyofrock.com",
+          "text": "Here we found a clip of Mariah Carey singing the National Anthem at Super Bowl XXXVI where the New England Patriots defeated the St. Louis Rams.",
+          "supports_answers": [
+            "Mariah Carey"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "proposed_mad",
+  "evaluation_seconds": 134.814,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

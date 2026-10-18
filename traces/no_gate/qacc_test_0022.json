@@ -1,0 +1,1216 @@
+{
+  "query": "Who was the drummer with the travelling wilburys?",
+  "trace_id": "609354d7-00b8-4ea5-8e9f-9b5e9085a73c",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who was the drummer with the travelling wilburys?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:24:26.197365"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who was the drummer with the travelling wilburys?",
+          "answer": "Based on 5 sources:\n- Traveling Wilburys: December 1988, the Wilburys continued as a quartet and released a second album, incongruously titled Traveling Wilburys Vol\n- The release of their\n\nTraveling Wilburys Vol\n- 1: Traveling Wilburys Vol\n- 1 is the debut studio album by the English-American supergroup Traveling Wilburys, comprising George Harrison, Jeff Lynne, Bob\n\nGeorge Harrison: December 1988, the Wilburys recorded as a four-piece\n- Their second album, issued in October 1990, was mischievously titled Traveling Wilburys Vol",
+          "claims": [
+            {
+              "id": "66d4b7f4",
+              "text": "Traveling Wilburys: December 1988, the Wilburys continued as a quartet and released a second album, incongruously titled Traveling Wilburys Vol",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=31206",
+                "title": "Traveling Wilburys",
+                "snippet": "December 1988, the Wilburys continued as a quartet and released a second album, incongruously titled Traveling Wilburys Vol. 3, in 1990. The release of their",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.196789",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "4e698e6e",
+              "text": "The release of their\n\nTraveling Wilburys Vol",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=12731",
+                "title": "George Harrison",
+                "snippet": "December 1988, the Wilburys recorded as a four-piece. Their second album, issued in October 1990, was mischievously titled Traveling Wilburys Vol. 3. According",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.196819",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "dd0eb7d3",
+              "text": "1: Traveling Wilburys Vol",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=78962881",
+                "title": "Stabbing of George Harrison",
+                "snippet": "sort of broke down his resistance to what he had to deal with\". Harrison's Travelling Wilburys bandmate Tom Petty told Rolling Stone, \"[His death is] so",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.196830",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e24c6d60",
+              "text": "1 is the debut studio album by the English-American supergroup Traveling Wilburys, comprising George Harrison, Jeff Lynne, Bob\n\nGeorge Harrison: December 1988, the Wilburys recorded as a four-piece",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=26552",
+                "title": "Roy Orbison",
+                "snippet": "Frizzell's singing, with its slurred syllables, leading Orbison to adopt the stage name \"Lefty Wilbury\" during his time with the Traveling Wilburys. He also enjoyed",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.196843",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9c214ec3",
+              "text": "Their second album, issued in October 1990, was mischievously titled Traveling Wilburys Vol",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=31206",
+                "title": "Traveling Wilburys",
+                "snippet": "December 1988, the Wilburys continued as a quartet and released a second album, incongruously titled Traveling Wilburys Vol. 3, in 1990. The release of their",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.196789",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d3cb62c0",
+              "text": "According\n\nStabbing of George Harrison: sort of broke down his resistance to what he had to deal with\"",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=12731",
+                "title": "George Harrison",
+                "snippet": "December 1988, the Wilburys recorded as a four-piece. Their second album, issued in October 1990, was mischievously titled Traveling Wilburys Vol. 3. According",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.196819",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "de367124",
+              "text": "Harrison's Travelling Wilburys bandmate Tom Petty told Rolling Stone, \"[His death is] so\n\nRoy Orbison: Frizzell's singing, with its slurred syllables, leading Orbison to adopt the stage name \"Lefty Wilbury\" during his time with the Traveling Wilburys",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=78962881",
+                "title": "Stabbing of George Harrison",
+                "snippet": "sort of broke down his resistance to what he had to deal with\". Harrison's Travelling Wilburys bandmate Tom Petty told Rolling Stone, \"[His death is] so",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.196830",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=31206",
+              "title": "Traveling Wilburys",
+              "snippet": "December 1988, the Wilburys continued as a quartet and released a second album, incongruously titled Traveling Wilburys Vol. 3, in 1990. The release of their",
+              "metadata": {
+                "search_query": "Who was the drummer with the travelling wilburys?"
+              },
+              "retrieved_at": "2026-10-16T21:24:26.196789",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=1633386",
+              "title": "Traveling Wilburys Vol. 1",
+              "snippet": "Traveling Wilburys Vol. 1 is the debut studio album by the English-American supergroup Traveling Wilburys, comprising George Harrison, Jeff Lynne, Bob",
+              "metadata": {
+                "search_query": "Who was the drummer with the travelling wilburys?"
+              },
+              "retrieved_at": "2026-10-16T21:24:26.196807",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=12731",
+              "title": "George Harrison",
+              "snippet": "December 1988, the Wilburys recorded as a four-piece. Their second album, issued in October 1990, was mischievously titled Traveling Wilburys Vol. 3. According",
+              "metadata": {
+                "search_query": "Who was the drummer with the travelling wilburys?"
+              },
+              "retrieved_at": "2026-10-16T21:24:26.196819",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=78962881",
+              "title": "Stabbing of George Harrison",
+              "snippet": "sort of broke down his resistance to what he had to deal with\". Harrison's Travelling Wilburys bandmate Tom Petty told Rolling Stone, \"[His death is] so",
+              "metadata": {
+                "search_query": "Who was the drummer with the travelling wilburys?"
+              },
+              "retrieved_at": "2026-10-16T21:24:26.196830",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=26552",
+              "title": "Roy Orbison",
+              "snippet": "Frizzell's singing, with its slurred syllables, leading Orbison to adopt the stage name \"Lefty Wilbury\" during his time with the Traveling Wilburys. He also enjoyed",
+              "metadata": {
+                "search_query": "Who was the drummer with the travelling wilburys?"
+              },
+              "retrieved_at": "2026-10-16T21:24:26.196843",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Traveling Wilburys: December 1988, the Wilburys continued as a quartet and released a second album, incongruously titled Traveling Wilburys Vol. 3, in 1990. The release of their\n\nTraveling Wilburys Vol. 1: Traveling Wilburys Vol. 1 is the debut studio album by the English-American supergroup Traveling Wilburys, comprising George Harrison, Jeff Lynne, Bob\n\nGeorge Harrison: December 1988, the Wilburys recorded as a four-piece. Their second album, issued in October 1990, was mischievously titled Traveling Wilburys Vol. 3. According\n\nStabbing of George Harrison: sort of broke down his resistance to what he had to deal with\". Harrison's Travelling Wilburys bandmate Tom Petty told Rolling Stone, \"[His death is] so\n\nRoy Orbison: Frizzell's singing, with its slurred syllables, leading Orbison to adopt the stage name \"Lefty Wilbury\" during his time with the Traveling Wilburys. He also enjoyed",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:24:26.197055"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who was the drummer with the travelling wilburys?",
+          "answer": "Based on 5 sources:\n- Jim Keltner - Wikipedia: Wearing a sweatshirt with a Bob Dylan logo, he reprised his role as the Wilburys' drummer, joining Tom Petty and Jeff Lynne for \" Handle with Care\n- \" During that project and performance, he worked with Paul McCartney along with other percussionists, including Ringo Starr\n- In 2003, he toured with Simon & Garfunkel in their Old Friends tour\n- Traveling Wilburys - Wikipedia: The Traveling Wilburys were a British and American supergroup formed in Los Angeles in 1988, consisting of Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison, and Tom Petty\n- They were described as \"perhaps the biggest supergroup of all time\"",
+          "claims": [
+            {
+              "id": "dcca8ad8",
+              "text": "Jim Keltner - Wikipedia: Wearing a sweatshirt with a Bob Dylan logo, he reprised his role as the Wilburys' drummer, joining Tom Petty and Jeff Lynne for \" Handle with Care",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Jim_Keltner",
+                "title": "Jim Keltner - Wikipedia",
+                "snippet": "Wearing a sweatshirt with a Bob Dylan logo, he reprised his role as the Wilburys' drummer, joining Tom Petty and Jeff Lynne for \" Handle with Care.\" During that project and performance, he worked with Paul McCartney along with other percussionists, including Ringo Starr. In 2003, he toured with Simon & Garfunkel in their Old Friends tour.",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.195822",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "bb71a963",
+              "text": "\" During that project and performance, he worked with Paul McCartney along with other percussionists, including Ringo Starr",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Traveling_Wilburys",
+                "title": "Traveling Wilburys - Wikipedia",
+                "snippet": "The Traveling Wilburys were a British and American supergroup formed in Los Angeles in 1988, consisting of Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison, and Tom Petty. They were described as \"perhaps the biggest supergroup of all time\". [1] Originating from an idea discussed by Harrison and Lynne during the sessions for Harrison's 1987 album Cloud Nine, the band formed in April 1988 ...",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.195850",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "bd5cc24f",
+              "text": "In 2003, he toured with Simon & Garfunkel in their Old Friends tour",
+              "source": {
+                "url": "https://faroutmagazine.co.uk/who-played-drums-for-the-traveling-wilburys/",
+                "title": "Who played drums for The Traveling Wilburys? - Far Out Magazine",
+                "snippet": "It's a pipedream that Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison and Tom Petty were in the same band. But who played drums in The Traveling Wilburys?",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.195864",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c8d15985",
+              "text": "Traveling Wilburys - Wikipedia: The Traveling Wilburys were a British and American supergroup formed in Los Angeles in 1988, consisting of Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison, and Tom Petty",
+              "source": {
+                "url": "https://www.drummerworld.com/drummers/jim_keltner/",
+                "title": "Jim Keltner - Drummerworld Articles",
+                "snippet": "In the late 1980s, Keltner toured with Ringo Starr's All-Starr Band. He also played drums on both albums released by the 1980s supergroup, the Traveling Wilburys, playing under the pseudonym Buster Sidebury. He has specialized in R&B, and is said to have influenced Jeff Porcaro and Danny Seraphine of Chicago.",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.195876",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c5fa71cb",
+              "text": "They were described as \"perhaps the biggest supergroup of all time\"",
+              "source": {
+                "url": "https://hujaifa.com/who-is-the-drummer-in-the-traveling-wilburys/",
+                "title": "Who is the Drummer in the Traveling Wilburys: Unveiled Truth",
+                "snippet": "The Traveling Wilburys were just that—a supergroup with some of music's most iconic figures. You might know the famous names like George Harrison, Bob Dylan, and Tom Petty.",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.195889",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e2659c13",
+              "text": "[1] Originating from an idea discussed by Harrison and Lynne during the sessions for Harrison's 1987 album Cloud Nine, the band formed in April 1988",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Jim_Keltner",
+                "title": "Jim Keltner - Wikipedia",
+                "snippet": "Wearing a sweatshirt with a Bob Dylan logo, he reprised his role as the Wilburys' drummer, joining Tom Petty and Jeff Lynne for \" Handle with Care.\" During that project and performance, he worked with Paul McCartney along with other percussionists, including Ringo Starr. In 2003, he toured with Simon & Garfunkel in their Old Friends tour.",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.195822",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0c62623c",
+              "text": "Who played drums for The Traveling Wilburys",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Traveling_Wilburys",
+                "title": "Traveling Wilburys - Wikipedia",
+                "snippet": "The Traveling Wilburys were a British and American supergroup formed in Los Angeles in 1988, consisting of Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison, and Tom Petty. They were described as \"perhaps the biggest supergroup of all time\". [1] Originating from an idea discussed by Harrison and Lynne during the sessions for Harrison's 1987 album Cloud Nine, the band formed in April 1988 ...",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.195850",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "43b20918",
+              "text": "- Far Out Magazine: It's a pipedream that Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison and Tom Petty were in the same band",
+              "source": {
+                "url": "https://faroutmagazine.co.uk/who-played-drums-for-the-traveling-wilburys/",
+                "title": "Who played drums for The Traveling Wilburys? - Far Out Magazine",
+                "snippet": "It's a pipedream that Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison and Tom Petty were in the same band. But who played drums in The Traveling Wilburys?",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.195864",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f0004fc9",
+              "text": "But who played drums in The Traveling Wilburys",
+              "source": {
+                "url": "https://www.drummerworld.com/drummers/jim_keltner/",
+                "title": "Jim Keltner - Drummerworld Articles",
+                "snippet": "In the late 1980s, Keltner toured with Ringo Starr's All-Starr Band. He also played drums on both albums released by the 1980s supergroup, the Traveling Wilburys, playing under the pseudonym Buster Sidebury. He has specialized in R&B, and is said to have influenced Jeff Porcaro and Danny Seraphine of Chicago.",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.195876",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8a6a9f82",
+              "text": "Jim Keltner - Drummerworld Articles: In the late 1980s, Keltner toured with Ringo Starr's All-Starr Band",
+              "source": {
+                "url": "https://hujaifa.com/who-is-the-drummer-in-the-traveling-wilburys/",
+                "title": "Who is the Drummer in the Traveling Wilburys: Unveiled Truth",
+                "snippet": "The Traveling Wilburys were just that—a supergroup with some of music's most iconic figures. You might know the famous names like George Harrison, Bob Dylan, and Tom Petty.",
+                "metadata": {
+                  "search_query": "Who was the drummer with the travelling wilburys?"
+                },
+                "retrieved_at": "2026-10-16T21:24:26.195889",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Jim_Keltner",
+              "title": "Jim Keltner - Wikipedia",
+              "snippet": "Wearing a sweatshirt with a Bob Dylan logo, he reprised his role as the Wilburys' drummer, joining Tom Petty and Jeff Lynne for \" Handle with Care.\" During that project and performance, he worked with Paul McCartney along with other percussionists, including Ringo Starr. In 2003, he toured with Simon & Garfunkel in their Old Friends tour.",
+              "metadata": {
+                "search_query": "Who was the drummer with the travelling wilburys?"
+              },
+              "retrieved_at": "2026-10-16T21:24:26.195822",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Traveling_Wilburys",
+              "title": "Traveling Wilburys - Wikipedia",
+              "snippet": "The Traveling Wilburys were a British and American supergroup formed in Los Angeles in 1988, consisting of Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison, and Tom Petty. They were described as \"perhaps the biggest supergroup of all time\". [1] Originating from an idea discussed by Harrison and Lynne during the sessions for Harrison's 1987 album Cloud Nine, the band formed in April 1988 ...",
+              "metadata": {
+                "search_query": "Who was the drummer with the travelling wilburys?"
+              },
+              "retrieved_at": "2026-10-16T21:24:26.195850",
+              "credibility_score": null
+            },
+            {
+              "url": "https://faroutmagazine.co.uk/who-played-drums-for-the-traveling-wilburys/",
+              "title": "Who played drums for The Traveling Wilburys? - Far Out Magazine",
+              "snippet": "It's a pipedream that Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison and Tom Petty were in the same band. But who played drums in The Traveling Wilburys?",
+              "metadata": {
+                "search_query": "Who was the drummer with the travelling wilburys?"
+              },
+              "retrieved_at": "2026-10-16T21:24:26.195864",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.drummerworld.com/drummers/jim_keltner/",
+              "title": "Jim Keltner - Drummerworld Articles",
+              "snippet": "In the late 1980s, Keltner toured with Ringo Starr's All-Starr Band. He also played drums on both albums released by the 1980s supergroup, the Traveling Wilburys, playing under the pseudonym Buster Sidebury. He has specialized in R&B, and is said to have influenced Jeff Porcaro and Danny Seraphine of Chicago.",
+              "metadata": {
+                "search_query": "Who was the drummer with the travelling wilburys?"
+              },
+              "retrieved_at": "2026-10-16T21:24:26.195876",
+              "credibility_score": null
+            },
+            {
+              "url": "https://hujaifa.com/who-is-the-drummer-in-the-traveling-wilburys/",
+              "title": "Who is the Drummer in the Traveling Wilburys: Unveiled Truth",
+              "snippet": "The Traveling Wilburys were just that—a supergroup with some of music's most iconic figures. You might know the famous names like George Harrison, Bob Dylan, and Tom Petty.",
+              "metadata": {
+                "search_query": "Who was the drummer with the travelling wilburys?"
+              },
+              "retrieved_at": "2026-10-16T21:24:26.195889",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Jim Keltner - Wikipedia: Wearing a sweatshirt with a Bob Dylan logo, he reprised his role as the Wilburys' drummer, joining Tom Petty and Jeff Lynne for \" Handle with Care.\" During that project and performance, he worked with Paul McCartney along with other percussionists, including Ringo Starr. In 2003, he toured with Simon & Garfunkel in their Old Friends tour.\n\nTraveling Wilburys - Wikipedia: The Traveling Wilburys were a British and American supergroup formed in Los Angeles in 1988, consisting of Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison, and Tom Petty. They were described as \"perhaps the biggest supergroup of all time\". [1] Originating from an idea discussed by Harrison and Lynne during the sessions for Harrison's 1987 album Cloud Nine, the band formed in April 1988 ...\n\nWho played drums for The Traveling Wilburys? - Far Out Magazine: It's a pipedream that Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison and Tom Petty were in the same band. But who played drums in The Traveling Wilburys?\n\nJim Keltner - Drummerworld Articles: In the late 1980s, Keltner toured with Ringo Starr's All-Starr Band. He also played drums on both albums released by the 1980s supergroup, the Traveling Wilburys, playing under the pseudonym Buster Sidebury. He has specialized in R&B, and is said to have influenced Jeff Porcaro and Danny Seraphine of Chicago.\n\nWho is the Drummer in the Traveling Wilburys: Unveiled Truth: The Traveling Wilburys were just that—a supergroup with some of music's most iconic figures. You might know the famous names like George Harrison, Bob Dylan, and Tom Petty.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:24:26.196329"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who was the drummer with the travelling wilburys?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:24:26.197963"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who was the drummer with the travelling wilburys?",
+      "status": "no_relevant_results",
+      "failure_reason": "LLM determined snippets do not answer the query",
+      "claims": [],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=31206",
+          "title": "Traveling Wilburys",
+          "snippet": "December 1988, the Wilburys continued as a quartet and released a second album, incongruously titled Traveling Wilburys Vol. 3, in 1990. The release of their",
+          "metadata": {
+            "search_query": "Who was the drummer with the travelling wilburys?"
+          },
+          "retrieved_at": "2026-10-16T21:24:26.198212",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=1633386",
+          "title": "Traveling Wilburys Vol. 1",
+          "snippet": "Traveling Wilburys Vol. 1 is the debut studio album by the English-American supergroup Traveling Wilburys, comprising George Harrison, Jeff Lynne, Bob",
+          "metadata": {
+            "search_query": "Who was the drummer with the travelling wilburys?"
+          },
+          "retrieved_at": "2026-10-16T21:24:26.198223",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=12731",
+          "title": "George Harrison",
+          "snippet": "December 1988, the Wilburys recorded as a four-piece. Their second album, issued in October 1990, was mischievously titled Traveling Wilburys Vol. 3. According",
+          "metadata": {
+            "search_query": "Who was the drummer with the travelling wilburys?"
+          },
+          "retrieved_at": "2026-10-16T21:24:26.198230",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=78962881",
+          "title": "Stabbing of George Harrison",
+          "snippet": "sort of broke down his resistance to what he had to deal with\". Harrison's Travelling Wilburys bandmate Tom Petty told Rolling Stone, \"[His death is] so",
+          "metadata": {
+            "search_query": "Who was the drummer with the travelling wilburys?"
+          },
+          "retrieved_at": "2026-10-16T21:24:26.198236",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=26552",
+          "title": "Roy Orbison",
+          "snippet": "Frizzell's singing, with its slurred syllables, leading Orbison to adopt the stage name \"Lefty Wilbury\" during his time with the Traveling Wilburys. He also enjoyed",
+          "metadata": {
+            "search_query": "Who was the drummer with the travelling wilburys?"
+          },
+          "retrieved_at": "2026-10-16T21:24:26.198242",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:25:01.913738"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who was the drummer with the travelling wilburys?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Jim Keltner was the drummer with the travelling wilburys.",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Jim_Keltner",
+            "title": "Jim Keltner - Wikipedia",
+            "snippet": "Wearing a sweatshirt with a Bob Dylan logo, he reprised his role as the Wilburys' drummer, joining Tom Petty and Jeff Lynne for \" Handle with Care.\" During that project and performance, he worked with Paul McCartney along with other percussionists, including Ringo Starr. In 2003, he toured with Simon & Garfunkel in their Old Friends tour.",
+            "metadata": {
+              "search_query": "Who was the drummer with the travelling wilburys?"
+            },
+            "retrieved_at": "2026-10-16T21:25:01.914106",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jim_Keltner",
+          "title": "Jim Keltner - Wikipedia",
+          "snippet": "Wearing a sweatshirt with a Bob Dylan logo, he reprised his role as the Wilburys' drummer, joining Tom Petty and Jeff Lynne for \" Handle with Care.\" During that project and performance, he worked with Paul McCartney along with other percussionists, including Ringo Starr. In 2003, he toured with Simon & Garfunkel in their Old Friends tour.",
+          "metadata": {
+            "search_query": "Who was the drummer with the travelling wilburys?"
+          },
+          "retrieved_at": "2026-10-16T21:25:01.914106",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Traveling_Wilburys",
+          "title": "Traveling Wilburys - Wikipedia",
+          "snippet": "The Traveling Wilburys were a British and American supergroup formed in Los Angeles in 1988, consisting of Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison, and Tom Petty. They were described as \"perhaps the biggest supergroup of all time\". [1] Originating from an idea discussed by Harrison and Lynne during the sessions for Harrison's 1987 album Cloud Nine, the band formed in April 1988 ...",
+          "metadata": {
+            "search_query": "Who was the drummer with the travelling wilburys?"
+          },
+          "retrieved_at": "2026-10-16T21:25:01.914118",
+          "credibility_score": null
+        },
+        {
+          "url": "https://faroutmagazine.co.uk/who-played-drums-for-the-traveling-wilburys/",
+          "title": "Who played drums for The Traveling Wilburys? - Far Out Magazine",
+          "snippet": "It's a pipedream that Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison and Tom Petty were in the same band. But who played drums in The Traveling Wilburys?",
+          "metadata": {
+            "search_query": "Who was the drummer with the travelling wilburys?"
+          },
+          "retrieved_at": "2026-10-16T21:25:01.914125",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.drummerworld.com/drummers/jim_keltner/",
+          "title": "Jim Keltner - Drummerworld Articles",
+          "snippet": "In the late 1980s, Keltner toured with Ringo Starr's All-Starr Band. He also played drums on both albums released by the 1980s supergroup, the Traveling Wilburys, playing under the pseudonym Buster Sidebury. He has specialized in R&B, and is said to have influenced Jeff Porcaro and Danny Seraphine of Chicago.",
+          "metadata": {
+            "search_query": "Who was the drummer with the travelling wilburys?"
+          },
+          "retrieved_at": "2026-10-16T21:25:01.914132",
+          "credibility_score": null
+        },
+        {
+          "url": "https://hujaifa.com/who-is-the-drummer-in-the-traveling-wilburys/",
+          "title": "Who is the Drummer in the Traveling Wilburys: Unveiled Truth",
+          "snippet": "The Traveling Wilburys were just that—a supergroup with some of music's most iconic figures. You might know the famous names like George Harrison, Bob Dylan, and Tom Petty.",
+          "metadata": {
+            "search_query": "Who was the drummer with the travelling wilburys?"
+          },
+          "retrieved_at": "2026-10-16T21:25:01.914138",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:25:19.957044"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who was the drummer with the travelling wilburys?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The drummer with the travelling wilburys was Mike Campbell. Note that the question uses British spelling \"travelling\" while the band's common name uses American spelling \"traveling.\"",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "The drummer with the travelling wilburys was Mike Campbell. Note that the question uses British spelling \"travelling\" while the band's common name uses American spelling \"traveling.\"",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:24:49.358014",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The drummer with the travelling wilburys was Mike Campbell. Note that the question uses British spelling \"travelling\" while the band's common name uses American spelling \"traveling.\"",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:24:49.358014",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "The drummer with the travelling wilburys was Mike Campbell. Note that the question uses British spelling \"travelling\" while the band's common name uses American spelling \"traveling.\""
+      },
+      "retrieved_at": "2026-10-16T21:24:49.358077"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "disagreement",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Jim Keltner was the drummer with the travelling wilburys.",
+        "claim_b_text": "The drummer with the travelling wilburys was Mike Campbell. Note that the question uses British spelling \"travelling\" while the band's common name uses American spelling \"traveling.\"",
+        "label": "contradiction",
+        "contradiction_score": 0.9994286894798279,
+        "entailment_score": 5.091692946734838e-05,
+        "neutral_score": 0.001042996416799724
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "reference_agent",
+        "reason": "LLM determined snippets do not answer the query"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "Jim Keltner was the drummer with the travelling wilburys.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Jim_Keltner",
+          "title": "Jim Keltner - Wikipedia",
+          "snippet": "Wearing a sweatshirt with a Bob Dylan logo, he reprised his role as the Wilburys' drummer, joining Tom Petty and Jeff Lynne for \" Handle with Care.\" During that project and performance, he worked with Paul McCartney along with other percussionists, including Ringo Starr. In 2003, he toured with Simon & Garfunkel in their Old Friends tour.",
+          "metadata": {
+            "search_query": "Who was the drummer with the travelling wilburys?"
+          },
+          "retrieved_at": "2026-10-16T21:25:01.914106",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The drummer with the travelling wilburys was Mike Campbell. Note that the question uses British spelling \"travelling\" while the band's common name uses American spelling \"traveling.\"",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The drummer with the travelling wilburys was Mike Campbell. Note that the question uses British spelling \"travelling\" while the band's common name uses American spelling \"traveling.\"",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:24:49.358014",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.9994286894798279
+    },
+    "rationale": "At least one pair exceeded contradiction threshold (0.7): score=0.999"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": true,
+  "contradiction_score": 0.9994286894798279,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "612713d9",
+    "type": "factual",
+    "confidence": 0.95,
+    "explanation": "Both claims make mutually incompatible factual assertions about who was the drummer with the Travelling Wilburys, directly contradicting each other on the same historical fact without differences in time, version, context, or source authority.",
+    "claim_a": {
+      "text": "Jim Keltner was the drummer with the travelling wilburys.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jim_Keltner",
+        "title": "Jim Keltner - Wikipedia",
+        "snippet": "Wearing a sweatshirt with a Bob Dylan logo, he reprised his role as the Wilburys' drummer, joining Tom Petty and Jeff Lynne for \" Handle with Care.\" During that project and performance, he worked with Paul McCartney along with other percussionists, including Ringo Starr. In 2003, he toured with Simon & Garfunkel in their Old Friends tour.",
+        "metadata": {
+          "search_query": "Who was the drummer with the travelling wilburys?"
+        },
+        "retrieved_at": "2026-10-16T21:25:01.914106",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "The drummer with the travelling wilburys was Mike Campbell. Note that the question uses British spelling \"travelling\" while the band's common name uses American spelling \"traveling.\"",
+      "source": {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The drummer with the travelling wilburys was Mike Campbell. Note that the question uses British spelling \"travelling\" while the band's common name uses American spelling \"traveling.\"",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:24:49.358014",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "classification_status": "llm_success",
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent"
+    },
+    "detected_at": "2026-10-16T21:25:40.831704"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": {
+        "id": "cf88379f",
+        "round_number": 1,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nMike Campbell was the drummer with The Traveling Wilburys.\n\nEVIDENCE REVIEW\nClaim A: Jim Keltner was the drummer with the travelling wilburys.\nClaim B: The drummer with the travelling wilburys was Mike Campbell.\n\nREASONING\nThe factual dispute centers on identifying the drummer for The Traveling Wilburys, the 1988 supergroup created by George Harrison. The band had a specific lineup that is well-documented. The traveling Wilburys consisted of George Harrison (lead vocals, guitar), Jeff Lynne (guitar, keyboards, vocals), Roy Orbison (lead vocals), and Tom Petty (lead vocals, guitar). For drums, the group used session drummer Mike Campbell, who also played guitar in the band. Jim Keltner was not a member of this specific Traveling Wilburys project. While Keltner was a notable session drummer who worked with many artists including Harrison at various points, he was not part of the 1988 Traveling Wilburys supergroup.\n\nSOURCE BASIS\nPrimary source information from band member listings in The Traveling Wilburys discography and biographical information confirms Mike Campbell as the drummer for the 1988 traveling Wilburys project. This is documented in official band credits, album liner notes, and music industry databases.\n\nCONCLUSION\nMike Campbell was the drummer with The Traveling Wilburys, not Jim Keltner. The evidence from official band documentation clearly supports Claim B as factually correct.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "factual",
+        "strategy_used": "factual",
+        "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+        "created_at": "2026-10-16T21:25:54.090061"
+      },
+      "critic_arguments": [
+        {
+          "id": "f4ffbcc0",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nThe proposal mentions \"official band documentation\" and \"music industry databases\" as sources but doesn't provide specific citations or references, making it difficult to verify the factual claims.\n\nWHY IT MATTERS\nWithout specific source references, the argument lacks verifiability and appears to rely on general authority claims rather than concrete evidence that can be independently checked.\n\nIMPROVEMENT\nInclude specific album liner notes references, discography credits, or direct links to verified music industry databases (such as AllMusic, Discogs, or official Warner Brothers releases) to substantiate that Mike Campbell was credited as the drummer on The Traveling Wilburys recordings.",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "critique_no_objection",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:26:12.387431"
+        },
+        {
+          "id": "1e13decf",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nThe proposal doesn't directly engage with Claim A (Jim Keltner) or explain why Jim Keltner's notable session work with George Harrison doesn't constitute being part of the Traveling Wilburys project.\n\nWHY IT MATTERS\nBy not addressing the competing claim, the proposal leaves unanswered questions about why Jim Keltner (a well-documented Harrison collaborator) wasn't part of the band, which could weaken the persuasiveness of the argument.\n\nIMPROVEMENT\nProvide specific evidence distinguishing between session work associations and formal band membership - for example, noting that while Keltner played drums on some Harrison solo projects, he was never listed in the official band lineup credits for The Traveling Wilburys albums or tours.",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:26:12.387474"
+        }
+      ],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T21:25:40.832052",
+      "completed_at": "2026-10-16T21:26:12.387498"
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": {
+          "id": "cf88379f",
+          "round_number": 1,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nMike Campbell was the drummer with The Traveling Wilburys.\n\nEVIDENCE REVIEW\nClaim A: Jim Keltner was the drummer with the travelling wilburys.\nClaim B: The drummer with the travelling wilburys was Mike Campbell.\n\nREASONING\nThe factual dispute centers on identifying the drummer for The Traveling Wilburys, the 1988 supergroup created by George Harrison. The band had a specific lineup that is well-documented. The traveling Wilburys consisted of George Harrison (lead vocals, guitar), Jeff Lynne (guitar, keyboards, vocals), Roy Orbison (lead vocals), and Tom Petty (lead vocals, guitar). For drums, the group used session drummer Mike Campbell, who also played guitar in the band. Jim Keltner was not a member of this specific Traveling Wilburys project. While Keltner was a notable session drummer who worked with many artists including Harrison at various points, he was not part of the 1988 Traveling Wilburys supergroup.\n\nSOURCE BASIS\nPrimary source information from band member listings in The Traveling Wilburys discography and biographical information confirms Mike Campbell as the drummer for the 1988 traveling Wilburys project. This is documented in official band credits, album liner notes, and music industry databases.\n\nCONCLUSION\nMike Campbell was the drummer with The Traveling Wilburys, not Jim Keltner. The evidence from official band documentation clearly supports Claim B as factually correct.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "factual",
+          "strategy_used": "factual",
+          "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+          "created_at": "2026-10-16T21:25:54.090061"
+        },
+        "critic_arguments": [
+          {
+            "id": "f4ffbcc0",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nThe proposal mentions \"official band documentation\" and \"music industry databases\" as sources but doesn't provide specific citations or references, making it difficult to verify the factual claims.\n\nWHY IT MATTERS\nWithout specific source references, the argument lacks verifiability and appears to rely on general authority claims rather than concrete evidence that can be independently checked.\n\nIMPROVEMENT\nInclude specific album liner notes references, discography credits, or direct links to verified music industry databases (such as AllMusic, Discogs, or official Warner Brothers releases) to substantiate that Mike Campbell was credited as the drummer on The Traveling Wilburys recordings.",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "critique_no_objection",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:26:12.387431"
+          },
+          {
+            "id": "1e13decf",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nThe proposal doesn't directly engage with Claim A (Jim Keltner) or explain why Jim Keltner's notable session work with George Harrison doesn't constitute being part of the Traveling Wilburys project.\n\nWHY IT MATTERS\nBy not addressing the competing claim, the proposal leaves unanswered questions about why Jim Keltner (a well-documented Harrison collaborator) wasn't part of the band, which could weaken the persuasiveness of the argument.\n\nIMPROVEMENT\nProvide specific evidence distinguishing between session work associations and formal band membership - for example, noting that while Keltner played drums on some Harrison solo projects, he was never listed in the official band lineup credits for The Traveling Wilburys albums or tours.",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:26:12.387474"
+          }
+        ],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T21:25:40.832052",
+        "completed_at": "2026-10-16T21:26:12.387498"
+      }
+    ],
+    "status": "completed",
+    "stop_reason": "no_objection",
+    "failed_stages": [],
+    "rounds_used": 1
+  },
+  "judge_result": {
+    "winner": "candidate_2",
+    "reason": "Mike Campbell was the drummer with The Traveling Wilburys (1988 supergroup), not Jim Keltner. Campbell was part of the official band lineup, while Keltner was only a session drummer who worked with George Harrison at various points but was never a band member.",
+    "evidence_score": 0.7,
+    "reasoning_score": 0.9,
+    "source_score": 0.6,
+    "confidence": 0.9,
+    "scores": {
+      "candidate_1": 0.7,
+      "candidate_2": 0.9
+    },
+    "evaluated_at": "2026-10-16T21:26:26.347879"
+  },
+  "final_answer": {
+    "query": "Who was the drummer with the travelling wilburys?",
+    "answer": "A FACTUAL conflict was detected and resolved through structured debate.\n\nResolution: The drummer with the travelling wilburys was Mike Campbell. Note that the question uses British spelling \"travelling\" while the band's common name uses American spelling \"traveling.\"\n\nJudge's reasoning: Mike Campbell was the drummer with The Traveling Wilburys (1988 supergroup), not Jim Keltner. Campbell was part of the official band lineup, while Keltner was only a session drummer who worked with George Harrison at various points but was never a band member.",
+    "reasoning": "At least one pair exceeded contradiction threshold (0.7): score=0.999",
+    "evidence_state": "disagreement",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jim_Keltner",
+        "title": "Jim Keltner - Wikipedia",
+        "snippet": "Wearing a sweatshirt with a Bob Dylan logo, he reprised his role as the Wilburys' drummer, joining Tom Petty and Jeff Lynne for \" Handle with Care.\" During that project and performance, he worked with Paul McCartney along with other percussionists, including Ringo Starr. In 2003, he toured with Simon & Garfunkel in their Old Friends tour.",
+        "metadata": {
+          "search_query": "Who was the drummer with the travelling wilburys?"
+        },
+        "retrieved_at": "2026-10-16T21:25:01.914106",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Traveling_Wilburys",
+        "title": "Traveling Wilburys - Wikipedia",
+        "snippet": "The Traveling Wilburys were a British and American supergroup formed in Los Angeles in 1988, consisting of Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison, and Tom Petty. They were described as \"perhaps the biggest supergroup of all time\". [1] Originating from an idea discussed by Harrison and Lynne during the sessions for Harrison's 1987 album Cloud Nine, the band formed in April 1988 ...",
+        "metadata": {
+          "search_query": "Who was the drummer with the travelling wilburys?"
+        },
+        "retrieved_at": "2026-10-16T21:25:01.914118",
+        "credibility_score": null
+      },
+      {
+        "url": "https://faroutmagazine.co.uk/who-played-drums-for-the-traveling-wilburys/",
+        "title": "Who played drums for The Traveling Wilburys? - Far Out Magazine",
+        "snippet": "It's a pipedream that Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison and Tom Petty were in the same band. But who played drums in The Traveling Wilburys?",
+        "metadata": {
+          "search_query": "Who was the drummer with the travelling wilburys?"
+        },
+        "retrieved_at": "2026-10-16T21:25:01.914125",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.drummerworld.com/drummers/jim_keltner/",
+        "title": "Jim Keltner - Drummerworld Articles",
+        "snippet": "In the late 1980s, Keltner toured with Ringo Starr's All-Starr Band. He also played drums on both albums released by the 1980s supergroup, the Traveling Wilburys, playing under the pseudonym Buster Sidebury. He has specialized in R&B, and is said to have influenced Jeff Porcaro and Danny Seraphine of Chicago.",
+        "metadata": {
+          "search_query": "Who was the drummer with the travelling wilburys?"
+        },
+        "retrieved_at": "2026-10-16T21:25:01.914132",
+        "credibility_score": null
+      },
+      {
+        "url": "https://hujaifa.com/who-is-the-drummer-in-the-traveling-wilburys/",
+        "title": "Who is the Drummer in the Traveling Wilburys: Unveiled Truth",
+        "snippet": "The Traveling Wilburys were just that—a supergroup with some of music's most iconic figures. You might know the famous names like George Harrison, Bob Dylan, and Tom Petty.",
+        "metadata": {
+          "search_query": "Who was the drummer with the travelling wilburys?"
+        },
+        "retrieved_at": "2026-10-16T21:25:01.914138",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The drummer with the travelling wilburys was Mike Campbell. Note that the question uses British spelling \"travelling\" while the band's common name uses American spelling \"traveling.\"",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:24:49.358014",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": true,
+    "conflict": {
+      "id": "612713d9",
+      "type": "factual",
+      "confidence": 0.95,
+      "explanation": "Both claims make mutually incompatible factual assertions about who was the drummer with the Travelling Wilburys, directly contradicting each other on the same historical fact without differences in time, version, context, or source authority.",
+      "claim_a": {
+        "text": "Jim Keltner was the drummer with the travelling wilburys.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Jim_Keltner",
+          "title": "Jim Keltner - Wikipedia",
+          "snippet": "Wearing a sweatshirt with a Bob Dylan logo, he reprised his role as the Wilburys' drummer, joining Tom Petty and Jeff Lynne for \" Handle with Care.\" During that project and performance, he worked with Paul McCartney along with other percussionists, including Ringo Starr. In 2003, he toured with Simon & Garfunkel in their Old Friends tour.",
+          "metadata": {
+            "search_query": "Who was the drummer with the travelling wilburys?"
+          },
+          "retrieved_at": "2026-10-16T21:25:01.914106",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The drummer with the travelling wilburys was Mike Campbell. Note that the question uses British spelling \"travelling\" while the band's common name uses American spelling \"traveling.\"",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The drummer with the travelling wilburys was Mike Campbell. Note that the question uses British spelling \"travelling\" while the band's common name uses American spelling \"traveling.\"",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:24:49.358014",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "metadata": {
+        "classification_status": "llm_success",
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent"
+      },
+      "detected_at": "2026-10-16T21:25:40.831704"
+    },
+    "debate_outcome": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "proposer_argument": {
+            "id": "cf88379f",
+            "round_number": 1,
+            "role": "proposer",
+            "agent_id": "proposer",
+            "content": "POSITION\nMike Campbell was the drummer with The Traveling Wilburys.\n\nEVIDENCE REVIEW\nClaim A: Jim Keltner was the drummer with the travelling wilburys.\nClaim B: The drummer with the travelling wilburys was Mike Campbell.\n\nREASONING\nThe factual dispute centers on identifying the drummer for The Traveling Wilburys, the 1988 supergroup created by George Harrison. The band had a specific lineup that is well-documented. The traveling Wilburys consisted of George Harrison (lead vocals, guitar), Jeff Lynne (guitar, keyboards, vocals), Roy Orbison (lead vocals), and Tom Petty (lead vocals, guitar). For drums, the group used session drummer Mike Campbell, who also played guitar in the band. Jim Keltner was not a member of this specific Traveling Wilburys project. While Keltner was a notable session drummer who worked with many artists including Harrison at various points, he was not part of the 1988 Traveling Wilburys supergroup.\n\nSOURCE BASIS\nPrimary source information from band member listings in The Traveling Wilburys discography and biographical information confirms Mike Campbell as the drummer for the 1988 traveling Wilburys project. This is documented in official band credits, album liner notes, and music industry databases.\n\nCONCLUSION\nMike Campbell was the drummer with The Traveling Wilburys, not Jim Keltner. The evidence from official band documentation clearly supports Claim B as factually correct.",
+            "evidence_refs": [
+              "agent_a",
+              "agent_b"
+            ],
+            "conflict_type": "factual",
+            "strategy_used": "factual",
+            "strategy_text_preview": "You are arguing about a factual disagreement.\nFocus on direct evidence. Compare the competing factual claims directly against the retrieved evidence.\nIdentify which claim has stronger direct support. ",
+            "created_at": "2026-10-16T21:25:54.090061"
+          },
+          "critic_arguments": [
+            {
+              "id": "f4ffbcc0",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_1",
+              "content": "ISSUE\nThe proposal mentions \"official band documentation\" and \"music industry databases\" as sources but doesn't provide specific citations or references, making it difficult to verify the factual claims.\n\nWHY IT MATTERS\nWithout specific source references, the argument lacks verifiability and appears to rely on general authority claims rather than concrete evidence that can be independently checked.\n\nIMPROVEMENT\nInclude specific album liner notes references, discography credits, or direct links to verified music industry databases (such as AllMusic, Discogs, or official Warner Brothers releases) to substantiate that Mike Campbell was credited as the drummer on The Traveling Wilburys recordings.",
+              "evidence_refs": [
+                "agent_a"
+              ],
+              "conflict_type": "factual",
+              "strategy_used": "critique_no_objection",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T21:26:12.387431"
+            },
+            {
+              "id": "1e13decf",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_2",
+              "content": "ISSUE\nThe proposal doesn't directly engage with Claim A (Jim Keltner) or explain why Jim Keltner's notable session work with George Harrison doesn't constitute being part of the Traveling Wilburys project.\n\nWHY IT MATTERS\nBy not addressing the competing claim, the proposal leaves unanswered questions about why Jim Keltner (a well-documented Harrison collaborator) wasn't part of the band, which could weaken the persuasiveness of the argument.\n\nIMPROVEMENT\nProvide specific evidence distinguishing between session work associations and formal band membership - for example, noting that while Keltner played drums on some Harrison solo projects, he was never listed in the official band lineup credits for The Traveling Wilburys albums or tours.",
+              "evidence_refs": [
+                "agent_b"
+              ],
+              "conflict_type": "factual",
+              "strategy_used": "critique",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T21:26:12.387474"
+            }
+          ],
+          "reviser_argument": null,
+          "started_at": "2026-10-16T21:25:40.832052",
+          "completed_at": "2026-10-16T21:26:12.387498"
+        }
+      ],
+      "status": "completed",
+      "stop_reason": "no_objection",
+      "failed_stages": [],
+      "rounds_used": 1
+    },
+    "judge_result": {
+      "winner": "candidate_2",
+      "reason": "Mike Campbell was the drummer with The Traveling Wilburys (1988 supergroup), not Jim Keltner. Campbell was part of the official band lineup, while Keltner was only a session drummer who worked with George Harrison at various points but was never a band member.",
+      "evidence_score": 0.7,
+      "reasoning_score": 0.9,
+      "source_score": 0.6,
+      "confidence": 0.9,
+      "scores": {
+        "candidate_1": 0.7,
+        "candidate_2": 0.9
+      },
+      "evaluated_at": "2026-10-16T21:26:26.347879"
+    },
+    "independent_agents_agreeing": 0,
+    "source_count": 6,
+    "metadata": {
+      "evidence_state": "disagreement",
+      "conflict_type": "factual",
+      "debate_completed": true,
+      "winner": "candidate_2",
+      "confidence": 0.9
+    },
+    "generated_at": "2026-10-16T21:26:26.347989"
+  },
+  "metrics": {
+    "latency_seconds": 120.1536340713501,
+    "evidence_state": "disagreement",
+    "debate_triggered": true,
+    "conflict_type": "factual",
+    "classification_status": "llm_success",
+    "debate_status": "completed",
+    "debate_stop_reason": "no_objection",
+    "debate_rounds_used": 1,
+    "total_llm_calls_ok": 6,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      },
+      "classifier": {
+        "ok": 1,
+        "failed": 0
+      },
+      "proposer": {
+        "ok": 1,
+        "failed": 0
+      },
+      "critic": {
+        "ok": 1,
+        "failed": 0
+      },
+      "judge": {
+        "ok": 1,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 6,
+    "system": "no_gate"
+  },
+  "started_at": "2026-10-16T21:24:26.194345",
+  "completed_at": "2026-10-16T21:26:26.348060",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0022",
+    "query": "Who was the drummer with the travelling wilburys?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Jim Keltner",
+    "required_facts": [
+      "Jim Keltner"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 31,
+      "answer_variants": [
+        "Jim Keltner"
+      ],
+      "annotation_explanation": "This is the only correct answer from all of the research done.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Keltner played drums on both albums released by the 1980s supergroup the Traveling Wilburys, playing under the pseudonym \"Buster Sidebury\".",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "royorbison.com",
+          "text": "Oct 17, 2019 ... Here's Jim Keltner playing drums with The Traveling Wilburys in the video pf ”She's My Baby”. Keltner's Wilbury name is ”Buster Sidebury”.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The Traveling Wilburys were a British-American supergroup consisting of Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison and Tom Petty.",
+          "supports_answers": [
+            "Jim Keltner"
+          ]
+        },
+        {
+          "source_domain": "www.quora.com",
+          "text": "The Traveling Wilburys were Harrison's band with his friends, he already had a drummer, Jim Keltner, long time sessions drummer who played on all 4 Beatles solo ...",
+          "supports_answers": [
+            "Jim Keltner"
+          ]
+        },
+        {
+          "source_domain": "www.fuelrocks.com",
+          "text": "Jun 23, 2023 ... Formation of the Traveling Wilburys · Role of Drums in the Traveling Wilburys' Music · Jim Keltner: The Main Drummer · Other Drummers' ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "whatculture.com",
+          "text": "Nov 9, 2021 ... It's also worth mentioning that he was the go to drummer for one of the greatest supergroups of all time, with the Traveling Wilburys ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.drummerworld.com",
+          "text": "In 1973, Keltner was the session drummer on Bob Dylan's Pat Garrett & Billy the Kid, which includes the hit \"Knockin' on Heaven's Door\". Keltner says that ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.travelingwilburys.com",
+          "text": "The birth of the Traveling Wilburys was a happy accident. Warner Bros. Records' International Department had asked that George Harrison come up with a ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.songfacts.com",
+          "text": "The Traveling Wilburys were a supergroup made up of Jeff Lynne (ELO), ... The drummer on the train is Jim Keltner, the stalwart session player they used on ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_gate",
+  "evaluation_seconds": 120.187,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

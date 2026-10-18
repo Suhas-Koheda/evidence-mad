@@ -1,0 +1,1165 @@
+{
+  "query": "Where was the salvation army's christmas collection kettle first introduced?",
+  "trace_id": "39d83ca3-4f25-4bea-ab7e-b722293c2b57",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Where was the salvation army's christmas collection kettle first introduced?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:27:27.309315"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Where was the salvation army's christmas collection kettle first introduced?",
+          "answer": "Based on 5 sources:\n- Salvation Army: ringers with red kettles are stationed near retail stores during the weeks preceding Christmas for fundraising\n- The Salvation Army was one of the original six\n\nGrinch: Archived from the original on November 23, 2018\n- Retrieved November 22, 2018\n- Felps, Bruce (November 9, 2010)\n- \"Grinch Grabs Salvation Army Kettle\"",
+          "claims": [
+            {
+              "id": "18dfe482",
+              "text": "Salvation Army: ringers with red kettles are stationed near retail stores during the weeks preceding Christmas for fundraising",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=88801",
+                "title": "Salvation Army",
+                "snippet": "ringers with red kettles are stationed near retail stores during the weeks preceding Christmas for fundraising. The Salvation Army was one of the original six",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.430846",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "df535b6c",
+              "text": "The Salvation Army was one of the original six\n\nGrinch: Archived from the original on November 23, 2018",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=2124741",
+                "title": "Grinch",
+                "snippet": "Archived from the original on November 23, 2018. Retrieved November 22, 2018. Felps, Bruce (November 9, 2010). \"Grinch Grabs Salvation Army Kettle\". NBC 5 Dallas-Fort",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.430879",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "7adcde28",
+              "text": "Retrieved November 22, 2018",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=74803",
+                "title": "Doughnut",
+                "snippet": "renamed in 2019, was named Dunkin' Donuts in 1950, following its 1948 founding under the name Open Kettle in Quincy, Massachusetts, is the oldest surviving",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.430888",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "7cd46298",
+              "text": "Felps, Bruce (November 9, 2010)",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=24424228",
+                "title": "Ellie Goulding",
+                "snippet": "launching the Salvation Army's annual Christmas Kettle campaign. After sharing photos of herself volunteering, fans raised concerns about the organisation's",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.430896",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "76aeec14",
+              "text": "\"Grinch Grabs Salvation Army Kettle\"",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=18581242",
+                "title": "Target Corporation",
+                "snippet": "for the Salvation Army red kettles and bell-ringers outside Target stores during the holidays through Christmas. In 2004, however, Target asked the organization",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.430903",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "26f4a5f0",
+              "text": "NBC 5 Dallas-Fort\n\nDoughnut: renamed in 2019, was named Dunkin' Donuts in 1950, following its 1948 founding under the name Open Kettle in Quincy, Massachusetts, is the oldest surviving\n\nEllie Goulding: launching the Salvation Army's annual Christmas Kettle campaign",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=88801",
+                "title": "Salvation Army",
+                "snippet": "ringers with red kettles are stationed near retail stores during the weeks preceding Christmas for fundraising. The Salvation Army was one of the original six",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.430846",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "074dcfeb",
+              "text": "After sharing photos of herself volunteering, fans raised concerns about the organisation's\n\nTarget Corporation: for the Salvation Army red kettles and bell-ringers outside Target stores during the holidays through Christmas",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=2124741",
+                "title": "Grinch",
+                "snippet": "Archived from the original on November 23, 2018. Retrieved November 22, 2018. Felps, Bruce (November 9, 2010). \"Grinch Grabs Salvation Army Kettle\". NBC 5 Dallas-Fort",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.430879",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c843d18c",
+              "text": "In 2004, however, Target asked the organization",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=74803",
+                "title": "Doughnut",
+                "snippet": "renamed in 2019, was named Dunkin' Donuts in 1950, following its 1948 founding under the name Open Kettle in Quincy, Massachusetts, is the oldest surviving",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.430888",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=88801",
+              "title": "Salvation Army",
+              "snippet": "ringers with red kettles are stationed near retail stores during the weeks preceding Christmas for fundraising. The Salvation Army was one of the original six",
+              "metadata": {
+                "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+              },
+              "retrieved_at": "2026-10-16T21:27:27.430846",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=2124741",
+              "title": "Grinch",
+              "snippet": "Archived from the original on November 23, 2018. Retrieved November 22, 2018. Felps, Bruce (November 9, 2010). \"Grinch Grabs Salvation Army Kettle\". NBC 5 Dallas-Fort",
+              "metadata": {
+                "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+              },
+              "retrieved_at": "2026-10-16T21:27:27.430879",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=74803",
+              "title": "Doughnut",
+              "snippet": "renamed in 2019, was named Dunkin' Donuts in 1950, following its 1948 founding under the name Open Kettle in Quincy, Massachusetts, is the oldest surviving",
+              "metadata": {
+                "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+              },
+              "retrieved_at": "2026-10-16T21:27:27.430888",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=24424228",
+              "title": "Ellie Goulding",
+              "snippet": "launching the Salvation Army's annual Christmas Kettle campaign. After sharing photos of herself volunteering, fans raised concerns about the organisation's",
+              "metadata": {
+                "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+              },
+              "retrieved_at": "2026-10-16T21:27:27.430896",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=18581242",
+              "title": "Target Corporation",
+              "snippet": "for the Salvation Army red kettles and bell-ringers outside Target stores during the holidays through Christmas. In 2004, however, Target asked the organization",
+              "metadata": {
+                "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+              },
+              "retrieved_at": "2026-10-16T21:27:27.430903",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Salvation Army: ringers with red kettles are stationed near retail stores during the weeks preceding Christmas for fundraising. The Salvation Army was one of the original six\n\nGrinch: Archived from the original on November 23, 2018. Retrieved November 22, 2018. Felps, Bruce (November 9, 2010). \"Grinch Grabs Salvation Army Kettle\". NBC 5 Dallas-Fort\n\nDoughnut: renamed in 2019, was named Dunkin' Donuts in 1950, following its 1948 founding under the name Open Kettle in Quincy, Massachusetts, is the oldest surviving\n\nEllie Goulding: launching the Salvation Army's annual Christmas Kettle campaign. After sharing photos of herself volunteering, fans raised concerns about the organisation's\n\nTarget Corporation: for the Salvation Army red kettles and bell-ringers outside Target stores during the holidays through Christmas. In 2004, however, Target asked the organization",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:27:27.431095"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Where was the salvation army's christmas collection kettle first introduced?",
+          "answer": "Based on 5 sources:\n- Salvation Army'S Christmas Collection Kettle: The answer, simply: The first Salvation Army Christmas Kettle was introduced in San Francisco, California, in 1891, at the base of the Oakland Ferry Landing\n- Every year since, the tradition has grown, adapting to the times while keeping its core mission alive: helping anyone in need, no questions asked\n- Where was the Salvation Armyʼs Christmas collection kettle first\n- : The Salvation Army's Christmas collection kettle is an iconic symbol of the holiday season, but do you know where it first originated\n- The tradition of using a kettle to collect donations for the less fortunate during Christmas dates back to the late 19th century, and it all started in the bustling streets of San Francisco",
+          "claims": [
+            {
+              "id": "f355008b",
+              "text": "Salvation Army'S Christmas Collection Kettle: The answer, simply: The first Salvation Army Christmas Kettle was introduced in San Francisco, California, in 1891, at the base of the Oakland Ferry Landing",
+              "source": {
+                "url": "https://longroadhomeproject.com/where-was-the-salvation-armys-christmas-collection-kettle-first-introduced/",
+                "title": "Salvation Army'S Christmas Collection Kettle",
+                "snippet": "The answer, simply: The first Salvation Army Christmas Kettle was introduced in San Francisco, California, in 1891, at the base of the Oakland Ferry Landing. Every year since, the tradition has grown, adapting to the times while keeping its core mission alive: helping anyone in need, no questions asked.",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.666792",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a1fd8a5a",
+              "text": "Every year since, the tradition has grown, adapting to the times while keeping its core mission alive: helping anyone in need, no questions asked",
+              "source": {
+                "url": "https://www.chefsresource.com/where-was-the-salvation-armyʼs-christmas-collection-kettle-first-introduced/",
+                "title": "Where was the Salvation Armyʼs Christmas collection kettle first ...",
+                "snippet": "The Salvation Army's Christmas collection kettle is an iconic symbol of the holiday season, but do you know where it first originated? The tradition of using a kettle to collect donations for the less fortunate during Christmas dates back to the late 19th century, and it all started in the bustling streets of San Francisco.",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.666825",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ad2bf346",
+              "text": "Where was the Salvation Armyʼs Christmas collection kettle first",
+              "source": {
+                "url": "https://caringmagazine.org/firstredkettle/",
+                "title": "The iconic Red Kettle | Caring Magazine",
+                "snippet": "The iconic Red Kettle. How a Christmas tradition came to be. In December 1891, Salvation Army Captain Joseph McFee decided to provide a free Christmas dinner to San Francisco's impoverished population, but needed money to pay for the food. Once a sailor in Liverpool, England, he recalled \"Simpson's Pot,\" a large container on the Stage Landing where people could throw in charitable ...",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.666836",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "58c73c07",
+              "text": ": The Salvation Army's Christmas collection kettle is an iconic symbol of the holiday season, but do you know where it first originated",
+              "source": {
+                "url": "https://tri-cities.salvationarmy.org/do_tri_cities/news/origin-of-the-red-kettle",
+                "title": "Origin of the Red Kettle - Tri-Cities Corps",
+                "snippet": "In the United States, public support of The Salvation Army's iconic Red Kettle helps the organization serve more than 30 million people in most need, annually, with more than 4.5 million seeking assistance during Thanksgiving and Christmas. 83 percent of donations go directly to program funding.",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.666843",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "4d58ee01",
+              "text": "The tradition of using a kettle to collect donations for the less fortunate during Christmas dates back to the late 19th century, and it all started in the bustling streets of San Francisco",
+              "source": {
+                "url": "https://holidaypaths.com/christmas/where-was-the-salvation-army27s-christmas-collection-kettle-first-introduced",
+                "title": "The Salvation Army Christmas Kettle: A Symbol of Hope and Charity",
+                "snippet": "The Salvation Army Christmas kettle, also known as the Red Kettle due to its distinctive color, stands as the organization's most renowned street campaign and a powerful symbol of hope and charity during the holiday season. This tradition, which began in 1891, has grown into a global phenomenon, raising funds to support the Salvation Army's year-round efforts to assist those in need.",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.666858",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b5104a1d",
+              "text": "The iconic Red Kettle | Caring Magazine: The iconic Red Kettle",
+              "source": {
+                "url": "https://longroadhomeproject.com/where-was-the-salvation-armys-christmas-collection-kettle-first-introduced/",
+                "title": "Salvation Army'S Christmas Collection Kettle",
+                "snippet": "The answer, simply: The first Salvation Army Christmas Kettle was introduced in San Francisco, California, in 1891, at the base of the Oakland Ferry Landing. Every year since, the tradition has grown, adapting to the times while keeping its core mission alive: helping anyone in need, no questions asked.",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.666792",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "039fb5c8",
+              "text": "How a Christmas tradition came to be",
+              "source": {
+                "url": "https://www.chefsresource.com/where-was-the-salvation-armyʼs-christmas-collection-kettle-first-introduced/",
+                "title": "Where was the Salvation Armyʼs Christmas collection kettle first ...",
+                "snippet": "The Salvation Army's Christmas collection kettle is an iconic symbol of the holiday season, but do you know where it first originated? The tradition of using a kettle to collect donations for the less fortunate during Christmas dates back to the late 19th century, and it all started in the bustling streets of San Francisco.",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.666825",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a1d69f48",
+              "text": "In December 1891, Salvation Army Captain Joseph McFee decided to provide a free Christmas dinner to San Francisco's impoverished population, but needed money to pay for the food",
+              "source": {
+                "url": "https://caringmagazine.org/firstredkettle/",
+                "title": "The iconic Red Kettle | Caring Magazine",
+                "snippet": "The iconic Red Kettle. How a Christmas tradition came to be. In December 1891, Salvation Army Captain Joseph McFee decided to provide a free Christmas dinner to San Francisco's impoverished population, but needed money to pay for the food. Once a sailor in Liverpool, England, he recalled \"Simpson's Pot,\" a large container on the Stage Landing where people could throw in charitable ...",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.666836",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "7a562dc1",
+              "text": "Once a sailor in Liverpool, England, he recalled \"Simpson's Pot,\" a large container on the Stage Landing where people could throw in charitable",
+              "source": {
+                "url": "https://tri-cities.salvationarmy.org/do_tri_cities/news/origin-of-the-red-kettle",
+                "title": "Origin of the Red Kettle - Tri-Cities Corps",
+                "snippet": "In the United States, public support of The Salvation Army's iconic Red Kettle helps the organization serve more than 30 million people in most need, annually, with more than 4.5 million seeking assistance during Thanksgiving and Christmas. 83 percent of donations go directly to program funding.",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.666843",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "110d3a78",
+              "text": "Origin of the Red Kettle - Tri-Cities Corps: In the United States, public support of The Salvation Army's iconic Red Kettle helps the organization serve more than 30 million people in most need, annually, with more than 4",
+              "source": {
+                "url": "https://holidaypaths.com/christmas/where-was-the-salvation-army27s-christmas-collection-kettle-first-introduced",
+                "title": "The Salvation Army Christmas Kettle: A Symbol of Hope and Charity",
+                "snippet": "The Salvation Army Christmas kettle, also known as the Red Kettle due to its distinctive color, stands as the organization's most renowned street campaign and a powerful symbol of hope and charity during the holiday season. This tradition, which began in 1891, has grown into a global phenomenon, raising funds to support the Salvation Army's year-round efforts to assist those in need.",
+                "metadata": {
+                  "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+                },
+                "retrieved_at": "2026-10-16T21:27:27.666858",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://longroadhomeproject.com/where-was-the-salvation-armys-christmas-collection-kettle-first-introduced/",
+              "title": "Salvation Army'S Christmas Collection Kettle",
+              "snippet": "The answer, simply: The first Salvation Army Christmas Kettle was introduced in San Francisco, California, in 1891, at the base of the Oakland Ferry Landing. Every year since, the tradition has grown, adapting to the times while keeping its core mission alive: helping anyone in need, no questions asked.",
+              "metadata": {
+                "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+              },
+              "retrieved_at": "2026-10-16T21:27:27.666792",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.chefsresource.com/where-was-the-salvation-armyʼs-christmas-collection-kettle-first-introduced/",
+              "title": "Where was the Salvation Armyʼs Christmas collection kettle first ...",
+              "snippet": "The Salvation Army's Christmas collection kettle is an iconic symbol of the holiday season, but do you know where it first originated? The tradition of using a kettle to collect donations for the less fortunate during Christmas dates back to the late 19th century, and it all started in the bustling streets of San Francisco.",
+              "metadata": {
+                "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+              },
+              "retrieved_at": "2026-10-16T21:27:27.666825",
+              "credibility_score": null
+            },
+            {
+              "url": "https://caringmagazine.org/firstredkettle/",
+              "title": "The iconic Red Kettle | Caring Magazine",
+              "snippet": "The iconic Red Kettle. How a Christmas tradition came to be. In December 1891, Salvation Army Captain Joseph McFee decided to provide a free Christmas dinner to San Francisco's impoverished population, but needed money to pay for the food. Once a sailor in Liverpool, England, he recalled \"Simpson's Pot,\" a large container on the Stage Landing where people could throw in charitable ...",
+              "metadata": {
+                "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+              },
+              "retrieved_at": "2026-10-16T21:27:27.666836",
+              "credibility_score": null
+            },
+            {
+              "url": "https://tri-cities.salvationarmy.org/do_tri_cities/news/origin-of-the-red-kettle",
+              "title": "Origin of the Red Kettle - Tri-Cities Corps",
+              "snippet": "In the United States, public support of The Salvation Army's iconic Red Kettle helps the organization serve more than 30 million people in most need, annually, with more than 4.5 million seeking assistance during Thanksgiving and Christmas. 83 percent of donations go directly to program funding.",
+              "metadata": {
+                "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+              },
+              "retrieved_at": "2026-10-16T21:27:27.666843",
+              "credibility_score": null
+            },
+            {
+              "url": "https://holidaypaths.com/christmas/where-was-the-salvation-army27s-christmas-collection-kettle-first-introduced",
+              "title": "The Salvation Army Christmas Kettle: A Symbol of Hope and Charity",
+              "snippet": "The Salvation Army Christmas kettle, also known as the Red Kettle due to its distinctive color, stands as the organization's most renowned street campaign and a powerful symbol of hope and charity during the holiday season. This tradition, which began in 1891, has grown into a global phenomenon, raising funds to support the Salvation Army's year-round efforts to assist those in need.",
+              "metadata": {
+                "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+              },
+              "retrieved_at": "2026-10-16T21:27:27.666858",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Salvation Army'S Christmas Collection Kettle: The answer, simply: The first Salvation Army Christmas Kettle was introduced in San Francisco, California, in 1891, at the base of the Oakland Ferry Landing. Every year since, the tradition has grown, adapting to the times while keeping its core mission alive: helping anyone in need, no questions asked.\n\nWhere was the Salvation Armyʼs Christmas collection kettle first ...: The Salvation Army's Christmas collection kettle is an iconic symbol of the holiday season, but do you know where it first originated? The tradition of using a kettle to collect donations for the less fortunate during Christmas dates back to the late 19th century, and it all started in the bustling streets of San Francisco.\n\nThe iconic Red Kettle | Caring Magazine: The iconic Red Kettle. How a Christmas tradition came to be. In December 1891, Salvation Army Captain Joseph McFee decided to provide a free Christmas dinner to San Francisco's impoverished population, but needed money to pay for the food. Once a sailor in Liverpool, England, he recalled \"Simpson's Pot,\" a large container on the Stage Landing where people could throw in charitable ...\n\nOrigin of the Red Kettle - Tri-Cities Corps: In the United States, public support of The Salvation Army's iconic Red Kettle helps the organization serve more than 30 million people in most need, annually, with more than 4.5 million seeking assistance during Thanksgiving and Christmas. 83 percent of donations go directly to program funding.\n\nThe Salvation Army Christmas Kettle: A Symbol of Hope and Charity: The Salvation Army Christmas kettle, also known as the Red Kettle due to its distinctive color, stands as the organization's most renowned street campaign and a powerful symbol of hope and charity during the holiday season. This tradition, which began in 1891, has grown into a global phenomenon, raising funds to support the Salvation Army's year-round efforts to assist those in need.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:27:27.667173"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Where was the salvation army's christmas collection kettle first introduced?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:27:27.668125"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Where was the salvation army's christmas collection kettle first introduced?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "null",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=88801",
+            "title": "Salvation Army",
+            "snippet": "ringers with red kettles are stationed near retail stores during the weeks preceding Christmas for fundraising. The Salvation Army was one of the original six",
+            "metadata": {
+              "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+            },
+            "retrieved_at": "2026-10-16T21:27:27.668478",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=88801",
+          "title": "Salvation Army",
+          "snippet": "ringers with red kettles are stationed near retail stores during the weeks preceding Christmas for fundraising. The Salvation Army was one of the original six",
+          "metadata": {
+            "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+          },
+          "retrieved_at": "2026-10-16T21:27:27.668478",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=2124741",
+          "title": "Grinch",
+          "snippet": "Archived from the original on November 23, 2018. Retrieved November 22, 2018. Felps, Bruce (November 9, 2010). \"Grinch Grabs Salvation Army Kettle\". NBC 5 Dallas-Fort",
+          "metadata": {
+            "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+          },
+          "retrieved_at": "2026-10-16T21:27:27.668491",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=74803",
+          "title": "Doughnut",
+          "snippet": "renamed in 2019, was named Dunkin' Donuts in 1950, following its 1948 founding under the name Open Kettle in Quincy, Massachusetts, is the oldest surviving",
+          "metadata": {
+            "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+          },
+          "retrieved_at": "2026-10-16T21:27:27.668498",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=24424228",
+          "title": "Ellie Goulding",
+          "snippet": "launching the Salvation Army's annual Christmas Kettle campaign. After sharing photos of herself volunteering, fans raised concerns about the organisation's",
+          "metadata": {
+            "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+          },
+          "retrieved_at": "2026-10-16T21:27:27.668504",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=18581242",
+          "title": "Target Corporation",
+          "snippet": "for the Salvation Army red kettles and bell-ringers outside Target stores during the holidays through Christmas. In 2004, however, Target asked the organization",
+          "metadata": {
+            "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+          },
+          "retrieved_at": "2026-10-16T21:27:27.668510",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:27:54.561824"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Where was the salvation army's christmas collection kettle first introduced?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The Salvation Army's Christmas collection kettle was first introduced in San Francisco, California, at the base of the Oakland Ferry Landing.",
+          "source": {
+            "url": "https://longroadhomeproject.com/where-was-the-salvation-armys-christmas-collection-kettle-first-introduced/",
+            "title": "Salvation Army'S Christmas Collection Kettle",
+            "snippet": "The answer, simply: The first Salvation Army Christmas Kettle was introduced in San Francisco, California, in 1891, at the base of the Oakland Ferry Landing. Every year since, the tradition has grown, adapting to the times while keeping its core mission alive: helping anyone in need, no questions asked.",
+            "metadata": {
+              "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+            },
+            "retrieved_at": "2026-10-16T21:27:54.562259",
+            "credibility_score": null
+          },
+          "date": "1891",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://longroadhomeproject.com/where-was-the-salvation-armys-christmas-collection-kettle-first-introduced/",
+          "title": "Salvation Army'S Christmas Collection Kettle",
+          "snippet": "The answer, simply: The first Salvation Army Christmas Kettle was introduced in San Francisco, California, in 1891, at the base of the Oakland Ferry Landing. Every year since, the tradition has grown, adapting to the times while keeping its core mission alive: helping anyone in need, no questions asked.",
+          "metadata": {
+            "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+          },
+          "retrieved_at": "2026-10-16T21:27:54.562259",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.chefsresource.com/where-was-the-salvation-armyʼs-christmas-collection-kettle-first-introduced/",
+          "title": "Where was the Salvation Armyʼs Christmas collection kettle first ...",
+          "snippet": "The Salvation Army's Christmas collection kettle is an iconic symbol of the holiday season, but do you know where it first originated? The tradition of using a kettle to collect donations for the less fortunate during Christmas dates back to the late 19th century, and it all started in the bustling streets of San Francisco.",
+          "metadata": {
+            "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+          },
+          "retrieved_at": "2026-10-16T21:27:54.562271",
+          "credibility_score": null
+        },
+        {
+          "url": "https://caringmagazine.org/firstredkettle/",
+          "title": "The iconic Red Kettle | Caring Magazine",
+          "snippet": "The iconic Red Kettle. How a Christmas tradition came to be. In December 1891, Salvation Army Captain Joseph McFee decided to provide a free Christmas dinner to San Francisco's impoverished population, but needed money to pay for the food. Once a sailor in Liverpool, England, he recalled \"Simpson's Pot,\" a large container on the Stage Landing where people could throw in charitable ...",
+          "metadata": {
+            "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+          },
+          "retrieved_at": "2026-10-16T21:27:54.562277",
+          "credibility_score": null
+        },
+        {
+          "url": "https://tri-cities.salvationarmy.org/do_tri_cities/news/origin-of-the-red-kettle",
+          "title": "Origin of the Red Kettle - Tri-Cities Corps",
+          "snippet": "In the United States, public support of The Salvation Army's iconic Red Kettle helps the organization serve more than 30 million people in most need, annually, with more than 4.5 million seeking assistance during Thanksgiving and Christmas. 83 percent of donations go directly to program funding.",
+          "metadata": {
+            "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+          },
+          "retrieved_at": "2026-10-16T21:27:54.562283",
+          "credibility_score": null
+        },
+        {
+          "url": "https://holidaypaths.com/christmas/where-was-the-salvation-army27s-christmas-collection-kettle-first-introduced",
+          "title": "The Salvation Army Christmas Kettle: A Symbol of Hope and Charity",
+          "snippet": "The Salvation Army Christmas kettle, also known as the Red Kettle due to its distinctive color, stands as the organization's most renowned street campaign and a powerful symbol of hope and charity during the holiday season. This tradition, which began in 1891, has grown into a global phenomenon, raising funds to support the Salvation Army's year-round efforts to assist those in need.",
+          "metadata": {
+            "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+          },
+          "retrieved_at": "2026-10-16T21:27:54.562290",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:28:14.558101"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Where was the salvation army's christmas collection kettle first introduced?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "I cannot verify the specific location where the Salvation Army's Christmas collection kettle was first introduced. Multiple sources claim different origins without providing conclusive historical documentation for any single location.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "I cannot verify the specific location where the Salvation Army's Christmas collection kettle was first introduced. Multiple sources claim different origins without providing conclusive historical docu",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:27:53.501934",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "I cannot verify the specific location where the Salvation Army's Christmas collection kettle was first introduced. Multiple sources claim different origins without providing conclusive historical docu",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:27:53.501934",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "I cannot verify the specific location where the Salvation Army's Christmas collection kettle was first introduced. Multiple sources claim different origins without providing conclusive historical documentation for any single location."
+      },
+      "retrieved_at": "2026-10-16T21:27:53.502004"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "disagreement",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "null",
+        "claim_b_text": "The Salvation Army's Christmas collection kettle was first introduced in San Francisco, California, at the base of the Oakland Ferry Landing.",
+        "label": "neutral",
+        "contradiction_score": 0.008433671668171883,
+        "entailment_score": 0.00033278189948759973,
+        "neutral_score": 0.9993316531181335
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "null",
+        "claim_b_text": "I cannot verify the specific location where the Salvation Army's Christmas collection kettle was first introduced. Multiple sources claim different origins without providing conclusive historical documentation for any single location.",
+        "label": "neutral",
+        "contradiction_score": 0.0028975936584174633,
+        "entailment_score": 0.002063774038106203,
+        "neutral_score": 0.9977322816848755
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The Salvation Army's Christmas collection kettle was first introduced in San Francisco, California, at the base of the Oakland Ferry Landing.",
+        "claim_b_text": "I cannot verify the specific location where the Salvation Army's Christmas collection kettle was first introduced. Multiple sources claim different origins without providing conclusive historical documentation for any single location.",
+        "label": "contradiction",
+        "contradiction_score": 0.9,
+        "entailment_score": 0.04,
+        "neutral_score": 0.06
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "The Salvation Army's Christmas collection kettle was first introduced in San Francisco, California, at the base of the Oakland Ferry Landing.",
+        "source": {
+          "url": "https://longroadhomeproject.com/where-was-the-salvation-armys-christmas-collection-kettle-first-introduced/",
+          "title": "Salvation Army'S Christmas Collection Kettle",
+          "snippet": "The answer, simply: The first Salvation Army Christmas Kettle was introduced in San Francisco, California, in 1891, at the base of the Oakland Ferry Landing. Every year since, the tradition has grown, adapting to the times while keeping its core mission alive: helping anyone in need, no questions asked.",
+          "metadata": {
+            "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+          },
+          "retrieved_at": "2026-10-16T21:27:54.562259",
+          "credibility_score": null
+        },
+        "date": "1891",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "I cannot verify the specific location where the Salvation Army's Christmas collection kettle was first introduced. Multiple sources claim different origins without providing conclusive historical documentation for any single location.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "I cannot verify the specific location where the Salvation Army's Christmas collection kettle was first introduced. Multiple sources claim different origins without providing conclusive historical docu",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:27:53.501934",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.9
+    },
+    "rationale": "At least one pair exceeded contradiction threshold (0.7): score=0.900"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": true,
+  "contradiction_score": 0.9,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "c6a57a53",
+    "type": "source",
+    "confidence": 0.9,
+    "explanation": "The conflict is about source authority and reliability. Claim A presents a specific factual claim about where the kettle was first introduced, while Claim B questions the validity of this claim and mentions conflicting sources without conclusive historical documentation.",
+    "claim_a": {
+      "text": "The Salvation Army's Christmas collection kettle was first introduced in San Francisco, California, at the base of the Oakland Ferry Landing.",
+      "source": {
+        "url": "https://longroadhomeproject.com/where-was-the-salvation-armys-christmas-collection-kettle-first-introduced/",
+        "title": "Salvation Army'S Christmas Collection Kettle",
+        "snippet": "The answer, simply: The first Salvation Army Christmas Kettle was introduced in San Francisco, California, in 1891, at the base of the Oakland Ferry Landing. Every year since, the tradition has grown, adapting to the times while keeping its core mission alive: helping anyone in need, no questions asked.",
+        "metadata": {
+          "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+        },
+        "retrieved_at": "2026-10-16T21:27:54.562259",
+        "credibility_score": null
+      },
+      "date": "1891",
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "I cannot verify the specific location where the Salvation Army's Christmas collection kettle was first introduced. Multiple sources claim different origins without providing conclusive historical documentation for any single location.",
+      "source": {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "I cannot verify the specific location where the Salvation Army's Christmas collection kettle was first introduced. Multiple sources claim different origins without providing conclusive historical docu",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:27:53.501934",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "classification_status": "llm_success",
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent"
+    },
+    "detected_at": "2026-10-16T21:28:39.628335"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": null,
+      "critic_arguments": [],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T21:28:39.628831",
+      "completed_at": null
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": null,
+        "critic_arguments": [],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T21:28:39.628831",
+        "completed_at": null
+      }
+    ],
+    "status": "failed",
+    "stop_reason": "stage_failure",
+    "failed_stages": [
+      "proposer"
+    ],
+    "rounds_used": 0
+  },
+  "judge_result": null,
+  "final_answer": {
+    "query": "Where was the salvation army's christmas collection kettle first introduced?",
+    "answer": "A conflict (source) was detected between sources, but the structured debate did not complete successfully (failed at: proposer). The conflict remains unresolved. Please consult the sources directly.",
+    "reasoning": "At least one pair exceeded contradiction threshold (0.7): score=0.900",
+    "evidence_state": "disagreement",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=88801",
+        "title": "Salvation Army",
+        "snippet": "ringers with red kettles are stationed near retail stores during the weeks preceding Christmas for fundraising. The Salvation Army was one of the original six",
+        "metadata": {
+          "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+        },
+        "retrieved_at": "2026-10-16T21:27:27.668478",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=2124741",
+        "title": "Grinch",
+        "snippet": "Archived from the original on November 23, 2018. Retrieved November 22, 2018. Felps, Bruce (November 9, 2010). \"Grinch Grabs Salvation Army Kettle\". NBC 5 Dallas-Fort",
+        "metadata": {
+          "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+        },
+        "retrieved_at": "2026-10-16T21:27:27.668491",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=74803",
+        "title": "Doughnut",
+        "snippet": "renamed in 2019, was named Dunkin' Donuts in 1950, following its 1948 founding under the name Open Kettle in Quincy, Massachusetts, is the oldest surviving",
+        "metadata": {
+          "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+        },
+        "retrieved_at": "2026-10-16T21:27:27.668498",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=24424228",
+        "title": "Ellie Goulding",
+        "snippet": "launching the Salvation Army's annual Christmas Kettle campaign. After sharing photos of herself volunteering, fans raised concerns about the organisation's",
+        "metadata": {
+          "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+        },
+        "retrieved_at": "2026-10-16T21:27:27.668504",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=18581242",
+        "title": "Target Corporation",
+        "snippet": "for the Salvation Army red kettles and bell-ringers outside Target stores during the holidays through Christmas. In 2004, however, Target asked the organization",
+        "metadata": {
+          "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+        },
+        "retrieved_at": "2026-10-16T21:27:27.668510",
+        "credibility_score": null
+      },
+      {
+        "url": "https://longroadhomeproject.com/where-was-the-salvation-armys-christmas-collection-kettle-first-introduced/",
+        "title": "Salvation Army'S Christmas Collection Kettle",
+        "snippet": "The answer, simply: The first Salvation Army Christmas Kettle was introduced in San Francisco, California, in 1891, at the base of the Oakland Ferry Landing. Every year since, the tradition has grown, adapting to the times while keeping its core mission alive: helping anyone in need, no questions asked.",
+        "metadata": {
+          "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+        },
+        "retrieved_at": "2026-10-16T21:27:54.562259",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.chefsresource.com/where-was-the-salvation-armyʼs-christmas-collection-kettle-first-introduced/",
+        "title": "Where was the Salvation Armyʼs Christmas collection kettle first ...",
+        "snippet": "The Salvation Army's Christmas collection kettle is an iconic symbol of the holiday season, but do you know where it first originated? The tradition of using a kettle to collect donations for the less fortunate during Christmas dates back to the late 19th century, and it all started in the bustling streets of San Francisco.",
+        "metadata": {
+          "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+        },
+        "retrieved_at": "2026-10-16T21:27:54.562271",
+        "credibility_score": null
+      },
+      {
+        "url": "https://caringmagazine.org/firstredkettle/",
+        "title": "The iconic Red Kettle | Caring Magazine",
+        "snippet": "The iconic Red Kettle. How a Christmas tradition came to be. In December 1891, Salvation Army Captain Joseph McFee decided to provide a free Christmas dinner to San Francisco's impoverished population, but needed money to pay for the food. Once a sailor in Liverpool, England, he recalled \"Simpson's Pot,\" a large container on the Stage Landing where people could throw in charitable ...",
+        "metadata": {
+          "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+        },
+        "retrieved_at": "2026-10-16T21:27:54.562277",
+        "credibility_score": null
+      },
+      {
+        "url": "https://tri-cities.salvationarmy.org/do_tri_cities/news/origin-of-the-red-kettle",
+        "title": "Origin of the Red Kettle - Tri-Cities Corps",
+        "snippet": "In the United States, public support of The Salvation Army's iconic Red Kettle helps the organization serve more than 30 million people in most need, annually, with more than 4.5 million seeking assistance during Thanksgiving and Christmas. 83 percent of donations go directly to program funding.",
+        "metadata": {
+          "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+        },
+        "retrieved_at": "2026-10-16T21:27:54.562283",
+        "credibility_score": null
+      },
+      {
+        "url": "https://holidaypaths.com/christmas/where-was-the-salvation-army27s-christmas-collection-kettle-first-introduced",
+        "title": "The Salvation Army Christmas Kettle: A Symbol of Hope and Charity",
+        "snippet": "The Salvation Army Christmas kettle, also known as the Red Kettle due to its distinctive color, stands as the organization's most renowned street campaign and a powerful symbol of hope and charity during the holiday season. This tradition, which began in 1891, has grown into a global phenomenon, raising funds to support the Salvation Army's year-round efforts to assist those in need.",
+        "metadata": {
+          "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+        },
+        "retrieved_at": "2026-10-16T21:27:54.562290",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "I cannot verify the specific location where the Salvation Army's Christmas collection kettle was first introduced. Multiple sources claim different origins without providing conclusive historical docu",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:27:53.501934",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": true,
+    "conflict": {
+      "id": "c6a57a53",
+      "type": "source",
+      "confidence": 0.9,
+      "explanation": "The conflict is about source authority and reliability. Claim A presents a specific factual claim about where the kettle was first introduced, while Claim B questions the validity of this claim and mentions conflicting sources without conclusive historical documentation.",
+      "claim_a": {
+        "text": "The Salvation Army's Christmas collection kettle was first introduced in San Francisco, California, at the base of the Oakland Ferry Landing.",
+        "source": {
+          "url": "https://longroadhomeproject.com/where-was-the-salvation-armys-christmas-collection-kettle-first-introduced/",
+          "title": "Salvation Army'S Christmas Collection Kettle",
+          "snippet": "The answer, simply: The first Salvation Army Christmas Kettle was introduced in San Francisco, California, in 1891, at the base of the Oakland Ferry Landing. Every year since, the tradition has grown, adapting to the times while keeping its core mission alive: helping anyone in need, no questions asked.",
+          "metadata": {
+            "search_query": "Where was the salvation army's christmas collection kettle first introduced?"
+          },
+          "retrieved_at": "2026-10-16T21:27:54.562259",
+          "credibility_score": null
+        },
+        "date": "1891",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "I cannot verify the specific location where the Salvation Army's Christmas collection kettle was first introduced. Multiple sources claim different origins without providing conclusive historical documentation for any single location.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "I cannot verify the specific location where the Salvation Army's Christmas collection kettle was first introduced. Multiple sources claim different origins without providing conclusive historical docu",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:27:53.501934",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "metadata": {
+        "classification_status": "llm_success",
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent"
+      },
+      "detected_at": "2026-10-16T21:28:39.628335"
+    },
+    "debate_outcome": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "proposer_argument": null,
+          "critic_arguments": [],
+          "reviser_argument": null,
+          "started_at": "2026-10-16T21:28:39.628831",
+          "completed_at": null
+        }
+      ],
+      "status": "failed",
+      "stop_reason": "stage_failure",
+      "failed_stages": [
+        "proposer"
+      ],
+      "rounds_used": 0
+    },
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "disagreement",
+      "debate_completed": false
+    },
+    "generated_at": "2026-10-16T21:29:03.306313"
+  },
+  "metrics": {
+    "latency_seconds": 96.49277591705322,
+    "evidence_state": "disagreement",
+    "debate_triggered": true,
+    "conflict_type": "source",
+    "classification_status": "llm_success",
+    "debate_status": "failed",
+    "debate_stop_reason": "stage_failure",
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 3,
+    "total_llm_calls_failed": 1,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      },
+      "classifier": {
+        "ok": 1,
+        "failed": 0
+      },
+      "proposer": {
+        "ok": 0,
+        "failed": 1
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "standard_mad"
+  },
+  "started_at": "2026-10-16T21:27:26.813516",
+  "completed_at": "2026-10-16T21:29:03.306365",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0024",
+    "query": "Where was the salvation army's christmas collection kettle first introduced?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "The most common answer .",
+    "required_facts": [
+      "The most common answer ."
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 33,
+      "answer_variants": [
+        "San Francisco"
+      ],
+      "annotation_explanation": "This is the most widely accepted answer for this question.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "HistoryEdit ... A tradition on the \"kettle\" started in 1891, in San Francisco, by Salvation Army officer Captain Joseph McFee. ... Captain McFee, resolving to ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.salvationarmyusa.org",
+          "text": "The Salvation Army Christmas Red Kettles. ... Red Kettle History. In 1891, Salvation Army Captain Joseph McFee was distraught because so many poor ...",
+          "supports_answers": [
+            "San Francisco"
+          ]
+        },
+        {
+          "source_domain": "tri-cities.salvationarmy.org",
+          "text": "Nov 6, 2018 ... Origin of the Red Kettle ... The Salvation Army's Red Kettle debuted at Christmas 1891 in San Francisco in the guise of a crab pot. Many were ...",
+          "supports_answers": [
+            "San Francisco"
+          ]
+        },
+        {
+          "source_domain": "theconversation.com",
+          "text": "Nov 28, 2018 ... Around this time of the year, the Salvation Army's red kettles become ... evangelical organization came to the US is interesting history.",
+          "supports_answers": [
+            "San Francisco"
+          ]
+        },
+        {
+          "source_domain": "tri-cities.salvationarmy.org",
+          "text": "Nov 6, 2018 ... History of The Salvation Army's iconic Red Kettle, Amelia Kunkle, ... The Red Kettle debuted in San Francisco in 1891 to fund Christmas ...",
+          "supports_answers": [
+            "San Francisco"
+          ]
+        },
+        {
+          "source_domain": "quizzclub.com",
+          "text": "A tradition on the \"kettle\" started in 1891, in San Francisco, by Salvation Army officer Captain Joseph McFee. Captain McFee, resolving to provide a free ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.usatoday.com",
+          "text": "Dec 7, 2022 ... This year, Salvation Army expects to surpass $3 billion in donations since its first National Red Kettle Kickoff with the Dallas Cowboys in ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "centralusa.salvationarmy.org",
+          "text": "Dec 12, 2019 ... By Christmas 1895, the kettle was used in 30 Salvation Army ... funds for the first mammoth sit-down dinner in Madison Square Garden, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.abc57.com",
+          "text": "Nov 30, 2021 ... The kettle collections started accidentally in San Francisco in 1891 when a local Salvation Army captain named Joseph McFee publicly ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "theclio.com",
+          "text": "Dec 28, 2019 ... The collection kettle, now an iconic symbol of the organization's work, was initially implemented in San Francisco to collect donations to fund ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "standard_mad",
+  "evaluation_seconds": 96.51,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

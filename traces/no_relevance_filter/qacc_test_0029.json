@@ -1,0 +1,940 @@
+{
+  "query": "Who sings for the beast in the new movie?",
+  "trace_id": "693ec709-e4c1-4fef-9d00-ae4004f87f7c",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who sings for the beast in the new movie?",
+          "answer": "Based on 5 sources:\n- The Boy Who Cried Werewolf (2010 film): turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\"\n- Vampires attempted to take over the castle and rise\n\nBeauty and the Beast (1991 film): the Beast's story, since according to Hahn \"He's the guy trapped in the monkey suit who has to redeem himself during the course of the movie\n- The meter's\n\nBeauty and the Beast (2017 film): and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French\n\nPokémon the Movie 2000: dangerous for the legendary Pokémon, Lugia, and Ash himself\n- Pokémon the Movie 2000 was released in Japanese theaters on July 17, 1999, by Toho\n- The English-language\n\nBeauty and the Beast (franchise): Prince de Beaumont",
+          "claims": [
+            {
+              "id": "5a8213c4",
+              "text": "The Boy Who Cried Werewolf (2010 film): turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\"",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=27387452",
+                "title": "The Boy Who Cried Werewolf (2010 film)",
+                "snippet": "turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\". Vampires attempted to take over the castle and rise",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807662",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "93a8a123",
+              "text": "Vampires attempted to take over the castle and rise\n\nBeauty and the Beast (1991 film): the Beast's story, since according to Hahn \"He's the guy trapped in the monkey suit who has to redeem himself during the course of the movie",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=133462",
+                "title": "Beauty and the Beast (1991 film)",
+                "snippet": "the Beast's story, since according to Hahn \"He's the guy trapped in the monkey suit who has to redeem himself during the course of the movie. The meter's",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807698",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b4bacf9e",
+              "text": "The meter's\n\nBeauty and the Beast (2017 film): and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French\n\nPokémon the Movie 2000: dangerous for the legendary Pokémon, Lugia, and Ash himself",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=45230258",
+                "title": "Beauty and the Beast (2017 film)",
+                "snippet": "and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807711",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3195aac9",
+              "text": "Pokémon the Movie 2000 was released in Japanese theaters on July 17, 1999, by Toho",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1490639",
+                "title": "Pokémon the Movie 2000",
+                "snippet": "dangerous for the legendary Pokémon, Lugia, and Ash himself. Pokémon the Movie 2000 was released in Japanese theaters on July 17, 1999, by Toho. The English-language",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807722",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "eec8645a",
+              "text": "The English-language\n\nBeauty and the Beast (franchise): Prince de Beaumont",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=40861499",
+                "title": "Beauty and the Beast (franchise)",
+                "snippet": "Prince de Beaumont. In 2002, Beauty and the Beast was selected for preservation in the National Film Registry by the Library of Congress for being \"culturally",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807734",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ee3816b6",
+              "text": "In 2002, Beauty and the Beast was selected for preservation in the National Film Registry by the Library of Congress for being \"culturally",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=27387452",
+                "title": "The Boy Who Cried Werewolf (2010 film)",
+                "snippet": "turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\". Vampires attempted to take over the castle and rise",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807662",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=27387452",
+              "title": "The Boy Who Cried Werewolf (2010 film)",
+              "snippet": "turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\". Vampires attempted to take over the castle and rise",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T21:38:03.807662",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=133462",
+              "title": "Beauty and the Beast (1991 film)",
+              "snippet": "the Beast's story, since according to Hahn \"He's the guy trapped in the monkey suit who has to redeem himself during the course of the movie. The meter's",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T21:38:03.807698",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=45230258",
+              "title": "Beauty and the Beast (2017 film)",
+              "snippet": "and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T21:38:03.807711",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=1490639",
+              "title": "Pokémon the Movie 2000",
+              "snippet": "dangerous for the legendary Pokémon, Lugia, and Ash himself. Pokémon the Movie 2000 was released in Japanese theaters on July 17, 1999, by Toho. The English-language",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T21:38:03.807722",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=40861499",
+              "title": "Beauty and the Beast (franchise)",
+              "snippet": "Prince de Beaumont. In 2002, Beauty and the Beast was selected for preservation in the National Film Registry by the Library of Congress for being \"culturally",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T21:38:03.807734",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "The Boy Who Cried Werewolf (2010 film): turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\". Vampires attempted to take over the castle and rise\n\nBeauty and the Beast (1991 film): the Beast's story, since according to Hahn \"He's the guy trapped in the monkey suit who has to redeem himself during the course of the movie. The meter's\n\nBeauty and the Beast (2017 film): and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French\n\nPokémon the Movie 2000: dangerous for the legendary Pokémon, Lugia, and Ash himself. Pokémon the Movie 2000 was released in Japanese theaters on July 17, 1999, by Toho. The English-language\n\nBeauty and the Beast (franchise): Prince de Beaumont. In 2002, Beauty and the Beast was selected for preservation in the National Film Registry by the Library of Congress for being \"culturally",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:38:03.807944"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who sings for the beast in the new movie?",
+          "answer": "Based on 5 sources:\n- Heart of the Beast Soundtrack (2026): Complete List of Songs & Music\n- : Looking for the music from Heart of the Beast (2026)\n- Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune\n- Heart of the Beast Soundtrack: Every Song in the Movie: Discover the complete Heart of the Beast (2026) soundtrack guide\n- Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score",
+          "claims": [
+            {
+              "id": "9e92da29",
+              "text": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music",
+              "source": {
+                "url": "https://www.seekertune.com/movies/heart-of-the-beast-2026/",
+                "title": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music ...",
+                "snippet": "Looking for the music from Heart of the Beast (2026)? Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807204",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "66dd1662",
+              "text": ": Looking for the music from Heart of the Beast (2026)",
+              "source": {
+                "url": "https://soundtrackwiki.com/movies/heart-of-the-beast-2026/",
+                "title": "Heart of the Beast Soundtrack: Every Song in the Movie",
+                "snippet": "Discover the complete Heart of the Beast (2026) soundtrack guide. Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807229",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "768827bc",
+              "text": "Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune",
+              "source": {
+                "url": "https://backstagecountry.com/2026/08/14/trailer-for-brad-pitts-new-movie-heart-of-the-beast-features-stephen-wilson-jr-s-stand-by-me/",
+                "title": "Trailer for Brad Pitt's New Movie 'Heart of the Beast' Features Stephen ...",
+                "snippet": "The country and Americana singer-songwriter's powerful rendition of \" Stand By Me \" has been featured in the newly released trailer for Heart of the Beast, the upcoming survival thriller starring Brad Pitt.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807238",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "61909d33",
+              "text": "Heart of the Beast Soundtrack: Every Song in the Movie: Discover the complete Heart of the Beast (2026) soundtrack guide",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/The_Beast_(2026_film)",
+                "title": "The Beast (2026 film) - Wikipedia",
+                "snippet": "The Beast is a 2026 American action thriller film directed by Renny Harlin and written by Umair Aleem. It stars Samuel L. Jackson, Joel Kinnaman, Colin Morgan, and Guy Burnet.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807246",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d9132773",
+              "text": "Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=fmHMeZnbzeI",
+                "title": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...",
+                "snippet": "Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807253",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "4bc1999e",
+              "text": "Trailer for Brad Pitt's New Movie 'Heart of the Beast' Features Stephen",
+              "source": {
+                "url": "https://www.seekertune.com/movies/heart-of-the-beast-2026/",
+                "title": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music ...",
+                "snippet": "Looking for the music from Heart of the Beast (2026)? Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807204",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "4edf7f9a",
+              "text": ": The country and Americana singer-songwriter's powerful rendition of \" Stand By Me \" has been featured in the newly released trailer for Heart of the Beast, the upcoming survival thriller starring Brad Pitt",
+              "source": {
+                "url": "https://soundtrackwiki.com/movies/heart-of-the-beast-2026/",
+                "title": "Heart of the Beast Soundtrack: Every Song in the Movie",
+                "snippet": "Discover the complete Heart of the Beast (2026) soundtrack guide. Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807229",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9f31990f",
+              "text": "The Beast (2026 film) - Wikipedia: The Beast is a 2026 American action thriller film directed by Renny Harlin and written by Umair Aleem",
+              "source": {
+                "url": "https://backstagecountry.com/2026/08/14/trailer-for-brad-pitts-new-movie-heart-of-the-beast-features-stephen-wilson-jr-s-stand-by-me/",
+                "title": "Trailer for Brad Pitt's New Movie 'Heart of the Beast' Features Stephen ...",
+                "snippet": "The country and Americana singer-songwriter's powerful rendition of \" Stand By Me \" has been featured in the newly released trailer for Heart of the Beast, the upcoming survival thriller starring Brad Pitt.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807238",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ab1606ca",
+              "text": "Jackson, Joel Kinnaman, Colin Morgan, and Guy Burnet",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=fmHMeZnbzeI",
+                "title": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...",
+                "snippet": "Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807253",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "03418607",
+              "text": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr",
+              "source": {
+                "url": "https://www.seekertune.com/movies/heart-of-the-beast-2026/",
+                "title": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music ...",
+                "snippet": "Looking for the music from Heart of the Beast (2026)? Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T21:38:03.807204",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.seekertune.com/movies/heart-of-the-beast-2026/",
+              "title": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music ...",
+              "snippet": "Looking for the music from Heart of the Beast (2026)? Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune.",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T21:38:03.807204",
+              "credibility_score": null
+            },
+            {
+              "url": "https://soundtrackwiki.com/movies/heart-of-the-beast-2026/",
+              "title": "Heart of the Beast Soundtrack: Every Song in the Movie",
+              "snippet": "Discover the complete Heart of the Beast (2026) soundtrack guide. Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score.",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T21:38:03.807229",
+              "credibility_score": null
+            },
+            {
+              "url": "https://backstagecountry.com/2026/08/14/trailer-for-brad-pitts-new-movie-heart-of-the-beast-features-stephen-wilson-jr-s-stand-by-me/",
+              "title": "Trailer for Brad Pitt's New Movie 'Heart of the Beast' Features Stephen ...",
+              "snippet": "The country and Americana singer-songwriter's powerful rendition of \" Stand By Me \" has been featured in the newly released trailer for Heart of the Beast, the upcoming survival thriller starring Brad Pitt.",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T21:38:03.807238",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/The_Beast_(2026_film)",
+              "title": "The Beast (2026 film) - Wikipedia",
+              "snippet": "The Beast is a 2026 American action thriller film directed by Renny Harlin and written by Umair Aleem. It stars Samuel L. Jackson, Joel Kinnaman, Colin Morgan, and Guy Burnet.",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T21:38:03.807246",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=fmHMeZnbzeI",
+              "title": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...",
+              "snippet": "Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T21:38:03.807253",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music ...: Looking for the music from Heart of the Beast (2026)? Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune.\n\nHeart of the Beast Soundtrack: Every Song in the Movie: Discover the complete Heart of the Beast (2026) soundtrack guide. Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score.\n\nTrailer for Brad Pitt's New Movie 'Heart of the Beast' Features Stephen ...: The country and Americana singer-songwriter's powerful rendition of \" Stand By Me \" has been featured in the newly released trailer for Heart of the Beast, the upcoming survival thriller starring Brad Pitt.\n\nThe Beast (2026 film) - Wikipedia: The Beast is a 2026 American action thriller film directed by Renny Harlin and written by Umair Aleem. It stars Samuel L. Jackson, Joel Kinnaman, Colin Morgan, and Guy Burnet.\n\nHeart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...: Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:38:03.807524"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who sings for the beast in the new movie?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:38:03.808474"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Who sings for the beast in the new movie?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The 2017 live-action Beauty and the Beast film features Emma Thompson as the voice of Mrs. Potts, while the Beast himself is performed by voice actor and actor Dan Stevens, though he sings in the musical numbers.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=45230258",
+            "title": "Beauty and the Beast (2017 film)",
+            "snippet": "and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T21:38:03.808879",
+            "credibility_score": null
+          },
+          "date": "2017",
+          "version": "null",
+          "scope": "null"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=27387452",
+          "title": "The Boy Who Cried Werewolf (2010 film)",
+          "snippet": "turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\". Vampires attempted to take over the castle and rise",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:38:03.808857",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=133462",
+          "title": "Beauty and the Beast (1991 film)",
+          "snippet": "the Beast's story, since according to Hahn \"He's the guy trapped in the monkey suit who has to redeem himself during the course of the movie. The meter's",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:38:03.808873",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=45230258",
+          "title": "Beauty and the Beast (2017 film)",
+          "snippet": "and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:38:03.808879",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=1490639",
+          "title": "Pokémon the Movie 2000",
+          "snippet": "dangerous for the legendary Pokémon, Lugia, and Ash himself. Pokémon the Movie 2000 was released in Japanese theaters on July 17, 1999, by Toho. The English-language",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:38:03.808885",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=40861499",
+          "title": "Beauty and the Beast (franchise)",
+          "snippet": "Prince de Beaumont. In 2002, Beauty and the Beast was selected for preservation in the National Film Registry by the Library of Congress for being \"culturally",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:38:03.808890",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:38:30.269730"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who sings for the beast in the new movie?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Stephen Wilson Jr. sings \"Stand By Me\" for the movie Heart of the Beast.",
+          "source": {
+            "url": "https://backstagecountry.com/2026/08/14/trailer-for-brad-pitts-new-movie-heart-of-the-beast-features-stephen-wilson-jr-s-stand-by-me/",
+            "title": "Trailer for Brad Pitt's New Movie 'Heart of the Beast' Features Stephen ...",
+            "snippet": "The country and Americana singer-songwriter's powerful rendition of \" Stand By Me \" has been featured in the newly released trailer for Heart of the Beast, the upcoming survival thriller starring Brad Pitt.",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T21:38:30.269797",
+            "credibility_score": null
+          },
+          "date": "2026",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.seekertune.com/movies/heart-of-the-beast-2026/",
+          "title": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music ...",
+          "snippet": "Looking for the music from Heart of the Beast (2026)? Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:38:30.269782",
+          "credibility_score": null
+        },
+        {
+          "url": "https://soundtrackwiki.com/movies/heart-of-the-beast-2026/",
+          "title": "Heart of the Beast Soundtrack: Every Song in the Movie",
+          "snippet": "Discover the complete Heart of the Beast (2026) soundtrack guide. Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:38:30.269791",
+          "credibility_score": null
+        },
+        {
+          "url": "https://backstagecountry.com/2026/08/14/trailer-for-brad-pitts-new-movie-heart-of-the-beast-features-stephen-wilson-jr-s-stand-by-me/",
+          "title": "Trailer for Brad Pitt's New Movie 'Heart of the Beast' Features Stephen ...",
+          "snippet": "The country and Americana singer-songwriter's powerful rendition of \" Stand By Me \" has been featured in the newly released trailer for Heart of the Beast, the upcoming survival thriller starring Brad Pitt.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:38:30.269797",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Beast_(2026_film)",
+          "title": "The Beast (2026 film) - Wikipedia",
+          "snippet": "The Beast is a 2026 American action thriller film directed by Renny Harlin and written by Umair Aleem. It stars Samuel L. Jackson, Joel Kinnaman, Colin Morgan, and Guy Burnet.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:38:30.269803",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fmHMeZnbzeI",
+          "title": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...",
+          "snippet": "Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:38:30.269809",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:38:48.909816"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who sings for the beast in the new movie?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:38:48.909858"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who sings for the beast in the new movie?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "I cannot answer this question accurately because it lacks essential context. Which specific \"new movie\" are you referring to, who or what \"the beast\" character is, and in what context are you asking about the singing role? Without these details, I cannot identify the correct performer.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "I cannot answer this question accurately because it lacks essential context. Which specific \"new movie\" are you referring to, who or what \"the beast\" character is, and in what context are you asking a",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:38:25.312915",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "I cannot answer this question accurately because it lacks essential context. Which specific \"new movie\" are you referring to, who or what \"the beast\" character is, and in what context are you asking a",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:38:25.312915",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "I cannot answer this question accurately because it lacks essential context. Which specific \"new movie\" are you referring to, who or what \"the beast\" character is, and in what context are you asking about the singing role? Without these details, I cannot identify the correct performer."
+      },
+      "retrieved_at": "2026-10-16T21:38:25.312994"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "The 2017 live-action Beauty and the Beast film features Emma Thompson as the voice of Mrs. Potts, while the Beast himself is performed by voice actor and actor Dan Stevens, though he sings in the musical numbers.",
+        "claim_b_text": "Stephen Wilson Jr. sings \"Stand By Me\" for the movie Heart of the Beast.",
+        "label": "neutral",
+        "contradiction_score": 0.056661710143089294,
+        "entailment_score": 0.0007360518211498857,
+        "neutral_score": 0.988509476184845
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The 2017 live-action Beauty and the Beast film features Emma Thompson as the voice of Mrs. Potts, while the Beast himself is performed by voice actor and actor Dan Stevens, though he sings in the musical numbers.",
+        "claim_b_text": "I cannot answer this question accurately because it lacks essential context. Which specific \"new movie\" are you referring to, who or what \"the beast\" character is, and in what context are you asking about the singing role? Without these details, I cannot identify the correct performer.",
+        "label": "neutral",
+        "contradiction_score": 0.0005840600351803005,
+        "entailment_score": 0.0003634638269431889,
+        "neutral_score": 0.9994675517082214
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Stephen Wilson Jr. sings \"Stand By Me\" for the movie Heart of the Beast.",
+        "claim_b_text": "I cannot answer this question accurately because it lacks essential context. Which specific \"new movie\" are you referring to, who or what \"the beast\" character is, and in what context are you asking about the singing role? Without these details, I cannot identify the correct performer.",
+        "label": "neutral",
+        "contradiction_score": 0.012962820008397102,
+        "entailment_score": 0.0005352211883291602,
+        "neutral_score": 0.9992519021034241
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "No search results"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "web_agent",
+      "claim_a": {
+        "text": "The 2017 live-action Beauty and the Beast film features Emma Thompson as the voice of Mrs. Potts, while the Beast himself is performed by voice actor and actor Dan Stevens, though he sings in the musical numbers.",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=45230258",
+          "title": "Beauty and the Beast (2017 film)",
+          "snippet": "and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:38:03.808879",
+          "credibility_score": null
+        },
+        "date": "2017",
+        "version": "null",
+        "scope": "null"
+      },
+      "claim_b": {
+        "text": "Stephen Wilson Jr. sings \"Stand By Me\" for the movie Heart of the Beast.",
+        "source": {
+          "url": "https://backstagecountry.com/2026/08/14/trailer-for-brad-pitts-new-movie-heart-of-the-beast-features-stephen-wilson-jr-s-stand-by-me/",
+          "title": "Trailer for Brad Pitt's New Movie 'Heart of the Beast' Features Stephen ...",
+          "snippet": "The country and Americana singer-songwriter's powerful rendition of \" Stand By Me \" has been featured in the newly released trailer for Heart of the Beast, the upcoming survival thriller starring Brad Pitt.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T21:38:30.269797",
+          "credibility_score": null
+        },
+        "date": "2026",
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.056661710143089294
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.056661710143089294,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who sings for the beast in the new movie?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [reference_agent]: The 2017 live-action Beauty and the Beast film features Emma Thompson as the voice of Mrs. Potts, while the Beast himself is performed by voice actor and actor Dan Stevens, though he sings in the musical numbers.\n- [web_agent]: Stephen Wilson Jr. sings \"Stand By Me\" for the movie Heart of the Beast.\n- [ai_answer_agent]: I cannot answer this question accurately because it lacks essential context. Which specific \"new movie\" are you referring to, who or what \"the beast\" character is, and in what context are you asking about the singing role? Without these details, I cannot identify the correct performer.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=27387452",
+        "title": "The Boy Who Cried Werewolf (2010 film)",
+        "snippet": "turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\". Vampires attempted to take over the castle and rise",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:38:03.808857",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=133462",
+        "title": "Beauty and the Beast (1991 film)",
+        "snippet": "the Beast's story, since according to Hahn \"He's the guy trapped in the monkey suit who has to redeem himself during the course of the movie. The meter's",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:38:03.808873",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=45230258",
+        "title": "Beauty and the Beast (2017 film)",
+        "snippet": "and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:38:03.808879",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=1490639",
+        "title": "Pokémon the Movie 2000",
+        "snippet": "dangerous for the legendary Pokémon, Lugia, and Ash himself. Pokémon the Movie 2000 was released in Japanese theaters on July 17, 1999, by Toho. The English-language",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:38:03.808885",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=40861499",
+        "title": "Beauty and the Beast (franchise)",
+        "snippet": "Prince de Beaumont. In 2002, Beauty and the Beast was selected for preservation in the National Film Registry by the Library of Congress for being \"culturally",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:38:03.808890",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.seekertune.com/movies/heart-of-the-beast-2026/",
+        "title": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music ...",
+        "snippet": "Looking for the music from Heart of the Beast (2026)? Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:38:30.269782",
+        "credibility_score": null
+      },
+      {
+        "url": "https://soundtrackwiki.com/movies/heart-of-the-beast-2026/",
+        "title": "Heart of the Beast Soundtrack: Every Song in the Movie",
+        "snippet": "Discover the complete Heart of the Beast (2026) soundtrack guide. Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:38:30.269791",
+        "credibility_score": null
+      },
+      {
+        "url": "https://backstagecountry.com/2026/08/14/trailer-for-brad-pitts-new-movie-heart-of-the-beast-features-stephen-wilson-jr-s-stand-by-me/",
+        "title": "Trailer for Brad Pitt's New Movie 'Heart of the Beast' Features Stephen ...",
+        "snippet": "The country and Americana singer-songwriter's powerful rendition of \" Stand By Me \" has been featured in the newly released trailer for Heart of the Beast, the upcoming survival thriller starring Brad Pitt.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:38:30.269797",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Beast_(2026_film)",
+        "title": "The Beast (2026 film) - Wikipedia",
+        "snippet": "The Beast is a 2026 American action thriller film directed by Renny Harlin and written by Umair Aleem. It stars Samuel L. Jackson, Joel Kinnaman, Colin Morgan, and Guy Burnet.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:38:30.269803",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=fmHMeZnbzeI",
+        "title": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...",
+        "snippet": "Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T21:38:30.269809",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "I cannot answer this question accurately because it lacks essential context. Which specific \"new movie\" are you referring to, who or what \"the beast\" character is, and in what context are you asking a",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:38:25.312915",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T21:38:52.549886"
+  },
+  "metrics": {
+    "latency_seconds": 48.74441862106323,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T21:38:03.805463",
+  "completed_at": "2026-10-16T21:38:52.549941",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0029",
+    "query": "Who sings for the beast in the new movie?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Dan Stevens",
+    "required_facts": [
+      "Dan Stevens"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 38,
+      "answer_variants": [
+        "Dan Stevens"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 2,4 and 8",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "\"Evermore\" is a song written by composer Alan Menken and lyricist Tim Rice for the musical fantasy film Beauty and the Beast (2017), a live-action remake of ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Dan Stevens as the Beast, a cold-hearted, selfish, unkind prince who has been transformed into a talking beast and forced to earn back his humanity by learning ...",
+          "supports_answers": [
+            "Dan Stevens"
+          ]
+        },
+        {
+          "source_domain": "www.thrillist.com",
+          "text": "Mar 21, 2017 ... Wait, Is That Actually Emma Watson Singing in 'Beauty and the Beast'? · \"I've never had to [sing] for a film role before, and I think people will ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "ew.com",
+          "text": "Mar 2, 2017 ... How Dan Stevens learned to sing for Beauty and the Beast · Beauty and the Beast (2017) · More videos on YouTube · Popular in Movies · All Topics in ...",
+          "supports_answers": [
+            "Dan Stevens"
+          ]
+        },
+        {
+          "source_domain": "www.santacruzsentinel.com",
+          "text": "Mar 16, 2017 ... A big part of re-imagining “Beauty and the Beast” as a live-action movie was figuring out what to do with the soundtrack.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.looper.com",
+          "text": "Apr 21, 2022 ... In the film, Alexander's singing voice is provided by the Swedish singer Eric Mjönes. But the original plan was for Stevens' voice to be mixed ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "collider.com",
+          "text": "Nov 8, 2016 ... Menken teamed with 'The Lion King' composer Tim Rice for the upcoming film. beauty-and-the-beast-movie-images-slice.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "ew.com",
+          "text": "Jan 26, 2017 ... Billed as “a soaring ballad,” the song is performed in the film by the Beast (Dan Stevens) after he releases Belle (Emma Watson) to be with her ...",
+          "supports_answers": [
+            "Dan Stevens"
+          ]
+        },
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Apr 27, 2023 ... UNITE or FALL. Watch the new trailer for #Transformers: #RiseOfTheBeasts. Buy or Rent Transformers: Rise of the Beasts today: ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 48.76,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

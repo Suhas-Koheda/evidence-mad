@@ -1,0 +1,142 @@
+{
+  "query": "Who lived in jamestown before the arrival of the english?",
+  "trace_id": "96b1e2f2-ddb5-4080-9e40-16e7985fee47",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who lived in jamestown before the arrival of the english?",
+    "answer": "The Powhatan Confederacy, a group of Native American tribes led by Chief Powhatan, lived in the area where Jamestown was later established before the English arrived in 1607.",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-16T21:17:54.689459"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 22.203171730041504,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-16T21:17:32.486395",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0018",
+    "query": "Who lived in jamestown before the arrival of the english?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "the Powhatan Confederacy",
+    "required_facts": [
+      "the Powhatan Confederacy"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 26,
+      "answer_variants": [
+        "the Powhatan Confederacy"
+      ],
+      "annotation_explanation": "I chose it because the source is trustworthy and its explicitly mentioned in context 7",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.nps.gov",
+          "text": "Pre-1607 - Before the arrival of the English the Virginia Indians had been living in what is now Virginia for over 12,000 years. Chief Powhatan inherited ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.loc.gov",
+          "text": "Those living in the area where Jamestown was settled must have had mixed feelings about the arrival of the English in 1607. One of their first reactions was ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nps.gov",
+          "text": "A Short History of Jamestown. The English arriving to settle Jamestown. ... Virginia became a royal colony, which it remained until the Revolutionary War.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.history.com",
+          "text": "Mar 8, 2010 ... The Jamestown Colony was the first permanent English settlement in ... brought Jamestown to the brink of failure before the arrival of a new ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "education.nationalgeographic.org",
+          "text": "People lived in North America long before the first Europeans arrived. The arrival of English settlers in Jamestown in 1607 marked the beginning of an end ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nationalarchives.gov.uk",
+          "text": "Potential activities: Create a timeline to show the history of Jamestown. ... The first English explorers to North America arrived five years after Columbus ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Jamestown occupied land belonging to the Powhatan Confederacy and was also at the brink of failure before the arrival of a new group of settlers and ...",
+          "supports_answers": [
+            "the Powhatan Confederacy"
+          ]
+        },
+        {
+          "source_domain": "historicjamestowne.org",
+          "text": "It was only the arrival of the new governor, Lord De La Warr, and his supply ... in English North America convened in the Jamestown church on July 30, 1619.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "time.com",
+          "text": "Aug 20, 2019 ... The landing of the first Africans in English North America in 1619 was a ... lived in the area that became Virginia long before Europeans or ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The Jamestown settlement in the Colony of Virginia was the first permanent English ... Two-thirds of the settlers died before ships arrived in 1608 with ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 22.217,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

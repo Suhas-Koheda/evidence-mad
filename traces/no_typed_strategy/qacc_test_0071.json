@@ -1,0 +1,298 @@
+{
+  "query": "Type of disappearing lake found in limestone areas in the west of ireland?",
+  "trace_id": "196948e6-76c7-411c-acb8-87e65f43355c",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Type of disappearing lake found in limestone areas in the west of ireland?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:24:03.353123"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Type of disappearing lake found in limestone areas in the west of ireland?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:24:03.352630"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Type of disappearing lake found in limestone areas in the west of ireland?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:24:13.335189"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Type of disappearing lake found in limestone areas in the west of ireland?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:24:13.335222"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Type of disappearing lake found in limestone areas in the west of ireland?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:24:13.335236"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Type of disappearing lake found in limestone areas in the west of ireland?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:24:48.365293"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Type of disappearing lake found in limestone areas in the west of ireland?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:24:58.338566"
+  },
+  "metrics": {
+    "latency_seconds": 54.987632751464844,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_typed_strategy"
+  },
+  "started_at": "2026-10-16T22:24:03.350927",
+  "completed_at": "2026-10-16T22:24:58.338611",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0071",
+    "query": "Type of disappearing lake found in limestone areas in the west of ireland?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "turlough",
+    "required_facts": [
+      "turlough"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 91,
+      "answer_variants": [
+        "turlough"
+      ],
+      "annotation_explanation": "This can be fully verified and looked into and realized.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Turlough (lake) · A turlough (turloch or turlach in Irish) is a seasonal or periodic water body found mostly in limestone karst areas of Ireland, west of the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.irishcentral.com",
+          "text": "Jul 19, 2016 ... A turlough? It was originally thought that Lough Funshinagh was a \"turlough\" – a type of disappearing lake found mostly west of the River ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.worldatlas.com",
+          "text": "Jul 3, 2018 ... ... are unique to Ireland and are found west of the River Shannon in Ireland. A turlough is a disappearing lake found in a limestone area.",
+          "supports_answers": [
+            "turlough"
+          ]
+        },
+        {
+          "source_domain": "www.irishcentral.com",
+          "text": "Apr 24, 2014 ... They are a mystery the world round, but in the West of Ireland there is a ... which are found in the limestone areas in the West of Ireland, ...",
+          "supports_answers": [
+            "turlough"
+          ]
+        },
+        {
+          "source_domain": "kids.kiddle.co",
+          "text": "A turlough, or turlach, is a type of disappearing lake found mostly in limestone areas of Ireland, west of the River Shannon. The name comes from the Irish ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "skehana.galwaycommunityheritage.org",
+          "text": "Nov 25, 2014 ... A turlough, or turlach, is a type of disappearing lake found mostly in limestone areas of Ireland, west of the River Shannon.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.burrengeopark.ie",
+          "text": "strange disappearing lakes, which are found in limestone areas of Ireland, mostly west of the Shannon. The name is thought to come from the Irish “tur loch” ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "kids.kiddle.co",
+          "text": "A turlough, or turlach, is a type of disappearing lake found mostly in limestone areas of Ireland, west of the River Shannon. The name comes from the Irish ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.spatialpost.com",
+          "text": "Dec 13, 2021 ... They are disappearing lakes found within this limestone area. #6. Uvala. Uvalas are geological depressions that result from rapid erosion ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.amusingplanet.com",
+          "text": "Sep 2, 2020 ... However, in Ireland, there is a type of disappearing lake that does ... but in many areas to the west of the Shannon the limestone is pure ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_typed_strategy",
+  "evaluation_seconds": 55.002,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

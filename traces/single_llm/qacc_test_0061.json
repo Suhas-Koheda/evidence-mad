@@ -1,0 +1,138 @@
+{
+  "query": "Who sang the song good morning good morning?",
+  "trace_id": "0e433000-7e51-458e-a53f-dc6913f208a1",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who sang the song good morning good morning?",
+    "answer": "The Beatles (John Lennon)",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-17T00:09:44.337872"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 18.36170744895935,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-17T00:09:25.976279",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0061",
+    "query": "Who sang the song good morning good morning?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "the Beatles",
+    "required_facts": [
+      "the Beatles"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 77,
+      "answer_variants": [
+        "the Beatles",
+        "Nacio Herb Brown",
+        "PJ Morton"
+      ],
+      "annotation_explanation": "I chose it because I think the source site is trustworthy and its explicitly mentioned in context 2",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Jul 19, 2011 ... \"Good Morning\" [Originally Written for Garland & Rooney's 1939 film, Babes In Arms] Words by Arthur Freed Music by Nacio Herb Brown Lyrics: ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "\"Good Morning Good Morning\" is a song by the English rock band the Beatles from their 1967 album Sgt. Pepper's Lonely Hearts Club Band.",
+          "supports_answers": [
+            "the Beatles"
+          ]
+        },
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Oct 4, 2007 ... Good morning original version. 5.3M views · 15 years ago ...more. marouze. 1.62K. Subscribe. 1.62K subscribers. 18K. Share. Save. Report ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "\"Good Morning\" is a song with music by Nacio Herb Brown and lyrics by Arthur Freed, originally written for the film Babes in Arms (1939) and performed by ...",
+          "supports_answers": [
+            "Nacio Herb Brown"
+          ]
+        },
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Dec 13, 2009 ... Kanye West - Good Morning · Comments30K.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "ratedrnb.com",
+          "text": "Feb 10, 2023 ... PJ Morton has teamed up with Susan Carol for a lovely new track, “Good Morning.” Timed around Valentine's Day, the song is wrapped in ...",
+          "supports_answers": [
+            "PJ Morton"
+          ]
+        },
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Jan 27, 2016 ... Buy the song from iTunes (mp3): https://itunes.apple.com/ca/album/good-morning-song-single/id1087501867 Buy this video from Sellfy (mp4): ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.goodmorningamerica.com",
+          "text": "May 9, 2023 ... In an interview with \"Good Morning America\" on Tuesday, the singer said it was \"101 songs with the same chord sequence\" that helped the jury ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 18.376,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

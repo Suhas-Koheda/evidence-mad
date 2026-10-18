@@ -1,0 +1,288 @@
+{
+  "query": "Who did the whistling in the muppet movie?",
+  "trace_id": "e565f83c-26ae-4363-b66b-795ae676a700",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who did the whistling in the muppet movie?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:21:03.344992"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who did the whistling in the muppet movie?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:21:03.345771"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "Who did the whistling in the muppet movie?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:21:13.327119"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who did the whistling in the muppet movie?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:21:13.327166"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who did the whistling in the muppet movie?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:21:13.327184"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who did the whistling in the muppet movie?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:21:48.367952"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who did the whistling in the muppet movie?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:21:58.330326"
+  },
+  "metrics": {
+    "latency_seconds": 54.9867742061615,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_typed_strategy"
+  },
+  "started_at": "2026-10-16T22:21:03.343545",
+  "completed_at": "2026-10-16T22:21:58.330373",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0068",
+    "query": "Who did the whistling in the muppet movie?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Andrew Bird",
+    "required_facts": [
+      "Andrew Bird"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 87,
+      "answer_variants": [
+        "Andrew Bird"
+      ],
+      "annotation_explanation": "This is the most common answer I could find and is verfiable.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.sevendaysvt.com",
+          "text": "Oct 6, 2016 ... Andrew Bird on Guns, Whistling and Muppets ... On his latest record, Are You Serious, Andrew Bird gets, well, pretty serious. The album, released ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The character's solo act of whistling in the telethon's finale was performed by musician Andrew Bird. At the conclusion of the film, Walter deduces that he is a ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "disney.fandom.com",
+          "text": "\"The Whistling Caruso\" is an original song featured in the 2011 film The Muppets which was performed by Walter (Peter Linz) on the stage of The Muppet ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.reddit.com",
+          "text": "Nov 7, 2014 ... TIL: The \"Whistling Caruso\" from the 2011 Muppet Movie is actually musician Andrew Bird. r/todayilearned - TIL: The \"Whistling Caruso\" from ...",
+          "supports_answers": [
+            "Andrew Bird"
+          ]
+        },
+        {
+          "source_domain": "www.reddit.com",
+          "text": "May 3, 2022 ... Twisted Nerve is the movie Tarantino copied for that whistling scene. ... The recent Muppets movie has their new character whistle as his ...",
+          "supports_answers": [
+            "Andrew Bird"
+          ]
+        },
+        {
+          "source_domain": "www.hollywoodreporter.com",
+          "text": "Oct 10, 2011 ... Muppets characters also cover Nirvana's \"Smells Like Teen Spirit\" and Cee Lo ... Christophe Beck did the score for the film that opens Nov.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.pinterest.com",
+          "text": "\"The Whistling Caruso\" is an original song from the film The Muppets. The song is whistled by Walter ... Baby Gonzo is the Muppet Babies version of Gonzo.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "every-day-i-write-the-blog.blogspot.com",
+          "text": "Apr 3, 2012 ... Was that Feist? Look at the drummer, it's Dave Grohl! But the craziest little tidbit comes at the end of the film. ... Young, nervous Muppet, ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_typed_strategy",
+  "evaluation_seconds": 55.001,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

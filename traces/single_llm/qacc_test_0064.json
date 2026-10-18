@@ -1,0 +1,153 @@
+{
+  "query": "Who sings good night on the beatles white album?",
+  "trace_id": "6dc11ce1-de7a-4d86-b1ce-7e9bd3c4c67f",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who sings good night on the beatles white album?",
+    "answer": "Ringo Starr",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-17T00:10:34.895040"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 50.53936219215393,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-17T00:09:44.355784",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0064",
+    "query": "Who sings good night on the beatles white album?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "Ringo Star",
+    "required_facts": [
+      "Ringo Star"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 82,
+      "answer_variants": [
+        "Ringo Starr",
+        "Lennon"
+      ],
+      "annotation_explanation": "Ringo Star is the answer because although context2 hints at it being Lennon, context3, 4, and 5 all support from credible sources that the song was written by Lennon and sung by Ringo. The question specifically asks who sings the song and not who wrote the song.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Jun 17, 2018 ... Good Night (Remastered 2009) ... I can't imagine any other Beatle singing this. ... 11-The Beatles - White Album (full album).",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Written for Lennon's five-year-old son Julian, \"Good Night\" is the final song on the White Album. \"Good Night\". Cover of the song's sheet music. Song by the ...",
+          "supports_answers": [
+            "Lennon"
+          ]
+        },
+        {
+          "source_domain": "www.cheatsheet.com",
+          "text": "Sep 1, 2019 ... 'Good Night,' the moving ballad by John Lennon, closes out the Beatles' 'White Album.' Here's why Ringo sang it instead of John.",
+          "supports_answers": [
+            "Ringo Starr"
+          ]
+        },
+        {
+          "source_domain": "www.rollingstone.com",
+          "text": "Nov 9, 2018 ... It's a tender ballad from John, one he always meant for Ringo Starr to sing, without ever explaining to Ringo (or anyone else) why. Many fans ...",
+          "supports_answers": [
+            "Ringo Starr"
+          ]
+        },
+        {
+          "source_domain": "www.beatlesbible.com",
+          "text": "'Good Night', the tender closing song on the White Album, was written by John Lennon as a lullaby for his son Julian, and sung by Ringo Starr.",
+          "supports_answers": [
+            "Ringo Starr"
+          ]
+        },
+        {
+          "source_domain": "www.thebeatles.com",
+          "text": "\"Good Night\" is the final song by the Beatles on their 1968 album The Beatles (also known as The White Album). It is sung by Ringo Starr, the only Beatle to ...",
+          "supports_answers": [
+            "Ringo Starr"
+          ]
+        },
+        {
+          "source_domain": "www.beatlesebooks.com",
+          "text": "\"Good Night\" premiered for the world as the closing number to the highly anticipated and world renowned album \"The Beatles,\" popularly known as the \"White Album ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.reddit.com",
+          "text": "Apr 8, 2022 ... On the White Album, we have Paul singing Helter Skelter. ... Ranked against other Beatle's songs that have great melodies after great ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "somethingelsereviews.com",
+          "text": "Dec 21, 2018 ... Our multi-column salute to the White Album kicks off with the double LP's end: the tender lullaby “Good Night,” sung memorably by Ringo ...",
+          "supports_answers": [
+            "Ringo Starr"
+          ]
+        },
+        {
+          "source_domain": "www.the-paulmccartney-project.com",
+          "text": "Sep 11, 2021 ... Good Night” is a song by the English rock band the Beatles from their 1968 double album The Beatles (also known as the “White Album”)....",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 50.555,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

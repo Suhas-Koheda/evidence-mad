@@ -1,0 +1,293 @@
+{
+  "query": "Where does the cell spend most of its time in the cell cycle?",
+  "trace_id": "3ce1613f-45bb-4765-bde8-ab6dd08862ce",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Where does the cell spend most of its time in the cell cycle?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:26:38.360421"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Where does the cell spend most of its time in the cell cycle?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:26:38.362333"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "Where does the cell spend most of its time in the cell cycle?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:26:43.341757"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Where does the cell spend most of its time in the cell cycle?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:26:43.341798"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Where does the cell spend most of its time in the cell cycle?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:26:43.341817"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Where does the cell spend most of its time in the cell cycle?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:27:23.384035"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Where does the cell spend most of its time in the cell cycle?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:27:28.344784"
+  },
+  "metrics": {
+    "latency_seconds": 49.986093521118164,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "proposed_mad"
+  },
+  "started_at": "2026-10-16T22:26:38.358669",
+  "completed_at": "2026-10-16T22:27:28.344831",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0074",
+    "query": "Where does the cell spend most of its time in the cell cycle?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "interphase",
+    "required_facts": [
+      "interphase"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 95,
+      "answer_variants": [
+        "interphase"
+      ],
+      "annotation_explanation": "This is the only choice here that is logical based on science.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.genome.gov",
+          "text": "A cell spends most of its time in what is called interphase, and during this time it grows, replicates its chromosomes, and prepares for cell division. The cell ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "byjus.com",
+          "text": "Interphase: A typical cell spends the majority of its time in interphase, which is the phase of the cell cycle. The metabolic or \"everyday life\" phase of ...",
+          "supports_answers": [
+            "interphase"
+          ]
+        },
+        {
+          "source_domain": "homework.study.com",
+          "text": "The correct answer: The phase in which a cell typically spends most of its time is d. Interphase. Interphase is the preparatory phase of the cell cycle ...",
+          "supports_answers": [
+            "interphase"
+          ]
+        },
+        {
+          "source_domain": "www.ncbi.nlm.nih.gov",
+          "text": "Consequently, the small daughter cell spends a longer time in G1 and grows more than the mother cell. The proliferation of most animal cells is similarly ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "quizlet.com",
+          "text": "Interphase is the phase of the cell cycle in which the cell spends the majority of its time and performs the majority of its purposes including preparation ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.ncbi.nlm.nih.gov",
+          "text": "Oct 20, 2016 ... The overall cell-cycle length of MCF10A cells is 21 hr long, on average (Figure 1B). Cells spend 95% of their cell division cycle in ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.khanacademy.org",
+          "text": "The cell cycle can be thought of as the life cycle of a cell. In other words, it is the ... You can learn more about these stages in the video on mitosis.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "bio.libretexts.org",
+          "text": "Jul 30, 2022 ... As you can see, cells spend most of their time in interphase. Learning Objectives. This video reviews all the steps of mitosis; seeing it all ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "socratic.org",
+          "text": "Jan 4, 2018 ... The most cells are in interphase. Lets see below how you can determine this. The interphase (inter= between) is the phase in the cell cycle ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "proposed_mad",
+  "evaluation_seconds": 50.001,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

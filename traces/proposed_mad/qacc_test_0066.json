@@ -1,0 +1,303 @@
+{
+  "query": "How many times has lake placid hosted the winter olympics?",
+  "trace_id": "c8edb997-7e82-4cce-84c6-5ab6dc243d03",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "How many times has lake placid hosted the winter olympics?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:18:38.337455"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "How many times has lake placid hosted the winter olympics?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:18:38.338707"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "How many times has lake placid hosted the winter olympics?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:18:43.319905"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "How many times has lake placid hosted the winter olympics?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:18:43.319938"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "How many times has lake placid hosted the winter olympics?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:18:43.319951"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "How many times has lake placid hosted the winter olympics?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:19:23.351312"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "How many times has lake placid hosted the winter olympics?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:19:28.323237"
+  },
+  "metrics": {
+    "latency_seconds": 49.987258434295654,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "proposed_mad"
+  },
+  "started_at": "2026-10-16T22:18:38.335973",
+  "completed_at": "2026-10-16T22:19:28.323281",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0066",
+    "query": "How many times has lake placid hosted the winter olympics?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "13th",
+    "required_facts": [
+      "13th"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 84,
+      "answer_variants": [
+        "two",
+        "13th"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 6 and 8 and I trusted the source",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.governing.com",
+          "text": "Dec 23, 2021 ... Located in upstate New York with a population of less than 4000, Lake Placid was not an obvious choice for the 1932 Winter Olympics.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "olympics.com",
+          "text": "Olympic Winter Games Lake Placid 1980 ... many snow machines were used to produce artificial snow—the first time this had been done at the Olympic Games.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Lake Placid was elected as the host city for the 1980 Winter Games at the 75th International Olympic Committee (IOC) Session in Vienna, Austria in 1974.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "lakeplacidlegacysites.com",
+          "text": "As the only North American location to have hosted two Winter Olympics, it is the responsibility of the museum and its staff to tell the stories and preserve ...",
+          "supports_answers": [
+            "two"
+          ]
+        },
+        {
+          "source_domain": "www.theadkx.org",
+          "text": "Lake Placid has had the privilege of hosting two Winter Olympic games, first in 1932 and again in 1980. While games in the past were much smaller in scale ...",
+          "supports_answers": [
+            "two"
+          ]
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "The Lake Placid Games were the 13th occurrence of the Winter Olympic Games. The 1980 Games marked the second time the small upstate New York town had hosted ...",
+          "supports_answers": [
+            "13th"
+          ]
+        },
+        {
+          "source_domain": "www.nbcnewyork.com",
+          "text": "Aug 8, 2021 ... Two cities in the United States have hosted the Olympic Games twice: Lake Placid and Los Angeles. Lake Placid hosted the Winter Olympics in ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nytimes.com",
+          "text": "Feb 3, 2005 ... 13 that Lake Placid was host to the 1980 Winter Games. Much has changed about the Olympics since -- larger and longer, more costly and more ...",
+          "supports_answers": [
+            "13th"
+          ]
+        },
+        {
+          "source_domain": "spectrumlocalnews.com",
+          "text": "May 26, 2022 ... More than 40 years after Lake Placid last hosted a Winter Olympics, ... Games will have twice as many competitions as the 1980 Olympics, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.northcountrypublicradio.org",
+          "text": "Jun 1, 2022 ... Jun 01, 2022 — Lake Placid hosted the 1932 and 1980 Winter Olympics. Now, a group of New York lawmakers want the Adirondack village to team ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "proposed_mad",
+  "evaluation_seconds": 50.001,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

@@ -1,0 +1,1026 @@
+{
+  "query": "Where does the last name hansen come from?",
+  "trace_id": "f52f6d0f-337e-4a3b-9aef-797f0ef03189",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Where does the last name hansen come from?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T23:08:33.399218"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Where does the last name hansen come from?",
+          "answer": "Based on 5 sources:\n- Robert Hansen: Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father\n- In his youth, Hansen was painfully shy, had a stutter\n\nDear Evan Hansen: Evan Hansen is a stage musical with music and lyrics by Benj Pasek and Justin Paul, and a book by Steven Levenson\n- The musical follows Evan Hansen, a high\n\nBeck: Beck David Hansen (born Bek David Campbell; July 8, 1970), known mononymously as Beck, is an American singer, songwriter, and record producer\n- He rose\n\nDear Evan Hansen (film): Dear Evan Hansen is a 2021 American coming-of-age musical film directed by Stephen Chbosky and written by Steven Levenson, based on the 2015 stage musical\n\nSuicide of Bill Conradt: A\n- \" The Dallas Morning News",
+          "claims": [
+            {
+              "id": "041907dc",
+              "text": "Robert Hansen: Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=4501180",
+                "title": "Robert Hansen",
+                "snippet": "Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father. In his youth, Hansen was painfully shy, had a stutter",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:33.480098",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0c140743",
+              "text": "In his youth, Hansen was painfully shy, had a stutter\n\nDear Evan Hansen: Evan Hansen is a stage musical with music and lyrics by Benj Pasek and Justin Paul, and a book by Steven Levenson",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=47535900",
+                "title": "Dear Evan Hansen",
+                "snippet": "Evan Hansen is a stage musical with music and lyrics by Benj Pasek and Justin Paul, and a book by Steven Levenson. The musical follows Evan Hansen, a high",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:33.480128",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3cb03fb3",
+              "text": "The musical follows Evan Hansen, a high\n\nBeck: Beck David Hansen (born Bek David Campbell; July 8, 1970), known mononymously as Beck, is an American singer, songwriter, and record producer",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=149681",
+                "title": "Beck",
+                "snippet": "Beck David Hansen (born Bek David Campbell; July 8, 1970), known mononymously as Beck, is an American singer, songwriter, and record producer. He rose",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:33.480137",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3d8adf41",
+              "text": "He rose\n\nDear Evan Hansen (film): Dear Evan Hansen is a 2021 American coming-of-age musical film directed by Stephen Chbosky and written by Steven Levenson, based on the 2015 stage musical\n\nSuicide of Bill Conradt: A",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=64248111",
+                "title": "Dear Evan Hansen (film)",
+                "snippet": "Dear Evan Hansen is a 2021 American coming-of-age musical film directed by Stephen Chbosky and written by Steven Levenson, based on the 2015 stage musical",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:33.480146",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "56eb0370",
+              "text": "\" The Dallas Morning News",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=72682434",
+                "title": "Suicide of Bill Conradt",
+                "snippet": "A.\" The Dallas Morning News. ISSN 1553-846X. OCLC 1035116631. Archived from the original on October 15, 2008. Retrieved November 19, 2022. Hansen, Chris",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:33.480152",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1f0b396b",
+              "text": "Archived from the original on October 15, 2008",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=149681",
+                "title": "Beck",
+                "snippet": "Beck David Hansen (born Bek David Campbell; July 8, 1970), known mononymously as Beck, is an American singer, songwriter, and record producer. He rose",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:33.480137",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "cc7b6a25",
+              "text": "Retrieved November 19, 2022",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=64248111",
+                "title": "Dear Evan Hansen (film)",
+                "snippet": "Dear Evan Hansen is a 2021 American coming-of-age musical film directed by Stephen Chbosky and written by Steven Levenson, based on the 2015 stage musical",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:33.480146",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=4501180",
+              "title": "Robert Hansen",
+              "snippet": "Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father. In his youth, Hansen was painfully shy, had a stutter",
+              "metadata": {
+                "search_query": "Where does the last name hansen come from?"
+              },
+              "retrieved_at": "2026-10-16T23:08:33.480098",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=47535900",
+              "title": "Dear Evan Hansen",
+              "snippet": "Evan Hansen is a stage musical with music and lyrics by Benj Pasek and Justin Paul, and a book by Steven Levenson. The musical follows Evan Hansen, a high",
+              "metadata": {
+                "search_query": "Where does the last name hansen come from?"
+              },
+              "retrieved_at": "2026-10-16T23:08:33.480128",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=149681",
+              "title": "Beck",
+              "snippet": "Beck David Hansen (born Bek David Campbell; July 8, 1970), known mononymously as Beck, is an American singer, songwriter, and record producer. He rose",
+              "metadata": {
+                "search_query": "Where does the last name hansen come from?"
+              },
+              "retrieved_at": "2026-10-16T23:08:33.480137",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=64248111",
+              "title": "Dear Evan Hansen (film)",
+              "snippet": "Dear Evan Hansen is a 2021 American coming-of-age musical film directed by Stephen Chbosky and written by Steven Levenson, based on the 2015 stage musical",
+              "metadata": {
+                "search_query": "Where does the last name hansen come from?"
+              },
+              "retrieved_at": "2026-10-16T23:08:33.480146",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=72682434",
+              "title": "Suicide of Bill Conradt",
+              "snippet": "A.\" The Dallas Morning News. ISSN 1553-846X. OCLC 1035116631. Archived from the original on October 15, 2008. Retrieved November 19, 2022. Hansen, Chris",
+              "metadata": {
+                "search_query": "Where does the last name hansen come from?"
+              },
+              "retrieved_at": "2026-10-16T23:08:33.480152",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Robert Hansen: Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father. In his youth, Hansen was painfully shy, had a stutter\n\nDear Evan Hansen: Evan Hansen is a stage musical with music and lyrics by Benj Pasek and Justin Paul, and a book by Steven Levenson. The musical follows Evan Hansen, a high\n\nBeck: Beck David Hansen (born Bek David Campbell; July 8, 1970), known mononymously as Beck, is an American singer, songwriter, and record producer. He rose\n\nDear Evan Hansen (film): Dear Evan Hansen is a 2021 American coming-of-age musical film directed by Stephen Chbosky and written by Steven Levenson, based on the 2015 stage musical\n\nSuicide of Bill Conradt: A.\" The Dallas Morning News. ISSN 1553-846X. OCLC 1035116631. Archived from the original on October 15, 2008. Retrieved November 19, 2022. Hansen, Chris",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T23:08:33.480343"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Where does the last name hansen come from?",
+          "answer": "Based on 5 sources:\n- Hansen (surname) - Wikipedia: Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \"\n- As of 2008, it is the third most common surname in Denmark, shared by 4\n- [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common\n- [3] In the Faroe Islands, Hansen\n- Hansen History, Family Crest & Coats of Arms - HouseofNames: Learn about the Hansen Family Crest, its Origin and History",
+          "claims": [
+            {
+              "id": "94d2ebc3",
+              "text": "Hansen (surname) - Wikipedia: Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \"",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Hansen_(surname)",
+                "title": "Hansen (surname) - Wikipedia",
+                "snippet": "Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:35.825358",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f57ed90b",
+              "text": "As of 2008, it is the third most common surname in Denmark, shared by 4",
+              "source": {
+                "url": "https://www.houseofnames.com/hansen-family-crest",
+                "title": "Hansen History, Family Crest & Coats of Arms - HouseofNames",
+                "snippet": "Learn about the Hansen Family Crest, its Origin and History. Where did the Hansen surname come from? Where did the family branches go?",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:35.825390",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2737cf99",
+              "text": "[1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common",
+              "source": {
+                "url": "https://atlasofhome.com/surnames/hansen-surname-origin/",
+                "title": "The Hansen Surname: Origin, Meaning and History - Atlas of Home",
+                "snippet": "Hansen means \"son of Hans\". Explore the surname's Danish, Norwegian and Schleswig-Holstein roots, the Hanson spelling split, and how common it is in America.",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:35.825407",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "11501549",
+              "text": "[3] In the Faroe Islands, Hansen",
+              "source": {
+                "url": "https://lastnames.myheritage.com/last-name/hansen",
+                "title": "Hansen Last Name — Surname Origins & Meanings - MyHeritage",
+                "snippet": "Discover the origins and meaning of the Hansen surname. Explore historical records including birth, marriage, death, immigration, and census of the Hansen last name.",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:35.825413",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2d0f4899",
+              "text": "Hansen History, Family Crest & Coats of Arms - HouseofNames: Learn about the Hansen Family Crest, its Origin and History",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Hansen_(surname)",
+                "title": "Hansen (surname) - Wikipedia",
+                "snippet": "Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:35.825358",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0596c0e0",
+              "text": "Where did the Hansen surname come from",
+              "source": {
+                "url": "https://www.houseofnames.com/hansen-family-crest",
+                "title": "Hansen History, Family Crest & Coats of Arms - HouseofNames",
+                "snippet": "Learn about the Hansen Family Crest, its Origin and History. Where did the Hansen surname come from? Where did the family branches go?",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:35.825390",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0c82f857",
+              "text": "Where did the family branches go",
+              "source": {
+                "url": "https://forebears.io/surnames/hansen",
+                "title": "Hansen Surname Origin, Meaning & Last Name History - Forebears",
+                "snippet": "Learn the fascinating origin of the Hansen surname; its meaning & distribution. Unlock your family history in the largest database of last names.",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:35.825399",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "dc2dd764",
+              "text": "Hansen Surname Origin, Meaning & Last Name History - Forebears: Learn the fascinating origin of the Hansen surname; its meaning & distribution",
+              "source": {
+                "url": "https://atlasofhome.com/surnames/hansen-surname-origin/",
+                "title": "The Hansen Surname: Origin, Meaning and History - Atlas of Home",
+                "snippet": "Hansen means \"son of Hans\". Explore the surname's Danish, Norwegian and Schleswig-Holstein roots, the Hanson spelling split, and how common it is in America.",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:35.825407",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a1d2b036",
+              "text": "Unlock your family history in the largest database of last names",
+              "source": {
+                "url": "https://lastnames.myheritage.com/last-name/hansen",
+                "title": "Hansen Last Name — Surname Origins & Meanings - MyHeritage",
+                "snippet": "Discover the origins and meaning of the Hansen surname. Explore historical records including birth, marriage, death, immigration, and census of the Hansen last name.",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:35.825413",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f8bf3b98",
+              "text": "The Hansen Surname: Origin, Meaning and History - Atlas of Home: Hansen means \"son of Hans\"",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Hansen_(surname)",
+                "title": "Hansen (surname) - Wikipedia",
+                "snippet": "Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...",
+                "metadata": {
+                  "search_query": "Where does the last name hansen come from?"
+                },
+                "retrieved_at": "2026-10-16T23:08:35.825358",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Hansen_(surname)",
+              "title": "Hansen (surname) - Wikipedia",
+              "snippet": "Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...",
+              "metadata": {
+                "search_query": "Where does the last name hansen come from?"
+              },
+              "retrieved_at": "2026-10-16T23:08:35.825358",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.houseofnames.com/hansen-family-crest",
+              "title": "Hansen History, Family Crest & Coats of Arms - HouseofNames",
+              "snippet": "Learn about the Hansen Family Crest, its Origin and History. Where did the Hansen surname come from? Where did the family branches go?",
+              "metadata": {
+                "search_query": "Where does the last name hansen come from?"
+              },
+              "retrieved_at": "2026-10-16T23:08:35.825390",
+              "credibility_score": null
+            },
+            {
+              "url": "https://forebears.io/surnames/hansen",
+              "title": "Hansen Surname Origin, Meaning & Last Name History - Forebears",
+              "snippet": "Learn the fascinating origin of the Hansen surname; its meaning & distribution. Unlock your family history in the largest database of last names.",
+              "metadata": {
+                "search_query": "Where does the last name hansen come from?"
+              },
+              "retrieved_at": "2026-10-16T23:08:35.825399",
+              "credibility_score": null
+            },
+            {
+              "url": "https://atlasofhome.com/surnames/hansen-surname-origin/",
+              "title": "The Hansen Surname: Origin, Meaning and History - Atlas of Home",
+              "snippet": "Hansen means \"son of Hans\". Explore the surname's Danish, Norwegian and Schleswig-Holstein roots, the Hanson spelling split, and how common it is in America.",
+              "metadata": {
+                "search_query": "Where does the last name hansen come from?"
+              },
+              "retrieved_at": "2026-10-16T23:08:35.825407",
+              "credibility_score": null
+            },
+            {
+              "url": "https://lastnames.myheritage.com/last-name/hansen",
+              "title": "Hansen Last Name — Surname Origins & Meanings - MyHeritage",
+              "snippet": "Discover the origins and meaning of the Hansen surname. Explore historical records including birth, marriage, death, immigration, and census of the Hansen last name.",
+              "metadata": {
+                "search_query": "Where does the last name hansen come from?"
+              },
+              "retrieved_at": "2026-10-16T23:08:35.825413",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Hansen (surname) - Wikipedia: Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...\n\nHansen History, Family Crest & Coats of Arms - HouseofNames: Learn about the Hansen Family Crest, its Origin and History. Where did the Hansen surname come from? Where did the family branches go?\n\nHansen Surname Origin, Meaning & Last Name History - Forebears: Learn the fascinating origin of the Hansen surname; its meaning & distribution. Unlock your family history in the largest database of last names.\n\nThe Hansen Surname: Origin, Meaning and History - Atlas of Home: Hansen means \"son of Hans\". Explore the surname's Danish, Norwegian and Schleswig-Holstein roots, the Hanson spelling split, and how common it is in America.\n\nHansen Last Name — Surname Origins & Meanings - MyHeritage: Discover the origins and meaning of the Hansen surname. Explore historical records including birth, marriage, death, immigration, and census of the Hansen last name.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T23:08:35.825730"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Where does the last name hansen come from?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:08:35.826738"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Where does the last name hansen come from?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father. In his youth, Hansen was painfully shy, had a stutter",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=4501180",
+            "title": "Robert Hansen",
+            "snippet": "Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father. In his youth, Hansen was painfully shy, had a stutter",
+            "metadata": {
+              "search_query": "Where does the last name hansen come from?"
+            },
+            "retrieved_at": "2026-10-16T23:08:35.827031",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=4501180",
+          "title": "Robert Hansen",
+          "snippet": "Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father. In his youth, Hansen was painfully shy, had a stutter",
+          "metadata": {
+            "search_query": "Where does the last name hansen come from?"
+          },
+          "retrieved_at": "2026-10-16T23:08:35.827031",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=47535900",
+          "title": "Dear Evan Hansen",
+          "snippet": "Evan Hansen is a stage musical with music and lyrics by Benj Pasek and Justin Paul, and a book by Steven Levenson. The musical follows Evan Hansen, a high",
+          "metadata": {
+            "search_query": "Where does the last name hansen come from?"
+          },
+          "retrieved_at": "2026-10-16T23:08:35.827043",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=149681",
+          "title": "Beck",
+          "snippet": "Beck David Hansen (born Bek David Campbell; July 8, 1970), known mononymously as Beck, is an American singer, songwriter, and record producer. He rose",
+          "metadata": {
+            "search_query": "Where does the last name hansen come from?"
+          },
+          "retrieved_at": "2026-10-16T23:08:35.827050",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=64248111",
+          "title": "Dear Evan Hansen (film)",
+          "snippet": "Dear Evan Hansen is a 2021 American coming-of-age musical film directed by Stephen Chbosky and written by Steven Levenson, based on the 2015 stage musical",
+          "metadata": {
+            "search_query": "Where does the last name hansen come from?"
+          },
+          "retrieved_at": "2026-10-16T23:08:35.827057",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=72682434",
+          "title": "Suicide of Bill Conradt",
+          "snippet": "A.\" The Dallas Morning News. ISSN 1553-846X. OCLC 1035116631. Archived from the original on October 15, 2008. Retrieved November 19, 2022. Hansen, Chris",
+          "metadata": {
+            "search_query": "Where does the last name hansen come from?"
+          },
+          "retrieved_at": "2026-10-16T23:08:35.827064",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:09:27.848759"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Where does the last name hansen come from?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Hansen_(surname)",
+            "title": "Hansen (surname) - Wikipedia",
+            "snippet": "Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...",
+            "metadata": {
+              "search_query": "Where does the last name hansen come from?"
+            },
+            "retrieved_at": "2026-10-16T23:09:27.849114",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hansen_(surname)",
+          "title": "Hansen (surname) - Wikipedia",
+          "snippet": "Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...",
+          "metadata": {
+            "search_query": "Where does the last name hansen come from?"
+          },
+          "retrieved_at": "2026-10-16T23:09:27.849114",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.houseofnames.com/hansen-family-crest",
+          "title": "Hansen History, Family Crest & Coats of Arms - HouseofNames",
+          "snippet": "Learn about the Hansen Family Crest, its Origin and History. Where did the Hansen surname come from? Where did the family branches go?",
+          "metadata": {
+            "search_query": "Where does the last name hansen come from?"
+          },
+          "retrieved_at": "2026-10-16T23:09:27.849125",
+          "credibility_score": null
+        },
+        {
+          "url": "https://forebears.io/surnames/hansen",
+          "title": "Hansen Surname Origin, Meaning & Last Name History - Forebears",
+          "snippet": "Learn the fascinating origin of the Hansen surname; its meaning & distribution. Unlock your family history in the largest database of last names.",
+          "metadata": {
+            "search_query": "Where does the last name hansen come from?"
+          },
+          "retrieved_at": "2026-10-16T23:09:27.849132",
+          "credibility_score": null
+        },
+        {
+          "url": "https://atlasofhome.com/surnames/hansen-surname-origin/",
+          "title": "The Hansen Surname: Origin, Meaning and History - Atlas of Home",
+          "snippet": "Hansen means \"son of Hans\". Explore the surname's Danish, Norwegian and Schleswig-Holstein roots, the Hanson spelling split, and how common it is in America.",
+          "metadata": {
+            "search_query": "Where does the last name hansen come from?"
+          },
+          "retrieved_at": "2026-10-16T23:09:27.849139",
+          "credibility_score": null
+        },
+        {
+          "url": "https://lastnames.myheritage.com/last-name/hansen",
+          "title": "Hansen Last Name — Surname Origins & Meanings - MyHeritage",
+          "snippet": "Discover the origins and meaning of the Hansen surname. Explore historical records including birth, marriage, death, immigration, and census of the Hansen last name.",
+          "metadata": {
+            "search_query": "Where does the last name hansen come from?"
+          },
+          "retrieved_at": "2026-10-16T23:09:27.849146",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:10:12.865026"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Where does the last name hansen come from?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T23:09:17.631836"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father. In his youth, Hansen was painfully shy, had a stutter",
+        "claim_b_text": "Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...",
+        "label": "neutral",
+        "contradiction_score": 0.006868069991469383,
+        "entailment_score": 0.002554284641519189,
+        "neutral_score": 0.9957003593444824
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "web_agent",
+      "claim_a": {
+        "text": "Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father. In his youth, Hansen was painfully shy, had a stutter",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=4501180",
+          "title": "Robert Hansen",
+          "snippet": "Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father. In his youth, Hansen was painfully shy, had a stutter",
+          "metadata": {
+            "search_query": "Where does the last name hansen come from?"
+          },
+          "retrieved_at": "2026-10-16T23:08:35.827031",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Hansen_(surname)",
+          "title": "Hansen (surname) - Wikipedia",
+          "snippet": "Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...",
+          "metadata": {
+            "search_query": "Where does the last name hansen come from?"
+          },
+          "retrieved_at": "2026-10-16T23:09:27.849114",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.006868069991469383
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.006868069991469383,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "ebf78cd5",
+    "type": "unknown",
+    "confidence": 0.5,
+    "explanation": "Standard MAD always debates (no gate) — generic strategy",
+    "claim_a": {
+      "text": "Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father. In his youth, Hansen was painfully shy, had a stutter",
+      "source": {
+        "url": "https://en.wikipedia.org/?curid=4501180",
+        "title": "Robert Hansen",
+        "snippet": "Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father. In his youth, Hansen was painfully shy, had a stutter",
+        "metadata": {
+          "search_query": "Where does the last name hansen come from?"
+        },
+        "retrieved_at": "2026-10-16T23:08:35.827031",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hansen_(surname)",
+        "title": "Hansen (surname) - Wikipedia",
+        "snippet": "Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...",
+        "metadata": {
+          "search_query": "Where does the last name hansen come from?"
+        },
+        "retrieved_at": "2026-10-16T23:09:27.849114",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "agent_a_id": "reference_agent",
+      "agent_b_id": "web_agent",
+      "forced": true
+    },
+    "detected_at": "2026-10-16T23:10:14.922311"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": null,
+      "critic_arguments": [],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T23:10:14.922514",
+      "completed_at": null
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": null,
+        "critic_arguments": [],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T23:10:14.922514",
+        "completed_at": null
+      }
+    ],
+    "status": "failed",
+    "stop_reason": "stage_failure",
+    "failed_stages": [
+      "proposer"
+    ],
+    "rounds_used": 0
+  },
+  "judge_result": null,
+  "final_answer": {
+    "query": "Where does the last name hansen come from?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [reference_agent]: Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father. In his youth, Hansen was painfully shy, had a stutter\n- [web_agent]: Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=4501180",
+        "title": "Robert Hansen",
+        "snippet": "Iowa in 1949 and settled in the city of Pocahontas, where Hansen worked at a bakery owned by his father. In his youth, Hansen was painfully shy, had a stutter",
+        "metadata": {
+          "search_query": "Where does the last name hansen come from?"
+        },
+        "retrieved_at": "2026-10-16T23:08:35.827031",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=47535900",
+        "title": "Dear Evan Hansen",
+        "snippet": "Evan Hansen is a stage musical with music and lyrics by Benj Pasek and Justin Paul, and a book by Steven Levenson. The musical follows Evan Hansen, a high",
+        "metadata": {
+          "search_query": "Where does the last name hansen come from?"
+        },
+        "retrieved_at": "2026-10-16T23:08:35.827043",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=149681",
+        "title": "Beck",
+        "snippet": "Beck David Hansen (born Bek David Campbell; July 8, 1970), known mononymously as Beck, is an American singer, songwriter, and record producer. He rose",
+        "metadata": {
+          "search_query": "Where does the last name hansen come from?"
+        },
+        "retrieved_at": "2026-10-16T23:08:35.827050",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=64248111",
+        "title": "Dear Evan Hansen (film)",
+        "snippet": "Dear Evan Hansen is a 2021 American coming-of-age musical film directed by Stephen Chbosky and written by Steven Levenson, based on the 2015 stage musical",
+        "metadata": {
+          "search_query": "Where does the last name hansen come from?"
+        },
+        "retrieved_at": "2026-10-16T23:08:35.827057",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=72682434",
+        "title": "Suicide of Bill Conradt",
+        "snippet": "A.\" The Dallas Morning News. ISSN 1553-846X. OCLC 1035116631. Archived from the original on October 15, 2008. Retrieved November 19, 2022. Hansen, Chris",
+        "metadata": {
+          "search_query": "Where does the last name hansen come from?"
+        },
+        "retrieved_at": "2026-10-16T23:08:35.827064",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hansen_(surname)",
+        "title": "Hansen (surname) - Wikipedia",
+        "snippet": "Hansen or Hanssen (Danish pronunciation: [ˈhænsn̩]) is a Scandinavian patronymic surname, meaning \"son of Hans \". As of 2008, it is the third most common surname in Denmark, shared by 4.3% of the population. [1] As of 2016, Hansen is the single most common surname in Norway, [2] not counting spelling variations such as Hanssen, which are also quite common. [3] In the Faroe Islands, Hansen ...",
+        "metadata": {
+          "search_query": "Where does the last name hansen come from?"
+        },
+        "retrieved_at": "2026-10-16T23:09:27.849114",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.houseofnames.com/hansen-family-crest",
+        "title": "Hansen History, Family Crest & Coats of Arms - HouseofNames",
+        "snippet": "Learn about the Hansen Family Crest, its Origin and History. Where did the Hansen surname come from? Where did the family branches go?",
+        "metadata": {
+          "search_query": "Where does the last name hansen come from?"
+        },
+        "retrieved_at": "2026-10-16T23:09:27.849125",
+        "credibility_score": null
+      },
+      {
+        "url": "https://forebears.io/surnames/hansen",
+        "title": "Hansen Surname Origin, Meaning & Last Name History - Forebears",
+        "snippet": "Learn the fascinating origin of the Hansen surname; its meaning & distribution. Unlock your family history in the largest database of last names.",
+        "metadata": {
+          "search_query": "Where does the last name hansen come from?"
+        },
+        "retrieved_at": "2026-10-16T23:09:27.849132",
+        "credibility_score": null
+      },
+      {
+        "url": "https://atlasofhome.com/surnames/hansen-surname-origin/",
+        "title": "The Hansen Surname: Origin, Meaning and History - Atlas of Home",
+        "snippet": "Hansen means \"son of Hans\". Explore the surname's Danish, Norwegian and Schleswig-Holstein roots, the Hanson spelling split, and how common it is in America.",
+        "metadata": {
+          "search_query": "Where does the last name hansen come from?"
+        },
+        "retrieved_at": "2026-10-16T23:09:27.849139",
+        "credibility_score": null
+      },
+      {
+        "url": "https://lastnames.myheritage.com/last-name/hansen",
+        "title": "Hansen Last Name — Surname Origins & Meanings - MyHeritage",
+        "snippet": "Discover the origins and meaning of the Hansen surname. Explore historical records including birth, marriage, death, immigration, and census of the Hansen last name.",
+        "metadata": {
+          "search_query": "Where does the last name hansen come from?"
+        },
+        "retrieved_at": "2026-10-16T23:09:27.849146",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T23:10:14.922050"
+  },
+  "metrics": {
+    "latency_seconds": 102.31072044372559,
+    "evidence_state": "uncertain",
+    "debate_triggered": true,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 2,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 0,
+        "failed": 2
+      }
+    },
+    "retrieval_failure_rate": 0.25,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "system": "standard_mad"
+  },
+  "started_at": "2026-10-16T23:08:32.611317",
+  "completed_at": "2026-10-16T23:10:14.922095",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0095",
+    "query": "Where does the last name hansen come from?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "Denmark",
+    "required_facts": [
+      "Denmark"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 121,
+      "answer_variants": [
+        "Denmark",
+        "Scandinavian"
+      ],
+      "annotation_explanation": "I chose it because my common sense suggested it and context 1 and 5 mentioned it explicitly",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Hansen or Hanssen is a Scandinavian patronymic surname, meaning son of Hans. As of 2008, it is the third most common surname in Denmark, shared by 4.3% of ...",
+          "supports_answers": [
+            "Denmark"
+          ]
+        },
+        {
+          "source_domain": "www.ancestry.com",
+          "text": "Danish Norwegian Dutch Flemish and North German: patronymic from the personal name Hans . This is the most common surname in Norway.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "forebears.io",
+          "text": "From Where Does The Surname Originate? ... Scandinavian form of Hanson, q.v. ... Abbreviation for Johannson. See also Jansen. ... (Danish, Norwegian, Swedish) The son ...",
+          "supports_answers": [
+            "Scandinavian"
+          ]
+        },
+        {
+          "source_domain": "www.houseofnames.com",
+          "text": "The surname Hansen is a patronymic name, derived from the German personal name Johannes, and ultimately from the personal name Johan or John.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "selectsurnames.com",
+          "text": "Hans Thomsen Hansen came to Minden, Nebraska from Denmark in 1889 at the age of just nineteen. His eldest son, Hans Lloyd Hansen, was born five years later. By ...",
+          "supports_answers": [
+            "Denmark"
+          ]
+        },
+        {
+          "source_domain": "www.lifeinnorway.net",
+          "text": "Feb 14, 2020 ... As a result of this, surnames like Larsen, Hansen and Johansen ... Occupational: names derived from the occupation or job of an ancestor.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.quora.com",
+          "text": "Hansen is a Scandinavian, common surname. In the past when we had the norse naming system, which is still in use in Iceland,it would mean “son of Hans\". I don ...",
+          "supports_answers": [
+            "Scandinavian"
+          ]
+        },
+        {
+          "source_domain": "coadb.com",
+          "text": "This surname is of Danish, Norwegian, Swedish, German and Scandinavian origins and is a patronymic or metronymic meaning and is derived from the personal name “ ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.surnamedb.com",
+          "text": "Last name meaning Hansen: This is a true European surname. It can be either a patronymic or a metronymic, meaning it may be derived from the father or ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "thednatests.com",
+          "text": "Surnames like Hansen evolved from patronymic naming conventions, indicating a familial relationship. The name Hansen has variations in spelling, such as ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "standard_mad",
+  "evaluation_seconds": 159.641,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

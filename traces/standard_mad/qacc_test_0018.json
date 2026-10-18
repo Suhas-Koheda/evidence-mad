@@ -1,0 +1,1122 @@
+{
+  "query": "Who lived in jamestown before the arrival of the english?",
+  "trace_id": "bbe9db16-1689-45f8-9689-13e89adc70f4",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who lived in jamestown before the arrival of the english?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:17:55.474902"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who lived in jamestown before the arrival of the english?",
+          "answer": "Based on 5 sources:\n- Who lived in Virginia before the arrival of the English\n- : Who lived in Virginia before the arrival of the English\n- were not newcomers, but ancient peoples with deep roots in the land\n- Introduction: The Land Before Jamestown The narrative of Virginia often begins with the landing at Jamestown in 1607\n- Before the English - panel one of the Chesapeake Bay Gateways Network",
+          "claims": [
+            {
+              "id": "9cc01d18",
+              "text": "Who lived in Virginia before the arrival of the English",
+              "source": {
+                "url": "https://www.mikegravel.org/who-lived-in-virginia-before-the-arrival-of-the-english/",
+                "title": "Who lived in Virginia before the arrival of the English?",
+                "snippet": "Who lived in Virginia before the arrival of the English? were not newcomers, but ancient peoples with deep roots in the land. Introduction: The Land Before Jamestown The narrative of Virginia often begins with the landing at Jamestown in 1607.",
+                "metadata": {
+                  "search_query": "Who lived in jamestown before the arrival of the english?"
+                },
+                "retrieved_at": "2026-10-16T21:17:55.511219",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "7f7ba28b",
+              "text": ": Who lived in Virginia before the arrival of the English",
+              "source": {
+                "url": "https://www.nps.gov/jame/before-the-english-panel-one-of-the-chesapeake-bay-gateways-network-exhibit.htm",
+                "title": "Before the English - panel one of the Chesapeake Bay Gateways Network ...",
+                "snippet": "People have lived in Virginia for millennia before 1607. Stone points found at a recent excavation on Jamestown Island are dated at over 10,000 years. When the English arrived, much of Tidewater Virginia was ruled by one man. Chief Powhatan controlled over 30 tribes and 160 villages.",
+                "metadata": {
+                  "search_query": "Who lived in jamestown before the arrival of the english?"
+                },
+                "retrieved_at": "2026-10-16T21:17:55.511258",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e51e02f8",
+              "text": "were not newcomers, but ancient peoples with deep roots in the land",
+              "source": {
+                "url": "https://education.nationalgeographic.org/resource/mid-atlantic-native-american-groups/",
+                "title": "Mid-Atlantic Native American Groups - Education",
+                "snippet": "People lived in North America long before the first Europeans arrived. The arrival of English settlers in Jamestown in 1607 marked the beginning of an end to the traditional lifestyle of Native Americans in the Mid-Atlantic region of North America.",
+                "metadata": {
+                  "search_query": "Who lived in jamestown before the arrival of the english?"
+                },
+                "retrieved_at": "2026-10-16T21:17:55.511272",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "089b15fb",
+              "text": "Introduction: The Land Before Jamestown The narrative of Virginia often begins with the landing at Jamestown in 1607",
+              "source": {
+                "url": "https://home.nps.gov/jame/learn/historyculture/chronology-of-powhatan-indian-activity.htm",
+                "title": "Chronology of Powhatan Indian Activity - Historic Jamestowne Part ... - NPS",
+                "snippet": "Chronology of Powhatan Indian Activity Chief Powhatan as seen by the English Johns Smith's Map of 1612 Pre-1607 - Before the arrival of the English the Virginia Indians had been living in what is now Virginia for over 12,000 years. Chief Powhatan inherited six tribes that made up what became known as the Powhatan Chiefdom during this time.",
+                "metadata": {
+                  "search_query": "Who lived in jamestown before the arrival of the english?"
+                },
+                "retrieved_at": "2026-10-16T21:17:55.511285",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3d6520d8",
+              "text": "Before the English - panel one of the Chesapeake Bay Gateways Network",
+              "source": {
+                "url": "https://www.thearchcons.org/bookreviews/before-and-after-jamestown-virginias-powhatans-and-their-predecessors/",
+                "title": "Before and After Jamestown: Virginia's Powhatans and their Predecessors",
+                "snippet": "Before and After Jamestown pieces together a wealth of archaeological and other data to give us an account of the Powhatans. This appealing book also contains more than 100 photographs, maps, and drawings. We hope it harbingers a revival of interest in the Indian side of English settlement of America.",
+                "metadata": {
+                  "search_query": "Who lived in jamestown before the arrival of the english?"
+                },
+                "retrieved_at": "2026-10-16T21:17:55.511297",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3287081f",
+              "text": ": People have lived in Virginia for millennia before 1607",
+              "source": {
+                "url": "https://www.mikegravel.org/who-lived-in-virginia-before-the-arrival-of-the-english/",
+                "title": "Who lived in Virginia before the arrival of the English?",
+                "snippet": "Who lived in Virginia before the arrival of the English? were not newcomers, but ancient peoples with deep roots in the land. Introduction: The Land Before Jamestown The narrative of Virginia often begins with the landing at Jamestown in 1607.",
+                "metadata": {
+                  "search_query": "Who lived in jamestown before the arrival of the english?"
+                },
+                "retrieved_at": "2026-10-16T21:17:55.511219",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "616f8d6d",
+              "text": "Stone points found at a recent excavation on Jamestown Island are dated at over 10,000 years",
+              "source": {
+                "url": "https://www.nps.gov/jame/before-the-english-panel-one-of-the-chesapeake-bay-gateways-network-exhibit.htm",
+                "title": "Before the English - panel one of the Chesapeake Bay Gateways Network ...",
+                "snippet": "People have lived in Virginia for millennia before 1607. Stone points found at a recent excavation on Jamestown Island are dated at over 10,000 years. When the English arrived, much of Tidewater Virginia was ruled by one man. Chief Powhatan controlled over 30 tribes and 160 villages.",
+                "metadata": {
+                  "search_query": "Who lived in jamestown before the arrival of the english?"
+                },
+                "retrieved_at": "2026-10-16T21:17:55.511258",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9a9b6ced",
+              "text": "When the English arrived, much of Tidewater Virginia was ruled by one man",
+              "source": {
+                "url": "https://education.nationalgeographic.org/resource/mid-atlantic-native-american-groups/",
+                "title": "Mid-Atlantic Native American Groups - Education",
+                "snippet": "People lived in North America long before the first Europeans arrived. The arrival of English settlers in Jamestown in 1607 marked the beginning of an end to the traditional lifestyle of Native Americans in the Mid-Atlantic region of North America.",
+                "metadata": {
+                  "search_query": "Who lived in jamestown before the arrival of the english?"
+                },
+                "retrieved_at": "2026-10-16T21:17:55.511272",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "067887f0",
+              "text": "Chief Powhatan controlled over 30 tribes and 160 villages",
+              "source": {
+                "url": "https://home.nps.gov/jame/learn/historyculture/chronology-of-powhatan-indian-activity.htm",
+                "title": "Chronology of Powhatan Indian Activity - Historic Jamestowne Part ... - NPS",
+                "snippet": "Chronology of Powhatan Indian Activity Chief Powhatan as seen by the English Johns Smith's Map of 1612 Pre-1607 - Before the arrival of the English the Virginia Indians had been living in what is now Virginia for over 12,000 years. Chief Powhatan inherited six tribes that made up what became known as the Powhatan Chiefdom during this time.",
+                "metadata": {
+                  "search_query": "Who lived in jamestown before the arrival of the english?"
+                },
+                "retrieved_at": "2026-10-16T21:17:55.511285",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "630ca25c",
+              "text": "Mid-Atlantic Native American Groups - Education: People lived in North America long before the first Europeans arrived",
+              "source": {
+                "url": "https://www.thearchcons.org/bookreviews/before-and-after-jamestown-virginias-powhatans-and-their-predecessors/",
+                "title": "Before and After Jamestown: Virginia's Powhatans and their Predecessors",
+                "snippet": "Before and After Jamestown pieces together a wealth of archaeological and other data to give us an account of the Powhatans. This appealing book also contains more than 100 photographs, maps, and drawings. We hope it harbingers a revival of interest in the Indian side of English settlement of America.",
+                "metadata": {
+                  "search_query": "Who lived in jamestown before the arrival of the english?"
+                },
+                "retrieved_at": "2026-10-16T21:17:55.511297",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.mikegravel.org/who-lived-in-virginia-before-the-arrival-of-the-english/",
+              "title": "Who lived in Virginia before the arrival of the English?",
+              "snippet": "Who lived in Virginia before the arrival of the English? were not newcomers, but ancient peoples with deep roots in the land. Introduction: The Land Before Jamestown The narrative of Virginia often begins with the landing at Jamestown in 1607.",
+              "metadata": {
+                "search_query": "Who lived in jamestown before the arrival of the english?"
+              },
+              "retrieved_at": "2026-10-16T21:17:55.511219",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.nps.gov/jame/before-the-english-panel-one-of-the-chesapeake-bay-gateways-network-exhibit.htm",
+              "title": "Before the English - panel one of the Chesapeake Bay Gateways Network ...",
+              "snippet": "People have lived in Virginia for millennia before 1607. Stone points found at a recent excavation on Jamestown Island are dated at over 10,000 years. When the English arrived, much of Tidewater Virginia was ruled by one man. Chief Powhatan controlled over 30 tribes and 160 villages.",
+              "metadata": {
+                "search_query": "Who lived in jamestown before the arrival of the english?"
+              },
+              "retrieved_at": "2026-10-16T21:17:55.511258",
+              "credibility_score": null
+            },
+            {
+              "url": "https://education.nationalgeographic.org/resource/mid-atlantic-native-american-groups/",
+              "title": "Mid-Atlantic Native American Groups - Education",
+              "snippet": "People lived in North America long before the first Europeans arrived. The arrival of English settlers in Jamestown in 1607 marked the beginning of an end to the traditional lifestyle of Native Americans in the Mid-Atlantic region of North America.",
+              "metadata": {
+                "search_query": "Who lived in jamestown before the arrival of the english?"
+              },
+              "retrieved_at": "2026-10-16T21:17:55.511272",
+              "credibility_score": null
+            },
+            {
+              "url": "https://home.nps.gov/jame/learn/historyculture/chronology-of-powhatan-indian-activity.htm",
+              "title": "Chronology of Powhatan Indian Activity - Historic Jamestowne Part ... - NPS",
+              "snippet": "Chronology of Powhatan Indian Activity Chief Powhatan as seen by the English Johns Smith's Map of 1612 Pre-1607 - Before the arrival of the English the Virginia Indians had been living in what is now Virginia for over 12,000 years. Chief Powhatan inherited six tribes that made up what became known as the Powhatan Chiefdom during this time.",
+              "metadata": {
+                "search_query": "Who lived in jamestown before the arrival of the english?"
+              },
+              "retrieved_at": "2026-10-16T21:17:55.511285",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.thearchcons.org/bookreviews/before-and-after-jamestown-virginias-powhatans-and-their-predecessors/",
+              "title": "Before and After Jamestown: Virginia's Powhatans and their Predecessors",
+              "snippet": "Before and After Jamestown pieces together a wealth of archaeological and other data to give us an account of the Powhatans. This appealing book also contains more than 100 photographs, maps, and drawings. We hope it harbingers a revival of interest in the Indian side of English settlement of America.",
+              "metadata": {
+                "search_query": "Who lived in jamestown before the arrival of the english?"
+              },
+              "retrieved_at": "2026-10-16T21:17:55.511297",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Who lived in Virginia before the arrival of the English?: Who lived in Virginia before the arrival of the English? were not newcomers, but ancient peoples with deep roots in the land. Introduction: The Land Before Jamestown The narrative of Virginia often begins with the landing at Jamestown in 1607.\n\nBefore the English - panel one of the Chesapeake Bay Gateways Network ...: People have lived in Virginia for millennia before 1607. Stone points found at a recent excavation on Jamestown Island are dated at over 10,000 years. When the English arrived, much of Tidewater Virginia was ruled by one man. Chief Powhatan controlled over 30 tribes and 160 villages.\n\nMid-Atlantic Native American Groups - Education: People lived in North America long before the first Europeans arrived. The arrival of English settlers in Jamestown in 1607 marked the beginning of an end to the traditional lifestyle of Native Americans in the Mid-Atlantic region of North America.\n\nChronology of Powhatan Indian Activity - Historic Jamestowne Part ... - NPS: Chronology of Powhatan Indian Activity Chief Powhatan as seen by the English Johns Smith's Map of 1612 Pre-1607 - Before the arrival of the English the Virginia Indians had been living in what is now Virginia for over 12,000 years. Chief Powhatan inherited six tribes that made up what became known as the Powhatan Chiefdom during this time.\n\nBefore and After Jamestown: Virginia's Powhatans and their Predecessors: Before and After Jamestown pieces together a wealth of archaeological and other data to give us an account of the Powhatans. This appealing book also contains more than 100 photographs, maps, and drawings. We hope it harbingers a revival of interest in the Indian side of English settlement of America.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:17:55.511905"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who lived in jamestown before the arrival of the english?",
+          "answer": "Based on 5 sources:\n- Jamestown: The Jamestown settlement in the Colony of Virginia was the first permanent English settlement in the Americas\n- It was located, in what later became James\n\nHistory of Jamestown (1607–1699): Jamestown, also known as Jamestowne, was the first settlement of the Virginia Colony, founded in 1607, and the capital of Virginia until 1699 when the\n\nJamestown supply missions: The Jamestown supply missions were a series of fleets (or sometimes individual ships) from 1607 to around 1611 that were dispatched from England by the\n\nPowhatan: the arrival of English colonists at Jamestown, deaths had occurred\n- The settlers had hoped for friendly relations and had planned to trade with the Virginia\n\nPowhatan Confederacy: weeks of the arrival of English colonists at Jamestown, deaths had occurred\n- On a hunting and trade mission on the Chickahominy River in December 1607",
+          "claims": [
+            {
+              "id": "d391d27a",
+              "text": "Jamestown: The Jamestown settlement in the Colony of Virginia was the first permanent English settlement in the Americas",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=75804",
+                "title": "Jamestown",
+                "snippet": "The Jamestown settlement in the Colony of Virginia was the first permanent English settlement in the Americas. It was located, in what later became James",
+                "metadata": {
+                  "search_query": "Who lived in jamestown before the arrival of the english?"
+                },
+                "retrieved_at": "2026-10-16T21:17:55.555386",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "6deb2884",
+              "text": "It was located, in what later became James\n\nHistory of Jamestown (1607–1699): Jamestown, also known as Jamestowne, was the first settlement of the Virginia Colony, founded in 1607, and the capital of Virginia until 1699 when the\n\nJamestown supply missions: The Jamestown supply missions were a series of fleets (or sometimes individual ships) from 1607 to around 1611 that were dispatched from England by the\n\nPowhatan: the arrival of English colonists at Jamestown, deaths had occurred",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=22416349",
+                "title": "History of Jamestown (1607–1699)",
+                "snippet": "Jamestown, also known as Jamestowne, was the first settlement of the Virginia Colony, founded in 1607, and the capital of Virginia until 1699 when the",
+                "metadata": {
+                  "search_query": "Who lived in jamestown before the arrival of the english?"
+                },
+                "retrieved_at": "2026-10-16T21:17:55.555416",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8560f95b",
+              "text": "The settlers had hoped for friendly relations and had planned to trade with the Virginia\n\nPowhatan Confederacy: weeks of the arrival of English colonists at Jamestown, deaths had occurred",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1345618",
+                "title": "Jamestown supply missions",
+                "snippet": "The Jamestown supply missions were a series of fleets (or sometimes individual ships) from 1607 to around 1611 that were dispatched from England by the",
+                "metadata": {
+                  "search_query": "Who lived in jamestown before the arrival of the english?"
+                },
+                "retrieved_at": "2026-10-16T21:17:55.555445",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2c043ab3",
+              "text": "On a hunting and trade mission on the Chickahominy River in December 1607",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=511279",
+                "title": "Powhatan",
+                "snippet": "the arrival of English colonists at Jamestown, deaths had occurred. The settlers had hoped for friendly relations and had planned to trade with the Virginia",
+                "metadata": {
+                  "search_query": "Who lived in jamestown before the arrival of the english?"
+                },
+                "retrieved_at": "2026-10-16T21:17:55.555453",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=75804",
+              "title": "Jamestown",
+              "snippet": "The Jamestown settlement in the Colony of Virginia was the first permanent English settlement in the Americas. It was located, in what later became James",
+              "metadata": {
+                "search_query": "Who lived in jamestown before the arrival of the english?"
+              },
+              "retrieved_at": "2026-10-16T21:17:55.555386",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=22416349",
+              "title": "History of Jamestown (1607–1699)",
+              "snippet": "Jamestown, also known as Jamestowne, was the first settlement of the Virginia Colony, founded in 1607, and the capital of Virginia until 1699 when the",
+              "metadata": {
+                "search_query": "Who lived in jamestown before the arrival of the english?"
+              },
+              "retrieved_at": "2026-10-16T21:17:55.555416",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=1345618",
+              "title": "Jamestown supply missions",
+              "snippet": "The Jamestown supply missions were a series of fleets (or sometimes individual ships) from 1607 to around 1611 that were dispatched from England by the",
+              "metadata": {
+                "search_query": "Who lived in jamestown before the arrival of the english?"
+              },
+              "retrieved_at": "2026-10-16T21:17:55.555445",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=511279",
+              "title": "Powhatan",
+              "snippet": "the arrival of English colonists at Jamestown, deaths had occurred. The settlers had hoped for friendly relations and had planned to trade with the Virginia",
+              "metadata": {
+                "search_query": "Who lived in jamestown before the arrival of the english?"
+              },
+              "retrieved_at": "2026-10-16T21:17:55.555453",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=918477",
+              "title": "Powhatan Confederacy",
+              "snippet": "weeks of the arrival of English colonists at Jamestown, deaths had occurred. On a hunting and trade mission on the Chickahominy River in December 1607",
+              "metadata": {
+                "search_query": "Who lived in jamestown before the arrival of the english?"
+              },
+              "retrieved_at": "2026-10-16T21:17:55.555460",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Jamestown: The Jamestown settlement in the Colony of Virginia was the first permanent English settlement in the Americas. It was located, in what later became James\n\nHistory of Jamestown (1607–1699): Jamestown, also known as Jamestowne, was the first settlement of the Virginia Colony, founded in 1607, and the capital of Virginia until 1699 when the\n\nJamestown supply missions: The Jamestown supply missions were a series of fleets (or sometimes individual ships) from 1607 to around 1611 that were dispatched from England by the\n\nPowhatan: the arrival of English colonists at Jamestown, deaths had occurred. The settlers had hoped for friendly relations and had planned to trade with the Virginia\n\nPowhatan Confederacy: weeks of the arrival of English colonists at Jamestown, deaths had occurred. On a hunting and trade mission on the Chickahominy River in December 1607",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:17:55.555616"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who lived in jamestown before the arrival of the english?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:17:55.556513"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who lived in jamestown before the arrival of the english?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The Virginia Indians, including the Powhatan tribes under Chief Powhatan, lived in Jamestown before the arrival of the English.",
+          "source": {
+            "url": "https://home.nps.gov/jame/learn/historyculture/chronology-of-powhatan-indian-activity.htm",
+            "title": "Chronology of Powhatan Indian Activity - Historic Jamestowne Part ... - NPS",
+            "snippet": "Chronology of Powhatan Indian Activity Chief Powhatan as seen by the English Johns Smith's Map of 1612 Pre-1607 - Before the arrival of the English the Virginia Indians had been living in what is now Virginia for over 12,000 years. Chief Powhatan inherited six tribes that made up what became known as the Powhatan Chiefdom during this time.",
+            "metadata": {
+              "search_query": "Who lived in jamestown before the arrival of the english?"
+            },
+            "retrieved_at": "2026-10-16T21:17:55.556966",
+            "credibility_score": null
+          },
+          "date": "1607",
+          "version": null,
+          "scope": "Virginia Indians/Powhatan tribes"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mikegravel.org/who-lived-in-virginia-before-the-arrival-of-the-english/",
+          "title": "Who lived in Virginia before the arrival of the English?",
+          "snippet": "Who lived in Virginia before the arrival of the English? were not newcomers, but ancient peoples with deep roots in the land. Introduction: The Land Before Jamestown The narrative of Virginia often begins with the landing at Jamestown in 1607.",
+          "metadata": {
+            "search_query": "Who lived in jamestown before the arrival of the english?"
+          },
+          "retrieved_at": "2026-10-16T21:17:55.556937",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.nps.gov/jame/before-the-english-panel-one-of-the-chesapeake-bay-gateways-network-exhibit.htm",
+          "title": "Before the English - panel one of the Chesapeake Bay Gateways Network ...",
+          "snippet": "People have lived in Virginia for millennia before 1607. Stone points found at a recent excavation on Jamestown Island are dated at over 10,000 years. When the English arrived, much of Tidewater Virginia was ruled by one man. Chief Powhatan controlled over 30 tribes and 160 villages.",
+          "metadata": {
+            "search_query": "Who lived in jamestown before the arrival of the english?"
+          },
+          "retrieved_at": "2026-10-16T21:17:55.556952",
+          "credibility_score": null
+        },
+        {
+          "url": "https://education.nationalgeographic.org/resource/mid-atlantic-native-american-groups/",
+          "title": "Mid-Atlantic Native American Groups - Education",
+          "snippet": "People lived in North America long before the first Europeans arrived. The arrival of English settlers in Jamestown in 1607 marked the beginning of an end to the traditional lifestyle of Native Americans in the Mid-Atlantic region of North America.",
+          "metadata": {
+            "search_query": "Who lived in jamestown before the arrival of the english?"
+          },
+          "retrieved_at": "2026-10-16T21:17:55.556960",
+          "credibility_score": null
+        },
+        {
+          "url": "https://home.nps.gov/jame/learn/historyculture/chronology-of-powhatan-indian-activity.htm",
+          "title": "Chronology of Powhatan Indian Activity - Historic Jamestowne Part ... - NPS",
+          "snippet": "Chronology of Powhatan Indian Activity Chief Powhatan as seen by the English Johns Smith's Map of 1612 Pre-1607 - Before the arrival of the English the Virginia Indians had been living in what is now Virginia for over 12,000 years. Chief Powhatan inherited six tribes that made up what became known as the Powhatan Chiefdom during this time.",
+          "metadata": {
+            "search_query": "Who lived in jamestown before the arrival of the english?"
+          },
+          "retrieved_at": "2026-10-16T21:17:55.556966",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.thearchcons.org/bookreviews/before-and-after-jamestown-virginias-powhatans-and-their-predecessors/",
+          "title": "Before and After Jamestown: Virginia's Powhatans and their Predecessors",
+          "snippet": "Before and After Jamestown pieces together a wealth of archaeological and other data to give us an account of the Powhatans. This appealing book also contains more than 100 photographs, maps, and drawings. We hope it harbingers a revival of interest in the Indian side of English settlement of America.",
+          "metadata": {
+            "search_query": "Who lived in jamestown before the arrival of the english?"
+          },
+          "retrieved_at": "2026-10-16T21:17:55.556972",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:18:15.637853"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who lived in jamestown before the arrival of the english?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The Powhatan people lived in Jamestown before the arrival of the English colonists.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=511279",
+            "title": "Powhatan",
+            "snippet": "the arrival of English colonists at Jamestown, deaths had occurred. The settlers had hoped for friendly relations and had planned to trade with the Virginia",
+            "metadata": {
+              "search_query": "Who lived in jamestown before the arrival of the english?"
+            },
+            "retrieved_at": "2026-10-16T21:18:15.638139",
+            "credibility_score": null
+          },
+          "date": "1607",
+          "version": "null",
+          "scope": "null"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=75804",
+          "title": "Jamestown",
+          "snippet": "The Jamestown settlement in the Colony of Virginia was the first permanent English settlement in the Americas. It was located, in what later became James",
+          "metadata": {
+            "search_query": "Who lived in jamestown before the arrival of the english?"
+          },
+          "retrieved_at": "2026-10-16T21:18:15.638115",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=22416349",
+          "title": "History of Jamestown (1607–1699)",
+          "snippet": "Jamestown, also known as Jamestowne, was the first settlement of the Virginia Colony, founded in 1607, and the capital of Virginia until 1699 when the",
+          "metadata": {
+            "search_query": "Who lived in jamestown before the arrival of the english?"
+          },
+          "retrieved_at": "2026-10-16T21:18:15.638126",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=1345618",
+          "title": "Jamestown supply missions",
+          "snippet": "The Jamestown supply missions were a series of fleets (or sometimes individual ships) from 1607 to around 1611 that were dispatched from England by the",
+          "metadata": {
+            "search_query": "Who lived in jamestown before the arrival of the english?"
+          },
+          "retrieved_at": "2026-10-16T21:18:15.638133",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=511279",
+          "title": "Powhatan",
+          "snippet": "the arrival of English colonists at Jamestown, deaths had occurred. The settlers had hoped for friendly relations and had planned to trade with the Virginia",
+          "metadata": {
+            "search_query": "Who lived in jamestown before the arrival of the english?"
+          },
+          "retrieved_at": "2026-10-16T21:18:15.638139",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=918477",
+          "title": "Powhatan Confederacy",
+          "snippet": "weeks of the arrival of English colonists at Jamestown, deaths had occurred. On a hunting and trade mission on the Chickahominy River in December 1607",
+          "metadata": {
+            "search_query": "Who lived in jamestown before the arrival of the english?"
+          },
+          "retrieved_at": "2026-10-16T21:18:15.638146",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:18:34.841209"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who lived in jamestown before the arrival of the english?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Indigenous peoples of the Powhatan Confederacy, including tribes such as the Powhatan and Chickahominy, lived in the area that would become jamestown before the english arrived.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "Indigenous peoples of the Powhatan Confederacy, including tribes such as the Powhatan and Chickahominy, lived in the area that would become jamestown before the english arrived.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:18:09.118711",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "Indigenous peoples of the Powhatan Confederacy, including tribes such as the Powhatan and Chickahominy, lived in the area that would become jamestown before the english arrived.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:18:09.118711",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "Indigenous peoples of the Powhatan Confederacy, including tribes such as the Powhatan and Chickahominy, lived in the area that would become jamestown before the english arrived."
+      },
+      "retrieved_at": "2026-10-16T21:18:09.118785"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent",
+        "claim_a_text": "The Virginia Indians, including the Powhatan tribes under Chief Powhatan, lived in Jamestown before the arrival of the English.",
+        "claim_b_text": "The Powhatan people lived in Jamestown before the arrival of the English colonists.",
+        "label": "neutral",
+        "contradiction_score": 0.004687071777880192,
+        "entailment_score": 0.11951647698879242,
+        "neutral_score": 0.8757964372634888
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The Virginia Indians, including the Powhatan tribes under Chief Powhatan, lived in Jamestown before the arrival of the English.",
+        "claim_b_text": "Indigenous peoples of the Powhatan Confederacy, including tribes such as the Powhatan and Chickahominy, lived in the area that would become jamestown before the english arrived.",
+        "label": "neutral",
+        "contradiction_score": 0.0029714934062212706,
+        "entailment_score": 0.0264594629406929,
+        "neutral_score": 0.971490740776062
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The Powhatan people lived in Jamestown before the arrival of the English colonists.",
+        "claim_b_text": "Indigenous peoples of the Powhatan Confederacy, including tribes such as the Powhatan and Chickahominy, lived in the area that would become jamestown before the english arrived.",
+        "label": "neutral",
+        "contradiction_score": 0.003166730748489499,
+        "entailment_score": 0.4101152718067169,
+        "neutral_score": 0.5878180861473083
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "reference_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent",
+      "claim_a": {
+        "text": "The Virginia Indians, including the Powhatan tribes under Chief Powhatan, lived in Jamestown before the arrival of the English.",
+        "source": {
+          "url": "https://home.nps.gov/jame/learn/historyculture/chronology-of-powhatan-indian-activity.htm",
+          "title": "Chronology of Powhatan Indian Activity - Historic Jamestowne Part ... - NPS",
+          "snippet": "Chronology of Powhatan Indian Activity Chief Powhatan as seen by the English Johns Smith's Map of 1612 Pre-1607 - Before the arrival of the English the Virginia Indians had been living in what is now Virginia for over 12,000 years. Chief Powhatan inherited six tribes that made up what became known as the Powhatan Chiefdom during this time.",
+          "metadata": {
+            "search_query": "Who lived in jamestown before the arrival of the english?"
+          },
+          "retrieved_at": "2026-10-16T21:17:55.556966",
+          "credibility_score": null
+        },
+        "date": "1607",
+        "version": null,
+        "scope": "Virginia Indians/Powhatan tribes"
+      },
+      "claim_b": {
+        "text": "The Powhatan people lived in Jamestown before the arrival of the English colonists.",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=511279",
+          "title": "Powhatan",
+          "snippet": "the arrival of English colonists at Jamestown, deaths had occurred. The settlers had hoped for friendly relations and had planned to trade with the Virginia",
+          "metadata": {
+            "search_query": "Who lived in jamestown before the arrival of the english?"
+          },
+          "retrieved_at": "2026-10-16T21:18:15.638139",
+          "credibility_score": null
+        },
+        "date": "1607",
+        "version": "null",
+        "scope": "null"
+      },
+      "contradiction_score": 0.004687071777880192
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.004687071777880192,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "da1f9008",
+    "type": "unknown",
+    "confidence": 0.5,
+    "explanation": "Standard MAD always debates (no gate) — generic strategy",
+    "claim_a": {
+      "text": "The Virginia Indians, including the Powhatan tribes under Chief Powhatan, lived in Jamestown before the arrival of the English.",
+      "source": {
+        "url": "https://home.nps.gov/jame/learn/historyculture/chronology-of-powhatan-indian-activity.htm",
+        "title": "Chronology of Powhatan Indian Activity - Historic Jamestowne Part ... - NPS",
+        "snippet": "Chronology of Powhatan Indian Activity Chief Powhatan as seen by the English Johns Smith's Map of 1612 Pre-1607 - Before the arrival of the English the Virginia Indians had been living in what is now Virginia for over 12,000 years. Chief Powhatan inherited six tribes that made up what became known as the Powhatan Chiefdom during this time.",
+        "metadata": {
+          "search_query": "Who lived in jamestown before the arrival of the english?"
+        },
+        "retrieved_at": "2026-10-16T21:17:55.556966",
+        "credibility_score": null
+      },
+      "date": "1607",
+      "version": null,
+      "scope": "Virginia Indians/Powhatan tribes"
+    },
+    "claim_b": {
+      "text": "The Powhatan people lived in Jamestown before the arrival of the English colonists.",
+      "source": {
+        "url": "https://en.wikipedia.org/?curid=511279",
+        "title": "Powhatan",
+        "snippet": "the arrival of English colonists at Jamestown, deaths had occurred. The settlers had hoped for friendly relations and had planned to trade with the Virginia",
+        "metadata": {
+          "search_query": "Who lived in jamestown before the arrival of the english?"
+        },
+        "retrieved_at": "2026-10-16T21:18:15.638139",
+        "credibility_score": null
+      },
+      "date": "1607",
+      "version": "null",
+      "scope": "null"
+    },
+    "metadata": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent",
+      "forced": true
+    },
+    "detected_at": "2026-10-16T21:18:38.801071"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": {
+        "id": "991a9ab8",
+        "round_number": 1,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nClaim A is stronger and more authoritative\n\nEVIDENCE REVIEW\nClaim A: The retrieved evidence supports that the Virginia Indians, including the Powhatan tribes under Chief Powhatan's leadership, inhabited the Jamestown area before English colonists arrived, with specific tribal identification and leadership context\nClaim B: The retrieved evidence supports that the Powhatan people lived in Jamestown before the arrival of English colonists, providing general tribal attribution without additional specificity\n\nREASONING\nThe core issue involves determining which claim provides more credible and detailed information about pre-colonial Jamestown inhabitants. Claim A offers superior evidentiary support due to its specificity - it identifies not just the Powhatan people but also their broader affiliation as Virginia Indians and mentions Chief Powhatan's leadership. This level of detail provides more authoritative historical context than Claim B's general statement. While both claims are factually correct, Claim A demonstrates stronger evidentiary foundation through its comprehensive tribal identification and leadership reference.\n\nSOURCE BASIS\nBoth claims draw from historical records about pre-colonial Virginia, with Claim A incorporating additional tribal and leadership details that enhance its evidentiary value\n\nCONCLUSION\nAccept Claim A as more authoritative due to its specific tribal identification and leadership context, though both accurately reflect that Powhatan peoples inhabited Jamestown before English arrival",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "unknown",
+        "strategy_used": "unknown",
+        "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+        "created_at": "2026-10-16T21:18:57.593785"
+      },
+      "critic_arguments": [
+        {
+          "id": "2c778270",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nClaim A incorrectly states \"lived in Jamestown\" - the Powhatan people inhabited the broader Virginia region and lands that would become the Jamestown area, not the English-established Jamestown settlement itself\nWHY IT MATTERS\nThis creates a historical inaccuracy by suggesting these peoples lived within an English settlement that didn't yet exist, which distorts the timeline and nature of pre-colonial habitation\nIMPROVEMENT\nSpecify that the Virginia Indians and Powhatan tribes inhabited the region and lands that would later become the site of Jamestown, rather than claiming they lived in the established Jamestown settlement",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique_no_objection",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:19:20.370559"
+        },
+        {
+          "id": "f4b0e61b",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nClaim B lacks sufficient specificity - it provides only the Powhatan tribal attribution without mentioning their broader Virginia Indian affiliation or leadership context that would enhance historical authority\nWHY IT MATTERS\nThe absence of tribal context and leadership details limits the claim's evidentiary richness and historical depth compared to more comprehensive accounts\nIMPROVEMENT\nExpand Claim B to include that the Powhatan people were part of the broader Virginia Indians and were led by Chief Powhatan, similar to Claim A's structure but perhaps with different emphasis",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T21:19:20.370603"
+        }
+      ],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T21:18:38.801246",
+      "completed_at": "2026-10-16T21:19:20.370626"
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": {
+          "id": "991a9ab8",
+          "round_number": 1,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nClaim A is stronger and more authoritative\n\nEVIDENCE REVIEW\nClaim A: The retrieved evidence supports that the Virginia Indians, including the Powhatan tribes under Chief Powhatan's leadership, inhabited the Jamestown area before English colonists arrived, with specific tribal identification and leadership context\nClaim B: The retrieved evidence supports that the Powhatan people lived in Jamestown before the arrival of English colonists, providing general tribal attribution without additional specificity\n\nREASONING\nThe core issue involves determining which claim provides more credible and detailed information about pre-colonial Jamestown inhabitants. Claim A offers superior evidentiary support due to its specificity - it identifies not just the Powhatan people but also their broader affiliation as Virginia Indians and mentions Chief Powhatan's leadership. This level of detail provides more authoritative historical context than Claim B's general statement. While both claims are factually correct, Claim A demonstrates stronger evidentiary foundation through its comprehensive tribal identification and leadership reference.\n\nSOURCE BASIS\nBoth claims draw from historical records about pre-colonial Virginia, with Claim A incorporating additional tribal and leadership details that enhance its evidentiary value\n\nCONCLUSION\nAccept Claim A as more authoritative due to its specific tribal identification and leadership context, though both accurately reflect that Powhatan peoples inhabited Jamestown before English arrival",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "unknown",
+          "strategy_used": "unknown",
+          "strategy_text_preview": "You are evaluating conflicting evidence.\nAnalyse both claims carefully. Identify which has stronger, more specific, and more authoritative\nsupport. Provide a balanced assessment.",
+          "created_at": "2026-10-16T21:18:57.593785"
+        },
+        "critic_arguments": [
+          {
+            "id": "2c778270",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nClaim A incorrectly states \"lived in Jamestown\" - the Powhatan people inhabited the broader Virginia region and lands that would become the Jamestown area, not the English-established Jamestown settlement itself\nWHY IT MATTERS\nThis creates a historical inaccuracy by suggesting these peoples lived within an English settlement that didn't yet exist, which distorts the timeline and nature of pre-colonial habitation\nIMPROVEMENT\nSpecify that the Virginia Indians and Powhatan tribes inhabited the region and lands that would later become the site of Jamestown, rather than claiming they lived in the established Jamestown settlement",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique_no_objection",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:19:20.370559"
+          },
+          {
+            "id": "f4b0e61b",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nClaim B lacks sufficient specificity - it provides only the Powhatan tribal attribution without mentioning their broader Virginia Indian affiliation or leadership context that would enhance historical authority\nWHY IT MATTERS\nThe absence of tribal context and leadership details limits the claim's evidentiary richness and historical depth compared to more comprehensive accounts\nIMPROVEMENT\nExpand Claim B to include that the Powhatan people were part of the broader Virginia Indians and were led by Chief Powhatan, similar to Claim A's structure but perhaps with different emphasis",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "unknown",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T21:19:20.370603"
+          }
+        ],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T21:18:38.801246",
+        "completed_at": "2026-10-16T21:19:20.370626"
+      }
+    ],
+    "status": "completed",
+    "stop_reason": "no_objection",
+    "failed_stages": [],
+    "rounds_used": 1
+  },
+  "judge_result": {
+    "winner": "candidate_1",
+    "reason": "Claim A is more authoritative due to superior specificity - it identifies Virginia Indians/Powhatan tribes under Chief Powhatan's leadership and provides broader tribal context that enhances evidentiary value",
+    "evidence_score": 0.7,
+    "reasoning_score": 0.6,
+    "source_score": 0.8,
+    "confidence": 0.8,
+    "scores": {
+      "candidate_1": 0.7,
+      "candidate_2": 0.6
+    },
+    "evaluated_at": "2026-10-16T21:19:49.569282"
+  },
+  "final_answer": {
+    "query": "Who lived in jamestown before the arrival of the english?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [web_agent]: The Virginia Indians, including the Powhatan tribes under Chief Powhatan, lived in Jamestown before the arrival of the English.\n- [reference_agent]: The Powhatan people lived in Jamestown before the arrival of the English colonists.\n- [ai_answer_agent]: Indigenous peoples of the Powhatan Confederacy, including tribes such as the Powhatan and Chickahominy, lived in the area that would become jamestown before the english arrived.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://www.mikegravel.org/who-lived-in-virginia-before-the-arrival-of-the-english/",
+        "title": "Who lived in Virginia before the arrival of the English?",
+        "snippet": "Who lived in Virginia before the arrival of the English? were not newcomers, but ancient peoples with deep roots in the land. Introduction: The Land Before Jamestown The narrative of Virginia often begins with the landing at Jamestown in 1607.",
+        "metadata": {
+          "search_query": "Who lived in jamestown before the arrival of the english?"
+        },
+        "retrieved_at": "2026-10-16T21:17:55.556937",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.nps.gov/jame/before-the-english-panel-one-of-the-chesapeake-bay-gateways-network-exhibit.htm",
+        "title": "Before the English - panel one of the Chesapeake Bay Gateways Network ...",
+        "snippet": "People have lived in Virginia for millennia before 1607. Stone points found at a recent excavation on Jamestown Island are dated at over 10,000 years. When the English arrived, much of Tidewater Virginia was ruled by one man. Chief Powhatan controlled over 30 tribes and 160 villages.",
+        "metadata": {
+          "search_query": "Who lived in jamestown before the arrival of the english?"
+        },
+        "retrieved_at": "2026-10-16T21:17:55.556952",
+        "credibility_score": null
+      },
+      {
+        "url": "https://education.nationalgeographic.org/resource/mid-atlantic-native-american-groups/",
+        "title": "Mid-Atlantic Native American Groups - Education",
+        "snippet": "People lived in North America long before the first Europeans arrived. The arrival of English settlers in Jamestown in 1607 marked the beginning of an end to the traditional lifestyle of Native Americans in the Mid-Atlantic region of North America.",
+        "metadata": {
+          "search_query": "Who lived in jamestown before the arrival of the english?"
+        },
+        "retrieved_at": "2026-10-16T21:17:55.556960",
+        "credibility_score": null
+      },
+      {
+        "url": "https://home.nps.gov/jame/learn/historyculture/chronology-of-powhatan-indian-activity.htm",
+        "title": "Chronology of Powhatan Indian Activity - Historic Jamestowne Part ... - NPS",
+        "snippet": "Chronology of Powhatan Indian Activity Chief Powhatan as seen by the English Johns Smith's Map of 1612 Pre-1607 - Before the arrival of the English the Virginia Indians had been living in what is now Virginia for over 12,000 years. Chief Powhatan inherited six tribes that made up what became known as the Powhatan Chiefdom during this time.",
+        "metadata": {
+          "search_query": "Who lived in jamestown before the arrival of the english?"
+        },
+        "retrieved_at": "2026-10-16T21:17:55.556966",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.thearchcons.org/bookreviews/before-and-after-jamestown-virginias-powhatans-and-their-predecessors/",
+        "title": "Before and After Jamestown: Virginia's Powhatans and their Predecessors",
+        "snippet": "Before and After Jamestown pieces together a wealth of archaeological and other data to give us an account of the Powhatans. This appealing book also contains more than 100 photographs, maps, and drawings. We hope it harbingers a revival of interest in the Indian side of English settlement of America.",
+        "metadata": {
+          "search_query": "Who lived in jamestown before the arrival of the english?"
+        },
+        "retrieved_at": "2026-10-16T21:17:55.556972",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=75804",
+        "title": "Jamestown",
+        "snippet": "The Jamestown settlement in the Colony of Virginia was the first permanent English settlement in the Americas. It was located, in what later became James",
+        "metadata": {
+          "search_query": "Who lived in jamestown before the arrival of the english?"
+        },
+        "retrieved_at": "2026-10-16T21:18:15.638115",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=22416349",
+        "title": "History of Jamestown (1607–1699)",
+        "snippet": "Jamestown, also known as Jamestowne, was the first settlement of the Virginia Colony, founded in 1607, and the capital of Virginia until 1699 when the",
+        "metadata": {
+          "search_query": "Who lived in jamestown before the arrival of the english?"
+        },
+        "retrieved_at": "2026-10-16T21:18:15.638126",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=1345618",
+        "title": "Jamestown supply missions",
+        "snippet": "The Jamestown supply missions were a series of fleets (or sometimes individual ships) from 1607 to around 1611 that were dispatched from England by the",
+        "metadata": {
+          "search_query": "Who lived in jamestown before the arrival of the english?"
+        },
+        "retrieved_at": "2026-10-16T21:18:15.638133",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=511279",
+        "title": "Powhatan",
+        "snippet": "the arrival of English colonists at Jamestown, deaths had occurred. The settlers had hoped for friendly relations and had planned to trade with the Virginia",
+        "metadata": {
+          "search_query": "Who lived in jamestown before the arrival of the english?"
+        },
+        "retrieved_at": "2026-10-16T21:18:15.638139",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=918477",
+        "title": "Powhatan Confederacy",
+        "snippet": "weeks of the arrival of English colonists at Jamestown, deaths had occurred. On a hunting and trade mission on the Chickahominy River in December 1607",
+        "metadata": {
+          "search_query": "Who lived in jamestown before the arrival of the english?"
+        },
+        "retrieved_at": "2026-10-16T21:18:15.638146",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "Indigenous peoples of the Powhatan Confederacy, including tribes such as the Powhatan and Chickahominy, lived in the area that would become jamestown before the english arrived.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:18:09.118711",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T21:18:38.800835"
+  },
+  "metrics": {
+    "latency_seconds": 44.08713102340698,
+    "evidence_state": "uncertain",
+    "debate_triggered": true,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "standard_mad"
+  },
+  "started_at": "2026-10-16T21:17:54.713669",
+  "completed_at": "2026-10-16T21:18:38.800880",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0018",
+    "query": "Who lived in jamestown before the arrival of the english?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "the Powhatan Confederacy",
+    "required_facts": [
+      "the Powhatan Confederacy"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 26,
+      "answer_variants": [
+        "the Powhatan Confederacy"
+      ],
+      "annotation_explanation": "I chose it because the source is trustworthy and its explicitly mentioned in context 7",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.nps.gov",
+          "text": "Pre-1607 - Before the arrival of the English the Virginia Indians had been living in what is now Virginia for over 12,000 years. Chief Powhatan inherited ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.loc.gov",
+          "text": "Those living in the area where Jamestown was settled must have had mixed feelings about the arrival of the English in 1607. One of their first reactions was ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nps.gov",
+          "text": "A Short History of Jamestown. The English arriving to settle Jamestown. ... Virginia became a royal colony, which it remained until the Revolutionary War.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.history.com",
+          "text": "Mar 8, 2010 ... The Jamestown Colony was the first permanent English settlement in ... brought Jamestown to the brink of failure before the arrival of a new ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "education.nationalgeographic.org",
+          "text": "People lived in North America long before the first Europeans arrived. The arrival of English settlers in Jamestown in 1607 marked the beginning of an end ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nationalarchives.gov.uk",
+          "text": "Potential activities: Create a timeline to show the history of Jamestown. ... The first English explorers to North America arrived five years after Columbus ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Jamestown occupied land belonging to the Powhatan Confederacy and was also at the brink of failure before the arrival of a new group of settlers and ...",
+          "supports_answers": [
+            "the Powhatan Confederacy"
+          ]
+        },
+        {
+          "source_domain": "historicjamestowne.org",
+          "text": "It was only the arrival of the new governor, Lord De La Warr, and his supply ... in English North America convened in the Jamestown church on July 30, 1619.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "time.com",
+          "text": "Aug 20, 2019 ... The landing of the first Africans in English North America in 1619 was a ... lived in the area that became Virginia long before Europeans or ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The Jamestown settlement in the Colony of Virginia was the first permanent English ... Two-thirds of the settlers died before ships arrived in 1608 with ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "standard_mad",
+  "evaluation_seconds": 114.881,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

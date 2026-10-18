@@ -1,0 +1,981 @@
+{
+  "query": "Where is the tennessee titans football stadium located?",
+  "trace_id": "0ad2bca9-a4e7-49a4-a340-8fda829950b2",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Where is the tennessee titans football stadium located?",
+          "answer": "Based on 5 sources:\n- Nissan Stadium (Nashville): it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State\n\nFirstBank Stadium: Stadium (formerly Dudley Field and Vanderbilt Stadium) is a college football stadium on the campus of Vanderbilt University in Nashville, Tennessee\n- Simmons Bank Liberty Stadium: Bank Liberty Stadium, originally named Memphis Memorial Stadium, and later Liberty Bowl Memorial Stadium, is a football stadium located at the former Mid-South\n\nSuper Bowl XXXIV: season\n- The National Football Conference (NFC) champion St\n- Louis Rams defeated the American Football Conference (AFC) champion Tennessee Titans 23–16 to\n\nCal State Fullerton Titans baseball: on the site of Goodwin Field, but with home plate located where the left field foul pole is now located\n- The Cal State Fullerton Titans football team",
+          "claims": [
+            {
+              "id": "a65d890f",
+              "text": "Nissan Stadium (Nashville): it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State\n\nFirstBank Stadium: Stadium (formerly Dudley Field and Vanderbilt Stadium) is a college football stadium on the campus of Vanderbilt University in Nashville, Tennessee",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=467823",
+                "title": "Nissan Stadium (Nashville)",
+                "snippet": "it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.055470",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e6affdca",
+              "text": "Simmons Bank Liberty Stadium: Bank Liberty Stadium, originally named Memphis Memorial Stadium, and later Liberty Bowl Memorial Stadium, is a football stadium located at the former Mid-South\n\nSuper Bowl XXXIV: season",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=771058",
+                "title": "FirstBank Stadium",
+                "snippet": "Stadium (formerly Dudley Field and Vanderbilt Stadium) is a college football stadium on the campus of Vanderbilt University in Nashville, Tennessee.",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.055489",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "dd237fde",
+              "text": "The National Football Conference (NFC) champion St",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=636050",
+                "title": "Simmons Bank Liberty Stadium",
+                "snippet": "Bank Liberty Stadium, originally named Memphis Memorial Stadium, and later Liberty Bowl Memorial Stadium, is a football stadium located at the former Mid-South",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.055501",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "29b7b307",
+              "text": "Louis Rams defeated the American Football Conference (AFC) champion Tennessee Titans 23–16 to\n\nCal State Fullerton Titans baseball: on the site of Goodwin Field, but with home plate located where the left field foul pole is now located",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=29159",
+                "title": "Super Bowl XXXIV",
+                "snippet": "season. The National Football Conference (NFC) champion St. Louis Rams defeated the American Football Conference (AFC) champion Tennessee Titans 23–16 to",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.055512",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1b375446",
+              "text": "The Cal State Fullerton Titans football team",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=21112222",
+                "title": "Cal State Fullerton Titans baseball",
+                "snippet": "on the site of Goodwin Field, but with home plate located where the left field foul pole is now located. The Cal State Fullerton Titans football team",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.055523",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=467823",
+              "title": "Nissan Stadium (Nashville)",
+              "snippet": "it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State",
+              "metadata": {
+                "search_query": "Where is the tennessee titans football stadium located?"
+              },
+              "retrieved_at": "2026-10-16T21:15:40.055470",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=771058",
+              "title": "FirstBank Stadium",
+              "snippet": "Stadium (formerly Dudley Field and Vanderbilt Stadium) is a college football stadium on the campus of Vanderbilt University in Nashville, Tennessee.",
+              "metadata": {
+                "search_query": "Where is the tennessee titans football stadium located?"
+              },
+              "retrieved_at": "2026-10-16T21:15:40.055489",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=636050",
+              "title": "Simmons Bank Liberty Stadium",
+              "snippet": "Bank Liberty Stadium, originally named Memphis Memorial Stadium, and later Liberty Bowl Memorial Stadium, is a football stadium located at the former Mid-South",
+              "metadata": {
+                "search_query": "Where is the tennessee titans football stadium located?"
+              },
+              "retrieved_at": "2026-10-16T21:15:40.055501",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=29159",
+              "title": "Super Bowl XXXIV",
+              "snippet": "season. The National Football Conference (NFC) champion St. Louis Rams defeated the American Football Conference (AFC) champion Tennessee Titans 23–16 to",
+              "metadata": {
+                "search_query": "Where is the tennessee titans football stadium located?"
+              },
+              "retrieved_at": "2026-10-16T21:15:40.055512",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=21112222",
+              "title": "Cal State Fullerton Titans baseball",
+              "snippet": "on the site of Goodwin Field, but with home plate located where the left field foul pole is now located. The Cal State Fullerton Titans football team",
+              "metadata": {
+                "search_query": "Where is the tennessee titans football stadium located?"
+              },
+              "retrieved_at": "2026-10-16T21:15:40.055523",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Nissan Stadium (Nashville): it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State\n\nFirstBank Stadium: Stadium (formerly Dudley Field and Vanderbilt Stadium) is a college football stadium on the campus of Vanderbilt University in Nashville, Tennessee.\n\nSimmons Bank Liberty Stadium: Bank Liberty Stadium, originally named Memphis Memorial Stadium, and later Liberty Bowl Memorial Stadium, is a football stadium located at the former Mid-South\n\nSuper Bowl XXXIV: season. The National Football Conference (NFC) champion St. Louis Rams defeated the American Football Conference (AFC) champion Tennessee Titans 23–16 to\n\nCal State Fullerton Titans baseball: on the site of Goodwin Field, but with home plate located where the left field foul pole is now located. The Cal State Fullerton Titans football team",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:15:40.055750"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Where is the tennessee titans football stadium located?",
+          "answer": "Based on 5 sources:\n- Nissan Stadium | Tennessee Titans - TennesseeTitans\n- com: Nissan Stadium - Music City's Premier Entertainment Destination - is the home of the Tennessee Titans\n\nNissan Stadium (Nashville) - Wikipedia: Nissan Stadium is a multi-purpose stadium in Nashville, Tennessee, United States\n- Owned by the Metropolitan Government of Nashville and Davidson County, it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State University\n- [15] The stadium is the site of the Music City Bowl, a postseason college\n- Nissan Stadium, Tennessee Titans football stadium - Stadiums of Pro",
+          "claims": [
+            {
+              "id": "90bd0e33",
+              "text": "Nissan Stadium | Tennessee Titans - TennesseeTitans",
+              "source": {
+                "url": "https://www.tennesseetitans.com/stadium/",
+                "title": "Nissan Stadium | Tennessee Titans - TennesseeTitans.com",
+                "snippet": "Nissan Stadium - Music City's Premier Entertainment Destination - is the home of the Tennessee Titans",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.054550",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "cafd6a7d",
+              "text": "com: Nissan Stadium - Music City's Premier Entertainment Destination - is the home of the Tennessee Titans\n\nNissan Stadium (Nashville) - Wikipedia: Nissan Stadium is a multi-purpose stadium in Nashville, Tennessee, United States",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Nissan_Stadium_(Nashville)",
+                "title": "Nissan Stadium (Nashville) - Wikipedia",
+                "snippet": "Nissan Stadium is a multi-purpose stadium in Nashville, Tennessee, United States. Owned by the Metropolitan Government of Nashville and Davidson County, it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State University. [15] The stadium is the site of the Music City Bowl, a postseason college ...",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.054569",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ee693a78",
+              "text": "Owned by the Metropolitan Government of Nashville and Davidson County, it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State University",
+              "source": {
+                "url": "https://www.stadiumsofprofootball.com/stadiums/nissan-stadium/",
+                "title": "Nissan Stadium, Tennessee Titans football stadium - Stadiums of Pro ...",
+                "snippet": "Stadium guide for Nissan Stadium: History, information, pictures, directions and merchandise of the Tennessee Titans stadium",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.054579",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "30ad15df",
+              "text": "[15] The stadium is the site of the Music City Bowl, a postseason college",
+              "source": {
+                "url": "https://nashvilledowntown.com/go/nissan-stadium",
+                "title": "Nissan Stadium | Downtown Nashville",
+                "snippet": "Details Nissan Stadium, formerly known as LP Field, is home to the Tennessee Titans. Nissan Stadium hosts all of the Titans' home football games, along with Tennessee State University football games, the late-December Music City Bowl, and a variety of concerts and other events throughout the year.",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.054587",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "587231f4",
+              "text": "Nissan Stadium, Tennessee Titans football stadium - Stadiums of Pro",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Nissan_Stadium_(2027)",
+                "title": "Nissan Stadium (2027) - Wikipedia",
+                "snippet": "Nissan Stadium is an indoor stadium in Nashville, Tennessee, U.S., scheduled to open in 2027. It will replace the existing Nissan Stadium as the home venue for the Tennessee Titans of the National Football League (NFL). [2][3] The 60,000-seat stadium is projected to cost $2.1 billion, including $1.26 billion of public money—the largest ...",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.054599",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "5e8bc3a7",
+              "text": ": Stadium guide for Nissan Stadium: History, information, pictures, directions and merchandise of the Tennessee Titans stadium\n\nNissan Stadium | Downtown Nashville: Details Nissan Stadium, formerly known as LP Field, is home to the Tennessee Titans",
+              "source": {
+                "url": "https://www.tennesseetitans.com/stadium/",
+                "title": "Nissan Stadium | Tennessee Titans - TennesseeTitans.com",
+                "snippet": "Nissan Stadium - Music City's Premier Entertainment Destination - is the home of the Tennessee Titans",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.054550",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0d160b28",
+              "text": "Nissan Stadium hosts all of the Titans' home football games, along with Tennessee State University football games, the late-December Music City Bowl, and a variety of concerts and other events throughout the year",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Nissan_Stadium_(Nashville)",
+                "title": "Nissan Stadium (Nashville) - Wikipedia",
+                "snippet": "Nissan Stadium is a multi-purpose stadium in Nashville, Tennessee, United States. Owned by the Metropolitan Government of Nashville and Davidson County, it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State University. [15] The stadium is the site of the Music City Bowl, a postseason college ...",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.054569",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ea3b5049",
+              "text": "Nissan Stadium (2027) - Wikipedia: Nissan Stadium is an indoor stadium in Nashville, Tennessee, U",
+              "source": {
+                "url": "https://www.stadiumsofprofootball.com/stadiums/nissan-stadium/",
+                "title": "Nissan Stadium, Tennessee Titans football stadium - Stadiums of Pro ...",
+                "snippet": "Stadium guide for Nissan Stadium: History, information, pictures, directions and merchandise of the Tennessee Titans stadium",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.054579",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "5073a087",
+              "text": ", scheduled to open in 2027",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Nissan_Stadium_(2027)",
+                "title": "Nissan Stadium (2027) - Wikipedia",
+                "snippet": "Nissan Stadium is an indoor stadium in Nashville, Tennessee, U.S., scheduled to open in 2027. It will replace the existing Nissan Stadium as the home venue for the Tennessee Titans of the National Football League (NFL). [2][3] The 60,000-seat stadium is projected to cost $2.1 billion, including $1.26 billion of public money—the largest ...",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.054599",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "71bb5e0a",
+              "text": "It will replace the existing Nissan Stadium as the home venue for the Tennessee Titans of the National Football League (NFL)",
+              "source": {
+                "url": "https://www.tennesseetitans.com/stadium/",
+                "title": "Nissan Stadium | Tennessee Titans - TennesseeTitans.com",
+                "snippet": "Nissan Stadium - Music City's Premier Entertainment Destination - is the home of the Tennessee Titans",
+                "metadata": {
+                  "search_query": "Where is the tennessee titans football stadium located?"
+                },
+                "retrieved_at": "2026-10-16T21:15:40.054550",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.tennesseetitans.com/stadium/",
+              "title": "Nissan Stadium | Tennessee Titans - TennesseeTitans.com",
+              "snippet": "Nissan Stadium - Music City's Premier Entertainment Destination - is the home of the Tennessee Titans",
+              "metadata": {
+                "search_query": "Where is the tennessee titans football stadium located?"
+              },
+              "retrieved_at": "2026-10-16T21:15:40.054550",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Nissan_Stadium_(Nashville)",
+              "title": "Nissan Stadium (Nashville) - Wikipedia",
+              "snippet": "Nissan Stadium is a multi-purpose stadium in Nashville, Tennessee, United States. Owned by the Metropolitan Government of Nashville and Davidson County, it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State University. [15] The stadium is the site of the Music City Bowl, a postseason college ...",
+              "metadata": {
+                "search_query": "Where is the tennessee titans football stadium located?"
+              },
+              "retrieved_at": "2026-10-16T21:15:40.054569",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.stadiumsofprofootball.com/stadiums/nissan-stadium/",
+              "title": "Nissan Stadium, Tennessee Titans football stadium - Stadiums of Pro ...",
+              "snippet": "Stadium guide for Nissan Stadium: History, information, pictures, directions and merchandise of the Tennessee Titans stadium",
+              "metadata": {
+                "search_query": "Where is the tennessee titans football stadium located?"
+              },
+              "retrieved_at": "2026-10-16T21:15:40.054579",
+              "credibility_score": null
+            },
+            {
+              "url": "https://nashvilledowntown.com/go/nissan-stadium",
+              "title": "Nissan Stadium | Downtown Nashville",
+              "snippet": "Details Nissan Stadium, formerly known as LP Field, is home to the Tennessee Titans. Nissan Stadium hosts all of the Titans' home football games, along with Tennessee State University football games, the late-December Music City Bowl, and a variety of concerts and other events throughout the year.",
+              "metadata": {
+                "search_query": "Where is the tennessee titans football stadium located?"
+              },
+              "retrieved_at": "2026-10-16T21:15:40.054587",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Nissan_Stadium_(2027)",
+              "title": "Nissan Stadium (2027) - Wikipedia",
+              "snippet": "Nissan Stadium is an indoor stadium in Nashville, Tennessee, U.S., scheduled to open in 2027. It will replace the existing Nissan Stadium as the home venue for the Tennessee Titans of the National Football League (NFL). [2][3] The 60,000-seat stadium is projected to cost $2.1 billion, including $1.26 billion of public money—the largest ...",
+              "metadata": {
+                "search_query": "Where is the tennessee titans football stadium located?"
+              },
+              "retrieved_at": "2026-10-16T21:15:40.054599",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Nissan Stadium | Tennessee Titans - TennesseeTitans.com: Nissan Stadium - Music City's Premier Entertainment Destination - is the home of the Tennessee Titans\n\nNissan Stadium (Nashville) - Wikipedia: Nissan Stadium is a multi-purpose stadium in Nashville, Tennessee, United States. Owned by the Metropolitan Government of Nashville and Davidson County, it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State University. [15] The stadium is the site of the Music City Bowl, a postseason college ...\n\nNissan Stadium, Tennessee Titans football stadium - Stadiums of Pro ...: Stadium guide for Nissan Stadium: History, information, pictures, directions and merchandise of the Tennessee Titans stadium\n\nNissan Stadium | Downtown Nashville: Details Nissan Stadium, formerly known as LP Field, is home to the Tennessee Titans. Nissan Stadium hosts all of the Titans' home football games, along with Tennessee State University football games, the late-December Music City Bowl, and a variety of concerts and other events throughout the year.\n\nNissan Stadium (2027) - Wikipedia: Nissan Stadium is an indoor stadium in Nashville, Tennessee, U.S., scheduled to open in 2027. It will replace the existing Nissan Stadium as the home venue for the Tennessee Titans of the National Football League (NFL). [2][3] The 60,000-seat stadium is projected to cost $2.1 billion, including $1.26 billion of public money—the largest ...",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:15:40.055215"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Where is the tennessee titans football stadium located?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:15:40.056320"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Where is the tennessee titans football stadium located?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The Tennessee Titans football stadium (Nissan Stadium) is located in Nashville.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=467823",
+            "title": "Nissan Stadium (Nashville)",
+            "snippet": "it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State",
+            "metadata": {
+              "search_query": "Where is the tennessee titans football stadium located?"
+            },
+            "retrieved_at": "2026-10-16T21:15:40.057059",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=467823",
+          "title": "Nissan Stadium (Nashville)",
+          "snippet": "it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State",
+          "metadata": {
+            "search_query": "Where is the tennessee titans football stadium located?"
+          },
+          "retrieved_at": "2026-10-16T21:15:40.057059",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=771058",
+          "title": "FirstBank Stadium",
+          "snippet": "Stadium (formerly Dudley Field and Vanderbilt Stadium) is a college football stadium on the campus of Vanderbilt University in Nashville, Tennessee.",
+          "metadata": {
+            "search_query": "Where is the tennessee titans football stadium located?"
+          },
+          "retrieved_at": "2026-10-16T21:15:40.057073",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=636050",
+          "title": "Simmons Bank Liberty Stadium",
+          "snippet": "Bank Liberty Stadium, originally named Memphis Memorial Stadium, and later Liberty Bowl Memorial Stadium, is a football stadium located at the former Mid-South",
+          "metadata": {
+            "search_query": "Where is the tennessee titans football stadium located?"
+          },
+          "retrieved_at": "2026-10-16T21:15:40.057080",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=29159",
+          "title": "Super Bowl XXXIV",
+          "snippet": "season. The National Football Conference (NFC) champion St. Louis Rams defeated the American Football Conference (AFC) champion Tennessee Titans 23–16 to",
+          "metadata": {
+            "search_query": "Where is the tennessee titans football stadium located?"
+          },
+          "retrieved_at": "2026-10-16T21:15:40.057086",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=21112222",
+          "title": "Cal State Fullerton Titans baseball",
+          "snippet": "on the site of Goodwin Field, but with home plate located where the left field foul pole is now located. The Cal State Fullerton Titans football team",
+          "metadata": {
+            "search_query": "Where is the tennessee titans football stadium located?"
+          },
+          "retrieved_at": "2026-10-16T21:15:40.057092",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:16:02.616326"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Where is the tennessee titans football stadium located?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The Tennessee Titans' football stadium, Nissan Stadium, is located in Nashville, Tennessee.",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Nissan_Stadium_(Nashville)",
+            "title": "Nissan Stadium (Nashville) - Wikipedia",
+            "snippet": "Nissan Stadium is a multi-purpose stadium in Nashville, Tennessee, United States. Owned by the Metropolitan Government of Nashville and Davidson County, it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State University. [15] The stadium is the site of the Music City Bowl, a postseason college ...",
+            "metadata": {
+              "search_query": "Where is the tennessee titans football stadium located?"
+            },
+            "retrieved_at": "2026-10-16T21:16:02.616746",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.tennesseetitans.com/stadium/",
+          "title": "Nissan Stadium | Tennessee Titans - TennesseeTitans.com",
+          "snippet": "Nissan Stadium - Music City's Premier Entertainment Destination - is the home of the Tennessee Titans",
+          "metadata": {
+            "search_query": "Where is the tennessee titans football stadium located?"
+          },
+          "retrieved_at": "2026-10-16T21:16:02.616732",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Nissan_Stadium_(Nashville)",
+          "title": "Nissan Stadium (Nashville) - Wikipedia",
+          "snippet": "Nissan Stadium is a multi-purpose stadium in Nashville, Tennessee, United States. Owned by the Metropolitan Government of Nashville and Davidson County, it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State University. [15] The stadium is the site of the Music City Bowl, a postseason college ...",
+          "metadata": {
+            "search_query": "Where is the tennessee titans football stadium located?"
+          },
+          "retrieved_at": "2026-10-16T21:16:02.616746",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.stadiumsofprofootball.com/stadiums/nissan-stadium/",
+          "title": "Nissan Stadium, Tennessee Titans football stadium - Stadiums of Pro ...",
+          "snippet": "Stadium guide for Nissan Stadium: History, information, pictures, directions and merchandise of the Tennessee Titans stadium",
+          "metadata": {
+            "search_query": "Where is the tennessee titans football stadium located?"
+          },
+          "retrieved_at": "2026-10-16T21:16:02.616753",
+          "credibility_score": null
+        },
+        {
+          "url": "https://nashvilledowntown.com/go/nissan-stadium",
+          "title": "Nissan Stadium | Downtown Nashville",
+          "snippet": "Details Nissan Stadium, formerly known as LP Field, is home to the Tennessee Titans. Nissan Stadium hosts all of the Titans' home football games, along with Tennessee State University football games, the late-December Music City Bowl, and a variety of concerts and other events throughout the year.",
+          "metadata": {
+            "search_query": "Where is the tennessee titans football stadium located?"
+          },
+          "retrieved_at": "2026-10-16T21:16:02.616759",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Nissan_Stadium_(2027)",
+          "title": "Nissan Stadium (2027) - Wikipedia",
+          "snippet": "Nissan Stadium is an indoor stadium in Nashville, Tennessee, U.S., scheduled to open in 2027. It will replace the existing Nissan Stadium as the home venue for the Tennessee Titans of the National Football League (NFL). [2][3] The 60,000-seat stadium is projected to cost $2.1 billion, including $1.26 billion of public money—the largest ...",
+          "metadata": {
+            "search_query": "Where is the tennessee titans football stadium located?"
+          },
+          "retrieved_at": "2026-10-16T21:16:02.616766",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:16:21.018677"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Where is the tennessee titans football stadium located?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:16:21.018742"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Where is the tennessee titans football stadium located?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The Tennessee Titans' football stadium, Nissan Stadium, is located in Nashville, Tennessee.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "The Tennessee Titans' football stadium, Nissan Stadium, is located in Nashville, Tennessee.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:15:54.854612",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The Tennessee Titans' football stadium, Nissan Stadium, is located in Nashville, Tennessee.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:15:54.854612",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "The Tennessee Titans' football stadium, Nissan Stadium, is located in Nashville, Tennessee."
+      },
+      "retrieved_at": "2026-10-16T21:15:54.854676"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "agreement",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "The Tennessee Titans football stadium (Nissan Stadium) is located in Nashville.",
+        "claim_b_text": "The Tennessee Titans' football stadium, Nissan Stadium, is located in Nashville, Tennessee.",
+        "label": "entailment",
+        "contradiction_score": 0.0017189690843224525,
+        "entailment_score": 0.9673952460289001,
+        "neutral_score": 0.03194667771458626
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The Tennessee Titans football stadium (Nissan Stadium) is located in Nashville.",
+        "claim_b_text": "The Tennessee Titans' football stadium, Nissan Stadium, is located in Nashville, Tennessee.",
+        "label": "entailment",
+        "contradiction_score": 0.0017189690843224525,
+        "entailment_score": 0.9673952460289001,
+        "neutral_score": 0.03194667771458626
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The Tennessee Titans' football stadium, Nissan Stadium, is located in Nashville, Tennessee.",
+        "claim_b_text": "The Tennessee Titans' football stadium, Nissan Stadium, is located in Nashville, Tennessee.",
+        "label": "entailment",
+        "contradiction_score": 0.0019511779537424445,
+        "entailment_score": 0.9911422729492188,
+        "neutral_score": 0.006906524300575256
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "The Tennessee Titans' football stadium, Nissan Stadium, is located in Nashville, Tennessee.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Nissan_Stadium_(Nashville)",
+          "title": "Nissan Stadium (Nashville) - Wikipedia",
+          "snippet": "Nissan Stadium is a multi-purpose stadium in Nashville, Tennessee, United States. Owned by the Metropolitan Government of Nashville and Davidson County, it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State University. [15] The stadium is the site of the Music City Bowl, a postseason college ...",
+          "metadata": {
+            "search_query": "Where is the tennessee titans football stadium located?"
+          },
+          "retrieved_at": "2026-10-16T21:16:02.616746",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The Tennessee Titans' football stadium, Nissan Stadium, is located in Nashville, Tennessee.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The Tennessee Titans' football stadium, Nissan Stadium, is located in Nashville, Tennessee.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:15:54.854612",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.0019511779537424445
+    },
+    "rationale": "All 3 pair(s) exceeded entailment threshold (0.7)"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0019511779537424445,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Where is the tennessee titans football stadium located?",
+    "answer": "The Tennessee Titans' football stadium, Nissan Stadium, is located in Nashville, Tennessee.",
+    "reasoning": "3 independent agent(s) retrieved consistent evidence. All 3 pair(s) exceeded entailment threshold (0.7)",
+    "evidence_state": "agreement",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=467823",
+        "title": "Nissan Stadium (Nashville)",
+        "snippet": "it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State",
+        "metadata": {
+          "search_query": "Where is the tennessee titans football stadium located?"
+        },
+        "retrieved_at": "2026-10-16T21:15:40.057059",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=771058",
+        "title": "FirstBank Stadium",
+        "snippet": "Stadium (formerly Dudley Field and Vanderbilt Stadium) is a college football stadium on the campus of Vanderbilt University in Nashville, Tennessee.",
+        "metadata": {
+          "search_query": "Where is the tennessee titans football stadium located?"
+        },
+        "retrieved_at": "2026-10-16T21:15:40.057073",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=636050",
+        "title": "Simmons Bank Liberty Stadium",
+        "snippet": "Bank Liberty Stadium, originally named Memphis Memorial Stadium, and later Liberty Bowl Memorial Stadium, is a football stadium located at the former Mid-South",
+        "metadata": {
+          "search_query": "Where is the tennessee titans football stadium located?"
+        },
+        "retrieved_at": "2026-10-16T21:15:40.057080",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=29159",
+        "title": "Super Bowl XXXIV",
+        "snippet": "season. The National Football Conference (NFC) champion St. Louis Rams defeated the American Football Conference (AFC) champion Tennessee Titans 23–16 to",
+        "metadata": {
+          "search_query": "Where is the tennessee titans football stadium located?"
+        },
+        "retrieved_at": "2026-10-16T21:15:40.057086",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=21112222",
+        "title": "Cal State Fullerton Titans baseball",
+        "snippet": "on the site of Goodwin Field, but with home plate located where the left field foul pole is now located. The Cal State Fullerton Titans football team",
+        "metadata": {
+          "search_query": "Where is the tennessee titans football stadium located?"
+        },
+        "retrieved_at": "2026-10-16T21:15:40.057092",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.tennesseetitans.com/stadium/",
+        "title": "Nissan Stadium | Tennessee Titans - TennesseeTitans.com",
+        "snippet": "Nissan Stadium - Music City's Premier Entertainment Destination - is the home of the Tennessee Titans",
+        "metadata": {
+          "search_query": "Where is the tennessee titans football stadium located?"
+        },
+        "retrieved_at": "2026-10-16T21:16:02.616732",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nissan_Stadium_(Nashville)",
+        "title": "Nissan Stadium (Nashville) - Wikipedia",
+        "snippet": "Nissan Stadium is a multi-purpose stadium in Nashville, Tennessee, United States. Owned by the Metropolitan Government of Nashville and Davidson County, it is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the Tigers of Tennessee State University. [15] The stadium is the site of the Music City Bowl, a postseason college ...",
+        "metadata": {
+          "search_query": "Where is the tennessee titans football stadium located?"
+        },
+        "retrieved_at": "2026-10-16T21:16:02.616746",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.stadiumsofprofootball.com/stadiums/nissan-stadium/",
+        "title": "Nissan Stadium, Tennessee Titans football stadium - Stadiums of Pro ...",
+        "snippet": "Stadium guide for Nissan Stadium: History, information, pictures, directions and merchandise of the Tennessee Titans stadium",
+        "metadata": {
+          "search_query": "Where is the tennessee titans football stadium located?"
+        },
+        "retrieved_at": "2026-10-16T21:16:02.616753",
+        "credibility_score": null
+      },
+      {
+        "url": "https://nashvilledowntown.com/go/nissan-stadium",
+        "title": "Nissan Stadium | Downtown Nashville",
+        "snippet": "Details Nissan Stadium, formerly known as LP Field, is home to the Tennessee Titans. Nissan Stadium hosts all of the Titans' home football games, along with Tennessee State University football games, the late-December Music City Bowl, and a variety of concerts and other events throughout the year.",
+        "metadata": {
+          "search_query": "Where is the tennessee titans football stadium located?"
+        },
+        "retrieved_at": "2026-10-16T21:16:02.616759",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nissan_Stadium_(2027)",
+        "title": "Nissan Stadium (2027) - Wikipedia",
+        "snippet": "Nissan Stadium is an indoor stadium in Nashville, Tennessee, U.S., scheduled to open in 2027. It will replace the existing Nissan Stadium as the home venue for the Tennessee Titans of the National Football League (NFL). [2][3] The 60,000-seat stadium is projected to cost $2.1 billion, including $1.26 billion of public money—the largest ...",
+        "metadata": {
+          "search_query": "Where is the tennessee titans football stadium located?"
+        },
+        "retrieved_at": "2026-10-16T21:16:02.616766",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The Tennessee Titans' football stadium, Nissan Stadium, is located in Nashville, Tennessee.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:15:54.854612",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 3,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "agreement"
+    },
+    "generated_at": "2026-10-16T21:16:34.088611"
+  },
+  "metrics": {
+    "latency_seconds": 54.03556537628174,
+    "evidence_state": "agreement",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 3,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      },
+      "answer": {
+        "ok": 1,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 3,
+    "source_count": 11,
+    "system": "no_typed_strategy"
+  },
+  "started_at": "2026-10-16T21:15:40.053061",
+  "completed_at": "2026-10-16T21:16:34.088735",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0016",
+    "query": "Where is the tennessee titans football stadium located?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Nashville",
+    "required_facts": [
+      "Nashville"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 24,
+      "answer_variants": [
+        "Nashville"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 1, 2,3,4,5,6,7 and 8",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Nissan Stadium is a multi-purpose stadium in Nashville, Tennessee, United States. Owned by the Metropolitan Government of Nashville and Davidson County, ...",
+          "supports_answers": [
+            "Nashville"
+          ]
+        },
+        {
+          "source_domain": "www.tennesseetitans.com",
+          "text": "Nissan Stadium - Music City's Premier Entertainment Destination - is the home of the Tennessee Titans.",
+          "supports_answers": [
+            "Nashville"
+          ]
+        },
+        {
+          "source_domain": "www.trolleytours.com",
+          "text": "Home to the NFL's Tennessee Titans, Nissan Stadium is a multipurpose sports and entertainment venue located on the east bank of the Cumberland River across ...",
+          "supports_answers": [
+            "Nashville"
+          ]
+        },
+        {
+          "source_domain": "www.tnvacation.com",
+          "text": "In 1999, the team moved into its 69,143-seat home, Nissan Stadium, located on the east bank of the Cumberland River in downtown Nashville. Don't miss any of the ...",
+          "supports_answers": [
+            "Nashville"
+          ]
+        },
+        {
+          "source_domain": "www.mapquest.com",
+          "text": "Get directions, reviews and information for Nissan Stadium in Nashville, TN. You can also find other Delivery Service on MapQuest.",
+          "supports_answers": [
+            "Nashville"
+          ]
+        },
+        {
+          "source_domain": "www.stadiumsofprofootball.com",
+          "text": "Located in the Music City along the banks of the Cumberland River and across from downtown Nashville, Nissan Stadium has been the home of the Titans since ...",
+          "supports_answers": [
+            "Nashville"
+          ]
+        },
+        {
+          "source_domain": "nashvilledowntown.com",
+          "text": "Nissan Stadium, formerly known as LP Field, is home to the Tennessee Titans. Nissan Stadium will host all of the Titans' home football games, along with ...",
+          "supports_answers": [
+            "Nashville"
+          ]
+        },
+        {
+          "source_domain": "www.visitmusiccity.com",
+          "text": "Located on 105 acres on Nashville's East Bank of the Cumberland River overlooking downtown Nashville, the venue hosts Tennessee Titans home football games, ...",
+          "supports_answers": [
+            "Nashville"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_typed_strategy",
+  "evaluation_seconds": 54.054,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

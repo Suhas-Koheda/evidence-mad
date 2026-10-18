@@ -1,0 +1,145 @@
+{
+  "query": "China in chinese is called zhongguo which means?",
+  "trace_id": "0312e34c-44dc-4a18-a1b6-9275d180a14f",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "China in chinese is called zhongguo which means?",
+    "answer": "Middle Kingdom",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-17T00:11:36.758016"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 25.342355251312256,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-17T00:11:11.415812",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0088",
+    "query": "China in chinese is called zhongguo which means?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "state",
+    "required_facts": [
+      "state"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 111,
+      "answer_variants": [
+        "central kingdom",
+        "central state or states",
+        "the Middle Kingdom"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 3 and 9",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.quora.com",
+          "text": "China is called Chūgoku (中国), meaning central kingdom. However, the central part of Japan (The western most part of the main Island Honshū) is also called ...",
+          "supports_answers": [
+            "central kingdom"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The names of China include the many contemporary and historical appellations given in various languages for the East Asian country known as Zhōngguó (中國/中国, ... Chinese names for China, aside from Zhongguo, include Zhōnghuá (中華/中华 ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "blog.oup.com",
+          "text": "Feb 25, 2018 ... The Chinese word for China, Zhongguo, literally means 'central state or states' (there is no plural inflection in Chinese), giving rise to ...",
+          "supports_answers": [
+            "central state or states"
+          ]
+        },
+        {
+          "source_domain": "www.linkedin.com",
+          "text": "Nov 30, 2015 ... China is called ZhongGuo in Mandarin Chinese (Simplified Chinese: 中国, Traditional Chinese: 中國; also romanized as Jhongguo or Chung-kuo), ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.cfr.org",
+          "text": "The concept of zhongguo—the Middle Kingdom, as China calls itself—is not simply geographic. It implies that China is the cultural, political, and economic ...",
+          "supports_answers": [
+            "the Middle Kingdom"
+          ]
+        },
+        {
+          "source_domain": "theculturetrip.com",
+          "text": "Dec 21, 2017 ... China's national identity reaches back many thousands of years – and in ... called China, but in its own language it's known as 'Zhongguo', ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nytimes.com",
+          "text": "Feb 4, 2022 ... Zhongguo is the Chinese name for China; referring to the Taiwanese delegation as such implies that the athletes and the island they ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "quizlet.com",
+          "text": "Study with Quizlet and memorize flashcards containing terms like China in Chinese is called Zhongguo. Which means ______., The Chinese national language, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.chinaculture.org",
+          "text": "In ancient China,Guo referred to city or state.Zhonguo (now it means China) meant the central city or the central state. According to historical books, ...",
+          "supports_answers": [
+            "central state or states"
+          ]
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 25.358,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

@@ -1,0 +1,1080 @@
+{
+  "query": "Who wrote the book my country my life?",
+  "trace_id": "bf56a6b4-37a7-48a3-ae2d-b574515c9154",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who wrote the book my country my life?",
+          "answer": "Based on 5 sources:\n- My So-Called Life: My So-Called Life is an American teen drama television series created by Winnie Holzman and produced by Edward Zwick and Marshall Herskovitz\n- It aired\n\nNot Without My Daughter (film): Not Without My Daughter is a 1991 American drama film based on the 1987 book of the same name\n- It depicts the escape of American citizen Betty Mahmoody\n\nMy Generation: \"My Generation\" is a song by the English rock band the Who, written by guitarist and primary songwriter Pete Townshend, from their debut album of the same\n\nForever My Girl: novel by Heidi McLaughlin\n- It follows a country musician (Alex Roe) who sets out to win over the girl he left at the altar eight years before (Jessica Rothe)\n\nLolita: other works—at least those I wrote in English: The Real Life of Sebastian Knight, Bend Sinister, my short stories, my book of recollections; but I cannot",
+          "claims": [
+            {
+              "id": "f52aad04",
+              "text": "My So-Called Life: My So-Called Life is an American teen drama television series created by Winnie Holzman and produced by Edward Zwick and Marshall Herskovitz",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=657832",
+                "title": "My So-Called Life",
+                "snippet": "My So-Called Life is an American teen drama television series created by Winnie Holzman and produced by Edward Zwick and Marshall Herskovitz. It aired",
+                "metadata": {
+                  "search_query": "Who wrote the book my country my life?"
+                },
+                "retrieved_at": "2026-10-16T21:30:32.049178",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "5ffd559f",
+              "text": "It aired\n\nNot Without My Daughter (film): Not Without My Daughter is a 1991 American drama film based on the 1987 book of the same name",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1808380",
+                "title": "Not Without My Daughter (film)",
+                "snippet": "Not Without My Daughter is a 1991 American drama film based on the 1987 book of the same name. It depicts the escape of American citizen Betty Mahmoody",
+                "metadata": {
+                  "search_query": "Who wrote the book my country my life?"
+                },
+                "retrieved_at": "2026-10-16T21:30:32.049191",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e830d0e0",
+              "text": "It depicts the escape of American citizen Betty Mahmoody\n\nMy Generation: \"My Generation\" is a song by the English rock band the Who, written by guitarist and primary songwriter Pete Townshend, from their debut album of the same\n\nForever My Girl: novel by Heidi McLaughlin",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1124305",
+                "title": "My Generation",
+                "snippet": "\"My Generation\" is a song by the English rock band the Who, written by guitarist and primary songwriter Pete Townshend, from their debut album of the same",
+                "metadata": {
+                  "search_query": "Who wrote the book my country my life?"
+                },
+                "retrieved_at": "2026-10-16T21:30:32.049198",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f8f812b8",
+              "text": "It follows a country musician (Alex Roe) who sets out to win over the girl he left at the altar eight years before (Jessica Rothe)\n\nLolita: other works—at least those I wrote in English: The Real Life of Sebastian Knight, Bend Sinister, my short stories, my book of recollections; but I cannot",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=54461058",
+                "title": "Forever My Girl",
+                "snippet": "novel by Heidi McLaughlin. It follows a country musician (Alex Roe) who sets out to win over the girl he left at the altar eight years before (Jessica Rothe)",
+                "metadata": {
+                  "search_query": "Who wrote the book my country my life?"
+                },
+                "retrieved_at": "2026-10-16T21:30:32.049205",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=657832",
+              "title": "My So-Called Life",
+              "snippet": "My So-Called Life is an American teen drama television series created by Winnie Holzman and produced by Edward Zwick and Marshall Herskovitz. It aired",
+              "metadata": {
+                "search_query": "Who wrote the book my country my life?"
+              },
+              "retrieved_at": "2026-10-16T21:30:32.049178",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=1808380",
+              "title": "Not Without My Daughter (film)",
+              "snippet": "Not Without My Daughter is a 1991 American drama film based on the 1987 book of the same name. It depicts the escape of American citizen Betty Mahmoody",
+              "metadata": {
+                "search_query": "Who wrote the book my country my life?"
+              },
+              "retrieved_at": "2026-10-16T21:30:32.049191",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=1124305",
+              "title": "My Generation",
+              "snippet": "\"My Generation\" is a song by the English rock band the Who, written by guitarist and primary songwriter Pete Townshend, from their debut album of the same",
+              "metadata": {
+                "search_query": "Who wrote the book my country my life?"
+              },
+              "retrieved_at": "2026-10-16T21:30:32.049198",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=54461058",
+              "title": "Forever My Girl",
+              "snippet": "novel by Heidi McLaughlin. It follows a country musician (Alex Roe) who sets out to win over the girl he left at the altar eight years before (Jessica Rothe)",
+              "metadata": {
+                "search_query": "Who wrote the book my country my life?"
+              },
+              "retrieved_at": "2026-10-16T21:30:32.049205",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=19614202",
+              "title": "Lolita",
+              "snippet": "other works—at least those I wrote in English: The Real Life of Sebastian Knight, Bend Sinister, my short stories, my book of recollections; but I cannot",
+              "metadata": {
+                "search_query": "Who wrote the book my country my life?"
+              },
+              "retrieved_at": "2026-10-16T21:30:32.049212",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "My So-Called Life: My So-Called Life is an American teen drama television series created by Winnie Holzman and produced by Edward Zwick and Marshall Herskovitz. It aired\n\nNot Without My Daughter (film): Not Without My Daughter is a 1991 American drama film based on the 1987 book of the same name. It depicts the escape of American citizen Betty Mahmoody\n\nMy Generation: \"My Generation\" is a song by the English rock band the Who, written by guitarist and primary songwriter Pete Townshend, from their debut album of the same\n\nForever My Girl: novel by Heidi McLaughlin. It follows a country musician (Alex Roe) who sets out to win over the girl he left at the altar eight years before (Jessica Rothe)\n\nLolita: other works—at least those I wrote in English: The Real Life of Sebastian Knight, Bend Sinister, my short stories, my book of recollections; but I cannot",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:30:32.049378"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who wrote the book my country my life?",
+          "answer": "Based on 5 sources:\n- My Country My Life - Wikipedia: My Country My Life is an autobiographical book by L\n- Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha\n- Who wrote the Book, \"My Country My Life\"\n- Advani Explanation: \"My Country My Life\" is an autobiography written by Lal Krishna Advani, commonly known as L\n- This book was published in 2008 and provides readers with a detailed account of his personal life, political journey, and his experiences as one of India's most prominent political leaders",
+          "claims": [
+            {
+              "id": "c5b98de6",
+              "text": "My Country My Life - Wikipedia: My Country My Life is an autobiographical book by L",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/My_Country_My_Life",
+                "title": "My Country My Life - Wikipedia",
+                "snippet": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha.",
+                "metadata": {
+                  "search_query": "Who wrote the book my country my life?"
+                },
+                "retrieved_at": "2026-10-16T21:30:32.047915",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f3f8096e",
+              "text": "Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha",
+              "source": {
+                "url": "https://testbook.com/question-answer/who-is-the-writer-of-the-book-named-my-coun--5a54686f96846c1b5a9815ea",
+                "title": "Who is the writer of the book named 'My Country, My Life'?",
+                "snippet": "LK Advani is the writer of the book named 'My Country, My Life'. It is his autobiography and accounts his struggle in politics.",
+                "metadata": {
+                  "search_query": "Who wrote the book my country my life?"
+                },
+                "retrieved_at": "2026-10-16T21:30:32.047942",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "381fa49b",
+              "text": "Who wrote the Book, \"My Country My Life\"",
+              "source": {
+                "url": "https://testbook.com/question-answer/who-is-the-author-of-the-book-my-country-my--60bb771d15cc9e78f4d0ad94",
+                "title": "Who is the author of the book \"My Country My Life\"?",
+                "snippet": "My Country My Life is his autobiography. The book was released in 2008 by APJ Abdul Kalam. Additional Information Chuni Hui Kavitayein and Meri Ekyavan Kavitayen are some books by Atal Bihari Vajpayee. Changing India and The Quest for Equity in Development are some books by Dr Manmohan Singh.",
+                "metadata": {
+                  "search_query": "Who wrote the book my country my life?"
+                },
+                "retrieved_at": "2026-10-16T21:30:32.047949",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f0e2e9ae",
+              "text": "Advani Explanation: \"My Country My Life\" is an autobiography written by Lal Krishna Advani, commonly known as L",
+              "source": {
+                "url": "https://www.vedantu.com/question-answer/who-wrote-the-book-my-country-my-life-692d8d25613450764b92128c",
+                "title": "Who wrote the Book, \"My Country My Life\"? - Vedantu",
+                "snippet": "Answer: L.K.Advani Explanation: \"My Country My Life\" is an autobiography written by Lal Krishna Advani, commonly known as L.K. Advani. This book was published in 2008 and provides readers with a detailed account of his personal life, political journey, and his experiences as one of India's most prominent political leaders. L.K. Advani is a veteran Indian politician who served as the Deputy ...",
+                "metadata": {
+                  "search_query": "Who wrote the book my country my life?"
+                },
+                "retrieved_at": "2026-10-16T21:30:32.047933",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "41b52441",
+              "text": "This book was published in 2008 and provides readers with a detailed account of his personal life, political journey, and his experiences as one of India's most prominent political leaders",
+              "source": {
+                "url": "https://en.bharatpedia.org/wiki/My_Country_My_Life",
+                "title": "My Country My Life - Bharatpedia",
+                "snippet": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha. The book was released on 19 March 2008 by Abdul Kalam, the eleventh President of…",
+                "metadata": {
+                  "search_query": "Who wrote the book my country my life?"
+                },
+                "retrieved_at": "2026-10-16T21:30:32.047956",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d91bfac2",
+              "text": "Advani is a veteran Indian politician who served as the Deputy",
+              "source": {
+                "url": "https://testbook.com/question-answer/who-is-the-writer-of-the-book-named-my-coun--5a54686f96846c1b5a9815ea",
+                "title": "Who is the writer of the book named 'My Country, My Life'?",
+                "snippet": "LK Advani is the writer of the book named 'My Country, My Life'. It is his autobiography and accounts his struggle in politics.",
+                "metadata": {
+                  "search_query": "Who wrote the book my country my life?"
+                },
+                "retrieved_at": "2026-10-16T21:30:32.047942",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "de364391",
+              "text": "Who is the writer of the book named 'My Country, My Life'",
+              "source": {
+                "url": "https://testbook.com/question-answer/who-is-the-author-of-the-book-my-country-my--60bb771d15cc9e78f4d0ad94",
+                "title": "Who is the author of the book \"My Country My Life\"?",
+                "snippet": "My Country My Life is his autobiography. The book was released in 2008 by APJ Abdul Kalam. Additional Information Chuni Hui Kavitayein and Meri Ekyavan Kavitayen are some books by Atal Bihari Vajpayee. Changing India and The Quest for Equity in Development are some books by Dr Manmohan Singh.",
+                "metadata": {
+                  "search_query": "Who wrote the book my country my life?"
+                },
+                "retrieved_at": "2026-10-16T21:30:32.047949",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "21a911a3",
+              "text": ": LK Advani is the writer of the book named 'My Country, My Life'",
+              "source": {
+                "url": "https://en.bharatpedia.org/wiki/My_Country_My_Life",
+                "title": "My Country My Life - Bharatpedia",
+                "snippet": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha. The book was released on 19 March 2008 by Abdul Kalam, the eleventh President of…",
+                "metadata": {
+                  "search_query": "Who wrote the book my country my life?"
+                },
+                "retrieved_at": "2026-10-16T21:30:32.047956",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e10d205b",
+              "text": "It is his autobiography and accounts his struggle in politics",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/My_Country_My_Life",
+                "title": "My Country My Life - Wikipedia",
+                "snippet": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha.",
+                "metadata": {
+                  "search_query": "Who wrote the book my country my life?"
+                },
+                "retrieved_at": "2026-10-16T21:30:32.047915",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "af534795",
+              "text": "Who is the author of the book \"My Country My Life\"",
+              "source": {
+                "url": "https://www.vedantu.com/question-answer/who-wrote-the-book-my-country-my-life-692d8d25613450764b92128c",
+                "title": "Who wrote the Book, \"My Country My Life\"? - Vedantu",
+                "snippet": "Answer: L.K.Advani Explanation: \"My Country My Life\" is an autobiography written by Lal Krishna Advani, commonly known as L.K. Advani. This book was published in 2008 and provides readers with a detailed account of his personal life, political journey, and his experiences as one of India's most prominent political leaders. L.K. Advani is a veteran Indian politician who served as the Deputy ...",
+                "metadata": {
+                  "search_query": "Who wrote the book my country my life?"
+                },
+                "retrieved_at": "2026-10-16T21:30:32.047933",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/My_Country_My_Life",
+              "title": "My Country My Life - Wikipedia",
+              "snippet": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha.",
+              "metadata": {
+                "search_query": "Who wrote the book my country my life?"
+              },
+              "retrieved_at": "2026-10-16T21:30:32.047915",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.vedantu.com/question-answer/who-wrote-the-book-my-country-my-life-692d8d25613450764b92128c",
+              "title": "Who wrote the Book, \"My Country My Life\"? - Vedantu",
+              "snippet": "Answer: L.K.Advani Explanation: \"My Country My Life\" is an autobiography written by Lal Krishna Advani, commonly known as L.K. Advani. This book was published in 2008 and provides readers with a detailed account of his personal life, political journey, and his experiences as one of India's most prominent political leaders. L.K. Advani is a veteran Indian politician who served as the Deputy ...",
+              "metadata": {
+                "search_query": "Who wrote the book my country my life?"
+              },
+              "retrieved_at": "2026-10-16T21:30:32.047933",
+              "credibility_score": null
+            },
+            {
+              "url": "https://testbook.com/question-answer/who-is-the-writer-of-the-book-named-my-coun--5a54686f96846c1b5a9815ea",
+              "title": "Who is the writer of the book named 'My Country, My Life'?",
+              "snippet": "LK Advani is the writer of the book named 'My Country, My Life'. It is his autobiography and accounts his struggle in politics.",
+              "metadata": {
+                "search_query": "Who wrote the book my country my life?"
+              },
+              "retrieved_at": "2026-10-16T21:30:32.047942",
+              "credibility_score": null
+            },
+            {
+              "url": "https://testbook.com/question-answer/who-is-the-author-of-the-book-my-country-my--60bb771d15cc9e78f4d0ad94",
+              "title": "Who is the author of the book \"My Country My Life\"?",
+              "snippet": "My Country My Life is his autobiography. The book was released in 2008 by APJ Abdul Kalam. Additional Information Chuni Hui Kavitayein and Meri Ekyavan Kavitayen are some books by Atal Bihari Vajpayee. Changing India and The Quest for Equity in Development are some books by Dr Manmohan Singh.",
+              "metadata": {
+                "search_query": "Who wrote the book my country my life?"
+              },
+              "retrieved_at": "2026-10-16T21:30:32.047949",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.bharatpedia.org/wiki/My_Country_My_Life",
+              "title": "My Country My Life - Bharatpedia",
+              "snippet": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha. The book was released on 19 March 2008 by Abdul Kalam, the eleventh President of…",
+              "metadata": {
+                "search_query": "Who wrote the book my country my life?"
+              },
+              "retrieved_at": "2026-10-16T21:30:32.047956",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "My Country My Life - Wikipedia: My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha.\n\nWho wrote the Book, \"My Country My Life\"? - Vedantu: Answer: L.K.Advani Explanation: \"My Country My Life\" is an autobiography written by Lal Krishna Advani, commonly known as L.K. Advani. This book was published in 2008 and provides readers with a detailed account of his personal life, political journey, and his experiences as one of India's most prominent political leaders. L.K. Advani is a veteran Indian politician who served as the Deputy ...\n\nWho is the writer of the book named 'My Country, My Life'?: LK Advani is the writer of the book named 'My Country, My Life'. It is his autobiography and accounts his struggle in politics.\n\nWho is the author of the book \"My Country My Life\"?: My Country My Life is his autobiography. The book was released in 2008 by APJ Abdul Kalam. Additional Information Chuni Hui Kavitayein and Meri Ekyavan Kavitayen are some books by Atal Bihari Vajpayee. Changing India and The Quest for Equity in Development are some books by Dr Manmohan Singh.\n\nMy Country My Life - Bharatpedia: My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha. The book was released on 19 March 2008 by Abdul Kalam, the eleventh President of…",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:30:32.048845"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who wrote the book my country my life?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T21:30:32.050009"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Who wrote the book my country my life?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "null",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=657832",
+            "title": "My So-Called Life",
+            "snippet": "My So-Called Life is an American teen drama television series created by Winnie Holzman and produced by Edward Zwick and Marshall Herskovitz. It aired",
+            "metadata": {
+              "search_query": "Who wrote the book my country my life?"
+            },
+            "retrieved_at": "2026-10-16T21:30:32.050752",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=657832",
+          "title": "My So-Called Life",
+          "snippet": "My So-Called Life is an American teen drama television series created by Winnie Holzman and produced by Edward Zwick and Marshall Herskovitz. It aired",
+          "metadata": {
+            "search_query": "Who wrote the book my country my life?"
+          },
+          "retrieved_at": "2026-10-16T21:30:32.050752",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=1808380",
+          "title": "Not Without My Daughter (film)",
+          "snippet": "Not Without My Daughter is a 1991 American drama film based on the 1987 book of the same name. It depicts the escape of American citizen Betty Mahmoody",
+          "metadata": {
+            "search_query": "Who wrote the book my country my life?"
+          },
+          "retrieved_at": "2026-10-16T21:30:32.050774",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=1124305",
+          "title": "My Generation",
+          "snippet": "\"My Generation\" is a song by the English rock band the Who, written by guitarist and primary songwriter Pete Townshend, from their debut album of the same",
+          "metadata": {
+            "search_query": "Who wrote the book my country my life?"
+          },
+          "retrieved_at": "2026-10-16T21:30:32.050781",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=54461058",
+          "title": "Forever My Girl",
+          "snippet": "novel by Heidi McLaughlin. It follows a country musician (Alex Roe) who sets out to win over the girl he left at the altar eight years before (Jessica Rothe)",
+          "metadata": {
+            "search_query": "Who wrote the book my country my life?"
+          },
+          "retrieved_at": "2026-10-16T21:30:32.050787",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=19614202",
+          "title": "Lolita",
+          "snippet": "other works—at least those I wrote in English: The Real Life of Sebastian Knight, Bend Sinister, my short stories, my book of recollections; but I cannot",
+          "metadata": {
+            "search_query": "Who wrote the book my country my life?"
+          },
+          "retrieved_at": "2026-10-16T21:30:32.050793",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:30:46.202186"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who wrote the book my country my life?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "My country my life was written by L. K. Advani.",
+          "source": {
+            "url": "https://en.bharatpedia.org/wiki/My_Country_My_Life",
+            "title": "My Country My Life - Bharatpedia",
+            "snippet": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha. The book was released on 19 March 2008 by Abdul Kalam, the eleventh President of…",
+            "metadata": {
+              "search_query": "Who wrote the book my country my life?"
+            },
+            "retrieved_at": "2026-10-16T21:30:46.202640",
+            "credibility_score": null
+          },
+          "date": "2008",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/My_Country_My_Life",
+          "title": "My Country My Life - Wikipedia",
+          "snippet": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha.",
+          "metadata": {
+            "search_query": "Who wrote the book my country my life?"
+          },
+          "retrieved_at": "2026-10-16T21:30:46.202604",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.vedantu.com/question-answer/who-wrote-the-book-my-country-my-life-692d8d25613450764b92128c",
+          "title": "Who wrote the Book, \"My Country My Life\"? - Vedantu",
+          "snippet": "Answer: L.K.Advani Explanation: \"My Country My Life\" is an autobiography written by Lal Krishna Advani, commonly known as L.K. Advani. This book was published in 2008 and provides readers with a detailed account of his personal life, political journey, and his experiences as one of India's most prominent political leaders. L.K. Advani is a veteran Indian politician who served as the Deputy ...",
+          "metadata": {
+            "search_query": "Who wrote the book my country my life?"
+          },
+          "retrieved_at": "2026-10-16T21:30:46.202618",
+          "credibility_score": null
+        },
+        {
+          "url": "https://testbook.com/question-answer/who-is-the-writer-of-the-book-named-my-coun--5a54686f96846c1b5a9815ea",
+          "title": "Who is the writer of the book named 'My Country, My Life'?",
+          "snippet": "LK Advani is the writer of the book named 'My Country, My Life'. It is his autobiography and accounts his struggle in politics.",
+          "metadata": {
+            "search_query": "Who wrote the book my country my life?"
+          },
+          "retrieved_at": "2026-10-16T21:30:46.202625",
+          "credibility_score": null
+        },
+        {
+          "url": "https://testbook.com/question-answer/who-is-the-author-of-the-book-my-country-my--60bb771d15cc9e78f4d0ad94",
+          "title": "Who is the author of the book \"My Country My Life\"?",
+          "snippet": "My Country My Life is his autobiography. The book was released in 2008 by APJ Abdul Kalam. Additional Information Chuni Hui Kavitayein and Meri Ekyavan Kavitayen are some books by Atal Bihari Vajpayee. Changing India and The Quest for Equity in Development are some books by Dr Manmohan Singh.",
+          "metadata": {
+            "search_query": "Who wrote the book my country my life?"
+          },
+          "retrieved_at": "2026-10-16T21:30:46.202633",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.bharatpedia.org/wiki/My_Country_My_Life",
+          "title": "My Country My Life - Bharatpedia",
+          "snippet": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha. The book was released on 19 March 2008 by Abdul Kalam, the eleventh President of…",
+          "metadata": {
+            "search_query": "Who wrote the book my country my life?"
+          },
+          "retrieved_at": "2026-10-16T21:30:46.202640",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:30:58.435215"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who wrote the book my country my life?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:30:58.435253"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who wrote the book my country my life?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "I cannot verify who wrote the book \"my country my life\" as I do not have access to book databases or search capabilities. The exact named entity and its author cannot be confirmed with the information available to me.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "I cannot verify who wrote the book \"my country my life\" as I do not have access to book databases or search capabilities. The exact named entity and its author cannot be confirmed with the information",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T21:30:37.901084",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "I cannot verify who wrote the book \"my country my life\" as I do not have access to book databases or search capabilities. The exact named entity and its author cannot be confirmed with the information",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:30:37.901084",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "I cannot verify who wrote the book \"my country my life\" as I do not have access to book databases or search capabilities. The exact named entity and its author cannot be confirmed with the information available to me."
+      },
+      "retrieved_at": "2026-10-16T21:30:37.901152"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "disagreement",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "null",
+        "claim_b_text": "My country my life was written by L. K. Advani.",
+        "label": "neutral",
+        "contradiction_score": 0.23215210437774658,
+        "entailment_score": 0.00017217485583387315,
+        "neutral_score": 0.999152421951294
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "null",
+        "claim_b_text": "I cannot verify who wrote the book \"my country my life\" as I do not have access to book databases or search capabilities. The exact named entity and its author cannot be confirmed with the information available to me.",
+        "label": "neutral",
+        "contradiction_score": 0.002064767526462674,
+        "entailment_score": 0.0016281796852126718,
+        "neutral_score": 0.998103141784668
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "My country my life was written by L. K. Advani.",
+        "claim_b_text": "I cannot verify who wrote the book \"my country my life\" as I do not have access to book databases or search capabilities. The exact named entity and its author cannot be confirmed with the information available to me.",
+        "label": "contradiction",
+        "contradiction_score": 0.9,
+        "entailment_score": 0.04,
+        "neutral_score": 0.06
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "My country my life was written by L. K. Advani.",
+        "source": {
+          "url": "https://en.bharatpedia.org/wiki/My_Country_My_Life",
+          "title": "My Country My Life - Bharatpedia",
+          "snippet": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha. The book was released on 19 March 2008 by Abdul Kalam, the eleventh President of…",
+          "metadata": {
+            "search_query": "Who wrote the book my country my life?"
+          },
+          "retrieved_at": "2026-10-16T21:30:46.202640",
+          "credibility_score": null
+        },
+        "date": "2008",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "I cannot verify who wrote the book \"my country my life\" as I do not have access to book databases or search capabilities. The exact named entity and its author cannot be confirmed with the information available to me.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "I cannot verify who wrote the book \"my country my life\" as I do not have access to book databases or search capabilities. The exact named entity and its author cannot be confirmed with the information",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:30:37.901084",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.9
+    },
+    "rationale": "At least one pair exceeded contradiction threshold (0.7): score=0.900"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": true,
+  "contradiction_score": 0.9,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "4825a450",
+    "type": "factual",
+    "confidence": 0.9,
+    "explanation": "The conflict is about factual claims regarding the author of 'my country my life.' Claim A asserts L.K. Advani wrote it, while Claim B denies the ability to verify authorship. Both claims concern the same book at the same time, making this a factual disagreement about the book's authorship.",
+    "claim_a": {
+      "text": "My country my life was written by L. K. Advani.",
+      "source": {
+        "url": "https://en.bharatpedia.org/wiki/My_Country_My_Life",
+        "title": "My Country My Life - Bharatpedia",
+        "snippet": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha. The book was released on 19 March 2008 by Abdul Kalam, the eleventh President of…",
+        "metadata": {
+          "search_query": "Who wrote the book my country my life?"
+        },
+        "retrieved_at": "2026-10-16T21:30:46.202640",
+        "credibility_score": null
+      },
+      "date": "2008",
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "I cannot verify who wrote the book \"my country my life\" as I do not have access to book databases or search capabilities. The exact named entity and its author cannot be confirmed with the information available to me.",
+      "source": {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "I cannot verify who wrote the book \"my country my life\" as I do not have access to book databases or search capabilities. The exact named entity and its author cannot be confirmed with the information",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:30:37.901084",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "classification_status": "llm_success",
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent"
+    },
+    "detected_at": "2026-10-16T21:31:33.419971"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": null,
+      "critic_arguments": [],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T21:31:33.420341",
+      "completed_at": null
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": null,
+        "critic_arguments": [],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T21:31:33.420341",
+        "completed_at": null
+      }
+    ],
+    "status": "failed",
+    "stop_reason": "stage_failure",
+    "failed_stages": [
+      "proposer"
+    ],
+    "rounds_used": 0
+  },
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who wrote the book my country my life?",
+    "answer": "A conflict (factual) was detected between sources, but the structured debate did not complete successfully (failed at: proposer). The conflict remains unresolved. Please consult the sources directly.",
+    "reasoning": "At least one pair exceeded contradiction threshold (0.7): score=0.900",
+    "evidence_state": "disagreement",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=657832",
+        "title": "My So-Called Life",
+        "snippet": "My So-Called Life is an American teen drama television series created by Winnie Holzman and produced by Edward Zwick and Marshall Herskovitz. It aired",
+        "metadata": {
+          "search_query": "Who wrote the book my country my life?"
+        },
+        "retrieved_at": "2026-10-16T21:30:32.050752",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=1808380",
+        "title": "Not Without My Daughter (film)",
+        "snippet": "Not Without My Daughter is a 1991 American drama film based on the 1987 book of the same name. It depicts the escape of American citizen Betty Mahmoody",
+        "metadata": {
+          "search_query": "Who wrote the book my country my life?"
+        },
+        "retrieved_at": "2026-10-16T21:30:32.050774",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=1124305",
+        "title": "My Generation",
+        "snippet": "\"My Generation\" is a song by the English rock band the Who, written by guitarist and primary songwriter Pete Townshend, from their debut album of the same",
+        "metadata": {
+          "search_query": "Who wrote the book my country my life?"
+        },
+        "retrieved_at": "2026-10-16T21:30:32.050781",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=54461058",
+        "title": "Forever My Girl",
+        "snippet": "novel by Heidi McLaughlin. It follows a country musician (Alex Roe) who sets out to win over the girl he left at the altar eight years before (Jessica Rothe)",
+        "metadata": {
+          "search_query": "Who wrote the book my country my life?"
+        },
+        "retrieved_at": "2026-10-16T21:30:32.050787",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=19614202",
+        "title": "Lolita",
+        "snippet": "other works—at least those I wrote in English: The Real Life of Sebastian Knight, Bend Sinister, my short stories, my book of recollections; but I cannot",
+        "metadata": {
+          "search_query": "Who wrote the book my country my life?"
+        },
+        "retrieved_at": "2026-10-16T21:30:32.050793",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/My_Country_My_Life",
+        "title": "My Country My Life - Wikipedia",
+        "snippet": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha.",
+        "metadata": {
+          "search_query": "Who wrote the book my country my life?"
+        },
+        "retrieved_at": "2026-10-16T21:30:46.202604",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.vedantu.com/question-answer/who-wrote-the-book-my-country-my-life-692d8d25613450764b92128c",
+        "title": "Who wrote the Book, \"My Country My Life\"? - Vedantu",
+        "snippet": "Answer: L.K.Advani Explanation: \"My Country My Life\" is an autobiography written by Lal Krishna Advani, commonly known as L.K. Advani. This book was published in 2008 and provides readers with a detailed account of his personal life, political journey, and his experiences as one of India's most prominent political leaders. L.K. Advani is a veteran Indian politician who served as the Deputy ...",
+        "metadata": {
+          "search_query": "Who wrote the book my country my life?"
+        },
+        "retrieved_at": "2026-10-16T21:30:46.202618",
+        "credibility_score": null
+      },
+      {
+        "url": "https://testbook.com/question-answer/who-is-the-writer-of-the-book-named-my-coun--5a54686f96846c1b5a9815ea",
+        "title": "Who is the writer of the book named 'My Country, My Life'?",
+        "snippet": "LK Advani is the writer of the book named 'My Country, My Life'. It is his autobiography and accounts his struggle in politics.",
+        "metadata": {
+          "search_query": "Who wrote the book my country my life?"
+        },
+        "retrieved_at": "2026-10-16T21:30:46.202625",
+        "credibility_score": null
+      },
+      {
+        "url": "https://testbook.com/question-answer/who-is-the-author-of-the-book-my-country-my--60bb771d15cc9e78f4d0ad94",
+        "title": "Who is the author of the book \"My Country My Life\"?",
+        "snippet": "My Country My Life is his autobiography. The book was released in 2008 by APJ Abdul Kalam. Additional Information Chuni Hui Kavitayein and Meri Ekyavan Kavitayen are some books by Atal Bihari Vajpayee. Changing India and The Quest for Equity in Development are some books by Dr Manmohan Singh.",
+        "metadata": {
+          "search_query": "Who wrote the book my country my life?"
+        },
+        "retrieved_at": "2026-10-16T21:30:46.202633",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.bharatpedia.org/wiki/My_Country_My_Life",
+        "title": "My Country My Life - Bharatpedia",
+        "snippet": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha. The book was released on 19 March 2008 by Abdul Kalam, the eleventh President of…",
+        "metadata": {
+          "search_query": "Who wrote the book my country my life?"
+        },
+        "retrieved_at": "2026-10-16T21:30:46.202640",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "I cannot verify who wrote the book \"my country my life\" as I do not have access to book databases or search capabilities. The exact named entity and its author cannot be confirmed with the information",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T21:30:37.901084",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": true,
+    "conflict": {
+      "id": "4825a450",
+      "type": "factual",
+      "confidence": 0.9,
+      "explanation": "The conflict is about factual claims regarding the author of 'my country my life.' Claim A asserts L.K. Advani wrote it, while Claim B denies the ability to verify authorship. Both claims concern the same book at the same time, making this a factual disagreement about the book's authorship.",
+      "claim_a": {
+        "text": "My country my life was written by L. K. Advani.",
+        "source": {
+          "url": "https://en.bharatpedia.org/wiki/My_Country_My_Life",
+          "title": "My Country My Life - Bharatpedia",
+          "snippet": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, and was the Leader of the Opposition in the 15th Lok Sabha. The book was released on 19 March 2008 by Abdul Kalam, the eleventh President of…",
+          "metadata": {
+            "search_query": "Who wrote the book my country my life?"
+          },
+          "retrieved_at": "2026-10-16T21:30:46.202640",
+          "credibility_score": null
+        },
+        "date": "2008",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "I cannot verify who wrote the book \"my country my life\" as I do not have access to book databases or search capabilities. The exact named entity and its author cannot be confirmed with the information available to me.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "I cannot verify who wrote the book \"my country my life\" as I do not have access to book databases or search capabilities. The exact named entity and its author cannot be confirmed with the information",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T21:30:37.901084",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "metadata": {
+        "classification_status": "llm_success",
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent"
+      },
+      "detected_at": "2026-10-16T21:31:33.419971"
+    },
+    "debate_outcome": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "proposer_argument": null,
+          "critic_arguments": [],
+          "reviser_argument": null,
+          "started_at": "2026-10-16T21:31:33.420341",
+          "completed_at": null
+        }
+      ],
+      "status": "failed",
+      "stop_reason": "stage_failure",
+      "failed_stages": [
+        "proposer"
+      ],
+      "rounds_used": 0
+    },
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "disagreement",
+      "debate_completed": false
+    },
+    "generated_at": "2026-10-16T21:31:52.423771"
+  },
+  "metrics": {
+    "latency_seconds": 80.37793231010437,
+    "evidence_state": "disagreement",
+    "debate_triggered": true,
+    "conflict_type": "factual",
+    "classification_status": "llm_success",
+    "debate_status": "failed",
+    "debate_stop_reason": "stage_failure",
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 3,
+    "total_llm_calls_failed": 1,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      },
+      "classifier": {
+        "ok": 1,
+        "failed": 0
+      },
+      "proposer": {
+        "ok": 0,
+        "failed": 1
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "no_gate"
+  },
+  "started_at": "2026-10-16T21:30:32.045838",
+  "completed_at": "2026-10-16T21:31:52.423846",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0025",
+    "query": "Who wrote the book my country my life?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "Ehud Barak",
+    "required_facts": [
+      "Ehud Barak"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 34,
+      "answer_variants": [
+        "L. K. Advani",
+        "Ehud Barak"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 2 and 5",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "My Country My Life is an autobiographical book by L. K. Advani, an Indian politician who served as the Deputy Prime Minister of India from 2002 to 2004, ...",
+          "supports_answers": [
+            "L. K. Advani"
+          ]
+        },
+        {
+          "source_domain": "www.amazon.com",
+          "text": "My Country, My Life, by Ehud Barak, is an interesting book about Israel. It is highly informative. I highly recommend this book. Helpful.",
+          "supports_answers": [
+            "Ehud Barak"
+          ]
+        },
+        {
+          "source_domain": "sofiaalikhan.com",
+          "text": "A Good Country: My Life in Twelve Towns and the Devastating Battle for a White America is the book that happened when I was at the end of my rope.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.amazon.com",
+          "text": "A “quintessentially American” (Policy Magazine) memoir of politics and history from Chris Matthews, New York Times bestselling author and long-time host of ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.goodreads.com",
+          "text": "This is a truly fascinating autobiography, written by a former prime minister ... My Country, My Life, by Ehud Barak, is an interesting book about Israel.",
+          "supports_answers": [
+            "Ehud Barak"
+          ]
+        },
+        {
+          "source_domain": "www.toppr.com",
+          "text": "The author of the book My Country My Life is? A. Sonia Gandhi. B. L.K. Advanti. C. Jaswant Singh. D. Pervez Musharraf. Medium. Open in App Open_in_app.",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_gate",
+  "evaluation_seconds": 80.409,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

@@ -1,0 +1,1002 @@
+{
+  "query": "The boiling point of water is 100 degrees celsius express this in si units?",
+  "trace_id": "d1f6a321-e83e-4fc4-bd86-67f5142b86a5",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "The boiling point of water is 100 degrees celsius express this in si units?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T20:50:25.642521"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "The boiling point of water is 100 degrees celsius express this in si units?",
+          "answer": "Based on 5 sources:\n- Celsius: temperature scales used in the International System of Units (SI), the other being the closely related Kelvin scale\n- The degree Celsius (symbol: °C) can refer\n\nKelvin: The kelvin (symbol: K) is the base unit for temperature in the International System of Units (SI)\n- The Kelvin scale is an absolute temperature scale that\n\nBritish thermal unit: the temperature of one pound of water by one degree Fahrenheit\n- It is also part of the United States customary units\n- In terms of joules (J), the SI unit\n\nScale of temperature: temperature in relation to convenient and stable parameters or reference points, such as the freezing and boiling point of water",
+          "claims": [
+            {
+              "id": "5a850752",
+              "text": "Celsius: temperature scales used in the International System of Units (SI), the other being the closely related Kelvin scale",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=19593040",
+                "title": "Celsius",
+                "snippet": "temperature scales used in the International System of Units (SI), the other being the closely related Kelvin scale. The degree Celsius (symbol: °C) can refer",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.642153",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "42793b65",
+              "text": "The degree Celsius (symbol: °C) can refer\n\nKelvin: The kelvin (symbol: K) is the base unit for temperature in the International System of Units (SI)",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=19593121",
+                "title": "Kelvin",
+                "snippet": "The kelvin (symbol: K) is the base unit for temperature in the International System of Units (SI). The Kelvin scale is an absolute temperature scale that",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.642166",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e3486fb7",
+              "text": "The Kelvin scale is an absolute temperature scale that\n\nBritish thermal unit: the temperature of one pound of water by one degree Fahrenheit",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=4495",
+                "title": "British thermal unit",
+                "snippet": "the temperature of one pound of water by one degree Fahrenheit. It is also part of the United States customary units. In terms of joules (J), the SI unit",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.642174",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8db987e0",
+              "text": "It is also part of the United States customary units",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=29184188",
+                "title": "Scale of temperature",
+                "snippet": "temperature in relation to convenient and stable parameters or reference points, such as the freezing and boiling point of water. Absolute temperature is based",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.642182",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2232d98a",
+              "text": "In terms of joules (J), the SI unit\n\nScale of temperature: temperature in relation to convenient and stable parameters or reference points, such as the freezing and boiling point of water",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=44142",
+                "title": "Metric system",
+                "snippet": "the case of degrees Celsius (°C), it is a shifted scale derived from the kelvin (273.15 K is equal to 0 °C while 1 K interval is same to the 1 °C interval)",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.642188",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a3a33dda",
+              "text": "Absolute temperature is based\n\nMetric system: the case of degrees Celsius (°C), it is a shifted scale derived from the kelvin (273",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=19593040",
+                "title": "Celsius",
+                "snippet": "temperature scales used in the International System of Units (SI), the other being the closely related Kelvin scale. The degree Celsius (symbol: °C) can refer",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.642153",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "05921c92",
+              "text": "15 K is equal to 0 °C while 1 K interval is same to the 1 °C interval)",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=19593121",
+                "title": "Kelvin",
+                "snippet": "The kelvin (symbol: K) is the base unit for temperature in the International System of Units (SI). The Kelvin scale is an absolute temperature scale that",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.642166",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=19593040",
+              "title": "Celsius",
+              "snippet": "temperature scales used in the International System of Units (SI), the other being the closely related Kelvin scale. The degree Celsius (symbol: °C) can refer",
+              "metadata": {
+                "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+              },
+              "retrieved_at": "2026-10-16T20:50:25.642153",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=19593121",
+              "title": "Kelvin",
+              "snippet": "The kelvin (symbol: K) is the base unit for temperature in the International System of Units (SI). The Kelvin scale is an absolute temperature scale that",
+              "metadata": {
+                "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+              },
+              "retrieved_at": "2026-10-16T20:50:25.642166",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=4495",
+              "title": "British thermal unit",
+              "snippet": "the temperature of one pound of water by one degree Fahrenheit. It is also part of the United States customary units. In terms of joules (J), the SI unit",
+              "metadata": {
+                "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+              },
+              "retrieved_at": "2026-10-16T20:50:25.642174",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=29184188",
+              "title": "Scale of temperature",
+              "snippet": "temperature in relation to convenient and stable parameters or reference points, such as the freezing and boiling point of water. Absolute temperature is based",
+              "metadata": {
+                "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+              },
+              "retrieved_at": "2026-10-16T20:50:25.642182",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=44142",
+              "title": "Metric system",
+              "snippet": "the case of degrees Celsius (°C), it is a shifted scale derived from the kelvin (273.15 K is equal to 0 °C while 1 K interval is same to the 1 °C interval)",
+              "metadata": {
+                "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+              },
+              "retrieved_at": "2026-10-16T20:50:25.642188",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Celsius: temperature scales used in the International System of Units (SI), the other being the closely related Kelvin scale. The degree Celsius (symbol: °C) can refer\n\nKelvin: The kelvin (symbol: K) is the base unit for temperature in the International System of Units (SI). The Kelvin scale is an absolute temperature scale that\n\nBritish thermal unit: the temperature of one pound of water by one degree Fahrenheit. It is also part of the United States customary units. In terms of joules (J), the SI unit\n\nScale of temperature: temperature in relation to convenient and stable parameters or reference points, such as the freezing and boiling point of water. Absolute temperature is based\n\nMetric system: the case of degrees Celsius (°C), it is a shifted scale derived from the kelvin (273.15 K is equal to 0 °C while 1 K interval is same to the 1 °C interval)",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T20:50:25.642378"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "The boiling point of water is 100 degrees celsius express this in si units?",
+          "answer": "Based on 5 sources:\n- [FREE] The boiling point of water is 100 degrees Celsius\n- : The boiling point of water is usually recognized as 100 degrees Celsius (°C)\n- To express this temperature in SI units, which use the Kelvin scale (K), we need to convert from Celsius to Kelvin\n- SI Units - Temperature | NIST: On the widely used Celsius temperature scale, water freezes at 0 °C and boils at about 100 °C\n- One Celsius degree is an interval of 1 K, and zero degrees Celsius is 273",
+          "claims": [
+            {
+              "id": "304cea24",
+              "text": "[FREE] The boiling point of water is 100 degrees Celsius",
+              "source": {
+                "url": "https://brainly.com/question/35909923",
+                "title": "[FREE] The boiling point of water is 100 degrees Celsius. Express it in ...",
+                "snippet": "The boiling point of water is usually recognized as 100 degrees Celsius (°C). To express this temperature in SI units, which use the Kelvin scale (K), we need to convert from Celsius to Kelvin.",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.641015",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "bba50a76",
+              "text": ": The boiling point of water is usually recognized as 100 degrees Celsius (°C)",
+              "source": {
+                "url": "https://byjus.com/question-answer/name-si-unit-of-measuring-temperature-the-boiling-point-of-water-is-100degc-under-normal/",
+                "title": "Name SI unit of measuring temperature. The boiling point of water is ...",
+                "snippet": "SI units of temperature is Kelvin (K) To convert °C to K we have to just add the value 273. because 0°C = 273K. As Result l00°C = (100 + 273) = 373 K The boiling point of water in SI Unit is = 373K.",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.641055",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c1eb44be",
+              "text": "To express this temperature in SI units, which use the Kelvin scale (K), we need to convert from Celsius to Kelvin",
+              "source": {
+                "url": "https://askfilo.com/user-question-answers-chemistry/the-boiling-point-of-water-is-100-degrees-celsius-express-3233323038303633",
+                "title": "the boiling point of water is 100 degrees celsius express this ... | Filo",
+                "snippet": "Explanation The SI unit of temperature is Kelvin (K). To convert a temperature from degrees Celsius (°C) to Kelvin (K), we add 273.15 to the Celsius temperature. This is because 0°C corresponds to 273.15 K.",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.641066",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "5bb5cfc1",
+              "text": "SI Units - Temperature | NIST: On the widely used Celsius temperature scale, water freezes at 0 °C and boils at about 100 °C",
+              "source": {
+                "url": "https://askfilo.com/user-question-answers-physics/state-si-unit-of-temperature-mention-boiling-point-of-water-3232323939303634",
+                "title": "state SI unit of temperature mention boiling point of water and... | Filo",
+                "snippet": "It is used in scientific contexts to measure temperature. The boiling point of water at standard atmospheric pressure is 100 degrees Celsius, which is equivalent to 373.15 K. The average human body temperature is typically around 37 degrees Celsius, which is equivalent to 310.15 K. ### Solution 1. **SI Unit of Temperature**: Kelvin (K) 2.",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.641077",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "5be87739",
+              "text": "One Celsius degree is an interval of 1 K, and zero degrees Celsius is 273",
+              "source": {
+                "url": "https://brainly.com/question/35909923",
+                "title": "[FREE] The boiling point of water is 100 degrees Celsius. Express it in ...",
+                "snippet": "The boiling point of water is usually recognized as 100 degrees Celsius (°C). To express this temperature in SI units, which use the Kelvin scale (K), we need to convert from Celsius to Kelvin.",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.641015",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "62f60f45",
+              "text": "An interval of one Celsius degree corresponds to an interval of 1",
+              "source": {
+                "url": "https://byjus.com/question-answer/name-si-unit-of-measuring-temperature-the-boiling-point-of-water-is-100degc-under-normal/",
+                "title": "Name SI unit of measuring temperature. The boiling point of water is ...",
+                "snippet": "SI units of temperature is Kelvin (K) To convert °C to K we have to just add the value 273. because 0°C = 273K. As Result l00°C = (100 + 273) = 373 K The boiling point of water in SI Unit is = 373K.",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.641055",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "6bf1db91",
+              "text": "8 Fahrenheit degrees on the Fahrenheit temperature scale",
+              "source": {
+                "url": "https://askfilo.com/user-question-answers-chemistry/the-boiling-point-of-water-is-100-degrees-celsius-express-3233323038303633",
+                "title": "the boiling point of water is 100 degrees celsius express this ... | Filo",
+                "snippet": "Explanation The SI unit of temperature is Kelvin (K). To convert a temperature from degrees Celsius (°C) to Kelvin (K), we add 273.15 to the Celsius temperature. This is because 0°C corresponds to 273.15 K.",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.641066",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "82d3523f",
+              "text": "Name SI unit of measuring temperature",
+              "source": {
+                "url": "https://askfilo.com/user-question-answers-physics/state-si-unit-of-temperature-mention-boiling-point-of-water-3232323939303634",
+                "title": "state SI unit of temperature mention boiling point of water and... | Filo",
+                "snippet": "It is used in scientific contexts to measure temperature. The boiling point of water at standard atmospheric pressure is 100 degrees Celsius, which is equivalent to 373.15 K. The average human body temperature is typically around 37 degrees Celsius, which is equivalent to 310.15 K. ### Solution 1. **SI Unit of Temperature**: Kelvin (K) 2.",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.641077",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1ec5107e",
+              "text": "The boiling point of water is",
+              "source": {
+                "url": "https://brainly.com/question/35909923",
+                "title": "[FREE] The boiling point of water is 100 degrees Celsius. Express it in ...",
+                "snippet": "The boiling point of water is usually recognized as 100 degrees Celsius (°C). To express this temperature in SI units, which use the Kelvin scale (K), we need to convert from Celsius to Kelvin.",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.641015",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "34aa30dc",
+              "text": ": SI units of temperature is Kelvin (K) To convert °C to K we have to just add the value 273",
+              "source": {
+                "url": "https://www.nist.gov/pml/owm/si-units-temperature",
+                "title": "SI Units - Temperature | NIST",
+                "snippet": "On the widely used Celsius temperature scale, water freezes at 0 °C and boils at about 100 °C. One Celsius degree is an interval of 1 K, and zero degrees Celsius is 273.15 K. An interval of one Celsius degree corresponds to an interval of 1.8 Fahrenheit degrees on the Fahrenheit temperature scale.",
+                "metadata": {
+                  "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+                },
+                "retrieved_at": "2026-10-16T20:50:25.641041",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://brainly.com/question/35909923",
+              "title": "[FREE] The boiling point of water is 100 degrees Celsius. Express it in ...",
+              "snippet": "The boiling point of water is usually recognized as 100 degrees Celsius (°C). To express this temperature in SI units, which use the Kelvin scale (K), we need to convert from Celsius to Kelvin.",
+              "metadata": {
+                "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+              },
+              "retrieved_at": "2026-10-16T20:50:25.641015",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.nist.gov/pml/owm/si-units-temperature",
+              "title": "SI Units - Temperature | NIST",
+              "snippet": "On the widely used Celsius temperature scale, water freezes at 0 °C and boils at about 100 °C. One Celsius degree is an interval of 1 K, and zero degrees Celsius is 273.15 K. An interval of one Celsius degree corresponds to an interval of 1.8 Fahrenheit degrees on the Fahrenheit temperature scale.",
+              "metadata": {
+                "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+              },
+              "retrieved_at": "2026-10-16T20:50:25.641041",
+              "credibility_score": null
+            },
+            {
+              "url": "https://byjus.com/question-answer/name-si-unit-of-measuring-temperature-the-boiling-point-of-water-is-100degc-under-normal/",
+              "title": "Name SI unit of measuring temperature. The boiling point of water is ...",
+              "snippet": "SI units of temperature is Kelvin (K) To convert °C to K we have to just add the value 273. because 0°C = 273K. As Result l00°C = (100 + 273) = 373 K The boiling point of water in SI Unit is = 373K.",
+              "metadata": {
+                "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+              },
+              "retrieved_at": "2026-10-16T20:50:25.641055",
+              "credibility_score": null
+            },
+            {
+              "url": "https://askfilo.com/user-question-answers-chemistry/the-boiling-point-of-water-is-100-degrees-celsius-express-3233323038303633",
+              "title": "the boiling point of water is 100 degrees celsius express this ... | Filo",
+              "snippet": "Explanation The SI unit of temperature is Kelvin (K). To convert a temperature from degrees Celsius (°C) to Kelvin (K), we add 273.15 to the Celsius temperature. This is because 0°C corresponds to 273.15 K.",
+              "metadata": {
+                "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+              },
+              "retrieved_at": "2026-10-16T20:50:25.641066",
+              "credibility_score": null
+            },
+            {
+              "url": "https://askfilo.com/user-question-answers-physics/state-si-unit-of-temperature-mention-boiling-point-of-water-3232323939303634",
+              "title": "state SI unit of temperature mention boiling point of water and... | Filo",
+              "snippet": "It is used in scientific contexts to measure temperature. The boiling point of water at standard atmospheric pressure is 100 degrees Celsius, which is equivalent to 373.15 K. The average human body temperature is typically around 37 degrees Celsius, which is equivalent to 310.15 K. ### Solution 1. **SI Unit of Temperature**: Kelvin (K) 2.",
+              "metadata": {
+                "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+              },
+              "retrieved_at": "2026-10-16T20:50:25.641077",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "[FREE] The boiling point of water is 100 degrees Celsius. Express it in ...: The boiling point of water is usually recognized as 100 degrees Celsius (°C). To express this temperature in SI units, which use the Kelvin scale (K), we need to convert from Celsius to Kelvin.\n\nSI Units - Temperature | NIST: On the widely used Celsius temperature scale, water freezes at 0 °C and boils at about 100 °C. One Celsius degree is an interval of 1 K, and zero degrees Celsius is 273.15 K. An interval of one Celsius degree corresponds to an interval of 1.8 Fahrenheit degrees on the Fahrenheit temperature scale.\n\nName SI unit of measuring temperature. The boiling point of water is ...: SI units of temperature is Kelvin (K) To convert °C to K we have to just add the value 273. because 0°C = 273K. As Result l00°C = (100 + 273) = 373 K The boiling point of water in SI Unit is = 373K.\n\nthe boiling point of water is 100 degrees celsius express this ... | Filo: Explanation The SI unit of temperature is Kelvin (K). To convert a temperature from degrees Celsius (°C) to Kelvin (K), we add 273.15 to the Celsius temperature. This is because 0°C corresponds to 273.15 K.\n\nstate SI unit of temperature mention boiling point of water and... | Filo: It is used in scientific contexts to measure temperature. The boiling point of water at standard atmospheric pressure is 100 degrees Celsius, which is equivalent to 373.15 K. The average human body temperature is typically around 37 degrees Celsius, which is equivalent to 310.15 K. ### Solution 1. **SI Unit of Temperature**: Kelvin (K) 2.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T20:50:25.641716"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "The boiling point of water is 100 degrees celsius express this in si units?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T20:50:25.643356"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "The boiling point of water is 100 degrees celsius express this in si units?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The boiling point of water in SI units is 373.15 Kelvin.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=44142",
+            "title": "Metric system",
+            "snippet": "the case of degrees Celsius (°C), it is a shifted scale derived from the kelvin (273.15 K is equal to 0 °C while 1 K interval is same to the 1 °C interval)",
+            "metadata": {
+              "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+            },
+            "retrieved_at": "2026-10-16T20:50:25.643659",
+            "credibility_score": null
+          },
+          "date": "null",
+          "version": "null",
+          "scope": "null"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=19593040",
+          "title": "Celsius",
+          "snippet": "temperature scales used in the International System of Units (SI), the other being the closely related Kelvin scale. The degree Celsius (symbol: °C) can refer",
+          "metadata": {
+            "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+          },
+          "retrieved_at": "2026-10-16T20:50:25.643630",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=19593121",
+          "title": "Kelvin",
+          "snippet": "The kelvin (symbol: K) is the base unit for temperature in the International System of Units (SI). The Kelvin scale is an absolute temperature scale that",
+          "metadata": {
+            "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+          },
+          "retrieved_at": "2026-10-16T20:50:25.643641",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=4495",
+          "title": "British thermal unit",
+          "snippet": "the temperature of one pound of water by one degree Fahrenheit. It is also part of the United States customary units. In terms of joules (J), the SI unit",
+          "metadata": {
+            "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+          },
+          "retrieved_at": "2026-10-16T20:50:25.643647",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=29184188",
+          "title": "Scale of temperature",
+          "snippet": "temperature in relation to convenient and stable parameters or reference points, such as the freezing and boiling point of water. Absolute temperature is based",
+          "metadata": {
+            "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+          },
+          "retrieved_at": "2026-10-16T20:50:25.643653",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=44142",
+          "title": "Metric system",
+          "snippet": "the case of degrees Celsius (°C), it is a shifted scale derived from the kelvin (273.15 K is equal to 0 °C while 1 K interval is same to the 1 °C interval)",
+          "metadata": {
+            "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+          },
+          "retrieved_at": "2026-10-16T20:50:25.643659",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T20:50:56.265380"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "The boiling point of water is 100 degrees celsius express this in si units?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The boiling point of water at 100°C is equivalent to 373 K in SI units.",
+          "source": {
+            "url": "https://byjus.com/question-answer/name-si-unit-of-measuring-temperature-the-boiling-point-of-water-is-100degc-under-normal/",
+            "title": "Name SI unit of measuring temperature. The boiling point of water is ...",
+            "snippet": "SI units of temperature is Kelvin (K) To convert °C to K we have to just add the value 273. because 0°C = 273K. As Result l00°C = (100 + 273) = 373 K The boiling point of water in SI Unit is = 373K.",
+            "metadata": {
+              "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+            },
+            "retrieved_at": "2026-10-16T20:50:56.265893",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://brainly.com/question/35909923",
+          "title": "[FREE] The boiling point of water is 100 degrees Celsius. Express it in ...",
+          "snippet": "The boiling point of water is usually recognized as 100 degrees Celsius (°C). To express this temperature in SI units, which use the Kelvin scale (K), we need to convert from Celsius to Kelvin.",
+          "metadata": {
+            "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+          },
+          "retrieved_at": "2026-10-16T20:50:56.265872",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.nist.gov/pml/owm/si-units-temperature",
+          "title": "SI Units - Temperature | NIST",
+          "snippet": "On the widely used Celsius temperature scale, water freezes at 0 °C and boils at about 100 °C. One Celsius degree is an interval of 1 K, and zero degrees Celsius is 273.15 K. An interval of one Celsius degree corresponds to an interval of 1.8 Fahrenheit degrees on the Fahrenheit temperature scale.",
+          "metadata": {
+            "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+          },
+          "retrieved_at": "2026-10-16T20:50:56.265887",
+          "credibility_score": null
+        },
+        {
+          "url": "https://byjus.com/question-answer/name-si-unit-of-measuring-temperature-the-boiling-point-of-water-is-100degc-under-normal/",
+          "title": "Name SI unit of measuring temperature. The boiling point of water is ...",
+          "snippet": "SI units of temperature is Kelvin (K) To convert °C to K we have to just add the value 273. because 0°C = 273K. As Result l00°C = (100 + 273) = 373 K The boiling point of water in SI Unit is = 373K.",
+          "metadata": {
+            "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+          },
+          "retrieved_at": "2026-10-16T20:50:56.265893",
+          "credibility_score": null
+        },
+        {
+          "url": "https://askfilo.com/user-question-answers-chemistry/the-boiling-point-of-water-is-100-degrees-celsius-express-3233323038303633",
+          "title": "the boiling point of water is 100 degrees celsius express this ... | Filo",
+          "snippet": "Explanation The SI unit of temperature is Kelvin (K). To convert a temperature from degrees Celsius (°C) to Kelvin (K), we add 273.15 to the Celsius temperature. This is because 0°C corresponds to 273.15 K.",
+          "metadata": {
+            "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+          },
+          "retrieved_at": "2026-10-16T20:50:56.265899",
+          "credibility_score": null
+        },
+        {
+          "url": "https://askfilo.com/user-question-answers-physics/state-si-unit-of-temperature-mention-boiling-point-of-water-3232323939303634",
+          "title": "state SI unit of temperature mention boiling point of water and... | Filo",
+          "snippet": "It is used in scientific contexts to measure temperature. The boiling point of water at standard atmospheric pressure is 100 degrees Celsius, which is equivalent to 373.15 K. The average human body temperature is typically around 37 degrees Celsius, which is equivalent to 310.15 K. ### Solution 1. **SI Unit of Temperature**: Kelvin (K) 2.",
+          "metadata": {
+            "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+          },
+          "retrieved_at": "2026-10-16T20:50:56.265906",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T20:51:12.634198"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "The boiling point of water is 100 degrees celsius express this in si units?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The boiling point of water is 373.15 Kelvin.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+            "snippet": "The boiling point of water is 373.15 Kelvin.",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T20:50:47.989519",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The boiling point of water is 373.15 Kelvin.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T20:50:47.989519",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "The boiling point of water is 373.15 Kelvin."
+      },
+      "retrieved_at": "2026-10-16T20:50:47.989577"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "web_agent",
+        "claim_a_text": "The boiling point of water in SI units is 373.15 Kelvin.",
+        "claim_b_text": "The boiling point of water at 100°C is equivalent to 373 K in SI units.",
+        "label": "neutral",
+        "contradiction_score": 0.14506083726882935,
+        "entailment_score": 0.02659071795642376,
+        "neutral_score": 0.9693180322647095
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The boiling point of water in SI units is 373.15 Kelvin.",
+        "claim_b_text": "The boiling point of water is 373.15 Kelvin.",
+        "label": "neutral",
+        "contradiction_score": 0.010368624702095985,
+        "entailment_score": 0.0718386098742485,
+        "neutral_score": 0.9241712093353271
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The boiling point of water at 100°C is equivalent to 373 K in SI units.",
+        "claim_b_text": "The boiling point of water is 373.15 Kelvin.",
+        "label": "neutral",
+        "contradiction_score": 0.1716865748167038,
+        "entailment_score": 0.05175866186618805,
+        "neutral_score": 0.94341641664505
+      }
+    ],
+    "usable_agents": [
+      "reference_agent",
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "The boiling point of water at 100°C is equivalent to 373 K in SI units.",
+        "source": {
+          "url": "https://byjus.com/question-answer/name-si-unit-of-measuring-temperature-the-boiling-point-of-water-is-100degc-under-normal/",
+          "title": "Name SI unit of measuring temperature. The boiling point of water is ...",
+          "snippet": "SI units of temperature is Kelvin (K) To convert °C to K we have to just add the value 273. because 0°C = 273K. As Result l00°C = (100 + 273) = 373 K The boiling point of water in SI Unit is = 373K.",
+          "metadata": {
+            "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+          },
+          "retrieved_at": "2026-10-16T20:50:56.265893",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The boiling point of water is 373.15 Kelvin.",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+          "snippet": "The boiling point of water is 373.15 Kelvin.",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T20:50:47.989519",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.1716865748167038
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.1716865748167038,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "The boiling point of water is 100 degrees celsius express this in si units?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [reference_agent]: The boiling point of water in SI units is 373.15 Kelvin.\n- [web_agent]: The boiling point of water at 100°C is equivalent to 373 K in SI units.\n- [ai_answer_agent]: The boiling point of water is 373.15 Kelvin.\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/?curid=19593040",
+        "title": "Celsius",
+        "snippet": "temperature scales used in the International System of Units (SI), the other being the closely related Kelvin scale. The degree Celsius (symbol: °C) can refer",
+        "metadata": {
+          "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+        },
+        "retrieved_at": "2026-10-16T20:50:25.643630",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=19593121",
+        "title": "Kelvin",
+        "snippet": "The kelvin (symbol: K) is the base unit for temperature in the International System of Units (SI). The Kelvin scale is an absolute temperature scale that",
+        "metadata": {
+          "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+        },
+        "retrieved_at": "2026-10-16T20:50:25.643641",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=4495",
+        "title": "British thermal unit",
+        "snippet": "the temperature of one pound of water by one degree Fahrenheit. It is also part of the United States customary units. In terms of joules (J), the SI unit",
+        "metadata": {
+          "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+        },
+        "retrieved_at": "2026-10-16T20:50:25.643647",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=29184188",
+        "title": "Scale of temperature",
+        "snippet": "temperature in relation to convenient and stable parameters or reference points, such as the freezing and boiling point of water. Absolute temperature is based",
+        "metadata": {
+          "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+        },
+        "retrieved_at": "2026-10-16T20:50:25.643653",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=44142",
+        "title": "Metric system",
+        "snippet": "the case of degrees Celsius (°C), it is a shifted scale derived from the kelvin (273.15 K is equal to 0 °C while 1 K interval is same to the 1 °C interval)",
+        "metadata": {
+          "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+        },
+        "retrieved_at": "2026-10-16T20:50:25.643659",
+        "credibility_score": null
+      },
+      {
+        "url": "https://brainly.com/question/35909923",
+        "title": "[FREE] The boiling point of water is 100 degrees Celsius. Express it in ...",
+        "snippet": "The boiling point of water is usually recognized as 100 degrees Celsius (°C). To express this temperature in SI units, which use the Kelvin scale (K), we need to convert from Celsius to Kelvin.",
+        "metadata": {
+          "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+        },
+        "retrieved_at": "2026-10-16T20:50:56.265872",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.nist.gov/pml/owm/si-units-temperature",
+        "title": "SI Units - Temperature | NIST",
+        "snippet": "On the widely used Celsius temperature scale, water freezes at 0 °C and boils at about 100 °C. One Celsius degree is an interval of 1 K, and zero degrees Celsius is 273.15 K. An interval of one Celsius degree corresponds to an interval of 1.8 Fahrenheit degrees on the Fahrenheit temperature scale.",
+        "metadata": {
+          "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+        },
+        "retrieved_at": "2026-10-16T20:50:56.265887",
+        "credibility_score": null
+      },
+      {
+        "url": "https://byjus.com/question-answer/name-si-unit-of-measuring-temperature-the-boiling-point-of-water-is-100degc-under-normal/",
+        "title": "Name SI unit of measuring temperature. The boiling point of water is ...",
+        "snippet": "SI units of temperature is Kelvin (K) To convert °C to K we have to just add the value 273. because 0°C = 273K. As Result l00°C = (100 + 273) = 373 K The boiling point of water in SI Unit is = 373K.",
+        "metadata": {
+          "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+        },
+        "retrieved_at": "2026-10-16T20:50:56.265893",
+        "credibility_score": null
+      },
+      {
+        "url": "https://askfilo.com/user-question-answers-chemistry/the-boiling-point-of-water-is-100-degrees-celsius-express-3233323038303633",
+        "title": "the boiling point of water is 100 degrees celsius express this ... | Filo",
+        "snippet": "Explanation The SI unit of temperature is Kelvin (K). To convert a temperature from degrees Celsius (°C) to Kelvin (K), we add 273.15 to the Celsius temperature. This is because 0°C corresponds to 273.15 K.",
+        "metadata": {
+          "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+        },
+        "retrieved_at": "2026-10-16T20:50:56.265899",
+        "credibility_score": null
+      },
+      {
+        "url": "https://askfilo.com/user-question-answers-physics/state-si-unit-of-temperature-mention-boiling-point-of-water-3232323939303634",
+        "title": "state SI unit of temperature mention boiling point of water and... | Filo",
+        "snippet": "It is used in scientific contexts to measure temperature. The boiling point of water at standard atmospheric pressure is 100 degrees Celsius, which is equivalent to 373.15 K. The average human body temperature is typically around 37 degrees Celsius, which is equivalent to 310.15 K. ### Solution 1. **SI Unit of Temperature**: Kelvin (K) 2.",
+        "metadata": {
+          "search_query": "The boiling point of water is 100 degrees celsius express this in si units?"
+        },
+        "retrieved_at": "2026-10-16T20:50:56.265906",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/cohere/north-mini-code:free)",
+        "snippet": "The boiling point of water is 373.15 Kelvin.",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T20:50:47.989519",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T20:51:16.233654"
+  },
+  "metrics": {
+    "latency_seconds": 50.59420824050903,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "proposed_mad"
+  },
+  "started_at": "2026-10-16T20:50:25.639467",
+  "completed_at": "2026-10-16T20:51:16.233751",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0004",
+    "query": "The boiling point of water is 100 degrees celsius express this in si units?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "373 degree Kelvin",
+    "required_facts": [
+      "373 degree Kelvin"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 8,
+      "answer_variants": [
+        "373 degree Kelvin"
+      ],
+      "annotation_explanation": "This is the verified and correct answer according to science.",
+      "evidence_contexts": [
+        {
+          "source_domain": "byjus.com",
+          "text": "The boiling point of water is 100°C to express it in SI unit i.e. Kelvin we should add 273 to 0°C Kelvin = °C + 273. = 100+273.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "brainly.in",
+          "text": "Jun 17, 2017 ... Boiling point of water is 100 degree celsius to express it in SI unit i.e. Kelvin we should add 273 to 100 so it is 373 degree Kelvin in SI ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The degree Celsius is the unit of temperature on the Celsius scale one of two temperature scales used in the International System of Units (SI), ... Now decoupled from the actual boiling point of water, the value \"100 °C\" ...",
+          "supports_answers": [
+            "373 degree Kelvin"
+          ]
+        },
+        {
+          "source_domain": "www.tutorix.com",
+          "text": "May 12, 2021 ... The boiling point of water is 100° C. Express this in SI units (Kelvin scale). ... As the boiling point of water is 100oC,. Therefore,. 100 + 273 ...",
+          "supports_answers": [
+            "373 degree Kelvin"
+          ]
+        },
+        {
+          "source_domain": "www.vedantu.com",
+          "text": "The system international or SI unit of temperature is kelvin. ... Here the boiling point of water in degree Celsius is 100. Hence the boiling point of water in ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.shaalaa.com",
+          "text": "Temp. on Kelvin scale = Temp. on Celsius scale + 273 therefore, boiling point of water : 100 + 273 = 373 K. ... Report Error Is there an error in this question or ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.toppr.com",
+          "text": "The boiling point of water is 100oC . Hence , by TK=toC+273.15. T=100+273.15=373.15K ; T · = ; + ; 15= ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "quizlet.com",
+          "text": "the SI scale for temperature and temperature scale on which freezing point of water is 273.15 degrees and its boiling point at 100 degrees. Celsius ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.nist.gov",
+          "text": "On the widely used Celsius temperature scale, water freezes at 0 °C and boils at about 100 °C. One Celsius degree is an interval of 1 K, and zero degrees ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "proposed_mad",
+  "evaluation_seconds": 50.614,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

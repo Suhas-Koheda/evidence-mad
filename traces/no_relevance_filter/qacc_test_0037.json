@@ -1,0 +1,298 @@
+{
+  "query": "Who sold the most records elvis or the beatles?",
+  "trace_id": "a5f61e4c-8c04-4e50-b79f-96eb5bc037ed",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who sold the most records elvis or the beatles?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:50:08.287996"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who sold the most records elvis or the beatles?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:50:08.286844"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "Who sold the most records elvis or the beatles?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:50:18.243059"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who sold the most records elvis or the beatles?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:50:18.243091"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who sold the most records elvis or the beatles?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:50:18.243105"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who sold the most records elvis or the beatles?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T21:50:53.301553"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who sold the most records elvis or the beatles?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (No search results); web_agent (No search results); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "No search results"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "No search results"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T21:51:03.245607"
+  },
+  "metrics": {
+    "latency_seconds": 54.96040868759155,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T21:50:08.285189",
+  "completed_at": "2026-10-16T21:51:03.245663",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0037",
+    "query": "Who sold the most records elvis or the beatles?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "The Beatles",
+    "required_facts": [
+      "The Beatles"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 49,
+      "answer_variants": [
+        "The Beatles"
+      ],
+      "annotation_explanation": "This is the only choice that makes any sense here.",
+      "evidence_contexts": [
+        {
+          "source_domain": "daytrippin.com",
+          "text": "Dec 1, 2015 ... The RIAA tabulates album sales in the U.S. only. As of November 2021, Elvis has sold 146.5 million albums in the U.S., which is third behind The ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.statista.com",
+          "text": "Dec 8, 2022 ... Perhaps unsurprisingly, British rock band The Beatles are top of the list ... units sales, followed by Elvis Presley with 139 million units.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.quora.com",
+          "text": "As of 2022, based on certified sales, The Beatles have sold the most records, 183 million. Garth Brooks is second at 157 million. Elvis is third at 139 million.",
+          "supports_answers": [
+            "The Beatles"
+          ]
+        },
+        {
+          "source_domain": "elvisbiography.net",
+          "text": "Oct 23, 2018 ... You can pick most of The Beatle records – a few of them are ... the record sales of Elvis Presley to the Beatles by calculating sales of ...",
+          "supports_answers": [
+            "The Beatles"
+          ]
+        },
+        {
+          "source_domain": "www.quora.com",
+          "text": "Why did The Beatles top Elvis Presley twice in the new poll of the most iconic album ... But the Beatles, they racked up sales records, chart records, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.benvaughn.com",
+          "text": "Nov 14, 2022 ... I did find them a little slick. The Beatles are the best-selling artists of all time, with over 183 million albums sold. Elvis Presley is second ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.elvis-history-blog.com",
+          "text": "Using a system which assigns points to each chart record based on its highest position on the “Hot 100,” The Beatles' 62 chart titles accumulated 4,012 points ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.cheatsheet.com",
+          "text": "Feb 25, 2019 ... The Beatles had 20 No. 1 hits, though for fewer weeks than Elvis. ... No artist has sold more albums than The Beatles, and no group or solo ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.pbs.org",
+          "text": "Nov 25, 2014 ... He may be the biggest selling recording artist of all time. Only The Beatles, Elvis Presley and Michael Jackson can rival Bing's sales figures.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "250 million or more records · The Beatles · Elvis Presley · Michael Jackson · Elton John · Queen · Madonna · Led Zeppelin ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 54.977,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

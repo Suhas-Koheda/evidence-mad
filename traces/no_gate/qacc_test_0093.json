@@ -1,0 +1,1076 @@
+{
+  "query": "When did france and belgium invade the ruhr?",
+  "trace_id": "8784a245-2363-40f1-9e04-a2ffe6d12cb4",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "When did france and belgium invade the ruhr?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-17T00:29:47.168219"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "When did france and belgium invade the ruhr?",
+          "answer": "Based on 5 sources:\n- Occupation of the Ruhr - Wikipedia: It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925\n- The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany\n- Ruhr occupation | Ruhr Uprising, French Invasion, Weimar Republic\n- : Ruhr occupation, (1923-25) occupation of the industrial Ruhr River valley region in Germany by French and Belgian troops\n- The action was provoked by German deficiencies in the coal and coke deliveries to France required by the reparations agreement after World War I",
+          "claims": [
+            {
+              "id": "f5afe6c3",
+              "text": "Occupation of the Ruhr - Wikipedia: It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr",
+                "title": "Occupation of the Ruhr - Wikipedia",
+                "snippet": "It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.375855",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "159d36d8",
+              "text": "The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany",
+              "source": {
+                "url": "https://www.britannica.com/topic/Ruhr-occupation",
+                "title": "Ruhr occupation | Ruhr Uprising, French Invasion, Weimar Republic ...",
+                "snippet": "Ruhr occupation, (1923-25) occupation of the industrial Ruhr River valley region in Germany by French and Belgian troops. The action was provoked by German deficiencies in the coal and coke deliveries to France required by the reparations agreement after World War I. French occupation of Düsseldorf, Duisburg, and Ruhrort in 1921 was followed by French-Belgian occupation of the entire region ...",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.375885",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "aceb5f0c",
+              "text": "Ruhr occupation | Ruhr Uprising, French Invasion, Weimar Republic",
+              "source": {
+                "url": "https://www.gcsehistory.com/faq/ruhr.html",
+                "title": "The Ruhr Crisis, 1923 - GCSE History by Clever Lili",
+                "snippet": "The Ruhr Crisis, 1923 What was the Ruhr Occupation? The Ruhr Occupation was a period of military occupation by France and Belgium of the Ruhr region in Germany. It happened because Germany failed to pay the reparations instalment at the end of 1922.",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.375894",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a84625f7",
+              "text": ": Ruhr occupation, (1923-25) occupation of the industrial Ruhr River valley region in Germany by French and Belgian troops",
+              "source": {
+                "url": "https://worldhistoryedu.com/what-triggered-the-french-belgian-occupation-of-the-ruhr/",
+                "title": "What triggered the French & Belgian Occupation of the Ruhr?",
+                "snippet": "The French and Belgian occupation of the Ruhr, a pivotal episode in the interwar period, was rooted in the complex aftermath of World War I and the Treaty of Versailles. The Ruhr, an industrial heartland in Germany, became a focal point of Franco-German tensions, reflecting broader issues of reparations, national sovereignty, and the struggle for security and",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.375901",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "09afa04f",
+              "text": "The action was provoked by German deficiencies in the coal and coke deliveries to France required by the reparations agreement after World War I",
+              "source": {
+                "url": "https://www.thesecondworldwar.org/interbellum-1918-1936/1918/the-weimar-republic/ruhr-occupation",
+                "title": "Ruhr Occupation / The Weimar Republic / 1918 / Interbellum 1918 - 1936 ...",
+                "snippet": "Eventually, France and Belgium withdrew their troops from the Ruhr in August 1925 after agreeing to the Dawes Plan to reorganise Germany's payment of war reparations in 1924 due to economic and international pressure. German rearmament and the rise of the extreme right- and left-wing movements in Germany were both influenced by the Ruhr occupation.",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.375907",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "cddcb881",
+              "text": "French occupation of Düsseldorf, Duisburg, and Ruhrort in 1921 was followed by French-Belgian occupation of the entire region",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr",
+                "title": "Occupation of the Ruhr - Wikipedia",
+                "snippet": "It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.375855",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0bff60b7",
+              "text": "The Ruhr Crisis, 1923 - GCSE History by Clever Lili: The Ruhr Crisis, 1923 What was the Ruhr Occupation",
+              "source": {
+                "url": "https://www.britannica.com/topic/Ruhr-occupation",
+                "title": "Ruhr occupation | Ruhr Uprising, French Invasion, Weimar Republic ...",
+                "snippet": "Ruhr occupation, (1923-25) occupation of the industrial Ruhr River valley region in Germany by French and Belgian troops. The action was provoked by German deficiencies in the coal and coke deliveries to France required by the reparations agreement after World War I. French occupation of Düsseldorf, Duisburg, and Ruhrort in 1921 was followed by French-Belgian occupation of the entire region ...",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.375885",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9b764026",
+              "text": "The Ruhr Occupation was a period of military occupation by France and Belgium of the Ruhr region in Germany",
+              "source": {
+                "url": "https://www.gcsehistory.com/faq/ruhr.html",
+                "title": "The Ruhr Crisis, 1923 - GCSE History by Clever Lili",
+                "snippet": "The Ruhr Crisis, 1923 What was the Ruhr Occupation? The Ruhr Occupation was a period of military occupation by France and Belgium of the Ruhr region in Germany. It happened because Germany failed to pay the reparations instalment at the end of 1922.",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.375894",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b550c5b6",
+              "text": "It happened because Germany failed to pay the reparations instalment at the end of 1922",
+              "source": {
+                "url": "https://worldhistoryedu.com/what-triggered-the-french-belgian-occupation-of-the-ruhr/",
+                "title": "What triggered the French & Belgian Occupation of the Ruhr?",
+                "snippet": "The French and Belgian occupation of the Ruhr, a pivotal episode in the interwar period, was rooted in the complex aftermath of World War I and the Treaty of Versailles. The Ruhr, an industrial heartland in Germany, became a focal point of Franco-German tensions, reflecting broader issues of reparations, national sovereignty, and the struggle for security and",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.375901",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3b12a5ab",
+              "text": "What triggered the French & Belgian Occupation of the Ruhr",
+              "source": {
+                "url": "https://www.thesecondworldwar.org/interbellum-1918-1936/1918/the-weimar-republic/ruhr-occupation",
+                "title": "Ruhr Occupation / The Weimar Republic / 1918 / Interbellum 1918 - 1936 ...",
+                "snippet": "Eventually, France and Belgium withdrew their troops from the Ruhr in August 1925 after agreeing to the Dawes Plan to reorganise Germany's payment of war reparations in 1924 due to economic and international pressure. German rearmament and the rise of the extreme right- and left-wing movements in Germany were both influenced by the Ruhr occupation.",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.375907",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr",
+              "title": "Occupation of the Ruhr - Wikipedia",
+              "snippet": "It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.",
+              "metadata": {
+                "search_query": "When did france and belgium invade the ruhr?"
+              },
+              "retrieved_at": "2026-10-17T00:29:47.375855",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.britannica.com/topic/Ruhr-occupation",
+              "title": "Ruhr occupation | Ruhr Uprising, French Invasion, Weimar Republic ...",
+              "snippet": "Ruhr occupation, (1923-25) occupation of the industrial Ruhr River valley region in Germany by French and Belgian troops. The action was provoked by German deficiencies in the coal and coke deliveries to France required by the reparations agreement after World War I. French occupation of Düsseldorf, Duisburg, and Ruhrort in 1921 was followed by French-Belgian occupation of the entire region ...",
+              "metadata": {
+                "search_query": "When did france and belgium invade the ruhr?"
+              },
+              "retrieved_at": "2026-10-17T00:29:47.375885",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.gcsehistory.com/faq/ruhr.html",
+              "title": "The Ruhr Crisis, 1923 - GCSE History by Clever Lili",
+              "snippet": "The Ruhr Crisis, 1923 What was the Ruhr Occupation? The Ruhr Occupation was a period of military occupation by France and Belgium of the Ruhr region in Germany. It happened because Germany failed to pay the reparations instalment at the end of 1922.",
+              "metadata": {
+                "search_query": "When did france and belgium invade the ruhr?"
+              },
+              "retrieved_at": "2026-10-17T00:29:47.375894",
+              "credibility_score": null
+            },
+            {
+              "url": "https://worldhistoryedu.com/what-triggered-the-french-belgian-occupation-of-the-ruhr/",
+              "title": "What triggered the French & Belgian Occupation of the Ruhr?",
+              "snippet": "The French and Belgian occupation of the Ruhr, a pivotal episode in the interwar period, was rooted in the complex aftermath of World War I and the Treaty of Versailles. The Ruhr, an industrial heartland in Germany, became a focal point of Franco-German tensions, reflecting broader issues of reparations, national sovereignty, and the struggle for security and",
+              "metadata": {
+                "search_query": "When did france and belgium invade the ruhr?"
+              },
+              "retrieved_at": "2026-10-17T00:29:47.375901",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.thesecondworldwar.org/interbellum-1918-1936/1918/the-weimar-republic/ruhr-occupation",
+              "title": "Ruhr Occupation / The Weimar Republic / 1918 / Interbellum 1918 - 1936 ...",
+              "snippet": "Eventually, France and Belgium withdrew their troops from the Ruhr in August 1925 after agreeing to the Dawes Plan to reorganise Germany's payment of war reparations in 1924 due to economic and international pressure. German rearmament and the rise of the extreme right- and left-wing movements in Germany were both influenced by the Ruhr occupation.",
+              "metadata": {
+                "search_query": "When did france and belgium invade the ruhr?"
+              },
+              "retrieved_at": "2026-10-17T00:29:47.375907",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Occupation of the Ruhr - Wikipedia: It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.\n\nRuhr occupation | Ruhr Uprising, French Invasion, Weimar Republic ...: Ruhr occupation, (1923-25) occupation of the industrial Ruhr River valley region in Germany by French and Belgian troops. The action was provoked by German deficiencies in the coal and coke deliveries to France required by the reparations agreement after World War I. French occupation of Düsseldorf, Duisburg, and Ruhrort in 1921 was followed by French-Belgian occupation of the entire region ...\n\nThe Ruhr Crisis, 1923 - GCSE History by Clever Lili: The Ruhr Crisis, 1923 What was the Ruhr Occupation? The Ruhr Occupation was a period of military occupation by France and Belgium of the Ruhr region in Germany. It happened because Germany failed to pay the reparations instalment at the end of 1922.\n\nWhat triggered the French & Belgian Occupation of the Ruhr?: The French and Belgian occupation of the Ruhr, a pivotal episode in the interwar period, was rooted in the complex aftermath of World War I and the Treaty of Versailles. The Ruhr, an industrial heartland in Germany, became a focal point of Franco-German tensions, reflecting broader issues of reparations, national sovereignty, and the struggle for security and\n\nRuhr Occupation / The Weimar Republic / 1918 / Interbellum 1918 - 1936 ...: Eventually, France and Belgium withdrew their troops from the Ruhr in August 1925 after agreeing to the Dawes Plan to reorganise Germany's payment of war reparations in 1924 due to economic and international pressure. German rearmament and the rise of the extreme right- and left-wing movements in Germany were both influenced by the Ruhr occupation.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-17T00:29:47.376189"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "When did france and belgium invade the ruhr?",
+          "answer": "Based on 5 sources:\n- German invasion of Belgium (1940): 1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army\n- On 10 May 1940, Germany invaded Luxembourg, the Netherlands\n\nMaginot Line: the Germans invaded through the Belgian Ardennes, immediately to the north, just beyond the end of the main line of fortifications\n- Based on France's\n\nBattle of France: had withdrawn to the start line\n- On 10 May 1940, Wehrmacht armies invaded Belgium, Luxembourg, the Netherlands and parts of France\n- In Fall Gelb (Case\n\nHistory of the Ruhr: The actual boundaries of the Ruhr vary slightly depending on the source, but a good working definition is to define the Lippe and Ruhr as its northern\n\nOccupation of the Rhineland: the industrial Ruhr valley from 1923 to 1925",
+          "claims": [
+            {
+              "id": "8ea1d644",
+              "text": "German invasion of Belgium (1940): 1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=23180963",
+                "title": "German invasion of Belgium (1940)",
+                "snippet": "1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.502486",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a28af106",
+              "text": "On 10 May 1940, Germany invaded Luxembourg, the Netherlands\n\nMaginot Line: the Germans invaded through the Belgian Ardennes, immediately to the north, just beyond the end of the main line of fortifications",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=20351",
+                "title": "Maginot Line",
+                "snippet": "the Germans invaded through the Belgian Ardennes, immediately to the north, just beyond the end of the main line of fortifications. Based on France's",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.502530",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "59e4dca7",
+              "text": "Based on France's\n\nBattle of France: had withdrawn to the start line",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=228080",
+                "title": "Battle of France",
+                "snippet": "had withdrawn to the start line. On 10 May 1940, Wehrmacht armies invaded Belgium, Luxembourg, the Netherlands and parts of France. In Fall Gelb (Case",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.502544",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "bfede5d1",
+              "text": "On 10 May 1940, Wehrmacht armies invaded Belgium, Luxembourg, the Netherlands and parts of France",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=28150475",
+                "title": "History of the Ruhr",
+                "snippet": "The actual boundaries of the Ruhr vary slightly depending on the source, but a good working definition is to define the Lippe and Ruhr as its northern",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.502558",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "48602ca7",
+              "text": "In Fall Gelb (Case\n\nHistory of the Ruhr: The actual boundaries of the Ruhr vary slightly depending on the source, but a good working definition is to define the Lippe and Ruhr as its northern\n\nOccupation of the Rhineland: the industrial Ruhr valley from 1923 to 1925",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=14034683",
+                "title": "Occupation of the Rhineland",
+                "snippet": "the industrial Ruhr valley from 1923 to 1925. In the early years of the occupation, a number of separatist movements – some supported by the French –",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.502571",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a0462bdb",
+              "text": "In the early years of the occupation, a number of separatist movements – some supported by the French –",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=23180963",
+                "title": "German invasion of Belgium (1940)",
+                "snippet": "1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands",
+                "metadata": {
+                  "search_query": "When did france and belgium invade the ruhr?"
+                },
+                "retrieved_at": "2026-10-17T00:29:47.502486",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=23180963",
+              "title": "German invasion of Belgium (1940)",
+              "snippet": "1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands",
+              "metadata": {
+                "search_query": "When did france and belgium invade the ruhr?"
+              },
+              "retrieved_at": "2026-10-17T00:29:47.502486",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=20351",
+              "title": "Maginot Line",
+              "snippet": "the Germans invaded through the Belgian Ardennes, immediately to the north, just beyond the end of the main line of fortifications. Based on France's",
+              "metadata": {
+                "search_query": "When did france and belgium invade the ruhr?"
+              },
+              "retrieved_at": "2026-10-17T00:29:47.502530",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=228080",
+              "title": "Battle of France",
+              "snippet": "had withdrawn to the start line. On 10 May 1940, Wehrmacht armies invaded Belgium, Luxembourg, the Netherlands and parts of France. In Fall Gelb (Case",
+              "metadata": {
+                "search_query": "When did france and belgium invade the ruhr?"
+              },
+              "retrieved_at": "2026-10-17T00:29:47.502544",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=28150475",
+              "title": "History of the Ruhr",
+              "snippet": "The actual boundaries of the Ruhr vary slightly depending on the source, but a good working definition is to define the Lippe and Ruhr as its northern",
+              "metadata": {
+                "search_query": "When did france and belgium invade the ruhr?"
+              },
+              "retrieved_at": "2026-10-17T00:29:47.502558",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=14034683",
+              "title": "Occupation of the Rhineland",
+              "snippet": "the industrial Ruhr valley from 1923 to 1925. In the early years of the occupation, a number of separatist movements – some supported by the French –",
+              "metadata": {
+                "search_query": "When did france and belgium invade the ruhr?"
+              },
+              "retrieved_at": "2026-10-17T00:29:47.502571",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "German invasion of Belgium (1940): 1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands\n\nMaginot Line: the Germans invaded through the Belgian Ardennes, immediately to the north, just beyond the end of the main line of fortifications. Based on France's\n\nBattle of France: had withdrawn to the start line. On 10 May 1940, Wehrmacht armies invaded Belgium, Luxembourg, the Netherlands and parts of France. In Fall Gelb (Case\n\nHistory of the Ruhr: The actual boundaries of the Ruhr vary slightly depending on the source, but a good working definition is to define the Lippe and Ruhr as its northern\n\nOccupation of the Rhineland: the industrial Ruhr valley from 1923 to 1925. In the early years of the occupation, a number of separatist movements – some supported by the French –",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-17T00:29:47.502857"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "When did france and belgium invade the ruhr?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:29:47.503881"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "When did france and belgium invade the ruhr?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.",
+          "source": {
+            "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr",
+            "title": "Occupation of the Ruhr - Wikipedia",
+            "snippet": "It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.",
+            "metadata": {
+              "search_query": "When did france and belgium invade the ruhr?"
+            },
+            "retrieved_at": "2026-10-17T00:29:47.504369",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr",
+          "title": "Occupation of the Ruhr - Wikipedia",
+          "snippet": "It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.",
+          "metadata": {
+            "search_query": "When did france and belgium invade the ruhr?"
+          },
+          "retrieved_at": "2026-10-17T00:29:47.504369",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.britannica.com/topic/Ruhr-occupation",
+          "title": "Ruhr occupation | Ruhr Uprising, French Invasion, Weimar Republic ...",
+          "snippet": "Ruhr occupation, (1923-25) occupation of the industrial Ruhr River valley region in Germany by French and Belgian troops. The action was provoked by German deficiencies in the coal and coke deliveries to France required by the reparations agreement after World War I. French occupation of Düsseldorf, Duisburg, and Ruhrort in 1921 was followed by French-Belgian occupation of the entire region ...",
+          "metadata": {
+            "search_query": "When did france and belgium invade the ruhr?"
+          },
+          "retrieved_at": "2026-10-17T00:29:47.504384",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.gcsehistory.com/faq/ruhr.html",
+          "title": "The Ruhr Crisis, 1923 - GCSE History by Clever Lili",
+          "snippet": "The Ruhr Crisis, 1923 What was the Ruhr Occupation? The Ruhr Occupation was a period of military occupation by France and Belgium of the Ruhr region in Germany. It happened because Germany failed to pay the reparations instalment at the end of 1922.",
+          "metadata": {
+            "search_query": "When did france and belgium invade the ruhr?"
+          },
+          "retrieved_at": "2026-10-17T00:29:47.504391",
+          "credibility_score": null
+        },
+        {
+          "url": "https://worldhistoryedu.com/what-triggered-the-french-belgian-occupation-of-the-ruhr/",
+          "title": "What triggered the French & Belgian Occupation of the Ruhr?",
+          "snippet": "The French and Belgian occupation of the Ruhr, a pivotal episode in the interwar period, was rooted in the complex aftermath of World War I and the Treaty of Versailles. The Ruhr, an industrial heartland in Germany, became a focal point of Franco-German tensions, reflecting broader issues of reparations, national sovereignty, and the struggle for security and",
+          "metadata": {
+            "search_query": "When did france and belgium invade the ruhr?"
+          },
+          "retrieved_at": "2026-10-17T00:29:47.504397",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.thesecondworldwar.org/interbellum-1918-1936/1918/the-weimar-republic/ruhr-occupation",
+          "title": "Ruhr Occupation / The Weimar Republic / 1918 / Interbellum 1918 - 1936 ...",
+          "snippet": "Eventually, France and Belgium withdrew their troops from the Ruhr in August 1925 after agreeing to the Dawes Plan to reorganise Germany's payment of war reparations in 1924 due to economic and international pressure. German rearmament and the rise of the extreme right- and left-wing movements in Germany were both influenced by the Ruhr occupation.",
+          "metadata": {
+            "search_query": "When did france and belgium invade the ruhr?"
+          },
+          "retrieved_at": "2026-10-17T00:29:47.504404",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:31:05.427442"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "When did france and belgium invade the ruhr?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=23180963",
+            "title": "German invasion of Belgium (1940)",
+            "snippet": "1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands",
+            "metadata": {
+              "search_query": "When did france and belgium invade the ruhr?"
+            },
+            "retrieved_at": "2026-10-17T00:31:05.427851",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=23180963",
+          "title": "German invasion of Belgium (1940)",
+          "snippet": "1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands",
+          "metadata": {
+            "search_query": "When did france and belgium invade the ruhr?"
+          },
+          "retrieved_at": "2026-10-17T00:31:05.427851",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=20351",
+          "title": "Maginot Line",
+          "snippet": "the Germans invaded through the Belgian Ardennes, immediately to the north, just beyond the end of the main line of fortifications. Based on France's",
+          "metadata": {
+            "search_query": "When did france and belgium invade the ruhr?"
+          },
+          "retrieved_at": "2026-10-17T00:31:05.427876",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=228080",
+          "title": "Battle of France",
+          "snippet": "had withdrawn to the start line. On 10 May 1940, Wehrmacht armies invaded Belgium, Luxembourg, the Netherlands and parts of France. In Fall Gelb (Case",
+          "metadata": {
+            "search_query": "When did france and belgium invade the ruhr?"
+          },
+          "retrieved_at": "2026-10-17T00:31:05.427890",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=28150475",
+          "title": "History of the Ruhr",
+          "snippet": "The actual boundaries of the Ruhr vary slightly depending on the source, but a good working definition is to define the Lippe and Ruhr as its northern",
+          "metadata": {
+            "search_query": "When did france and belgium invade the ruhr?"
+          },
+          "retrieved_at": "2026-10-17T00:31:05.427901",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=14034683",
+          "title": "Occupation of the Rhineland",
+          "snippet": "the industrial Ruhr valley from 1923 to 1925. In the early years of the occupation, a number of separatist movements – some supported by the French –",
+          "metadata": {
+            "search_query": "When did france and belgium invade the ruhr?"
+          },
+          "retrieved_at": "2026-10-17T00:31:05.427913",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-17T00:31:50.449895"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "When did france and belgium invade the ruhr?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/openrouter/free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/openrouter/free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-17T00:31:02.419284"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "disagreement",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent",
+        "claim_a_text": "It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.",
+        "claim_b_text": "1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands",
+        "label": "neutral",
+        "contradiction_score": 0.9774002432823181,
+        "entailment_score": 0.00018527137581259012,
+        "neutral_score": 0.9921660423278809
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "reference_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/openrouter/free: opencode timed out after 45.0s)"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent",
+      "claim_a": {
+        "text": "It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr",
+          "title": "Occupation of the Ruhr - Wikipedia",
+          "snippet": "It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.",
+          "metadata": {
+            "search_query": "When did france and belgium invade the ruhr?"
+          },
+          "retrieved_at": "2026-10-17T00:29:47.504369",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=23180963",
+          "title": "German invasion of Belgium (1940)",
+          "snippet": "1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands",
+          "metadata": {
+            "search_query": "When did france and belgium invade the ruhr?"
+          },
+          "retrieved_at": "2026-10-17T00:31:05.427851",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.9774002432823181
+    },
+    "rationale": "At least one pair exceeded contradiction threshold (0.7): score=0.977"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": true,
+  "contradiction_score": 0.9774002432823181,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "449f37a2",
+    "type": "temporal",
+    "confidence": 0.88,
+    "explanation": "Claims refer to different years: {'1925'} vs {'1940'}",
+    "claim_a": {
+      "text": "It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr",
+        "title": "Occupation of the Ruhr - Wikipedia",
+        "snippet": "It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.",
+        "metadata": {
+          "search_query": "When did france and belgium invade the ruhr?"
+        },
+        "retrieved_at": "2026-10-17T00:29:47.504369",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands",
+      "source": {
+        "url": "https://en.wikipedia.org/?curid=23180963",
+        "title": "German invasion of Belgium (1940)",
+        "snippet": "1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands",
+        "metadata": {
+          "search_query": "When did france and belgium invade the ruhr?"
+        },
+        "retrieved_at": "2026-10-17T00:31:05.427851",
+        "credibility_score": null
+      },
+      "date": null,
+      "version": null,
+      "scope": null
+    },
+    "metadata": {
+      "classification_status": "fallback",
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent"
+    },
+    "detected_at": "2026-10-17T00:32:44.474906"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": null,
+      "critic_arguments": [],
+      "reviser_argument": null,
+      "started_at": "2026-10-17T00:32:44.475286",
+      "completed_at": null
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": null,
+        "critic_arguments": [],
+        "reviser_argument": null,
+        "started_at": "2026-10-17T00:32:44.475286",
+        "completed_at": null
+      }
+    ],
+    "status": "failed",
+    "stop_reason": "stage_failure",
+    "failed_stages": [
+      "proposer"
+    ],
+    "rounds_used": 0
+  },
+  "judge_result": null,
+  "final_answer": {
+    "query": "When did france and belgium invade the ruhr?",
+    "answer": "A conflict (temporal) was detected between sources, but the structured debate did not complete successfully (failed at: proposer). The conflict remains unresolved. Please consult the sources directly.",
+    "reasoning": "At least one pair exceeded contradiction threshold (0.7): score=0.977",
+    "evidence_state": "disagreement",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr",
+        "title": "Occupation of the Ruhr - Wikipedia",
+        "snippet": "It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.",
+        "metadata": {
+          "search_query": "When did france and belgium invade the ruhr?"
+        },
+        "retrieved_at": "2026-10-17T00:29:47.504369",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.britannica.com/topic/Ruhr-occupation",
+        "title": "Ruhr occupation | Ruhr Uprising, French Invasion, Weimar Republic ...",
+        "snippet": "Ruhr occupation, (1923-25) occupation of the industrial Ruhr River valley region in Germany by French and Belgian troops. The action was provoked by German deficiencies in the coal and coke deliveries to France required by the reparations agreement after World War I. French occupation of Düsseldorf, Duisburg, and Ruhrort in 1921 was followed by French-Belgian occupation of the entire region ...",
+        "metadata": {
+          "search_query": "When did france and belgium invade the ruhr?"
+        },
+        "retrieved_at": "2026-10-17T00:29:47.504384",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.gcsehistory.com/faq/ruhr.html",
+        "title": "The Ruhr Crisis, 1923 - GCSE History by Clever Lili",
+        "snippet": "The Ruhr Crisis, 1923 What was the Ruhr Occupation? The Ruhr Occupation was a period of military occupation by France and Belgium of the Ruhr region in Germany. It happened because Germany failed to pay the reparations instalment at the end of 1922.",
+        "metadata": {
+          "search_query": "When did france and belgium invade the ruhr?"
+        },
+        "retrieved_at": "2026-10-17T00:29:47.504391",
+        "credibility_score": null
+      },
+      {
+        "url": "https://worldhistoryedu.com/what-triggered-the-french-belgian-occupation-of-the-ruhr/",
+        "title": "What triggered the French & Belgian Occupation of the Ruhr?",
+        "snippet": "The French and Belgian occupation of the Ruhr, a pivotal episode in the interwar period, was rooted in the complex aftermath of World War I and the Treaty of Versailles. The Ruhr, an industrial heartland in Germany, became a focal point of Franco-German tensions, reflecting broader issues of reparations, national sovereignty, and the struggle for security and",
+        "metadata": {
+          "search_query": "When did france and belgium invade the ruhr?"
+        },
+        "retrieved_at": "2026-10-17T00:29:47.504397",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.thesecondworldwar.org/interbellum-1918-1936/1918/the-weimar-republic/ruhr-occupation",
+        "title": "Ruhr Occupation / The Weimar Republic / 1918 / Interbellum 1918 - 1936 ...",
+        "snippet": "Eventually, France and Belgium withdrew their troops from the Ruhr in August 1925 after agreeing to the Dawes Plan to reorganise Germany's payment of war reparations in 1924 due to economic and international pressure. German rearmament and the rise of the extreme right- and left-wing movements in Germany were both influenced by the Ruhr occupation.",
+        "metadata": {
+          "search_query": "When did france and belgium invade the ruhr?"
+        },
+        "retrieved_at": "2026-10-17T00:29:47.504404",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=23180963",
+        "title": "German invasion of Belgium (1940)",
+        "snippet": "1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands",
+        "metadata": {
+          "search_query": "When did france and belgium invade the ruhr?"
+        },
+        "retrieved_at": "2026-10-17T00:31:05.427851",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=20351",
+        "title": "Maginot Line",
+        "snippet": "the Germans invaded through the Belgian Ardennes, immediately to the north, just beyond the end of the main line of fortifications. Based on France's",
+        "metadata": {
+          "search_query": "When did france and belgium invade the ruhr?"
+        },
+        "retrieved_at": "2026-10-17T00:31:05.427876",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=228080",
+        "title": "Battle of France",
+        "snippet": "had withdrawn to the start line. On 10 May 1940, Wehrmacht armies invaded Belgium, Luxembourg, the Netherlands and parts of France. In Fall Gelb (Case",
+        "metadata": {
+          "search_query": "When did france and belgium invade the ruhr?"
+        },
+        "retrieved_at": "2026-10-17T00:31:05.427890",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=28150475",
+        "title": "History of the Ruhr",
+        "snippet": "The actual boundaries of the Ruhr vary slightly depending on the source, but a good working definition is to define the Lippe and Ruhr as its northern",
+        "metadata": {
+          "search_query": "When did france and belgium invade the ruhr?"
+        },
+        "retrieved_at": "2026-10-17T00:31:05.427901",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=14034683",
+        "title": "Occupation of the Rhineland",
+        "snippet": "the industrial Ruhr valley from 1923 to 1925. In the early years of the occupation, a number of separatist movements – some supported by the French –",
+        "metadata": {
+          "search_query": "When did france and belgium invade the ruhr?"
+        },
+        "retrieved_at": "2026-10-17T00:31:05.427913",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": true,
+    "conflict": {
+      "id": "449f37a2",
+      "type": "temporal",
+      "confidence": 0.88,
+      "explanation": "Claims refer to different years: {'1925'} vs {'1940'}",
+      "claim_a": {
+        "text": "It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.",
+        "source": {
+          "url": "https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr",
+          "title": "Occupation of the Ruhr - Wikipedia",
+          "snippet": "It restructured and lowered Germany's war reparations payments and led to France and Belgium withdrawing their troops from the Ruhr by August 1925. The occupation of the Ruhr contributed to the growth of radical right-wing movements in Germany.",
+          "metadata": {
+            "search_query": "When did france and belgium invade the ruhr?"
+          },
+          "retrieved_at": "2026-10-17T00:29:47.504369",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=23180963",
+          "title": "German invasion of Belgium (1940)",
+          "snippet": "1940 and ended with the German occupation of Belgium following the surrender of the Belgian Army. On 10 May 1940, Germany invaded Luxembourg, the Netherlands",
+          "metadata": {
+            "search_query": "When did france and belgium invade the ruhr?"
+          },
+          "retrieved_at": "2026-10-17T00:31:05.427851",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "metadata": {
+        "classification_status": "fallback",
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent"
+      },
+      "detected_at": "2026-10-17T00:32:44.474906"
+    },
+    "debate_outcome": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "proposer_argument": null,
+          "critic_arguments": [],
+          "reviser_argument": null,
+          "started_at": "2026-10-17T00:32:44.475286",
+          "completed_at": null
+        }
+      ],
+      "status": "failed",
+      "stop_reason": "stage_failure",
+      "failed_stages": [
+        "proposer"
+      ],
+      "rounds_used": 0
+    },
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "metadata": {
+      "evidence_state": "disagreement",
+      "debate_completed": false
+    },
+    "generated_at": "2026-10-17T00:33:29.494112"
+  },
+  "metrics": {
+    "latency_seconds": 222.87430572509766,
+    "evidence_state": "disagreement",
+    "debate_triggered": true,
+    "conflict_type": "temporal",
+    "classification_status": "fallback",
+    "debate_status": "failed",
+    "debate_stop_reason": "stage_failure",
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 4,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 0,
+        "failed": 2
+      },
+      "classifier": {
+        "ok": 0,
+        "failed": 1
+      },
+      "proposer": {
+        "ok": 0,
+        "failed": 1
+      }
+    },
+    "retrieval_failure_rate": 0.25,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "system": "no_gate"
+  },
+  "started_at": "2026-10-17T00:29:46.619790",
+  "completed_at": "2026-10-17T00:33:29.494180",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0093",
+    "query": "When did france and belgium invade the ruhr?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "January 1923",
+    "required_facts": [
+      "January 1923"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 118,
+      "answer_variants": [
+        "January 1923"
+      ],
+      "annotation_explanation": "This is the only verifiable one that can be looked up.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.theholocaustexplained.org",
+          "text": "On the 9 January 1923, in response to the lack of payment of reparations, France and Belgium invaded the Ruhr. The Ruhr was a region of Germany which ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The Occupation of the Ruhr (German: Ruhrbesetzung) was a period of military occupation of the Ruhr region of Germany by France and Belgium between 11 ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.icrc.org",
+          "text": "Jan 21, 2005 ... In January 1923 French and Belgian troops occupied the Ruhr coalfields in order to enforce German payment of reparations stemming from the First ...",
+          "supports_answers": [
+            "January 1923"
+          ]
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "Aug 9, 2023 ... Ruhr occupation, (1923–25) occupation of the industrial Ruhr River valley region in Germany by French and Belgian troops.",
+          "supports_answers": [
+            "January 1923"
+          ]
+        },
+        {
+          "source_domain": "nvdatabase.swarthmore.edu",
+          "text": "France refused to compromise with the Germans and decided to seize coal and other products in the Ruhr in lieu of reparations, using Belgium and Italy as allies ...",
+          "supports_answers": [
+            "January 1923"
+          ]
+        },
+        {
+          "source_domain": "alphahistory.com",
+          "text": "Sep 25, 2019 ... In January 1923, French and Belgian troops crossed the border and took control of numerous places in Germany's Ruhr Valley.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "encyclopedia.1914-1918-online.net",
+          "text": "Oct 14, 2016 ... The 1923-1925 Ruhr occupation by France and Belgium was triggered when ... announced that France would occupy the Ruhr District to extract ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.tutor2u.net",
+          "text": "Jan 19, 2019 ... In retaliation, the French army invaded the Ruhr and seized goods and ... The French did not take kindly to the strikes and proceeded to ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.jstor.org",
+          "text": "When French and Belgian troops occupied the Ruhr in January 1923, ... To British officials in Whitehall and Germany, the Ruhr invasion con.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.studysmarter.co.uk",
+          "text": "The Occupation of the Ruhr took place from January 1923 to September 1925, when the French invaded the Ruhr region of Germany in order to collect goods to pay ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_gate",
+  "evaluation_seconds": 222.908,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

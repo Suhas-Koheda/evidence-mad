@@ -1,0 +1,1485 @@
+{
+  "query": "Who sings for the beast in the new movie?",
+  "trace_id": "5f5f3076-d187-45ec-b473-4d694f5723d5",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who sings for the beast in the new movie?",
+          "answer": "Based on 5 sources:\n- Heart of the Beast Soundtrack (2026): Complete List of Songs & Music\n- : Looking for the music from Heart of the Beast (2026)\n- Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune\n- Heart of the Beast Soundtrack: Every Song in the Movie: Discover the complete Heart of the Beast (2026) soundtrack guide\n- Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score",
+          "claims": [
+            {
+              "id": "8e9c4709",
+              "text": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music",
+              "source": {
+                "url": "https://www.seekertune.com/movies/heart-of-the-beast-2026/",
+                "title": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music ...",
+                "snippet": "Looking for the music from Heart of the Beast (2026)? Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:44.267885",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "de2c0986",
+              "text": ": Looking for the music from Heart of the Beast (2026)",
+              "source": {
+                "url": "https://soundtrackwiki.com/movies/heart-of-the-beast-2026/",
+                "title": "Heart of the Beast Soundtrack: Every Song in the Movie",
+                "snippet": "Discover the complete Heart of the Beast (2026) soundtrack guide. Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:44.267930",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "fc4e0bd6",
+              "text": "Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/The_Beast_(2026_film)",
+                "title": "The Beast (2026 film) - Wikipedia",
+                "snippet": "The Beast is a 2026 American action thriller film directed by Renny Harlin and written by Umair Aleem. It stars Samuel L. Jackson, Joel Kinnaman, Colin Morgan, and Guy Burnet.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:44.267943",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "9e8e0305",
+              "text": "Heart of the Beast Soundtrack: Every Song in the Movie: Discover the complete Heart of the Beast (2026) soundtrack guide",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=fmHMeZnbzeI",
+                "title": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...",
+                "snippet": "Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:44.267955",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b2d749a7",
+              "text": "Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Beast_(soundtrack)",
+                "title": "Beast (soundtrack) - Wikipedia",
+                "snippet": "Beast is the soundtrack composed by Anirudh Ravichander for the 2022 Tamil -language film of the same name directed by Nelson; starring Vijay and Pooja Hegde, the film is produced by Kalanithi Maran under the studio Sun Pictures.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:44.267969",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ad4cb57d",
+              "text": "The Beast (2026 film) - Wikipedia: The Beast is a 2026 American action thriller film directed by Renny Harlin and written by Umair Aleem",
+              "source": {
+                "url": "https://www.seekertune.com/movies/heart-of-the-beast-2026/",
+                "title": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music ...",
+                "snippet": "Looking for the music from Heart of the Beast (2026)? Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:44.267885",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d9caad24",
+              "text": "Jackson, Joel Kinnaman, Colin Morgan, and Guy Burnet",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/The_Beast_(2026_film)",
+                "title": "The Beast (2026 film) - Wikipedia",
+                "snippet": "The Beast is a 2026 American action thriller film directed by Renny Harlin and written by Umair Aleem. It stars Samuel L. Jackson, Joel Kinnaman, Colin Morgan, and Guy Burnet.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:44.267943",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "b832b795",
+              "text": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr",
+              "source": {
+                "url": "https://www.youtube.com/watch?v=fmHMeZnbzeI",
+                "title": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...",
+                "snippet": "Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:44.267955",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "4d5fab38",
+              "text": ": Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Beast_(soundtrack)",
+                "title": "Beast (soundtrack) - Wikipedia",
+                "snippet": "Beast is the soundtrack composed by Anirudh Ravichander for the 2022 Tamil -language film of the same name directed by Nelson; starring Vijay and Pooja Hegde, the film is produced by Kalanithi Maran under the studio Sun Pictures.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:44.267969",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "207496c4",
+              "text": "Beast (soundtrack) - Wikipedia: Beast is the soundtrack composed by Anirudh Ravichander for the 2022 Tamil -language film of the same name directed by Nelson; starring Vijay and Pooja Hegde, the film is produced by Kalanithi Maran under the studio Sun Pictures",
+              "source": {
+                "url": "https://soundtrackwiki.com/movies/heart-of-the-beast-2026/",
+                "title": "Heart of the Beast Soundtrack: Every Song in the Movie",
+                "snippet": "Discover the complete Heart of the Beast (2026) soundtrack guide. Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score.",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:44.267930",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.seekertune.com/movies/heart-of-the-beast-2026/",
+              "title": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music ...",
+              "snippet": "Looking for the music from Heart of the Beast (2026)? Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune.",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T23:47:44.267885",
+              "credibility_score": null
+            },
+            {
+              "url": "https://soundtrackwiki.com/movies/heart-of-the-beast-2026/",
+              "title": "Heart of the Beast Soundtrack: Every Song in the Movie",
+              "snippet": "Discover the complete Heart of the Beast (2026) soundtrack guide. Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score.",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T23:47:44.267930",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/The_Beast_(2026_film)",
+              "title": "The Beast (2026 film) - Wikipedia",
+              "snippet": "The Beast is a 2026 American action thriller film directed by Renny Harlin and written by Umair Aleem. It stars Samuel L. Jackson, Joel Kinnaman, Colin Morgan, and Guy Burnet.",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T23:47:44.267943",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=fmHMeZnbzeI",
+              "title": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...",
+              "snippet": "Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T23:47:44.267955",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Beast_(soundtrack)",
+              "title": "Beast (soundtrack) - Wikipedia",
+              "snippet": "Beast is the soundtrack composed by Anirudh Ravichander for the 2022 Tamil -language film of the same name directed by Nelson; starring Vijay and Pooja Hegde, the film is produced by Kalanithi Maran under the studio Sun Pictures.",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T23:47:44.267969",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music ...: Looking for the music from Heart of the Beast (2026)? Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune.\n\nHeart of the Beast Soundtrack: Every Song in the Movie: Discover the complete Heart of the Beast (2026) soundtrack guide. Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score.\n\nThe Beast (2026 film) - Wikipedia: The Beast is a 2026 American action thriller film directed by Renny Harlin and written by Umair Aleem. It stars Samuel L. Jackson, Joel Kinnaman, Colin Morgan, and Guy Burnet.\n\nHeart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...: Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...\n\nBeast (soundtrack) - Wikipedia: Beast is the soundtrack composed by Anirudh Ravichander for the 2022 Tamil -language film of the same name directed by Nelson; starring Vijay and Pooja Hegde, the film is produced by Kalanithi Maran under the studio Sun Pictures.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T23:47:44.268373"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who sings for the beast in the new movie?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T23:47:49.173896"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who sings for the beast in the new movie?",
+          "answer": "Based on 5 sources:\n- The Boy Who Cried Werewolf (2010 film): turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\"\n- Vampires attempted to take over the castle and rise\n\nBeauty and the Beast (1991 film): the Beast's story, since according to Hahn \"He's the guy trapped in the monkey suit who has to redeem himself during the course of the movie\n- The meter's\n\nBeauty and the Beast (2017 film): and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French\n\nPokémon the Movie 2000: dangerous for the legendary Pokémon, Lugia, and Ash himself\n- Pokémon the Movie 2000 was released in Japanese theaters on July 17, 1999, by Toho\n- The English-language\n\nBeauty and the Beast (franchise): Prince de Beaumont",
+          "claims": [
+            {
+              "id": "a2b5c8f7",
+              "text": "The Boy Who Cried Werewolf (2010 film): turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\"",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=27387452",
+                "title": "The Boy Who Cried Werewolf (2010 film)",
+                "snippet": "turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\". Vampires attempted to take over the castle and rise",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:49.585146",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e6dc5f8d",
+              "text": "Vampires attempted to take over the castle and rise\n\nBeauty and the Beast (1991 film): the Beast's story, since according to Hahn \"He's the guy trapped in the monkey suit who has to redeem himself during the course of the movie",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=133462",
+                "title": "Beauty and the Beast (1991 film)",
+                "snippet": "the Beast's story, since according to Hahn \"He's the guy trapped in the monkey suit who has to redeem himself during the course of the movie. The meter's",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:49.585179",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "69cc1874",
+              "text": "The meter's\n\nBeauty and the Beast (2017 film): and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French\n\nPokémon the Movie 2000: dangerous for the legendary Pokémon, Lugia, and Ash himself",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=45230258",
+                "title": "Beauty and the Beast (2017 film)",
+                "snippet": "and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:49.585187",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d39b2f1c",
+              "text": "Pokémon the Movie 2000 was released in Japanese theaters on July 17, 1999, by Toho",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1490639",
+                "title": "Pokémon the Movie 2000",
+                "snippet": "dangerous for the legendary Pokémon, Lugia, and Ash himself. Pokémon the Movie 2000 was released in Japanese theaters on July 17, 1999, by Toho. The English-language",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:49.585195",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "49e12d29",
+              "text": "The English-language\n\nBeauty and the Beast (franchise): Prince de Beaumont",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=40861499",
+                "title": "Beauty and the Beast (franchise)",
+                "snippet": "Prince de Beaumont. In 2002, Beauty and the Beast was selected for preservation in the National Film Registry by the Library of Congress for being \"culturally",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:49.585202",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1abdc0d1",
+              "text": "In 2002, Beauty and the Beast was selected for preservation in the National Film Registry by the Library of Congress for being \"culturally",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=27387452",
+                "title": "The Boy Who Cried Werewolf (2010 film)",
+                "snippet": "turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\". Vampires attempted to take over the castle and rise",
+                "metadata": {
+                  "search_query": "Who sings for the beast in the new movie?"
+                },
+                "retrieved_at": "2026-10-16T23:47:49.585146",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=27387452",
+              "title": "The Boy Who Cried Werewolf (2010 film)",
+              "snippet": "turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\". Vampires attempted to take over the castle and rise",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T23:47:49.585146",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=133462",
+              "title": "Beauty and the Beast (1991 film)",
+              "snippet": "the Beast's story, since according to Hahn \"He's the guy trapped in the monkey suit who has to redeem himself during the course of the movie. The meter's",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T23:47:49.585179",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=45230258",
+              "title": "Beauty and the Beast (2017 film)",
+              "snippet": "and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T23:47:49.585187",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=1490639",
+              "title": "Pokémon the Movie 2000",
+              "snippet": "dangerous for the legendary Pokémon, Lugia, and Ash himself. Pokémon the Movie 2000 was released in Japanese theaters on July 17, 1999, by Toho. The English-language",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T23:47:49.585195",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=40861499",
+              "title": "Beauty and the Beast (franchise)",
+              "snippet": "Prince de Beaumont. In 2002, Beauty and the Beast was selected for preservation in the National Film Registry by the Library of Congress for being \"culturally",
+              "metadata": {
+                "search_query": "Who sings for the beast in the new movie?"
+              },
+              "retrieved_at": "2026-10-16T23:47:49.585202",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "The Boy Who Cried Werewolf (2010 film): turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\". Vampires attempted to take over the castle and rise\n\nBeauty and the Beast (1991 film): the Beast's story, since according to Hahn \"He's the guy trapped in the monkey suit who has to redeem himself during the course of the movie. The meter's\n\nBeauty and the Beast (2017 film): and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French\n\nPokémon the Movie 2000: dangerous for the legendary Pokémon, Lugia, and Ash himself. Pokémon the Movie 2000 was released in Japanese theaters on July 17, 1999, by Toho. The English-language\n\nBeauty and the Beast (franchise): Prince de Beaumont. In 2002, Beauty and the Beast was selected for preservation in the National Film Registry by the Library of Congress for being \"culturally",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T23:47:49.585393"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "Who sings for the beast in the new movie?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "If referring to Heart of the Beast (2026), Stephen Wilson Jr performs \"Stand By Me\" inspired by the film; otherwise the exact entity \"the beast in the new movie\" is not verified.",
+          "source": {
+            "url": "https://www.youtube.com/watch?v=fmHMeZnbzeI",
+            "title": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...",
+            "snippet": "Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+            "metadata": {
+              "search_query": "Who sings for the beast in the new movie?"
+            },
+            "retrieved_at": "2026-10-16T23:47:49.586883",
+            "credibility_score": null
+          },
+          "date": "2026",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.seekertune.com/movies/heart-of-the-beast-2026/",
+          "title": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music ...",
+          "snippet": "Looking for the music from Heart of the Beast (2026)? Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune.",
+          "metadata": {
+            "search_query": "Who sings for the beast in the new movie?"
+          },
+          "retrieved_at": "2026-10-16T23:47:49.586842",
+          "credibility_score": null
+        },
+        {
+          "url": "https://soundtrackwiki.com/movies/heart-of-the-beast-2026/",
+          "title": "Heart of the Beast Soundtrack: Every Song in the Movie",
+          "snippet": "Discover the complete Heart of the Beast (2026) soundtrack guide. Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score.",
+          "metadata": {
+            "search_query": "Who sings for the beast in the new movie?"
+          },
+          "retrieved_at": "2026-10-16T23:47:49.586869",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Beast_(2026_film)",
+          "title": "The Beast (2026 film) - Wikipedia",
+          "snippet": "The Beast is a 2026 American action thriller film directed by Renny Harlin and written by Umair Aleem. It stars Samuel L. Jackson, Joel Kinnaman, Colin Morgan, and Guy Burnet.",
+          "metadata": {
+            "search_query": "Who sings for the beast in the new movie?"
+          },
+          "retrieved_at": "2026-10-16T23:47:49.586877",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fmHMeZnbzeI",
+          "title": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...",
+          "snippet": "Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+          "metadata": {
+            "search_query": "Who sings for the beast in the new movie?"
+          },
+          "retrieved_at": "2026-10-16T23:47:49.586883",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Beast_(soundtrack)",
+          "title": "Beast (soundtrack) - Wikipedia",
+          "snippet": "Beast is the soundtrack composed by Anirudh Ravichander for the 2022 Tamil -language film of the same name directed by Nelson; starring Vijay and Pooja Hegde, the film is produced by Kalanithi Maran under the studio Sun Pictures.",
+          "metadata": {
+            "search_query": "Who sings for the beast in the new movie?"
+          },
+          "retrieved_at": "2026-10-16T23:47:49.586890",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:48:24.516616"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who sings for the beast in the new movie?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:48:24.516655"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who sings for the beast in the new movie?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The snippets identify the 2017 Beauty and the Beast film but do not verify who sings for the Beast.",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=45230258",
+            "title": "Beauty and the Beast (2017 film)",
+            "snippet": "and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French",
+            "metadata": {
+              "search_query": "Who sings for the beast in the new movie?"
+            },
+            "retrieved_at": "2026-10-16T23:48:24.516948",
+            "credibility_score": null
+          },
+          "date": "2017",
+          "version": "2017 film",
+          "scope": "film"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=27387452",
+          "title": "The Boy Who Cried Werewolf (2010 film)",
+          "snippet": "turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\". Vampires attempted to take over the castle and rise",
+          "metadata": {
+            "search_query": "Who sings for the beast in the new movie?"
+          },
+          "retrieved_at": "2026-10-16T23:48:24.516926",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=133462",
+          "title": "Beauty and the Beast (1991 film)",
+          "snippet": "the Beast's story, since according to Hahn \"He's the guy trapped in the monkey suit who has to redeem himself during the course of the movie. The meter's",
+          "metadata": {
+            "search_query": "Who sings for the beast in the new movie?"
+          },
+          "retrieved_at": "2026-10-16T23:48:24.516940",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=45230258",
+          "title": "Beauty and the Beast (2017 film)",
+          "snippet": "and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French",
+          "metadata": {
+            "search_query": "Who sings for the beast in the new movie?"
+          },
+          "retrieved_at": "2026-10-16T23:48:24.516948",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=1490639",
+          "title": "Pokémon the Movie 2000",
+          "snippet": "dangerous for the legendary Pokémon, Lugia, and Ash himself. Pokémon the Movie 2000 was released in Japanese theaters on July 17, 1999, by Toho. The English-language",
+          "metadata": {
+            "search_query": "Who sings for the beast in the new movie?"
+          },
+          "retrieved_at": "2026-10-16T23:48:24.516954",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=40861499",
+          "title": "Beauty and the Beast (franchise)",
+          "snippet": "Prince de Beaumont. In 2002, Beauty and the Beast was selected for preservation in the National Film Registry by the Library of Congress for being \"culturally",
+          "metadata": {
+            "search_query": "Who sings for the beast in the new movie?"
+          },
+          "retrieved_at": "2026-10-16T23:48:24.516961",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:48:33.738908"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who sings for the beast in the new movie?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Assuming “the new movie” refers to the 2017 live-action Beauty and the Beast, Dan Stevens sings for the beast. If “the new movie” denotes a different, unspecified film, then the exact named entity “the new movie” cannot be verified and no source-confirmed answer is available.",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+            "snippet": "Assuming “the new movie” refers to the 2017 live-action Beauty and the Beast, Dan Stevens sings for the beast. If “the new movie” denotes a different, unspecified film, then the exact named entity “th",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T23:48:01.680202",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+          "snippet": "Assuming “the new movie” refers to the 2017 live-action Beauty and the Beast, Dan Stevens sings for the beast. If “the new movie” denotes a different, unspecified film, then the exact named entity “th",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T23:48:01.680202",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "Assuming “the new movie” refers to the 2017 live-action Beauty and the Beast, Dan Stevens sings for the beast. If “the new movie” denotes a different, unspecified film, then the exact named entity “the new movie” cannot be verified and no source-confirmed answer is available."
+      },
+      "retrieved_at": "2026-10-16T23:48:01.680285"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "disagreement",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent",
+        "claim_a_text": "If referring to Heart of the Beast (2026), Stephen Wilson Jr performs \"Stand By Me\" inspired by the film; otherwise the exact entity \"the beast in the new movie\" is not verified.",
+        "claim_b_text": "The snippets identify the 2017 Beauty and the Beast film but do not verify who sings for the Beast.",
+        "label": "contradiction",
+        "contradiction_score": 0.9,
+        "entailment_score": 0.04,
+        "neutral_score": 0.06
+      },
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "If referring to Heart of the Beast (2026), Stephen Wilson Jr performs \"Stand By Me\" inspired by the film; otherwise the exact entity \"the beast in the new movie\" is not verified.",
+        "claim_b_text": "Assuming “the new movie” refers to the 2017 live-action Beauty and the Beast, Dan Stevens sings for the beast. If “the new movie” denotes a different, unspecified film, then the exact named entity “the new movie” cannot be verified and no source-confirmed answer is available.",
+        "label": "neutral",
+        "contradiction_score": 0.5405411124229431,
+        "entailment_score": 0.0033672319259494543,
+        "neutral_score": 0.9948204755783081
+      },
+      {
+        "agent_a_id": "reference_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "The snippets identify the 2017 Beauty and the Beast film but do not verify who sings for the Beast.",
+        "claim_b_text": "Assuming “the new movie” refers to the 2017 live-action Beauty and the Beast, Dan Stevens sings for the beast. If “the new movie” denotes a different, unspecified film, then the exact named entity “the new movie” cannot be verified and no source-confirmed answer is available.",
+        "label": "contradiction",
+        "contradiction_score": 0.9,
+        "entailment_score": 0.04,
+        "neutral_score": 0.06
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "reference_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent",
+      "claim_a": {
+        "text": "If referring to Heart of the Beast (2026), Stephen Wilson Jr performs \"Stand By Me\" inspired by the film; otherwise the exact entity \"the beast in the new movie\" is not verified.",
+        "source": {
+          "url": "https://www.youtube.com/watch?v=fmHMeZnbzeI",
+          "title": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...",
+          "snippet": "Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+          "metadata": {
+            "search_query": "Who sings for the beast in the new movie?"
+          },
+          "retrieved_at": "2026-10-16T23:47:49.586883",
+          "credibility_score": null
+        },
+        "date": "2026",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The snippets identify the 2017 Beauty and the Beast film but do not verify who sings for the Beast.",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=45230258",
+          "title": "Beauty and the Beast (2017 film)",
+          "snippet": "and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French",
+          "metadata": {
+            "search_query": "Who sings for the beast in the new movie?"
+          },
+          "retrieved_at": "2026-10-16T23:48:24.516948",
+          "credibility_score": null
+        },
+        "date": "2017",
+        "version": "2017 film",
+        "scope": "film"
+      },
+      "contradiction_score": 0.9
+    },
+    "rationale": "At least one pair exceeded contradiction threshold (0.7): score=0.900"
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": true,
+  "contradiction_score": 0.9,
+  "debate_triggered": true,
+  "conflict": {
+    "id": "7a6920a1",
+    "type": "contextual",
+    "confidence": 0.85,
+    "explanation": "Claim A refers to the 2026 film 'Heart of the Beast' while Claim B refers to the 2017 'Beauty and the Beast' film; the conflict arises because the claims apply to different movie contexts/entities rather than the same one.",
+    "claim_a": {
+      "text": "If referring to Heart of the Beast (2026), Stephen Wilson Jr performs \"Stand By Me\" inspired by the film; otherwise the exact entity \"the beast in the new movie\" is not verified.",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=fmHMeZnbzeI",
+        "title": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...",
+        "snippet": "Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+        "metadata": {
+          "search_query": "Who sings for the beast in the new movie?"
+        },
+        "retrieved_at": "2026-10-16T23:47:49.586883",
+        "credibility_score": null
+      },
+      "date": "2026",
+      "version": null,
+      "scope": null
+    },
+    "claim_b": {
+      "text": "The snippets identify the 2017 Beauty and the Beast film but do not verify who sings for the Beast.",
+      "source": {
+        "url": "https://en.wikipedia.org/?curid=45230258",
+        "title": "Beauty and the Beast (2017 film)",
+        "snippet": "and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French",
+        "metadata": {
+          "search_query": "Who sings for the beast in the new movie?"
+        },
+        "retrieved_at": "2026-10-16T23:48:24.516948",
+        "credibility_score": null
+      },
+      "date": "2017",
+      "version": "2017 film",
+      "scope": "film"
+    },
+    "metadata": {
+      "classification_status": "llm_success",
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent"
+    },
+    "detected_at": "2026-10-16T23:49:05.923503"
+  },
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "proposer_argument": {
+        "id": "f8b1bc0c",
+        "round_number": 1,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nThe contradiction dissolves because the claims apply to different films and scopes: Claim A concerns Heart of the Beast (2026) and Claim B concerns Beauty and the Beast (2017). The question is ambiguous without specifying which \"new movie\" is meant, so each claim holds under its own conditions rather than one being wrong.\n\nEVIDENCE REVIEW\nClaim A: The evidence supports that Stephen Wilson Jr performs \"Stand By Me\" inspired by Heart of the Beast (2026); it does not confirm that he sings \"for the beast\" in that film, and the exact phrase \"the beast in the new movie\" is not verified.\nClaim B: The evidence identifies the 2017 Beauty and the Beast film but does not verify who sings for the Beast.\n\nREASONING\nThe core issue is a contextual scope difference, not a direct factual clash. Claim A is tied to a 2026 title and a specific performer related to that title; Claim B is tied to a 2017 film and lacks verification for the singer. Because \"the new movie\" could refer to either production, the claims address different entities. Once scopes are separated, both can be accurate within their own contexts and no winner needs to be chosen.\n\nSOURCE BASIS\nClaim A: agent_a reference to Heart of the Beast (2026), Stephen Wilson Jr, and \"Stand By Me\" inspired by the film.\nClaim B: agent_b reference to the 2017 Beauty and the Beast film and lack of verification for who sings for the Beast.\n\nCONCLUSION\nPropose resolving by clarifying the movie: if referring to Heart of the Beast (2026), Stephen Wilson Jr's performance is the relevant evidence; if referring to Beauty and the Beast (2017), the singer for the Beast is unverified in the given sources. The conflict is dissolved by scope distinction, not by selecting one claim over the other.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "contextual",
+        "strategy_used": "contextual",
+        "strategy_text_preview": "You are arguing about a contextual disagreement.\nIMPORTANT: First check whether the two claims apply to different populations, platforms, or editions\n(see SCOPE fields below). If the scopes are differ",
+        "created_at": "2026-10-16T23:49:13.357454"
+      },
+      "critic_arguments": [
+        {
+          "id": "77d10dc6",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nThe proposal accepts Claim A as accurate for Heart of the Beast (2026) despite the evidence review stating it does not confirm Stephen Wilson Jr sings for the Beast, only that he performs a cover inspired by the film.\nWHY IT MATTERS\nThis overstates the evidence within Claim A's own scope because the claim still fails to verify the specific singer-for-the-beast relationship, weakening the argument that both claims can stand unchallenged.\nIMPROVEMENT\nRestrict Claim A to the verified cover performance, explicitly note that singing for the Beast remains unverified even in that context, and require verification of the specific role before applying it.",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "contextual",
+          "strategy_used": "critique_substantive",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T23:49:30.315370"
+        },
+        {
+          "id": "a0d6cd24",
+          "round_number": 1,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nThe proposal dissolves the contradiction by asserting ambiguity without providing a rule or evidence step to determine which new movie the question intends.\nWHY IT MATTERS\nWithout a mechanism to select between the 2026 and 2017 productions, the resolution is circular: it avoids adjudication by declaring both possible rather than using evidence to clarify the intended scope.\nIMPROVEMENT\nIntroduce a context-selection criterion based on source dates, titles, or question framing to identify the relevant film, then evaluate only the verified claim for that selected context.",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "contextual",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T23:49:30.315413"
+        }
+      ],
+      "reviser_argument": {
+        "id": "848daa35",
+        "round_number": 1,
+        "role": "reviser",
+        "agent_id": "reviser",
+        "content": "REVISED POSITION\nThe question asks who sings for the beast in the new movie without specifying which production, so resolution must first apply a context-selection criterion based on source titles and dates to identify the intended film. If the target is Heart of the Beast (2026), the verified evidence is only that Stephen Wilson Jr performs a cover of \"Stand By Me\" inspired by that film; it does not verify that he sings for the Beast, so the singer-for-the-beast claim remains unverified in this scope. If the target is Beauty and the Beast (2017), the evidence identifies the film but does not verify who sings for the Beast. Thus neither claim fully verifies the specific singer role, and the improved position requires selecting the relevant context via source matching and then demanding direct verification of the singer-for-the-beast relationship before affirming any answer.\n\nCRITIQUE RESPONSES\nCritique 1: The revised position restricts Claim A strictly to the verified cover performance by Stephen Wilson Jr inspired by Heart of the Beast (2026) and explicitly states that singing for the Beast remains unverified even within that scope. It also requires verification of the specific singer-for-the-beast role before applying Claim A, eliminating the overstatement.\nCritique 2: A context-selection criterion is added that uses the source title and date to determine whether the intended film is Heart of the Beast (2026) or Beauty and the Beast (2017), then evaluates only the claim tied to that selected context. This replaces circular ambiguity with an evidence-based selection step rather than accepting both possibilities uncritically.\n\nEVIDENCE REVIEW\nAgent A indicates that if referring to Heart of the Beast (2026), Stephen Wilson Jr performs \"Stand By Me\" inspired by the film, and otherwise the exact phrase \"the beast in the new movie\" is not verified. Agent B indicates that the snippets identify the 2017 Beauty and the Beast film but do not verify who sings for the Beast. The evidence supports a 2026 inspired cover by Stephen Wilson Jr without confirmation of singing for the Beast, and a 2017 film identification without singer verification.\n\nFINAL CONCLUSION\nSelect the relevant film using source titles and dates, then apply the verified portion of the matching claim only. For Heart of the Beast (2026), confirm the inspired cover by Stephen Wilson Jr and treat singing for the Beast as unverified. For Beauty and the Beast (2017), treat the singer for the Beast as unverified. The contradiction is resolved by context selection plus strict verification rather than by allowing either claim to stand unchallenged.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "contextual",
+        "strategy_used": "contextual_revision",
+        "strategy_text_preview": null,
+        "created_at": "2026-10-16T23:49:40.754126"
+      },
+      "started_at": "2026-10-16T23:49:05.923831",
+      "completed_at": "2026-10-16T23:49:40.754170"
+    },
+    {
+      "round_number": 2,
+      "proposer_argument": {
+        "id": "c64b0dcd",
+        "round_number": 2,
+        "role": "proposer",
+        "agent_id": "proposer",
+        "content": "POSITION\nThe claims do not directly contradict because they apply to different films and scopes; the dispute dissolves once scopes are separated. For the 2026 film Heart of the Beast, Stephen Wilson Jr performs Stand By Me inspired by the film; the 2017 Beauty and the Beast scope remains unverified regarding the Beast singer.\n\nEVIDENCE REVIEW\nClaim A: The retrieved evidence supports that Stephen Wilson Jr performs Stand By Me inspired by Heart of the Beast (2026), but the exact phrase \"the beast in the new movie\" is only verified if referring to that 2026 film; otherwise it is unverified.\nClaim B: The snippets identify the 2017 Beauty and the Beast film but do not verify who sings for the Beast.\n\nREASONING\nThe core issue is contextual scope mismatch: Claim A is tied to 2026 and Heart of the Beast, while Claim B is tied to 2017 and Beauty and the Beast. Because the populations/platforms/editions differ, they do not address the same entity. Therefore neither claim must be rejected; each holds conditionally under its own scope, and no winner can be chosen without specifying which movie is meant.\n\nSOURCE BASIS\nOnly sources or evidence present in the supplied claims: Claim A references Heart of the Beast (2026), Stephen Wilson Jr, and Stand By Me; Claim B references the 2017 Beauty and the Beast film snippets.\n\nCONCLUSION\nPropose resolving by conditioning the answer on scope: if \"new movie\" means Heart of the Beast (2026), Stephen Wilson Jr performs Stand By Me inspired by the film; if it means the 2017 Beauty and the Beast, the singer is not verified by the available snippets, so the question requires clarification of which film is intended.",
+        "evidence_refs": [
+          "agent_a",
+          "agent_b"
+        ],
+        "conflict_type": "contextual",
+        "strategy_used": "contextual",
+        "strategy_text_preview": "You are arguing about a contextual disagreement.\nIMPORTANT: First check whether the two claims apply to different populations, platforms, or editions\n(see SCOPE fields below). If the scopes are differ",
+        "created_at": "2026-10-16T23:49:44.913246"
+      },
+      "critic_arguments": [
+        {
+          "id": "b52ded1a",
+          "round_number": 2,
+          "role": "critic",
+          "agent_id": "critic_1",
+          "content": "ISSUE\nThe proposal fails to challenge Claim B's temporal framing; it accepts that the 2017 Beauty and the Beast film could be \"the new movie\" without noting that a 2017 release is unlikely to match the temporal meaning of \"new\" in the original question, weakening the scope separation.\nWHY IT MATTERS\nIf \"new movie\" implies a recent or upcoming release, Claim B may be addressing the wrong time frame entirely, which means the dispute might not be a scope mismatch but rather an incorrect identification of the subject, affecting whether both claims can be held conditionally.\nIMPROVEMENT\nAdd an explicit temporal evaluation stating that \"new movie\" likely refers to a recent release such as 2026, and clarify whether the 2017 film is excluded on temporal grounds rather than only by title.",
+          "evidence_refs": [
+            "agent_a"
+          ],
+          "conflict_type": "contextual",
+          "strategy_used": "critique_no_objection",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T23:50:10.974733"
+        },
+        {
+          "id": "83e20555",
+          "round_number": 2,
+          "role": "critic",
+          "agent_id": "critic_2",
+          "content": "ISSUE\nThe reasoning introduces undefined terms \"populations/platforms/editions\" that do not appear in the source claims or evidence, making the justification for scope separation obscure and unsupported.\nWHY IT MATTERS\nA critique should rely only on the provided sources; using unexplained categorical distinctions creates the appearance of analytical rigor without actual grounding in the claim texts, which could mislead evaluation.\nIMPROVEMENT\nReplace the jargon with direct reference to the specific films named in the claims, stating clearly that Claim A concerns Heart of the Beast (2026) and Claim B concerns Beauty and the Beast (2017), so they refer to different entities.",
+          "evidence_refs": [
+            "agent_b"
+          ],
+          "conflict_type": "contextual",
+          "strategy_used": "critique",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T23:50:10.974775"
+        }
+      ],
+      "reviser_argument": null,
+      "started_at": "2026-10-16T23:49:40.754459",
+      "completed_at": "2026-10-16T23:50:10.974799"
+    }
+  ],
+  "debate_outcome": {
+    "rounds": [
+      {
+        "round_number": 1,
+        "proposer_argument": {
+          "id": "f8b1bc0c",
+          "round_number": 1,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nThe contradiction dissolves because the claims apply to different films and scopes: Claim A concerns Heart of the Beast (2026) and Claim B concerns Beauty and the Beast (2017). The question is ambiguous without specifying which \"new movie\" is meant, so each claim holds under its own conditions rather than one being wrong.\n\nEVIDENCE REVIEW\nClaim A: The evidence supports that Stephen Wilson Jr performs \"Stand By Me\" inspired by Heart of the Beast (2026); it does not confirm that he sings \"for the beast\" in that film, and the exact phrase \"the beast in the new movie\" is not verified.\nClaim B: The evidence identifies the 2017 Beauty and the Beast film but does not verify who sings for the Beast.\n\nREASONING\nThe core issue is a contextual scope difference, not a direct factual clash. Claim A is tied to a 2026 title and a specific performer related to that title; Claim B is tied to a 2017 film and lacks verification for the singer. Because \"the new movie\" could refer to either production, the claims address different entities. Once scopes are separated, both can be accurate within their own contexts and no winner needs to be chosen.\n\nSOURCE BASIS\nClaim A: agent_a reference to Heart of the Beast (2026), Stephen Wilson Jr, and \"Stand By Me\" inspired by the film.\nClaim B: agent_b reference to the 2017 Beauty and the Beast film and lack of verification for who sings for the Beast.\n\nCONCLUSION\nPropose resolving by clarifying the movie: if referring to Heart of the Beast (2026), Stephen Wilson Jr's performance is the relevant evidence; if referring to Beauty and the Beast (2017), the singer for the Beast is unverified in the given sources. The conflict is dissolved by scope distinction, not by selecting one claim over the other.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "contextual",
+          "strategy_used": "contextual",
+          "strategy_text_preview": "You are arguing about a contextual disagreement.\nIMPORTANT: First check whether the two claims apply to different populations, platforms, or editions\n(see SCOPE fields below). If the scopes are differ",
+          "created_at": "2026-10-16T23:49:13.357454"
+        },
+        "critic_arguments": [
+          {
+            "id": "77d10dc6",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nThe proposal accepts Claim A as accurate for Heart of the Beast (2026) despite the evidence review stating it does not confirm Stephen Wilson Jr sings for the Beast, only that he performs a cover inspired by the film.\nWHY IT MATTERS\nThis overstates the evidence within Claim A's own scope because the claim still fails to verify the specific singer-for-the-beast relationship, weakening the argument that both claims can stand unchallenged.\nIMPROVEMENT\nRestrict Claim A to the verified cover performance, explicitly note that singing for the Beast remains unverified even in that context, and require verification of the specific role before applying it.",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "contextual",
+            "strategy_used": "critique_substantive",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T23:49:30.315370"
+          },
+          {
+            "id": "a0d6cd24",
+            "round_number": 1,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nThe proposal dissolves the contradiction by asserting ambiguity without providing a rule or evidence step to determine which new movie the question intends.\nWHY IT MATTERS\nWithout a mechanism to select between the 2026 and 2017 productions, the resolution is circular: it avoids adjudication by declaring both possible rather than using evidence to clarify the intended scope.\nIMPROVEMENT\nIntroduce a context-selection criterion based on source dates, titles, or question framing to identify the relevant film, then evaluate only the verified claim for that selected context.",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "contextual",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T23:49:30.315413"
+          }
+        ],
+        "reviser_argument": {
+          "id": "848daa35",
+          "round_number": 1,
+          "role": "reviser",
+          "agent_id": "reviser",
+          "content": "REVISED POSITION\nThe question asks who sings for the beast in the new movie without specifying which production, so resolution must first apply a context-selection criterion based on source titles and dates to identify the intended film. If the target is Heart of the Beast (2026), the verified evidence is only that Stephen Wilson Jr performs a cover of \"Stand By Me\" inspired by that film; it does not verify that he sings for the Beast, so the singer-for-the-beast claim remains unverified in this scope. If the target is Beauty and the Beast (2017), the evidence identifies the film but does not verify who sings for the Beast. Thus neither claim fully verifies the specific singer role, and the improved position requires selecting the relevant context via source matching and then demanding direct verification of the singer-for-the-beast relationship before affirming any answer.\n\nCRITIQUE RESPONSES\nCritique 1: The revised position restricts Claim A strictly to the verified cover performance by Stephen Wilson Jr inspired by Heart of the Beast (2026) and explicitly states that singing for the Beast remains unverified even within that scope. It also requires verification of the specific singer-for-the-beast role before applying Claim A, eliminating the overstatement.\nCritique 2: A context-selection criterion is added that uses the source title and date to determine whether the intended film is Heart of the Beast (2026) or Beauty and the Beast (2017), then evaluates only the claim tied to that selected context. This replaces circular ambiguity with an evidence-based selection step rather than accepting both possibilities uncritically.\n\nEVIDENCE REVIEW\nAgent A indicates that if referring to Heart of the Beast (2026), Stephen Wilson Jr performs \"Stand By Me\" inspired by the film, and otherwise the exact phrase \"the beast in the new movie\" is not verified. Agent B indicates that the snippets identify the 2017 Beauty and the Beast film but do not verify who sings for the Beast. The evidence supports a 2026 inspired cover by Stephen Wilson Jr without confirmation of singing for the Beast, and a 2017 film identification without singer verification.\n\nFINAL CONCLUSION\nSelect the relevant film using source titles and dates, then apply the verified portion of the matching claim only. For Heart of the Beast (2026), confirm the inspired cover by Stephen Wilson Jr and treat singing for the Beast as unverified. For Beauty and the Beast (2017), treat the singer for the Beast as unverified. The contradiction is resolved by context selection plus strict verification rather than by allowing either claim to stand unchallenged.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "contextual",
+          "strategy_used": "contextual_revision",
+          "strategy_text_preview": null,
+          "created_at": "2026-10-16T23:49:40.754126"
+        },
+        "started_at": "2026-10-16T23:49:05.923831",
+        "completed_at": "2026-10-16T23:49:40.754170"
+      },
+      {
+        "round_number": 2,
+        "proposer_argument": {
+          "id": "c64b0dcd",
+          "round_number": 2,
+          "role": "proposer",
+          "agent_id": "proposer",
+          "content": "POSITION\nThe claims do not directly contradict because they apply to different films and scopes; the dispute dissolves once scopes are separated. For the 2026 film Heart of the Beast, Stephen Wilson Jr performs Stand By Me inspired by the film; the 2017 Beauty and the Beast scope remains unverified regarding the Beast singer.\n\nEVIDENCE REVIEW\nClaim A: The retrieved evidence supports that Stephen Wilson Jr performs Stand By Me inspired by Heart of the Beast (2026), but the exact phrase \"the beast in the new movie\" is only verified if referring to that 2026 film; otherwise it is unverified.\nClaim B: The snippets identify the 2017 Beauty and the Beast film but do not verify who sings for the Beast.\n\nREASONING\nThe core issue is contextual scope mismatch: Claim A is tied to 2026 and Heart of the Beast, while Claim B is tied to 2017 and Beauty and the Beast. Because the populations/platforms/editions differ, they do not address the same entity. Therefore neither claim must be rejected; each holds conditionally under its own scope, and no winner can be chosen without specifying which movie is meant.\n\nSOURCE BASIS\nOnly sources or evidence present in the supplied claims: Claim A references Heart of the Beast (2026), Stephen Wilson Jr, and Stand By Me; Claim B references the 2017 Beauty and the Beast film snippets.\n\nCONCLUSION\nPropose resolving by conditioning the answer on scope: if \"new movie\" means Heart of the Beast (2026), Stephen Wilson Jr performs Stand By Me inspired by the film; if it means the 2017 Beauty and the Beast, the singer is not verified by the available snippets, so the question requires clarification of which film is intended.",
+          "evidence_refs": [
+            "agent_a",
+            "agent_b"
+          ],
+          "conflict_type": "contextual",
+          "strategy_used": "contextual",
+          "strategy_text_preview": "You are arguing about a contextual disagreement.\nIMPORTANT: First check whether the two claims apply to different populations, platforms, or editions\n(see SCOPE fields below). If the scopes are differ",
+          "created_at": "2026-10-16T23:49:44.913246"
+        },
+        "critic_arguments": [
+          {
+            "id": "b52ded1a",
+            "round_number": 2,
+            "role": "critic",
+            "agent_id": "critic_1",
+            "content": "ISSUE\nThe proposal fails to challenge Claim B's temporal framing; it accepts that the 2017 Beauty and the Beast film could be \"the new movie\" without noting that a 2017 release is unlikely to match the temporal meaning of \"new\" in the original question, weakening the scope separation.\nWHY IT MATTERS\nIf \"new movie\" implies a recent or upcoming release, Claim B may be addressing the wrong time frame entirely, which means the dispute might not be a scope mismatch but rather an incorrect identification of the subject, affecting whether both claims can be held conditionally.\nIMPROVEMENT\nAdd an explicit temporal evaluation stating that \"new movie\" likely refers to a recent release such as 2026, and clarify whether the 2017 film is excluded on temporal grounds rather than only by title.",
+            "evidence_refs": [
+              "agent_a"
+            ],
+            "conflict_type": "contextual",
+            "strategy_used": "critique_no_objection",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T23:50:10.974733"
+          },
+          {
+            "id": "83e20555",
+            "round_number": 2,
+            "role": "critic",
+            "agent_id": "critic_2",
+            "content": "ISSUE\nThe reasoning introduces undefined terms \"populations/platforms/editions\" that do not appear in the source claims or evidence, making the justification for scope separation obscure and unsupported.\nWHY IT MATTERS\nA critique should rely only on the provided sources; using unexplained categorical distinctions creates the appearance of analytical rigor without actual grounding in the claim texts, which could mislead evaluation.\nIMPROVEMENT\nReplace the jargon with direct reference to the specific films named in the claims, stating clearly that Claim A concerns Heart of the Beast (2026) and Claim B concerns Beauty and the Beast (2017), so they refer to different entities.",
+            "evidence_refs": [
+              "agent_b"
+            ],
+            "conflict_type": "contextual",
+            "strategy_used": "critique",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T23:50:10.974775"
+          }
+        ],
+        "reviser_argument": null,
+        "started_at": "2026-10-16T23:49:40.754459",
+        "completed_at": "2026-10-16T23:50:10.974799"
+      }
+    ],
+    "status": "completed",
+    "stop_reason": "no_objection",
+    "failed_stages": [],
+    "rounds_used": 2
+  },
+  "judge_result": {
+    "winner": "candidate_1",
+    "reason": "Claim A targets Heart of the Beast (2026), a release consistent with the temporal framing of 'new movie,' and supplies direct source evidence linking Stephen Wilson Jr to a performance inspired by that film. Claim B references a 2017 Beauty and the Beast production that is temporally mismatched to 'new' and provides zero verification of the singer for the Beast. Although Claim A does not fully confirm the specific 'sings for the beast' role, it is the only claim with relevant, verifiable performer evidence in the correct contextual scope; Claim B fails on both temporal fit and evidentiary substance.",
+    "evidence_score": 0.7,
+    "reasoning_score": 0.65,
+    "source_score": 0.65,
+    "confidence": 0.7,
+    "scores": {
+      "candidate_1": 0.7,
+      "candidate_2": 0.65
+    },
+    "evaluated_at": "2026-10-16T23:50:25.095396"
+  },
+  "final_answer": {
+    "query": "Who sings for the beast in the new movie?",
+    "answer": "A CONTEXTUAL conflict was detected and resolved through structured debate.\n\nResolution: If referring to Heart of the Beast (2026), Stephen Wilson Jr performs \"Stand By Me\" inspired by the film; otherwise the exact entity \"the beast in the new movie\" is not verified.\n\nJudge's reasoning: Claim A targets Heart of the Beast (2026), a release consistent with the temporal framing of 'new movie,' and supplies direct source evidence linking Stephen Wilson Jr to a performance inspired by that film. Claim B references a 2017 Beauty and the Beast production that is temporally mismatched to 'new' and provides zero verification of the singer for the Beast. Although Claim A does not fully confirm the specific 'sings for the beast' role, it is the only claim with relevant, verifiable performer evidence in the correct contextual scope; Claim B fails on both temporal fit and evidentiary substance.",
+    "reasoning": "At least one pair exceeded contradiction threshold (0.7): score=0.900",
+    "evidence_state": "disagreement",
+    "sources": [
+      {
+        "url": "https://www.seekertune.com/movies/heart-of-the-beast-2026/",
+        "title": "Heart of the Beast Soundtrack (2026): Complete List of Songs & Music ...",
+        "snippet": "Looking for the music from Heart of the Beast (2026)? Discover all 31 tracks heard in the movie with scene context and listening links on SeekerTune.",
+        "metadata": {
+          "search_query": "Who sings for the beast in the new movie?"
+        },
+        "retrieved_at": "2026-10-16T23:47:49.586842",
+        "credibility_score": null
+      },
+      {
+        "url": "https://soundtrackwiki.com/movies/heart-of-the-beast-2026/",
+        "title": "Heart of the Beast Soundtrack: Every Song in the Movie",
+        "snippet": "Discover the complete Heart of the Beast (2026) soundtrack guide. Find every song played in the Brad Pitt survival thriller, verified scene timestamps, trailer tracks, and original score.",
+        "metadata": {
+          "search_query": "Who sings for the beast in the new movie?"
+        },
+        "retrieved_at": "2026-10-16T23:47:49.586869",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Beast_(2026_film)",
+        "title": "The Beast (2026 film) - Wikipedia",
+        "snippet": "The Beast is a 2026 American action thriller film directed by Renny Harlin and written by Umair Aleem. It stars Samuel L. Jackson, Joel Kinnaman, Colin Morgan, and Guy Burnet.",
+        "metadata": {
+          "search_query": "Who sings for the beast in the new movie?"
+        },
+        "retrieved_at": "2026-10-16T23:47:49.586877",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=fmHMeZnbzeI",
+        "title": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...",
+        "snippet": "Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+        "metadata": {
+          "search_query": "Who sings for the beast in the new movie?"
+        },
+        "retrieved_at": "2026-10-16T23:47:49.586883",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Beast_(soundtrack)",
+        "title": "Beast (soundtrack) - Wikipedia",
+        "snippet": "Beast is the soundtrack composed by Anirudh Ravichander for the 2022 Tamil -language film of the same name directed by Nelson; starring Vijay and Pooja Hegde, the film is produced by Kalanithi Maran under the studio Sun Pictures.",
+        "metadata": {
+          "search_query": "Who sings for the beast in the new movie?"
+        },
+        "retrieved_at": "2026-10-16T23:47:49.586890",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=27387452",
+        "title": "The Boy Who Cried Werewolf (2010 film)",
+        "snippet": "turns to Varcolac, who reveals that Dragomir was also a werewolf and was the famed \"Wolfsberg Beast\". Vampires attempted to take over the castle and rise",
+        "metadata": {
+          "search_query": "Who sings for the beast in the new movie?"
+        },
+        "retrieved_at": "2026-10-16T23:48:24.516926",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=133462",
+        "title": "Beauty and the Beast (1991 film)",
+        "snippet": "the Beast's story, since according to Hahn \"He's the guy trapped in the monkey suit who has to redeem himself during the course of the movie. The meter's",
+        "metadata": {
+          "search_query": "Who sings for the beast in the new movie?"
+        },
+        "retrieved_at": "2026-10-16T23:48:24.516940",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=45230258",
+        "title": "Beauty and the Beast (2017 film)",
+        "snippet": "and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French",
+        "metadata": {
+          "search_query": "Who sings for the beast in the new movie?"
+        },
+        "retrieved_at": "2026-10-16T23:48:24.516948",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=1490639",
+        "title": "Pokémon the Movie 2000",
+        "snippet": "dangerous for the legendary Pokémon, Lugia, and Ash himself. Pokémon the Movie 2000 was released in Japanese theaters on July 17, 1999, by Toho. The English-language",
+        "metadata": {
+          "search_query": "Who sings for the beast in the new movie?"
+        },
+        "retrieved_at": "2026-10-16T23:48:24.516954",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=40861499",
+        "title": "Beauty and the Beast (franchise)",
+        "snippet": "Prince de Beaumont. In 2002, Beauty and the Beast was selected for preservation in the National Film Registry by the Library of Congress for being \"culturally",
+        "metadata": {
+          "search_query": "Who sings for the beast in the new movie?"
+        },
+        "retrieved_at": "2026-10-16T23:48:24.516961",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+        "snippet": "Assuming “the new movie” refers to the 2017 live-action Beauty and the Beast, Dan Stevens sings for the beast. If “the new movie” denotes a different, unspecified film, then the exact named entity “th",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T23:48:01.680202",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": true,
+    "conflict": {
+      "id": "7a6920a1",
+      "type": "contextual",
+      "confidence": 0.85,
+      "explanation": "Claim A refers to the 2026 film 'Heart of the Beast' while Claim B refers to the 2017 'Beauty and the Beast' film; the conflict arises because the claims apply to different movie contexts/entities rather than the same one.",
+      "claim_a": {
+        "text": "If referring to Heart of the Beast (2026), Stephen Wilson Jr performs \"Stand By Me\" inspired by the film; otherwise the exact entity \"the beast in the new movie\" is not verified.",
+        "source": {
+          "url": "https://www.youtube.com/watch?v=fmHMeZnbzeI",
+          "title": "Heart of the Beast - Soundtrack | Stand By Me\" by Stephen Wilson Jr ...",
+          "snippet": "Heart of the Beast | \"Stand by Me\" | Original Song Inspired by the Movie | Popcorn & Tracks What happens when survival comes down to one man, one dog, and the will to make it home? \"Stand by ...",
+          "metadata": {
+            "search_query": "Who sings for the beast in the new movie?"
+          },
+          "retrieved_at": "2026-10-16T23:47:49.586883",
+          "credibility_score": null
+        },
+        "date": "2026",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The snippets identify the 2017 Beauty and the Beast film but do not verify who sings for the Beast.",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=45230258",
+          "title": "Beauty and the Beast (2017 film)",
+          "snippet": "and the Beast is a 2017 American musical romantic fantasy film and a live-action adaptation of Disney Animation's 1991 film, itself based on the French",
+          "metadata": {
+            "search_query": "Who sings for the beast in the new movie?"
+          },
+          "retrieved_at": "2026-10-16T23:48:24.516948",
+          "credibility_score": null
+        },
+        "date": "2017",
+        "version": "2017 film",
+        "scope": "film"
+      },
+      "metadata": {
+        "classification_status": "llm_success",
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent"
+      },
+      "detected_at": "2026-10-16T23:49:05.923503"
+    },
+    "debate_outcome": {
+      "rounds": [
+        {
+          "round_number": 1,
+          "proposer_argument": {
+            "id": "f8b1bc0c",
+            "round_number": 1,
+            "role": "proposer",
+            "agent_id": "proposer",
+            "content": "POSITION\nThe contradiction dissolves because the claims apply to different films and scopes: Claim A concerns Heart of the Beast (2026) and Claim B concerns Beauty and the Beast (2017). The question is ambiguous without specifying which \"new movie\" is meant, so each claim holds under its own conditions rather than one being wrong.\n\nEVIDENCE REVIEW\nClaim A: The evidence supports that Stephen Wilson Jr performs \"Stand By Me\" inspired by Heart of the Beast (2026); it does not confirm that he sings \"for the beast\" in that film, and the exact phrase \"the beast in the new movie\" is not verified.\nClaim B: The evidence identifies the 2017 Beauty and the Beast film but does not verify who sings for the Beast.\n\nREASONING\nThe core issue is a contextual scope difference, not a direct factual clash. Claim A is tied to a 2026 title and a specific performer related to that title; Claim B is tied to a 2017 film and lacks verification for the singer. Because \"the new movie\" could refer to either production, the claims address different entities. Once scopes are separated, both can be accurate within their own contexts and no winner needs to be chosen.\n\nSOURCE BASIS\nClaim A: agent_a reference to Heart of the Beast (2026), Stephen Wilson Jr, and \"Stand By Me\" inspired by the film.\nClaim B: agent_b reference to the 2017 Beauty and the Beast film and lack of verification for who sings for the Beast.\n\nCONCLUSION\nPropose resolving by clarifying the movie: if referring to Heart of the Beast (2026), Stephen Wilson Jr's performance is the relevant evidence; if referring to Beauty and the Beast (2017), the singer for the Beast is unverified in the given sources. The conflict is dissolved by scope distinction, not by selecting one claim over the other.",
+            "evidence_refs": [
+              "agent_a",
+              "agent_b"
+            ],
+            "conflict_type": "contextual",
+            "strategy_used": "contextual",
+            "strategy_text_preview": "You are arguing about a contextual disagreement.\nIMPORTANT: First check whether the two claims apply to different populations, platforms, or editions\n(see SCOPE fields below). If the scopes are differ",
+            "created_at": "2026-10-16T23:49:13.357454"
+          },
+          "critic_arguments": [
+            {
+              "id": "77d10dc6",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_1",
+              "content": "ISSUE\nThe proposal accepts Claim A as accurate for Heart of the Beast (2026) despite the evidence review stating it does not confirm Stephen Wilson Jr sings for the Beast, only that he performs a cover inspired by the film.\nWHY IT MATTERS\nThis overstates the evidence within Claim A's own scope because the claim still fails to verify the specific singer-for-the-beast relationship, weakening the argument that both claims can stand unchallenged.\nIMPROVEMENT\nRestrict Claim A to the verified cover performance, explicitly note that singing for the Beast remains unverified even in that context, and require verification of the specific role before applying it.",
+              "evidence_refs": [
+                "agent_a"
+              ],
+              "conflict_type": "contextual",
+              "strategy_used": "critique_substantive",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T23:49:30.315370"
+            },
+            {
+              "id": "a0d6cd24",
+              "round_number": 1,
+              "role": "critic",
+              "agent_id": "critic_2",
+              "content": "ISSUE\nThe proposal dissolves the contradiction by asserting ambiguity without providing a rule or evidence step to determine which new movie the question intends.\nWHY IT MATTERS\nWithout a mechanism to select between the 2026 and 2017 productions, the resolution is circular: it avoids adjudication by declaring both possible rather than using evidence to clarify the intended scope.\nIMPROVEMENT\nIntroduce a context-selection criterion based on source dates, titles, or question framing to identify the relevant film, then evaluate only the verified claim for that selected context.",
+              "evidence_refs": [
+                "agent_b"
+              ],
+              "conflict_type": "contextual",
+              "strategy_used": "critique",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T23:49:30.315413"
+            }
+          ],
+          "reviser_argument": {
+            "id": "848daa35",
+            "round_number": 1,
+            "role": "reviser",
+            "agent_id": "reviser",
+            "content": "REVISED POSITION\nThe question asks who sings for the beast in the new movie without specifying which production, so resolution must first apply a context-selection criterion based on source titles and dates to identify the intended film. If the target is Heart of the Beast (2026), the verified evidence is only that Stephen Wilson Jr performs a cover of \"Stand By Me\" inspired by that film; it does not verify that he sings for the Beast, so the singer-for-the-beast claim remains unverified in this scope. If the target is Beauty and the Beast (2017), the evidence identifies the film but does not verify who sings for the Beast. Thus neither claim fully verifies the specific singer role, and the improved position requires selecting the relevant context via source matching and then demanding direct verification of the singer-for-the-beast relationship before affirming any answer.\n\nCRITIQUE RESPONSES\nCritique 1: The revised position restricts Claim A strictly to the verified cover performance by Stephen Wilson Jr inspired by Heart of the Beast (2026) and explicitly states that singing for the Beast remains unverified even within that scope. It also requires verification of the specific singer-for-the-beast role before applying Claim A, eliminating the overstatement.\nCritique 2: A context-selection criterion is added that uses the source title and date to determine whether the intended film is Heart of the Beast (2026) or Beauty and the Beast (2017), then evaluates only the claim tied to that selected context. This replaces circular ambiguity with an evidence-based selection step rather than accepting both possibilities uncritically.\n\nEVIDENCE REVIEW\nAgent A indicates that if referring to Heart of the Beast (2026), Stephen Wilson Jr performs \"Stand By Me\" inspired by the film, and otherwise the exact phrase \"the beast in the new movie\" is not verified. Agent B indicates that the snippets identify the 2017 Beauty and the Beast film but do not verify who sings for the Beast. The evidence supports a 2026 inspired cover by Stephen Wilson Jr without confirmation of singing for the Beast, and a 2017 film identification without singer verification.\n\nFINAL CONCLUSION\nSelect the relevant film using source titles and dates, then apply the verified portion of the matching claim only. For Heart of the Beast (2026), confirm the inspired cover by Stephen Wilson Jr and treat singing for the Beast as unverified. For Beauty and the Beast (2017), treat the singer for the Beast as unverified. The contradiction is resolved by context selection plus strict verification rather than by allowing either claim to stand unchallenged.",
+            "evidence_refs": [
+              "agent_a",
+              "agent_b"
+            ],
+            "conflict_type": "contextual",
+            "strategy_used": "contextual_revision",
+            "strategy_text_preview": null,
+            "created_at": "2026-10-16T23:49:40.754126"
+          },
+          "started_at": "2026-10-16T23:49:05.923831",
+          "completed_at": "2026-10-16T23:49:40.754170"
+        },
+        {
+          "round_number": 2,
+          "proposer_argument": {
+            "id": "c64b0dcd",
+            "round_number": 2,
+            "role": "proposer",
+            "agent_id": "proposer",
+            "content": "POSITION\nThe claims do not directly contradict because they apply to different films and scopes; the dispute dissolves once scopes are separated. For the 2026 film Heart of the Beast, Stephen Wilson Jr performs Stand By Me inspired by the film; the 2017 Beauty and the Beast scope remains unverified regarding the Beast singer.\n\nEVIDENCE REVIEW\nClaim A: The retrieved evidence supports that Stephen Wilson Jr performs Stand By Me inspired by Heart of the Beast (2026), but the exact phrase \"the beast in the new movie\" is only verified if referring to that 2026 film; otherwise it is unverified.\nClaim B: The snippets identify the 2017 Beauty and the Beast film but do not verify who sings for the Beast.\n\nREASONING\nThe core issue is contextual scope mismatch: Claim A is tied to 2026 and Heart of the Beast, while Claim B is tied to 2017 and Beauty and the Beast. Because the populations/platforms/editions differ, they do not address the same entity. Therefore neither claim must be rejected; each holds conditionally under its own scope, and no winner can be chosen without specifying which movie is meant.\n\nSOURCE BASIS\nOnly sources or evidence present in the supplied claims: Claim A references Heart of the Beast (2026), Stephen Wilson Jr, and Stand By Me; Claim B references the 2017 Beauty and the Beast film snippets.\n\nCONCLUSION\nPropose resolving by conditioning the answer on scope: if \"new movie\" means Heart of the Beast (2026), Stephen Wilson Jr performs Stand By Me inspired by the film; if it means the 2017 Beauty and the Beast, the singer is not verified by the available snippets, so the question requires clarification of which film is intended.",
+            "evidence_refs": [
+              "agent_a",
+              "agent_b"
+            ],
+            "conflict_type": "contextual",
+            "strategy_used": "contextual",
+            "strategy_text_preview": "You are arguing about a contextual disagreement.\nIMPORTANT: First check whether the two claims apply to different populations, platforms, or editions\n(see SCOPE fields below). If the scopes are differ",
+            "created_at": "2026-10-16T23:49:44.913246"
+          },
+          "critic_arguments": [
+            {
+              "id": "b52ded1a",
+              "round_number": 2,
+              "role": "critic",
+              "agent_id": "critic_1",
+              "content": "ISSUE\nThe proposal fails to challenge Claim B's temporal framing; it accepts that the 2017 Beauty and the Beast film could be \"the new movie\" without noting that a 2017 release is unlikely to match the temporal meaning of \"new\" in the original question, weakening the scope separation.\nWHY IT MATTERS\nIf \"new movie\" implies a recent or upcoming release, Claim B may be addressing the wrong time frame entirely, which means the dispute might not be a scope mismatch but rather an incorrect identification of the subject, affecting whether both claims can be held conditionally.\nIMPROVEMENT\nAdd an explicit temporal evaluation stating that \"new movie\" likely refers to a recent release such as 2026, and clarify whether the 2017 film is excluded on temporal grounds rather than only by title.",
+              "evidence_refs": [
+                "agent_a"
+              ],
+              "conflict_type": "contextual",
+              "strategy_used": "critique_no_objection",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T23:50:10.974733"
+            },
+            {
+              "id": "83e20555",
+              "round_number": 2,
+              "role": "critic",
+              "agent_id": "critic_2",
+              "content": "ISSUE\nThe reasoning introduces undefined terms \"populations/platforms/editions\" that do not appear in the source claims or evidence, making the justification for scope separation obscure and unsupported.\nWHY IT MATTERS\nA critique should rely only on the provided sources; using unexplained categorical distinctions creates the appearance of analytical rigor without actual grounding in the claim texts, which could mislead evaluation.\nIMPROVEMENT\nReplace the jargon with direct reference to the specific films named in the claims, stating clearly that Claim A concerns Heart of the Beast (2026) and Claim B concerns Beauty and the Beast (2017), so they refer to different entities.",
+              "evidence_refs": [
+                "agent_b"
+              ],
+              "conflict_type": "contextual",
+              "strategy_used": "critique",
+              "strategy_text_preview": null,
+              "created_at": "2026-10-16T23:50:10.974775"
+            }
+          ],
+          "reviser_argument": null,
+          "started_at": "2026-10-16T23:49:40.754459",
+          "completed_at": "2026-10-16T23:50:10.974799"
+        }
+      ],
+      "status": "completed",
+      "stop_reason": "no_objection",
+      "failed_stages": [],
+      "rounds_used": 2
+    },
+    "judge_result": {
+      "winner": "candidate_1",
+      "reason": "Claim A targets Heart of the Beast (2026), a release consistent with the temporal framing of 'new movie,' and supplies direct source evidence linking Stephen Wilson Jr to a performance inspired by that film. Claim B references a 2017 Beauty and the Beast production that is temporally mismatched to 'new' and provides zero verification of the singer for the Beast. Although Claim A does not fully confirm the specific 'sings for the beast' role, it is the only claim with relevant, verifiable performer evidence in the correct contextual scope; Claim B fails on both temporal fit and evidentiary substance.",
+      "evidence_score": 0.7,
+      "reasoning_score": 0.65,
+      "source_score": 0.65,
+      "confidence": 0.7,
+      "scores": {
+        "candidate_1": 0.7,
+        "candidate_2": 0.65
+      },
+      "evaluated_at": "2026-10-16T23:50:25.095396"
+    },
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "metadata": {
+      "evidence_state": "disagreement",
+      "conflict_type": "contextual",
+      "debate_completed": true,
+      "winner": "candidate_1",
+      "confidence": 0.7
+    },
+    "generated_at": "2026-10-16T23:50:25.095520"
+  },
+  "metrics": {
+    "latency_seconds": 162.27772045135498,
+    "evidence_state": "disagreement",
+    "debate_triggered": true,
+    "conflict_type": "contextual",
+    "classification_status": "llm_success",
+    "debate_status": "completed",
+    "debate_stop_reason": "no_objection",
+    "debate_rounds_used": 2,
+    "total_llm_calls_ok": 9,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      },
+      "classifier": {
+        "ok": 1,
+        "failed": 0
+      },
+      "proposer": {
+        "ok": 2,
+        "failed": 0
+      },
+      "critic": {
+        "ok": 2,
+        "failed": 0
+      },
+      "reviser": {
+        "ok": 1,
+        "failed": 0
+      },
+      "judge": {
+        "ok": 1,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 3,
+    "failed_agents": 1,
+    "independent_agents_agreeing": 0,
+    "source_count": 11,
+    "system": "standard_mad"
+  },
+  "started_at": "2026-10-16T23:47:42.817778",
+  "completed_at": "2026-10-16T23:50:25.095585",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0029",
+    "query": "Who sings for the beast in the new movie?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Dan Stevens",
+    "required_facts": [
+      "Dan Stevens"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 38,
+      "answer_variants": [
+        "Dan Stevens"
+      ],
+      "annotation_explanation": "I chose it because it is the only correct answer and it is explicitly mentioned in context 2,4 and 8",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "\"Evermore\" is a song written by composer Alan Menken and lyricist Tim Rice for the musical fantasy film Beauty and the Beast (2017), a live-action remake of ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Dan Stevens as the Beast, a cold-hearted, selfish, unkind prince who has been transformed into a talking beast and forced to earn back his humanity by learning ...",
+          "supports_answers": [
+            "Dan Stevens"
+          ]
+        },
+        {
+          "source_domain": "www.thrillist.com",
+          "text": "Mar 21, 2017 ... Wait, Is That Actually Emma Watson Singing in 'Beauty and the Beast'? · \"I've never had to [sing] for a film role before, and I think people will ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "ew.com",
+          "text": "Mar 2, 2017 ... How Dan Stevens learned to sing for Beauty and the Beast · Beauty and the Beast (2017) · More videos on YouTube · Popular in Movies · All Topics in ...",
+          "supports_answers": [
+            "Dan Stevens"
+          ]
+        },
+        {
+          "source_domain": "www.santacruzsentinel.com",
+          "text": "Mar 16, 2017 ... A big part of re-imagining “Beauty and the Beast” as a live-action movie was figuring out what to do with the soundtrack.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.looper.com",
+          "text": "Apr 21, 2022 ... In the film, Alexander's singing voice is provided by the Swedish singer Eric Mjönes. But the original plan was for Stevens' voice to be mixed ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "collider.com",
+          "text": "Nov 8, 2016 ... Menken teamed with 'The Lion King' composer Tim Rice for the upcoming film. beauty-and-the-beast-movie-images-slice.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "ew.com",
+          "text": "Jan 26, 2017 ... Billed as “a soaring ballad,” the song is performed in the film by the Beast (Dan Stevens) after he releases Belle (Emma Watson) to be with her ...",
+          "supports_answers": [
+            "Dan Stevens"
+          ]
+        },
+        {
+          "source_domain": "www.youtube.com",
+          "text": "Apr 27, 2023 ... UNITE or FALL. Watch the new trailer for #Transformers: #RiseOfTheBeasts. Buy or Rent Transformers: Rise of the Beasts today: ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "standard_mad",
+  "evaluation_seconds": 162.366,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

@@ -1,0 +1,306 @@
+{
+  "query": "Who played g baby in the movie hardball?",
+  "trace_id": "5dbdd3c4-4d70-4da6-9237-8b52e767099c",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who played g baby in the movie hardball?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:58:48.280548"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who played g baby in the movie hardball?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:58:48.281903"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "Who played g baby in the movie hardball?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:58:53.265436"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who played g baby in the movie hardball?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:58:53.265471"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who played g baby in the movie hardball?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:58:53.265485"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who played g baby in the movie hardball?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T21:59:33.296054"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who played g baby in the movie hardball?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T21:59:38.268107"
+  },
+  "metrics": {
+    "latency_seconds": 49.98919677734375,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_gate"
+  },
+  "started_at": "2026-10-16T21:58:48.278915",
+  "completed_at": "2026-10-16T21:59:38.268167",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0045",
+    "query": "Who played g baby in the movie hardball?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Dewayne Warren",
+    "required_facts": [
+      "Dewayne Warren"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 58,
+      "answer_variants": [
+        "DeWayne Warren"
+      ],
+      "annotation_explanation": "It is the most sensical answer for this question and if you look it up it is right.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.imdb.com",
+          "text": "DeWayne Warren was born in 1992. He is known for Hardball (2001), La Femme Vampir (2009) and Gary's Playhouse. Bornc. 1992. More at IMDbPro.",
+          "supports_answers": [
+            "DeWayne Warren"
+          ]
+        },
+        {
+          "source_domain": "globalgrind.com",
+          "text": "Jun 21, 2018 ... But is it just us, or does it seem like the actor who played G-baby, Dewayne Warren, dropped off the Earth after starring in the classic ...",
+          "supports_answers": [
+            "DeWayne Warren"
+          ]
+        },
+        {
+          "source_domain": "byliner.com",
+          "text": "Mar 28, 2023 ... Who Played G-Baby in The Movie Hardball? ... As previously highlighted, G-Baby in Hardball was played by DeWayne Warren. G-Baby was a fan favorite ...",
+          "supports_answers": [
+            "DeWayne Warren"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Hardball is a 2001 American sports drama/comedy film directed by Brian Robbins and starring ... \"G-Baby\" Evans, Kofi's much younger brother who is too young to play so ...",
+          "supports_answers": [
+            "DeWayne Warren"
+          ]
+        },
+        {
+          "source_domain": "www.looper.com",
+          "text": "Oct 18, 2021 ... The third installment in the Chad Stahelski-directed movie series started filming on ... Hardball would be nothing without \"G-Baby,\" the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.amazon.com",
+          "text": "Shop Amazon for Kekambas Men's #1 G-Baby Jarius Evans Hardball Movie Baseball Jersey Black Size S and find millions of items, delivered faster than ever.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "jerseyjunkiez.com",
+          "text": "Hardball Jersey. G baby played for the team Kekambas in the baseball movie \"Hardball\". The G Baby Jersey is made of 100% polyester mesh that is lightweight ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "retrocitythreads.com",
+          "text": "Jan 24, 2022 ... The best quality Gbaby Jersey available! The movie Hardball, starring Keanu Reeves, is a story about an ex-minor league baseball player who ...",
+          "supports_answers": [
+            "DeWayne Warren"
+          ]
+        },
+        {
+          "source_domain": "www.amazon.com",
+          "text": "Customers who viewed this item also viewed. Men's #1 G-Baby Jarius Evans Hardball Movie Baseball Jersey.",
+          "supports_answers": [
+            "DeWayne Warren"
+          ]
+        },
+        {
+          "source_domain": "collider.com",
+          "text": "Sep 22, 2021 ... When G-Baby (DeWayne Warren) acts as his brother Kofi's (Michael Perkins) agent, negotiating Kofi's return after he left the team in a huff, ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_gate",
+  "evaluation_seconds": 100.003,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

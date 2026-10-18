@@ -1,0 +1,293 @@
+{
+  "query": "What was the name of the first continent?",
+  "trace_id": "09bd1cb6-7a4a-4388-9dfe-7de6982f885b",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "What was the name of the first continent?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T21:55:08.301070"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "What was the name of the first continent?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T21:55:08.300512"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "reference_agent",
+      "query": "What was the name of the first continent?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:55:18.256470"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "What was the name of the first continent?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:55:18.256498"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "What was the name of the first continent?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T21:55:18.256508"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "What was the name of the first continent?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T21:55:53.323046"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "What was the name of the first continent?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (No search results); web_agent (No search results); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "No search results"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "No search results"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T21:56:03.259375"
+  },
+  "metrics": {
+    "latency_seconds": 54.96040987968445,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T21:55:08.298953",
+  "completed_at": "2026-10-16T21:56:03.259419",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0042",
+    "query": "What was the name of the first continent?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Pangea",
+    "required_facts": [
+      "Pangea"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 55,
+      "answer_variants": [
+        "Pangea"
+      ],
+      "annotation_explanation": "This is the only correct choice of all options given.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.usgs.gov",
+          "text": "They all existed as a single continent called Pangea. Pangea first began to be torn apart when a three-pronged fissure grew between Africa, South America, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Pangaea or Pangea (/pænˈdʒiː.ə/) was a supercontinent that existed during the late Paleozoic and early Mesozoic eras. It assembled from the earlier ...",
+          "supports_answers": [
+            "Pangea"
+          ]
+        },
+        {
+          "source_domain": "www.britannica.com",
+          "text": "Aug 3, 2023 ... Pangea, also spelled Pangaea, in early geologic time, a supercontinent that incorporated almost all the landmasses on Earth.",
+          "supports_answers": [
+            "Pangea"
+          ]
+        },
+        {
+          "source_domain": "socratic.org",
+          "text": "Dec 24, 2016 ... The first supercontinent was called Ur or Vaalbara which exisited between 3,600 and 2,800 million years ago. Supercontinents break up and reform ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "blogs.loc.gov",
+          "text": "Jul 4, 2016 ... Cabral and his men were first to set foot in America, Africa and Asia—and thus the first to walk upon four continents.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.quora.com",
+          "text": "Earth's geological history has seen alot of supercontinents, right from the beginning to the recent. But the oldest supercontinent wasn't Pangaea, ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "stackoverflow.com",
+          "text": "Jul 4, 2017 ... and namely, the country name who comes first alphabetically which is Afghanistan. but since we want to get the first country in each continent ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "guardian.ng",
+          "text": "Mar 8, 2020 ... In Kemetic History of Afrika, Dr cheikh Anah Diop writes, “The ancient name of Africa was Alkebulan. Alkebu-lan “mother of mankind” or “garden ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.quora.com",
+          "text": "“The first continent is thought to have been a super continent called Ur consisting of all lands The first supercontinent was called Ur or Vaalbara which ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 54.976,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

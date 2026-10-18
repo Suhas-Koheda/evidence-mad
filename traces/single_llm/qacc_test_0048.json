@@ -1,0 +1,143 @@
+{
+  "query": "How many games in a row have the uconn women's basketball team won?",
+  "trace_id": "66561713-26d5-40d6-ae9c-a6130535e76d",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "How many games in a row have the uconn women's basketball team won?",
+    "answer": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"ls -la\"}}<|end_message|>",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-17T00:09:06.209752"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 32.57282638549805,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-17T00:08:33.637042",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0048",
+    "query": "How many games in a row have the uconn women's basketball team won?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "145",
+    "required_facts": [
+      "145"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 61,
+      "answer_variants": [
+        "145"
+      ],
+      "annotation_explanation": "This is the most common and correct answer given from the options.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.ncaa.com",
+          "text": "Apr 1, 2017 ... Well, it's over. After 111 games, including two national championship runs, the UConn women's basketball team has lost a game.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "UConn streak – women's basketball – 90 gamesEdit · The loss before the streak beginsEdit · 2008–09 season (wins 39-0)Edit · 2009–10 season (wins 39-0)Edit · 2010–11 ...",
+          "supports_answers": [
+            "145"
+          ]
+        },
+        {
+          "source_domain": "www.espn.com",
+          "text": "Feb 9, 2022 ... NCAAW · UConn women's basketball team's 145-game regular-season conference win streak ends after loss to Villanova.",
+          "supports_answers": [
+            "145"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Louis, Taurasi had a poor shooting game, and despite UConn having attained a 16-point lead at one point, the team lost. Notre Dame went on to win its first ...",
+          "supports_answers": [
+            "145"
+          ]
+        },
+        {
+          "source_domain": "www.marca.com",
+          "text": "Mar 23, 2022 ... UConn women's basketball held a 145-game regular-season winning streak. The Huskies made it impossible for any team, male or female, to break ...",
+          "supports_answers": [
+            "145"
+          ]
+        },
+        {
+          "source_domain": "today.uconn.edu",
+          "text": "Jan 14, 2017 ... With their win over SMU on Jan. 14, the UConn women's basketball team extended their winning streak to 91 games in a row, an unprecedented ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.npr.org",
+          "text": "Feb 14, 2017 ... 6 South Carolina, 66-55, for their 100th win. No other basketball team, male or female, has neared the mark in the NCAA. As of Monday night, the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "today.uconn.edu",
+          "text": "Apr 6, 2016 ... The UConn women's basketball team made history last night, with their 82-51 win over Syracuse in the NCAA National Championship game.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.wbur.org",
+          "text": "Feb 15, 2017 ... The UConn women's basketball team won their 100th game in a row on Monday ... it's probably not much comfort to the teams UConn has been ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 32.59,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

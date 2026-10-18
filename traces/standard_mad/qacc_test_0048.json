@@ -1,0 +1,297 @@
+{
+  "query": "How many games in a row have the uconn women's basketball team won?",
+  "trace_id": "6948a266-2543-4aa6-aafa-53522032c178",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "How many games in a row have the uconn women's basketball team won?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:00:28.305973"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "How many games in a row have the uconn women's basketball team won?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:00:28.315383"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "error": "ConnectError('[Errno -3] Temporary failure in name resolution')"
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "How many games in a row have the uconn women's basketball team won?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:00:33.269605"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "How many games in a row have the uconn women's basketball team won?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:00:33.269637"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "How many games in a row have the uconn women's basketball team won?",
+      "status": "retrieval_failed",
+      "failure_reason": "ConnectError('[Errno -3] Temporary failure in name resolution')",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:00:33.269651"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "How many games in a row have the uconn women's basketball team won?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:01:13.309433"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "insufficient",
+    "pairwise": [],
+    "usable_agents": [],
+    "failed_agents": [
+      {
+        "agent_id": "reference_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "web_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+      }
+    ],
+    "top_conflict": null,
+    "rationale": "Only 0 usable agent(s) — insufficient to compare."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "How many games in a row have the uconn women's basketball team won?",
+    "answer": "Insufficient evidence was retrieved to answer this query. Failed agents: reference_agent (All search results filtered out as irrelevant); web_agent (All search results filtered out as irrelevant); ai_answer_agent (Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)); wikidata_agent (Retry also failed: [Errno -3] Temporary failure in name resolution).",
+    "reasoning": "Only 0 usable agent(s) — insufficient to compare.",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "evidence_state": "insufficient",
+      "failed_agents": [
+        {
+          "agent_id": "reference_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "web_agent",
+          "reason": "All search results filtered out as irrelevant"
+        },
+        {
+          "agent_id": "ai_answer_agent",
+          "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+        },
+        {
+          "agent_id": "wikidata_agent",
+          "reason": "Retry also failed: [Errno -3] Temporary failure in name resolution"
+        }
+      ]
+    },
+    "generated_at": "2026-10-16T22:01:23.272775"
+  },
+  "metrics": {
+    "latency_seconds": 54.9878613948822,
+    "evidence_state": "insufficient",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {},
+    "retrieval_failure_rate": 0.5,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 0,
+    "failed_agents": 4,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "system": "standard_mad"
+  },
+  "started_at": "2026-10-16T22:00:28.284904",
+  "completed_at": "2026-10-16T22:01:23.272817",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0048",
+    "query": "How many games in a row have the uconn women's basketball team won?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "145",
+    "required_facts": [
+      "145"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 61,
+      "answer_variants": [
+        "145"
+      ],
+      "annotation_explanation": "This is the most common and correct answer given from the options.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.ncaa.com",
+          "text": "Apr 1, 2017 ... Well, it's over. After 111 games, including two national championship runs, the UConn women's basketball team has lost a game.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "UConn streak – women's basketball – 90 gamesEdit · The loss before the streak beginsEdit · 2008–09 season (wins 39-0)Edit · 2009–10 season (wins 39-0)Edit · 2010–11 ...",
+          "supports_answers": [
+            "145"
+          ]
+        },
+        {
+          "source_domain": "www.espn.com",
+          "text": "Feb 9, 2022 ... NCAAW · UConn women's basketball team's 145-game regular-season conference win streak ends after loss to Villanova.",
+          "supports_answers": [
+            "145"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Louis, Taurasi had a poor shooting game, and despite UConn having attained a 16-point lead at one point, the team lost. Notre Dame went on to win its first ...",
+          "supports_answers": [
+            "145"
+          ]
+        },
+        {
+          "source_domain": "www.marca.com",
+          "text": "Mar 23, 2022 ... UConn women's basketball held a 145-game regular-season winning streak. The Huskies made it impossible for any team, male or female, to break ...",
+          "supports_answers": [
+            "145"
+          ]
+        },
+        {
+          "source_domain": "today.uconn.edu",
+          "text": "Jan 14, 2017 ... With their win over SMU on Jan. 14, the UConn women's basketball team extended their winning streak to 91 games in a row, an unprecedented ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.npr.org",
+          "text": "Feb 14, 2017 ... 6 South Carolina, 66-55, for their 100th win. No other basketball team, male or female, has neared the mark in the NCAA. As of Monday night, the ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "today.uconn.edu",
+          "text": "Apr 6, 2016 ... The UConn women's basketball team made history last night, with their 82-51 win over Syracuse in the NCAA National Championship game.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.wbur.org",
+          "text": "Feb 15, 2017 ... The UConn women's basketball team won their 100th game in a row on Monday ... it's probably not much comfort to the teams UConn has been ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "standard_mad",
+  "evaluation_seconds": 55.002,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

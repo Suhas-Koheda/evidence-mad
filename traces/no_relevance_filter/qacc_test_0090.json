@@ -1,0 +1,855 @@
+{
+  "query": "How many episodes in season 4 of last ship?",
+  "trace_id": "6064df31-a4df-4c29-9b4e-2c569cf8a2ae",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "How many episodes in season 4 of last ship?",
+          "answer": "Based on 5 sources:\n- Season 4 - The Last Ship Wiki: Season 4 of The Last Ship was announced on August 1, 2016, and has premiered on August 20, then has concluded on October 8, 2017\n- With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes\n- List of The Last Ship episodes - Wikipedia: The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley\n- In May 2013, cable network TNT placed a ten-episode order\n- [1] It premiered on June 22, 2014, at 9:00 p",
+          "claims": [
+            {
+              "id": "e32872ed",
+              "text": "Season 4 - The Last Ship Wiki: Season 4 of The Last Ship was announced on August 1, 2016, and has premiered on August 20, then has concluded on October 8, 2017",
+              "source": {
+                "url": "https://the-last-ship.fandom.com/wiki/Season_4",
+                "title": "Season 4 - The Last Ship Wiki",
+                "snippet": "Season 4 of The Last Ship was announced on August 1, 2016, and has premiered on August 20, then has concluded on October 8, 2017. With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes.",
+                "metadata": {
+                  "search_query": "How many episodes in season 4 of last ship?"
+                },
+                "retrieved_at": "2026-10-16T22:54:44.861010",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "843d80ba",
+              "text": "With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/List_of_The_Last_Ship_episodes",
+                "title": "List of The Last Ship episodes - Wikipedia",
+                "snippet": "The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network TNT placed a ten-episode order. [1] It premiered on June 22, 2014, at 9:00 p.m. EDT [2][3] and aired 56 episodes over 5 seasons, with the final episode on November 11, 2018.",
+                "metadata": {
+                  "search_query": "How many episodes in season 4 of last ship?"
+                },
+                "retrieved_at": "2026-10-16T22:54:44.861059",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "a0c943ef",
+              "text": "List of The Last Ship episodes - Wikipedia: The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley",
+              "source": {
+                "url": "https://www.tvmaze.com/seasons/50582/the-last-ship-season-4/episodeguide",
+                "title": "Season 4 - Episode Guide | TVmaze",
+                "snippet": "A printable Episode Guide for Season 4: a handy overview of all of the show's episodes",
+                "metadata": {
+                  "search_query": "How many episodes in season 4 of last ship?"
+                },
+                "retrieved_at": "2026-10-16T22:54:44.861069",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "1c234c6f",
+              "text": "In May 2013, cable network TNT placed a ten-episode order",
+              "source": {
+                "url": "https://www.serieschedule.com/show/21/the-last-ship/season/4",
+                "title": "The Last Ship Season 4 Episode Guide | Series Schedule",
+                "snippet": "Episode guide for The Last Ship Season 4 on TNT — 10 episodes with air dates, synopses, and images on Series Schedule.",
+                "metadata": {
+                  "search_query": "How many episodes in season 4 of last ship?"
+                },
+                "retrieved_at": "2026-10-16T22:54:44.861076",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "453fb524",
+              "text": "[1] It premiered on June 22, 2014, at 9:00 p",
+              "source": {
+                "url": "https://www.imdb.com/title/tt2402207/episodes/?season=4",
+                "title": "The Last Ship (TV Series 2014-2018) - Episode list - IMDb",
+                "snippet": "The Nathan James is trapped between the sub and the civilian blockades set up by the immune. Chandler sends Dr. Scott off the ship under Slattery's protection.",
+                "metadata": {
+                  "search_query": "How many episodes in season 4 of last ship?"
+                },
+                "retrieved_at": "2026-10-16T22:54:44.861084",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "d160a553",
+              "text": "EDT [2][3] and aired 56 episodes over 5 seasons, with the final episode on November 11, 2018",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/List_of_The_Last_Ship_episodes",
+                "title": "List of The Last Ship episodes - Wikipedia",
+                "snippet": "The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network TNT placed a ten-episode order. [1] It premiered on June 22, 2014, at 9:00 p.m. EDT [2][3] and aired 56 episodes over 5 seasons, with the final episode on November 11, 2018.",
+                "metadata": {
+                  "search_query": "How many episodes in season 4 of last ship?"
+                },
+                "retrieved_at": "2026-10-16T22:54:44.861059",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "bd83cb21",
+              "text": "Season 4 - Episode Guide | TVmaze: A printable Episode Guide for Season 4: a handy overview of all of the show's episodes\n\nThe Last Ship Season 4 Episode Guide | Series Schedule: Episode guide for The Last Ship Season 4 on TNT — 10 episodes with air dates, synopses, and images on Series Schedule",
+              "source": {
+                "url": "https://www.tvmaze.com/seasons/50582/the-last-ship-season-4/episodeguide",
+                "title": "Season 4 - Episode Guide | TVmaze",
+                "snippet": "A printable Episode Guide for Season 4: a handy overview of all of the show's episodes",
+                "metadata": {
+                  "search_query": "How many episodes in season 4 of last ship?"
+                },
+                "retrieved_at": "2026-10-16T22:54:44.861069",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "8bef0275",
+              "text": "The Last Ship (TV Series 2014-2018) - Episode list - IMDb: The Nathan James is trapped between the sub and the civilian blockades set up by the immune",
+              "source": {
+                "url": "https://www.serieschedule.com/show/21/the-last-ship/season/4",
+                "title": "The Last Ship Season 4 Episode Guide | Series Schedule",
+                "snippet": "Episode guide for The Last Ship Season 4 on TNT — 10 episodes with air dates, synopses, and images on Series Schedule.",
+                "metadata": {
+                  "search_query": "How many episodes in season 4 of last ship?"
+                },
+                "retrieved_at": "2026-10-16T22:54:44.861076",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "02792c4f",
+              "text": "Scott off the ship under Slattery's protection",
+              "source": {
+                "url": "https://the-last-ship.fandom.com/wiki/Season_4",
+                "title": "Season 4 - The Last Ship Wiki",
+                "snippet": "Season 4 of The Last Ship was announced on August 1, 2016, and has premiered on August 20, then has concluded on October 8, 2017. With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes.",
+                "metadata": {
+                  "search_query": "How many episodes in season 4 of last ship?"
+                },
+                "retrieved_at": "2026-10-16T22:54:44.861010",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://the-last-ship.fandom.com/wiki/Season_4",
+              "title": "Season 4 - The Last Ship Wiki",
+              "snippet": "Season 4 of The Last Ship was announced on August 1, 2016, and has premiered on August 20, then has concluded on October 8, 2017. With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes.",
+              "metadata": {
+                "search_query": "How many episodes in season 4 of last ship?"
+              },
+              "retrieved_at": "2026-10-16T22:54:44.861010",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/List_of_The_Last_Ship_episodes",
+              "title": "List of The Last Ship episodes - Wikipedia",
+              "snippet": "The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network TNT placed a ten-episode order. [1] It premiered on June 22, 2014, at 9:00 p.m. EDT [2][3] and aired 56 episodes over 5 seasons, with the final episode on November 11, 2018.",
+              "metadata": {
+                "search_query": "How many episodes in season 4 of last ship?"
+              },
+              "retrieved_at": "2026-10-16T22:54:44.861059",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.tvmaze.com/seasons/50582/the-last-ship-season-4/episodeguide",
+              "title": "Season 4 - Episode Guide | TVmaze",
+              "snippet": "A printable Episode Guide for Season 4: a handy overview of all of the show's episodes",
+              "metadata": {
+                "search_query": "How many episodes in season 4 of last ship?"
+              },
+              "retrieved_at": "2026-10-16T22:54:44.861069",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.serieschedule.com/show/21/the-last-ship/season/4",
+              "title": "The Last Ship Season 4 Episode Guide | Series Schedule",
+              "snippet": "Episode guide for The Last Ship Season 4 on TNT — 10 episodes with air dates, synopses, and images on Series Schedule.",
+              "metadata": {
+                "search_query": "How many episodes in season 4 of last ship?"
+              },
+              "retrieved_at": "2026-10-16T22:54:44.861076",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.imdb.com/title/tt2402207/episodes/?season=4",
+              "title": "The Last Ship (TV Series 2014-2018) - Episode list - IMDb",
+              "snippet": "The Nathan James is trapped between the sub and the civilian blockades set up by the immune. Chandler sends Dr. Scott off the ship under Slattery's protection.",
+              "metadata": {
+                "search_query": "How many episodes in season 4 of last ship?"
+              },
+              "retrieved_at": "2026-10-16T22:54:44.861084",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "Season 4 - The Last Ship Wiki: Season 4 of The Last Ship was announced on August 1, 2016, and has premiered on August 20, then has concluded on October 8, 2017. With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes.\n\nList of The Last Ship episodes - Wikipedia: The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network TNT placed a ten-episode order. [1] It premiered on June 22, 2014, at 9:00 p.m. EDT [2][3] and aired 56 episodes over 5 seasons, with the final episode on November 11, 2018.\n\nSeason 4 - Episode Guide | TVmaze: A printable Episode Guide for Season 4: a handy overview of all of the show's episodes\n\nThe Last Ship Season 4 Episode Guide | Series Schedule: Episode guide for The Last Ship Season 4 on TNT — 10 episodes with air dates, synopses, and images on Series Schedule.\n\nThe Last Ship (TV Series 2014-2018) - Episode list - IMDb: The Nathan James is trapped between the sub and the civilian blockades set up by the immune. Chandler sends Dr. Scott off the ship under Slattery's protection.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T22:54:44.861368"
+        }
+      },
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "How many episodes in season 4 of last ship?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T22:54:44.861867"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "How many episodes in season 4 of last ship?",
+          "answer": "Based on 5 sources:\n- List of The Last Ship episodes: The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley\n- In May 2013, cable network\n\nList of The Last Kingdom episodes: The Last Kingdom is a British historical fiction television series based on Bernard Cornwell's The Saxon Stories series of novels\n- The first season debuted\n\nList of Last Week Tonight with John Oliver episodes: takes a satirical look at the week in news, politics and current events\n- As of June 28, 2026,[update] 367 episodes of Last Week Tonight with John Oliver have\n\nList of Perry Mason episodes: the 1957–58 season\n- In four episodes adapted from Erle Stanley Gardner novels — \"The Case of the Silent Partner\" (episode 1–6), \"The Case of the Baited\n\nAvatar: The Last Airbender (2024 TV series): in season 3 Jon Jon Briones as Piandao Tantoo Cardinal as Hama Cast notes Dae Kim is only credited for the episodes in which he appears",
+          "claims": [
+            {
+              "id": "28481129",
+              "text": "List of The Last Ship episodes: The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=42892786",
+                "title": "List of The Last Ship episodes",
+                "snippet": "The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network",
+                "metadata": {
+                  "search_query": "How many episodes in season 4 of last ship?"
+                },
+                "retrieved_at": "2026-10-16T22:54:44.862495",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "3a8c4d28",
+              "text": "In May 2013, cable network\n\nList of The Last Kingdom episodes: The Last Kingdom is a British historical fiction television series based on Bernard Cornwell's The Saxon Stories series of novels",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=59187942",
+                "title": "List of The Last Kingdom episodes",
+                "snippet": "The Last Kingdom is a British historical fiction television series based on Bernard Cornwell's The Saxon Stories series of novels. The first season debuted",
+                "metadata": {
+                  "search_query": "How many episodes in season 4 of last ship?"
+                },
+                "retrieved_at": "2026-10-16T22:54:44.862515",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0a2e4be3",
+              "text": "The first season debuted\n\nList of Last Week Tonight with John Oliver episodes: takes a satirical look at the week in news, politics and current events",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=45353979",
+                "title": "List of Last Week Tonight with John Oliver episodes",
+                "snippet": "takes a satirical look at the week in news, politics and current events. As of June 28, 2026,[update] 367 episodes of Last Week Tonight with John Oliver have",
+                "metadata": {
+                  "search_query": "How many episodes in season 4 of last ship?"
+                },
+                "retrieved_at": "2026-10-16T22:54:44.862524",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "83a238ba",
+              "text": "As of June 28, 2026,[update] 367 episodes of Last Week Tonight with John Oliver have\n\nList of Perry Mason episodes: the 1957–58 season",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=13502496",
+                "title": "List of Perry Mason episodes",
+                "snippet": "the 1957–58 season. In four episodes adapted from Erle Stanley Gardner novels — \"The Case of the Silent Partner\" (episode 1–6), \"The Case of the Baited",
+                "metadata": {
+                  "search_query": "How many episodes in season 4 of last ship?"
+                },
+                "retrieved_at": "2026-10-16T22:54:44.862532",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f7db9085",
+              "text": "In four episodes adapted from Erle Stanley Gardner novels — \"The Case of the Silent Partner\" (episode 1–6), \"The Case of the Baited\n\nAvatar: The Last Airbender (2024 TV series): in season 3 Jon Jon Briones as Piandao Tantoo Cardinal as Hama Cast notes Dae Kim is only credited for the episodes in which he appears",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=64860757",
+                "title": "Avatar: The Last Airbender (2024 TV series)",
+                "snippet": "in season 3 Jon Jon Briones as Piandao Tantoo Cardinal as Hama Cast notes Dae Kim is only credited for the episodes in which he appears. The episodes",
+                "metadata": {
+                  "search_query": "How many episodes in season 4 of last ship?"
+                },
+                "retrieved_at": "2026-10-16T22:54:44.862541",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=42892786",
+              "title": "List of The Last Ship episodes",
+              "snippet": "The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network",
+              "metadata": {
+                "search_query": "How many episodes in season 4 of last ship?"
+              },
+              "retrieved_at": "2026-10-16T22:54:44.862495",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=59187942",
+              "title": "List of The Last Kingdom episodes",
+              "snippet": "The Last Kingdom is a British historical fiction television series based on Bernard Cornwell's The Saxon Stories series of novels. The first season debuted",
+              "metadata": {
+                "search_query": "How many episodes in season 4 of last ship?"
+              },
+              "retrieved_at": "2026-10-16T22:54:44.862515",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=45353979",
+              "title": "List of Last Week Tonight with John Oliver episodes",
+              "snippet": "takes a satirical look at the week in news, politics and current events. As of June 28, 2026,[update] 367 episodes of Last Week Tonight with John Oliver have",
+              "metadata": {
+                "search_query": "How many episodes in season 4 of last ship?"
+              },
+              "retrieved_at": "2026-10-16T22:54:44.862524",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=13502496",
+              "title": "List of Perry Mason episodes",
+              "snippet": "the 1957–58 season. In four episodes adapted from Erle Stanley Gardner novels — \"The Case of the Silent Partner\" (episode 1–6), \"The Case of the Baited",
+              "metadata": {
+                "search_query": "How many episodes in season 4 of last ship?"
+              },
+              "retrieved_at": "2026-10-16T22:54:44.862532",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=64860757",
+              "title": "Avatar: The Last Airbender (2024 TV series)",
+              "snippet": "in season 3 Jon Jon Briones as Piandao Tantoo Cardinal as Hama Cast notes Dae Kim is only credited for the episodes in which he appears. The episodes",
+              "metadata": {
+                "search_query": "How many episodes in season 4 of last ship?"
+              },
+              "retrieved_at": "2026-10-16T22:54:44.862541",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "List of The Last Ship episodes: The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network\n\nList of The Last Kingdom episodes: The Last Kingdom is a British historical fiction television series based on Bernard Cornwell's The Saxon Stories series of novels. The first season debuted\n\nList of Last Week Tonight with John Oliver episodes: takes a satirical look at the week in news, politics and current events. As of June 28, 2026,[update] 367 episodes of Last Week Tonight with John Oliver have\n\nList of Perry Mason episodes: the 1957–58 season. In four episodes adapted from Erle Stanley Gardner novels — \"The Case of the Silent Partner\" (episode 1–6), \"The Case of the Baited\n\nAvatar: The Last Airbender (2024 TV series): in season 3 Jon Jon Briones as Piandao Tantoo Cardinal as Hama Cast notes Dae Kim is only credited for the episodes in which he appears. The episodes",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T22:54:44.862788"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "web_agent",
+      "query": "How many episodes in season 4 of last ship?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Season 4 of The Last Ship was announced on August 1, 2016, and has premiered on August 20, then has concluded on October 8, 2017. With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes.",
+          "source": {
+            "url": "https://the-last-ship.fandom.com/wiki/Season_4",
+            "title": "Season 4 - The Last Ship Wiki",
+            "snippet": "Season 4 of The Last Ship was announced on August 1, 2016, and has premiered on August 20, then has concluded on October 8, 2017. With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes.",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T22:54:44.863357",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://the-last-ship.fandom.com/wiki/Season_4",
+          "title": "Season 4 - The Last Ship Wiki",
+          "snippet": "Season 4 of The Last Ship was announced on August 1, 2016, and has premiered on August 20, then has concluded on October 8, 2017. With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T22:54:44.863357",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_The_Last_Ship_episodes",
+          "title": "List of The Last Ship episodes - Wikipedia",
+          "snippet": "The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network TNT placed a ten-episode order. [1] It premiered on June 22, 2014, at 9:00 p.m. EDT [2][3] and aired 56 episodes over 5 seasons, with the final episode on November 11, 2018.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T22:54:44.863374",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.tvmaze.com/seasons/50582/the-last-ship-season-4/episodeguide",
+          "title": "Season 4 - Episode Guide | TVmaze",
+          "snippet": "A printable Episode Guide for Season 4: a handy overview of all of the show's episodes",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T22:54:44.863380",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.serieschedule.com/show/21/the-last-ship/season/4",
+          "title": "The Last Ship Season 4 Episode Guide | Series Schedule",
+          "snippet": "Episode guide for The Last Ship Season 4 on TNT — 10 episodes with air dates, synopses, and images on Series Schedule.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T22:54:44.863385",
+          "credibility_score": null
+        },
+        {
+          "url": "https://www.imdb.com/title/tt2402207/episodes/?season=4",
+          "title": "The Last Ship (TV Series 2014-2018) - Episode list - IMDb",
+          "snippet": "The Nathan James is trapped between the sub and the civilian blockades set up by the immune. Chandler sends Dr. Scott off the ship under Slattery's protection.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T22:54:44.863390",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:56:13.493741"
+    },
+    {
+      "agent_id": "wikidata_agent",
+      "query": "How many episodes in season 4 of last ship?",
+      "status": "no_relevant_results",
+      "failure_reason": "No search results",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:56:13.493773"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "How many episodes in season 4 of last ship?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network",
+          "source": {
+            "url": "https://en.wikipedia.org/?curid=42892786",
+            "title": "List of The Last Ship episodes",
+            "snippet": "The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network",
+            "metadata": {},
+            "retrieved_at": "2026-10-16T22:56:13.493795",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=42892786",
+          "title": "List of The Last Ship episodes",
+          "snippet": "The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T22:56:13.493795",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=59187942",
+          "title": "List of The Last Kingdom episodes",
+          "snippet": "The Last Kingdom is a British historical fiction television series based on Bernard Cornwell's The Saxon Stories series of novels. The first season debuted",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T22:56:13.493804",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=45353979",
+          "title": "List of Last Week Tonight with John Oliver episodes",
+          "snippet": "takes a satirical look at the week in news, politics and current events. As of June 28, 2026,[update] 367 episodes of Last Week Tonight with John Oliver have",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T22:56:13.493811",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=13502496",
+          "title": "List of Perry Mason episodes",
+          "snippet": "the 1957–58 season. In four episodes adapted from Erle Stanley Gardner novels — \"The Case of the Silent Partner\" (episode 1–6), \"The Case of the Baited",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T22:56:13.493817",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=64860757",
+          "title": "Avatar: The Last Airbender (2024 TV series)",
+          "snippet": "in season 3 Jon Jon Briones as Piandao Tantoo Cardinal as Hama Cast notes Dae Kim is only credited for the episodes in which he appears. The episodes",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T22:56:13.493823",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T22:56:58.512529"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "How many episodes in season 4 of last ship?",
+      "status": "retrieval_failed",
+      "failure_reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "none",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "opencode_error": "console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s"
+      },
+      "retrieved_at": "2026-10-16T22:56:10.487831"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "reference_agent",
+        "claim_a_text": "Season 4 of The Last Ship was announced on August 1, 2016, and has premiered on August 20, then has concluded on October 8, 2017. With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes.",
+        "claim_b_text": "The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network",
+        "label": "neutral",
+        "contradiction_score": 0.0005373593885451555,
+        "entailment_score": 0.0006261816597543657,
+        "neutral_score": 0.9990822076797485
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "reference_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "No search results"
+      },
+      {
+        "agent_id": "ai_answer_agent",
+        "reason": "Gemini failed (GEMINI_API_KEY not set); OpenCode failed (console-openrouter/cohere/north-mini-code:free: opencode timed out after 45.0s)"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "reference_agent",
+      "claim_a": {
+        "text": "Season 4 of The Last Ship was announced on August 1, 2016, and has premiered on August 20, then has concluded on October 8, 2017. With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes.",
+        "source": {
+          "url": "https://the-last-ship.fandom.com/wiki/Season_4",
+          "title": "Season 4 - The Last Ship Wiki",
+          "snippet": "Season 4 of The Last Ship was announced on August 1, 2016, and has premiered on August 20, then has concluded on October 8, 2017. With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes.",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T22:54:44.863357",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network",
+        "source": {
+          "url": "https://en.wikipedia.org/?curid=42892786",
+          "title": "List of The Last Ship episodes",
+          "snippet": "The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network",
+          "metadata": {},
+          "retrieved_at": "2026-10-16T22:56:13.493795",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.0005373593885451555
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0005373593885451555,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "How many episodes in season 4 of last ship?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [web_agent]: Season 4 of The Last Ship was announced on August 1, 2016, and has premiered on August 20, then has concluded on October 8, 2017. With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes.\n- [reference_agent]: The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://the-last-ship.fandom.com/wiki/Season_4",
+        "title": "Season 4 - The Last Ship Wiki",
+        "snippet": "Season 4 of The Last Ship was announced on August 1, 2016, and has premiered on August 20, then has concluded on October 8, 2017. With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T22:54:44.863357",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_The_Last_Ship_episodes",
+        "title": "List of The Last Ship episodes - Wikipedia",
+        "snippet": "The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network TNT placed a ten-episode order. [1] It premiered on June 22, 2014, at 9:00 p.m. EDT [2][3] and aired 56 episodes over 5 seasons, with the final episode on November 11, 2018.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T22:54:44.863374",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.tvmaze.com/seasons/50582/the-last-ship-season-4/episodeguide",
+        "title": "Season 4 - Episode Guide | TVmaze",
+        "snippet": "A printable Episode Guide for Season 4: a handy overview of all of the show's episodes",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T22:54:44.863380",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.serieschedule.com/show/21/the-last-ship/season/4",
+        "title": "The Last Ship Season 4 Episode Guide | Series Schedule",
+        "snippet": "Episode guide for The Last Ship Season 4 on TNT — 10 episodes with air dates, synopses, and images on Series Schedule.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T22:54:44.863385",
+        "credibility_score": null
+      },
+      {
+        "url": "https://www.imdb.com/title/tt2402207/episodes/?season=4",
+        "title": "The Last Ship (TV Series 2014-2018) - Episode list - IMDb",
+        "snippet": "The Nathan James is trapped between the sub and the civilian blockades set up by the immune. Chandler sends Dr. Scott off the ship under Slattery's protection.",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T22:54:44.863390",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=42892786",
+        "title": "List of The Last Ship episodes",
+        "snippet": "The Last Ship is an American post-apocalyptic drama television series based on a novel of the same name by William Brinkley. In May 2013, cable network",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T22:56:13.493795",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=59187942",
+        "title": "List of The Last Kingdom episodes",
+        "snippet": "The Last Kingdom is a British historical fiction television series based on Bernard Cornwell's The Saxon Stories series of novels. The first season debuted",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T22:56:13.493804",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=45353979",
+        "title": "List of Last Week Tonight with John Oliver episodes",
+        "snippet": "takes a satirical look at the week in news, politics and current events. As of June 28, 2026,[update] 367 episodes of Last Week Tonight with John Oliver have",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T22:56:13.493811",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=13502496",
+        "title": "List of Perry Mason episodes",
+        "snippet": "the 1957–58 season. In four episodes adapted from Erle Stanley Gardner novels — \"The Case of the Silent Partner\" (episode 1–6), \"The Case of the Baited",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T22:56:13.493817",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/?curid=64860757",
+        "title": "Avatar: The Last Airbender (2024 TV series)",
+        "snippet": "in season 3 Jon Jon Briones as Piandao Tantoo Cardinal as Hama Cast notes Dae Kim is only credited for the episodes in which he appears. The episodes",
+        "metadata": {},
+        "retrieved_at": "2026-10-16T22:56:13.493823",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T22:57:00.090277"
+  },
+  "metrics": {
+    "latency_seconds": 135.23087787628174,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 0,
+    "total_llm_calls_failed": 2,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 0,
+        "failed": 2
+      }
+    },
+    "retrieval_failure_rate": 0.25,
+    "irrelevant_evidence_rate": 0,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 10,
+    "system": "no_relevance_filter"
+  },
+  "started_at": "2026-10-16T22:54:44.859398",
+  "completed_at": "2026-10-16T22:57:00.090338",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_wiki_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_web_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_scholarly_model": "console-openrouter/cohere/north-mini-code:free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0090",
+    "query": "How many episodes in season 4 of last ship?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "10",
+    "required_facts": [
+      "10"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 114,
+      "answer_variants": [
+        "10 episodes"
+      ],
+      "annotation_explanation": "This is the correct answer because it the most widely known.",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "In May 2013, the cable network TNT placed a ten-episode order for the series. The series premiered on June 22, 2014, at 9:00 p.m. EDT.",
+          "supports_answers": [
+            "10 episodes"
+          ]
+        },
+        {
+          "source_domain": "the-last-ship.fandom.com",
+          "text": "With the announcement of Season 5, it was revealed that Seasons 4 and 5 would consist of 10 episodes.",
+          "supports_answers": [
+            "10 episodes"
+          ]
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "On September 8, 2016, TNT renewed the series for a 10-episode fifth and final season, which was filmed immediately after season four and premiered on September ...",
+          "supports_answers": [
+            "10 episodes"
+          ]
+        },
+        {
+          "source_domain": "variety.com",
+          "text": "Apr 30, 2017 ... However, “The Last Ship” has already been renewed for Season 4 and Season 5, each consisting of 10 episodes, and both seasons are shooting ...",
+          "supports_answers": [
+            "10 episodes"
+          ]
+        },
+        {
+          "source_domain": "www.rottentomatoes.com",
+          "text": "The Last Ship: Season 4 poster image. Episode List. Season 4 ... I have consumed many apocalyptic TV series, but this one stands apart with epic casting and ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.imdb.com",
+          "text": "The Last Ship: Created by Steven Kane, Hank Steinberg. ... Episode guide56 ... Watch the Season 4 Comic-Con Trailer for \"The Last Ship.\" Play trailer1:49.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "tvline.com",
+          "text": "Oct 8, 2017 ... The Last Ship Season 4 Finale Recap: Bugging Out — Plus, Season 5 Trailer ... it would miss any fishing vessels and instead sink a hostile; ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.imdb.com",
+          "text": "The Last Ship (TV Series 2014–2018) - Movies, TV, Celebs, and more... ... 5; 4; 3; 2; 1 ... but a new type of threat may mean the next world war.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.tvfanatic.com",
+          "text": "Sep 3, 2017 ... On The Last Ship Season 4 Episode 4, Slattery is haunted by visions of the past, while the crew of the Nathan James search for one of...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "no_relevance_filter",
+  "evaluation_seconds": 135.246,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

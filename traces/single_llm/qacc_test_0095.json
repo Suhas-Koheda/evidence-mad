@@ -1,0 +1,149 @@
+{
+  "query": "Where does the last name hansen come from?",
+  "trace_id": "38e40fa6-3117-48e5-b689-7a0c36c9c923",
+  "router_result": {},
+  "agent_evidence": [],
+  "agents": [],
+  "evidence_decision": null,
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.0,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Where does the last name hansen come from?",
+    "answer": "Danish/Norwegian patronymic meaning \"son of Hans\" (from the given name Hans, itself from Johann).",
+    "reasoning": "Single LLM direct answer — no retrieval or debate",
+    "evidence_state": "insufficient",
+    "sources": [],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 0,
+    "metadata": {
+      "system": "single_llm"
+    },
+    "generated_at": "2026-10-17T00:11:52.835553"
+  },
+  "metrics": {
+    "system": "single_llm",
+    "latency_seconds": 17.779056072235107,
+    "debate_triggered": false,
+    "total_llm_calls_ok": 1,
+    "total_llm_calls_failed": 0,
+    "evidence_state": "insufficient",
+    "usable_agents": 0,
+    "source_count": 0
+  },
+  "started_at": "2026-10-17T00:11:35.056598",
+  "completed_at": null,
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0095",
+    "query": "Where does the last name hansen come from?",
+    "expected_conflict": true,
+    "expected_conflict_type": "factual",
+    "expected_answer": "Denmark",
+    "required_facts": [
+      "Denmark"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_conflict",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 121,
+      "answer_variants": [
+        "Denmark",
+        "Scandinavian"
+      ],
+      "annotation_explanation": "I chose it because my common sense suggested it and context 1 and 5 mentioned it explicitly",
+      "evidence_contexts": [
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "Hansen or Hanssen is a Scandinavian patronymic surname, meaning son of Hans. As of 2008, it is the third most common surname in Denmark, shared by 4.3% of ...",
+          "supports_answers": [
+            "Denmark"
+          ]
+        },
+        {
+          "source_domain": "www.ancestry.com",
+          "text": "Danish Norwegian Dutch Flemish and North German: patronymic from the personal name Hans . This is the most common surname in Norway.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "forebears.io",
+          "text": "From Where Does The Surname Originate? ... Scandinavian form of Hanson, q.v. ... Abbreviation for Johannson. See also Jansen. ... (Danish, Norwegian, Swedish) The son ...",
+          "supports_answers": [
+            "Scandinavian"
+          ]
+        },
+        {
+          "source_domain": "www.houseofnames.com",
+          "text": "The surname Hansen is a patronymic name, derived from the German personal name Johannes, and ultimately from the personal name Johan or John.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "selectsurnames.com",
+          "text": "Hans Thomsen Hansen came to Minden, Nebraska from Denmark in 1889 at the age of just nineteen. His eldest son, Hans Lloyd Hansen, was born five years later. By ...",
+          "supports_answers": [
+            "Denmark"
+          ]
+        },
+        {
+          "source_domain": "www.lifeinnorway.net",
+          "text": "Feb 14, 2020 ... As a result of this, surnames like Larsen, Hansen and Johansen ... Occupational: names derived from the occupation or job of an ancestor.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.quora.com",
+          "text": "Hansen is a Scandinavian, common surname. In the past when we had the norse naming system, which is still in use in Iceland,it would mean “son of Hans\". I don ...",
+          "supports_answers": [
+            "Scandinavian"
+          ]
+        },
+        {
+          "source_domain": "coadb.com",
+          "text": "This surname is of Danish, Norwegian, Swedish, German and Scandinavian origins and is a patronymic or metronymic meaning and is derived from the personal name “ ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.surnamedb.com",
+          "text": "Last name meaning Hansen: This is a true European surname. It can be either a patronymic or a metronymic, meaning it may be derived from the father or ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "thednatests.com",
+          "text": "Surnames like Hansen evolved from patronymic naming conventions, indicating a familial relationship. The name Hansen has variations in spelling, such as ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "single_llm",
+  "evaluation_seconds": 17.793,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}

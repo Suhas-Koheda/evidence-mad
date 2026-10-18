@@ -1,0 +1,851 @@
+{
+  "query": "Who did the whistling in the muppet movie?",
+  "trace_id": "e931aa6c-d1be-457b-8973-ec417fd61ba3",
+  "router_result": {
+    "decision": {
+      "agents": [
+        "web_agent",
+        "reference_agent",
+        "wikidata_agent",
+        "ai_answer_agent"
+      ],
+      "reasoning": "Keyless public sources — routing to WEB + WIKIPEDIA + WIKIDATA"
+    },
+    "evidence": [
+      {
+        "agent_id": "wikidata_agent",
+        "evidence": {
+          "agent_id": "wikidata_agent",
+          "query": "Who did the whistling in the muppet movie?",
+          "answer": "No relevant evidence found.",
+          "claims": [],
+          "sources": [],
+          "retrieved_text": "",
+          "metadata": {
+            "search_results_count": 0,
+            "provider": "wikidata"
+          },
+          "retrieved_at": "2026-10-16T23:53:31.164757"
+        }
+      },
+      {
+        "agent_id": "reference_agent",
+        "evidence": {
+          "agent_id": "reference_agent",
+          "query": "Who did the whistling in the muppet movie?",
+          "answer": "Based on 5 sources:\n- The Muppets (2011 film): Mary help Kermit the Frog reunite the disbanded Muppets in order to save the Muppet Theater from Tex Richman, a greedy oil magnate who plots to drill for\n\nList of Muppets: The Muppets are an ensemble group of comedic puppet characters originally created by Jim Henson\n- The Muppets have appeared in multiple television series\n\nList of The Muppet Show episodes: The Muppet Show is a live-action/puppet television series that was created by Jim Henson and produced by ITC Entertainment and Henson Associates\n- It premiered\n\nWalter (Muppet): Walter is a Muppet character performed by Peter Linz\n- A character created for the 2011 film The Muppets in which he is one of the main protagonists, he\n\nMadeline Kahn: cameo in 1979's The Muppet Movie\n- Kahn's roles were primarily comedic rather than dramatic, although the 1970s found her originating roles in two plays that",
+          "claims": [
+            {
+              "id": "199e7715",
+              "text": "The Muppets (2011 film): Mary help Kermit the Frog reunite the disbanded Muppets in order to save the Muppet Theater from Tex Richman, a greedy oil magnate who plots to drill for\n\nList of Muppets: The Muppets are an ensemble group of comedic puppet characters originally created by Jim Henson",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=29370106",
+                "title": "The Muppets (2011 film)",
+                "snippet": "Mary help Kermit the Frog reunite the disbanded Muppets in order to save the Muppet Theater from Tex Richman, a greedy oil magnate who plots to drill for",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.508626",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "6d2d0057",
+              "text": "The Muppets have appeared in multiple television series\n\nList of The Muppet Show episodes: The Muppet Show is a live-action/puppet television series that was created by Jim Henson and produced by ITC Entertainment and Henson Associates",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=19662663",
+                "title": "List of Muppets",
+                "snippet": "The Muppets are an ensemble group of comedic puppet characters originally created by Jim Henson. The Muppets have appeared in multiple television series",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.508703",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "f6072586",
+              "text": "It premiered\n\nWalter (Muppet): Walter is a Muppet character performed by Peter Linz",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=1524031",
+                "title": "List of The Muppet Show episodes",
+                "snippet": "The Muppet Show is a live-action/puppet television series that was created by Jim Henson and produced by ITC Entertainment and Henson Associates. It premiered",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.508712",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "95273416",
+              "text": "A character created for the 2011 film The Muppets in which he is one of the main protagonists, he\n\nMadeline Kahn: cameo in 1979's The Muppet Movie",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=33168794",
+                "title": "Walter (Muppet)",
+                "snippet": "Walter is a Muppet character performed by Peter Linz. A character created for the 2011 film The Muppets in which he is one of the main protagonists, he",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.508720",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "5cd8b94c",
+              "text": "Kahn's roles were primarily comedic rather than dramatic, although the 1970s found her originating roles in two plays that",
+              "source": {
+                "url": "https://en.wikipedia.org/?curid=462624",
+                "title": "Madeline Kahn",
+                "snippet": "cameo in 1979's The Muppet Movie. Kahn's roles were primarily comedic rather than dramatic, although the 1970s found her originating roles in two plays that",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.508728",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/?curid=29370106",
+              "title": "The Muppets (2011 film)",
+              "snippet": "Mary help Kermit the Frog reunite the disbanded Muppets in order to save the Muppet Theater from Tex Richman, a greedy oil magnate who plots to drill for",
+              "metadata": {
+                "search_query": "Who did the whistling in the muppet movie?"
+              },
+              "retrieved_at": "2026-10-16T23:53:31.508626",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=19662663",
+              "title": "List of Muppets",
+              "snippet": "The Muppets are an ensemble group of comedic puppet characters originally created by Jim Henson. The Muppets have appeared in multiple television series",
+              "metadata": {
+                "search_query": "Who did the whistling in the muppet movie?"
+              },
+              "retrieved_at": "2026-10-16T23:53:31.508703",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=1524031",
+              "title": "List of The Muppet Show episodes",
+              "snippet": "The Muppet Show is a live-action/puppet television series that was created by Jim Henson and produced by ITC Entertainment and Henson Associates. It premiered",
+              "metadata": {
+                "search_query": "Who did the whistling in the muppet movie?"
+              },
+              "retrieved_at": "2026-10-16T23:53:31.508712",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=33168794",
+              "title": "Walter (Muppet)",
+              "snippet": "Walter is a Muppet character performed by Peter Linz. A character created for the 2011 film The Muppets in which he is one of the main protagonists, he",
+              "metadata": {
+                "search_query": "Who did the whistling in the muppet movie?"
+              },
+              "retrieved_at": "2026-10-16T23:53:31.508720",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/?curid=462624",
+              "title": "Madeline Kahn",
+              "snippet": "cameo in 1979's The Muppet Movie. Kahn's roles were primarily comedic rather than dramatic, although the 1970s found her originating roles in two plays that",
+              "metadata": {
+                "search_query": "Who did the whistling in the muppet movie?"
+              },
+              "retrieved_at": "2026-10-16T23:53:31.508728",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "The Muppets (2011 film): Mary help Kermit the Frog reunite the disbanded Muppets in order to save the Muppet Theater from Tex Richman, a greedy oil magnate who plots to drill for\n\nList of Muppets: The Muppets are an ensemble group of comedic puppet characters originally created by Jim Henson. The Muppets have appeared in multiple television series\n\nList of The Muppet Show episodes: The Muppet Show is a live-action/puppet television series that was created by Jim Henson and produced by ITC Entertainment and Henson Associates. It premiered\n\nWalter (Muppet): Walter is a Muppet character performed by Peter Linz. A character created for the 2011 film The Muppets in which he is one of the main protagonists, he\n\nMadeline Kahn: cameo in 1979's The Muppet Movie. Kahn's roles were primarily comedic rather than dramatic, although the 1970s found her originating roles in two plays that",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "wikipedia"
+          },
+          "retrieved_at": "2026-10-16T23:53:31.508890"
+        }
+      },
+      {
+        "agent_id": "web_agent",
+        "evidence": {
+          "agent_id": "web_agent",
+          "query": "Who did the whistling in the muppet movie?",
+          "answer": "Based on 5 sources:\n- The Whistling Caruso | Muppet Wiki | Fandom: \"The Whistling Caruso\" is an original song from the film The Muppets\n- The song is whistled by Walter on the stage of The Muppet Theatre\n- The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent\n- Whistling Muppets | Muppet Wiki | Fandom: Walter whistles all throughout The Muppets, including during \"We Built This City\", culminating in a performance of \"The Whistling Caruso\"\n- Walter whistles in Muppets Most Wanted to get everyone's attention after Gonzo drives a motorcycle through a train car",
+          "claims": [
+            {
+              "id": "807d4117",
+              "text": "The Whistling Caruso | Muppet Wiki | Fandom: \"The Whistling Caruso\" is an original song from the film The Muppets",
+              "source": {
+                "url": "https://muppet.fandom.com/wiki/The_Whistling_Caruso",
+                "title": "The Whistling Caruso | Muppet Wiki | Fandom",
+                "snippet": "\"The Whistling Caruso\" is an original song from the film The Muppets. The song is whistled by Walter on the stage of The Muppet Theatre. The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent. The title is a...",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.613641",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e31fa2aa",
+              "text": "The song is whistled by Walter on the stage of The Muppet Theatre",
+              "source": {
+                "url": "https://muppet.fandom.com/wiki/Whistling_Muppets",
+                "title": "Whistling Muppets | Muppet Wiki | Fandom",
+                "snippet": "Walter whistles all throughout The Muppets, including during \"We Built This City\", culminating in a performance of \"The Whistling Caruso\". Walter whistles in Muppets Most Wanted to get everyone's attention after Gonzo drives a motorcycle through a train car. Big Bird recites a poem about his desire to whistle. A nearby robin can, but Big Bird can't. Telly Monster tries to teach Baby Bear how ...",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.613707",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "0d580132",
+              "text": "The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Walter_(Muppet)",
+                "title": "Walter (Muppet) - Wikipedia",
+                "snippet": "The scene is pivotal to the character's arc as it resolves Walter's internal issues with himself. At the conclusion of the film, Walter deduces that he is a Muppet, adopts whistling as his talent and joins the group.",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.613723",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "087b1b63",
+              "text": "Whistling Muppets | Muppet Wiki | Fandom: Walter whistles all throughout The Muppets, including during \"We Built This City\", culminating in a performance of \"The Whistling Caruso\"",
+              "source": {
+                "url": "https://www.imdb.com/title/tt1204342/fullcredits/",
+                "title": "The Muppets (2011) - Full cast & crew - IMDb",
+                "snippet": "The Muppets (2011) - Cast and crew credits, including actors, actresses, directors, writers and more.",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.613746",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "c0a62b70",
+              "text": "Walter whistles in Muppets Most Wanted to get everyone's attention after Gonzo drives a motorcycle through a train car",
+              "source": {
+                "url": "https://muppet.fandom.com/wiki/The_Whistling_Caruso",
+                "title": "The Whistling Caruso | Muppet Wiki | Fandom",
+                "snippet": "\"The Whistling Caruso\" is an original song from the film The Muppets. The song is whistled by Walter on the stage of The Muppet Theatre. The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent. The title is a...",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.613641",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "383a66fc",
+              "text": "Big Bird recites a poem about his desire to whistle",
+              "source": {
+                "url": "https://muppet.fandom.com/wiki/Whistling_Muppets",
+                "title": "Whistling Muppets | Muppet Wiki | Fandom",
+                "snippet": "Walter whistles all throughout The Muppets, including during \"We Built This City\", culminating in a performance of \"The Whistling Caruso\". Walter whistles in Muppets Most Wanted to get everyone's attention after Gonzo drives a motorcycle through a train car. Big Bird recites a poem about his desire to whistle. A nearby robin can, but Big Bird can't. Telly Monster tries to teach Baby Bear how ...",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.613707",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "793024f9",
+              "text": "A nearby robin can, but Big Bird can't",
+              "source": {
+                "url": "https://en.wikipedia.org/wiki/Walter_(Muppet)",
+                "title": "Walter (Muppet) - Wikipedia",
+                "snippet": "The scene is pivotal to the character's arc as it resolves Walter's internal issues with himself. At the conclusion of the film, Walter deduces that he is a Muppet, adopts whistling as his talent and joins the group.",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.613723",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "ce3b26d8",
+              "text": "Telly Monster tries to teach Baby Bear how",
+              "source": {
+                "url": "https://disney.fandom.com/wiki/The_Whistling_Caruso",
+                "title": "The Whistling Caruso | Disney Wiki | Fandom",
+                "snippet": "\"The Whistling Caruso\" is an original song featured in the 2011 film The Muppets which was performed by Walter (Peter Linz) on the stage of The Muppet Theater. The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent. The Muppets: Original Soundtrack (2011)",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.613734",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "2ca5e7d7",
+              "text": "Walter (Muppet) - Wikipedia: The scene is pivotal to the character's arc as it resolves Walter's internal issues with himself",
+              "source": {
+                "url": "https://www.imdb.com/title/tt1204342/fullcredits/",
+                "title": "The Muppets (2011) - Full cast & crew - IMDb",
+                "snippet": "The Muppets (2011) - Cast and crew credits, including actors, actresses, directors, writers and more.",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.613746",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            },
+            {
+              "id": "e228c2ac",
+              "text": "At the conclusion of the film, Walter deduces that he is a Muppet, adopts whistling as his talent and joins the group",
+              "source": {
+                "url": "https://muppet.fandom.com/wiki/The_Whistling_Caruso",
+                "title": "The Whistling Caruso | Muppet Wiki | Fandom",
+                "snippet": "\"The Whistling Caruso\" is an original song from the film The Muppets. The song is whistled by Walter on the stage of The Muppet Theatre. The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent. The title is a...",
+                "metadata": {
+                  "search_query": "Who did the whistling in the muppet movie?"
+                },
+                "retrieved_at": "2026-10-16T23:53:31.613641",
+                "credibility_score": null
+              },
+              "confidence": 0.8,
+              "metadata": {}
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://muppet.fandom.com/wiki/The_Whistling_Caruso",
+              "title": "The Whistling Caruso | Muppet Wiki | Fandom",
+              "snippet": "\"The Whistling Caruso\" is an original song from the film The Muppets. The song is whistled by Walter on the stage of The Muppet Theatre. The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent. The title is a...",
+              "metadata": {
+                "search_query": "Who did the whistling in the muppet movie?"
+              },
+              "retrieved_at": "2026-10-16T23:53:31.613641",
+              "credibility_score": null
+            },
+            {
+              "url": "https://muppet.fandom.com/wiki/Whistling_Muppets",
+              "title": "Whistling Muppets | Muppet Wiki | Fandom",
+              "snippet": "Walter whistles all throughout The Muppets, including during \"We Built This City\", culminating in a performance of \"The Whistling Caruso\". Walter whistles in Muppets Most Wanted to get everyone's attention after Gonzo drives a motorcycle through a train car. Big Bird recites a poem about his desire to whistle. A nearby robin can, but Big Bird can't. Telly Monster tries to teach Baby Bear how ...",
+              "metadata": {
+                "search_query": "Who did the whistling in the muppet movie?"
+              },
+              "retrieved_at": "2026-10-16T23:53:31.613707",
+              "credibility_score": null
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Walter_(Muppet)",
+              "title": "Walter (Muppet) - Wikipedia",
+              "snippet": "The scene is pivotal to the character's arc as it resolves Walter's internal issues with himself. At the conclusion of the film, Walter deduces that he is a Muppet, adopts whistling as his talent and joins the group.",
+              "metadata": {
+                "search_query": "Who did the whistling in the muppet movie?"
+              },
+              "retrieved_at": "2026-10-16T23:53:31.613723",
+              "credibility_score": null
+            },
+            {
+              "url": "https://disney.fandom.com/wiki/The_Whistling_Caruso",
+              "title": "The Whistling Caruso | Disney Wiki | Fandom",
+              "snippet": "\"The Whistling Caruso\" is an original song featured in the 2011 film The Muppets which was performed by Walter (Peter Linz) on the stage of The Muppet Theater. The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent. The Muppets: Original Soundtrack (2011)",
+              "metadata": {
+                "search_query": "Who did the whistling in the muppet movie?"
+              },
+              "retrieved_at": "2026-10-16T23:53:31.613734",
+              "credibility_score": null
+            },
+            {
+              "url": "https://www.imdb.com/title/tt1204342/fullcredits/",
+              "title": "The Muppets (2011) - Full cast & crew - IMDb",
+              "snippet": "The Muppets (2011) - Cast and crew credits, including actors, actresses, directors, writers and more.",
+              "metadata": {
+                "search_query": "Who did the whistling in the muppet movie?"
+              },
+              "retrieved_at": "2026-10-16T23:53:31.613746",
+              "credibility_score": null
+            }
+          ],
+          "retrieved_text": "The Whistling Caruso | Muppet Wiki | Fandom: \"The Whistling Caruso\" is an original song from the film The Muppets. The song is whistled by Walter on the stage of The Muppet Theatre. The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent. The title is a...\n\nWhistling Muppets | Muppet Wiki | Fandom: Walter whistles all throughout The Muppets, including during \"We Built This City\", culminating in a performance of \"The Whistling Caruso\". Walter whistles in Muppets Most Wanted to get everyone's attention after Gonzo drives a motorcycle through a train car. Big Bird recites a poem about his desire to whistle. A nearby robin can, but Big Bird can't. Telly Monster tries to teach Baby Bear how ...\n\nWalter (Muppet) - Wikipedia: The scene is pivotal to the character's arc as it resolves Walter's internal issues with himself. At the conclusion of the film, Walter deduces that he is a Muppet, adopts whistling as his talent and joins the group.\n\nThe Whistling Caruso | Disney Wiki | Fandom: \"The Whistling Caruso\" is an original song featured in the 2011 film The Muppets which was performed by Walter (Peter Linz) on the stage of The Muppet Theater. The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent. The Muppets: Original Soundtrack (2011)\n\nThe Muppets (2011) - Full cast & crew - IMDb: The Muppets (2011) - Cast and crew credits, including actors, actresses, directors, writers and more.",
+          "metadata": {
+            "search_results_count": 5,
+            "provider": "duckduckgo"
+          },
+          "retrieved_at": "2026-10-16T23:53:31.614165"
+        }
+      }
+    ]
+  },
+  "agent_evidence": [
+    {
+      "agent_id": "wikidata_agent",
+      "query": "Who did the whistling in the muppet movie?",
+      "status": "no_relevant_results",
+      "failure_reason": "All search results filtered out as irrelevant",
+      "claims": [],
+      "sources": [],
+      "raw_results_count": 0,
+      "filtered_out_count": 0,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:53:31.615327"
+    },
+    {
+      "agent_id": "reference_agent",
+      "query": "Who did the whistling in the muppet movie?",
+      "status": "no_relevant_results",
+      "failure_reason": "LLM determined snippets do not answer the query",
+      "claims": [],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/?curid=29370106",
+          "title": "The Muppets (2011 film)",
+          "snippet": "Mary help Kermit the Frog reunite the disbanded Muppets in order to save the Muppet Theater from Tex Richman, a greedy oil magnate who plots to drill for",
+          "metadata": {
+            "search_query": "Who did the whistling in the muppet movie?"
+          },
+          "retrieved_at": "2026-10-16T23:53:31.615771",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=1524031",
+          "title": "List of The Muppet Show episodes",
+          "snippet": "The Muppet Show is a live-action/puppet television series that was created by Jim Henson and produced by ITC Entertainment and Henson Associates. It premiered",
+          "metadata": {
+            "search_query": "Who did the whistling in the muppet movie?"
+          },
+          "retrieved_at": "2026-10-16T23:53:31.615793",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=33168794",
+          "title": "Walter (Muppet)",
+          "snippet": "Walter is a Muppet character performed by Peter Linz. A character created for the 2011 film The Muppets in which he is one of the main protagonists, he",
+          "metadata": {
+            "search_query": "Who did the whistling in the muppet movie?"
+          },
+          "retrieved_at": "2026-10-16T23:53:31.615808",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=462624",
+          "title": "Madeline Kahn",
+          "snippet": "cameo in 1979's The Muppet Movie. Kahn's roles were primarily comedic rather than dramatic, although the 1970s found her originating roles in two plays that",
+          "metadata": {
+            "search_query": "Who did the whistling in the muppet movie?"
+          },
+          "retrieved_at": "2026-10-16T23:53:31.615819",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 1,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:53:46.610665"
+    },
+    {
+      "agent_id": "web_agent",
+      "query": "Who did the whistling in the muppet movie?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "Walter (performed by Peter Linz) did the whistling in The Muppets.",
+          "source": {
+            "url": "https://disney.fandom.com/wiki/The_Whistling_Caruso",
+            "title": "The Whistling Caruso | Disney Wiki | Fandom",
+            "snippet": "\"The Whistling Caruso\" is an original song featured in the 2011 film The Muppets which was performed by Walter (Peter Linz) on the stage of The Muppet Theater. The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent. The Muppets: Original Soundtrack (2011)",
+            "metadata": {
+              "search_query": "Who did the whistling in the muppet movie?"
+            },
+            "retrieved_at": "2026-10-16T23:53:46.611082",
+            "credibility_score": null
+          },
+          "date": "2011",
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://muppet.fandom.com/wiki/The_Whistling_Caruso",
+          "title": "The Whistling Caruso | Muppet Wiki | Fandom",
+          "snippet": "\"The Whistling Caruso\" is an original song from the film The Muppets. The song is whistled by Walter on the stage of The Muppet Theatre. The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent. The title is a...",
+          "metadata": {
+            "search_query": "Who did the whistling in the muppet movie?"
+          },
+          "retrieved_at": "2026-10-16T23:53:46.611044",
+          "credibility_score": null
+        },
+        {
+          "url": "https://muppet.fandom.com/wiki/Whistling_Muppets",
+          "title": "Whistling Muppets | Muppet Wiki | Fandom",
+          "snippet": "Walter whistles all throughout The Muppets, including during \"We Built This City\", culminating in a performance of \"The Whistling Caruso\". Walter whistles in Muppets Most Wanted to get everyone's attention after Gonzo drives a motorcycle through a train car. Big Bird recites a poem about his desire to whistle. A nearby robin can, but Big Bird can't. Telly Monster tries to teach Baby Bear how ...",
+          "metadata": {
+            "search_query": "Who did the whistling in the muppet movie?"
+          },
+          "retrieved_at": "2026-10-16T23:53:46.611061",
+          "credibility_score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Walter_(Muppet)",
+          "title": "Walter (Muppet) - Wikipedia",
+          "snippet": "The scene is pivotal to the character's arc as it resolves Walter's internal issues with himself. At the conclusion of the film, Walter deduces that he is a Muppet, adopts whistling as his talent and joins the group.",
+          "metadata": {
+            "search_query": "Who did the whistling in the muppet movie?"
+          },
+          "retrieved_at": "2026-10-16T23:53:46.611072",
+          "credibility_score": null
+        },
+        {
+          "url": "https://disney.fandom.com/wiki/The_Whistling_Caruso",
+          "title": "The Whistling Caruso | Disney Wiki | Fandom",
+          "snippet": "\"The Whistling Caruso\" is an original song featured in the 2011 film The Muppets which was performed by Walter (Peter Linz) on the stage of The Muppet Theater. The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent. The Muppets: Original Soundtrack (2011)",
+          "metadata": {
+            "search_query": "Who did the whistling in the muppet movie?"
+          },
+          "retrieved_at": "2026-10-16T23:53:46.611082",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 5,
+      "filtered_out_count": 1,
+      "metadata": {},
+      "retrieved_at": "2026-10-16T23:54:02.616769"
+    },
+    {
+      "agent_id": "ai_answer_agent",
+      "query": "Who did the whistling in the muppet movie?",
+      "status": "ok",
+      "failure_reason": null,
+      "claims": [
+        {
+          "text": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"ls -la\"}}<|end_message|>",
+          "source": {
+            "url": "",
+            "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+            "snippet": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"ls -la\"}}<|end_message|>",
+            "metadata": {
+              "provider": "opencode"
+            },
+            "retrieved_at": "2026-10-16T23:53:44.002155",
+            "credibility_score": null
+          },
+          "date": null,
+          "version": null,
+          "scope": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+          "snippet": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"ls -la\"}}<|end_message|>",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T23:53:44.002155",
+          "credibility_score": null
+        }
+      ],
+      "raw_results_count": 1,
+      "filtered_out_count": 0,
+      "metadata": {
+        "backend_used": "opencode_fallback",
+        "fallback_occurred": true,
+        "gemini_error": "GEMINI_API_KEY not set",
+        "full_answer": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"ls -la\"}}<|end_message|>"
+      },
+      "retrieved_at": "2026-10-16T23:53:44.002220"
+    }
+  ],
+  "agents": [],
+  "evidence_decision": {
+    "state": "uncertain",
+    "pairwise": [
+      {
+        "agent_a_id": "web_agent",
+        "agent_b_id": "ai_answer_agent",
+        "claim_a_text": "Walter (performed by Peter Linz) did the whistling in The Muppets.",
+        "claim_b_text": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"ls -la\"}}<|end_message|>",
+        "label": "neutral",
+        "contradiction_score": 0.003692668629810214,
+        "entailment_score": 0.0002841559471562505,
+        "neutral_score": 0.9960231781005859
+      }
+    ],
+    "usable_agents": [
+      "web_agent",
+      "ai_answer_agent"
+    ],
+    "failed_agents": [
+      {
+        "agent_id": "wikidata_agent",
+        "reason": "All search results filtered out as irrelevant"
+      },
+      {
+        "agent_id": "reference_agent",
+        "reason": "LLM determined snippets do not answer the query"
+      }
+    ],
+    "top_conflict": {
+      "agent_a_id": "web_agent",
+      "agent_b_id": "ai_answer_agent",
+      "claim_a": {
+        "text": "Walter (performed by Peter Linz) did the whistling in The Muppets.",
+        "source": {
+          "url": "https://disney.fandom.com/wiki/The_Whistling_Caruso",
+          "title": "The Whistling Caruso | Disney Wiki | Fandom",
+          "snippet": "\"The Whistling Caruso\" is an original song featured in the 2011 film The Muppets which was performed by Walter (Peter Linz) on the stage of The Muppet Theater. The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent. The Muppets: Original Soundtrack (2011)",
+          "metadata": {
+            "search_query": "Who did the whistling in the muppet movie?"
+          },
+          "retrieved_at": "2026-10-16T23:53:46.611082",
+          "credibility_score": null
+        },
+        "date": "2011",
+        "version": null,
+        "scope": null
+      },
+      "claim_b": {
+        "text": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"ls -la\"}}<|end_message|>",
+        "source": {
+          "url": "",
+          "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+          "snippet": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"ls -la\"}}<|end_message|>",
+          "metadata": {
+            "provider": "opencode"
+          },
+          "retrieved_at": "2026-10-16T23:53:44.002155",
+          "credibility_score": null
+        },
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "contradiction_score": 0.003692668629810214
+    },
+    "rationale": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold."
+  },
+  "evidence_comparison": null,
+  "disagreement_detected": false,
+  "contradiction_score": 0.003692668629810214,
+  "debate_triggered": false,
+  "conflict": null,
+  "debate_rounds": [],
+  "debate_outcome": null,
+  "judge_result": null,
+  "final_answer": {
+    "query": "Who did the whistling in the muppet movie?",
+    "answer": "Evidence neither clearly agreed nor conflicted for this query. Different sources found:\n- [web_agent]: Walter (performed by Peter Linz) did the whistling in The Muppets.\n- [ai_answer_agent]: <|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"ls -la\"}}<|end_message|>\n\nNo single authoritative answer could be determined. Consider consulting the sources directly.",
+    "reasoning": "Evidence neither clearly agreed nor conflicted — no pair crossed the contradiction threshold and not all pairs crossed the entailment threshold.",
+    "evidence_state": "uncertain",
+    "sources": [
+      {
+        "url": "https://muppet.fandom.com/wiki/The_Whistling_Caruso",
+        "title": "The Whistling Caruso | Muppet Wiki | Fandom",
+        "snippet": "\"The Whistling Caruso\" is an original song from the film The Muppets. The song is whistled by Walter on the stage of The Muppet Theatre. The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent. The title is a...",
+        "metadata": {
+          "search_query": "Who did the whistling in the muppet movie?"
+        },
+        "retrieved_at": "2026-10-16T23:53:46.611044",
+        "credibility_score": null
+      },
+      {
+        "url": "https://muppet.fandom.com/wiki/Whistling_Muppets",
+        "title": "Whistling Muppets | Muppet Wiki | Fandom",
+        "snippet": "Walter whistles all throughout The Muppets, including during \"We Built This City\", culminating in a performance of \"The Whistling Caruso\". Walter whistles in Muppets Most Wanted to get everyone's attention after Gonzo drives a motorcycle through a train car. Big Bird recites a poem about his desire to whistle. A nearby robin can, but Big Bird can't. Telly Monster tries to teach Baby Bear how ...",
+        "metadata": {
+          "search_query": "Who did the whistling in the muppet movie?"
+        },
+        "retrieved_at": "2026-10-16T23:53:46.611061",
+        "credibility_score": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Walter_(Muppet)",
+        "title": "Walter (Muppet) - Wikipedia",
+        "snippet": "The scene is pivotal to the character's arc as it resolves Walter's internal issues with himself. At the conclusion of the film, Walter deduces that he is a Muppet, adopts whistling as his talent and joins the group.",
+        "metadata": {
+          "search_query": "Who did the whistling in the muppet movie?"
+        },
+        "retrieved_at": "2026-10-16T23:53:46.611072",
+        "credibility_score": null
+      },
+      {
+        "url": "https://disney.fandom.com/wiki/The_Whistling_Caruso",
+        "title": "The Whistling Caruso | Disney Wiki | Fandom",
+        "snippet": "\"The Whistling Caruso\" is an original song featured in the 2011 film The Muppets which was performed by Walter (Peter Linz) on the stage of The Muppet Theater. The melody of the song is incorporated into the score by Christophe Beck during the scene where Kermit encourages Walter to find his talent. The Muppets: Original Soundtrack (2011)",
+        "metadata": {
+          "search_query": "Who did the whistling in the muppet movie?"
+        },
+        "retrieved_at": "2026-10-16T23:53:46.611082",
+        "credibility_score": null
+      },
+      {
+        "url": "",
+        "title": "OpenCode CLI (console-openrouter/openrouter/free)",
+        "snippet": "<|message_model|>execute<|content_invoke_tool_json|>{\"name\":\"execute\",\"args\":{\"command\":\"ls -la\"}}<|end_message|>",
+        "metadata": {
+          "provider": "opencode"
+        },
+        "retrieved_at": "2026-10-16T23:53:44.002155",
+        "credibility_score": null
+      }
+    ],
+    "debate_triggered": false,
+    "conflict": null,
+    "debate_outcome": null,
+    "judge_result": null,
+    "independent_agents_agreeing": 0,
+    "source_count": 5,
+    "metadata": {
+      "evidence_state": "uncertain"
+    },
+    "generated_at": "2026-10-16T23:54:04.258998"
+  },
+  "metrics": {
+    "latency_seconds": 33.56146168708801,
+    "evidence_state": "uncertain",
+    "debate_triggered": false,
+    "conflict_type": null,
+    "classification_status": null,
+    "debate_status": null,
+    "debate_stop_reason": null,
+    "debate_rounds_used": 0,
+    "total_llm_calls_ok": 2,
+    "total_llm_calls_failed": 0,
+    "llm_calls_by_role": {
+      "normalize": {
+        "ok": 2,
+        "failed": 0
+      }
+    },
+    "retrieval_failure_rate": 0.0,
+    "irrelevant_evidence_rate": 2,
+    "usable_agents": 2,
+    "failed_agents": 2,
+    "independent_agents_agreeing": 0,
+    "source_count": 5,
+    "system": "proposed_mad"
+  },
+  "started_at": "2026-10-16T23:53:30.697517",
+  "completed_at": "2026-10-16T23:54:04.259043",
+  "error": null,
+  "evaluation_signature": {
+    "run_mode": "live",
+    "llm_model": "llama-3.3-70b-versatile",
+    "opencode_model": "console-openrouter/openrouter/free",
+    "opencode_wiki_model": "console-openrouter/openrouter/free",
+    "opencode_web_model": "console-openrouter/openrouter/free",
+    "opencode_scholarly_model": "console-openrouter/openrouter/free",
+    "opencode_agent": "evaluation-no-tools-v2",
+    "gemini_model": "gemini-3.8-flash",
+    "nli_mode": "transformers",
+    "nli_model": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+    "dataset": "data/qacc_test.json",
+    "sample_limit": 100,
+    "sources": "ddg,wikipedia,wikidata,crossref,openalex,arxiv,europepmc:v1"
+  },
+  "evaluation_sample": {
+    "id": "qacc_test_0068",
+    "query": "Who did the whistling in the muppet movie?",
+    "expected_conflict": false,
+    "expected_conflict_type": null,
+    "expected_answer": "Andrew Bird",
+    "required_facts": [
+      "Andrew Bird"
+    ],
+    "forbidden_facts": [],
+    "category": "factual_agreement",
+    "difficulty": "medium",
+    "metadata": {
+      "benchmark": "QACC",
+      "benchmark_split": "test",
+      "benchmark_id": 87,
+      "answer_variants": [
+        "Andrew Bird"
+      ],
+      "annotation_explanation": "This is the most common answer I could find and is verfiable.",
+      "evidence_contexts": [
+        {
+          "source_domain": "www.sevendaysvt.com",
+          "text": "Oct 6, 2016 ... Andrew Bird on Guns, Whistling and Muppets ... On his latest record, Are You Serious, Andrew Bird gets, well, pretty serious. The album, released ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "en.wikipedia.org",
+          "text": "The character's solo act of whistling in the telethon's finale was performed by musician Andrew Bird. At the conclusion of the film, Walter deduces that he is a ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "disney.fandom.com",
+          "text": "\"The Whistling Caruso\" is an original song featured in the 2011 film The Muppets which was performed by Walter (Peter Linz) on the stage of The Muppet ...",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.reddit.com",
+          "text": "Nov 7, 2014 ... TIL: The \"Whistling Caruso\" from the 2011 Muppet Movie is actually musician Andrew Bird. r/todayilearned - TIL: The \"Whistling Caruso\" from ...",
+          "supports_answers": [
+            "Andrew Bird"
+          ]
+        },
+        {
+          "source_domain": "www.reddit.com",
+          "text": "May 3, 2022 ... Twisted Nerve is the movie Tarantino copied for that whistling scene. ... The recent Muppets movie has their new character whistle as his ...",
+          "supports_answers": [
+            "Andrew Bird"
+          ]
+        },
+        {
+          "source_domain": "www.hollywoodreporter.com",
+          "text": "Oct 10, 2011 ... Muppets characters also cover Nirvana's \"Smells Like Teen Spirit\" and Cee Lo ... Christophe Beck did the score for the film that opens Nov.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "www.pinterest.com",
+          "text": "\"The Whistling Caruso\" is an original song from the film The Muppets. The song is whistled by Walter ... Baby Gonzo is the Muppet Babies version of Gonzo.",
+          "supports_answers": []
+        },
+        {
+          "source_domain": "every-day-i-write-the-blog.blogspot.com",
+          "text": "Apr 3, 2012 ... Was that Feist? Look at the drummer, it's Dave Grohl! But the craziest little tidbit comes at the end of the film. ... Young, nervous Muppet, ...",
+          "supports_answers": []
+        }
+      ],
+      "label_definition": "conflict iff distinct context-attributed answers are annotated"
+    }
+  },
+  "evaluation_system": "proposed_mad",
+  "evaluation_seconds": 33.585,
+  "rate_limited": false,
+  "evaluation_status": "success"
+}
